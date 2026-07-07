@@ -23,6 +23,7 @@
 	import { learningGuideFromUnitPlan, learningGuideTitle } from '$lib/learning-guide-data';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
+	import { weekCountFromDuration } from '$lib/unit-duration';
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<UnitPlan>(structuredClone(data.plan));
@@ -136,6 +137,7 @@
 	let chunkStart = $state(1);
 	let chunkEnd = $state(3);
 	let weeklyChunkGenerating = $state(false);
+	let weeklyChunkStatus = $state('');
 	let weeklyError = $state('');
 	let weeklyChunkError = $state('');
 	let weeklyChunkUsage = $state<GenerationUsage | null>(null);
@@ -387,7 +389,14 @@
 			.map((w) => Number(w.week.value))
 			.filter((n) => !Number.isNaN(n) && n > 0);
 		if (!nums.length) return null;
-		return { start: Math.min(...nums), end: Math.max(...nums) };
+
+		const start = Math.min(...nums);
+		const durationWeeks = weekCountFromDuration(String(plan.duration?.value ?? ''));
+		if (durationWeeks !== null && durationWeeks > 0) {
+			return { start, end: start + durationWeeks - 1 };
+		}
+
+		return { start, end: Math.max(...nums) };
 	}
 
 	function sequenceBusy() {
@@ -404,6 +413,19 @@
 			assessment: w.assessment.value,
 			resources: w.resources.value
 		}));
+	}
+
+	function unitSnapshotForApi() {
+		return {
+			unitTitle: String(plan.unitTitle.value),
+			description: String(plan.unitDescription.value),
+			assessments: plan.assessments.map((a) => ({
+				title: String(a.title.value),
+				description: String(a.description.value),
+				timing: String(a.timing.value),
+				technique: String(a.technique.value)
+			}))
+		};
 	}
 
 	async function generateChunkRange(
@@ -426,9 +448,8 @@
 					startWeek,
 					endWeek,
 					aiNotes,
-					...(mode === 'weekly'
-						? { teachingSequenceContext: teachingSequenceContextForApi() }
-						: {})
+					teachingSequenceContext: teachingSequenceContextForApi(),
+					unitSnapshot: unitSnapshotForApi()
 				})
 			});
 			const data = await res.json();
@@ -536,16 +557,18 @@
 
 	async function generateWeeklyChunk() {
 		weeklyChunkGenerating = true;
+		weeklyChunkStatus = '';
 		weeklyChunkError = '';
 		weeklyChunkUsage = null;
 		batchFinished = false;
 		const count = chunkEnd - chunkStart + 1;
-		const result = await generateChunkRange(
+		const result = await generateChunkRangeWithRetries(
 			chunkStart,
 			chunkEnd,
 			count,
 			'weekly',
-			weeklyChunkNotes
+			weeklyChunkNotes,
+			(s) => (weeklyChunkStatus = s)
 		);
 		if (result.ok) {
 			weeklyChunkUsage = result.usage;
@@ -939,7 +962,7 @@
 				onclick={generateWeeklyChunk}
 				disabled={sequenceBusy()}
 			>
-				{weeklyChunkGenerating ? 'Generating…' : `Generate weeks ${chunkStart}–${chunkEnd}`}
+				{weeklyChunkGenerating ? weeklyChunkStatus || 'Generating…' : `Generate weeks ${chunkStart}–${chunkEnd}`}
 			</button>
 			<ModelFeedback usage={weeklyChunkUsage} />
 			{#if weeklyChunkError}<p class="error">{weeklyChunkError}</p>{/if}

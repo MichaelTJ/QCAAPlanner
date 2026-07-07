@@ -213,6 +213,17 @@ export interface ChunkGenerateRequest {
 	aiNotes: string;
 	/** Client-side teaching sequence snapshot so batch runs see prior generated weeks. */
 	teachingSequenceContext?: ChunkTeachingWeekContext[];
+	/** In-memory unit fields so generation matches unsaved editor state. */
+	unitSnapshot?: {
+		unitTitle: string;
+		description: string;
+		assessments: Array<{
+			title: string;
+			description: string;
+			timing: string;
+			technique: string;
+		}>;
+	};
 }
 
 export interface CapabilitiesGenerateRequest {

@@ -340,8 +340,7 @@ table.data-table th {
 	border-radius: 6px;
 }
 
-.doc-editor.hide-ai-panels .ai-panel,
-.doc-editor.hide-ai-panels .chunk-panel {
+.doc-editor.hide-ai-panels .ai-panel {
 	display: none;
 }
 

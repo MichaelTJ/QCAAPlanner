@@ -33,6 +33,62 @@ function summarizeLevelPlan(plan: LevelPlan) {
 	};
 }
 
+/** Band context for unit-scoped generation — excludes sibling unit topics/assessments. */
+function summarizeLevelPlanForUnit(plan: LevelPlan, unit: UnitPlan) {
+	const unitTitle = String(unit.unitTitle.value).trim();
+	return {
+		bandSubjectTitle: plan.bandSubjectTitle.value,
+		year: plan.year.value,
+		levelDescription: plan.levelDescription.value,
+		context: plan.contextAndCohortConsiderations.value,
+		otherUnitsInBand: plan.units
+			.filter((u) => String(u.unitTitle.value).trim() !== unitTitle)
+			.map((u) => ({
+				title: u.unitTitle.value,
+				yearLevel: u.yearLevel.value,
+				duration: u.duration.value
+			}))
+	};
+}
+
+function summarizeUnitPlanForChunk(
+	unit: UnitPlan,
+	mode: 'outline' | 'weekly',
+	extras: Record<string, unknown> = {},
+	snapshot?: ChunkGenerateRequest['unitSnapshot']
+) {
+	const base = {
+		unitTitle: snapshot?.unitTitle ?? unit.unitTitle.value,
+		unitNumber: unit.unitNumber.value,
+		yearLevel: unit.yearLevel.value,
+		subject: unit.subject.value,
+		startWeek: unit.startWeek.value,
+		finishWeek: unit.finishWeek.value,
+		duration: unit.duration?.value ?? '',
+		description: snapshot?.description ?? unit.unitDescription.value,
+		cohort: unit.cohortAndClassConsiderations.value,
+		assessments: (snapshot?.assessments ?? unit.assessments.map((a) => ({
+			title: a.title.value,
+			description: a.description.value,
+			timing: a.timing.value,
+			technique: a.technique.value
+		})))
+	};
+
+	if (mode === 'weekly') {
+		return {
+			...base,
+			...extras,
+			teachingOutline: unit.teachingSequence.map((w) => ({
+				week: w.week.value,
+				outlineTheme: w.outlineTheme?.value ?? ''
+			}))
+		};
+	}
+
+	return { ...base, ...extras };
+}
+
 function summarizeUnitPlan(unit: UnitPlan) {
 	return {
 		unitTitle: unit.unitTitle.value,
@@ -78,7 +134,7 @@ export async function buildGenerationContext(
 			getLevelPlan(request.levelPlanId),
 			getUnitPlan(request.levelPlanId, request.docId)
 		]);
-		if (levelPlan) context.levelPlan = summarizeLevelPlan(levelPlan);
+		if (levelPlan && unit) context.levelPlan = summarizeLevelPlanForUnit(levelPlan, unit);
 		if (unit) context.unitPlan = summarizeUnitPlan(unit);
 	}
 
@@ -89,7 +145,7 @@ export async function buildGenerationContext(
 				getLevelPlan(item.levelPlanId),
 				getUnitPlan(item.levelPlanId, item.unitPlanId)
 			]);
-			if (levelPlan) context.levelPlan = summarizeLevelPlan(levelPlan);
+			if (levelPlan && unit) context.levelPlan = summarizeLevelPlanForUnit(levelPlan, unit);
 			if (unit) context.unitPlan = summarizeUnitPlan(unit);
 			context.assessmentItem = {
 				title: item.title.value,
@@ -229,21 +285,27 @@ export async function generateChunkContent(request: ChunkGenerateRequest) {
 			: [];
 
 	const context = {
-		levelPlan: summarizeLevelPlan(levelPlan),
-		unitPlan: {
-			...summarizeUnitPlan(unit),
+		targetUnit: {
+			title: request.unitSnapshot?.unitTitle ?? unit.unitTitle.value,
+			number: unit.unitNumber.value,
+			instruction:
+				'Generate content ONLY for this unit. Use only its description and assessments. Do not use topics from otherUnitsInBand.'
+		},
+		levelPlan: summarizeLevelPlanForUnit(levelPlan, unit),
+		unitPlan: summarizeUnitPlanForChunk(unit, request.mode, {
 			chunkOutline: chunkWeeks,
 			...(previousWeeksDetail.length > 0 && { previousWeeksDetail })
-		},
+		}, request.unitSnapshot),
 		chunk: { startWeek: request.startWeek, endWeek: request.endWeek }
 	};
 	const examplesText = formatGenerationExamples(examples);
 	const weekCount = request.endWeek - request.startWeek + 1;
+	const targetUnitTitle = String(request.unitSnapshot?.unitTitle ?? unit.unitTitle.value);
 
 	const modeInstructions =
 		request.mode === 'outline'
-			? `Generate a high-level outline for weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on. For each week return only: week number and outlineTheme (brief focus/theme, not full lesson detail).`
-			: `Generate detailed weekly content for weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on.
+			? `Generate a high-level outline for "${targetUnitTitle}" only — weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on. For each week return only: week number and outlineTheme (brief focus/theme aligned to this unit's description and assessments, not full lesson detail). Do NOT use topics from other units in the band.`
+			: `Generate detailed weekly content for "${targetUnitTitle}" only — weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on.
 
 For each week N, the detailed content MUST implement the outlineTheme for week N from chunkOutline in the context — do not use the previous or next week's theme.
 ${
@@ -251,7 +313,7 @@ ${
 		? `Previous weeks in this unit already have detailed content in previousWeeksDetail. Continue the progression from those weeks. Do NOT repeat topics, activities, experiences, or assessment tasks already covered — week ${request.startWeek} must be clearly new content building on what came before.`
 		: ''
 }
-For each week return: week number, keyTeachingExperiences, theory, prac, assessment, resources.`;
+Do NOT use topics from other units in the band. For each week return: week number, keyTeachingExperiences, theory, prac, assessment, resources.`;
 
 	const result = await generateContentWithCascade({
 		contents: `${modeInstructions}
