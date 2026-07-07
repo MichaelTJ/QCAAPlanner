@@ -8,6 +8,7 @@ import type {
 	TeachingWeek
 } from '$lib/types';
 import { applyCheckedSubElementsFromText } from '$lib/general-capabilities';
+import { applyUnitWeeksToDuration } from '$lib/unit-duration';
 import {
 	extractBodyBlocks,
 	loadDocumentXml,
@@ -373,6 +374,14 @@ export function mergeParsedUnitPlan(existing: UnitPlan, parsed: ParsedUnitPlanFi
 	if (parsed.unitNumber !== '') plan.unitNumber.value = parsed.unitNumber;
 	if (parsed.startWeek) plan.startWeek.value = parsed.startWeek;
 	if (parsed.finishWeek) plan.finishWeek.value = parsed.finishWeek;
+	if (!plan.duration) plan.duration = { value: '', aiNotes: '' };
+	if (parsed.startWeek || parsed.finishWeek) {
+		plan.duration.value = applyUnitWeeksToDuration(
+			plan.startWeek.value,
+			plan.finishWeek.value,
+			plan.duration.value
+		);
+	}
 	if (parsed.status) plan.status.value = parsed.status;
 	if (parsed.unitDescription) plan.unitDescription.value = parsed.unitDescription;
 	if (parsed.cohortAndClassConsiderations) {

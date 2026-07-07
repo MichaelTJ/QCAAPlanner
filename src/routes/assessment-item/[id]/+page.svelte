@@ -5,11 +5,15 @@
 	import { ASSESSMENT_MODES, ASSESSMENT_TECHNIQUES } from '$lib/defaults';
 	import type { AssessmentItem } from '$lib/types';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
+	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
+	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
 	let item = $state<AssessmentItem>(structuredClone(data.item));
 	let saving = $state(false);
 	let saved = $state(false);
+	let savedSnapshot = $state(snapshotValue(structuredClone(data.item)));
+	const dirty = $derived(isDirtySnapshot(item, savedSnapshot));
 	let showAiPanels = $state(true);
 
 	async function save() {
@@ -20,7 +24,10 @@
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(item)
 		});
-		if (res.ok) saved = true;
+		if (res.ok) {
+			saved = true;
+			savedSnapshot = snapshotValue(item);
+		}
 		saving = false;
 	}
 </script>
@@ -47,3 +54,5 @@
 	<FieldEditor label="Notes" bind:field={item.notes} docType="assessment-item" docId={item.id} fieldPath="notes" rows={4} />
 </div>
 </div>
+
+<FloatingSaveButton {dirty} {saving} {saved} onclick={save} />

@@ -39,6 +39,9 @@ export async function buildUnitPlanDocx(plan: UnitPlan): Promise<Buffer> {
 			]
 		}),
 		textPara(`Unit ${plan.unitNumber.value}   ${plan.startWeek.value} to ${plan.finishWeek.value}`),
+		...(plan.duration?.value
+			? [textPara(`Duration: ${plan.duration.value}`)]
+			: []),
 		textPara(`School: St Brendan's College (Yeppoon)`),
 		textPara(`Status: ${plan.status.value}`),
 		textPara('Unit description', HeadingLevel.HEADING_2),

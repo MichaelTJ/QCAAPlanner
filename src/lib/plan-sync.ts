@@ -1,7 +1,7 @@
 import { assessmentTimingFromLevelPlan, createId } from '$lib/defaults';
 import {
 	applyDurationToUnitWeeks,
-	applyUnitWeeksToDuration
+	resolveDurationForLevelPlanSync
 } from '$lib/unit-duration';
 import {
 	applyUnitPlanCapabilitiesToLevelPlan,
@@ -22,6 +22,13 @@ import {
 } from '$lib/types';
 
 export { unitPlanForLevelIndex };
+
+function ensureUnitPlanDuration(unitPlan: UnitPlan) {
+	if (!unitPlan.duration) {
+		unitPlan.duration = aiField('');
+	}
+	return unitPlan.duration;
+}
 
 export function levelPlanTimingFromUnitAssessment(timing: string): {
 	term: number | '';
@@ -48,6 +55,7 @@ export function applyLevelPlanUnitFieldsToUnitPlan(
 	unitPlan.subject = cloneAiField(levelPlan.bandSubjectTitle);
 	unitPlan.year = cloneAiField(levelPlan.year);
 	unitPlan.cohortAndClassConsiderations = cloneAiField(levelPlan.contextAndCohortConsiderations);
+	ensureUnitPlanDuration(unitPlan).value = String(levelUnit.duration.value || '');
 	const weeks = applyDurationToUnitWeeks(
 		String(levelUnit.duration.value),
 		String(unitPlan.startWeek.value),
@@ -66,11 +74,25 @@ export function applyUnitPlanFieldsToLevelPlanUnit(unitPlan: UnitPlan, levelUnit
 	levelUnit.unitTitle = cloneAiField(unitPlan.unitTitle);
 	levelUnit.yearLevel = cloneAiField(unitPlan.yearLevel);
 	levelUnit.description = cloneAiField(unitPlan.unitDescription);
-	levelUnit.duration.value = applyUnitWeeksToDuration(
+	ensureUnitPlanDuration(unitPlan);
+	if (String(unitPlan.duration.value).trim()) {
+		const weeks = applyDurationToUnitWeeks(
+			String(unitPlan.duration.value),
+			String(unitPlan.startWeek.value),
+			String(unitPlan.finishWeek.value)
+		);
+		unitPlan.startWeek.value = weeks.startWeek;
+		unitPlan.finishWeek.value = weeks.finishWeek;
+	}
+	levelUnit.duration.value = resolveDurationForLevelPlanSync(
+		String(unitPlan.duration.value),
 		String(unitPlan.startWeek.value),
 		String(unitPlan.finishWeek.value),
 		String(levelUnit.duration.value)
 	);
+	if (!String(unitPlan.duration.value).trim() && levelUnit.duration.value) {
+		unitPlan.duration.value = levelUnit.duration.value;
+	}
 	levelUnit.assessments = syncAssessmentsUnitToLevel(unitPlan.assessments, levelUnit.assessments);
 }
 

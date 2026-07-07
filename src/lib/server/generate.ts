@@ -9,7 +9,7 @@ import {
 	formatGenerationExamples,
 	loadGenerationExamples
 } from '$lib/server/generation-examples';
-import type { ChunkGenerateRequest, GenerateRequest, LevelPlan, UnitPlan } from '$lib/types';
+import type { ChunkGenerateRequest, ChunkTeachingWeekContext, GenerateRequest, LevelPlan, UnitPlan } from '$lib/types';
 import type { GenerationUsage } from '$lib/gemini-models';
 
 function summarizeLevelPlan(plan: LevelPlan) {
@@ -41,6 +41,7 @@ function summarizeUnitPlan(unit: UnitPlan) {
 		subject: unit.subject.value,
 		startWeek: unit.startWeek.value,
 		finishWeek: unit.finishWeek.value,
+		duration: unit.duration?.value ?? '',
 		description: unit.unitDescription.value,
 		cohort: unit.cohortAndClassConsiderations.value,
 		assessments: unit.assessments.map((a) => ({
@@ -159,6 +160,40 @@ export async function generateFieldContent(request: GenerateRequest) {
 	};
 }
 
+function weekNumber(week: number | string): number {
+	return Number(week);
+}
+
+function teachingWeekToContext(week: {
+	week: { value: number | string };
+	outlineTheme?: { value: string };
+	keyTeachingExperiences: { value: string };
+	theory: { value: string };
+	prac: { value: string };
+	assessment: { value: string };
+	resources: { value: string };
+}): ChunkTeachingWeekContext {
+	return {
+		week: week.week.value,
+		outlineTheme: week.outlineTheme?.value ?? '',
+		keyTeachingExperiences: week.keyTeachingExperiences.value,
+		theory: week.theory.value,
+		prac: week.prac.value,
+		assessment: week.assessment.value,
+		resources: week.resources.value
+	};
+}
+
+function weekHasWeeklyDetail(week: ChunkTeachingWeekContext): boolean {
+	return Boolean(
+		week.keyTeachingExperiences?.trim() ||
+			week.theory?.trim() ||
+			week.prac?.trim() ||
+			week.assessment?.trim() ||
+			week.resources?.trim()
+	);
+}
+
 export async function generateChunkContent(request: ChunkGenerateRequest) {
 	const settings = await getSettings();
 	const [levelPlan, unit, examples] = await Promise.all([
@@ -169,24 +204,36 @@ export async function generateChunkContent(request: ChunkGenerateRequest) {
 
 	if (!levelPlan || !unit) throw new Error('Level plan or unit plan not found');
 
-	const chunkWeeks = unit.teachingSequence
+	const sequence: ChunkTeachingWeekContext[] =
+		request.teachingSequenceContext ??
+		unit.teachingSequence.map((week) => teachingWeekToContext(week));
+
+	const chunkWeeks = sequence
 		.filter((w) => {
-			const n = Number(w.week.value);
+			const n = weekNumber(w.week);
 			return n >= request.startWeek && n <= request.endWeek;
 		})
-		.sort((a, b) => Number(a.week.value) - Number(b.week.value))
+		.sort((a, b) => weekNumber(a.week) - weekNumber(b.week))
 		.map((w) => ({
-			week: w.week.value,
-			outlineTheme: w.outlineTheme?.value ?? '',
-			theory: w.theory.value,
-			prac: w.prac.value
+			week: w.week,
+			outlineTheme: w.outlineTheme ?? '',
+			theory: w.theory ?? '',
+			prac: w.prac ?? ''
 		}));
+
+	const previousWeeksDetail =
+		request.mode === 'weekly'
+			? sequence
+					.filter((w) => weekNumber(w.week) < request.startWeek && weekHasWeeklyDetail(w))
+					.sort((a, b) => weekNumber(a.week) - weekNumber(b.week))
+			: [];
 
 	const context = {
 		levelPlan: summarizeLevelPlan(levelPlan),
 		unitPlan: {
 			...summarizeUnitPlan(unit),
-			chunkOutline: chunkWeeks
+			chunkOutline: chunkWeeks,
+			...(previousWeeksDetail.length > 0 && { previousWeeksDetail })
 		},
 		chunk: { startWeek: request.startWeek, endWeek: request.endWeek }
 	};
@@ -199,6 +246,11 @@ export async function generateChunkContent(request: ChunkGenerateRequest) {
 			: `Generate detailed weekly content for weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on.
 
 For each week N, the detailed content MUST implement the outlineTheme for week N from chunkOutline in the context — do not use the previous or next week's theme.
+${
+	previousWeeksDetail.length > 0
+		? `Previous weeks in this unit already have detailed content in previousWeeksDetail. Continue the progression from those weeks. Do NOT repeat topics, activities, experiences, or assessment tasks already covered — week ${request.startWeek} must be clearly new content building on what came before.`
+		: ''
+}
 For each week return: week number, keyTeachingExperiences, theory, prac, assessment, resources.`;
 
 	const result = await generateContentWithCascade({

@@ -160,6 +160,7 @@ export interface UnitPlan {
 	status: AiField<PlanStatus | ''>;
 	startWeek: AiField;
 	finishWeek: AiField;
+	duration: AiField;
 	unitDescription: AiField;
 	cohortAndClassConsiderations: AiField;
 	adjustments: UnitAdjustment[];
@@ -192,6 +193,16 @@ export interface GenerateRequest {
 	aiNotes: string;
 }
 
+export interface ChunkTeachingWeekContext {
+	week: number | string;
+	outlineTheme?: string;
+	keyTeachingExperiences?: string;
+	theory?: string;
+	prac?: string;
+	assessment?: string;
+	resources?: string;
+}
+
 export interface ChunkGenerateRequest {
 	levelPlanId: string;
 	unitId: string;
@@ -200,6 +211,8 @@ export interface ChunkGenerateRequest {
 	startWeek: number;
 	endWeek: number;
 	aiNotes: string;
+	/** Client-side teaching sequence snapshot so batch runs see prior generated weeks. */
+	teachingSequenceContext?: ChunkTeachingWeekContext[];
 }
 
 export interface CapabilitiesGenerateRequest {
@@ -263,7 +276,8 @@ export interface QuickPlanUnit {
 	id: string;
 	title: string;
 	description: string;
-	assessments: [QuickPlanAssessment, QuickPlanAssessment];
+	duration: string;
+	assessments: QuickPlanAssessment[];
 }
 
 export interface QuickPlanContentInclusion {

@@ -21,6 +21,8 @@
 		validSubElementIds
 	} from '$lib/general-capabilities';
 	import { learningGuideFromUnitPlan, learningGuideTitle } from '$lib/learning-guide-data';
+	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
+	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<UnitPlan>(structuredClone(data.plan));
@@ -32,6 +34,8 @@
 	>('overview');
 	let saving = $state(false);
 	let saved = $state(false);
+	let savedSnapshot = $state(snapshotValue(structuredClone(data.plan)));
+	const dirty = $derived(isDirtySnapshot(plan, savedSnapshot));
 	let showAiPanels = $state(true);
 	let importing = $state(false);
 	let importError = $state('');
@@ -120,17 +124,26 @@
 		void importLearningGuide(file);
 	}
 
-	let chunkMode = $state<'outline' | 'weekly'>('outline');
-	let chunkSize = $state(3);
+	let outlineNotes = $state('');
+	let outlineGenerating = $state(false);
+	let outlineError = $state('');
+	let outlineUsage = $state<GenerationUsage | null>(null);
+	let outlineStatus = $state('');
+	let outlineFinished = $state(false);
+
+	let weeklyNotes = $state('');
+	let weeklyChunkNotes = $state('');
 	let chunkStart = $state(1);
 	let chunkEnd = $state(3);
-	let chunkNotes = $state('');
-	let chunkGenerating = $state(false);
-	let chunkError = $state('');
-	let chunkUsage = $state<GenerationUsage | null>(null);
+	let weeklyChunkGenerating = $state(false);
+	let weeklyError = $state('');
+	let weeklyChunkError = $state('');
+	let weeklyChunkUsage = $state<GenerationUsage | null>(null);
+
 	let batchGenerating = $state(false);
 	let batchStatus = $state('');
 	let batchFinished = $state(false);
+	let batchUsage = $state<GenerationUsage | null>(null);
 
 	let capGenerating = $state(false);
 	let capGeneratingName = $state<string | null>(null);
@@ -214,6 +227,7 @@
 		if (res.ok) {
 			saved = true;
 			plan.teachingSequence = plan.teachingSequence.slice();
+			savedSnapshot = snapshotValue(plan);
 		}
 		saving = false;
 	}
@@ -376,10 +390,28 @@
 		return { start: Math.min(...nums), end: Math.max(...nums) };
 	}
 
+	function sequenceBusy() {
+		return outlineGenerating || batchGenerating || weeklyChunkGenerating;
+	}
+
+	function teachingSequenceContextForApi() {
+		return plan.teachingSequence.map((w) => ({
+			week: w.week.value,
+			outlineTheme: w.outlineTheme?.value ?? '',
+			keyTeachingExperiences: w.keyTeachingExperiences.value,
+			theory: w.theory.value,
+			prac: w.prac.value,
+			assessment: w.assessment.value,
+			resources: w.resources.value
+		}));
+	}
+
 	async function generateChunkRange(
 		startWeek: number,
 		endWeek: number,
-		size: number
+		size: number,
+		mode: 'outline' | 'weekly',
+		aiNotes: string
 	): Promise<{ ok: true; usage: GenerationUsage } | { ok: false; error: string }> {
 		ensureWeekThrough(endWeek, 1);
 		try {
@@ -389,11 +421,14 @@
 				body: JSON.stringify({
 					levelPlanId: plan.levelPlanId,
 					unitId: plan.id,
-					mode: chunkMode,
+					mode,
 					chunkSize: size,
 					startWeek,
 					endWeek,
-					aiNotes: chunkNotes
+					aiNotes,
+					...(mode === 'weekly'
+						? { teachingSequenceContext: teachingSequenceContextForApi() }
+						: {})
 				})
 			});
 			const data = await res.json();
@@ -403,7 +438,7 @@
 				const weekData = data.weeks[i];
 				const weekNum = startWeek + i;
 				const row = weekRow(weekNum);
-				if (chunkMode === 'outline') {
+				if (mode === 'outline') {
 					row.outlineTheme = {
 						...row.outlineTheme!,
 						value: String(weekData.outlineTheme ?? ''),
@@ -438,51 +473,100 @@
 		}
 	}
 
-	async function generateChunk() {
-		chunkGenerating = true;
-		chunkError = '';
-		chunkUsage = null;
-		batchFinished = false;
-		const result = await generateChunkRange(chunkStart, chunkEnd, chunkSize);
-		if (result.ok) {
-			chunkUsage = result.usage;
-		} else {
-			chunkError = result.error;
-		}
-		chunkGenerating = false;
-	}
-
 	async function generateChunkRangeWithRetries(
 		from: number,
 		to: number,
-		count: number
+		count: number,
+		mode: 'outline' | 'weekly',
+		aiNotes: string,
+		setStatus: (status: string) => void
 	): Promise<{ ok: true; usage: GenerationUsage } | { ok: false; error: string }> {
 		let lastError = '';
 		for (let attempt = 1; attempt <= BATCH_CHUNK_RETRIES; attempt++) {
-			batchStatus =
+			setStatus(
 				attempt === 1
 					? `Generating weeks ${from}–${to}…`
-					: `Generating weeks ${from}–${to}… (retry ${attempt}/${BATCH_CHUNK_RETRIES})`;
+					: `Generating weeks ${from}–${to}… (retry ${attempt}/${BATCH_CHUNK_RETRIES})`
+			);
 
-			const result = await generateChunkRange(from, to, count);
+			const result = await generateChunkRange(from, to, count, mode, aiNotes);
 			if (result.ok) return result;
 			lastError = result.error;
 		}
 		return { ok: false, error: lastError };
 	}
 
+	async function generateOutlineForUnit() {
+		const range = batchWeekRange();
+		if (!range) {
+			outlineError = 'Add teaching weeks first (e.g. Ensure 10 weeks).';
+			return;
+		}
+
+		outlineGenerating = true;
+		outlineFinished = false;
+		outlineError = '';
+		outlineUsage = null;
+		outlineStatus = '';
+		batchFinished = false;
+		ensureWeekThrough(range.end, range.start);
+
+		try {
+			const count = range.end - range.start + 1;
+			const result = await generateChunkRangeWithRetries(
+				range.start,
+				range.end,
+				count,
+				'outline',
+				outlineNotes,
+				(s) => (outlineStatus = s)
+			);
+			if (!result.ok) {
+				outlineError = result.error;
+				outlineStatus = `Stopped after ${BATCH_CHUNK_RETRIES} attempts`;
+				return;
+			}
+			outlineUsage = result.usage;
+			outlineFinished = true;
+			outlineStatus = 'Finished';
+		} finally {
+			outlineGenerating = false;
+		}
+	}
+
+	async function generateWeeklyChunk() {
+		weeklyChunkGenerating = true;
+		weeklyChunkError = '';
+		weeklyChunkUsage = null;
+		batchFinished = false;
+		const count = chunkEnd - chunkStart + 1;
+		const result = await generateChunkRange(
+			chunkStart,
+			chunkEnd,
+			count,
+			'weekly',
+			weeklyChunkNotes
+		);
+		if (result.ok) {
+			weeklyChunkUsage = result.usage;
+		} else {
+			weeklyChunkError = result.error;
+		}
+		weeklyChunkGenerating = false;
+	}
+
 	async function generateAllChunksSequentially() {
 		const range = batchWeekRange();
 		if (!range) {
-			chunkError = 'Add teaching weeks first (e.g. Ensure 10 weeks).';
+			weeklyError = 'Add teaching weeks first (e.g. Ensure 10 weeks).';
 			return;
 		}
 
 		batchGenerating = true;
 		batchFinished = false;
 		batchStatus = '';
-		chunkError = '';
-		chunkUsage = null;
+		weeklyError = '';
+		batchUsage = null;
 		ensureWeekThrough(range.end, range.start);
 
 		try {
@@ -490,13 +574,20 @@
 				const to = Math.min(from + BATCH_CHUNK_SIZE - 1, range.end);
 				const count = to - from + 1;
 
-				const result = await generateChunkRangeWithRetries(from, to, count);
+				const result = await generateChunkRangeWithRetries(
+					from,
+					to,
+					count,
+					'weekly',
+					weeklyNotes,
+					(s) => (batchStatus = s)
+				);
 				if (!result.ok) {
-					chunkError = result.error;
+					weeklyError = result.error;
 					batchStatus = `Stopped at weeks ${from}–${to} after ${BATCH_CHUNK_RETRIES} attempts`;
 					return;
 				}
-				chunkUsage = result.usage;
+				batchUsage = result.usage;
 			}
 			batchFinished = true;
 			batchStatus = 'Finished';
@@ -563,10 +654,18 @@
 		</div>
 		<FieldEditor label="Subject" bind:field={plan.subject} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="subject" multiline={false} />
 		<FieldEditor label="Unit title" bind:field={plan.unitTitle} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="unitTitle" multiline={false} />
+	</div>
+
+	<div class="card">
+		<h2 style="margin:0 0 0.75rem">Duration</h2>
+		<FieldEditor label="Duration" bind:field={plan.duration} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="duration" multiline={false} />
 		<div class="grid-2">
 			<FieldEditor label="Start week" bind:field={plan.startWeek} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="startWeek" multiline={false} />
 			<FieldEditor label="Finish week" bind:field={plan.finishWeek} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="finishWeek" multiline={false} />
 		</div>
+	</div>
+
+	<div class="card">
 		<SelectFieldEditor label="Status" bind:field={plan.status} options={PLAN_STATUSES} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="status" />
 		<FieldEditor label="Unit description" bind:field={plan.unitDescription} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="unitDescription" rows={6} />
 		<FieldEditor label="Cohort and class considerations" bind:field={plan.cohortAndClassConsiderations} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="cohortAndClassConsiderations" rows={4} />
@@ -758,74 +857,93 @@
 {/if}
 
 {#if section === 'sequence'}
-	{@const batchRange = batchWeekRange()}
-	<div class="sequence-batch-bar">
+	<div class="toolbar">
+		<button class="btn" onclick={() => ensureWeeks(10)} disabled={sequenceBusy()}>Ensure 10 weeks</button>
+		<button class="btn" onclick={() => ensureWeeks(20)} disabled={sequenceBusy()}>Ensure 20 weeks</button>
+	</div>
+
+	{@const weekRange = batchWeekRange()}
+
+	<div class="chunk-panel">
+		<h2>Unit outline (planning pass)</h2>
+		<p class="meta">High-level week themes for the whole unit.</p>
+		<label>
+			AI notes for this chunk
+			<textarea bind:value={outlineNotes} rows="2" style="width:100%"></textarea>
+		</label>
+		<button
+			class="btn btn-primary"
+			onclick={generateOutlineForUnit}
+			disabled={sequenceBusy() || !weekRange}
+		>
+			{#if outlineGenerating}
+				{outlineStatus}
+			{:else if weekRange}
+				Generate unit outline (weeks {weekRange.start}–{weekRange.end})
+			{:else}
+				Generate unit outline (add weeks first)
+			{/if}
+		</button>
+		{#if outlineFinished && !outlineGenerating}
+			<span class="meta batch-finished">Finished</span>
+		{/if}
+		<ModelFeedback usage={outlineUsage} />
+		{#if outlineError}<p class="error">{outlineError}</p>{/if}
+	</div>
+
+	<div class="chunk-panel">
+		<h2>Weekly detail (content pass)</h2>
+		<p class="meta">Theory, prac, and assessment detail — run after the outline pass.</p>
+		<label>
+			AI notes
+			<textarea bind:value={weeklyNotes} rows="2" style="width:100%"></textarea>
+		</label>
 		<button
 			class="btn btn-primary"
 			onclick={generateAllChunksSequentially}
-			disabled={batchGenerating || chunkGenerating || !batchRange}
+			disabled={sequenceBusy() || !weekRange}
 		>
 			{#if batchGenerating}
 				{batchStatus}
-			{:else if batchRange}
-				Generate all weeks {batchRange.start}–{batchRange.end} ({BATCH_CHUNK_SIZE} at a time)
+			{:else if weekRange}
+				Generate all weeks {weekRange.start}–{weekRange.end} ({BATCH_CHUNK_SIZE} at a time)
 			{:else}
-				Generate all (add weeks first)
+				Generate all weeks (add weeks first)
 			{/if}
 		</button>
 		{#if batchFinished && !batchGenerating}
 			<span class="meta batch-finished">Finished</span>
 		{/if}
-		{#if batchRange && !batchGenerating}
-			<span class="meta">
-				Uses {chunkMode === 'outline' ? 'outline' : 'weekly detail'} mode
-			</span>
-		{/if}
-		<ModelFeedback usage={batchGenerating || batchFinished ? chunkUsage : null} />
-	</div>
+		<ModelFeedback usage={batchGenerating || batchFinished ? batchUsage : null} />
+		{#if weeklyError}<p class="error">{weeklyError}</p>{/if}
 
-	<div class="chunk-panel">
-		<h2>Chunked generation</h2>
-		<p class="meta">Outline mode: high-level week themes (3–5 weeks). Weekly mode: theory, prac, assessment detail (3 weeks at a time).</p>
-		<div class="form-row">
+		<div class="chunk-regenerate">
+			<h3>Regenerate a week range</h3>
+			<p class="meta">Fix a specific set of weeks without regenerating the whole unit.</p>
+			<div class="form-row">
+				<label>
+					From week
+					<input type="number" min="1" bind:value={chunkStart} />
+				</label>
+				<label>
+					To week
+					<input type="number" min="1" bind:value={chunkEnd} />
+				</label>
+			</div>
 			<label>
-				Mode
-				<select bind:value={chunkMode}>
-					<option value="outline">Outline (planning pass)</option>
-					<option value="weekly">Weekly detail (content pass)</option>
-				</select>
+				AI notes for this chunk
+				<textarea bind:value={weeklyChunkNotes} rows="2" style="width:100%"></textarea>
 			</label>
-			<label>
-				Chunk size
-				<select bind:value={chunkSize} onchange={() => { chunkEnd = chunkStart + chunkSize - 1; }}>
-					{#each chunkMode === 'outline' ? [3, 4, 5] : [3] as size}
-						<option value={size}>{size} weeks</option>
-					{/each}
-				</select>
-			</label>
-			<label>
-				From week
-				<input type="number" min="1" bind:value={chunkStart} onchange={() => { chunkEnd = chunkStart + chunkSize - 1; }} />
-			</label>
-			<label>
-				To week
-				<input type="number" min="1" bind:value={chunkEnd} />
-			</label>
+			<button
+				class="btn"
+				onclick={generateWeeklyChunk}
+				disabled={sequenceBusy()}
+			>
+				{weeklyChunkGenerating ? 'Generating…' : `Generate weeks ${chunkStart}–${chunkEnd}`}
+			</button>
+			<ModelFeedback usage={weeklyChunkUsage} />
+			{#if weeklyChunkError}<p class="error">{weeklyChunkError}</p>{/if}
 		</div>
-		<label>
-			AI notes for this chunk
-			<textarea bind:value={chunkNotes} rows="2" style="width:100%"></textarea>
-		</label>
-		<button class="btn btn-primary" onclick={generateChunk} disabled={chunkGenerating}>
-			{chunkGenerating ? 'Generating…' : `Generate weeks ${chunkStart}–${chunkEnd}`}
-		</button>
-		<ModelFeedback usage={chunkUsage} />
-		{#if chunkError}<p class="error">{chunkError}</p>{/if}
-	</div>
-
-	<div class="toolbar">
-		<button class="btn" onclick={() => ensureWeeks(10)}>Ensure 10 weeks</button>
-		<button class="btn" onclick={() => ensureWeeks(20)}>Ensure 20 weeks</button>
 	</div>
 
 	{#each plan.teachingSequence as week, wi (week.id)}
@@ -850,3 +968,5 @@
 	</div>
 {/if}
 </div>
+
+<FloatingSaveButton {dirty} {saving} {saved} onclick={save} />

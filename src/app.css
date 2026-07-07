@@ -292,21 +292,21 @@ table.data-table th {
 	cursor: pointer;
 }
 
-.sequence-batch-bar {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: 0.75rem;
-	margin: 1rem 0 0.5rem;
-	padding: 0.75rem 1rem;
-	background: #f0fdf4;
-	border: 1px solid #86efac;
-	border-radius: 8px;
+.chunk-regenerate {
+	margin-top: 1.25rem;
+	padding-top: 1.25rem;
+	border-top: 1px solid #b8d4f0;
 }
 
-.sequence-batch-bar .batch-finished {
+.chunk-regenerate h3 {
+	margin: 0 0 0.35rem;
+	font-size: 1rem;
+}
+
+.batch-finished {
 	color: #15803d;
 	font-weight: 600;
+	margin-left: 0.5rem;
 }
 
 .chunk-panel {
@@ -627,6 +627,7 @@ table.data-table th {
 }
 
 .quick-plan-matrix .unit-title-input,
+.quick-plan-matrix .unit-duration-input,
 .quick-plan-matrix .assessment-title-input {
 	width: 100%;
 	font-family: inherit;
@@ -637,6 +638,12 @@ table.data-table th {
 	border: 1px solid #c5d0dc;
 	border-radius: 4px;
 	color: inherit;
+}
+
+.quick-plan-matrix .unit-duration-input {
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin-top: 0.35rem;
 }
 
 .quick-plan-matrix .unit-desc-input,
@@ -699,6 +706,13 @@ table.data-table th {
 .quick-plan-matrix .refine-btn {
 	align-self: flex-start;
 	margin-top: 0.15rem;
+}
+
+.quick-plan-matrix .assessment-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem;
+	margin-top: 0.35rem;
 }
 
 .scope-readonly-note {
@@ -766,4 +780,27 @@ table.data-table th {
 
 .scope-vocab-note {
 	margin-top: 1rem;
+}
+
+.floating-save {
+	position: fixed;
+	right: 1.5rem;
+	bottom: 1.5rem;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	gap: 0.65rem;
+	padding: 0.65rem 0.85rem;
+	background: #fff;
+	border: 1px solid #dde3ea;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(26, 26, 46, 0.15);
+}
+
+.floating-save .btn-primary {
+	box-shadow: 0 2px 8px rgba(30, 58, 95, 0.25);
+}
+
+.floating-save-status {
+	white-space: nowrap;
 }

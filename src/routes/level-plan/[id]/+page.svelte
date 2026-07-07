@@ -14,6 +14,8 @@
 	import CapabilityUnitMatrix from '$lib/components/CapabilityUnitMatrix.svelte';
 	import { syncCapabilityRowColumns } from '$lib/general-capabilities';
 	import { syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
+	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
+	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<LevelPlan>(structuredClone(data.plan));
@@ -25,6 +27,8 @@
 	let section = $state<'overview' | 'units' | 'content' | 'capabilities'>('overview');
 	let saving = $state(false);
 	let saved = $state(false);
+	let savedSnapshot = $state(snapshotValue(structuredClone(data.plan)));
+	const dirty = $derived(isDirtySnapshot(plan, savedSnapshot));
 	let showAiPanels = $state(true);
 	let importing = $state(false);
 	let importError = $state('');
@@ -79,7 +83,10 @@
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(plan)
 		});
-		if (res.ok) saved = true;
+		if (res.ok) {
+			saved = true;
+			savedSnapshot = snapshotValue(plan);
+		}
 		saving = false;
 	}
 
@@ -303,6 +310,7 @@
 		created.unitTitle.value = unit.unitTitle.value;
 		created.yearLevel.value = unit.yearLevel.value;
 		created.unitDescription.value = unit.description.value;
+		created.duration = { value: String(unit.duration.value || ''), aiNotes: '' };
 		created.subject.value = plan.bandSubjectTitle.value;
 		created.assessments = assessments;
 
@@ -521,3 +529,5 @@
 	</div>
 {/if}
 </div>
+
+<FloatingSaveButton {dirty} {saving} {saved} onclick={save} />

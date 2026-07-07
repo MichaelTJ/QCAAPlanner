@@ -3,18 +3,26 @@
 	import type { PageData } from './$types';
 	import { fitAllTextareas, fitTextareaHeight } from '$lib/actions/fit-textarea';
 	import {
+		addQuickPlanAssessment,
 		addQuickPlanUnit,
 		assessmentColumnIndex,
+		clearAssessmentColumn,
 		getSelectedDescriptorsForAssessment,
 		getSelectedDescriptorsForUnit,
-		removeQuickPlanUnit
+		removeQuickPlanAssessment,
+		removeQuickPlanUnit,
+		totalAssessmentColumns
 	} from '$lib/quick-plan';
 	import type { QuickLevelPlan } from '$lib/types';
+	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
+	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<QuickLevelPlan>(structuredClone(data.plan));
 	let saving = $state(false);
 	let saved = $state(false);
+	let savedSnapshot = $state(snapshotValue(structuredClone(data.plan)));
+	const dirty = $derived(isDirtySnapshot(plan, savedSnapshot));
 	let refineError = $state('');
 	let refiningKey = $state<string | null>(null);
 
@@ -86,6 +94,7 @@
 		if (res.ok) {
 			plan = await res.json();
 			saved = true;
+			savedSnapshot = snapshotValue(plan);
 			await refitTextareas();
 		}
 		saving = false;
@@ -98,6 +107,21 @@
 
 	function handleRemoveUnit(unitIndex: number) {
 		plan = removeQuickPlanUnit(plan, unitIndex);
+	}
+
+	function handleAddAssessment(unitIndex: number) {
+		plan = addQuickPlanAssessment(plan, unitIndex);
+		void refitTextareas();
+	}
+
+	function handleRemoveAssessment(unitIndex: number, assessmentIndex: number) {
+		if (!confirm('Remove this assessment?')) return;
+		plan = removeQuickPlanAssessment(plan, unitIndex, assessmentIndex);
+		void refitTextareas();
+	}
+
+	function handleClearAssessmentColumn(unitIndex: number, assessmentIndex: number) {
+		plan = clearAssessmentColumn(plan, unitIndex, assessmentIndex);
 	}
 
 	async function refineUnit(unitIndex: number) {
@@ -225,7 +249,7 @@
 			<tr class="unit-header-row">
 				<th class="sticky-col corner-cell">Units</th>
 				{#each plan.units as unit, ui (unit.id)}
-					<th colspan="2" class="unit-header-cell">
+					<th colspan={unit.assessments.length} class="unit-header-cell">
 						<div class="unit-header">
 							<div class="unit-header-top">
 								<input
@@ -241,6 +265,11 @@
 									onclick={() => handleRemoveUnit(ui)}
 								>×</button>
 							</div>
+							<input
+								class="unit-duration-input"
+								bind:value={plan.units[ui].duration}
+								placeholder="Duration (e.g. 5 weeks)"
+							/>
 							<textarea
 								class="unit-desc-input fit-textarea"
 								use:fitTextareaHeight
@@ -258,6 +287,13 @@
 								onclick={() => refineUnit(ui)}
 							>
 								{refiningKey === `unit-${ui}` ? 'Refining…' : 'Refine'}
+							</button>
+							<button
+								class="btn btn-sm"
+								type="button"
+								onclick={() => handleAddAssessment(ui)}
+							>
+								Add assessment
 							</button>
 						</div>
 					</th>
@@ -292,6 +328,25 @@
 							>
 								{refiningKey === `assess-${ui}-${ai}` ? 'Refining…' : 'Refine'}
 							</button>
+							<div class="assessment-actions">
+								<button
+									class="btn btn-sm"
+									type="button"
+									title="Clear all content descriptors for this assessment"
+									disabled={descriptorCountForAssessment(ui, ai) === 0}
+									onclick={() => handleClearAssessmentColumn(ui, ai)}
+								>
+									Clear all
+								</button>
+								<button
+									class="btn btn-sm"
+									type="button"
+									disabled={unit.assessments.length <= 1}
+									onclick={() => handleRemoveAssessment(ui, ai)}
+								>
+									Remove assessment
+								</button>
+							</div>
 						</th>
 					{/each}
 				{/each}
@@ -300,7 +355,7 @@
 		<tbody>
 			{#each groupedDescriptors as [category, descriptors] (category)}
 				<tr class="category-row">
-					<td class="sticky-col category-label" colspan={1 + plan.units.length * 2}>
+					<td class="sticky-col category-label" colspan={1 + totalAssessmentColumns(plan.units)}>
 						{category}
 					</td>
 				</tr>
@@ -314,9 +369,9 @@
 							<div class="descriptor-text">{cd.text}</div>
 							<div class="descriptor-code">{cd.code}</div>
 						</td>
-						{#each plan.units as _, ui}
-							{#each [0, 1] as ai}
-								{@const col = assessmentColumnIndex(ui, ai)}
+						{#each plan.units as unit, ui}
+							{#each unit.assessments as _, ai}
+								{@const col = assessmentColumnIndex(plan.units, ui, ai)}
 								<td class="check-cell">
 									{#if row}
 										<input
@@ -332,7 +387,7 @@
 				{/each}
 			{:else}
 				<tr>
-					<td class="sticky-col meta" colspan={1 + plan.units.length * 2}>
+					<td class="sticky-col meta" colspan={1 + totalAssessmentColumns(plan.units)}>
 						No content descriptors loaded for this plan type yet.
 					</td>
 				</tr>
@@ -340,3 +395,5 @@
 		</tbody>
 	</table>
 </div>
+
+<FloatingSaveButton {dirty} {saving} {saved} onclick={save} />

@@ -35,6 +35,7 @@ import {
 	unitCompatibleWithFaculty
 } from '$lib/curriculum-match';
 import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, unitCopyLabel } from '$lib/import/plan-clone';
+import { resolveUnitDuration } from '$lib/unit-duration';
 import type {
 	AssessmentItem,
 	FacultyIndex,
@@ -503,7 +504,11 @@ export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
 					title: String(levelUnit.unitTitle.value || `Unit ${index + 1}`),
 					unitNumber: matched?.unitNumber.value ?? (index + 1),
 					yearLevel: levelUnit.yearLevel.value,
-					duration: String(levelUnit.duration.value || ''),
+					duration: resolveUnitDuration(String(levelUnit.duration.value || ''), {
+						unitPlanDuration: matched ? String(matched.duration?.value || '') : '',
+						startWeek: matched ? String(matched.startWeek.value || '') : '',
+						finishWeek: matched ? String(matched.finishWeek.value || '') : ''
+					}),
 					status: matched ? String(matched.status.value || '') : 'No unit plan yet',
 					hasUnitPlan: !!matched
 				});
@@ -524,8 +529,6 @@ export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
 }
 
 export async function saveUnitPlan(plan: UnitPlan) {
-	await writeJson(unitPlanPath(plan.levelPlanId, plan.id), plan);
-
 	const levelPlan = await getLevelPlan(plan.levelPlanId);
 	if (levelPlan) {
 		const unitPlans = await listUnitPlans(plan.levelPlanId);
@@ -537,6 +540,8 @@ export async function saveUnitPlan(plan: UnitPlan) {
 			await writeJson(path.join(PATHS.levelPlans, `${levelPlan.id}.json`), levelPlan);
 		}
 	}
+
+	await writeJson(unitPlanPath(plan.levelPlanId, plan.id), plan);
 
 	await touchFacultyRow(plan.levelPlanId);
 }

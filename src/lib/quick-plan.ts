@@ -17,6 +17,7 @@ import {
 
 export const ASSESSMENTS_PER_UNIT = 2;
 export const DEFAULT_UNIT_COUNT = 3;
+const MIN_ASSESSMENTS_PER_UNIT = 1;
 
 export function createQuickPlanAssessment(label: string): QuickPlanAssessment {
 	return {
@@ -31,6 +32,7 @@ export function createQuickPlanUnit(index: number): QuickPlanUnit {
 		id: createId('qunit'),
 		title: `Unit ${index}`,
 		description: '',
+		duration: '',
 		assessments: [
 			createQuickPlanAssessment('Assessment 1'),
 			createQuickPlanAssessment('Assessment 2')
@@ -38,18 +40,26 @@ export function createQuickPlanUnit(index: number): QuickPlanUnit {
 	};
 }
 
-export function assessmentColumnCount(unitCount: number): number {
-	return unitCount * ASSESSMENTS_PER_UNIT;
+export function totalAssessmentColumns(units: QuickPlanUnit[]): number {
+	return units.reduce((count, unit) => count + unit.assessments.length, 0);
 }
 
-export function assessmentColumnIndex(unitIndex: number, assessmentIndex: number): number {
-	return unitIndex * ASSESSMENTS_PER_UNIT + assessmentIndex;
+export function assessmentColumnIndex(
+	units: QuickPlanUnit[],
+	unitIndex: number,
+	assessmentIndex: number
+): number {
+	let col = 0;
+	for (let ui = 0; ui < unitIndex; ui++) {
+		col += units[ui].assessments.length;
+	}
+	return col + assessmentIndex;
 }
 
 export function createEmptyQuickLevelPlan(planType: QuickPlanType): QuickLevelPlan {
 	const curriculum = getCurriculumForPlanType(planType);
 	const units = Array.from({ length: DEFAULT_UNIT_COUNT }, (_, i) => createQuickPlanUnit(i + 1));
-	const cols = assessmentColumnCount(units.length);
+	const cols = totalAssessmentColumns(units);
 
 	return {
 		id: createId('quick-plan'),
@@ -66,7 +76,15 @@ export function createEmptyQuickLevelPlan(planType: QuickPlanType): QuickLevelPl
 }
 
 export function syncQuickPlanColumns(plan: QuickLevelPlan): QuickLevelPlan {
-	const cols = assessmentColumnCount(plan.units.length);
+	const units = plan.units.map((unit) => ({
+		...unit,
+		duration: unit.duration ?? '',
+		assessments:
+			unit.assessments.length > 0
+				? [...unit.assessments]
+				: [createQuickPlanAssessment('Assessment 1')]
+	}));
+	const cols = totalAssessmentColumns(units);
 
 	const contentInclusions = plan.contentInclusions.map((row) => {
 		const inclusions = [...row.assessmentInclusions];
@@ -77,7 +95,7 @@ export function syncQuickPlanColumns(plan: QuickLevelPlan): QuickLevelPlan {
 		};
 	});
 
-	return { ...plan, contentInclusions };
+	return { ...plan, units, contentInclusions };
 }
 
 export function addQuickPlanUnit(plan: QuickLevelPlan): QuickLevelPlan {
@@ -90,9 +108,77 @@ export function addQuickPlanUnit(plan: QuickLevelPlan): QuickLevelPlan {
 
 export function removeQuickPlanUnit(plan: QuickLevelPlan, unitIndex: number): QuickLevelPlan {
 	if (plan.units.length <= 1) return plan;
+
+	const startCol = assessmentColumnIndex(plan.units, unitIndex, 0);
+	const columnCount = plan.units[unitIndex].assessments.length;
 	const units = plan.units.filter((_, i) => i !== unitIndex);
-	const next = { ...plan, units };
-	return syncQuickPlanColumns(next);
+	const contentInclusions = plan.contentInclusions.map((row) => ({
+		...row,
+		assessmentInclusions: row.assessmentInclusions.filter(
+			(_, col) => col < startCol || col >= startCol + columnCount
+		)
+	}));
+
+	return syncQuickPlanColumns({ ...plan, units, contentInclusions });
+}
+
+export function addQuickPlanAssessment(plan: QuickLevelPlan, unitIndex: number): QuickLevelPlan {
+	const units = plan.units.map((unit, ui) => {
+		if (ui !== unitIndex) return unit;
+		const nextNum = unit.assessments.length + 1;
+		return {
+			...unit,
+			assessments: [...unit.assessments, createQuickPlanAssessment(`Assessment ${nextNum}`)]
+		};
+	});
+	const insertCol = assessmentColumnIndex(units, unitIndex, units[unitIndex].assessments.length - 1);
+	const contentInclusions = plan.contentInclusions.map((row) => {
+		const inclusions = [...row.assessmentInclusions];
+		inclusions.splice(insertCol, 0, false);
+		return { ...row, assessmentInclusions: inclusions };
+	});
+
+	return syncQuickPlanColumns({ ...plan, units, contentInclusions });
+}
+
+export function removeQuickPlanAssessment(
+	plan: QuickLevelPlan,
+	unitIndex: number,
+	assessmentIndex: number
+): QuickLevelPlan {
+	const unit = plan.units[unitIndex];
+	if (!unit || unit.assessments.length <= MIN_ASSESSMENTS_PER_UNIT) return plan;
+
+	const removeCol = assessmentColumnIndex(plan.units, unitIndex, assessmentIndex);
+	const units = plan.units.map((currentUnit, ui) => {
+		if (ui !== unitIndex) return currentUnit;
+		return {
+			...currentUnit,
+			assessments: currentUnit.assessments.filter((_, ai) => ai !== assessmentIndex)
+		};
+	});
+	const contentInclusions = plan.contentInclusions.map((row) => ({
+		...row,
+		assessmentInclusions: row.assessmentInclusions.filter((_, col) => col !== removeCol)
+	}));
+
+	return syncQuickPlanColumns({ ...plan, units, contentInclusions });
+}
+
+export function clearAssessmentColumn(
+	plan: QuickLevelPlan,
+	unitIndex: number,
+	assessmentIndex: number
+): QuickLevelPlan {
+	const col = assessmentColumnIndex(plan.units, unitIndex, assessmentIndex);
+	const contentInclusions = plan.contentInclusions.map((row) => {
+		if (col >= row.assessmentInclusions.length) return row;
+		const inclusions = [...row.assessmentInclusions];
+		inclusions[col] = false;
+		return { ...row, assessmentInclusions: inclusions };
+	});
+
+	return { ...plan, contentInclusions };
 }
 
 export function contentDescriptorsFromLevelPlan(levelPlan: LevelPlan): CurriculumContentDescriptor[] {
@@ -116,9 +202,9 @@ export function contentDescriptorsFromLevelPlan(levelPlan: LevelPlan): Curriculu
 export function buildContentInclusionsFromLevelPlan(
 	levelPlan: LevelPlan,
 	descriptors: CurriculumContentDescriptor[],
-	unitCount: number
+	units: QuickPlanUnit[]
 ): QuickPlanContentInclusion[] {
-	const cols = assessmentColumnCount(unitCount);
+	const cols = totalAssessmentColumns(units);
 
 	return descriptors.map((cd) => {
 		const lpRow = levelPlan.contentDescriptions.find(
@@ -127,10 +213,11 @@ export function buildContentInclusionsFromLevelPlan(
 		const assessmentInclusions = Array(cols).fill(false);
 
 		if (lpRow) {
-			for (let ui = 0; ui < unitCount; ui++) {
+			for (let ui = 0; ui < units.length; ui++) {
 				if (!lpRow.unitInclusions[ui]) continue;
-				assessmentInclusions[assessmentColumnIndex(ui, 0)] = true;
-				assessmentInclusions[assessmentColumnIndex(ui, 1)] = true;
+				for (let ai = 0; ai < units[ui].assessments.length; ai++) {
+					assessmentInclusions[assessmentColumnIndex(units, ui, ai)] = true;
+				}
 			}
 		}
 
@@ -173,6 +260,20 @@ export function inferQuickPlanTypeFromTitle(bandSubjectTitle: string): QuickPlan
 	return null;
 }
 
+function quickPlanAssessmentsFromLevelUnit(
+	assessments: LevelPlanUnit['assessments']
+): QuickPlanAssessment[] {
+	if (assessments.length === 0) {
+		return [createQuickPlanAssessment('Assessment 1'), createQuickPlanAssessment('Assessment 2')];
+	}
+
+	return assessments.map((assessment, assessmentIndex) => ({
+		id: assessment.id || createId('qassess'),
+		title: assessment.title.value || `Assessment ${assessmentIndex + 1}`,
+		description: assessment.description.value || ''
+	}));
+}
+
 export function importLevelPlanToQuickPlan(
 	levelPlan: LevelPlan,
 	planType: QuickPlanType,
@@ -185,28 +286,15 @@ export function importLevelPlanToQuickPlan(
 			? curriculum.contentDescriptors
 			: contentDescriptorsFromLevelPlan(levelPlan);
 
-	const units: QuickPlanUnit[] = levelPlan.units.map((unit, unitIndex) => {
-		const assessments = unit.assessments;
-		return {
-			id: unit.id || createId('qunit'),
-			title: unit.unitTitle.value || `Unit ${unitIndex + 1}`,
-			description: unit.description.value,
-			assessments: [
-				{
-					id: assessments[0]?.id || createId('qassess'),
-					title: assessments[0]?.title.value || 'Assessment 1',
-					description: assessments[0]?.description.value || ''
-				},
-				{
-					id: assessments[1]?.id || createId('qassess'),
-					title: assessments[1]?.title.value || 'Assessment 2',
-					description: assessments[1]?.description.value || ''
-				}
-			]
-		};
-	});
+	const units: QuickPlanUnit[] = levelPlan.units.map((unit, unitIndex) => ({
+		id: unit.id || createId('qunit'),
+		title: unit.unitTitle.value || `Unit ${unitIndex + 1}`,
+		description: unit.description.value,
+		duration: String(unit.duration.value || ''),
+		assessments: quickPlanAssessmentsFromLevelUnit(unit.assessments)
+	}));
 
-	const contentInclusions = buildContentInclusionsFromLevelPlan(levelPlan, descriptors, units.length);
+	const contentInclusions = buildContentInclusionsFromLevelPlan(levelPlan, descriptors, units);
 
 	const now = new Date().toISOString();
 	return {
@@ -258,8 +346,11 @@ function createLevelPlanAssessment(
 function applyQuickUnitToLevelUnit(quickUnit: QuickPlanUnit, levelUnit: LevelPlanUnit) {
 	levelUnit.unitTitle.value = quickUnit.title;
 	levelUnit.description.value = quickUnit.description;
+	if (quickUnit.duration.trim()) {
+		levelUnit.duration.value = quickUnit.duration.trim();
+	}
 
-	for (let assessmentIndex = 0; assessmentIndex < ASSESSMENTS_PER_UNIT; assessmentIndex++) {
+	for (let assessmentIndex = 0; assessmentIndex < quickUnit.assessments.length; assessmentIndex++) {
 		const quickAssessment = quickUnit.assessments[assessmentIndex];
 		const existing = levelUnit.assessments[assessmentIndex];
 		if (existing) {
@@ -269,6 +360,8 @@ function applyQuickUnitToLevelUnit(quickUnit: QuickPlanUnit, levelUnit: LevelPla
 		}
 		levelUnit.assessments.push(createLevelPlanAssessment(quickAssessment, assessmentIndex));
 	}
+
+	levelUnit.assessments = levelUnit.assessments.slice(0, quickUnit.assessments.length);
 }
 
 function quickInclusionForLevelRow(
@@ -288,12 +381,14 @@ function quickInclusionForLevelRow(
 
 function unitIncludedInQuickPlan(
 	quickRow: QuickPlanContentInclusion | undefined,
+	units: QuickPlanUnit[],
 	unitIndex: number
 ): boolean {
 	if (!quickRow) return false;
-	return [0, 1].some(
-		(assessmentIndex) =>
-			quickRow.assessmentInclusions[assessmentColumnIndex(unitIndex, assessmentIndex)]
+	const unit = units[unitIndex];
+	return unit.assessments.some(
+		(_, assessmentIndex) =>
+			quickRow.assessmentInclusions[assessmentColumnIndex(units, unitIndex, assessmentIndex)]
 	);
 }
 
@@ -307,7 +402,11 @@ function applyQuickPlanContentInclusionsToLevelPlan(
 	for (const lpRow of levelPlan.contentDescriptions) {
 		const quickRow = quickInclusionForLevelRow(quickPlan, lpRow, descriptors);
 		for (let unitIndex = 0; unitIndex < quickPlan.units.length; unitIndex++) {
-			lpRow.unitInclusions[unitIndex] = unitIncludedInQuickPlan(quickRow, unitIndex);
+			lpRow.unitInclusions[unitIndex] = unitIncludedInQuickPlan(
+				quickRow,
+				quickPlan.units,
+				unitIndex
+			);
 		}
 	}
 }
@@ -328,7 +427,7 @@ export function exportQuickPlanToLevelPlan(
 			id: quickUnit.id || createId('unit'),
 			unitTitle: aiField(quickUnit.title || `Unit ${unitIndex + 1}`),
 			yearLevel: aiField(''),
-			duration: aiField(''),
+			duration: aiField(quickUnit.duration || ''),
 			description: aiField(quickUnit.description),
 			assessments: []
 		});
@@ -351,8 +450,9 @@ export function getSelectedDescriptorsForUnit(
 	return descriptors.filter((cd) => {
 		const row = plan.contentInclusions.find((r) => r.contentDescriptorId === cd.id);
 		if (!row) return false;
-		return [0, 1].some(
-			(ai) => row.assessmentInclusions[assessmentColumnIndex(unitIndex, ai)]
+		const unit = plan.units[unitIndex];
+		return unit.assessments.some(
+			(_, ai) => row.assessmentInclusions[assessmentColumnIndex(plan.units, unitIndex, ai)]
 		);
 	});
 }
@@ -366,6 +466,6 @@ export function getSelectedDescriptorsForAssessment(
 	return descriptors.filter((cd) => {
 		const row = plan.contentInclusions.find((r) => r.contentDescriptorId === cd.id);
 		if (!row) return false;
-		return row.assessmentInclusions[assessmentColumnIndex(unitIndex, assessmentIndex)];
+		return row.assessmentInclusions[assessmentColumnIndex(plan.units, unitIndex, assessmentIndex)];
 	});
 }

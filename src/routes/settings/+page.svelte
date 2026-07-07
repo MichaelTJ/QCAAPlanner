@@ -2,15 +2,21 @@
 	import type { PageData } from './$types';
 	import type { Settings } from '$lib/types';
 	import { MODEL_CASCADE } from '$lib/gemini-models';
+	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
+	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
 	let settings = $state<Settings>({ ...data.settings });
 	let saved = $state(false);
+	let saving = $state(false);
+	let savedSnapshot = $state(snapshotValue({ ...data.settings }));
+	const dirty = $derived(isDirtySnapshot(settings, savedSnapshot));
 	let error = $state('');
 
 	async function save() {
 		saved = false;
 		error = '';
+		saving = true;
 		try {
 			const res = await fetch('/api/settings', {
 				method: 'PUT',
@@ -19,8 +25,11 @@
 			});
 			if (!res.ok) throw new Error('Save failed');
 			saved = true;
+			savedSnapshot = snapshotValue(settings);
 		} catch (e) {
 			error = e instanceof Error ? e.message : 'Save failed';
+		} finally {
+			saving = false;
 		}
 	}
 </script>
@@ -38,7 +47,7 @@
 			<textarea id="aiTone" rows="4" bind:value={settings.aiTone}></textarea>
 		</div>
 	</div>
-	<button class="btn btn-primary" onclick={save}>Save settings</button>
+	<button class="btn btn-primary" onclick={save} disabled={saving}>Save settings</button>
 	{#if saved}<p class="meta">Saved.</p>{/if}
 	{#if error}<p class="error">{error}</p>{/if}
 </div>
@@ -58,3 +67,5 @@
 		{/each}
 	</ol>
 </div>
+
+<FloatingSaveButton {dirty} {saving} {saved} onclick={save} label="Save settings" />

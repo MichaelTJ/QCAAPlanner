@@ -108,6 +108,7 @@ export function createEmptyUnitPlan(
 		status: aiField('Draft'),
 		startWeek: aiField(''),
 		finishWeek: aiField(''),
+		duration: aiField(''),
 		unitDescription: aiField(),
 		cohortAndClassConsiderations: aiField(),
 		adjustments: [],
