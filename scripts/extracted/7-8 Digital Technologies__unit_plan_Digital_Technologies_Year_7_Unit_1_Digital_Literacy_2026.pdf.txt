@@ -1,0 +1,523 @@
+Year 7 Digital Technologies
+Unit 1 — Digital Literacy
+St Brendan's College (Yeppoon), 2026
+Unit overview Cohort and/or class considerations
+Start week: Term 1 Week 1
+Finish week: Term 1 Week 10
+In this unit, students develop foundational digital literacy skills by learning to confidently and responsibly use common digital
+tools and systems. Through practical, hands-on activities, students explore Microsoft Word, PowerPoint and Excel to create,
+manage and communicate information using appropriate conventions. The unit also introduces key concepts in cybersecurity,
+digital footprints and emerging technologies such as artificial intelligence, helping students understand how data is created,
+shared and protected in networked environments. Across the term, students build skills in selecting suitable digital tools,
+managing files and data, and using technology safely and ethically, preparing them for further learning in Digital Technologies
+and other learning areas.
+Assessment 1
+Year 7
+Title Digital Tasks
+Description Students will create a digital portfolio that demonstrates their learning across the term through a collection of completed tasks and reflections. The
+portfolio includes evidence of using word processing, presentation and spreadsheet tools to create, organise, analyse and communicate information,
+as well as activities focused on cybersecurity awareness, safe online behaviour and responsible use of AI tools. Students are expected to select and
+use digital tools efficiently, apply common conventions, manage data accurately, and demonstrate an understanding of how information is shared and
+secured online. The portfolio provides ongoing evidence of skill development, responsible digital practices and the ability to reflect on learning progress
+over time, aligned to the Year 7–8 Digital Technologies standards.
+Technique Other
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 1 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 1 of 11 --
+
+Assessment 1
+Portfolio
+Mode Multimodal
+Conditions 10 A4 PowerPoint slides that may include annotated graphical representations or equivalent media pages
+Timing Week 10
+Achievement
+standard
+By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against
+user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design
+and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks,
+explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and
+responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.
+Moderation Monitoring: Week 7
+Conferencing: Week 9
+Content descriptions
+Knowledge and understanding Processes and production skills
+Digital systems
+investigate how data is transmitted and secured in wired and wireless networks
+including the internet
+(AC9TDI8K02)
+Acquiring, managing and analysing data
+acquire, store and validate data from a range of sources using software, including
+spreadsheets and databases
+(AC9TDI8P01)
+Data representation
+investigate how digital systems represent text, image and audio data using integers
+(AC9TDI8K03)
+analyse and visualise data using a range of software, including spreadsheets and
+databases, to draw conclusions and make predictions by identifying trends
+(AC9TDI8P02)
+Generating and designing
+generate, modify, communicate and evaluate alternative designs
+(AC9TDI8P08)
+Collaborating and managing
+select and use a range of digital tools efficiently, including unfamiliar features, to
+create, locate and communicate content, consistently applying common conventions
+(AC9TDI8P11)
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 2 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 2 of 11 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+select and use a range of digital tools efficiently and responsibly to share content
+online, and plan and manage individual and collaborative agile projects
+(AC9TDI8P12)
+Privacy and security
+explain how multi-factor authentication protects an account when the password is
+compromised and identify phishing and other cyber security threats
+(AC9TDI8P13)
+General capabilities
+Critical and creative thinking
+• Inquiring
+- Identify, process and evaluate information
+• Generating
+- Create possibilities
+- Consider alternatives
+• Analysing
+- Interpret concepts and problems
+- Draw conclusions and provide reasons
+- Evaluate actions and outcomes
+These elements are evident in the PowerPoint assessment.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 3 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 3 of 11 --
+
+Digital literacy
+• Practising digital safety and wellbeing
+- Manage online safety
+- Manage digital privacy and identity
+- Manage digital wellbeing
+• Investigating
+- Locate information
+- Acquire and collate data
+- Interpret data
+• Creating and exchanging
+- Plan
+- Create, communicate and collaborate
+• Managing and operating
+- Manage content
+- Select and operate tools
+These elements are evident in the PowerPoint assessment.
+Literacy
+Numeracy
+• Statistics and probability
+- Interpreting and representing data
+These elements are evident in the PowerPoint assessment.
+Teaching and learning sequence
+Week Planning details Theory Prac Assessment
+1 Key teaching and
+learning experiences
+Introduction to the subject and
+expectations. Students are introduced
+to digital literacy and its importance
+in everyday life and learning. Explicit
+Students log into school systems,
+navigate Microsoft Teams, and access
+class materials. Practical activities include
+creating folders in OneDrive, saving,
+No formal assessment. Teacher
+observation and informal checks used to
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 4 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 4 of 11 --
+
+Teaching and learning sequence
+teaching of school digital systems
+including Microsoft Teams and OneDrive,
+focusing on how data is stored in the
+cloud and accessed across devices.
+Introduction to responsible use of
+technology, including appropriate online
+behaviour and basic digital safety
+expectations.
+renaming and organising files, and
+submitting a simple task through Teams.
+Students practise uploading, downloading
+and locating files to build confidence with
+file management.
+gauge student confidence with systems
+and identify support needs.
+Adjustments Provide step-by-step visual guides for
+logging in and navigating platforms.
+Use teacher modelling and screen
+sharing to support understanding. Allow
+additional time for students unfamiliar
+with devices. Pair students strategically
+for peer support. Provide printed
+instructions where required and reduce
+task complexity for students needing
+support.
+Resources Microsoft Teams, OneDrive, student
+devices, school login details, projector for
+demonstrations, step-by-step instruction
+sheets, sample files for practice.
+Key teaching and
+learning experiences
+Introduction to word processing and the
+purpose of digital documents. Explicit
+teaching of formatting conventions
+including font styles, headings, alignment,
+spacing and document layout. Discussion
+of why consistent formatting improves
+communication and readability.
+Students create a simple document in
+Microsoft Word. They practise typing,
+editing text, applying formatting (bold,
+headings, alignment), and inserting
+images. Activities include creating a short
+“About Me” or similar document using
+required formatting conventions.
+No formal assessment. Teacher provides
+feedback on formatting, layout and ability
+to follow instructions.
+2
+Adjustments Provide document templates and partially
+completed examples. Offer scaffolded
+instructions with visual cues. Allow
+speech-to-text for students with writing
+difficulties. Reduce the amount of required
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 5 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 5 of 11 --
+
+Teaching and learning sequence
+text where necessary. Provide extension
+tasks for advanced students (e.g. adding
+tables or more advanced formatting).
+Resources Microsoft Word, sample documents,
+formatting checklist, scaffolded templates.
+Key teaching and
+learning experiences
+Development of document design
+principles including audience, purpose
+and structure. Introduction to more
+advanced Word features such as tables,
+images with text wrapping, and use of
+styles. Discussion of how digital tools
+support communication.
+Students refine their document from Week
+2 or create a new structured document
+(e.g. report or flyer). They incorporate
+headings, images, tables and improved
+layout. Focus on improving clarity,
+organisation and visual appeal.
+No formal assessment. Ongoing teacher
+feedback with a focus on improvement
+and application of conventions.
+Adjustments Provide structured templates for extended
+tasks. Break tasks into smaller steps with
+checkpoints. Offer one-on-one support
+where needed. Allow alternative formats
+(e.g. simplified layout tasks) for students
+requiring adjustment. Provide challenge
+tasks such as independent design choices
+for higher-ability students.
+3
+Resources Microsoft Word, exemplar documents,
+template files, checklist for document
+design, teacher modelling materials.
+4 Key teaching and
+learning experiences
+Introduction to presentation design and
+the purpose of visual communication.
+Students learn key principles of effective
+presentations including slide layout,
+minimal text, use of visuals, and
+audience engagement. Discussion of
+how presentations differ from written
+documents.
+Students begin using Microsoft
+PowerPoint. They create a short
+presentation (e.g. “About Me” or a topic
+of interest), applying basic slide layouts,
+inserting images, and using consistent
+design themes. Students practise
+organising information across multiple
+slides.
+No formal assessment. Teacher provides
+feedback on slide design, readability and
+organisation.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 6 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 6 of 11 --
+
+Teaching and learning sequence
+Adjustments Provide slide templates with pre-set
+layouts. Use modelling to demonstrate
+good vs poor slide design. Allow students
+to work from guided examples. Reduce
+the number of required slides if needed.
+Provide extension opportunities such as
+adding transitions or custom layouts.
+Resources Microsoft PowerPoint, example
+presentations, design checklist, templates,
+projector for modelling.
+Key teaching and
+learning experiences
+Explicit teaching of effective
+communication using presentations,
+including sequencing ideas, use of dot
+points, and visual hierarchy. Introduction
+to the assessment task (digital portfolio),
+including expectations, structure and
+success criteria.
+Students refine their PowerPoint and
+begin their digital portfolio. They select
+and organise their best work from Weeks
+1–4 and begin creating slides that
+showcase their skills. Students practise
+editing, improving and presenting their
+work clearly.
+Introduction of assessment. Students
+begin compiling their digital portfolio.
+Initial slides (e.g. introduction and Word/
+PowerPoint examples) are created and
+reviewed with teacher feedback.
+Adjustments Provide a portfolio template with required
+slide structure. Break assessment into
+clear checkpoints. Offer one-on-one
+conferencing for students needing
+additional support. Allow alternative ways
+to present information (e.g. more visual,
+less text). Provide extension through
+additional design features or deeper
+reflection.
+5
+Resources Microsoft PowerPoint, assessment task
+sheet, rubric, portfolio template, exemplar
+portfolios, checklist for progress.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 7 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 7 of 11 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Introduction to spreadsheets and
+data. Students learn about data types,
+organisation of data in rows and columns,
+and the purpose of spreadsheets in
+analysing information. Introduction to
+basic formulas and calculations.
+Students use Microsoft Excel to enter
+data, format cells, and perform simple
+calculations (e.g. totals, averages).
+Activities may include creating a simple
+dataset (e.g. class survey) and organising
+it effectively.
+Students begin adding spreadsheet
+evidence to their portfolio. They create
+slides demonstrating their ability to enter
+and manage data.
+Adjustments Provide step-by-step guides for Excel
+tasks. Use simplified datasets for students
+needing support. Allow use of formula
+prompts or scaffolds. Pair students for
+collaborative support. Provide extension
+tasks such as exploring additional
+formulas.
+6
+Resources Microsoft Excel, sample datasets,
+scaffolded worksheets, formula guide,
+projector for modelling.
+Key teaching and
+learning experiences
+Development of data analysis skills.
+Students learn how to interpret data
+and identify trends. Introduction to data
+visualisation through graphs and charts.
+Discussion of how data can be used to
+make predictions and decisions.
+Students create graphs and charts from
+their datasets in Excel. They practise
+selecting appropriate chart types and
+interpreting results. Students refine their
+spreadsheet work and ensure accuracy.
+Ongoing portfolio development. Students
+add spreadsheet analysis and graphs to
+their portfolio. Teacher monitors progress
+in line with moderation requirements.
+7
+Adjustments Provide guided examples of graph
+creation. Offer pre-prepared datasets for
+students needing support. Break tasks
+into smaller steps. Provide additional
+teacher support for interpreting data.
+Extend capable students with more
+complex datasets or multiple graph types.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 8 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 8 of 11 --
+
+Teaching and learning sequence
+Resources Microsoft Excel, sample datasets,
+graphing guides, exemplar charts,
+projector for demonstrations.
+Key teaching and
+learning experiences
+Introduction to cybersecurity concepts
+including passwords, multi-factor
+authentication, phishing and safe online
+behaviour. Discussion of digital footprints
+and how information is shared and stored
+online.
+Students analyse examples of safe
+and unsafe online behaviour. Activities
+may include identifying phishing
+attempts, creating strong passwords,
+and reviewing their own digital habits.
+Students create content (e.g. slides or
+posters) demonstrating understanding of
+cybersecurity.
+Students add cybersecurity content
+to their portfolio, demonstrating
+understanding of safe and responsible
+digital practices.
+Adjustments Use simplified scenarios and real-world
+examples. Provide visual supports
+and guided discussions. Allow verbal
+responses where appropriate. Scaffold
+tasks with clear examples. Extend
+students with deeper analysis of
+cybersecurity issues.
+8
+Resources Cybersecurity examples, videos, case
+studies, PowerPoint, worksheets, online
+safety resources.
+Key teaching and
+learning experiences
+Introduction to artificial intelligence and
+emerging technologies. Discussion of
+ethical considerations, appropriate use,
+and limitations of AI tools. Students
+explore how AI impacts digital creation
+and information.
+Students experiment with appropriate AI
+tools (if available) or analyse examples
+of AI-generated content. They refine their
+portfolio, focusing on improving clarity,
+organisation and reflection. Students
+prepare for submission.
+Portfolio refinement and conferencing.
+Students receive feedback and make final
+improvements prior to submission.
+9
+Adjustments Provide structured reflection
+prompts. Allow alternative formats for
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 9 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 9 of 11 --
+
+Teaching and learning sequence
+demonstrating understanding. Offer
+additional support during conferencing.
+Reduce workload where necessary.
+Extend students through deeper
+evaluation of AI and ethical implications.
+Resources AI examples/tools (if available), reflection
+templates, portfolio checklist, teacher
+feedback materials.
+Key teaching and
+learning experiences
+Review of key concepts from the
+unit including digital tools, data,
+cybersecurity and responsible technology
+use. Reflection on learning and skill
+development.
+Students finalise and submit their digital
+portfolio. They review their work to
+ensure all criteria are met and all required
+elements are included.
+Final submission of digital portfolio.
+Students demonstrate their ability to use
+digital tools, manage data, communicate
+information and apply safe and ethical
+practices.
+Adjustments Provide final checklist and structured
+support for submission. Allow extra
+time where required. Offer one-on-one
+assistance for students needing help
+finalising work. Adjust expectations as
+needed based on individual student
+needs.
+10
+Resources Assessment rubric, checklist, Microsoft
+PowerPoint, student portfolio files, teacher
+feedback notes.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 10 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 10 of 11 --
+
+Evaluation
+This document may contain confidential personal information, and must be handled in accordance with applicable privacy law.
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest
+information and additional terms of use of the ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College
+(Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content, where required.
+Digital Technologies Year 7 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 11 of 11
+Printed: 01/04/2026
+Status: Draft (Validated)
+
+-- 11 of 11 --
+

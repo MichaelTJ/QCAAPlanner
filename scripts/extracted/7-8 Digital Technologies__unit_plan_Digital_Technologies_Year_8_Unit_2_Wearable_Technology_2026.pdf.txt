@@ -1,0 +1,633 @@
+Year 8 Digital Technologies
+Unit 2 — Wearable Technology
+St Brendan's College (Yeppoon), 2026
+Unit overview Cohort and/or class considerations
+Start week: Term 1 Week 1
+Finish week: Term 2 Week 10
+In this unit, students use Micro:bit devices to explore data, communication and physical computing in a practical and age-
+appropriate context. Students learn how Microbits collect, transmit and represent data, with a focus on radio communication,
+binary representation and basic data security concepts. Through guided investigations, students explore how data can be
+gathered from sensors, transmitted between devices and analysed to identify patterns and trends. In the second part of the unit,
+students apply these skills to design and create wearable technologies, combining computational thinking, data analysis and
+ethical considerations when collecting data about people.
+Adjustments
+Student initials/identifier
+Year level/band against which
+the student is to be assessed
+Band 7–8
+Category of need
+Adjustment/s and/or key
+information
+Review of adjustments
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 1 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 1 of 13 --
+
+Assessment 2
+Year 8
+Title Data Exam
+Description In this assessment, students complete a written exam that assesses their understanding of how Microbits communicate and represent data. Students
+explain the differences between broadcast and direct radio communication, and demonstrate their understanding of how text, numbers and messages
+are represented using integers and binary. The exam also assesses students’ ability to model and reason about structured data, design and trace basic
+algorithms, and predict program outputs related to Microbit communication and simple encryption. This assessment provides evidence of students’
+conceptual understanding of data transmission, representation and algorithmic thinking.
+Technique Examination
+Mode Written
+Conditions • up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 75 words per item, up to 400 words for the task
+• extended response 100–200 words per item, up to 400 words for the task
+Timing Week 7
+Achievement
+standard
+By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against
+user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design
+and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks,
+explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and
+responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.
+Moderation Cross marked within the department
+Content descriptions
+Knowledge and understanding Processes and production skills
+Digital systems
+investigate how data is transmitted and secured in wired and wireless networks
+including the internet
+(AC9TDI8K02)
+Acquiring, managing and analysing data
+model and query the attributes of objects and events using structured data
+(AC9TDI8P03)
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 2 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 2 of 13 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+Data representation
+investigate how digital systems represent text, image and audio data using integers
+(AC9TDI8K03)
+Generating and designing
+design algorithms involving nested control structures and represent them using
+flowcharts and pseudocode
+(AC9TDI8P05)
+explain how and why digital systems represent integers in binary
+(AC9TDI8K04)
+trace algorithms to predict output for a given input and to identify errors
+(AC9TDI8P06)
+Assessment 3
+Year 8
+Title Wearable Tech
+Description In this assessment, students design and develop a wearable Microbit-based solution to collect and analyse data related to a given investigation task.
+Students plan how data will be gathered using appropriate sensors, design algorithms to collect and store the data, and use digital tools to analyse and
+visualise results to draw conclusions. They select suitable hardware, design the user experience, manage the project process and evaluate their solution
+against design criteria and user needs. Students also demonstrate responsible and ethical data collection practices, reflecting on the purpose and impact
+of their digital solution.
+Technique Investigation
+Mode Multimodal
+Conditions 2–4 A3 pages or equivalent digital media pages that may include annotated graphical representations
+Timing Week 9
+Achievement
+standard
+By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against
+user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design
+and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks,
+explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and
+responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.
+Moderation Monitoring: Week 6
+Conferencing: Week 8
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 3 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 3 of 13 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+Digital systems
+explain how hardware specifications affect performance and select appropriate
+hardware for particular tasks and workloads
+(AC9TDI8K01)
+Acquiring, managing and analysing data
+acquire, store and validate data from a range of sources using software, including
+spreadsheets and databases
+(AC9TDI8P01)
+investigate how data is transmitted and secured in wired and wireless networks
+including the internet
+(AC9TDI8K02)
+analyse and visualise data using a range of software, including spreadsheets and
+databases, to draw conclusions and make predictions by identifying trends
+(AC9TDI8P02)
+model and query the attributes of objects and events using structured data
+(AC9TDI8P03)
+Investigating and defining
+define and decompose real-world problems with design criteria and by creating user
+stories
+(AC9TDI8P04)
+Generating and designing
+design algorithms involving nested control structures and represent them using
+flowcharts and pseudocode
+(AC9TDI8P05)
+trace algorithms to predict output for a given input and to identify errors
+(AC9TDI8P06)
+design the user experience of a digital system
+(AC9TDI8P07)
+generate, modify, communicate and evaluate alternative designs
+(AC9TDI8P08)
+Producing and implementing
+implement, modify and debug programs involving control structures and functions in
+a general-purpose programming language
+(AC9TDI8P09)
+Evaluating
+evaluate existing and student solutions against the design criteria, user stories and
+possible future impact
+(AC9TDI8P10)
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 4 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 4 of 13 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+Collaborating and managing
+select and use a range of digital tools efficiently, including unfamiliar features, to
+create, locate and communicate content, consistently applying common conventions
+(AC9TDI8P11)
+select and use a range of digital tools efficiently and responsibly to share content
+online, and plan and manage individual and collaborative agile projects
+(AC9TDI8P12)
+Privacy and security
+investigate and manage the digital footprint existing systems and student solutions
+collect and assess if the data is essential to their purpose
+(AC9TDI8P14)
+General capabilities
+Critical and creative thinking
+• Inquiring
+- Develop questions
+- Identify, process and evaluate information
+• Generating
+- Create possibilities
+- Consider alternatives
+- Put ideas into action
+• Analysing
+- Interpret concepts and problems
+- Draw conclusions and provide reasons
+- Evaluate actions and outcomes
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 5 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 5 of 13 --
+
+Digital literacy
+• Practising digital safety and wellbeing
+- Manage digital privacy and identity
+• Investigating
+- Locate information
+- Acquire and collate data
+- Interpret data
+Ethical understanding
+Literacy
+• Reading and viewing
+- Fluency
+• Writing
+- Creating texts
+- Handwriting and keyboarding
+Numeracy
+• Number sense and algebra
+- Number and place value
+• Measurement and geometry
+• Statistics and probability
+- Understanding chance
+- Interpreting and representing data
+Teaching and learning sequence
+Week Planning details Theory Prac Assessment
+1 Key teaching and
+learning experiences
+Introduction to data in real-world contexts.
+What is data, where it comes from, and
+why we collect it. Overview of Micro:bit as
+Students set up Micro:bit and run simple
+programs to collect live data (e.g.
+temperature, light, movement). Begin
+Introduce Assessment 2 (Data Exam
+– Week 7). Outline key concepts
+(data, representation, communication).
+Diagnostic observation of student
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 6 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 6 of 13 --
+
+Teaching and learning sequence
+a data collection device (sensors, inputs,
+outputs).
+streaming live data to Excel and observe
+how data appears in tabular form.
+confidence with devices and Excel
+interface.
+Adjustments
+Resources Micro:bit online tutorials (Getting Started,
+Sensors)
+ORB Education Excel documents (intro
+spreadsheets)
+Micro:bit + USB devices
+Key teaching and
+learning experiences
+Types of data (numerical, categorical,
+Boolean). Structured data and why
+spreadsheets use rows/columns. Link
+between collected sensor data and
+structured datasets.
+Students collect a controlled dataset using
+Micro:bit (e.g. temperature over time).
+Export and/or stream into Excel. Format
+data tables correctly (headings, units,
+consistent structure).
+Checkpoint: students submit a clean
+dataset (correct structure and headings).
+Teacher feedback on data quality and
+organisation.
+Adjustments
+2
+Resources Micro:bit tutorials (data logging /
+streaming)
+ORB Education Excel documents (data
+entry and formatting)
+Key teaching and
+learning experiences
+Data quality and validation. Accuracy,
+consistency, and errors in data collection.
+Why validation is important in digital
+systems.
+Use Excel data validation tools (drop-
+down lists, number limits) on collected
+Micro:bit datasets. Students refine their
+dataset to remove or prevent errors.
+Formative task: students submit a
+validated dataset with applied rules.
+Feedback focused on accuracy and
+control.
+Adjustments
+3
+Resources ORB Education Excel documents (data
+validation)
+Micro:bit (repeat data collection for testing
+validation rules)
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 7 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 7 of 13 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Introduction to data analysis. Identifying
+patterns and trends in datasets. Choosing
+appropriate ways to represent data
+visually.
+Students use their Micro:bit dataset
+to create graphs in Excel (line graphs
+for time data, column graphs for
+comparisons). Interpret patterns from their
+own collected data.
+Mini task: create one graph and write a
+short interpretation of the data. Ongoing
+monitoring toward exam concepts.
+Adjustments
+4
+Resources ORB Education Excel documents (charts
+and graphs)
+Student-generated Micro:bit datasets
+Key teaching and
+learning experiences
+Data representation in digital systems.
+Introduction to integers and binary (link to
+how Micro:bit sends/stores data).
+Simple binary activities (encoding
+numbers/messages). Link back to
+Micro:bit by discussing how sensor values
+are represented digitally. Continue refining
+Excel datasets and graphs.
+Exam preparation begins – short practice
+questions on data representation and
+structured data.
+Adjustments
+5
+Resources Micro:bit tutorials (basic communication
+concepts)
+Teacher-created binary activities
+ORB Education Excel documents (review
+tasks)
+Key teaching and
+learning experiences
+Data communication concepts.
+How Micro:bits transmit data (radio
+communication – broadcast vs direct).
+Introduction to reliability and basic security
+ideas.
+Students program Micro:bits to send
+data between devices. Optionally stream
+received data into Excel for comparison/
+analysis.
+Checkpoint: students explain (written or
+verbal) how their Micro:bits are collecting
+and transmitting data. Final formative
+check before exam.
+Adjustments
+6
+Resources Micro:bit tutorials (radio communication)
+ORB Education Excel documents (data
+comparison tasks)
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 8 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 8 of 13 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Revision of key concepts for Assessment
+2, including structured data, data
+validation, data representation (integers
+and binary), and data communication
+(broadcast vs direct). Explicit teaching of
+exam strategies, including interpreting
+questions, structuring short and extended
+responses, and using correct terminology.
+Students complete guided revision
+activities, including practice exam
+questions and collaborative review tasks.
+Use Micro:bit examples and previously
+created Excel datasets to reinforce
+concepts.
+Assessment 2 – Data Exam conducted
+under exam conditions.
+Adjustments
+7
+Resources Practice exam questions (teacher-
+created)
+Previous student datasets (Excel)
+Micro:bit devices for demonstration
+Key teaching and
+learning experiences
+Introduction to algorithms and
+computational thinking. Understanding
+sequence, selection and iteration in simple
+programs.
+Students create simple Micro:bit programs
+using control structures (loops, if
+statements). Test and modify programs.
+Formative monitoring of student ability to
+design and implement simple algorithms.
+Adjustments
+8
+Resources Micro:bit online tutorials (control
+structures, loops)
+Teacher exemplars
+Key teaching and
+learning experiences
+Tracing and evaluating algorithms.
+Predicting outputs and identifying errors.
+Students trace given Micro:bit programs
+and debug faulty code. Modify programs
+to achieve desired outputs.
+Short applied task: students explain how a
+given program works and identify errors.
+Adjustments
+9
+Resources Micro:bit tutorials (debugging)
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 9 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 9 of 13 --
+
+Teaching and learning sequence
+Teacher-created tracing worksheets
+Key teaching and
+learning experiences
+Data transmission in networks. How
+Micro:bits communicate using radio
+(broadcast vs direct communication).
+Students program Micro:bits to send and
+receive messages between devices.
+Experiment with broadcast and targeted
+communication.
+Observation and questioning to assess
+understanding of communication types.
+Adjustments
+10
+Resources Micro:bit tutorials (radio communication)
+Class set of Micro:bits
+Key teaching and
+learning experiences
+Data security and reliability. Introduction
+to simple encryption concepts and why
+secure communication matters.
+Students implement simple encoded
+messages between Micro:bits. Test
+reliability of communication.
+Formative task: students demonstrate
+and explain a secure or encoded
+communication example.
+Adjustments
+11
+Resources Micro:bit tutorials (radio + variables)
+Teacher-created encryption activities
+Key teaching and
+learning experiences
+Introduction to wearable technology.
+Exploring real-world examples and
+defining user needs and purposes.
+Students investigate examples of
+wearable tech and brainstorm possible
+project ideas linked to data collection.
+Assessment 3 introduced. Task sheet
+unpacked, criteria explained, examples
+analysed.
+Adjustments
+12
+Resources Teacher slides/examples of wearable
+tech
+Micro:bit project gallery
+Assessment task sheet
+13 Key teaching and
+learning experiences
+Defining problems and user stories.
+Identifying data needs and ethical
+considerations (privacy, relevance of
+data).
+Students develop a project idea and
+write a simple user story. Begin planning
+how data will be collected using Micro:bit
+sensors.
+Submission of initial project proposal for
+feedback.
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 10 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 10 of 13 --
+
+Teaching and learning sequence
+Adjustments
+Resources Planning templates
+Micro:bit sensor guides
+Key teaching and
+learning experiences
+Designing algorithms and systems.
+Representing ideas using flowcharts and
+pseudocode.
+Students design the logic for their
+wearable solution (flowcharts/
+pseudocode) and begin initial coding.
+Adjustments
+14
+Resources Flowchart templates
+Micro:bit tutorials (advanced inputs/
+outputs)
+Key teaching and
+learning experiences
+Prototyping and iterative design. Testing
+and refining solutions.
+Students begin building their wearable
+prototype using Micro:bit and materials.
+Progress check against design criteria.
+Adjustments
+15
+Resources Micro:bits, craft/electronics materials
+Teacher exemplars
+Key teaching and
+learning experiences
+Data collection and analysis in projects.
+Ensuring accuracy and relevance of
+collected data.
+Students test their wearable device and
+collect sample data. Analyse results using
+Excel.
+Checkpoint: evidence of data collection
+and initial analysis.
+Adjustments
+16
+Resources ORB Education Excel documents
+(analysis tasks)
+Micro:bit devices
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 11 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 11 of 13 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Debugging and improving solutions.
+Evaluating effectiveness against criteria.
+Students refine code and physical design
+of their wearable solution.
+Teacher conferencing on progress and
+improvements.
+Adjustments
+17
+Resources Micro:bit tutorials (debugging)
+Teacher feedback notes
+Key teaching and
+learning experiences
+User experience and design impact.
+Considering usability and ethical
+implications.
+Students finalise wearable design and
+ensure functionality meets user needs.
+Draft submission or prototype
+demonstration.
+Adjustments
+18
+Resources Evaluation checklists
+Peer feedback tools
+Key teaching and
+learning experiences
+Communicating digital solutions.
+Structuring explanations and justifications.
+Students prepare final presentation
+(multimodal or demonstration).
+Final submission of Assessment 3.
+Adjustments
+19
+Resources Presentation templates
+Rubric/criteria sheet
+Key teaching and
+learning experiences
+Reflection on learning across the unit.
+Connections between data, systems, and
+design.
+Students present projects and participate
+in peer evaluation.
+Reflection task and final evaluation of
+project.
+Adjustments
+20
+Resources Reflection prompts
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 12 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 12 of 13 --
+
+Teaching and learning sequence
+Peer assessment sheets
+Evaluation
+This document may contain confidential personal information, and must be handled in accordance with applicable privacy law.
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest
+information and additional terms of use of the ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College
+(Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content, where required.
+Digital Technologies Year 8 2026
+Unit plan: Unit 2
+St Brendan's College (Yeppoon)
+Page 13 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 13 of 13 --
+

@@ -1,0 +1,1554 @@
+{
+  "id": "unit-8-2-wearable-technology",
+  "levelPlanId": "digital-technologies-band-7-8-2026",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 2,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Wearable Technology",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students use Micro:bit devices to explore data, communication and physical computing in a practical and age-appropriate context. Students learn how Microbits collect, transmit and represent data, with a focus on radio communication, binary representation and basic data security concepts. Through guided investigations, students explore how data can be gathered from sensors, transmitted between devices and analysed to identify patterns and trends. In the second part of the unit, students apply these skills to design and create wearable technologies, combining computational thinking, data analysis and ethical considerations when collecting data about people.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-h9ngzvq3",
+      "assessmentNumber": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Data Exam",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students complete a written exam that assesses their understanding of how Microbits communicate and represent data. Students explain the differences between broadcast and direct radio communication, and demonstrate their understanding of how text, numbers and messages are represented using integers and binary. The exam also assesses students’ ability to model and reason about structured data, design and trace basic algorithms, and predict program outputs related to Microbit communication and simple encryption. This assessment provides evidence of students’ conceptual understanding of data transmission, representation and algorithmic thinking.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Examination",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 75 words per item, up to 400 words for the task\n• extended response 100–200 words per item, up to 400 words for the task",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Week 7",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Cross marked within the department",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-aa28d8df",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-74e9a363",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-35d6e8c2",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Data representation",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how digital systems represent text, image and audio data using integers",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-507d55cb",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Data representation",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how and why digital systems represent integers in binary",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3f1eba48",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1310e3eb",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and visualise data using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-22d4e86b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "model and query the attributes of objects and events using structured data",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4bdbea3e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8fa1835d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b02bf6d8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "trace algorithms to predict output for a given input and to identify errors",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c3846b17",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ca8670dd",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-24c29288",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-baf162eb",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-47a3f4a9",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Privacy and security",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate and manage the digital footprint existing systems and student solutions collect and assess if the data is essential to their purpose",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P14",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "uassess-m8cprdyg",
+      "assessmentNumber": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Wearable Tech",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students design and develop a wearable Microbit-based solution to collect and analyse data related to a given investigation task. Students plan how data will be gathered using appropriate sensors, design algorithms to collect and store the data, and use digital tools to analyse and visualise results to draw conclusions. They select suitable hardware, design the user experience, manage the project process and evaluate their solution against design criteria and user needs. Students also demonstrate responsible and ethical data collection practices, reflecting on the purpose and impact of their digital solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Investigation",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "2–4 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 6\nConferencing: Week 8",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-523bfb07",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bd4017ca",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7e1befe6",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Data representation",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how digital systems represent text, image and audio data using integers",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1df727c6",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Data representation",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how and why digital systems represent integers in binary",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4a29d050",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6a81134d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and visualise data using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cf6a52f7",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "model and query the attributes of objects and events using structured data",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-85d69d1d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-48aa6e6d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-22df9405",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "trace algorithms to predict output for a given input and to identify errors",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ec64c9b6",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8b88a786",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e4ae476f",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0e981903",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-95b08975",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Privacy and security",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate and manage the digital footprint existing systems and student solutions collect and assess if the data is essential to their purpose",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P14",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-2ec0aue7",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-hgcyb0pe",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-w9hpw50s",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-8ifzv90a",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-pge2edoc",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-fihgxnoo",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to data in real-world contexts. What is data, where it comes from, and why we collect it. Overview of Micro:bit as a data collection device.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit online tutorials (Getting Started, Sensors)\nORB Education Excel documents (intro spreadsheets)\nMicro:bit + USB devices",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to data in real-world contexts. What is data, where it comes from, and why we collect it. Overview of Micro:bit as a data collection device (sensors, inputs, outputs).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up Micro:bit and run simple programs to collect live data (e.g. temperature, light, movement). Begin streaming live data to Excel and observe how data appears in tabular form.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Introduce Assessment 2 (Data Exam – Week 7). Outline key concepts (data, representation, communication). Diagnostic observation of student confidence with devices and Excel interface.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-msg3rkmx",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Types of data (numerical, categorical, Boolean). Structured data and why spreadsheets use rows/columns. Link between collected sensor data and structured datasets.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (data logging / streaming)\nORB Education Excel documents (data entry and formatting)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Types of data (numerical, categorical, Boolean). Structured data and why spreadsheets use rows/columns. Link between collected sensor data and structured datasets.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students collect a controlled dataset using Micro:bit (e.g. temperature over time). Export and/or stream into Excel. Format data tables correctly (headings, units, consistent structure).",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Checkpoint: students submit a clean dataset (correct structure and headings). Teacher feedback on data quality and organisation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-ahdvqnrf",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Data quality and validation. Accuracy, consistency, and errors in data collection. Why validation is important in digital systems.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "ORB Education Excel documents (data validation)\nMicro:bit (repeat data collection for testing validation rules)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data quality and validation. Accuracy, consistency, and errors in data collection. Why validation is important in digital systems.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Use Excel data validation tools (drop-down lists, number limits) on collected Micro:bit datasets. Students refine their dataset to remove or prevent errors.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative task: students submit a validated dataset with applied rules. Feedback focused on accuracy and control.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-kq8c31s3",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to data analysis. Identifying patterns and trends in datasets. Choosing appropriate ways to represent data visually.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "ORB Education Excel documents (charts and graphs)\nStudent-generated Micro:bit datasets",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to data analysis. Identifying patterns and trends in datasets. Choosing appropriate ways to represent data visually.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use their Micro:bit dataset to create graphs in Excel (line graphs for time data, column graphs for comparisons). Interpret patterns from their own collected data.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Mini task: create one graph and write a short interpretation of the data. Ongoing monitoring toward exam concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-5t55aqi1",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Data representation in digital systems. Introduction to integers and binary.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (basic communication concepts)\nTeacher-created binary activities\nORB Education Excel documents (review tasks)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data representation in digital systems. Introduction to integers and binary (link to how Micro:bit sends/stores data).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Simple binary activities (encoding numbers/messages). Link back to Micro:bit by discussing how sensor values are represented digitally. Continue refining Excel datasets and graphs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Exam preparation begins – short practice questions on data representation and structured data.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-uzm1eh2z",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Data communication concepts. How Micro:bits transmit data via radio (broadcast vs direct). Reliability and basic security ideas.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (radio communication)\nORB Education Excel documents (data comparison tasks)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data communication concepts. How Micro:bits transmit data (radio communication – broadcast vs direct). Introduction to reliability and basic security ideas.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students program Micro:bits to send data between devices. Optionally stream received data into Excel for comparison/analysis.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Checkpoint: students explain (written or verbal) how their Micro:bits are collecting and transmitting data. Final formative check before exam.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-uojul9z5",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Revision of key concepts for Assessment 2 and conducting the Data Exam.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Practice exam questions (teacher-created)\nPrevious student datasets (Excel)\nMicro:bit devices for demonstration",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Revision of key concepts for Assessment 2, including structured data, data validation, data representation (integers and binary), and data communication (broadcast vs direct). Explicit teaching of exam strategies, including interpreting questions, structuring short and extended responses, and using correct terminology.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete guided revision activities, including practice exam questions and collaborative review tasks. Use Micro:bit examples and previously created Excel datasets to reinforce concepts.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 2 – Data Exam conducted under exam conditions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-9s9gd5gu",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to algorithms and computational thinking. Understanding sequence, selection and iteration.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit online tutorials (control structures, loops)\nTeacher exemplars",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to algorithms and computational thinking. Understanding sequence, selection and iteration in simple programs.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students create simple Micro:bit programs using control structures (loops, if statements). Test and modify programs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of student ability to design and implement simple algorithms.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-7qokouej",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Tracing and evaluating algorithms. Predicting outputs and identifying errors.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (debugging)\nTeacher-created tracing worksheets",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Tracing and evaluating algorithms. Predicting outputs and identifying errors.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students trace given Micro:bit programs and debug faulty code. Modify programs to achieve desired outputs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Short applied task: students explain how a given program works and identify errors.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-7x1rx8ew",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Data transmission in networks. Wireless communication concepts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (radio communication)\nClass set of Micro:bits",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data transmission in networks. How Micro:bits communicate using radio (broadcast vs direct communication).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students program Micro:bits to send and receive messages between devices. Experiment with broadcast and targeted communication.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Observation and questioning to assess understanding of communication types.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-ws6eh9ca",
+      "week": {
+        "value": 11,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Data security and reliability. Simple encryption and secure communication.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (radio + variables)\nTeacher-created encryption activities",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data security and reliability. Introduction to simple encryption concepts and why secure communication matters.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students implement simple encoded messages between Micro:bits. Test reliability of communication.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative task: students demonstrate and explain a secure or encoded communication example.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-9bz78181",
+      "week": {
+        "value": 12,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to wearable technology. Unpacking Assessment 3.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Teacher slides/examples of wearable tech\nMicro:bit project gallery\nAssessment task sheet",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to wearable technology. Exploring real-world examples and defining user needs and purposes.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students investigate examples of wearable tech and brainstorm possible project ideas linked to data collection.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 3 introduced. Task sheet unpacked, criteria explained, examples analysed.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-uheisnk5",
+      "week": {
+        "value": 13,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Defining problems, user stories, and addressing ethical considerations and data privacy.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Planning templates\nMicro:bit sensor guides",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Defining problems and user stories. Identifying data needs and ethical considerations (privacy, relevance of data).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop a project idea and write a simple user story. Begin planning how data will be collected using Micro:bit sensors.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Submission of initial project proposal for feedback.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-69m4j27t",
+      "week": {
+        "value": 14,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Designing algorithms and representing them using flowcharts and pseudocode.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowchart templates\nMicro:bit tutorials (advanced inputs/outputs)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Designing algorithms and systems. Representing ideas using flowcharts and pseudocode.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design the logic for their wearable solution (flowcharts/pseudocode) and begin initial coding.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-z1grj3u4",
+      "week": {
+        "value": 15,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Prototyping, iterative design, and building physical solutions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bits, craft/electronics materials\nTeacher exemplars",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Prototyping and iterative design. Testing and refining solutions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin building their wearable prototype using Micro:bit and materials.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Progress check against design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-5mynvhov",
+      "week": {
+        "value": 16,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Ensuring data collection accuracy and data analysis in student projects.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "ORB Education Excel documents (analysis tasks)\nMicro:bit devices",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Data collection and analysis in projects. Ensuring accuracy and relevance of collected data.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students test their wearable device and collect sample data. Analyse results using Excel.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Checkpoint: evidence of data collection and initial analysis.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-58yczoeu",
+      "week": {
+        "value": 17,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Debugging and refinement of code and design based on evaluation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Micro:bit tutorials (debugging)\nTeacher feedback notes",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Debugging and improving solutions. Evaluating effectiveness against criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students refine code and physical design of their wearable solution.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher conferencing on progress and improvements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-af12g3lq",
+      "week": {
+        "value": 18,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "User experience, usability testing, and exploring design impact.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Evaluation checklists\nPeer feedback tools",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "User experience and design impact. Considering usability and ethical implications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise wearable design and ensure functionality meets user needs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Draft submission or prototype demonstration.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-tm2ygy87",
+      "week": {
+        "value": 19,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Communicating digital solutions and preparing the final project submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Presentation templates\nRubric/criteria sheet",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Communicating digital solutions. Structuring explanations and justifications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students prepare final presentation (multimodal or demonstration).",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Final submission of Assessment 3.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-6gt6g40x",
+      "week": {
+        "value": 20,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Final reflections and peer evaluations of projects.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Reflection prompts\nPeer assessment sheets",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Reflection on learning across the unit. Connections between data, systems, and design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students present projects and participate in peer evaluation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Reflection task and final evaluation of project.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

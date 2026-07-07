@@ -1,0 +1,705 @@
+{
+  "id": "unit-7-1-digital-literacy",
+  "levelPlanId": "digital-technologies-band-7-8-2026",
+  "yearLevel": {
+    "value": 7,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Digital Literacy",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft (Validated)",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop foundational digital literacy skills by learning to confidently and responsibly use common digital tools and systems. Through practical, hands-on activities, students explore Microsoft Word, PowerPoint and Excel to create, manage and communicate information using appropriate conventions. The unit also introduces key concepts in cybersecurity, digital footprints and emerging technologies such as artificial intelligence, helping students understand how data is created, shared and protected in networked environments. Across the term, students build skills in selecting suitable digital tools, managing files and data, and using technology safely and ethically, preparing them for further learning in Digital Technologies and other learning areas.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-87sl6hxf",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Digital Tasks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will create a digital portfolio that demonstrates their learning across the term through a collection of completed tasks and reflections. The portfolio includes evidence of using word processing, presentation and spreadsheet tools to create, organise, analyse and communicate information, as well as activities focused on cybersecurity awareness, safe online behaviour and responsible use of AI tools. Students are expected to select and use digital tools efficiently, apply common conventions, manage data accurately, and demonstrate an understanding of how information is shared and secured online. The portfolio provides ongoing evidence of skill development, responsible digital practices and the ability to reflect on learning progress over time, aligned to the Year 7–8 Digital Technologies standards.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Other",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "10 A4 PowerPoint slides that may include annotated graphical representations or equivalent media pages",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Week 10",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 7\nConferencing: Week 9",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-71e3b60f",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Data representation",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how digital systems represent text, image and audio data using integers",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9caed1bc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d3b37b16",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and visualise data using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-060948d3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0a7071dc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1ff60ad8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P12",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-03804c84",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Privacy and security",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P13",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-63udn2sj",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Draw conclusions and provide reasons",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "These elements are evident in the PowerPoint assessment.",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-w0qdsc1i",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Practising digital safety and wellbeing: Manage online safety; Manage digital privacy and identity\nInvestigating: Acquire and collate data; Interpret data\nCreating and exchanging: Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Protect content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "These elements are evident in the PowerPoint assessment.",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": true,
+        "dl-safety-privacy-identity": true,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": true,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-wwnzordf",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "These elements are evident in the PowerPoint assessment.",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-n5n23a8f",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Number patterns and algebraic thinking\nStatistics and probability: Interpreting and representing data",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "These elements are evident in the PowerPoint assessment.",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": true,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": true
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-jp7nfez8",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to the subject and expectations. Students are introduced to digital literacy and its importance in everyday life and learning. Explicit teaching of school digital systems including Microsoft Teams and OneDrive, focusing on how data is stored in the cloud and accessed across devices. Introduction to responsible use of technology, including appropriate online behaviour and basic digital safety expectations.\n\nPrac: Students log into school systems, navigate Microsoft Teams, and access class materials. Practical activities include creating folders in OneDrive, saving, renaming and organising files, and submitting a simple task through Teams. Students practise uploading, downloading and locating files to build confidence with file management.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide step-by-step visual guides for logging in and navigating platforms. Use teacher modelling and screen sharing to support understanding. Allow additional time for students unfamiliar with devices. Pair students strategically for peer support. Provide printed instructions where required and reduce task complexity for students needing support.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft Teams, OneDrive, student devices, school login details, projector for demonstrations, step-by-step instruction sheets, sample files for practice.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the subject and expectations. Students are introduced to digital literacy and its importance in everyday life and learning. Explicit teaching of school digital systems including Microsoft Teams and OneDrive, focusing on how data is stored in the cloud and accessed across devices. Introduction to responsible use of technology, including appropriate online behaviour and basic digital safety expectations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students log into school systems, navigate Microsoft Teams, and access class materials. Practical activities include creating folders in OneDrive, saving, renaming and organising files, and submitting a simple task through Teams. Students practise uploading, downloading and locating files to build confidence with file management.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "No formal assessment. Teacher observation and informal checks used to gauge student confidence with systems and identify support needs.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-0gzk2d5q",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to word processing and the purpose of digital documents. Explicit teaching of formatting conventions including font styles, headings, alignment, spacing and document layout. Discussion of why consistent formatting improves communication and readability.\n\nPrac: Students create a simple document in Microsoft Word. They practise typing, editing text, applying formatting (bold, headings, alignment), and inserting images. Activities include creating a short “About Me” or similar document using required formatting conventions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide document templates and partially completed examples. Offer scaffolded instructions with visual cues. Allow speech-to-text for students with writing difficulties. Reduce the amount of required text where necessary. Provide extension tasks for advanced students (e.g. adding tables or more advanced formatting).",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft Word, sample documents, formatting checklist, scaffolded templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to word processing and the purpose of digital documents. Explicit teaching of formatting conventions including font styles, headings, alignment, spacing and document layout. Discussion of why consistent formatting improves communication and readability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students create a simple document in Microsoft Word. They practise typing, editing text, applying formatting (bold, headings, alignment), and inserting images. Activities include creating a short “About Me” or similar document using required formatting conventions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "No formal assessment. Teacher provides feedback on formatting, layout and ability to follow instructions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-7r37hvjz",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Development of document design principles including audience, purpose and structure. Introduction to more advanced Word features such as tables, images with text wrapping, and use of styles. Discussion of how digital tools support communication.\n\nPrac: Students refine their document from Week 2 or create a new structured document (e.g. report or flyer). They incorporate headings, images, tables and improved layout. Focus on improving clarity, organisation and visual appeal.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide structured templates for extended tasks. Break tasks into smaller steps with checkpoints. Offer one-on-one support where needed. Allow alternative formats (e.g. simplified layout tasks) for students requiring adjustment. Provide challenge tasks such as independent design choices for higher-ability students.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft Word, exemplar documents, template files, checklist for document design, teacher modelling materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Development of document design principles including audience, purpose and structure. Introduction to more advanced Word features such as tables, images with text wrapping, and use of styles. Discussion of how digital tools support communication.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students refine their document from Week 2 or create a new structured document (e.g. report or flyer). They incorporate headings, images, tables and improved layout. Focus on improving clarity, organisation and visual appeal.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "No formal assessment. Ongoing teacher feedback with a focus on improvement and application of conventions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-l1aia4w9",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to presentation design and the purpose of visual communication. Students learn key principles of effective presentations including slide layout, minimal text, use of visuals, and audience engagement. Discussion of how presentations differ from written documents.\n\nPrac: Students begin using Microsoft PowerPoint. They create a short presentation (e.g. “About Me” or a topic of interest), applying basic slide layouts, inserting images, and using consistent design themes. Students practise organising information across multiple slides.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide slide templates with pre-set layouts. Use modelling to demonstrate good vs poor slide design. Allow students to work from guided examples. Reduce the number of required slides if needed. Provide extension opportunities such as adding transitions or custom layouts.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft PowerPoint, example presentations, design checklist, templates, projector for modelling.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to presentation design and the purpose of visual communication. Students learn key principles of effective presentations including slide layout, minimal text, use of visuals, and audience engagement. Discussion of how presentations differ from written documents.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin using Microsoft PowerPoint. They create a short presentation (e.g. “About Me” or a topic of interest), applying basic slide layouts, inserting images, and using consistent design themes. Students practise organising information across multiple slides.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "No formal assessment. Teacher provides feedback on slide design, readability and organisation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-kvhipmzp",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to spreadsheets as tools for modelling structured data. Explicit teaching of data types, cell referencing, and basic mathematical formulas (SUM, AVERAGE). Overview of the 'Digital Tasks' portfolio assessment, focusing on technical requirements for data analysis and visual representation.\n\nPrac: Students use Microsoft Excel to enter and format datasets. They apply basic formulas to calculate totals and averages. Students initiate their Digital Tasks portfolio, creating the structure for their evidence collection and drafting the spreadsheet component using a provided dataset.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide a portfolio template with required slide structure. Break assessment into clear checkpoints. Offer one-on-one conferencing for students needing additional support. Allow alternative ways to present information (e.g. more visual, less text). Provide extension through additional design features or deeper reflection.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft Excel, Digital Tasks Assessment Task Sheet, sample datasets, St Brendan's College OneDrive, projector for live software demonstrations.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to spreadsheets as tools for modelling structured data. Explicit teaching of data types, cell referencing, and basic mathematical formulas (SUM, AVERAGE). Overview of the 'Digital Tasks' portfolio assessment, focusing on technical requirements for data analysis and visual representation.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use Microsoft Excel to enter and format datasets. They apply basic formulas to calculate totals and averages. Students initiate their Digital Tasks portfolio, creating the structure for their evidence collection and drafting the spreadsheet component using a provided dataset.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Commencement of Assessment 1: Digital Tasks. Students define the layout of their portfolio and complete initial spreadsheet data entry tasks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Spreadsheets for Data Analysis and Assessment Commencement",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:43:02.021Z"
+      }
+    },
+    {
+      "id": "week-y7zc0fib",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to Artificial Intelligence (AI) and Machine Learning (ML). Students explore how digital systems use algorithms to identify patterns in data and make predictions. Discussion of real-world AI applications, including recommendation engines and generative tools, and how hardware capabilities support AI processing.\n\nPrac: Students engage with interactive AI simulators and machine learning models to observe how training data affects output. They participate in 'unplugged' activities to model how neural networks process simple binary decisions to achieve complex outcomes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide step-by-step guides for Excel tasks. Use simplified datasets for students needing support. Allow use of formula prompts or scaffolds. Pair students for collaborative support. Provide extension tasks such as exploring additional formulas.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "AI training simulators (e.g., Teachable Machine), curriculum-aligned video content on ML, logic gate worksheets, interactive whiteboard.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to Artificial Intelligence (AI) and Machine Learning (ML). Students explore how digital systems use algorithms to identify patterns in data and make predictions. Discussion of real-world AI applications, including recommendation engines and generative tools, and how hardware capabilities support AI processing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage with interactive AI simulators and machine learning models to observe how training data affects output. They participate in 'unplugged' activities to model how neural networks process simple binary decisions to achieve complex outcomes.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Portfolio evidence collection: Students document their observations of AI pattern recognition and add descriptive reflections to their digital portfolio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to Artificial Intelligence and Ethical Implications",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:43:02.021Z"
+      }
+    },
+    {
+      "id": "week-o0bornze",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination of the ethical considerations surrounding AI, with a focus on data bias and privacy. Students investigate how biased datasets lead to inaccurate or unfair outcomes. Discussion of responsible AI use, intellectual property, and the importance of human-in-the-loop verification for AI-generated content.\n\nPrac: Students perform a bias-detection exercise using skewed datasets to see how AI outputs change. They use generative AI tools to produce content and apply a critical evaluation framework to check for accuracy, bias, and adherence to design criteria.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide guided examples of graph creation. Offer pre-prepared datasets for students needing support. Break tasks into smaller steps. Provide additional teacher support for interpreting data. Extend capable students with more complex datasets or multiple graph types.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "AI ethics case studies, critical evaluation templates, school's Responsible Use of AI policy, access to approved generative AI platforms.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of the ethical considerations surrounding AI, with a focus on data bias and privacy. Students investigate how biased datasets lead to inaccurate or unfair outcomes. Discussion of responsible AI use, intellectual property, and the importance of human-in-the-loop verification for AI-generated content.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a bias-detection exercise using skewed datasets to see how AI outputs change. They use generative AI tools to produce content and apply a critical evaluation framework to check for accuracy, bias, and adherence to design criteria.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative checkpoint: Teacher review of the AI ethics section within the digital portfolio. Feedback provided on students' ability to identify impacts of emerging technologies.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Exploring Generative AI Tools and Digital Impacts",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:43:02.021Z"
+      }
+    },
+    {
+      "id": "week-124lltnw",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to cybersecurity threats and personal data protection. Students examine the impact of phishing, social engineering, and malware on individuals and organisations. Explicit teaching on personal security controls, including the importance of complex passwords and the role of multi-factor authentication (MFA) in securing digital identities. Discussion on digital footprints and the permanence of data shared in networked environments.\n\nPrac: Students participate in a phishing identification workshop, analysing suspicious emails and messages for common red flags. They use digital tools to test password strength and simulate the setup of MFA. Students begin drafting the cybersecurity awareness component of their digital portfolio, documenting strategies for maintaining personal security online.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Use simplified scenarios and real-world examples. Provide visual supports and guided discussions. Allow verbal responses where appropriate. Scaffold tasks with clear examples. Extend students with deeper analysis of cybersecurity issues.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Cybersecurity slide deck, phishing simulation examples, password strength checkers, Microsoft Teams, digital portfolio template.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to cybersecurity threats and personal data protection. Students examine the impact of phishing, social engineering, and malware on individuals and organisations. Explicit teaching on personal security controls, including the importance of complex passwords and the role of multi-factor authentication (MFA) in securing digital identities. Discussion on digital footprints and the permanence of data shared in networked environments.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in a phishing identification workshop, analysing suspicious emails and messages for common red flags. They use digital tools to test password strength and simulate the setup of MFA. Students begin drafting the cybersecurity awareness component of their digital portfolio, documenting strategies for maintaining personal security online.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of the Digital Portfolio. Teacher provides feedback on the cybersecurity reflection and identification of threats.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Cyber Security Fundamentals",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:46:41.295Z"
+      }
+    },
+    {
+      "id": "week-zt967eik",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Exploration of data privacy and the technical measures used to secure information. Students investigate how data is protected during transmission via encryption and the importance of secure protocols (HTTPS). Discussion on the ethical collection of data and how privacy settings on social media and gaming platforms function to protect user information from unauthorised access.\n\nPrac: Students conduct a privacy audit of common digital platforms, identifying how to adjust settings to minimise data exposure. They perform simple encryption and decryption activities to understand how information is obscured for security. Students finalise the cybersecurity and data protection sections of their portfolio.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide structured reflection prompts. Allow alternative formats for demonstrating understanding. Offer additional support during conferencing. Reduce workload where necessary. Extend students through deeper evaluation of AI and ethical implications.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Encryption simulation tools, privacy policy excerpts, social media privacy guides, Microsoft PowerPoint, St Brendan's College student portal.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of data privacy and the technical measures used to secure information. Students investigate how data is protected during transmission via encryption and the importance of secure protocols (HTTPS). Discussion on the ethical collection of data and how privacy settings on social media and gaming platforms function to protect user information from unauthorised access.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a privacy audit of common digital platforms, identifying how to adjust settings to minimise data exposure. They perform simple encryption and decryption activities to understand how information is obscured for security. Students finalise the cybersecurity and data protection sections of their portfolio, ensuring all practical evidence is annotated.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative conferencing for the Digital Portfolio. Students self-assess against the checklist to ensure all unit components (Word, Excel, AI, Cyber) are represented.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Cyber Security and Data Protection",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:46:41.295Z"
+      }
+    },
+    {
+      "id": "week-1b8sn9iu",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Unit synthesis and reflection. Students review the core pillars of digital literacy explored throughout the term: file management, professional communication, data analysis in Excel, the ethical use of AI, and cybersecurity practices. Guidance is provided on final submission protocols and the importance of metadata and file naming conventions when submitting professional work.\n\nPrac: Students complete the final curation of their Digital Portfolio. This involves checking formatting consistency, ensuring all links and embedded objects function correctly, and writing a final reflection on their development of digital skills. The completed portfolio is submitted via Microsoft Teams for formal assessment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "Provide final checklist and structured support for submission. Allow extra time where required. Offer one-on-one assistance for students needing help finalising work. Adjust expectations as needed based on individual student needs.",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment rubric, final submission checklist, Microsoft Teams Assignment portal, student digital portfolios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Unit synthesis and reflection. Students review the core pillars of digital literacy explored throughout the term: file management, professional communication, data analysis in Excel, the ethical use of AI, and cybersecurity practices. Guidance is provided on final submission protocols and the importance of metadata and file naming conventions when submitting professional work.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the final curation of their Digital Portfolio. This involves checking formatting consistency, ensuring all links and embedded objects function correctly, and writing a final reflection on their development of digital skills. The completed portfolio is submitted via Microsoft Teams for formal assessment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative Assessment: Digital Tasks (Portfolio) submission. Evidence evaluated against Year 7-8 Achievement Standards for creating, managing, and communicating digital solutions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Portfolio Finalisation and Assessment",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-04T20:46:41.295Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

@@ -1,0 +1,1403 @@
+{
+  "id": "unit-1e1aa452",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 9,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Unit 1 — Engineering",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate the engineering principles behind bridge design, with a focus on how forces, materials, and structural systems interact to create safe and effective structures. Students explore tension, compression, load distribution, and stability, and examine how material properties influence strength, durability, and sustainability. Through analysis of real-world bridges and hands-on design tasks, students develop an understanding of how engineers consider technical, environmental, and practical factors when designing engineered solutions. The unit builds students’ knowledge of materials and forces while developing their ability to apply the design process to solve authentic engineering problems.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-71b2e5f3",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Materials and forces exam",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students complete an examination that assesses their understanding of the engineering concepts underpinning bridge design. The exam includes questions on forces such as tension, compression, and load distribution, as well as the characteristics and properties of materials used in bridge construction. Students also explain the factors engineers must consider when designing bridges, including safety, sustainability, materials selection, and intended use. This assessment focuses on students’ ability to analyse engineering principles and apply theoretical knowledge to real-world design contexts.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Examination",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 1, Week 6",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Exams cross marked across department.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-6bd58c1b",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ba17d3d1",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-10e63835",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-542d75fc",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d39957b2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bd839bb5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2b519960",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e3c86530",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8a720138",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "uassess-a49f9c33",
+      "assessmentNumber": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Paddle-pop stick bridges",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this collaborative design project, students work in groups to apply the full design process to create a paddle pop stick bridge in response to a given design scenario. Students analyse the problem, develop a design brief, research forces and materials, generate and prototype design ideas, and construct a bridge using appropriate tools and techniques. They test and evaluate their bridge against design criteria, refine their solution based on testing results, and present their final design and justification to an audience. This assessment emphasises teamwork, project management, safe production skills, and the ability to evaluate and communicate engineered solutions using engineering and sustainability considerations.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 2, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 3\nConferencing: Week 6\nCross marking within the department.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-ace3db0b",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1ee8a61c",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7a6dcc60",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-09575dc4",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-60e541ff",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6425a090",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-596bcde0",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7de3f2e3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-11e6983a",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-191e7f97",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-6264813a",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan; Create, communicate and collaborate",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-d49fb804",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts; Examine values, rights and responsibilities, and ethical norms\nResponding to ethical issues: Explore ethical issues; Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-9d84def1",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reflecting on culture and cultural diversity: Examine cultural perspectives and world views\nEngaging with cultural and linguistic diversity: Develop multiple perspectives",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": true,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": true,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-3e74ba94",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts; Grammar; Punctuation; Spelling",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": true,
+        "lit-punctuation": true,
+        "lit-spelling": true,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-899f6774",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-d49a2146",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Social awareness: Community awareness",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": true,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-b0b47ae7",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to engineering principles and the evolution of bridge design. Analysis of the functional requirements of engineered solutions and the impact of bridge structures on local and global communities.\n\nPrac: Identification of bridge types (beam, arch, truss, suspension) through visual analysis. Physical modeling of basic bridge forms using paper and tape to explore structural integrity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering textbooks, architectural diagrams of bridge types, paper, masking tape, weights.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to engineering principles and the evolution of bridge design. Analysis of the functional requirements of engineered solutions and the impact of bridge structures on local and global communities.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Identification of bridge types (beam, arch, truss, suspension) through visual analysis. Physical modeling of basic bridge forms using paper and tape to explore structural integrity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Diagnostic task: Identification of bridge types and structural components. No formal marks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introdfasdfasduction to Engineering Principles and Structural Systems",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-2db6cb47",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination of internal forces acting on structures, specifically tension and compression. Discussion on how different bridge designs manage these forces to maintain stability.\n\nPrac: Hands-on experimentation with foam or sponge models to visualise tension (stretching) and compression (squashing). Students document observations using force diagrams.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Foam structural models, weights, digital cameras for recording deformation, force diagram templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of internal forces acting on structures, specifically tension and compression. Discussion on how different bridge designs manage these forces to maintain stability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Hands-on experimentation with foam or sponge models to visualise tension (stretching) and compression (squashing). Students document observations using force diagrams.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Force diagram sketches and identification of stress points in various truss designs.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Analysis of Forces: Tension, Compression, and Shear in Structures",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-b317383b",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation of load distribution, including static loads (dead load of the bridge) and dynamic loads (moving traffic, wind). Analysis of how load-bearing members transfer weight to foundations.\n\nPrac: Building simple beam structures and measuring deflection under varying weights to understand the relationship between span and load capacity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Spring scales, calibrated weights, timber beams of varying thicknesses, measuring callipers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation of load distribution, including static loads (dead load of the bridge) and dynamic loads (moving traffic, wind). Analysis of how load-bearing members transfer weight to foundations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Building simple beam structures and measuring deflection under varying weights to understand the relationship between span and load capacity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher observation of practical data collection and deflection measurement accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Load Distribution and Structural Stability in Bridge Design",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-13248ec3",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Analysis of material properties including strength-to-weight ratio, elasticity, and hardness. Comparing traditional materials like stone and timber with contemporary materials such as high-tensile steel and reinforced concrete.\n\nPrac: Material testing lab. Students conduct destructive and non-destructive tests on various materials to determine their suitability for engineering applications.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample materials (steel, timber, plastic, concrete), testing rigs, safety glasses, property data sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Analysis of material properties including strength-to-weight ratio, elasticity, and hardness. Comparing traditional materials like stone and timber with contemporary materials such as high-tensile steel and reinforced concrete.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Material testing lab. Students conduct destructive and non-destructive tests on various materials to determine their suitability for engineering applications.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Worksheet: Comparison of material properties and justification of selection for specific bridge components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Material Science: Mechanical Properties and Sustainability Factors",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-6deca391",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Exploration of sustainability in engineering, focusing on the life cycle of materials and the environmental impact of construction. Introduction to ethics in design and the importance of safety factors.\n\nPrac: Review for Assessment 1. Revision of forces, load distribution, and material properties through collaborative problem-solving and past paper analysis.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Life cycle assessment (LCA) infographics, revision booklets, sample exam questions.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of sustainability in engineering, focusing on the life cycle of materials and the environmental impact of construction. Introduction to ethics in design and the importance of safety factors.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Review for Assessment 1. Revision of forces, load distribution, and material properties through collaborative problem-solving and past paper analysis.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Revision quiz: Engineering principles and material science in preparation for Week 6 exam.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Case Studies: Evaluating Engineering Solutions in Real-World Contexts",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-af03d59f",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination procedures and protocols. Analysis of complex engineering problems under supervised conditions.\n\nPrac: Completion of Assessment 1: Materials and forces exam. Post-exam reflection on engineering terminology and application of theory to real-world contexts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Examination papers, calculators, drawing instruments.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination procedures and protocols. Analysis of complex engineering problems under supervised conditions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of Assessment 1: Materials and forces exam. Post-exam reflection on engineering terminology and application of theory to real-world contexts.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 1: Materials and forces exam (Examination).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Summative Assessment 1: Materials and Forces Examination",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-947087e5",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to the design process: investigating and defining. Deconstructing the design brief for the bridge project and identifying constraints, considerations, and success criteria.\n\nPrac: Initial research into bridge failures (e.g., Tacoma Narrows) to identify what makes a design unsuccessful. Students start an investigation log to document findings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design brief document, internet access for research, case study videos on engineering failures.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the design process: investigating and defining. Deconstructing the design brief for the bridge project and identifying constraints, considerations, and success criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Initial research into bridge failures (e.g., Tacoma Narrows) to identify what makes a design unsuccessful. Students start an investigation log to document findings.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Investigation Log: Initial research and deconstruction of the project brief.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The Design Process: Defining Problems and Developing Design Briefs",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-0661c0db",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Instruction on technical drawing conventions, including orthogonal projection and isometric sketching. The role of graphical representation in communicating complex engineered solutions.\n\nPrac: Practical drawing exercises focusing on representing truss designs accurately to scale. Introduction to 2D CAD software for digital drafting.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Drawing boards, T-squares, set squares, CAD software (e.g., AutoCAD or Onshape).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction on technical drawing conventions, including orthogonal projection and isometric sketching. The role of graphical representation in communicating complex engineered solutions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical drawing exercises focusing on representing truss designs accurately to scale. Introduction to 2D CAD software for digital drafting.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Portfolio entry: Technical drawings of three different truss configurations.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Research and Investigation: Structural Systems and Material Limitations",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-99acce83",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to prototyping as a method for testing design ideas. Importance of iterative design and responding to physical evidence. Workshop safety inductions for the use of cutting and joining tools.\n\nPrac: Safe use of precision cutters and adhesives. Construction of 'mini-prototypes' to test joinery techniques using paddle-pop sticks.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Safety glasses, craft knives, PVA glue, hot glue guns, safety posters, scrap timber.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to prototyping as a method for testing design ideas. Importance of iterative design and responding to physical evidence. Workshop safety inductions for the use of cutting and joining tools.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Safe use of precision cutters and adhesives. Construction of 'mini-prototypes' to test joinery techniques using paddle-pop sticks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Safety Induction: Successful completion of tool safety test and joinery sample.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Ideation: Generating and Representing Original Design Concepts",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-2619d050",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Case studies of iconic bridges and the engineering innovations that enabled them. Discussion on social and economic factors influencing bridge location and design.\n\nPrac: Peer-review of initial design concepts. Students provide and receive feedback based on the established success criteria from the design brief.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Case study articles (Sydney Harbour Bridge, Golden Gate Bridge), feedback templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Case studies of iconic bridges and the engineering innovations that enabled them. Discussion on social and economic factors influencing bridge location and design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Peer-review of initial design concepts. Students provide and receive feedback based on the established success criteria from the design brief.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-feedback sheets and design concept refinement notes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Technical Communication: Orthogonal and Perspective Drawing Techniques",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-a4e53754",
+      "week": {
+        "value": 11,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Launch of the Project: Paddle-pop stick bridges. Review of constraints: limited materials, specific span, and load-bearing requirements. Formulating group management strategies.\n\nPrac: Group selection and role allocation. Detailed analysis of the project requirements and commencement of the project management plan.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment 2 task sheet, project management templates, group contract forms.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Launch of the Project: Paddle-pop stick bridges. Review of constraints: limited materials, specific span, and load-bearing requirements. Formulating group management strategies.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Group selection and role allocation. Detailed analysis of the project requirements and commencement of the project management plan.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Project Plan: Group member roles and initial project timeline.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project Management: Developing Sequence, Cost, and Action Plans",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-1cb0a765",
+      "week": {
+        "value": 12,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Divergent thinking techniques for generating original design ideas. Application of SCAMPER (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to bridge structures.\n\nPrac: Rapid ideation sketching. Groups generate a minimum of four distinct design concepts for their bridge structure, evaluating each against the brief.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sketchpads, pencils, SCAMPER prompts, bridge design software (e.g., West Point Bridge Designer).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Divergent thinking techniques for generating original design ideas. Application of SCAMPER (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to bridge structures.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Rapid ideation sketching. Groups generate a minimum of four distinct design concepts for their bridge structure, evaluating each against the brief.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Ideation folio: Annotated sketches of multiple design concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Prototyping: Testing Structural Integrity of Component Joints",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-85f75dae",
+      "week": {
+        "value": 13,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Refining design solutions based on research and initial testing. Principles of triangulation and structural stability in truss design. Detailed production planning.\n\nPrac: Development of final production drawings at 1:1 scale. These drawings will serve as the construction template (jig) for the bridge assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "A3 grid paper, tracing paper, masking tape, rulers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Refining design solutions based on research and initial testing. Principles of triangulation and structural stability in truss design. Detailed production planning.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Development of final production drawings at 1:1 scale. These drawings will serve as the construction template (jig) for the bridge assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Production Drawings: 1:1 scale plans showing all members and joint details.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Safety and Production: Workshop Inductions and Tool Selection",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-37207446",
+      "week": {
+        "value": 14,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Project management: sequenced time, cost, and action plans. Managing resources and risks in a production environment. Estimating material quantities and budgeting.\n\nPrac: Preparation of a sequenced production plan. Calculating the number of paddle-pop sticks required and preparing a cutting list to minimise waste.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Gantt chart software or templates, material cost sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Project management: sequenced time, cost, and action plans. Managing resources and risks in a production environment. Estimating material quantities and budgeting.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Preparation of a sequenced production plan. Calculating the number of paddle-pop sticks required and preparing a cutting list to minimise waste.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Management Plan: Sequenced action plan and material list.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Production: Executing Plans for Substructure Fabrication",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-a4428846",
+      "week": {
+        "value": 15,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Material preparation and accuracy in engineering. The importance of consistency in component size for load distribution. Reiteration of safe cutting techniques.\n\nPrac: Production phase 1: Selecting and preparing paddle-pop sticks. Cutting members to size according to the production drawings and categorising components for assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Paddle-pop sticks (bulk), side cutters, sanding blocks, storage bins.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Material preparation and accuracy in engineering. The importance of consistency in component size for load distribution. Reiteration of safe cutting techniques.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Production phase 1: Selecting and preparing paddle-pop sticks. Cutting members to size according to the production drawings and categorising components for assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher observation: Safe workshop practices and accuracy of prepared components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Production: Assembly and Integration of the Bridge Superstructure",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-ea9c36ec",
+      "week": {
+        "value": 16,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Adhesive science: curing times and bond strength. Techniques for creating strong lap joints and gusset plates in timber structures.\n\nPrac: Production phase 2: Commencing the assembly of truss sides. Using the 1:1 drawings as a jig to ensure symmetry and structural alignment. Gluing and clamping components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA glue, wood glue, clamps, wax paper (to prevent sticking to drawings).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Adhesive science: curing times and bond strength. Techniques for creating strong lap joints and gusset plates in timber structures.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Production phase 2: Commencing the assembly of truss sides. Using the 1:1 drawings as a jig to ensure symmetry and structural alignment. Gluing and clamping components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Production log: Documentation of assembly progress and any adjustments made to the plan.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Quality Assurance: Monitoring and Refining Designed Solutions",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-53a1a12d",
+      "week": {
+        "value": 17,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: 3D assembly and bracing. The importance of lateral bracing to prevent buckling under vertical loads. Analysis of how forces are transferred from the deck to the trusses.\n\nPrac: Production phase 3: Connecting truss sides with cross-members and bracing. Construction of the bridge deck. Ensuring the structure is square and stable.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Spirit levels, squares, additional bracing materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "3D assembly and bracing. The importance of lateral bracing to prevent buckling under vertical loads. Analysis of how forces are transferred from the deck to the trusses.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Production phase 3: Connecting truss sides with cross-members and bracing. Construction of the bridge deck. Ensuring the structure is square and stable.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Quality control check: Structural alignment and joint integrity assessment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Testing Methodologies: Collecting Data on Load-Bearing Capacity",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-88a33974",
+      "week": {
+        "value": 18,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Testing methodologies: destructive vs. non-destructive testing. Establishing a fair testing environment. Introduction to data collection for efficiency calculations (Load / Bridge Mass).\n\nPrac: Preliminary non-destructive load testing. Identifying weak points and applying reinforcements where necessary. Final finishing and aesthetic touches.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Testing rig, bucket and sand or weights, digital scales.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Testing methodologies: destructive vs. non-destructive testing. Establishing a fair testing environment. Introduction to data collection for efficiency calculations (Load / Bridge Mass).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Preliminary non-destructive load testing. Identifying weak points and applying reinforcements where necessary. Final finishing and aesthetic touches.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Pre-test report: Identification of predicted failure points.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Evaluation: Analysing Performance Against Prescribed Design Criteria",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-cf0c5124",
+      "week": {
+        "value": 19,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Presentation and evaluation. Justifying design choices using engineering terminology. Reflecting on group collaboration and project management effectiveness.\n\nPrac: Completion of Assessment 2: Destructive load testing. Groups present their bridges and justifications before testing to failure and recording results.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Heavy-duty testing rig, safety shield, data recording sheets, video camera.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Presentation and evaluation. Justifying design choices using engineering terminology. Reflecting on group collaboration and project management effectiveness.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of Assessment 2: Destructive load testing. Groups present their bridges and justifications before testing to failure and recording results.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 2: Paddle-pop stick bridges (Project).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Summative Assessment 2: Structural Testing and Solution Justification",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    },
+    {
+      "id": "week-35091ad9",
+      "week": {
+        "value": 20,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Unit reflection and future focus. Evaluating the success of the bridge designs against the criteria. Introduction to future trends in engineering: smart materials, 3D printed bridges, and automated construction.\n\nPrac: Finalisation of the design portfolio. Students complete the evaluation section, including an analysis of the testing data and suggestions for future improvements.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Testing data, digital portfolio templates, articles on emerging engineering technologies.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Unit reflection and future focus. Evaluating the success of the bridge designs against the criteria. Introduction to future trends in engineering: smart materials, 3D printed bridges, and automated construction.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Finalisation of the design portfolio. Students complete the evaluation section, including an analysis of the testing data and suggestions for future improvements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Completed Design Portfolio and Evaluation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Reflection: Future Trends and Sustainability in Engineering Design",
+        "aiNotes": "",
+        "lastGenerated": "2026-06-24T01:15:43.393Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

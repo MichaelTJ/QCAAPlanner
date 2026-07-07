@@ -1,0 +1,544 @@
+Band 9–10 Design and Technologies 2026
+Curriculum and assessment plan
+St Brendan's College (Yeppoon)
+Level description Context and cohort considerations
+By the end of Year 10 students should have had the opportunity to design and produce at least 4 designed solutions focused on one or more of the 4 technologies contexts:
+• Engineering principles and systems
+• Food and fibre production
+• Food specialisations
+• Materials and technologies specialisations.
+Students should have opportunities to experience creating designed solutions for products, services and environments.
+Students use design and technologies knowledge and understanding, processes and production skills and design thinking to produce designed solutions for identified needs or opportunities
+of relevance to individuals and local, regional or global communities. They work independently and collaboratively. Problem-solving activities acknowledge the complexities of contemporary
+life and make connections to related specialised occupations and further study. Increasingly, study has a global perspective, with opportunities to understand the complex interdependencies
+involved in the development of technologies and enterprises.
+Students specifically focus on preferred futures, taking into account ethics; legal issues; social values; and economic, environmental and social sustainability factors; and use strategies such
+as life cycle thinking. They use critical thinking, creativity, innovation and enterprise skills with increasing confidence, independence and collaboration. Students analyse data, evaluate design
+ideas and technologies, respond to feedback, and evaluate design processes used to inform designed solutions for preferred futures.
+Using a range of technologies including a variety of graphical representation techniques to communicate, students generate and represent original ideas and production plans in 2-
+dimensional and 3-dimensional representations. These techniques will be specific to the technologies context and may include scale, perspective, orthogonal and production drawings with
+sectional and exploded views. Students produce rendered, illustrated views for marketing and use graphic visualisation software to produce dynamic views of design ideas and designed
+solutions.
+Students identify the steps involved in planning the production of designed solutions. They develop detailed project management plans, incorporating elements such as sequenced time, cost
+and action plans, to manage design tasks safely. Students apply management plans, making adjustments when necessary, to successfully complete design tasks. They identify and establish
+safety procedures that minimise risk and manage projects with safety and efficiency in mind, maintaining safety standards and management procedures to ensure success.
+Unit 1 — Engineering Unit 2 — Sustainability Unit 3 — Product Unit 4 — Cooking
+Year level 9 9 10 10
+Duration 1 Semester 1 Semester 1 Semester 1 Term
+Description In this unit, students investigate the engineering
+principles behind bridge design, with a focus on
+how forces, materials, and structural systems
+interact to create safe and effective structures.
+Students explore tension, compression, load
+distribution, and stability, and examine how material
+properties influence strength, durability, and
+sustainability. Through analysis of real-world
+bridges and hands-on design tasks, students
+develop an understanding of how engineers
+consider technical, environmental, and practical
+factors when designing engineered solutions. The
+unit builds students’ knowledge of materials and
+forces while developing their ability to apply the
+design process to solve authentic engineering
+problems.
+In this unit, students explore sustainable living
+through the lens of resilience and self-sufficiency,
+examining how designed solutions can support
+survival and wellbeing in extreme or off-grid
+scenarios. Students investigate sustainability from
+ecological, economic, and social perspectives,
+considering how ethical decision-making,
+resource management, and long-term impacts
+influence design choices. Through analysis of
+real-world sustainable systems such as energy,
+water, food production, and shelter, students
+develop an understanding of how designers
+and engineers respond to challenges related to
+security, sustainability, and human needs. The
+unit emphasises thoughtful planning, innovation,
+and the responsible use of technologies to create
+sustainable living environments.
+In this unit, students explore commercial design
+by examining how products are developed to meet
+user needs and succeed in competitive markets.
+Students investigate market analysis, target
+audiences, product design and manufacturing
+processes, and basic business principles such
+as value proposition, cost, and sustainability.
+Through analysis of existing commercial products
+and innovation case studies, students develop
+an understanding of how designers balance
+functionality, aesthetics, ethical considerations,
+and commercial viability. The unit emphasises
+innovation, enterprise skills, and informed decision-
+making in the development of market-ready
+designed solutions.
+In this unit, students explore food design and
+preparation through the use of a virtual kitchen
+environment. They investigate how food trends
+have evolved over time, comparing historical food
+practices with contemporary and emerging trends
+influenced by culture, technology, health, and
+sustainability. Students examine how sensory
+and functional properties of food affect design
+decisions, including flavour, texture, presentation,
+and nutritional value. By working in a virtual cooking
+space, students develop an understanding of how
+technologies can be used to design, test, and
+communicate food solutions in innovative and
+safe ways, while considering social and cultural
+influences on food choices.
+Design and Technologies Band 9–10 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 1 of 5
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 1 of 5 --
+
+Unit 1 — Engineering Unit 2 — Sustainability Unit 3 — Product Unit 4 — Cooking
+Assessment 1 — Materials and forces exam Assessment 3 — Doomsday Shelter Assessment 5 — Exam Assessment 7 — Food Trend Dish
+Term 1 3 2 1
+Week Week 6 Week 10 Week 6 Week 10
+Description In this assessment, students complete an
+examination that assesses their understanding
+of the engineering concepts underpinning bridge
+design. The exam includes questions on forces
+such as tension, compression, and load distribution,
+as well as the characteristics and properties of
+materials used in bridge construction. Students also
+explain the factors engineers must consider when
+designing bridges, including safety, sustainability,
+materials selection, and intended use. This
+assessment focuses on students’ ability to analyse
+engineering principles and apply theoretical
+knowledge to real-world design contexts.
+In this assessment, students design a sustainable
+doomsday shelter in response to a given scenario
+that requires living off the grid for an extended
+period of time. Students analyse the needs and
+constraints of the scenario, develop a design
+brief, and investigate systems and resources
+related to shelter, energy, water, food, and waste
+management. Using SketchUp, students create
+and refine a digital model of their shelter, justifying
+design decisions with reference to ecological,
+economic, and social sustainability considerations.
+Students evaluate their design against developed
+criteria, including sustainability and practicality, and
+communicate their solution using digital tools while
+demonstrating effective project planning and safe,
+appropriate use of technologies.
+In this assessment, students complete an
+examination that assesses their understanding
+of key commercial design principles. The exam
+includes questions on how designers analyse
+needs and opportunities, consider ethical and
+sustainability factors, and apply innovation and
+enterprise skills when developing commercial
+products. Students demonstrate knowledge
+of materials, systems, and manufacturing
+considerations, as well as basic business concepts
+such as target audiences, market needs, and value
+creation. This assessment focuses on students’
+ability to explain and apply foundational commercial
+design knowledge to authentic product design
+contexts.
+In this assessment, students analyse historical
+and modern food trends and select one trend as
+the basis for a designed food solution. Students
+develop a design brief and plan a dish that reflects
+the chosen trend, considering sensory, functional,
+and sustainability factors. Using a virtual kitchen,
+students design and prepare their dish and
+create a VR cooking video that demonstrates the
+preparation process and final outcome. Students
+justify their design decisions in relation to the
+selected food trend and evaluate their solution
+against developed criteria, communicating their
+ideas and processes using digital technologies.
+Technique Examination Project Examination Project
+Mode Written Multimodal Written Multimodal
+Conditions • up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 100 words per item, up to
+600 words for the task
+• extended response 200–300 words per item,
+up to 600 words for the task
+• 2–3 A3 pages or equivalent digital media
+pages that may include annotated graphical
+representations
+4–6 A3 pages or equivalent digital media pages that
+may include annotated graphical representations
+• up to 90 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 100 words per item, up to
+600 words for the task
+• extended response 200–300 words per item,
+up to 600 words for the task
+• 2–3 A3 pages or equivalent digital media
+pages that may include annotated graphical
+representations
+4–6 A3 pages or equivalent digital media pages that
+may include annotated graphical representations
+Achievement standard By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+Design and Technologies Band 9–10 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 2 of 5
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 2 of 5 --
+
+Unit 1 — Engineering Unit 2 — Sustainability Unit 3 — Product Unit 4 — Cooking
+Moderation Exams cross marked across department. Exams are to be cross marked across the
+department.
+Cross marking within the department Monitoring: Week 6
+Conferencing: Week 8
+Assessment 2 — Paddle-pop stick bridges Assessment 4 — Sustainability Exam Assessment 6 — Shark Tank
+Term 2 4 3
+Week Week 9 Week 9 Week 5
+Description In this collaborative design project, students work
+in groups to apply the full design process to create
+a paddle pop stick bridge in response to a given
+design scenario. Students analyse the problem,
+develop a design brief, research forces and
+materials, generate and prototype design ideas,
+and construct a bridge using appropriate tools and
+techniques. They test and evaluate their bridge
+against design criteria, refine their solution based
+on testing results, and present their final design
+and justification to an audience. This assessment
+emphasises teamwork, project management,
+safe production skills, and the ability to evaluate
+and communicate engineered solutions using
+engineering and sustainability considerations.
+In this assessment, students complete an
+examination that assesses their understanding of
+key sustainability principles. The exam includes
+questions on how designers analyse needs and
+opportunities, consider ethical and sustainability
+factors. Students demonstrate knowledge of
+ecological, economical and societal sustainability
+as well as sketching and representation techniques.
+This assessment focuses on students’ ability
+to explain and apply foundational sustainability
+design knowledge across product, service and/or
+environmental design contexts.
+In this assessment, students respond to a given
+design situation by developing a commercial
+product for a specified target audience. Students
+follow the design process to analyse user needs
+and market factors, define a design brief, generate
+and prototype ideas, and evaluate and refine their
+solution against developed criteria. They consider
+materials, systems, manufacturing processes,
+sustainability, and commercial viability when
+making design decisions. Students communicate
+their final designed solution through appropriate
+representations and justify their decisions,
+demonstrating innovation, enterprise skills, and
+effective use of technologies throughout the design
+process.
+Technique Project Examination Project
+Mode Multimodal Written Multimodal
+Conditions 4–6 A3 pages or equivalent digital media pages that
+may include annotated graphical representations
+• up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 100 words per item, up to
+600 words for the task
+• extended response 200–300 words per item,
+up to 600 words for the task
+• 2–3 A3 pages or equivalent digital media
+pages that may include annotated graphical
+representations
+4–6 A3 pages or equivalent digital media pages that
+may include annotated graphical representations
+Achievement standard By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+By the end of Year 10 students explain how
+people consider factors that impact on design
+decisions and the technologies used to design and
+produce products, services and environments for
+sustainable living. They explain the contribution
+of innovation, enterprise skills and emerging
+technologies to global preferred futures. For one
+or more of the technologies contexts, students
+explain the features of technologies and their
+appropriateness for purpose, and create designed
+solutions based on an analysis of needs or
+opportunities. Students create, adapt and refine
+design ideas, processes and solutions and justify
+their decisions against developed design criteria
+that include sustainability. They communicate
+design ideas, processes and solutions to a range
+of audiences, including using digital tools. Students
+independently and collaboratively develop and
+apply production and project management plans,
+adjusting processes when necessary. They select
+and use technologies skilfully and safely to produce
+designed solutions.
+Design and Technologies Band 9–10 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 3 of 5
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 3 of 5 --
+
+Unit 1 — Engineering Unit 2 — Sustainability Unit 3 — Product Unit 4 — Cooking
+Moderation Monitoring: Week 3
+Conferencing: Week 6
+Cross marking within the department. Monitoring: Week 6
+Conferencing: Week 8
+Unit 5 — Empathy
+Year level 10
+Duration 1 Term
+Description In this unit, students develop an understanding of Australian and Aboriginal histories and cultures while building empathy as a core design skill. Students explore how culture, context, and lived experience influence
+design decisions, and examine the importance of ethical and respectful design when responding to Aboriginal perspectives. Through guided learning, students consider how designers can create solutions that
+acknowledge cultural significance, community needs, and social impact. The unit emphasises empathy, reflection, and responsible decision-making, encouraging students to design with awareness of Australia’s
+cultural diversity and shared histories.
+Assessment 8 — Human Centered Design
+Term 4
+Week Week 8
+Description In this assessment, students complete a designed solution task under exam-style time constraints to simulate working to a real-world deadline. Students are given an Australia-based design scenario and follow the
+final stages of the design process to generate, revise, evaluate, and refine a solution. Evaluation of the design must explicitly demonstrate empathy skills, including consideration of user perspectives, cultural context,
+and social impact. This assessment focuses on students’ ability to apply ethical, culturally informed, and reflective thinking to design decisions.
+Technique Examination
+Mode Written
+Conditions • up to 90 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 100 words per item, up to 600 words for the task
+• extended response 200–300 words per item, up to 600 words for the task
+• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations
+• design solutions as negotiated
+Achievement standard By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They
+explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their
+appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against
+developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop
+and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.
+Moderation Cross marked within the department.
+Content descriptions Units Content descriptions Units
+Knowledge and understanding 1 2 3 4 5 Processes and production skills 1 2 3 4 5
+Technologies and society
+analyse how people in design and technologies occupations consider ethical, security and
+sustainability factors to innovate and improve products, services and environments
+(AC9TDE10K01)
+✓ ✓ ✓ Investigating and defining
+analyse needs or opportunities for designing; develop design briefs; and investigate, analyse
+and select materials, systems, components, tools and equipment to create designed solutions
+(AC9TDE10P01)
+✓ ✓ ✓ ✓
+analyse the impact of innovation, enterprise and emerging technologies on designed solutions
+for global preferred futures
+(AC9TDE10K02)
+✓ ✓ ✓ Generating and designing
+apply innovation and enterprise skills to generate, test, iterate and communicate design ideas,
+processes and solutions, including using digital tools
+(AC9TDE10P02)
+✓ ✓ ✓ ✓ ✓
+Technologies context: Engineering principles and systems
+analyse and make judgements on how the characteristics and properties of materials are
+combined with force, motion and energy to control engineered systems
+(AC9TDE10K03)
+✓ Producing and implementing
+select, justify, test and use suitable technologies, skills and processes, and apply safety
+procedures to safely make designed solutions
+(AC9TDE10P03)
+✓ ✓ ✓ ✓
+Design and Technologies Band 9–10 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 4 of 5
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 4 of 5 --
+
+Content descriptions Units Content descriptions Units
+Knowledge and understanding 1 2 3 4 5 Processes and production skills 1 2 3 4 5
+Technologies context: Food and fibre production
+analyse and make judgements on the ethical, secure and sustainable production and marketing
+of food and fibre enterprises
+(AC9TDE10K04)
+✓ Evaluating
+develop design criteria independently including sustainability to evaluate design ideas,
+processes and solutions
+(AC9TDE10P04)
+✓ ✓ ✓ ✓ ✓
+Technologies context: Food specialisations
+analyse and make judgements on how the sensory and functional properties of food influence
+the design and preparation of sustainable food solutions for healthy eating
+(AC9TDE10K05)
+✓ Collaborating and managing
+develop project plans for intended purposes and audiences to individually and collaboratively
+manage projects, taking into consideration time, cost, risk, processes and production of designed
+solutions
+(AC9TDE10P05)
+✓ ✓
+Technologies context: Materials and technologies specialisations
+analyse and make judgements on how characteristics and properties of materials, systems,
+components, tools and equipment can be combined to create designed solutions
+(AC9TDE10K06)
+✓ ✓
+General capabilities Units
+1 2 3 4 5
+Critical and creative thinking ✓ ✓ ✓ ✓ ✓
+Digital literacy ✓ ✓
+Ethical understanding ✓ ✓ ✓ ✓ ✓
+Intercultural understanding ✓ ✓ ✓ ✓ ✓
+Literacy ✓ ✓ ✓ ✓
+Numeracy ✓
+Personal and social capability ✓ ✓ ✓
+Cross-curriculum priorities Units
+1 2 3 4 5
+Aboriginal and Torres Strait
+Islander histories and cultures ✓
+Asia and Australia's engagement
+with Asia
+Sustainability ✓ ✓ ✓
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest information and additional terms of use of the
+ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College (Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content,
+where required.
+Design and Technologies Band 9–10 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 5 of 5
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 5 of 5 --
+

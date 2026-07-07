@@ -1,0 +1,334 @@
+Band 7–8 Digital Technologies 2026
+Curriculum and assessment plan
+St Brendan's College (Yeppoon)
+Level description Context and cohort considerations
+By the end of Year 8 students should have had the opportunity to apply computational thinking by defining and decomposing real-world problems, creating user experiences, designing
+and modifying algorithms, and implementing them in a general-purpose programming language. This involves students practising problem decomposition, using approaches such as divide
+and conquer to more clearly understand a problem by describing its component parts. Students represent and communicate their algorithmic solutions using flowcharts and pseudocode.
+Students check their solutions meet the specifications by testing and debugging their algorithms before and during implementation. They develop a deeper understanding of abstraction by
+explaining how and why digital systems represent data as whole numbers, which are then represented in binary.
+Students build on their skills from Mathematics (Statistics) in acquiring and interpreting data. In Digital Technologies, students continue to advance these skills and are also given
+opportunities to validate the data they acquire to ensure it is accurate and consistent. They collect and transform many types of data from a wide range of sources. Students model structured
+data in meaningful ways using spreadsheets and single-table databases, and analyse and visualise the data to extract meaning from it.
+They apply design thinking by using divergent techniques, such as mind mapping, role-play and using graphic organisers, to generate design ideas for user experiences and solution designs.
+Students review these ideas against design criteria and created user stories throughout their implementation as general-purpose programming by assessing them against current and future
+needs. They extend the use of these design criteria and user stories to evaluate the future impact of existing solutions.
+Students apply systems thinking by exploring the connections between hardware capabilities and tasks users want to perform. They investigate how data is transmitted via wired and wireless
+networks and explain the need for encryption to protect and secure data. Students use an increasing range of the features of digital tools to improve their efficiency and the consistency of
+the content they create, locate and communicate. They plan and manage projects individually and collaboratively, improving their control over the quality of their content. Students investigate
+personal security controls, including multi-factor authentication, to protect their data if passwords are compromised, and they understand the impact of phishing and other cyber security
+threats on people and data.
+In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.
+Unit 1 — Digital Literacy Unit 2 — Wearable Technology Unit 3 — Cardbaord Arcade
+Year level 7 8 8
+Duration 1 Term 1 Semester 1 Semester
+Description In this unit, students develop foundational digital literacy skills by
+learning to confidently and responsibly use common digital tools and
+systems. Through practical, hands-on activities, students explore
+Microsoft Word, PowerPoint and Excel to create, manage and
+communicate information using appropriate conventions. The unit
+also introduces key concepts in cybersecurity, digital footprints and
+emerging technologies such as artificial intelligence, helping students
+understand how data is created, shared and protected in networked
+environments. Across the term, students build skills in selecting
+suitable digital tools, managing files and data, and using technology
+safely and ethically, preparing them for further learning in Digital
+Technologies and other learning areas.
+In this unit, students use Micro:bit devices to explore data,
+communication and physical computing in a practical and age-
+appropriate context. Students learn how Microbits collect, transmit
+and represent data, with a focus on radio communication, binary
+representation and basic data security concepts. Through guided
+investigations, students explore how data can be gathered from
+sensors, transmitted between devices and analysed to identify
+patterns and trends. In the second part of the unit, students apply
+these skills to design and create wearable technologies, combining
+computational thinking, data analysis and ethical considerations when
+collecting data about people.
+In this unit, students explore physical computing by learning to
+program Arduino microcontrollers and apply these skills to the design
+and construction of interactive arcade machines. Students develop an
+understanding of algorithms, basic programming structures, and how
+hardware specifications influence performance and functionality. The
+design process is emphasised through the use of user stories and
+design criteria, guiding students to create solutions that meet specific
+user needs. Through iterative design, testing and refinement, students
+combine computational thinking with creativity, problem-solving and
+hands-on construction skills.
+Assessment 1 — Digital Tasks Assessment 2 — Data Exam Assessment 4 — Hardware and Algorithms Exam
+Term 1 1 3
+Week Week 10 Week 7 Week 6
+Description Students will create a digital portfolio that demonstrates their
+learning across the term through a collection of completed tasks and
+reflections. The portfolio includes evidence of using word processing,
+presentation and spreadsheet tools to create, organise, analyse
+and communicate information, as well as activities focused on
+cybersecurity awareness, safe online behaviour and responsible
+In this assessment, students complete a written exam that assesses
+their understanding of how Microbits communicate and represent
+data. Students explain the differences between broadcast and direct
+radio communication, and demonstrate their understanding of how
+text, numbers and messages are represented using integers and
+binary. The exam also assesses students’ ability to model and
+In this assessment, students complete a written exam that assesses
+their understanding of foundational algorithms and hardware selection
+in the context of Arduino systems. Students demonstrate their
+ability to define and decompose problems, design and trace simple
+algorithms, and predict program outputs. The exam also evaluates
+students’ understanding of how hardware specifications affect
+Digital Technologies Band 7–8 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 1 of 4
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 1 of 4 --
+
+Unit 1 — Digital Literacy Unit 2 — Wearable Technology Unit 3 — Cardbaord Arcade
+use of AI tools. Students are expected to select and use digital tools
+efficiently, apply common conventions, manage data accurately,
+and demonstrate an understanding of how information is shared
+and secured online. The portfolio provides ongoing evidence of
+skill development, responsible digital practices and the ability to
+reflect on learning progress over time, aligned to the Year 7–8 Digital
+Technologies standards.
+reason about structured data, design and trace basic algorithms,
+and predict program outputs related to Microbit communication and
+simple encryption. This assessment provides evidence of students’
+conceptual understanding of data transmission, representation and
+algorithmic thinking.
+performance and how to select appropriate components for specific
+tasks. This assessment provides evidence of students’ theoretical
+knowledge and computational thinking skills that underpin practical
+digital solutions.
+Technique Other
+Portfolio
+Examination Examination
+Mode Multimodal Written Written
+Conditions 10 A4 PowerPoint slides that may include annotated graphical
+representations or equivalent media pages
+• up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 75 words per item, up to 400 words for the
+task
+• extended response 100–200 words per item, up to 400 words for
+the task
+• up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 75 words per item, up to 400 words for the
+task
+• extended response 100–200 words per item, up to 400 words for
+the task
+• 1–2 A3 pages or equivalent digital media that may include
+graphical representations with annotations
+Achievement standard By the end of Year 8 students develop and modify creative digital
+solutions, decompose real-world problems, and evaluate alternative
+solutions against user stories and design criteria. Students acquire,
+interpret and model data with spreadsheets and represent data with
+integers and binary. They design and trace algorithms and implement
+them in a general-purpose programming language. Students select
+appropriate hardware for particular tasks, explain how data is
+transmitted and secured in networks, and identify cyber security
+threats. They select and use a range of digital tools efficiently
+and responsibly to create, locate and share content; and to plan,
+collaborate on and manage projects. Students manage their digital
+footprint.
+By the end of Year 8 students develop and modify creative digital
+solutions, decompose real-world problems, and evaluate alternative
+solutions against user stories and design criteria. Students acquire,
+interpret and model data with spreadsheets and represent data with
+integers and binary. They design and trace algorithms and implement
+them in a general-purpose programming language. Students select
+appropriate hardware for particular tasks, explain how data is
+transmitted and secured in networks, and identify cyber security
+threats. They select and use a range of digital tools efficiently
+and responsibly to create, locate and share content; and to plan,
+collaborate on and manage projects. Students manage their digital
+footprint.
+By the end of Year 8 students develop and modify creative digital
+solutions, decompose real-world problems, and evaluate alternative
+solutions against user stories and design criteria. Students acquire,
+interpret and model data with spreadsheets and represent data with
+integers and binary. They design and trace algorithms and implement
+them in a general-purpose programming language. Students select
+appropriate hardware for particular tasks, explain how data is
+transmitted and secured in networks, and identify cyber security
+threats. They select and use a range of digital tools efficiently
+and responsibly to create, locate and share content; and to plan,
+collaborate on and manage projects. Students manage their digital
+footprint.
+Moderation Monitoring: Week 7
+Conferencing: Week 9
+Cross marked within the department Cross marking to be completed within the department
+Assessment 3 — Wearable Tech Assessment 5 — Arcade Machine
+Term 2 4
+Week Week 9 Week 9
+Description In this assessment, students design and develop a wearable
+Microbit-based solution to collect and analyse data related to a
+given investigation task. Students plan how data will be gathered
+using appropriate sensors, design algorithms to collect and store
+the data, and use digital tools to analyse and visualise results to
+draw conclusions. They select suitable hardware, design the user
+experience, manage the project process and evaluate their solution
+against design criteria and user needs. Students also demonstrate
+responsible and ethical data collection practices, reflecting on the
+purpose and impact of their digital solution.
+In this assessment, students design and build a functioning cardboard
+arcade machine based on a provided user profile and set of user
+stories. Students apply the design process to define requirements,
+establish design criteria, and plan a solution that meets the needs
+of the target user. They design the user experience, develop and
+test algorithms, and implement programs using Arduino hardware
+and sensors. Students iteratively refine their designs, evaluate
+their solutions against the design criteria and user stories, and
+communicate their ideas using appropriate digital tools. The project
+demonstrates students’ ability to integrate hardware selection,
+programming, creative design and project management to develop a
+complete digital solution.
+Technique Investigation Project
+Mode Multimodal Multimodal
+Digital Technologies Band 7–8 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 2 of 4
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 2 of 4 --
+
+Unit 1 — Digital Literacy Unit 2 — Wearable Technology Unit 3 — Cardbaord Arcade
+Conditions 2–4 A3 pages or equivalent digital media pages that may include
+annotated graphical representations
+2–4 A3 pages or equivalent digital media pages that may include
+annotated graphical representations
+Achievement standard By the end of Year 8 students develop and modify creative digital
+solutions, decompose real-world problems, and evaluate alternative
+solutions against user stories and design criteria. Students acquire,
+interpret and model data with spreadsheets and represent data with
+integers and binary. They design and trace algorithms and implement
+them in a general-purpose programming language. Students select
+appropriate hardware for particular tasks, explain how data is
+transmitted and secured in networks, and identify cyber security
+threats. They select and use a range of digital tools efficiently
+and responsibly to create, locate and share content; and to plan,
+collaborate on and manage projects. Students manage their digital
+footprint.
+By the end of Year 8 students develop and modify creative digital
+solutions, decompose real-world problems, and evaluate alternative
+solutions against user stories and design criteria. Students acquire,
+interpret and model data with spreadsheets and represent data with
+integers and binary. They design and trace algorithms and implement
+them in a general-purpose programming language. Students select
+appropriate hardware for particular tasks, explain how data is
+transmitted and secured in networks, and identify cyber security
+threats. They select and use a range of digital tools efficiently
+and responsibly to create, locate and share content; and to plan,
+collaborate on and manage projects. Students manage their digital
+footprint.
+Moderation Monitoring: Week 6
+Conferencing: Week 8
+Monitoring: Week 6
+Conferencing: Week 8
+Content descriptions Units Content descriptions Units
+Knowledge and understanding 1 2 3 Processes and production skills 1 2 3
+Digital systems
+explain how hardware specifications affect performance and select appropriate hardware for particular tasks
+and workloads
+(AC9TDI8K01)
+✓ ✓ Acquiring, managing and analysing data
+acquire, store and validate data from a range of sources using software, including spreadsheets and
+databases
+(AC9TDI8P01)
+✓ ✓
+investigate how data is transmitted and secured in wired and wireless networks including the internet
+(AC9TDI8K02) ✓ ✓ ✓ analyse and visualise data using a range of software, including spreadsheets and databases, to draw
+conclusions and make predictions by identifying trends
+(AC9TDI8P02)
+✓ ✓
+Data representation
+investigate how digital systems represent text, image and audio data using integers
+(AC9TDI8K03)
+✓ ✓ model and query the attributes of objects and events using structured data
+(AC9TDI8P03) ✓
+explain how and why digital systems represent integers in binary
+(AC9TDI8K04) ✓ Investigating and defining
+define and decompose real-world problems with design criteria and by creating user stories
+(AC9TDI8P04)
+✓ ✓
+Generating and designing
+design algorithms involving nested control structures and represent them using flowcharts and pseudocode
+(AC9TDI8P05)
+✓ ✓
+trace algorithms to predict output for a given input and to identify errors
+(AC9TDI8P06) ✓ ✓
+design the user experience of a digital system
+(AC9TDI8P07) ✓ ✓
+generate, modify, communicate and evaluate alternative designs
+(AC9TDI8P08) ✓ ✓ ✓
+Producing and implementing
+implement, modify and debug programs involving control structures and functions in a general-purpose
+programming language
+(AC9TDI8P09)
+✓ ✓
+Evaluating
+evaluate existing and student solutions against the design criteria, user stories and possible future impact
+(AC9TDI8P10)
+✓ ✓
+Digital Technologies Band 7–8 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 3 of 4
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 3 of 4 --
+
+Content descriptions Units Content descriptions Units
+Knowledge and understanding 1 2 3 Processes and production skills 1 2 3
+Collaborating and managing
+select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and
+communicate content, consistently applying common conventions
+(AC9TDI8P11)
+✓ ✓ ✓
+select and use a range of digital tools efficiently and responsibly to share content online, and plan and
+manage individual and collaborative agile projects
+(AC9TDI8P12)
+✓ ✓ ✓
+Privacy and security
+explain how multi-factor authentication protects an account when the password is compromised and identify
+phishing and other cyber security threats
+(AC9TDI8P13)
+✓
+investigate and manage the digital footprint existing systems and student solutions collect and assess if the
+data is essential to their purpose
+(AC9TDI8P14)
+✓
+General capabilities Units
+1 2 3
+Critical and creative thinking ✓ ✓ ✓
+Digital literacy ✓ ✓ ✓
+Ethical understanding ✓
+Intercultural understanding
+Literacy ✓ ✓
+Numeracy ✓ ✓ ✓
+Personal and social capability
+Cross-curriculum priorities Units
+1 2 3
+Aboriginal and Torres Strait
+Islander histories and cultures
+Asia and Australia's engagement
+with Asia
+Sustainability
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest information and additional terms of use of the
+ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College (Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content,
+where required.
+Digital Technologies Band 7–8 2026
+Year level/band plan
+St Brendan's College (Yeppoon)
+Page 4 of 4
+Printed: 26/03/2026
+Status: Approved for use
+
+-- 4 of 4 --
+

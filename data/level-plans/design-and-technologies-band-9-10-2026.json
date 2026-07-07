@@ -1,0 +1,1638 @@
+{
+  "id": "design-and-technologies-band-9-10-2026",
+  "bandSubjectTitle": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "school": {
+    "value": "St Brendan's College (Yeppoon)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Approved for use",
+    "aiNotes": ""
+  },
+  "levelDescription": {
+    "value": "By the end of Year 10 students should have had the opportunity to design and produce at least 4 designed solutions focused on one or more of the 4 technologies contexts:\n• Engineering principles and systems\n• Food and fibre production\n• Food specialisations\n• Materials and technologies specialisations.\nStudents should have opportunities to experience creating designed solutions for products, services and environments.\nStudents use design and technologies knowledge and understanding, processes and production skills and design thinking to produce designed solutions for identified needs or opportunities of relevance to individuals and local, regional or global communities. They work independently and collaboratively. Problem-solving activities acknowledge the complexities of contemporary life and make connections to related specialised occupations and further study. Increasingly, study has a global perspective, with opportunities to understand the complex interdependencies involved in the development of technologies and enterprises.\nStudents specifically focus on preferred futures, taking into account ethics; legal issues; social values; and economic, environmental and social sustainability factors; and use strategies such as life cycle thinking. They use critical thinking, creativity, innovation and enterprise skills with increasing confidence, independence and collaboration. Students analyse data, evaluate design ideas and technologies, respond to feedback, and evaluate design processes used to inform designed solutions for preferred futures.\nUsing a range of technologies including a variety of graphical representation techniques to communicate, students generate and represent original ideas and production plans in 2-dimensional and 3-dimensional representations. These techniques will be specific to the technologies context and may include scale, perspective, orthogonal and production drawings with sectional and exploded views. Students produce rendered, illustrated views for marketing and use graphic visualisation software to produce dynamic views of design ideas and designed solutions.\nStudents identify the steps involved in planning the production of designed solutions. They develop detailed project management plans, incorporating elements such as sequenced time, cost and action plans, to manage design tasks safely. Students apply management plans, making adjustments when necessary, to successfully complete design tasks. They identify and establish safety procedures that minimise risk and manage projects with safety and efficiency in mind, maintaining safety standards and management procedures to ensure success.",
+    "aiNotes": ""
+  },
+  "contextAndCohortConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "units": [
+    {
+      "id": "unit-f50q9mk9",
+      "unitTitle": {
+        "value": "Unit 1 — Engineering",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Semester",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate the engineering principles behind bridge design, with a focus on how forces, materials, and structural systems interact to create safe and effective structures. Students explore tension, compression, load distribution, and stability, and examine how material properties influence strength, durability, and sustainability. Through analysis of real-world bridges and hands-on design tasks, students develop an understanding of how engineers consider technical, environmental, and practical factors when designing engineered solutions. The unit builds students’ knowledge of materials and forces while developing their ability to apply the design process to solve authentic engineering problems.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-e4fn9ps8",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Materials and forces exam",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 6,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students complete an examination that assesses their understanding of the engineering concepts underpinning bridge design. The exam includes questions on forces such as tension, compression, and load distribution, as well as the characteristics and properties of materials used in bridge construction. Students also explain the factors engineers must consider when designing bridges, including safety, sustainability, materials selection, and intended use. This assessment focuses on students’ ability to analyse engineering principles and apply theoretical knowledge to real-world design contexts.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Exams cross marked across department.",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-e7vn40gk",
+          "assessmentNumber": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Paddle-pop stick bridges",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this collaborative design project, students work in groups to apply the full design process to create a paddle pop stick bridge in response to a given design scenario. Students analyse the problem, develop a design brief, research forces and materials, generate and prototype design ideas, and construct a bridge using appropriate tools and techniques. They test and evaluate their bridge against design criteria, refine their solution based on testing results, and present their final design and justification to an audience. This assessment emphasises teamwork, project management, safe production skills, and the ability to evaluate and communicate engineered solutions using engineering and sustainability considerations.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 3\nConferencing: Week 6\nCross marking within the department.",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-h2fd7vxk",
+      "unitTitle": {
+        "value": "Unit 2 — Sustainability",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Semester",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students explore sustainable living through the lens of resilience and self-sufficiency, examining how designed solutions can support survival and wellbeing in extreme or off-grid scenarios. Students investigate sustainability from ecological, economic, and social perspectives, considering how ethical decision-making, resource management, and long-term impacts influence design choices. Through analysis of real-world sustainable systems such as energy, water, food production, and shelter, students develop an understanding of how designers and engineers respond to challenges related to security, sustainability, and human needs. The unit emphasises thoughtful planning, innovation, and the responsible use of technologies to create sustainable living environments.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-97ed703b",
+          "assessmentNumber": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Doomsday Shelter",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 10,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students design a sustainable doomsday shelter in response to a given scenario that requires living off the grid for an extended period of time. Students analyse the needs and constraints of the scenario, develop a design brief, and investigate systems and resources related to shelter, energy, water, food, and waste management. Using SketchUp, students create and refine a digital model of their shelter, justifying design decisions with reference to ecological, economic, and social sustainability considerations. Students evaluate their design against developed criteria, including sustainability and practicality, and communicate their solution using digital tools while demonstrating effective project planning and safe, appropriate use of technologies.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 6\nConferencing: Week 8",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-29fcc0c5",
+          "assessmentNumber": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Sustainability Exam",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students complete an examination that assesses their understanding of key sustainability principles. The exam includes questions on how designers analyse needs and opportunities, consider ethical and sustainability factors. Students demonstrate knowledge of ecological, economical and societal sustainability as well as sketching and representation techniques. This assessment focuses on students’ ability to explain and apply foundational sustainability design knowledge across product, service and/or environmental design contexts.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Cross marking within the department.",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-50ezxdpw",
+      "unitTitle": {
+        "value": "Unit 3 — Product",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Semester",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students explore commercial design by examining how products are developed to meet user needs and succeed in competitive markets. Students investigate market analysis, target audiences, product design and manufacturing processes, and basic business principles such as value proposition, cost, and sustainability. Through analysis of existing commercial products and innovation case studies, students develop an understanding of how designers balance functionality, aesthetics, ethical considerations, and commercial viability. The unit emphasises innovation, enterprise skills, and informed decision-making in the development of market-ready designed solutions.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-xqfw64ib",
+          "assessmentNumber": {
+            "value": 5,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Exam",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 6,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students complete an examination that assesses their understanding of key commercial design principles. The exam includes questions on how designers analyse needs and opportunities, consider ethical and sustainability factors, and apply innovation and enterprise skills when developing commercial products. Students demonstrate knowledge of materials, systems, and manufacturing considerations, as well as basic business concepts such as target audiences, market needs, and value creation. This assessment focuses on students’ ability to explain and apply foundational commercial design knowledge to authentic product design contexts.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Exams are to be cross marked across the department.",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-mn1rgqvk",
+          "assessmentNumber": {
+            "value": 6,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Shark Tank",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 5,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students respond to a given design situation by developing a commercial product for a specified target audience. Students follow the design process to analyse user needs and market factors, define a design brief, generate and prototype ideas, and evaluate and refine their solution against developed criteria. They consider materials, systems, manufacturing processes, sustainability, and commercial viability when making design decisions. Students communicate their final designed solution through appropriate representations and justify their decisions, demonstrating innovation, enterprise skills, and effective use of technologies throughout the design process.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 6\nConferencing: Week 8",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-8srai3xa",
+      "unitTitle": {
+        "value": "Unit 4 — Cooking",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Term",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students explore food design and preparation through the use of a virtual kitchen environment. They investigate how food trends have evolved over time, comparing historical food practices with contemporary and emerging trends influenced by culture, technology, health, and sustainability. Students examine how sensory and functional properties of food affect design decisions, including flavour, texture, presentation, and nutritional value. By working in a virtual cooking space, students develop an understanding of how technologies can be used to design, test, and communicate food solutions in innovative and safe ways, while considering social and cultural influences on food choices.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-9b3v7ht8",
+          "assessmentNumber": {
+            "value": 7,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Food Trend Dish",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 10,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students analyse historical and modern food trends and select one trend as the basis for a designed food solution. Students develop a design brief and plan a dish that reflects the chosen trend, considering sensory, functional, and sustainability factors. Using a virtual kitchen, students design and prepare their dish and create a VR cooking video that demonstrates the preparation process and final outcome. Students justify their design decisions in relation to the selected food trend and evaluate their solution against developed criteria, communicating their ideas and processes using digital technologies.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 6\nConferencing: Week 8",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-7vduw2c6",
+      "unitTitle": {
+        "value": "Unit 5 — Empathy",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Term",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop an understanding of Australian and Aboriginal histories and cultures while building empathy as a core design skill. Students explore how culture, context, and lived experience influence design decisions, and examine the importance of ethical and respectful design when responding to Aboriginal perspectives. Through guided learning, students consider how designers can create solutions that acknowledge cultural significance, community needs, and social impact. The unit emphasises empathy, reflection, and responsible decision-making, encouraging students to design with awareness of Australia’s cultural diversity and shared histories.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-4p4tw72z",
+          "assessmentNumber": {
+            "value": 8,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Human Centered Design",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 8,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students complete a designed solution task under exam-style time constraints to simulate working to a real-world deadline. Students are given an Australia-based design scenario and follow the final stages of the design process to generate, revise, evaluate, and refine a solution. Evaluation of the design must explicitly demonstrate empathy skills, including consideration of user perspectives, cultural context, and social impact. This assessment focuses on students’ ability to apply ethical, culturally informed, and reflective thinking to design decisions.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task\n• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations\n• design solutions as negotiated",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Cross marked within the department.",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "cd-5twwvy9u",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-wwhu6qmp",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-52ui1uvo",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-1fc5lipi",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-iy62vkyv",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-ndjxk0tw",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-pxzvyw73",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-axbolkls",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-tk5kqipe",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-f3c0eb5b",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-x5cclw7f",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "cap-dk7olzni",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "cct-inquiring": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "cct-inquiring-develop-questions": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-inquiring-identify-process-evaluate": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-create-possibilities": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-consider-alternatives": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-put-ideas-into-action": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-interpret-concepts": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-draw-conclusions": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-evaluate-actions": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting-metacognition": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting-transfer-knowledge": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-ai6or7q4",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "categoryInclusions": {
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-exchanging": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operating": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "dl-safety-manage-online": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-privacy-identity": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-locate": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-acquire": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-interpret": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-plan": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-communicate-collaborate": [
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-ip": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-content": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-protect": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operate": [
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-7d50zhun",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "eu-concepts": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "eu-concepts-explore": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-values-rights": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-influences": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-issues": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-decisions": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-2uorzhes",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "iu-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "iu-reflecting-cultures-identities": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-perspectives": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-influence": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-communicate": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-perspectives": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-responses": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-biases": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-ohd3fbby",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "categoryInclusions": {
+        "lit-speaking-listening": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-reading-viewing": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-writing": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "lit-listening": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-interacting": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-speaking": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-understanding-texts": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonic-knowledge": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-fluency": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-creating-texts": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-grammar": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-punctuation": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-spelling": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-handwriting-keyboarding": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-0lst0iq7",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "num-number-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measurement-geometry": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-statistics-probability": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "num-place-value": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-counting": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-additive": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-multiplicative": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-fractions": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-proportional": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-patterns-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-money": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-units-measurement": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-geometric-properties": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-positioning": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measuring-time": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-chance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-data": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-bch49y50",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "psc-self-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-self-management": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-management": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "psc-personal-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-reflective-practice": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-goal-setting": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-perseverance": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-relational-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-community-awareness": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-communication": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-collaboration": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-leadership": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-decision-making": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "crossCurriculumPriorities": [
+    {
+      "id": "ccp-z6zyceel",
+      "name": {
+        "value": "Aboriginal and Torres Strait Islander histories and cultures",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "ccp-rubbzygj",
+      "name": {
+        "value": "Asia and Australia's engagement with Asia",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-ujb32if9",
+      "name": {
+        "value": "Sustainability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    }
+  ]
+}

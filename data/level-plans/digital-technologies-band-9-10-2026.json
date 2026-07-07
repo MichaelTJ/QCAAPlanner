@@ -1,0 +1,932 @@
+{
+  "id": "digital-technologies-band-9-10-2026",
+  "bandSubjectTitle": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "school": {
+    "value": "St Brendan's College (Yeppoon)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Approved for use",
+    "aiNotes": ""
+  },
+  "levelDescription": {
+    "value": "By the end of Year 10 students should have had the opportunity to apply computational thinking by defining and decomposing real-world problems, creating user experiences, designing and modifying algorithms, and implementing them, including in an object-oriented programming language. Students use techniques, including interviewing stakeholders to develop user stories, to increase the precision of their problem definitions and solution specifications. They verify their solutions solve the problem by validating their algorithms, represented as flowcharts and pseudocode, and using test cases to confirm the correctness of their solutions. Students develop their object-oriented programming skills, and apply them to develop, modify and debug programs. They explain the importance of abstraction by representing online documents in terms of content, structure and presentation, as well as exploring simple data compression techniques and comparing their effectiveness. Students consolidate their skills in data acquisition and interpretation, cleaning and validating data to ensure it is accurate, consistent and domain appropriate. They model multidimensional data in more complex spreadsheets and relational databases, filtering and querying it to give insights into its meaning, and to pose further questions or make conclusions. They visualise this data in customisable ways, allowing greater exploration of trends and outliers to support or challenge their analyses. Students apply design thinking by using divergent techniques to generate design ideas for user experiences and solutions. They filter and prototype these ideas, developing user stories and applying design criteria based on current and future needs and enterprising opportunities, as well as their created user stories, and revise and further develop their preferred ideas based on their analysis. Students extend on these design criteria and user stories to evaluate the enterprise opportunities and future impact of existing solutions. Students consolidate their systems thinking by exploring how the hardware and software components of digital systems interact to manage, control and secure access to data. They increasingly use advanced features of existing and emerging digital tools to create interactive content for a diverse audience. They explore simple tools that help plan tasks, timelines and responsibilities for individual and collaborative projects. Students extend their knowledge of the importance of security by developing cyber security threat models and exploring an example of a supply chain vulnerability. They critique the digital footprint created by existing systems and their own solutions by applying the Australian Privacy Principles.",
+    "aiNotes": ""
+  },
+  "contextAndCohortConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "units": [
+    {
+      "id": "unit-twnxcitm",
+      "unitTitle": {
+        "value": "Websites 101",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "5 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students will explore the foundational technologies behind the internet and how websites function. They will examine how digital systems use hardware and software to manage and secure access to data across networks. Through guided investigation and hands-on tasks, students will learn how websites are constructed by separating content, structure, and presentation using HTML and CSS. They will also be introduced to simple data compression techniques and understand their importance in efficient web communication.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-teot36ec",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Web Exam",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 5,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will complete a written exam that assesses their understanding of how websites function and how data is managed in networked digital systems.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "up to 50 minutes plus 10 minutes planning time; under supervised conditions; short response up to 100 words per item, up to 600 words for the task; extended response 200–300 words per item, up to 600 words for the task",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "A sample of student portfolios representing a range of achievement levels will be reviewed by another Digital Technologies teacher.",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-z6wtoifw",
+      "unitTitle": {
+        "value": "Cyber Security Site",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "15 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-5w2zlygh",
+          "assessmentNumber": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Cyber Security Site",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 8,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-ggx1tcsx",
+      "unitTitle": {
+        "value": "Microbits - Data Gathering and Analysis",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "20 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students will use micro:bit devices to collect real-world data and investigate how digital systems acquire, store, and process information.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-eq7h2679",
+          "assessmentNumber": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Data Collection",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 8,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and implement a micro:bit program to collect sports science–related data.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Investigation",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-mhke2g5d",
+          "assessmentNumber": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Wearable Sports Science",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and develop a wearable sports science data collection device using a micro:bit.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-27asibzk",
+      "unitTitle": {
+        "value": "Game Development",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "20 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students will design, develop, and analyse digital games using emerging game development platforms.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-jpal7ty6",
+          "assessmentNumber": {
+            "value": 5,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "GDevelop Game",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Design and develop an original digital game using GDevelop.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-ga2z2xl5",
+          "assessmentNumber": {
+            "value": 6,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Rec Room VR - Game Analyst",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Act as gameplay analysts for a VR shooter prototype.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "cd-fmxbcv2v",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how hardware and software manage, control and secure access to data in networked digital systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-hm0qfwus",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "represent documents online as content (text), structure (markup) and presentation (styling) and explain why such representations are important",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-z4xacz8m",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate simple data compression techniques",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-j2jsjvhk",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-0pray4vw",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and visualise data interactively using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends and outliers",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-morj7w6o",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "model and query entities and their relationships using structured data",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-mwslios3",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-ujnfk7xv",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-qkt0qv60",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "validate algorithms and programs by comparing their output against a range of test cases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-pmpmpwjw",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design and prototype the user experience of a digital system",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P07",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-e5qjzf7o",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, modify, communicate and critically evaluate alternative designs",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P08",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-0n1111pd",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P09",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-50kezqsh",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P10",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-7zi92yee",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P11",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "cd-ybsxsoi3",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P12",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-sdill0oh",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop cyber security threat models, and explore a software, user or software supply chain vulnerability",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P13",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-4qq2z3o0",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply the Australian Privacy Principles to critique and manage the digital footprint that existing systems and student solutions collect",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P14",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        false
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "cap-yjxviz6e",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cap-nsk2coa8",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cap-qg1eebf3",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cap-z58pfapr",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cap-pji2g6ui",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cap-t58d70ya",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cap-os2jiucr",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        false
+      ]
+    }
+  ],
+  "crossCurriculumPriorities": [
+    {
+      "id": "ccp-s1fo2avp",
+      "name": {
+        "value": "Aboriginal and Torres Strait Islander histories and cultures",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-10j6hli5",
+      "name": {
+        "value": "Asia and Australia's engagement with Asia",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-rd23w1qn",
+      "name": {
+        "value": "Sustainability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

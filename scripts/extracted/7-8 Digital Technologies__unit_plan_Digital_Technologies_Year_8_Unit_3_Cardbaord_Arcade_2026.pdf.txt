@@ -1,0 +1,667 @@
+Year 8 Digital Technologies
+Unit 3 — Cardbaord Arcade
+St Brendan's College (Yeppoon), 2026
+Unit overview Cohort and/or class considerations
+Start week: Term 3 Week 1
+Finish week: Term 4 Week 9
+In this unit, students explore physical computing by learning to program Arduino microcontrollers and apply these skills to the
+design and construction of interactive arcade machines. Students develop an understanding of algorithms, basic programming
+structures, and how hardware specifications influence performance and functionality. The design process is emphasised
+through the use of user stories and design criteria, guiding students to create solutions that meet specific user needs. Through
+iterative design, testing and refinement, students combine computational thinking with creativity, problem-solving and hands-on
+construction skills.
+Adjustments
+Student initials/identifier
+Year level/band against which
+the student is to be assessed
+Band 7–8
+Category of need
+Adjustment/s and/or key
+information
+Review of adjustments
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 1 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 1 of 13 --
+
+Assessment 4
+Year 8
+Title Hardware and Algorithms Exam
+Description In this assessment, students complete a written exam that assesses their understanding of foundational algorithms and hardware selection in the context
+of Arduino systems. Students demonstrate their ability to define and decompose problems, design and trace simple algorithms, and predict program
+outputs. The exam also evaluates students’ understanding of how hardware specifications affect performance and how to select appropriate components
+for specific tasks. This assessment provides evidence of students’ theoretical knowledge and computational thinking skills that underpin practical digital
+solutions.
+Technique Examination
+Mode Written
+Conditions • up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 75 words per item, up to 400 words for the task
+• extended response 100–200 words per item, up to 400 words for the task
+• 1–2 A3 pages or equivalent digital media that may include graphical representations with annotations
+Timing Week 6
+Achievement
+standard
+By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against
+user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design
+and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks,
+explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and
+responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.
+Moderation Cross marking to be completed within the department
+Content descriptions
+Knowledge and understanding Processes and production skills
+Digital systems
+explain how hardware specifications affect performance and select appropriate
+hardware for particular tasks and workloads
+(AC9TDI8K01)
+Investigating and defining
+define and decompose real-world problems with design criteria and by creating user
+stories
+(AC9TDI8P04)
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 2 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 2 of 13 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+Generating and designing
+design algorithms involving nested control structures and represent them using
+flowcharts and pseudocode
+(AC9TDI8P05)
+trace algorithms to predict output for a given input and to identify errors
+(AC9TDI8P06)
+Producing and implementing
+implement, modify and debug programs involving control structures and functions in
+a general-purpose programming language
+(AC9TDI8P09)
+Assessment 5
+Year 8
+Title Arcade Machine
+Description In this assessment, students design and build a functioning cardboard arcade machine based on a provided user profile and set of user stories. Students
+apply the design process to define requirements, establish design criteria, and plan a solution that meets the needs of the target user. They design the
+user experience, develop and test algorithms, and implement programs using Arduino hardware and sensors. Students iteratively refine their designs,
+evaluate their solutions against the design criteria and user stories, and communicate their ideas using appropriate digital tools. The project demonstrates
+students’ ability to integrate hardware selection, programming, creative design and project management to develop a complete digital solution.
+Technique Project
+Mode Multimodal
+Conditions 2–4 A3 pages or equivalent digital media pages that may include annotated graphical representations
+Timing Week 9
+Achievement
+standard
+By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against
+user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design
+and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks,
+explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and
+responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.
+Moderation Monitoring: Week 6
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 3 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 3 of 13 --
+
+Assessment 5
+Conferencing: Week 8
+Content descriptions
+Knowledge and understanding Processes and production skills
+Digital systems
+explain how hardware specifications affect performance and select appropriate
+hardware for particular tasks and workloads
+(AC9TDI8K01)
+Investigating and defining
+define and decompose real-world problems with design criteria and by creating user
+stories
+(AC9TDI8P04)
+investigate how data is transmitted and secured in wired and wireless networks
+including the internet
+(AC9TDI8K02)
+Generating and designing
+design algorithms involving nested control structures and represent them using
+flowcharts and pseudocode
+(AC9TDI8P05)
+trace algorithms to predict output for a given input and to identify errors
+(AC9TDI8P06)
+design the user experience of a digital system
+(AC9TDI8P07)
+generate, modify, communicate and evaluate alternative designs
+(AC9TDI8P08)
+Producing and implementing
+implement, modify and debug programs involving control structures and functions in
+a general-purpose programming language
+(AC9TDI8P09)
+Evaluating
+evaluate existing and student solutions against the design criteria, user stories and
+possible future impact
+(AC9TDI8P10)
+Collaborating and managing
+select and use a range of digital tools efficiently, including unfamiliar features, to
+create, locate and communicate content, consistently applying common conventions
+(AC9TDI8P11)
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 4 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 4 of 13 --
+
+Content descriptions
+Knowledge and understanding Processes and production skills
+select and use a range of digital tools efficiently and responsibly to share content
+online, and plan and manage individual and collaborative agile projects
+(AC9TDI8P12)
+General capabilities
+Critical and creative thinking
+• Inquiring
+- Develop questions
+- Identify, process and evaluate information
+• Generating
+- Create possibilities
+- Consider alternatives
+- Put ideas into action
+• Analysing
+- Interpret concepts and problems
+- Draw conclusions and provide reasons
+- Evaluate actions and outcomes
+• Reflecting
+- Transfer knowledge
+Digital literacy
+• Creating and exchanging
+- Plan
+- Create, communicate and collaborate
+- Respect intellectual property
+• Managing and operating
+- Manage content
+- Select and operate tools
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 5 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 5 of 13 --
+
+Numeracy
+Teaching and learning sequence
+Week Planning details Theory Practical Assessment
+Key teaching and
+learning experiences
+Students are introduced to digital systems
+and physical computing. They explore
+how hardware and software interact, with
+a focus on inputs, processes and outputs.
+Introduction to Arduino microcontrollers,
+including their purpose and real-world
+applications.
+Students set up Arduino environments
+and build their first simple circuit (e.g.
+LED). They upload and run a basic
+program to control an output device.
+Formative monitoring of student ability to
+correctly set up Arduino hardware and
+successfully upload a program. Teacher
+observation and questioning used to
+gauge understanding.
+Adjustments
+1
+Resources Arduino IDE (or web editor)
+Introductory Arduino tutorials (official
+Arduino website)
+Teacher demonstration slides on digital
+systems
+Key teaching and
+learning experiences
+Students learn about different types of
+inputs (buttons, sensors) and outputs
+(LEDs, buzzers). Introduction to basic
+programming concepts including variables
+and simple commands.
+Students build circuits using buttons and
+LEDs. They write simple programs to
+control outputs based on inputs.
+Formative monitoring through completion
+of set tasks. Students demonstrate ability
+to read input and produce an output.
+Adjustments
+2
+Resources Arduino component kits
+Circuit diagrams and worksheets
+Online Arduino tutorials (inputs and
+outputs)
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 6 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 6 of 13 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Introduction to algorithms and control
+structures. Students learn about
+conditional logic (if/else statements) and
+how decisions are made within programs.
+Students create programs that use
+conditionals to control outputs (e.g.
+LED turns on when button pressed).
+They begin linking logic to real-world
+interactions.
+Teacher observation of student ability
+to implement conditional logic correctly.
+Debugging support provided as needed.
+Adjustments
+3
+Resources Worked examples of pseudocode and
+simple algorithms
+Arduino tutorials on conditional
+statements
+Teacher-led demonstrations
+Key teaching and
+learning experiences
+Students develop understanding of
+algorithms as step-by-step processes.
+They learn to represent algorithms using
+flowcharts and pseudocode.
+Students design flowcharts for simple
+Arduino tasks, then implement them in
+code. They compare planned algorithms
+with actual program behaviour.
+Collection and review of student-created
+flowcharts and corresponding programs.
+Adjustments
+4
+Resources Flowchart templates
+Example algorithms and pseudocode
+Presentation slides on algorithm design
+Key teaching and
+learning experiences
+Students learn about iteration (loops)
+and the importance of debugging. They
+explore how repetition is used in programs
+and strategies for identifying and fixing
+errors.
+Students create programs using loops
+(e.g. flashing LED patterns). They test,
+debug and refine their code based on
+expected outputs.
+Formative assessment through debugging
+tasks. Students demonstrate ability to
+identify and correct errors in code.
+Adjustments
+5
+Resources Arduino tutorials on loops
+Debugging checklists
+Example faulty programs for
+troubleshooting
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 7 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 7 of 13 --
+
+Teaching and learning sequence
+Key teaching and
+learning experiences
+Revision of key concepts including digital
+systems, hardware selection, algorithms,
+control structures and debugging.
+Students complete guided review activities
+and practice questions.
+Students complete structured revision
+tasks, including tracing algorithms and
+predicting outputs.
+Summative assessment: Hardware
+and Algorithms Exam conducted under
+supervised conditions.
+Adjustments
+6
+Resources Revision worksheets
+Past/practice exam questions
+Teacher-prepared summary notes
+Key teaching and
+learning experiences
+Students build on prior knowledge by
+exploring systems that use multiple inputs
+and outputs. They examine how more
+complex digital systems are structured
+and how components interact. Introduction
+to modular thinking in programming.
+Students construct circuits that
+incorporate multiple components (e.g.
+button + LED + buzzer). They write
+programs that respond to multiple inputs
+and control different outputs.
+Formative monitoring of students’ ability
+to manage multiple inputs/outputs within a
+single program. Teacher observation and
+questioning.
+Adjustments
+7
+Resources Arduino component kits (expanded
+components)
+Circuit diagrams for multi-component
+systems
+Arduino tutorials on multiple inputs/outputs
+Key teaching and
+learning experiences
+Students are introduced to functions
+and modular programming. They learn
+how breaking programs into smaller
+parts improves readability, efficiency and
+debugging.
+Students refactor previous programs to
+include functions. They develop structured
+programs that reuse code for repeated
+behaviours.
+Teacher review of student programs to
+assess correct use of functions and code
+organisation.
+Adjustments
+8
+Resources Worked examples of modular code
+Arduino tutorials on functions
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 8 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 8 of 13 --
+
+Teaching and learning sequence
+Teacher modelling of code refactoring
+Key teaching and
+learning experiences
+Students are introduced to the design
+process, focusing on user-centred design.
+They explore user profiles, user stories,
+and design criteria. Discussion of what
+makes an engaging arcade game.
+Students analyse example arcade games
+and identify key features. They begin
+developing simple game ideas and draft
+initial user stories.
+Collection and feedback on initial user
+stories and game concepts.
+Adjustments
+9
+Resources Example user profiles and user stories
+Arcade game examples (videos or
+playable demos)
+Design process scaffolds
+Key teaching and
+learning experiences
+Students focus on designing algorithms
+for their game ideas. They learn to
+map interactions and game logic using
+flowcharts and pseudocode, including
+nested control structures.
+Students develop flowcharts and
+pseudocode for their proposed arcade
+games. They begin planning how inputs,
+outputs and timing will function within their
+system.
+Teacher feedback on algorithm designs to
+ensure feasibility and alignment with user
+stories.
+Adjustments
+10
+Resources Flowchart and pseudocode templates
+Worked examples of game logic
+Teacher modelling of algorithm design
+Key teaching and
+learning experiences
+Students are introduced to Assessment
+5: Arcade Machine project requirements,
+including success criteria and
+expectations. They revisit hardware
+selection and design constraints (including
+working with cardboard structures).
+Students finalise their game concept, user
+stories and design criteria. They select
+components and begin planning both the
+physical layout and digital system.
+Assessment 5 issued. Monitoring of
+student planning documentation (user
+stories, design criteria, initial sketches).
+Adjustments
+11
+Resources Assessment task sheet and marking guide
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 9 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 9 of 13 --
+
+Teaching and learning sequence
+Planning templates (design, user stories,
+criteria)
+Examples of simple arcade machine
+layouts
+Key teaching and
+learning experiences
+Students explore prototyping as part of
+the design process, focusing on testing
+key interactions before full construction.
+Emphasis on iterative development and
+refinement.
+Students build and test core components
+of their game using Arduino (e.g. scoring
+system, button inputs, feedback outputs).
+They begin implementing and refining
+their algorithms in code.
+Teacher monitoring of prototype
+functionality and progress. Informal check-
+in against design plans.
+Adjustments
+12
+Resources Arduino kits and components
+Prototyping guides and examples
+Debugging support materials
+Key teaching and
+learning experiences
+Students examine principles of physical
+design, including stability, durability
+and usability. Discussion focuses on
+how physical structure impacts user
+experience and hardware integration,
+particularly when working with cardboard
+materials.
+Students begin constructing the physical
+arcade machine using cardboard. They
+develop the structure, including housing
+for components, control interfaces and
+display areas.
+Teacher monitoring of construction
+progress and alignment with design plans.
+Feedback provided on structural feasibility
+and usability.
+Adjustments
+13
+Resources Cardboard construction materials
+(cardboard, cutters, tape, glue)
+Example arcade machine layouts and
+designs
+Safety guidelines for tool use
+14 Key teaching and
+learning experiences
+Students explore how hardware
+components are embedded into physical
+systems. Focus on wiring management,
+Students install Arduino components into
+their arcade machines. They connect
+inputs and outputs within the structure
+Teacher observation of correct hardware
+integration and safe setup. Ongoing
+feedback on design implementation.
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 10 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 10 of 13 --
+
+Teaching and learning sequence
+component placement and maintaining
+accessibility for troubleshooting.
+and begin aligning physical controls with
+programmed functions.
+Adjustments
+Resources Arduino kits and wiring components
+Circuit diagrams and reference guides
+Teacher demonstrations of hardware
+integration
+Key teaching and
+learning experiences
+Students revisit program structure and
+system integration, focusing on ensuring
+all components work together as a
+complete system. Emphasis on linking
+algorithms to real-world interaction.
+Students continue developing and refining
+their code to match their arcade game
+design. They test full system functionality,
+ensuring inputs, outputs and game logic
+operate as intended.
+Monitoring of progress against design
+criteria and functionality. Teacher
+feedback on code quality and system
+performance.
+Adjustments
+15
+Resources Arduino programming guides
+Example integrated systems
+Debugging checklists
+Key teaching and
+learning experiences
+Students explore systematic testing and
+debugging strategies. Focus on identifying
+faults in both hardware and software and
+applying structured approaches to resolve
+issues.
+Students test their arcade machines,
+identify faults and refine both code and
+hardware. They document issues and
+solutions as part of the development
+process.
+Teacher monitoring of debugging
+processes and problem-solving
+approaches.
+Adjustments
+16
+Resources Debugging guides and checklists
+Example troubleshooting scenarios
+Teacher support materials
+17 Key teaching and
+learning experiences
+Students examine the importance of
+user testing and feedback in the design
+process. They learn how to evaluate
+Students conduct user testing with
+peers, gather feedback and refine their
+Ongoing monitoring of improvements and
+alignment with user stories and design
+criteria.
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 11 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 11 of 13 --
+
+Teaching and learning sequence
+solutions against user stories and design
+criteria.
+arcade machines to improve usability and
+functionality.
+Adjustments
+Resources User testing feedback templates
+Design criteria checklists
+Peer review guidelines
+Key teaching and
+learning experiences
+Students review requirements for
+submission and evaluation. Discussion
+focuses on effectively communicating
+design decisions and reflecting on the
+development process.
+Students finalise their arcade machines
+and complete supporting documentation.
+They prepare their work for submission.
+Summative assessment: Arcade Machine
+Project submission, including product and
+documentation.
+Adjustments
+18
+Resources Assessment task sheet and marking guide
+Submission checklists
+Exemplar project documentation
+Key teaching and
+learning experiences
+Students reflect on their learning across
+the unit, evaluating their solutions against
+design criteria, user stories and potential
+future improvements.
+Students participate in a showcase of
+arcade machines, demonstrating their
+work and discussing their design and
+development process.
+Final reflection and evaluation activities.
+Informal teacher assessment of student
+ability to articulate learning and outcomes.
+Adjustments
+19
+Resources Reflection templates
+Evaluation frameworks
+Showcase materials and setup
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 12 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 12 of 13 --
+
+Evaluation
+This document may contain confidential personal information, and must be handled in accordance with applicable privacy law.
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest
+information and additional terms of use of the ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College
+(Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content, where required.
+Digital Technologies Year 8 2026
+Unit plan: Unit 3
+St Brendan's College (Yeppoon)
+Page 13 of 13
+Printed: 21/04/2026
+Status: Draft
+
+-- 13 of 13 --
+

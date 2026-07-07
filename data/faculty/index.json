@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "id": "digital-technologies-band-7-8-2026",
+      "learningAreaSubject": "Digital Technologies",
+      "yearLevelBand": "7-8",
+      "dateLastModified": "2026-07-05T11:46:44.843Z"
+    },
+    {
+      "id": "design-and-technologies-band-9-10-2026",
+      "learningAreaSubject": "Design Technologies",
+      "yearLevelBand": "9-10",
+      "dateLastModified": "2026-07-06T11:45:35.401Z"
+    },
+    {
+      "id": "digital-technologies-band-9-10-2026",
+      "learningAreaSubject": "Digital Technologies",
+      "yearLevelBand": "9-10",
+      "dateLastModified": "2026-06-23T04:46:35.358Z"
+    }
+  ]
+}

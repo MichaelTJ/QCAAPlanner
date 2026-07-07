@@ -1,0 +1,371 @@
+import { getCurriculumForPlanType } from '$lib/curriculum/quick-plan-data';
+import type { CurriculumContentDescriptor } from '$lib/curriculum/quick-plan-data';
+import { createId } from '$lib/defaults';
+import { syncCapabilityRowColumns } from '$lib/general-capabilities';
+import {
+	aiField,
+	type ContentDescriptionRow,
+	type LevelPlan,
+	type LevelPlanAssessment,
+	type LevelPlanUnit,
+	type QuickLevelPlan,
+	type QuickPlanAssessment,
+	type QuickPlanContentInclusion,
+	type QuickPlanType,
+	type QuickPlanUnit
+} from '$lib/types';
+
+export const ASSESSMENTS_PER_UNIT = 2;
+export const DEFAULT_UNIT_COUNT = 3;
+
+export function createQuickPlanAssessment(label: string): QuickPlanAssessment {
+	return {
+		id: createId('qassess'),
+		title: label,
+		description: ''
+	};
+}
+
+export function createQuickPlanUnit(index: number): QuickPlanUnit {
+	return {
+		id: createId('qunit'),
+		title: `Unit ${index}`,
+		description: '',
+		assessments: [
+			createQuickPlanAssessment('Assessment 1'),
+			createQuickPlanAssessment('Assessment 2')
+		]
+	};
+}
+
+export function assessmentColumnCount(unitCount: number): number {
+	return unitCount * ASSESSMENTS_PER_UNIT;
+}
+
+export function assessmentColumnIndex(unitIndex: number, assessmentIndex: number): number {
+	return unitIndex * ASSESSMENTS_PER_UNIT + assessmentIndex;
+}
+
+export function createEmptyQuickLevelPlan(planType: QuickPlanType): QuickLevelPlan {
+	const curriculum = getCurriculumForPlanType(planType);
+	const units = Array.from({ length: DEFAULT_UNIT_COUNT }, (_, i) => createQuickPlanUnit(i + 1));
+	const cols = assessmentColumnCount(units.length);
+
+	return {
+		id: createId('quick-plan'),
+		planType,
+		title: curriculum.label,
+		createdAt: new Date().toISOString(),
+		modifiedAt: new Date().toISOString(),
+		units,
+		contentInclusions: curriculum.contentDescriptors.map((cd) => ({
+			contentDescriptorId: cd.id,
+			assessmentInclusions: Array(cols).fill(false)
+		}))
+	};
+}
+
+export function syncQuickPlanColumns(plan: QuickLevelPlan): QuickLevelPlan {
+	const cols = assessmentColumnCount(plan.units.length);
+
+	const contentInclusions = plan.contentInclusions.map((row) => {
+		const inclusions = [...row.assessmentInclusions];
+		while (inclusions.length < cols) inclusions.push(false);
+		return {
+			contentDescriptorId: row.contentDescriptorId,
+			assessmentInclusions: inclusions.slice(0, cols)
+		};
+	});
+
+	return { ...plan, contentInclusions };
+}
+
+export function addQuickPlanUnit(plan: QuickLevelPlan): QuickLevelPlan {
+	const next = {
+		...plan,
+		units: [...plan.units, createQuickPlanUnit(plan.units.length + 1)]
+	};
+	return syncQuickPlanColumns(next);
+}
+
+export function removeQuickPlanUnit(plan: QuickLevelPlan, unitIndex: number): QuickLevelPlan {
+	if (plan.units.length <= 1) return plan;
+	const units = plan.units.filter((_, i) => i !== unitIndex);
+	const next = { ...plan, units };
+	return syncQuickPlanColumns(next);
+}
+
+export function contentDescriptorsFromLevelPlan(levelPlan: LevelPlan): CurriculumContentDescriptor[] {
+	return levelPlan.contentDescriptions.map((row) => {
+		const strandVal = row.strand.value;
+		const isCategory =
+			strandVal === 'Knowledge and understanding' ||
+			strandVal === 'Processes and production skills';
+
+		return {
+			id: row.code.value || row.id,
+			category: isCategory ? strandVal : 'Content descriptions',
+			strand: isCategory ? row.subStrand.value : strandVal,
+			subStrand: isCategory ? '' : row.subStrand.value,
+			text: row.text.value,
+			code: row.code.value
+		};
+	});
+}
+
+export function buildContentInclusionsFromLevelPlan(
+	levelPlan: LevelPlan,
+	descriptors: CurriculumContentDescriptor[],
+	unitCount: number
+): QuickPlanContentInclusion[] {
+	const cols = assessmentColumnCount(unitCount);
+
+	return descriptors.map((cd) => {
+		const lpRow = levelPlan.contentDescriptions.find(
+			(row) => row.code.value === cd.id || row.code.value === cd.code
+		);
+		const assessmentInclusions = Array(cols).fill(false);
+
+		if (lpRow) {
+			for (let ui = 0; ui < unitCount; ui++) {
+				if (!lpRow.unitInclusions[ui]) continue;
+				assessmentInclusions[assessmentColumnIndex(ui, 0)] = true;
+				assessmentInclusions[assessmentColumnIndex(ui, 1)] = true;
+			}
+		}
+
+		return { contentDescriptorId: cd.id, assessmentInclusions };
+	});
+}
+
+export function inferQuickPlanType(
+	learningAreaSubject: string,
+	yearLevelBand: string
+): QuickPlanType | null {
+	const subject = learningAreaSubject.toLowerCase();
+	const band = yearLevelBand.toLowerCase().replace(/–/g, '-');
+
+	if (subject.includes('engineering') && band.includes('10')) return '10-engineering';
+	if (subject.includes('digital') && (band.includes('7') || band.includes('8'))) {
+		return '7-8-digital-technologies';
+	}
+	if (subject.includes('design') && (band.includes('9') || band.includes('10'))) {
+		return '9-10-design';
+	}
+	if (subject.includes('digital') && (band.includes('9') || band.includes('10'))) {
+		return '9-10-digital-technologies';
+	}
+	return null;
+}
+
+export function inferQuickPlanTypeFromTitle(bandSubjectTitle: string): QuickPlanType | null {
+	const title = bandSubjectTitle.toLowerCase().replace(/–/g, '-');
+	if (title.includes('engineering') && title.includes('10')) return '10-engineering';
+	if (title.includes('digital') && (title.includes('7-8') || title.includes('7') || title.includes('8'))) {
+		return '7-8-digital-technologies';
+	}
+	if (title.includes('design') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
+		return '9-10-design';
+	}
+	if (title.includes('digital') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
+		return '9-10-digital-technologies';
+	}
+	return null;
+}
+
+export function importLevelPlanToQuickPlan(
+	levelPlan: LevelPlan,
+	planType: QuickPlanType,
+	sourceLevelPlanId: string,
+	existing?: QuickLevelPlan
+): QuickLevelPlan {
+	const curriculum = getCurriculumForPlanType(planType);
+	const descriptors =
+		curriculum.contentDescriptors.length > 0
+			? curriculum.contentDescriptors
+			: contentDescriptorsFromLevelPlan(levelPlan);
+
+	const units: QuickPlanUnit[] = levelPlan.units.map((unit, unitIndex) => {
+		const assessments = unit.assessments;
+		return {
+			id: unit.id || createId('qunit'),
+			title: unit.unitTitle.value || `Unit ${unitIndex + 1}`,
+			description: unit.description.value,
+			assessments: [
+				{
+					id: assessments[0]?.id || createId('qassess'),
+					title: assessments[0]?.title.value || 'Assessment 1',
+					description: assessments[0]?.description.value || ''
+				},
+				{
+					id: assessments[1]?.id || createId('qassess'),
+					title: assessments[1]?.title.value || 'Assessment 2',
+					description: assessments[1]?.description.value || ''
+				}
+			]
+		};
+	});
+
+	const contentInclusions = buildContentInclusionsFromLevelPlan(levelPlan, descriptors, units.length);
+
+	const now = new Date().toISOString();
+	return {
+		id: existing?.id || createId('quick-plan'),
+		planType,
+		title: levelPlan.bandSubjectTitle.value || curriculum.label,
+		sourceLevelPlanId,
+		createdAt: existing?.createdAt || now,
+		modifiedAt: now,
+		units,
+		contentInclusions
+	};
+}
+
+function syncLevelPlanMatrixColumns(levelPlan: LevelPlan) {
+	const count = levelPlan.units.length;
+	for (const row of levelPlan.contentDescriptions) {
+		while (row.unitInclusions.length < count) row.unitInclusions.push(false);
+		row.unitInclusions = row.unitInclusions.slice(0, count);
+	}
+	for (const row of levelPlan.generalCapabilities) {
+		syncCapabilityRowColumns(row, count);
+	}
+	for (const row of levelPlan.crossCurriculumPriorities) {
+		while (row.unitInclusions.length < count) row.unitInclusions.push(false);
+		row.unitInclusions = row.unitInclusions.slice(0, count);
+	}
+}
+
+function createLevelPlanAssessment(
+	quickAssessment: QuickPlanAssessment,
+	assessmentIndex: number
+): LevelPlanAssessment {
+	return {
+		id: quickAssessment.id || createId('assess'),
+		assessmentNumber: aiField(assessmentIndex + 1),
+		title: aiField(quickAssessment.title),
+		term: aiField(''),
+		week: aiField(''),
+		description: aiField(quickAssessment.description),
+		technique: aiField(''),
+		mode: aiField(''),
+		conditions: aiField(''),
+		achievementStandard: aiField(''),
+		moderation: aiField('')
+	};
+}
+
+function applyQuickUnitToLevelUnit(quickUnit: QuickPlanUnit, levelUnit: LevelPlanUnit) {
+	levelUnit.unitTitle.value = quickUnit.title;
+	levelUnit.description.value = quickUnit.description;
+
+	for (let assessmentIndex = 0; assessmentIndex < ASSESSMENTS_PER_UNIT; assessmentIndex++) {
+		const quickAssessment = quickUnit.assessments[assessmentIndex];
+		const existing = levelUnit.assessments[assessmentIndex];
+		if (existing) {
+			existing.title.value = quickAssessment.title;
+			existing.description.value = quickAssessment.description;
+			continue;
+		}
+		levelUnit.assessments.push(createLevelPlanAssessment(quickAssessment, assessmentIndex));
+	}
+}
+
+function quickInclusionForLevelRow(
+	quickPlan: QuickLevelPlan,
+	lpRow: ContentDescriptionRow,
+	descriptors: CurriculumContentDescriptor[]
+): QuickPlanContentInclusion | undefined {
+	const code = String(lpRow.code.value).trim();
+	const rowId = String(lpRow.id).trim();
+
+	return quickPlan.contentInclusions.find((row) => {
+		if (row.contentDescriptorId === code || row.contentDescriptorId === rowId) return true;
+		const descriptor = descriptors.find((cd) => cd.id === row.contentDescriptorId);
+		return Boolean(descriptor && (descriptor.code === code || descriptor.id === code));
+	});
+}
+
+function unitIncludedInQuickPlan(
+	quickRow: QuickPlanContentInclusion | undefined,
+	unitIndex: number
+): boolean {
+	if (!quickRow) return false;
+	return [0, 1].some(
+		(assessmentIndex) =>
+			quickRow.assessmentInclusions[assessmentColumnIndex(unitIndex, assessmentIndex)]
+	);
+}
+
+function applyQuickPlanContentInclusionsToLevelPlan(
+	levelPlan: LevelPlan,
+	quickPlan: QuickLevelPlan,
+	descriptors: CurriculumContentDescriptor[]
+) {
+	syncLevelPlanMatrixColumns(levelPlan);
+
+	for (const lpRow of levelPlan.contentDescriptions) {
+		const quickRow = quickInclusionForLevelRow(quickPlan, lpRow, descriptors);
+		for (let unitIndex = 0; unitIndex < quickPlan.units.length; unitIndex++) {
+			lpRow.unitInclusions[unitIndex] = unitIncludedInQuickPlan(quickRow, unitIndex);
+		}
+	}
+}
+
+export function exportQuickPlanToLevelPlan(
+	quickPlan: QuickLevelPlan,
+	levelPlan: LevelPlan,
+	descriptors: CurriculumContentDescriptor[]
+) {
+	if (quickPlan.title.trim()) {
+		levelPlan.bandSubjectTitle.value = quickPlan.title.trim();
+	}
+
+	while (levelPlan.units.length < quickPlan.units.length) {
+		const unitIndex = levelPlan.units.length;
+		const quickUnit = quickPlan.units[unitIndex];
+		levelPlan.units.push({
+			id: quickUnit.id || createId('unit'),
+			unitTitle: aiField(quickUnit.title || `Unit ${unitIndex + 1}`),
+			yearLevel: aiField(''),
+			duration: aiField(''),
+			description: aiField(quickUnit.description),
+			assessments: []
+		});
+	}
+
+	syncLevelPlanMatrixColumns(levelPlan);
+
+	for (let unitIndex = 0; unitIndex < quickPlan.units.length; unitIndex++) {
+		applyQuickUnitToLevelUnit(quickPlan.units[unitIndex], levelPlan.units[unitIndex]);
+	}
+
+	applyQuickPlanContentInclusionsToLevelPlan(levelPlan, quickPlan, descriptors);
+}
+
+export function getSelectedDescriptorsForUnit(
+	plan: QuickLevelPlan,
+	descriptors: CurriculumContentDescriptor[],
+	unitIndex: number
+) {
+	return descriptors.filter((cd) => {
+		const row = plan.contentInclusions.find((r) => r.contentDescriptorId === cd.id);
+		if (!row) return false;
+		return [0, 1].some(
+			(ai) => row.assessmentInclusions[assessmentColumnIndex(unitIndex, ai)]
+		);
+	});
+}
+
+export function getSelectedDescriptorsForAssessment(
+	plan: QuickLevelPlan,
+	descriptors: CurriculumContentDescriptor[],
+	unitIndex: number,
+	assessmentIndex: number
+) {
+	return descriptors.filter((cd) => {
+		const row = plan.contentInclusions.find((r) => r.contentDescriptorId === cd.id);
+		if (!row) return false;
+		return row.assessmentInclusions[assessmentColumnIndex(unitIndex, assessmentIndex)];
+	});
+}

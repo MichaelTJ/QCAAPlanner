@@ -1,0 +1,1315 @@
+{
+  "id": "unit-8-3-cardboard-arcade",
+  "levelPlanId": "standalone",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Cardbaord Arcade",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 9",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students explore physical computing by learning to program Arduino microcontrollers and apply these skills to the design and construction of interactive arcade machines. Students develop an understanding of algorithms, basic programming structures, and how hardware specifications influence performance and functionality. The design process is emphasised through the use of user stories and design criteria, guiding students to create solutions that meet specific user needs. Through iterative design, testing and refinement, students combine computational thinking with creativity, problem-solving and hands-on construction skills.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-jwpvjd9x",
+      "assessmentNumber": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Hardware and Algorithms Exam",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students complete a written exam that assesses their understanding of foundational algorithms and hardware selection in the context of Arduino systems. Students demonstrate their ability to define and decompose problems, design and trace simple algorithms, and predict program outputs. The exam also evaluates students’ understanding of how hardware specifications affect performance and how to select appropriate components for specific tasks. This assessment provides evidence of students’ theoretical knowledge and computational thinking skills that underpin practical digital solutions.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Examination",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 75 words per item, up to 400 words for the task\n• extended response 100–200 words per item, up to 400 words for the task\n• 1–2 A3 pages or equivalent digital media that may include graphical representations with annotations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Week 6",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Cross marking to be completed within the department",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-2b41ae67",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-eeb80e8a",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7e4c1d28",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cb194a3d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2dab2f0b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "trace algorithms to predict output for a given input and to identify errors",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ce45041c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1046a80c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ad2bcec5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-95356248",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1822cedc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-95524eb2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P12",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "uassess-e6e2lr1o",
+      "assessmentNumber": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Arcade Machine",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students design and build a functioning cardboard arcade machine based on a provided user profile and set of user stories. Students apply the design process to define requirements, establish design criteria, and plan a solution that meets the needs of the target user. They design the user experience, develop and test algorithms, and implement programs using Arduino hardware and sensors. Students iteratively refine their designs, evaluate their solutions against the design criteria and user stories, and communicate their ideas using appropriate digital tools. The project demonstrates students’ ability to integrate hardware selection, programming, creative design and project management to develop a complete digital solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "2–4 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 6\nConferencing: Week 8",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-c2a26193",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-58bc012a",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-eb5efe23",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b35c1a5b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b6f62b82",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "trace algorithms to predict output for a given input and to identify errors",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-33c4e44c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-dd419792",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8f17ec58",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3b53d499",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-45466893",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ea1613fa",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P12",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-wx3ugsof",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-frsjreo6",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-asx3nunq",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-vjj2lwpl",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to digital systems and physical computing. They explore how hardware and software interact, with a focus on inputs, processes and outputs. Introduction to Arduino microcontrollers, including their purpose and real-world applications. Students set up Arduino environments and build their first simple circuit (e.g. LED). They upload and run a basic program to control an output device.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino IDE (or web editor)\nIntroductory Arduino tutorials (official Arduino website)\nTeacher demonstration slides on digital systems",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to digital systems and physical computing. They explore how hardware and software interact, with a focus on inputs, processes and outputs. Introduction to Arduino microcontrollers, including their purpose and real-world applications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up Arduino environments and build their first simple circuit (e.g. LED). They upload and run a basic program to control an output device.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of student ability to correctly set up Arduino hardware and successfully upload a program. Teacher observation and questioning used to gauge understanding.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-wwubkm8x",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students learn about different types of inputs (buttons, sensors) and outputs (LEDs, buzzers). Introduction to basic programming concepts including variables and simple commands. Students build circuits using buttons and LEDs. They write simple programs to control outputs based on inputs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino component kits\nCircuit diagrams and worksheets\nOnline Arduino tutorials (inputs and outputs)",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students learn about different types of inputs (buttons, sensors) and outputs (LEDs, buzzers). Introduction to basic programming concepts including variables and simple commands.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students build circuits using buttons and LEDs. They write simple programs to control outputs based on inputs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring through completion of set tasks. Students demonstrate ability to read input and produce an output.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-8r48no9v",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to algorithms and control structures. Students learn about conditional logic (if/else statements) and how decisions are made within programs. Students create programs that use conditionals to control outputs (e.g. LED turns on when button pressed). They begin linking logic to real-world interactions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Worked examples of pseudocode and simple algorithms\nArduino tutorials on conditional statements\nTeacher-led demonstrations",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to algorithms and control structures. Students learn about conditional logic (if/else statements) and how decisions are made within programs.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students create programs that use conditionals to control outputs (e.g. LED turns on when button pressed). They begin linking logic to real-world interactions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher observation of student ability to implement conditional logic correctly. Debugging support provided as needed.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-fxcht1ti",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop understanding of algorithms as step-by-step processes. They learn to represent algorithms using flowcharts and pseudocode. Students design flowcharts for simple Arduino tasks, then implement them in code. They compare planned algorithms with actual program behaviour.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowchart templates\nExample algorithms and pseudocode\nPresentation slides on algorithm design",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students develop understanding of algorithms as step-by-step processes. They learn to represent algorithms using flowcharts and pseudocode.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design flowcharts for simple Arduino tasks, then implement them in code. They compare planned algorithms with actual program behaviour.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Collection and review of student-created flowcharts and corresponding programs.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-ufzhn0bx",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students learn about iteration (loops) and the importance of debugging. They explore how repetition is used in programs and strategies for identifying and fixing errors. Students create programs using loops (e.g. flashing LED patterns). They test, debug and refine their code based on expected outputs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino tutorials on loops\nDebugging checklists\nExample faulty programs for troubleshooting",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students learn about iteration (loops) and the importance of debugging. They explore how repetition is used in programs and strategies for identifying and fixing errors.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students create programs using loops (e.g. flashing LED patterns). They test, debug and refine their code based on expected outputs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment through debugging tasks. Students demonstrate ability to identify and correct errors in code.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-c78hsv3y",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Revision of key concepts including digital systems, hardware selection, algorithms, control structures and debugging. Students complete guided review activities and practice questions. Students complete structured revision tasks, including tracing algorithms and predicting outputs. Summative assessment: Hardware and Algorithms Exam.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Revision worksheets\nPast/practice exam questions\nTeacher-prepared summary notes",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Revision of key concepts including digital systems, hardware selection, algorithms, control structures and debugging. Students complete guided review activities and practice questions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete structured revision tasks, including tracing algorithms and predicting outputs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Hardware and Algorithms Exam conducted under supervised conditions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-o5yu3301",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students build on prior knowledge by exploring systems that use multiple inputs and outputs. They examine how more complex digital systems are structured and how components interact. Introduction to modular thinking in programming. Students construct circuits that incorporate multiple components (e.g. button + LED + buzzer). They write programs that respond to multiple inputs and control different outputs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino component kits (expanded components)\nCircuit diagrams for multi-component systems\nArduino tutorials on multiple inputs/outputs",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students build on prior knowledge by exploring systems that use multiple inputs and outputs. They examine how more complex digital systems are structured and how components interact. Introduction to modular thinking in programming.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students construct circuits that incorporate multiple components (e.g. button + LED + buzzer). They write programs that respond to multiple inputs and control different outputs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of students’ ability to manage multiple inputs/outputs within a single program. Teacher observation and questioning.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-h1orjqlc",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to functions and modular programming. They learn how breaking programs into smaller parts improves readability, efficiency and debugging. Students refactor previous programs to include functions. They develop structured programs that reuse code for repeated behaviours.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Worked examples of modular code\nArduino tutorials on functions\nTeacher modelling of code refactoring",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to functions and modular programming. They learn how breaking programs into smaller parts improves readability, efficiency and debugging.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students refactor previous programs to include functions. They develop structured programs that reuse code for repeated behaviours.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher review of student programs to assess correct use of functions and code organisation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-pmwi414f",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the design process, focusing on user-centred design. They explore user profiles, user stories, and design criteria. Discussion of what makes an engaging arcade game. Students analyse example arcade games and identify key features. They begin developing simple game ideas and draft initial user stories.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Example user profiles and user stories\nArcade game examples (videos or playable demos)\nDesign process scaffolds",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to the design process, focusing on user-centred design. They explore user profiles, user stories, and design criteria. Discussion of what makes an engaging arcade game.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students analyse example arcade games and identify key features. They begin developing simple game ideas and draft initial user stories.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Collection and feedback on initial user stories and game concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-b6i6uqzf",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on designing algorithms for their game ideas. They learn to map interactions and game logic using flowcharts and pseudocode, including nested control structures. Students develop flowcharts and pseudocode for their proposed arcade games. They begin planning how inputs, outputs and timing will function within their system.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowchart and pseudocode templates\nWorked examples of game logic\nTeacher modelling of algorithm design",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students focus on designing algorithms for their game ideas. They learn to map interactions and game logic using flowcharts and pseudocode, including nested control structures.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop flowcharts and pseudocode for their proposed arcade games. They begin planning how inputs, outputs and timing will function within their system.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher feedback on algorithm designs to ensure feasibility and alignment with user stories.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-jgn31cnn",
+      "week": {
+        "value": 11,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to Assessment 5: Arcade Machine project requirements, including success criteria and expectations. They revisit hardware selection and design constraints (including working with cardboard structures). Students finalise their game concept, user stories and design criteria. They select components and begin planning both the physical layout and digital system.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment task sheet and marking guide\nPlanning templates (design, user stories, criteria)\nExamples of simple arcade machine layouts",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to Assessment 5: Arcade Machine project requirements, including success criteria and expectations. They revisit hardware selection and design constraints (including working with cardboard structures).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise their game concept, user stories and design criteria. They select components and begin planning both the physical layout and digital system.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 5 issued. Monitoring of student planning documentation (user stories, design criteria, initial sketches).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-l8a1fl8d",
+      "week": {
+        "value": 12,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore prototyping as part of the design process, focusing on testing key interactions before full construction. Emphasis on iterative development and refinement. Students build and test core components of their game using Arduino (e.g. scoring system, button inputs, feedback outputs). They begin implementing and refining their algorithms in code.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino kits and components\nPrototyping guides and examples\nDebugging support materials",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students explore prototyping as part of the design process, focusing on testing key interactions before full construction. Emphasis on iterative development and refinement.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students build and test core components of their game using Arduino (e.g. scoring system, button inputs, feedback outputs). They begin implementing and refining their algorithms in code.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher monitoring of prototype functionality and progress. Informal check-in against design plans.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-8gjizf3v",
+      "week": {
+        "value": 13,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students examine principles of physical design, including stability, durability and usability. Discussion focuses on how physical structure impacts user experience and hardware integration, particularly when working with cardboard materials. Students begin constructing the physical arcade machine using cardboard. They develop the structure, including housing for components, control interfaces and display areas.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Cardboard construction materials (cardboard, cutters, tape, glue)\nExample arcade machine layouts and designs\nSafety guidelines for tool use",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students examine principles of physical design, including stability, durability and usability. Discussion focuses on how physical structure impacts user experience and hardware integration, particularly when working with cardboard materials.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin constructing the physical arcade machine using cardboard. They develop the structure, including housing for components, control interfaces and display areas.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher monitoring of construction progress and alignment with design plans. Feedback provided on structural feasibility and usability.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-9is4fo8j",
+      "week": {
+        "value": 14,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore how hardware components are embedded into physical systems. Focus on wiring management, component placement and maintaining accessibility for troubleshooting. Students install Arduino components into their arcade machines. They connect inputs and outputs within the structure and begin aligning physical controls with programmed functions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino kits and wiring components\nCircuit diagrams and reference guides\nTeacher demonstrations of hardware integration",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students explore how hardware components are embedded into physical systems. Focus on wiring management, component placement and maintaining accessibility for troubleshooting.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students install Arduino components into their arcade machines. They connect inputs and outputs within the structure and begin aligning physical controls with programmed functions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher observation of correct hardware integration and safe setup. Ongoing feedback on design implementation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-eokbmwww",
+      "week": {
+        "value": 15,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students revisit program structure and system integration, focusing on ensuring all components work together as a complete system. Emphasis on linking algorithms to real-world interaction. Students continue developing and refining their code to match their arcade game design. They test full system functionality, ensuring inputs, outputs and game logic operate as intended.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Arduino programming guides\nExample integrated systems\nDebugging checklists",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students revisit program structure and system integration, focusing on ensuring all components work together as a complete system. Emphasis on linking algorithms to real-world interaction.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students continue developing and refining their code to match their arcade game design. They test full system functionality, ensuring inputs, outputs and game logic operate as intended.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Monitoring of progress against design criteria and functionality. Teacher feedback on code quality and system performance.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-fi6zdrjn",
+      "week": {
+        "value": 16,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore systematic testing and debugging strategies. Focus on identifying faults in both hardware and software and applying structured approaches to resolve issues. Students test their arcade machines, identify faults and refine both code and hardware. They document issues and solutions as part of the development process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Debugging guides and checklists\nExample troubleshooting scenarios\nTeacher support materials",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students explore systematic testing and debugging strategies. Focus on identifying faults in both hardware and software and applying structured approaches to resolve issues.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students test their arcade machines, identify faults and refine both code and hardware. They document issues and solutions as part of the development process.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher monitoring of debugging processes and problem-solving approaches.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-sz38vcns",
+      "week": {
+        "value": 17,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students examine the importance of user testing and feedback in the design process. They learn how to evaluate solutions against user stories and design criteria. Students conduct user testing with peers, gather feedback and refine their arcade machines to improve usability and functionality.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "User testing feedback templates\nDesign criteria checklists\nPeer review guidelines",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students examine the importance of user testing and feedback in the design process. They learn how to evaluate solutions against user stories and design criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct user testing with peers, gather feedback and refine their arcade machines to improve usability and functionality.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Ongoing monitoring of improvements and alignment with user stories and design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-zju28rmm",
+      "week": {
+        "value": 18,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students review requirements for submission and evaluation. Discussion focuses on effectively communicating design decisions and reflecting on the development process. Students finalise their arcade machines and complete supporting documentation. They prepare their work for submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment task sheet and marking guide\nSubmission checklists\nExemplar project documentation",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students review requirements for submission and evaluation. Discussion focuses on effectively communicating design decisions and reflecting on the development process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise their arcade machines and complete supporting documentation. They prepare their work for submission.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Arcade Machine Project submission, including product and documentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    },
+    {
+      "id": "week-ffosjg1g",
+      "week": {
+        "value": 19,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students reflect on their learning across the unit, evaluating their solutions against design criteria, user stories and potential future improvements. Students participate in a showcase of arcade machines, demonstrating their work and discussing their design and development process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Reflection templates\nEvaluation frameworks\nShowcase materials and setup",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students reflect on their learning across the unit, evaluating their solutions against design criteria, user stories and potential future improvements.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in a showcase of arcade machines, demonstrating their work and discussing their design and development process.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Final reflection and evaluation activities. Informal teacher assessment of student ability to articulate learning and outcomes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "",
+        "aiNotes": ""
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

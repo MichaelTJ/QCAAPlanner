@@ -1,0 +1,658 @@
+{
+  "id": "unit-4cfa9765",
+  "levelPlanId": "digital-technologies-band-7-8-2026",
+  "yearLevel": {
+    "value": "8",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Robotics",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate the relationship between hardware specifications and system performance using mBot robots. They apply systems thinking to explain how specific hardware components and sensor capabilities affect a robot's functionality, selecting appropriate hardware for particular tasks and workloads. Students apply computational thinking to decompose real-world problems, representing algorithmic solutions through flowcharts and pseudocode before implementing them in a programming environment. This involves the use of control structures, including selection and repetition, to process sensor input and automate physical movement. Through divergent design thinking techniques, students generate and review ideas against established design criteria and user stories to ensure solutions meet specific needs. The unit is framed around a search-and-rescue mission, requiring students to iteratively test and debug their robotic solutions to ensure they meet safety and performance specifications.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-eef483ea",
+      "assessmentNumber": {
+        "value": "4",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "8",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "MBot Project",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and develop an autonomous robotic solution using the MBot platform to navigate a complex course. They apply systems thinking to explain how hardware specifications and sensor capabilities affect performance, justifying their selection of specific components for the required navigation tasks. Using computational thinking, students decompose the problem into logical components and represent their solutions through flowcharts and pseudocode before implementation in a general-purpose programming language. The project requires students to iteratively test and debug their algorithms, evaluating the final prototype against design criteria and user stories to ensure the hardware effectively supports the intended performance workloads and functional requirements.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "3–5 A3 pages or equivalent digital media pages; includes annotated graphical representations, algorithm designs (flowcharts/pseudocode), and a video demonstration of the physical prototype (maximum 2 minutes).",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T10:53:13.479Z"
+      },
+      "timing": {
+        "value": "Term 3, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:24:29.496Z"
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T10:54:17.520Z"
+      },
+      "contentDescriptions": []
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-32cd9bf4",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-0169565a",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-1d728d51",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts\nResponding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-4e5bd55f",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-86f611ef",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts; Grammar; Punctuation; Spelling; Handwriting and keyboarding",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": true,
+        "lit-punctuation": true,
+        "lit-spelling": true,
+        "lit-handwriting-keyboarding": true
+      }
+    },
+    {
+      "id": "ucap-543de76a",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Number patterns and algebraic thinking\nMeasurement and geometry: Understanding units of measurement; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": true,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": false,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-bbd2c75a",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Perseverance and adaptability\nSocial awareness: Empathy\nSocial management: Communication; Collaboration; Decision-making; Conflict resolution",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": true,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": true,
+        "psc-collaboration": true,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": true
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-f2f90edc",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to robotics through a systems thinking lens, focusing on the relationship between hardware specifications and task performance. Students investigate the mBot architecture, identifying the mCore control board, actuators (motors), and chassis components. Discussion centres on how specific hardware defines the robot's functionality in a search-and-rescue context.\n\nPrac: Students perform hardware audits and establish communication between digital systems and physical robots. They implement basic sequential algorithms to initiate drive functions, including forward, reverse, and rotational movements, while managing motor power levels for consistent performance.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot kits, mBlock 5 software, hardware component diagrams, USB-to-Bluetooth adapters, firmware update guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to robotics through a systems thinking lens, focusing on the relationship between hardware specifications and task performance. Students investigate the mBot architecture, identifying the mCore control board, actuators (motors), and chassis components. Discussion centres on how specific hardware defines the robot's functionality in a search-and-rescue context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform hardware audits and establish communication between digital systems and physical robots. They implement basic sequential algorithms to initiate drive functions, including forward, reverse, and rotational movements, while managing motor power levels for consistent performance.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Teacher observation of hardware identification and successful execution of basic drive commands.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to mBot Hardware and Basic Drive Functions",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-805a38a3",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to computational thinking through problem decomposition, breaking complex movements into repeatable steps. Students explore control structures, specifically focusing on count-controlled loops (repetition) to improve code efficiency and reduce redundancy. Analysis of how algorithms are translated from logical ideas into executable code blocks.\n\nPrac: Students design and implement algorithms to navigate the mBot in geometric shapes, such as squares and triangles. They apply iteration to manage repetitive drive and turn sequences, iteratively testing and debugging their code to account for physical variables like floor friction and battery levels.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Masking tape for floor grids, protractors, mBlock loops tutorial, geometric shape logic worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to computational thinking through problem decomposition, breaking complex movements into repeatable steps. Students explore control structures, specifically focusing on count-controlled loops (repetition) to improve code efficiency and reduce redundancy. Analysis of how algorithms are translated from logical ideas into executable code blocks.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design and implement algorithms to navigate the mBot in geometric shapes, such as squares and triangles. They apply iteration to manage repetitive drive and turn sequences, iteratively testing and debugging their code to account for physical variables like floor friction and battery levels.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Informal code review: Students demonstrate efficient use of loops to complete a 'Square Challenge' with minimal blocks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Using Loops for Efficient Movement and Geometric Shapes",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-411e005f",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Exploration of digital systems and peripheral output devices. Students learn how data is represented visually on an LED matrix using whole numbers and coordinate systems. Discussion on the importance of user feedback in autonomous systems, using LED output to communicate robot status or navigation intent.\n\nPrac: Students program the LED panel to display custom icons and scrolling text that sync with movement. They develop precision navigation routines, using 'wait until' logic and calibrated motor bursts to park the robot in designated zones, while providing visual feedback of the task completion via the LED matrix.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot LED Matrix modules, LED sprite design grid (paper-based), flowcharting templates, precision parking course.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of digital systems and peripheral output devices. Students learn how data is represented visually on an LED matrix using whole numbers and coordinate systems. Discussion on the importance of user feedback in autonomous systems, using LED output to communicate robot status or navigation intent.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students program the LED panel to display custom icons and scrolling text that sync with movement. They develop precision navigation routines, using 'wait until' logic and calibrated motor bursts to park the robot in designated zones, while providing visual feedback of the task completion via the LED matrix.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Algorithm design task: Students create a basic flowchart representing the logic for a 'Drive and Signal' sequence.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Precision Navigation and LED Panel Output",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-163c070c",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Launch of the Search-and-Rescue project mission. Students apply computational thinking to decompose the project brief into manageable sub-problems, identifying specific navigation and detection requirements. Explicit teaching of line-follower sensor hardware specifications, explaining how infrared emitters and receivers detect surface reflectivity to provide binary input. \n\nPrac: Students conduct hardware audits and integrate the line-follower module. They develop and test basic algorithms to interpret sensor data, implementing 'stay-on-track' logic using simple selection statements. Students begin documenting their initial design ideas and problem decomposition in their project journals.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot robots, line-follower sensors, black electrical tape tracks, Project Brief documentation, algorithm design templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Launch of the Search-and-Rescue project mission. Students apply computational thinking to decompose the project brief into manageable sub-problems, identifying specific navigation and detection requirements. Explicit teaching of line-follower sensor hardware specifications, explaining how infrared emitters and receivers detect surface reflectivity to provide binary input.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct hardware audits and integrate the line-follower module. They develop and test basic algorithms to interpret sensor data, implementing 'stay-on-track' logic using simple selection statements. Students begin documenting their initial design ideas and problem decomposition in their project journals.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of problem decomposition and initial algorithm flowcharts for basic line detection.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project Launch and Basic Line Sensor Integration",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-2b5fdfe0",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to autonomous boundary logic and the use of nested control structures. Students investigate how robots use scanning behaviours to find paths when primary sensors lose tracking. Discussion focuses on 'if-then-else' logic and how hardware performance is affected by sensor placement and polling frequency. \n\nPrac: Students implement boundary-stay algorithms where the mBot must navigate within a taped arena. They develop scanning routines (e.g., pivot-search) that trigger when the robot reaches a perimeter. Students practice iterative debugging to refine the sensitivity of their autonomous behaviours.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot kits, arena maps, mBlock programming environment, laptop/tablet devices, debugging checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to autonomous boundary logic and the use of nested control structures. Students investigate how robots use scanning behaviours to find paths when primary sensors lose tracking. Discussion focuses on 'if-then-else' logic and how hardware performance is affected by sensor placement and polling frequency.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students implement boundary-stay algorithms where the mBot must navigate within a taped arena. They develop scanning routines (e.g., pivot-search) that trigger when the robot reaches a perimeter. Students practice iterative debugging to refine the sensitivity of their autonomous behaviours.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher observation of iterative testing and debugging processes; peer review of pseudocode for scanning logic.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Autonomous Boundary Logic and Scanning Behaviours",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-75b78c10",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation of ultrasonic sensors and distance-sensing hardware specifications. Students explore the 'Time of Flight' principle for distance calculation and how this data is represented digitally. Introduction to the LED matrix as a system output tool for representing internal state data or sensor readings to the user. \n\nPrac: Students program the ultrasonic sensor to detect obstacles within the search zone. They implement code to display real-time distance data or status icons (e.g., alert symbols) on the LED matrix. This experience focuses on selecting appropriate hardware outputs to improve the user experience and system transparency.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot ultrasonic sensors, LED matrix modules, cardboard obstacles, sensor technical data sheets, icon design grids.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation of ultrasonic sensors and distance-sensing hardware specifications. Students explore the 'Time of Flight' principle for distance calculation and how this data is represented digitally. Introduction to the LED matrix as a system output tool for representing internal state data or sensor readings to the user.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students program the ultrasonic sensor to detect obstacles within the search zone. They implement code to display real-time distance data or status icons (e.g., alert symbols) on the LED matrix. This experience focuses on selecting appropriate hardware outputs to improve the user experience and system transparency.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Progress check on Project Portfolios, specifically focusing on annotated graphical representations of sensor integration.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Distance Sensing and Representing Data on LED Panels",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-39640168",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination of the ultrasonic sensor's hardware specifications and its role in reactive systems. Students explore the logic required for proximity-based decision-making, focusing on how data from the sensor is processed via selection (if-then-else) to trigger specific robotic behaviours. Discussion centres on 'sense-think-act' cycles in robotics.\n\nPrac: Programming the mBot to monitor its environment and perform reactive tasks, such as stopping or changing direction based on object proximity. Students develop algorithms that use variable distance thresholds to initiate different speed responses, simulating safety features in autonomous vehicles.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot robots, mBlock software, ultrasonic sensors, measuring tapes, obstacle blocks, algorithmic design templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of the ultrasonic sensor's hardware specifications and its role in reactive systems. Students explore the logic required for proximity-based decision-making, focusing on how data from the sensor is processed via selection (if-then-else) to trigger specific robotic behaviours. Discussion centres on 'sense-think-act' cycles in robotics.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Programming the mBot to monitor its environment and perform reactive tasks, such as stopping or changing direction based on object proximity. Students develop algorithms that use variable distance thresholds to initiate different speed responses, simulating safety features in autonomous vehicles.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of proximity algorithms. Peer review of flowchart logic for reactive behaviours.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Proximity Logic and Reactive Robotic Behaviours",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-648689f1",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Focus on problem decomposition as a tool for navigating complex environments. Students learn to break down a pathfinding mission into sub-problems: move, scan, detect, and avoid. Introduction to integrating multiple sensor inputs (ultrasonic and line-follower) to inform a single control structure. \n\nPrac: Implementation of an 'obstacle avoidance' routine where the mBot must navigate around a central object and return to its original path. Students refine their use of repetition and nested selection to manage continuous sensor polling while the robot is in motion.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot kits, obstacle course markers, pseudocode organisers, flowcharting software (Draw.io or Lucidchart).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Focus on problem decomposition as a tool for navigating complex environments. Students learn to break down a pathfinding mission into sub-problems: move, scan, detect, and avoid. Introduction to integrating multiple sensor inputs (ultrasonic and line-follower) to inform a single control structure.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Implementation of an 'obstacle avoidance' routine where the mBot must navigate around a central object and return to its original path. Students refine their use of repetition and nested selection to manage continuous sensor polling while the robot is in motion.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Progress check on MBot Project technical documentation; teacher conferencing regarding pathfinding logic.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Pathfinding and Navigating Around Obstacles",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-e6afa8b8",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Principles of iterative testing and debugging. Students learn how to systematically identify logic errors versus hardware limitations. Discussion on evaluating a prototype against established design criteria and user stories to determine success in a 'search-and-rescue' context.\n\nPrac: Final execution of the MBot Project course. Students perform iterative cycles of testing, debugging, and refining their code to ensure reliable navigation. Completion of the project report, including final flowcharts, pseudocode, and a recorded demonstration of the robot's functionality.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment rubrics, project course (search-and-rescue layout), video recording devices, report templates, debugging checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of iterative testing and debugging. Students learn how to systematically identify logic errors versus hardware limitations. Discussion on evaluating a prototype against established design criteria and user stories to determine success in a 'search-and-rescue' context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Final execution of the MBot Project course. Students perform iterative cycles of testing, debugging, and refining their code to ensure reliable navigation. Completion of the project report, including final flowcharts, pseudocode, and a recorded demonstration of the robot's functionality.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "SUMMATIVE ASSESSMENT: MBot Project. Submission of technical report and video evidence of the autonomous solution.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project Testing, Debugging and Assessment Submission",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:40:12.394Z"
+      }
+    },
+    {
+      "id": "week-809a2eee",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Consolidation of systems thinking through the study of feedback loops and their role in autonomous navigation. Exploration of proportional control logic to improve the efficiency and smoothness of line-following behaviours. Analysis of how hardware response times and sensor sensitivity influence software calibration. \n\nPrac: Students implement advanced line-following algorithms using multi-sensor feedback. They participate in the final 'Rescue Challenge' trials, navigating a complex course with varying line widths and sharp turns. Implementation of corrective logic to handle 'line-lost' scenarios, ensuring the robot can recover its path autonomously.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "mBot robots, high-contrast line-following tracks, mBlock 5 software, sensor calibration guides, project marking rubric, digital cameras for recording final runs.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of closed-loop systems where sensor output directly influences motor input to maintain a desired state. Students discuss the limitations of binary 'on/off' logic versus continuous feedback in real-world robotics. Evaluation of how these advanced algorithms meet the specific performance workloads and safety specifications identified in the project's user stories.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Developing mBlock scripts that utilise variables and mathematical operators to calculate motor speed adjustments based on sensor intensity. Iterative testing on complex tracks to debug logic errors when sensors transition between different surface textures. Students record performance data to justify final design modifications and system improvements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Unit reflection and peer-review of robotic solutions. Final submission of the MBot Project documentation, including annotated flowcharts, pseudocode, and video evidence of the autonomous rescue mission.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Evaluating Robotic Solutions and Investigating the Future Impact of Autonomous Systems",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-05T11:45:39.026Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

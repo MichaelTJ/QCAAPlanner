@@ -1,0 +1,1134 @@
+{
+  "id": "digital-technologies-band-7-8-2026",
+  "bandSubjectTitle": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "school": {
+    "value": "St Brendan's College (Yeppoon)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Approved for use",
+    "aiNotes": ""
+  },
+  "levelDescription": {
+    "value": "By the end of Year 8 students should have had the opportunity to apply computational thinking by defining and decomposing real-world problems, creating user experiences, designing and modifying algorithms, and implementing them in a general-purpose programming language. This involves students practising problem decomposition, using approaches such as divide and conquer to more clearly understand a problem by describing its component parts. Students represent and communicate their algorithmic solutions using flowcharts and pseudocode. Students check their solutions meet the specifications by testing and debugging their algorithms before and during implementation. They develop a deeper understanding of abstraction by explaining how and why digital systems represent data as whole numbers, which are then represented in binary. Students build on their skills from Mathematics (Statistics) in acquiring and interpreting data. In Digital Technologies, students continue to advance these skills and are also given opportunities to validate the data they acquire to ensure it is accurate and consistent. They collect and transform many types of data from a wide range of sources. Students model structured data in meaningful ways using spreadsheets and single-table databases, and analyse and visualise the data to extract meaning from it. They apply design thinking by using divergent techniques, such as mind mapping, role-play and using graphic organisers, to generate design ideas for user experiences and solution designs. Students review these ideas against design criteria and created user stories throughout their implementation as general-purpose programming by assessing them against current and future needs. They extend the use of these design criteria and user stories to evaluate the future impact of existing solutions. Students apply systems thinking by exploring the connections between hardware capabilities and tasks users want to perform. They investigate how data is transmitted via wired and wireless networks and explain the need for encryption to protect and secure data. Students use an increasing range of the features of digital tools to improve their efficiency and the consistency of the content they create, locate and communicate. They plan and manage projects individually and collaboratively, improving their control over the quality of their content. Students investigate personal security controls, including multi-factor authentication, to protect their data if passwords are compromised, and they understand the impact of phishing and other cyber security threats on people and data. In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
+    "aiNotes": ""
+  },
+  "contextAndCohortConsiderations": {
+    "value": "In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
+    "aiNotes": ""
+  },
+  "units": [
+    {
+      "id": "unit-by16q17o",
+      "unitTitle": {
+        "value": "Digital Literacy",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop foundational digital literacy skills by learning to confidently and responsibly use common digital tools and systems. Through practical, hands-on activities, students explore Microsoft Word, PowerPoint and Excel to create, manage and communicate information using appropriate conventions. The unit also introduces key concepts in cybersecurity, digital footprints and emerging technologies such as artificial intelligence, helping students understand how data is created, shared and protected in networked environments. Across the term, students build skills in selecting suitable digital tools, managing files and data, and using technology safely and ethically, preparing them for further learning in Digital Technologies and other learning areas.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-7w4wwn6u",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Digital Tasks",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 10,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will create a digital portfolio that demonstrates their learning across the term through a collection of completed tasks and reflections. The portfolio includes evidence of using word processing, presentation and spreadsheet tools to create, organise, analyse and communicate information, as well as activities focused on cybersecurity awareness, safe online behaviour and responsible use of AI tools. Students are expected to select and use digital tools efficiently, apply common conventions, manage data accurately, and demonstrate an understanding of how information is shared and secured online. The portfolio provides ongoing evidence of skill development, responsible digital practices and the ability to reflect on learning progress over time, aligned to the Year 7–8 Digital Technologies standards.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Other",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "10 A4 PowerPoint slides that may include annotated graphical representations or equivalent media pages",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 7\nConferencing: Week 9",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-cz1f4f3m",
+      "unitTitle": {
+        "value": "Wearable Technology",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students use Micro:bit devices to explore data, communication and physical computing in a practical and age-appropriate context. Students learn how Microbits collect, transmit and represent data, with a focus on radio communication, binary representation and basic data security concepts. Through guided investigations, students explore how data can be gathered from sensors, transmitted between devices and analysed to identify patterns and trends. In the second part of the unit, students apply these skills to design and create wearable technologies, combining computational thinking, data analysis and ethical considerations when collecting data about people.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-ys3iqpi1",
+          "assessmentNumber": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Data Exam",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 7,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students complete a written exam that assesses their understanding of how Microbits communicate and represent data. Students explain the differences between broadcast and direct radio communication, and demonstrate their understanding of how text, numbers and messages are represented using integers and binary. The exam also assesses students’ ability to model and reason about structured data, design and trace basic algorithms, and predict program outputs related to Microbit communication and simple encryption. This assessment provides evidence of students’ conceptual understanding of data transmission, representation and algorithmic thinking.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Examination",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 75 words per item, up to 400 words for the task\n• extended response 100–200 words per item, up to 400 words for the task",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Cross marked within the department",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "assess-vmft5c1d",
+          "assessmentNumber": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Wearable Tech",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students design and develop a wearable Microbit-based solution to collect and analyse data related to a given investigation task. Students plan how data will be gathered using appropriate sensors, design algorithms to collect and store the data, and use digital tools to analyse and visualise results to draw conclusions. They select suitable hardware, design the user experience, manage the project process and evaluate their solution against design criteria and user needs. Students also demonstrate responsible and ethical data collection practices, reflecting on the purpose and impact of their digital solution.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Investigation",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "2–4 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Monitoring: Week 6\nConferencing: Week 8",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-z5o897o0",
+      "unitTitle": {
+        "value": "Robotics",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "8",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate the relationship between hardware specifications and system performance using mBot robots. They apply systems thinking to explain how specific hardware components and sensor capabilities affect a robot's functionality, selecting appropriate hardware for particular tasks and workloads. Students apply computational thinking to decompose real-world problems, representing algorithmic solutions through flowcharts and pseudocode before implementing them in a programming environment. This involves the use of control structures, including selection and repetition, to process sensor input and automate physical movement. Through divergent design thinking techniques, students generate and review ideas against established design criteria and user stories to ensure solutions meet specific needs. The unit is framed around a search-and-rescue mission, requiring students to iteratively test and debug their robotic solutions to ensure they meet safety and performance specifications.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-f7acd6c9",
+          "assessmentNumber": {
+            "value": "4",
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "MBot Project",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 3,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students design and develop an autonomous robotic solution using the MBot platform to navigate a complex course. They apply systems thinking to explain how hardware specifications and sensor capabilities affect performance, justifying their selection of specific components for the required navigation tasks. Using computational thinking, students decompose the problem into logical components and represent their solutions through flowcharts and pseudocode before implementation in a general-purpose programming language. The project requires students to iteratively test and debug their algorithms, evaluating the final prototype against design criteria and user stories to ensure the hardware effectively supports the intended performance workloads and functional requirements.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "3–5 A3 pages or equivalent digital media pages; includes annotated graphical representations, algorithm designs (flowcharts/pseudocode), and a video demonstration of the physical prototype (maximum 2 minutes).",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-05T10:53:13.479Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-05T11:24:29.496Z"
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-05T10:54:17.520Z"
+          }
+        }
+      ]
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "cd-33yihpk2",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-gtvxuyc0",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-qfnx1mtq",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how digital systems represent text, image and audio data using integers",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-51sw4sq6",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how and why digital systems represent integers in binary",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-nhlzpaqv",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-3g67ffck",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and visualise data using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-9rqzcwcq",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "model and query the attributes of objects and events using structured data",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-efcjzr8z",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "define and decompose real-world problems with design criteria and by creating user stories",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-0uqc5fm0",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-741dq0lh",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "trace algorithms to predict output for a given input and to identify errors",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-ak92iw3o",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design the user experience of a digital system",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P07",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-34z88bvn",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, modify, communicate and evaluate alternative designs",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P08",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-21hhvr5g",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P09",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-i0lssyoc",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P10",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "cd-xmnepusj",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P11",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-x2glu18k",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P12",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-d6zed7bi",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P13",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-m5ndzbkk",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate and manage the digital footprint existing systems and student solutions collect and assess if the data is essential to their purpose",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P14",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "cap-alkyh7l6",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true
+      ],
+      "categoryInclusions": {
+        "cct-inquiring": [
+          false,
+          false,
+          false
+        ],
+        "cct-generating": [
+          false,
+          false,
+          true
+        ],
+        "cct-analysing": [
+          false,
+          false,
+          true
+        ],
+        "cct-reflecting": [
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "cct-inquiring-develop-questions": [
+          false,
+          false,
+          false
+        ],
+        "cct-inquiring-identify-process-evaluate": [
+          true,
+          false,
+          true
+        ],
+        "cct-generating-create-possibilities": [
+          false,
+          false,
+          true
+        ],
+        "cct-generating-consider-alternatives": [
+          false,
+          false,
+          true
+        ],
+        "cct-generating-put-ideas-into-action": [
+          true,
+          false,
+          true
+        ],
+        "cct-analysing-interpret-concepts": [
+          false,
+          false,
+          true
+        ],
+        "cct-analysing-draw-conclusions": [
+          true,
+          false,
+          true
+        ],
+        "cct-analysing-evaluate-actions": [
+          false,
+          false,
+          true
+        ],
+        "cct-reflecting-metacognition": [
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting-transfer-knowledge": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-t1qjlpdw",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true
+      ],
+      "categoryInclusions": {
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false
+        ],
+        "dl-investigating": [
+          false,
+          false,
+          false
+        ],
+        "dl-creating-exchanging": [
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operating": [
+          true,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "dl-safety-manage-online": [
+          true,
+          false,
+          false
+        ],
+        "dl-safety-privacy-identity": [
+          true,
+          false,
+          false
+        ],
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-locate": [
+          false,
+          false,
+          true
+        ],
+        "dl-investigating-acquire": [
+          true,
+          false,
+          false
+        ],
+        "dl-investigating-interpret": [
+          true,
+          false,
+          false
+        ],
+        "dl-creating-plan": [
+          false,
+          false,
+          true
+        ],
+        "dl-creating-communicate-collaborate": [
+          true,
+          false,
+          true
+        ],
+        "dl-creating-ip": [
+          true,
+          false,
+          false
+        ],
+        "dl-managing-content": [
+          true,
+          false,
+          false
+        ],
+        "dl-managing-protect": [
+          true,
+          false,
+          false
+        ],
+        "dl-managing-operate": [
+          true,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": "cap-6ulxtfuc",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true
+      ],
+      "categoryInclusions": {
+        "eu-concepts": [
+          false,
+          false,
+          false
+        ],
+        "eu-responding": [
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "eu-concepts-explore": [
+          false,
+          false,
+          true
+        ],
+        "eu-concepts-values-rights": [
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-influences": [
+          false,
+          false,
+          false
+        ],
+        "eu-responding-frameworks": [
+          false,
+          false,
+          false
+        ],
+        "eu-responding-issues": [
+          false,
+          false,
+          true
+        ],
+        "eu-responding-decisions": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-fbk7y4qa",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        true
+      ],
+      "categoryInclusions": {
+        "lit-speaking-listening": [
+          false,
+          false,
+          false
+        ],
+        "lit-reading-viewing": [
+          false,
+          false,
+          false
+        ],
+        "lit-writing": [
+          false,
+          false,
+          true
+        ]
+      },
+      "subElementInclusions": {
+        "lit-listening": [
+          false,
+          false,
+          false
+        ],
+        "lit-interacting": [
+          false,
+          false,
+          false
+        ],
+        "lit-speaking": [
+          false,
+          false,
+          false
+        ],
+        "lit-understanding-texts": [
+          false,
+          false,
+          false
+        ],
+        "lit-phonological-awareness": [
+          false,
+          false,
+          false
+        ],
+        "lit-phonic-knowledge": [
+          false,
+          false,
+          false
+        ],
+        "lit-fluency": [
+          false,
+          false,
+          false
+        ],
+        "lit-creating-texts": [
+          false,
+          false,
+          true
+        ],
+        "lit-grammar": [
+          false,
+          false,
+          true
+        ],
+        "lit-punctuation": [
+          false,
+          false,
+          true
+        ],
+        "lit-spelling": [
+          false,
+          false,
+          true
+        ],
+        "lit-handwriting-keyboarding": [
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": "cap-cnsbn37z",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true
+      ],
+      "categoryInclusions": {
+        "num-number-algebra": [
+          false,
+          false,
+          false
+        ],
+        "num-measurement-geometry": [
+          false,
+          false,
+          false
+        ],
+        "num-statistics-probability": [
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "num-place-value": [
+          false,
+          false,
+          false
+        ],
+        "num-counting": [
+          false,
+          false,
+          false
+        ],
+        "num-additive": [
+          false,
+          false,
+          false
+        ],
+        "num-multiplicative": [
+          false,
+          false,
+          false
+        ],
+        "num-fractions": [
+          false,
+          false,
+          false
+        ],
+        "num-proportional": [
+          false,
+          false,
+          false
+        ],
+        "num-patterns-algebra": [
+          true,
+          false,
+          true
+        ],
+        "num-money": [
+          false,
+          false,
+          false
+        ],
+        "num-units-measurement": [
+          false,
+          false,
+          true
+        ],
+        "num-geometric-properties": [
+          false,
+          false,
+          false
+        ],
+        "num-positioning": [
+          false,
+          false,
+          true
+        ],
+        "num-measuring-time": [
+          false,
+          false,
+          false
+        ],
+        "num-chance": [
+          false,
+          false,
+          false
+        ],
+        "num-data": [
+          true,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "crossCurriculumPriorities": []
+}

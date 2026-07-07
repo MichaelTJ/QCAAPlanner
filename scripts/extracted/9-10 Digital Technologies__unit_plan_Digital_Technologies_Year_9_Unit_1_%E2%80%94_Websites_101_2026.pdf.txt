@@ -1,0 +1,328 @@
+Year 9 Digital Technologies
+Unit 1 — Websites 101
+St Brendan's College (Yeppoon), 2026
+Unit overview Cohort and/or class considerations
+Start week: Term 1 Week 1
+Finish week: Term 1 Week 5
+In this unit, students will explore the foundational technologies behind the
+internet and how websites function. They will examine how digital systems use
+hardware and software to manage and secure access to data across networks.
+Through guided investigation and hands-on tasks, students will learn how
+websites are constructed by separating content, structure, and presentation
+using HTML and CSS. They will also be introduced to simple data compression
+techniques and understand their importance in efficient web communication.
+This unit builds the knowledge and skills required for designing and analysing
+secure, well-structured, and efficient digital content online.
+The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital
+competencies, from students with strong technical skills and personal interest in IT,
+to those who require further support to confidently engage with digital systems. Many
+students come from regional or rural backgrounds, where access to structured digital
+learning opportunities may have been limited. The program is designed to build on
+prior knowledge while introducing more advanced and applied skills relevant to future
+study and employment. The curriculum supports the school’s priority to equip students
+with transferable digital skills, critical thinking abilities, and an understanding of ethical
+technology use in a rapidly changing world.
+Adjustments
+Student initials/identifier
+Year level/band against which
+the student is to be assessed
+Band 9–10
+Category of need
+Adjustment/s and/or key
+information
+Review of adjustments
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 1 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 1 of 7 --
+
+Assessment 1
+Year 9
+Title Web Exam
+Description Students will complete a written exam that assesses their understanding of how websites function and how data is managed in networked digital systems.
+The exam will include questions on the roles of hardware and software in securing and controlling access to data, the structure of web documents using
+HTML and CSS, and basic data compression techniques.
+Technique Examination
+Mode Written
+Conditions • up to 50 minutes plus 10 minutes planning time
+• under supervised conditions
+• short response up to 100 words per item, up to 600 words for the task
+• extended response 200–300 words per item, up to 600 words for the task
+Timing Week 5
+Achievement
+standard
+By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative
+solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents
+as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming
+language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a
+vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students
+apply privacy principles to manage digital footprints.
+Moderation A sample of student portfolios representing a range of achievement levels will be reviewed by another Digital Technologies teacher, who will provide
+feedback on the consistency and fairness of the grading. Any necessary adjustments will be made to ensure alignment with the assessment criteria and
+standards.
+Content descriptions
+Knowledge and understanding
+Digital systems
+investigate how hardware and software manage, control and secure access to data in networked digital systems
+(AC9TDI10K01)
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 2 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 2 of 7 --
+
+Content descriptions
+Knowledge and understanding
+Data representation
+represent documents online as content (text), structure (markup) and presentation (styling) and explain why such representations are important
+(AC9TDI10K02)
+investigate simple data compression techniques
+(AC9TDI10K03)
+General capabilities
+Critical and creative thinking
+• Inquiring
+- Develop questions
+- Identify, process and evaluate information
+• Generating
+- Create possibilities
+- Consider alternatives
+- Put ideas into action
+• Analysing
+- Interpret concepts and problems
+- Draw conclusions and provide reasons
+- Evaluate actions and outcomes
+• Reflecting
+- Transfer knowledge
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 3 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 3 of 7 --
+
+Digital literacy
+• Practising digital safety and wellbeing
+- Manage online safety
+- Manage digital privacy and identity
+- Manage digital wellbeing
+• Investigating
+- Locate information
+- Acquire and collate data
+- Interpret data
+• Creating and exchanging
+- Plan
+- Create, communicate and collaborate
+- Respect intellectual property
+• Managing and operating
+- Select and operate tools
+Literacy
+• Reading and viewing
+- Understanding texts
+• Writing
+Teaching and learning sequence
+Week Planning details Theory Practical Assessment
+1 Key teaching and
+learning experiences
+Students investigate how the internet
+functions as a network of digital systems,
+focusing on the roles of hardware
+(servers, routers, client devices) and
+software (browsers, web servers) in
+managing and transmitting data. Key
+terminology such as client-server model,
+IP address, and DNS is introduced.
+Students develop an understanding of
+Students explore how the web works
+through guided simulations and
+demonstrations (e.g. request-response
+cycle). They use browser developer tools
+to inspect simple websites and identify
+basic structural elements. Introductory
+activities include navigating file structures
+Introduction to assessment requirements
+and expectations for the Web Exam.
+Diagnostic questioning to assess prior
+knowledge. Short-response practice
+focusing on defining key terms and
+explaining simple processes (e.g. “How
+does a browser retrieve a webpage?”).
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 4 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 4 of 7 --
+
+Teaching and learning sequence
+how data is requested, transferred, and
+displayed in a web context.
+and preparing a workspace for web
+development.
+Adjustments
+Resources • Teacher slides on “How the Internet
+Works”
+• Short video explaining client-server
+model
+• Browser developer tools (Chrome/
+Edge)
+• Introductory worksheets on internet
+concepts
+Key teaching and
+learning experiences
+Students are introduced to how web
+content is structured using HTML. The
+concept of representing information as
+content and structure is explicitly taught.
+Students learn about common HTML
+elements (headings, paragraphs, images,
+links) and the purpose of semantic
+structure.
+Students begin writing basic HTML
+documents using a code editor. They
+create a simple webpage including
+headings, paragraphs, and images.
+Emphasis is placed on correct syntax, file
+structure, and readability of code.
+Ongoing formative assessment through
+teacher observation and feedback on
+HTML tasks. Short-response questions
+focused on explaining the role of HTML
+and identifying elements within code
+snippets.
+Adjustments
+2
+Resources • HTML reference guide (basic tags)
+• Teacher demonstration files
+• Online HTML editor or VS Code
+• Structured practice worksheets
+3 Key teaching and
+learning experiences
+Students explore the concept of
+presentation using CSS and how it
+separates design from structure. Key
+concepts include selectors, properties,
+and values, as well as the importance of
+consistency and maintainability in web
+design.
+Students extend their existing HTML
+pages by applying CSS styling. Tasks
+include changing colours, fonts, spacing,
+and layout. Students experiment with
+linking external stylesheets and modifying
+visual presentation without altering
+content.
+Formative assessment through completion
+of a styled webpage task. Students
+respond to short-answer questions
+explaining the difference between HTML
+and CSS and why separation is important.
+Teacher provides feedback on both code
+and explanations.
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 5 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 5 of 7 --
+
+Teaching and learning sequence
+Adjustments
+Resources • CSS reference guide (basic
+properties)
+• Sample styled websites
+• Teacher demonstration of CSS
+implementation
+• Practice exercises (styling
+challenges)
+Key teaching and
+learning experiences
+Students investigate simple data
+compression techniques and their
+importance in web communication.
+Concepts such as file size, load time,
+and efficiency are explored. Students
+examine examples of compressed vs
+uncompressed data and discuss the
+impact on user experience.
+Students apply optimisation techniques
+to their webpages, such as resizing
+images and reducing file sizes. They
+compare performance differences
+between optimised and non-optimised
+files. Activities may include using online
+tools to compress images and analyse file
+sizes.
+Short-response and extended-response
+practice questions focusing on explaining
+data compression and its importance.
+Retrieval practice covering all topics
+to date (digital systems, HTML, CSS).
+Teacher provides targeted feedback in
+preparation for the exam.
+Adjustments
+4
+Resources • Teacher slides on data compression
+• Image compression tools (e.g.
+TinyPNG or similar)
+• Example files for comparison
+• Exam-style question sets
+Key teaching and
+learning experiences
+Structured revision of key concepts:
+digital systems, HTML (content and
+structure), CSS (presentation), and data
+compression. Students consolidate their
+understanding through guided review and
+discussion.
+Revision activities including quizzes,
+concept mapping, and peer discussion.
+Students complete practice exam
+questions under timed conditions to build
+familiarity with assessment requirements.
+Completion of the Web Exam under
+supervised conditions (as per assessment
+specifications). Final review and
+clarification of expectations prior to the
+exam.
+Adjustments
+5
+Resources • Revision slides and summary sheets
+• Practice exam papers
+• Key terminology lists
+• Past/sample questions
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 6 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 6 of 7 --
+
+Evaluation
+This document may contain confidential personal information, and must be handled in accordance with applicable privacy law.
+Copyright in the template of this document belongs to the QCAA and ACARA and is licensed Creative Commons Attribution 4.0. The QCAA requires no attribution. For the latest
+information and additional terms of use of the ACARA’s content, please check the Australian Curriculum website and its copyright notice. Content provided by St Brendan's College
+(Yeppoon) belongs to the school. Contact the school to obtain permissions to reuse its content, where required.
+Digital Technologies Year 9 2026
+Unit plan: Unit 1
+St Brendan's College (Yeppoon)
+Page 7 of 7
+Printed: 22/04/2026
+Status: Draft
+
+-- 7 of 7 --
+
