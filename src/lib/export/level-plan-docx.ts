@@ -304,13 +304,23 @@ function buildCapabilitiesWrapper(
 	return wrapTable(setWrapperTableLayout(clearWrapperTableBorders(withNested)));
 }
 
+function levelPlanSubtitle(plan: LevelPlan): string {
+	const year = plan.year.value === '' ? '' : String(plan.year.value);
+	const status = plan.status.value || '';
+	if (year || status) {
+		return `Curriculum and assessment plan · ${year} · ${status}`;
+	}
+	return 'Curriculum and assessment plan';
+}
+
 function setHeader(before: string, plan: LevelPlan): string {
 	let section = before;
+	const subtitle = levelPlanSubtitle(plan);
 	section = replaceNthTextNode(section, 0, plan.bandSubjectTitle.value || 'Level Plan');
-	section = replaceNthTextNode(section, 1, 'Curriculum and assessment plan');
+	section = replaceNthTextNode(section, 1, subtitle);
 	section = replaceNthTextNode(section, 2, plan.school.value);
 	section = replaceNthTextNode(section, 3, plan.bandSubjectTitle.value || 'Level Plan');
-	section = replaceNthTextNode(section, 4, 'Curriculum and assessment plan');
+	section = replaceNthTextNode(section, 4, subtitle);
 	section = replaceNthTextNode(section, 5, plan.school.value);
 	return section;
 }

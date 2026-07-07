@@ -230,6 +230,7 @@ export interface UnitPlanSummary {
 }
 
 export interface OverviewUnitEntry {
+	slotIndex: number;
 	levelUnitId: string;
 	unitPlanId: string | null;
 	title: string;

@@ -229,6 +229,52 @@
 			boardBusy = '';
 		}
 	}
+
+	async function moveUnit(entry: FacultyOverviewEntry, fromIndex: number, toIndex: number) {
+		if (fromIndex === toIndex) return;
+
+		boardError = '';
+		boardBusy = `${entry.id}:${fromIndex}`;
+		try {
+			const res = await fetch(`/api/level-plan/${entry.id}/units/${fromIndex}/reorder`, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ toIndex })
+			});
+			const data = await res.json();
+			if (!res.ok) throw new Error(data.message || 'Reorder failed');
+			await refreshBoard();
+		} catch (e) {
+			boardError = e instanceof Error ? e.message : 'Reorder failed';
+		} finally {
+			boardBusy = '';
+		}
+	}
+
+	async function cloneUnit(entry: FacultyOverviewEntry, unitIndex: number, title: string) {
+		if (
+			!confirm(
+				`Clone "${title}" in ${entry.bandSubjectTitle}? A copy will be inserted after this unit.`
+			)
+		) {
+			return;
+		}
+
+		boardError = '';
+		boardBusy = `${entry.id}:${unitIndex}`;
+		try {
+			const res = await fetch(`/api/level-plan/${entry.id}/units/${unitIndex}/clone`, {
+				method: 'POST'
+			});
+			const data = await res.json();
+			if (!res.ok) throw new Error(data.message || 'Clone failed');
+			await refreshBoard();
+		} catch (e) {
+			boardError = e instanceof Error ? e.message : 'Clone failed';
+		} finally {
+			boardBusy = '';
+		}
+	}
 </script>
 
 <h1>Faculty Overview</h1>
@@ -281,16 +327,35 @@
 					</tr>
 				</thead>
 				<tbody>
-					{#each entry.units as unit, ui (unit.unitPlanId ?? unit.levelUnitId)}
+					{#each entry.units as unit (unit.levelUnitId)}
 						{@const attachable = compatibleStandaloneUnits(entry)}
-						{@const slotBusy = boardBusy === `${entry.id}:${ui}`}
+						{@const slotBusy = boardBusy === `${entry.id}:${unit.slotIndex}`}
 						<tr class:unit-missing={!unit.hasUnitPlan}>
-							<td>{unit.unitNumber !== '' ? `Unit ${unit.unitNumber}` : `Unit ${ui + 1}`}</td>
+							<td>{unit.unitNumber !== '' ? `Unit ${unit.unitNumber}` : `Unit ${unit.slotIndex + 1}`}</td>
 							<td>{unit.title}</td>
 							<td>{unit.yearLevel !== '' ? unit.yearLevel : '—'}</td>
 							<td>{unit.duration || '—'}</td>
 							<td>{unit.status}</td>
 							<td class="unit-slot-actions">
+								<span class="unit-order-actions">
+									<button
+										class="btn btn-sm"
+										title="Move up"
+										disabled={slotBusy || unit.slotIndex === 0}
+										onclick={() => moveUnit(entry, unit.slotIndex, unit.slotIndex - 1)}
+									>↑</button>
+									<button
+										class="btn btn-sm"
+										title="Move down"
+										disabled={slotBusy || unit.slotIndex === entry.units.length - 1}
+										onclick={() => moveUnit(entry, unit.slotIndex, unit.slotIndex + 1)}
+									>↓</button>
+									<button
+										class="btn btn-sm"
+										disabled={slotBusy}
+										onclick={() => cloneUnit(entry, unit.slotIndex, unit.title)}
+									>Clone</button>
+								</span>
 								{#if unit.hasUnitPlan && unit.unitPlanId}
 									<a
 										class="btn btn-sm btn-primary"
@@ -299,7 +364,7 @@
 									<button
 										class="btn btn-sm"
 										disabled={slotBusy}
-										onclick={() => detachUnit(entry, ui, unit.title)}
+										onclick={() => detachUnit(entry, unit.slotIndex, unit.title)}
 									>
 										{slotBusy ? '…' : 'Detach'}
 									</button>
@@ -309,7 +374,7 @@
 										<button
 											class="btn btn-sm"
 											disabled={slotBusy}
-											onclick={() => removeEmptyColumn(entry, ui, unit.title)}
+											onclick={() => removeEmptyColumn(entry, unit.slotIndex, unit.title)}
 										>
 											{slotBusy ? '…' : 'Remove column'}
 										</button>
@@ -324,7 +389,7 @@
 											const unitPlanId = select.value;
 											select.value = '';
 											if (unitPlanId) {
-												attachUnit(entry, ui, unitPlanId, unit.title, unit.hasUnitPlan);
+												attachUnit(entry, unit.slotIndex, unitPlanId, unit.title, unit.hasUnitPlan);
 											}
 										}}
 									>

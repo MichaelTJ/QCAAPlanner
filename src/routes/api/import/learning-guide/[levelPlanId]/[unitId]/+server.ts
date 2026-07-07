@@ -1,11 +1,14 @@
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { mergeParsedLevelPlan, parseLevelPlanDocx } from '$lib/import/level-plan-docx';
-import { getLevelPlan, importLevelPlanAsNew } from '$lib/server/data';
+import {
+	mergeLearningGuideImport,
+	parseLearningGuideDocx
+} from '$lib/import/learning-guide-docx';
+import { getUnitPlan, importUnitPlanAsNew } from '$lib/server/data';
 
 export const POST: RequestHandler = async ({ params, request }) => {
-	const plan = await getLevelPlan(params.id);
-	if (!plan) error(404, 'Level plan not found');
+	const plan = await getUnitPlan(params.levelPlanId, params.unitId);
+	if (!plan) error(404, 'Unit plan not found');
 
 	const form = await request.formData();
 	const file = form.get('file');
@@ -15,12 +18,12 @@ export const POST: RequestHandler = async ({ params, request }) => {
 
 	try {
 		const buffer = Buffer.from(await file.arrayBuffer());
-		const parsed = parseLevelPlanDocx(buffer);
-		const merged = mergeParsedLevelPlan(plan, parsed);
-		const created = await importLevelPlanAsNew(params.id, merged);
+		const parsed = parseLearningGuideDocx(buffer);
+		const withGuide = mergeLearningGuideImport(plan, parsed);
+		const created = await importUnitPlanAsNew(params.levelPlanId, params.unitId, withGuide);
 		return json({
 			plan: created,
-			redirectTo: `/level-plan/${created.id}`
+			redirectTo: `/level-plan/${created.levelPlanId}/unit/${created.id}`
 		});
 	} catch (e) {
 		const message = e instanceof Error ? e.message : 'Import failed';

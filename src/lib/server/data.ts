@@ -20,8 +20,10 @@ import {
 import { getCurriculumForPlanType } from '$lib/curriculum/quick-plan-data';
 import {
 	applyUnitPlanToLevelPlan,
+	insertLevelPlanUnitColumnAfter,
 	orphanedUnitPlans,
 	removeLevelPlanUnitColumn,
+	reorderLevelPlanUnits,
 	resetLevelPlanUnitSlot,
 	syncLevelPlanIntoUnitPlans,
 	syncUnitPlansIntoLevelPlan,
@@ -32,6 +34,7 @@ import {
 	curriculumMatchFromUnit,
 	unitCompatibleWithFaculty
 } from '$lib/curriculum-match';
+import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, unitCopyLabel } from '$lib/import/plan-clone';
 import type {
 	AssessmentItem,
 	FacultyIndex,
@@ -360,6 +363,82 @@ export async function removeUnitColumnFromLevelPlan(levelPlanId: string, unitInd
 	return levelPlan;
 }
 
+export async function reorderUnitsInLevelPlan(
+	levelPlanId: string,
+	fromIndex: number,
+	toIndex: number
+) {
+	const levelPlan = await getLevelPlan(levelPlanId);
+	if (!levelPlan) throw new Error('Level plan not found');
+
+	const unitPlans = await listUnitPlans(levelPlanId);
+	const plansByIndex = levelPlan.units.map((unit, index) =>
+		unitPlanForLevelIndex(unit, index, unitPlans)
+	);
+
+	reorderLevelPlanUnits(levelPlan, fromIndex, toIndex);
+
+	const reorderedPlans = [...plansByIndex];
+	const [movedPlan] = reorderedPlans.splice(fromIndex, 1);
+	reorderedPlans.splice(toIndex, 0, movedPlan);
+
+	for (let index = 0; index < reorderedPlans.length; index++) {
+		const plan = reorderedPlans[index];
+		if (!plan) continue;
+		plan.unitNumber.value = index + 1;
+		await writeJson(unitPlanPath(levelPlanId, plan.id), plan);
+	}
+
+	await saveLevelPlan(levelPlan);
+	await touchFacultyRow(levelPlanId);
+	return { levelPlan, unitPlans: await listUnitPlans(levelPlanId) };
+}
+
+export async function cloneUnitInLevelPlan(levelPlanId: string, sourceIndex: number) {
+	const levelPlan = await getLevelPlan(levelPlanId);
+	if (!levelPlan) throw new Error('Level plan not found');
+	if (sourceIndex < 0 || sourceIndex >= levelPlan.units.length) {
+		throw new Error('Invalid unit index');
+	}
+
+	const unitPlans = await listUnitPlans(levelPlanId);
+	const sourcePlan = unitPlanForLevelIndex(
+		levelPlan.units[sourceIndex],
+		sourceIndex,
+		unitPlans
+	);
+
+	const newUnit = cloneLevelPlanUnit(levelPlan.units[sourceIndex]);
+	newUnit.unitTitle.value = unitCopyLabel(String(newUnit.unitTitle.value));
+	insertLevelPlanUnitColumnAfter(levelPlan, sourceIndex, newUnit);
+
+	const insertAt = sourceIndex + 1;
+	const newUnitNumber = insertAt + 1;
+
+	for (const plan of unitPlans) {
+		const num = Number(plan.unitNumber.value);
+		if (num >= newUnitNumber) {
+			plan.unitNumber.value = num + 1;
+			await writeJson(unitPlanPath(levelPlanId, plan.id), plan);
+		}
+	}
+
+	let clonedPlan: UnitPlan | undefined;
+	if (sourcePlan) {
+		const newId = createId('unit');
+		clonedPlan = cloneUnitPlanWithNewIds(sourcePlan, newId);
+		clonedPlan.levelPlanId = levelPlanId;
+		clonedPlan.unitNumber.value = newUnitNumber;
+		clonedPlan.unitTitle.value = unitCopyLabel(String(clonedPlan.unitTitle.value));
+		await writeJson(unitPlanPath(levelPlanId, newId), clonedPlan);
+		applyUnitPlanToLevelPlan(levelPlan, clonedPlan, insertAt);
+	}
+
+	await saveLevelPlan(levelPlan);
+	await touchFacultyRow(levelPlanId);
+	return { levelPlan, unitPlan: clonedPlan, unitPlans: await listUnitPlans(levelPlanId) };
+}
+
 export async function createStandaloneUnitPlan(title?: string): Promise<UnitPlan> {
 	await ensureDataDirs();
 	const existing = await listUnitPlans(STANDALONE_LEVEL_PLAN_ID);
@@ -418,6 +497,7 @@ export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
 				if (matched) usedPlanIds.add(matched.id);
 
 				units.push({
+					slotIndex: index,
 					levelUnitId: levelUnit.id,
 					unitPlanId: matched?.id ?? null,
 					title: String(levelUnit.unitTitle.value || `Unit ${index + 1}`),
@@ -429,8 +509,6 @@ export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
 				});
 			}
 		}
-
-		units.sort((a, b) => Number(a.unitNumber || 0) - Number(b.unitNumber || 0));
 
 		entries.push({
 			...row,
@@ -747,4 +825,72 @@ export async function importQuickLevelPlanFromLevelPlan(
 
 	const plan = await syncQuickLevelPlanFromLevelPlan(levelPlanId);
 	return saveQuickLevelPlan(plan);
+}
+
+function uniqueImportId(index: FacultyIndex, base: string): string {
+	const date = new Date().toISOString().slice(0, 10);
+	let candidate = slugId(`${base}-import-${date}`) || createId('plan');
+	let suffix = 1;
+	while (index.rows.some((row) => row.id === candidate)) {
+		candidate = slugId(`${base}-import-${date}-${suffix++}`) || `${createId('plan')}-${suffix}`;
+	}
+	return candidate;
+}
+
+function importCopyLabel(title: string): string {
+	const trimmed = title.trim();
+	if (!trimmed) return 'Import copy';
+	if (/\(import\)$/i.test(trimmed)) return trimmed;
+	return `${trimmed} (import)`;
+}
+
+export async function importLevelPlanAsNew(
+	sourceId: string,
+	merged: LevelPlan
+): Promise<LevelPlan> {
+	const source = await getLevelPlan(sourceId);
+	if (!source) throw new Error('Source level plan not found');
+
+	const index = await getFacultyIndex();
+	const sourceRow = index.rows.find((row) => row.id === sourceId);
+	const newId = uniqueImportId(index, merged.bandSubjectTitle.value || sourceId);
+
+	const cloned = cloneLevelPlanWithNewIds(merged, newId);
+	cloned.bandSubjectTitle.value = importCopyLabel(cloned.bandSubjectTitle.value);
+
+	const row: FacultyRow = {
+		id: newId,
+		learningAreaSubject:
+			sourceRow?.learningAreaSubject ?? merged.bandSubjectTitle.value ?? 'Imported plan',
+		yearLevelBand: sourceRow?.yearLevelBand ?? '',
+		dateLastModified: new Date().toISOString()
+	};
+
+	index.rows.push(row);
+	await saveFacultyIndex(index);
+	await writeJson(path.join(PATHS.levelPlans, `${newId}.json`), cloned);
+	await touchFacultyRow(newId);
+	return cloned;
+}
+
+export async function importUnitPlanAsNew(
+	sourceLevelPlanId: string,
+	sourceUnitId: string,
+	merged: UnitPlan
+): Promise<UnitPlan> {
+	const source = await getUnitPlan(sourceLevelPlanId, sourceUnitId);
+	if (!source) throw new Error('Source unit plan not found');
+
+	const newId = createId('unit');
+	const cloned = cloneUnitPlanWithNewIds(merged, newId);
+	cloned.levelPlanId = sourceLevelPlanId;
+	cloned.unitTitle.value = importCopyLabel(cloned.unitTitle.value);
+
+	const existing = await listUnitPlans(sourceLevelPlanId);
+	const maxNumber = Math.max(0, ...existing.map((plan) => Number(plan.unitNumber.value) || 0));
+	cloned.unitNumber.value = maxNumber + 1;
+
+	await writeJson(unitPlanPath(sourceLevelPlanId, newId), cloned);
+	await touchFacultyRow(sourceLevelPlanId);
+	return cloned;
 }

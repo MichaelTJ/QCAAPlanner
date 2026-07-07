@@ -3,8 +3,12 @@ import {
 	cellText,
 	extractCells,
 	extractNestedTables,
+	extractParagraphs,
 	extractRows,
+	extractTopLevelCells,
+	extractTopLevelRows,
 	extractTopLevelTables,
+	extractTopLevelTablesWithSeparators,
 	unwrapTable
 } from '$lib/export/docx-xml';
 
@@ -166,11 +170,28 @@ export function parseWeekValue(text: string): number | '' {
 	return match ? Number(match[1]) : '';
 }
 
+export function extractNthTextNode(sectionXml: string, index: number): string {
+	let n = -1;
+	let result = '';
+	for (const match of sectionXml.matchAll(/<w:t[^>]*>([^<]*)<\/w:t>/g)) {
+		n++;
+		if (n === index) {
+			result = decodeXmlEntities(match[1]);
+			break;
+		}
+	}
+	return result;
+}
+
 export {
 	extractTopLevelTables,
+	extractTopLevelTablesWithSeparators,
 	unwrapTable,
 	cellText,
 	extractCells,
 	extractRows,
-	extractNestedTables
+	extractNestedTables,
+	extractParagraphs,
+	extractTopLevelRows,
+	extractTopLevelCells
 };

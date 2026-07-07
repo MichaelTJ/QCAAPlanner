@@ -33,7 +33,6 @@
 	async function importWord(file: File) {
 		importing = true;
 		importError = '';
-		saved = false;
 		try {
 			const form = new FormData();
 			form.append('file', file);
@@ -41,20 +40,14 @@
 				method: 'POST',
 				body: form
 			});
+			const body = await res.json().catch(() => ({}));
 			if (!res.ok) {
-				const body = await res.json().catch(() => ({}));
 				throw new Error(body.message || 'Import failed');
 			}
-			plan = await res.json();
-			const unitsRes = await fetch(`/api/unit-plan/${plan.id}`);
-			if (unitsRes.ok) {
-				unitPlans = await unitsRes.json();
+			if (body.redirectTo) {
+				window.location.href = body.redirectTo;
+				return;
 			}
-			syncUnitPlansIntoLevelPlan(plan, unitPlans);
-			for (const row of plan.generalCapabilities) {
-				syncCapabilityRowColumns(row, plan.units.length);
-			}
-			saved = true;
 		} catch (e) {
 			importError = e instanceof Error ? e.message : 'Import failed';
 		} finally {
@@ -66,7 +59,16 @@
 	function onImportSelected(event: Event) {
 		const input = event.currentTarget as HTMLInputElement;
 		const file = input.files?.[0];
-		if (file) void importWord(file);
+		if (!file) return;
+		if (
+			!confirm(
+				'Import as a new level plan copy? Your current plan will not be changed, and you will be taken to the imported copy.'
+			)
+		) {
+			input.value = '';
+			return;
+		}
+		void importWord(file);
 	}
 
 	async function save() {
@@ -215,6 +217,61 @@
 		}
 	}
 
+	async function moveUnit(fromIndex: number, toIndex: number) {
+		if (fromIndex === toIndex) return;
+
+		saving = true;
+		saved = false;
+		const res = await fetch(`/api/level-plan/${plan.id}/units/${fromIndex}/reorder`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ toIndex })
+		});
+		const data = await res.json();
+		if (!res.ok) {
+			alert(data.message || 'Failed to reorder unit.');
+			saving = false;
+			return;
+		}
+
+		plan.units = data.levelPlan.units;
+		unitPlans = data.unitPlans;
+		syncUnitPlansIntoLevelPlan(plan, unitPlans);
+		syncMatrixColumns();
+		saved = true;
+		saving = false;
+	}
+
+	async function cloneUnit(index: number) {
+		const label = plan.units[index].unitTitle.value || `Unit ${index + 1}`;
+		if (
+			!confirm(
+				`Clone "${label}"? A copy will be inserted after this unit. The original is unchanged.`
+			)
+		) {
+			return;
+		}
+
+		saving = true;
+		saved = false;
+		const res = await fetch(`/api/level-plan/${plan.id}/units/${index}/clone`, {
+			method: 'POST'
+		});
+		const data = await res.json();
+		if (!res.ok) {
+			alert(data.message || 'Failed to clone unit.');
+			saving = false;
+			return;
+		}
+
+		plan.units = data.levelPlan.units;
+		unitPlans = data.unitPlans;
+		syncUnitPlansIntoLevelPlan(plan, unitPlans);
+		syncMatrixColumns();
+		saved = true;
+		saving = false;
+	}
+
 	async function createUnitPlan(unit: LevelPlanUnit, index: number) {
 		await refreshUnitPlans();
 		if (unitPlanForIndex(index)) {
@@ -315,6 +372,25 @@
 		<div class="card">
 			<div class="toolbar">
 				<h2 style="margin:0;flex:1">{unit.unitTitle.value || `Unit ${ui + 1}`}</h2>
+				<div class="unit-order-actions">
+					<button
+						class="btn btn-sm"
+						title="Move up"
+						disabled={saving || ui === 0}
+						onclick={() => moveUnit(ui, ui - 1)}
+					>↑</button>
+					<button
+						class="btn btn-sm"
+						title="Move down"
+						disabled={saving || ui === plan.units.length - 1}
+						onclick={() => moveUnit(ui, ui + 1)}
+					>↓</button>
+					<button
+						class="btn btn-sm"
+						disabled={saving}
+						onclick={() => cloneUnit(ui)}
+					>Clone</button>
+				</div>
 				{#if unitPlanForIndex(ui)}
 					<button class="btn btn-sm" onclick={() => detachUnit(ui)}>Detach unit</button>
 				{:else if plan.units.length > 1}

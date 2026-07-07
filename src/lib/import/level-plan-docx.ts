@@ -1,4 +1,4 @@
-import type { LevelPlan, LevelPlanAssessment, LevelPlanUnit } from '$lib/types';
+import type { LevelPlan, LevelPlanAssessment, LevelPlanUnit, PlanStatus } from '$lib/types';
 import {
 	cellHasCheckmark,
 	cellText,
@@ -6,6 +6,8 @@ import {
 	extractNestedTables,
 	extractRows,
 	extractTopLevelTables,
+	extractTopLevelTablesWithSeparators,
+	extractNthTextNode,
 	loadDocumentXml,
 	parseAssessmentHeading,
 	parseContentDescriptionLine,
@@ -28,6 +30,10 @@ const KNOWLEDGE_STRAND = 'Knowledge and understanding';
 const PROCESSES_STRAND = 'Processes and production skills';
 
 export interface ParsedLevelPlanFields {
+	bandSubjectTitle: string;
+	school: string;
+	year: number | '';
+	status: PlanStatus | '';
 	levelDescription: string;
 	contextAndCohortConsiderations: string;
 	units: Array<{
@@ -57,6 +63,32 @@ export interface ParsedLevelPlanFields {
 	}>;
 	generalCapabilities: Array<{ name: string; unitInclusions: boolean[] }>;
 	crossCurriculumPriorities: Array<{ name: string; unitInclusions: boolean[] }>;
+}
+
+function parseLevelPlanHeader(beforeXml: string): Pick<
+	ParsedLevelPlanFields,
+	'bandSubjectTitle' | 'school' | 'year' | 'status'
+> {
+	const bandSubjectTitle = extractNthTextNode(beforeXml, 0).trim();
+	const school = extractNthTextNode(beforeXml, 2).trim();
+	const subtitle = extractNthTextNode(beforeXml, 1).trim();
+	const metaMatch = subtitle.match(/^Curriculum and assessment plan · (\d*) · (.*)$/);
+
+	let year: number | '' = '';
+	let status: PlanStatus | '' = '';
+	if (metaMatch) {
+		year = metaMatch[1] ? Number(metaMatch[1]) : '';
+		const statusValue = metaMatch[2]?.trim() ?? '';
+		if (
+			statusValue === 'Draft' ||
+			statusValue === 'Draft (Validated)' ||
+			statusValue === 'Approved for use'
+		) {
+			status = statusValue;
+		}
+	}
+
+	return { bandSubjectTitle, school, year, status };
 }
 
 function countUnitColumns(rows: string[][]): number {
@@ -258,6 +290,8 @@ function resolveTableLayout(tableCount: number): {
 
 export function parseLevelPlanDocx(buffer: Buffer): ParsedLevelPlanFields {
 	const documentXml = loadDocumentXml(buffer);
+	const { before } = extractTopLevelTablesWithSeparators(documentXml);
+	const header = parseLevelPlanHeader(before);
 	const tables = extractTopLevelTables(documentXml);
 	const layout = resolveTableLayout(tables.length);
 
@@ -277,6 +311,7 @@ export function parseLevelPlanDocx(buffer: Buffer): ParsedLevelPlanFields {
 	const capabilities = parseCapabilitiesWrapper(tables[layout.capabilitiesIdx], unitCount);
 
 	return {
+		...header,
 		levelDescription: descRows[1]?.[0]?.trim() ?? '',
 		contextAndCohortConsiderations: descRows[1]?.[1]?.trim() ?? '',
 		units,
@@ -289,6 +324,10 @@ export function parseLevelPlanDocx(buffer: Buffer): ParsedLevelPlanFields {
 export function mergeParsedLevelPlan(existing: LevelPlan, parsed: ParsedLevelPlanFields): LevelPlan {
 	const plan: LevelPlan = structuredClone(existing);
 
+	if (parsed.bandSubjectTitle) plan.bandSubjectTitle.value = parsed.bandSubjectTitle;
+	if (parsed.school) plan.school.value = parsed.school;
+	if (parsed.year !== '') plan.year.value = parsed.year;
+	if (parsed.status) plan.status.value = parsed.status;
 	if (parsed.levelDescription) plan.levelDescription.value = parsed.levelDescription;
 	if (parsed.contextAndCohortConsiderations) {
 		plan.contextAndCohortConsiderations.value = parsed.contextAndCohortConsiderations;

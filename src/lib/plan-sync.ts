@@ -333,6 +333,132 @@ export function orphanedUnitPlans(levelPlan: LevelPlan, unitPlans: UnitPlan[]): 
 	return unitPlans.filter((plan) => !matchedIds.has(plan.id));
 }
 
+function moveArrayElement<T>(array: T[], fromIndex: number, toIndex: number): T[] {
+	if (fromIndex === toIndex) return array;
+	const next = [...array];
+	const [item] = next.splice(fromIndex, 1);
+	next.splice(toIndex, 0, item);
+	return next;
+}
+
+function moveMatrixColumn(columns: boolean[], fromIndex: number, toIndex: number): boolean[] {
+	return moveArrayElement(columns, fromIndex, toIndex);
+}
+
+export function reorderLevelPlanUnits(levelPlan: LevelPlan, fromIndex: number, toIndex: number) {
+	if (fromIndex === toIndex) return;
+	if (fromIndex < 0 || fromIndex >= levelPlan.units.length) {
+		throw new Error('Invalid source unit index');
+	}
+	if (toIndex < 0 || toIndex >= levelPlan.units.length) {
+		throw new Error('Invalid target unit index');
+	}
+
+	levelPlan.units = moveArrayElement(levelPlan.units, fromIndex, toIndex);
+
+	for (const row of levelPlan.contentDescriptions) {
+		row.unitInclusions = moveMatrixColumn(row.unitInclusions, fromIndex, toIndex);
+	}
+
+	for (const row of levelPlan.generalCapabilities) {
+		row.unitInclusions = moveMatrixColumn(row.unitInclusions, fromIndex, toIndex);
+		if (row.categoryInclusions) {
+			for (const key of Object.keys(row.categoryInclusions)) {
+				row.categoryInclusions[key] = moveMatrixColumn(
+					row.categoryInclusions[key],
+					fromIndex,
+					toIndex
+				);
+			}
+		}
+		if (row.subElementInclusions) {
+			for (const key of Object.keys(row.subElementInclusions)) {
+				row.subElementInclusions[key] = moveMatrixColumn(
+					row.subElementInclusions[key],
+					fromIndex,
+					toIndex
+				);
+			}
+		}
+	}
+
+	for (const row of levelPlan.crossCurriculumPriorities) {
+		row.unitInclusions = moveMatrixColumn(row.unitInclusions, fromIndex, toIndex);
+	}
+
+	for (let index = 0; index < levelPlan.units.length; index++) {
+		const title = String(levelPlan.units[index].unitTitle.value);
+		if (/^Unit \d+$/.test(title)) {
+			levelPlan.units[index].unitTitle.value = `Unit ${index + 1}`;
+		}
+	}
+}
+
+export function insertLevelPlanUnitColumnAfter(
+	levelPlan: LevelPlan,
+	sourceIndex: number,
+	newUnit: LevelPlanUnit
+) {
+	if (sourceIndex < 0 || sourceIndex >= levelPlan.units.length) {
+		throw new Error('Invalid source unit index');
+	}
+
+	const insertAt = sourceIndex + 1;
+	levelPlan.units = [
+		...levelPlan.units.slice(0, insertAt),
+		newUnit,
+		...levelPlan.units.slice(insertAt)
+	];
+
+	for (const row of levelPlan.contentDescriptions) {
+		const sourceValue = row.unitInclusions[sourceIndex] ?? false;
+		row.unitInclusions = [
+			...row.unitInclusions.slice(0, insertAt),
+			sourceValue,
+			...row.unitInclusions.slice(insertAt)
+		];
+	}
+
+	for (const row of levelPlan.generalCapabilities) {
+		const sourceValue = row.unitInclusions[sourceIndex] ?? false;
+		row.unitInclusions = [
+			...row.unitInclusions.slice(0, insertAt),
+			sourceValue,
+			...row.unitInclusions.slice(insertAt)
+		];
+		if (row.categoryInclusions) {
+			for (const key of Object.keys(row.categoryInclusions)) {
+				const sourceCategoryValue = row.categoryInclusions[key][sourceIndex] ?? false;
+				row.categoryInclusions[key] = [
+					...row.categoryInclusions[key].slice(0, insertAt),
+					sourceCategoryValue,
+					...row.categoryInclusions[key].slice(insertAt)
+				];
+			}
+		}
+		if (row.subElementInclusions) {
+			for (const key of Object.keys(row.subElementInclusions)) {
+				const sourceSubValue = row.subElementInclusions[key][sourceIndex] ?? false;
+				row.subElementInclusions[key] = [
+					...row.subElementInclusions[key].slice(0, insertAt),
+					sourceSubValue,
+					...row.subElementInclusions[key].slice(insertAt)
+				];
+			}
+		}
+		syncCapabilityRowColumns(row, levelPlan.units.length);
+	}
+
+	for (const row of levelPlan.crossCurriculumPriorities) {
+		const sourceValue = row.unitInclusions[sourceIndex] ?? false;
+		row.unitInclusions = [
+			...row.unitInclusions.slice(0, insertAt),
+			sourceValue,
+			...row.unitInclusions.slice(insertAt)
+		];
+	}
+}
+
 export function removeLevelPlanUnitColumn(levelPlan: LevelPlan, unitIndex: number) {
 	if (levelPlan.units.length <= 1) {
 		throw new Error('At least one unit column is required');

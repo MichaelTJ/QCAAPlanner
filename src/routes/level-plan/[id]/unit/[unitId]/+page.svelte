@@ -40,7 +40,6 @@
 	async function importWord(file: File) {
 		importing = true;
 		importError = '';
-		saved = false;
 		try {
 			const form = new FormData();
 			form.append('file', file);
@@ -48,15 +47,14 @@
 				method: 'POST',
 				body: form
 			});
+			const body = await res.json().catch(() => ({}));
 			if (!res.ok) {
-				const body = await res.json().catch(() => ({}));
 				throw new Error(body.message || 'Import failed');
 			}
-			plan = await res.json();
-			for (const cap of plan.generalCapabilities) {
-				cap.subElementChecks = ensureUnitCapabilityChecks(cap);
+			if (body.redirectTo) {
+				window.location.href = body.redirectTo;
+				return;
 			}
-			saved = true;
 		} catch (e) {
 			importError = e instanceof Error ? e.message : 'Import failed';
 		} finally {
@@ -68,7 +66,58 @@
 	function onImportSelected(event: Event) {
 		const input = event.currentTarget as HTMLInputElement;
 		const file = input.files?.[0];
-		if (file) void importWord(file);
+		if (!file) return;
+		if (
+			!confirm(
+				'Import as a new unit plan copy? Your current plan will not be changed, and you will be taken to the imported copy.'
+			)
+		) {
+			input.value = '';
+			return;
+		}
+		void importWord(file);
+	}
+
+	async function importLearningGuide(file: File) {
+		learningGuideImporting = true;
+		learningGuideImportError = '';
+		try {
+			const form = new FormData();
+			form.append('file', file);
+			const res = await fetch(
+				`/api/import/learning-guide/${plan.levelPlanId}/${plan.id}`,
+				{ method: 'POST', body: form }
+			);
+			const body = await res.json().catch(() => ({}));
+			if (!res.ok) {
+				throw new Error(body.message || 'Learning guide import failed');
+			}
+			if (body.redirectTo) {
+				window.location.href = body.redirectTo;
+				return;
+			}
+		} catch (e) {
+			learningGuideImportError =
+				e instanceof Error ? e.message : 'Learning guide import failed';
+		} finally {
+			learningGuideImporting = false;
+			if (learningGuideImportInput) learningGuideImportInput.value = '';
+		}
+	}
+
+	function onLearningGuideImportSelected(event: Event) {
+		const input = event.currentTarget as HTMLInputElement;
+		const file = input.files?.[0];
+		if (!file) return;
+		if (
+			!confirm(
+				'Import as a new unit plan copy with updated learning guide content? Your current plan will not be changed.'
+			)
+		) {
+			input.value = '';
+			return;
+		}
+		void importLearningGuide(file);
 	}
 
 	let chunkMode = $state<'outline' | 'weekly'>('outline');
@@ -79,6 +128,9 @@
 	let chunkGenerating = $state(false);
 	let chunkError = $state('');
 	let chunkUsage = $state<GenerationUsage | null>(null);
+	let batchGenerating = $state(false);
+	let batchStatus = $state('');
+	let batchFinished = $state(false);
 
 	let capGenerating = $state(false);
 	let capGeneratingName = $state<string | null>(null);
@@ -89,6 +141,9 @@
 	let learningGuideExporting = $state(false);
 	let learningGuideExportMode = $state<'summary' | 'detailed' | null>(null);
 	let learningGuideExportError = $state('');
+	let learningGuideImporting = $state(false);
+	let learningGuideImportError = $state('');
+	let learningGuideImportInput: HTMLInputElement | undefined = $state();
 
 	function scopeGuideFromPlan(unit: UnitPlan) {
 		return learningGuideFromUnitPlan(unit);
@@ -310,11 +365,23 @@
 		}
 	}
 
-	async function generateChunk() {
-		chunkGenerating = true;
-		chunkError = '';
-		chunkUsage = null;
-		ensureWeekThrough(chunkEnd, 1);
+	const BATCH_CHUNK_SIZE = 3;
+	const BATCH_CHUNK_RETRIES = 3;
+
+	function batchWeekRange(): { start: number; end: number } | null {
+		const nums = plan.teachingSequence
+			.map((w) => Number(w.week.value))
+			.filter((n) => !Number.isNaN(n) && n > 0);
+		if (!nums.length) return null;
+		return { start: Math.min(...nums), end: Math.max(...nums) };
+	}
+
+	async function generateChunkRange(
+		startWeek: number,
+		endWeek: number,
+		size: number
+	): Promise<{ ok: true; usage: GenerationUsage } | { ok: false; error: string }> {
+		ensureWeekThrough(endWeek, 1);
 		try {
 			const res = await fetch('/api/generate/chunk', {
 				method: 'POST',
@@ -323,9 +390,9 @@
 					levelPlanId: plan.levelPlanId,
 					unitId: plan.id,
 					mode: chunkMode,
-					chunkSize,
-					startWeek: chunkStart,
-					endWeek: chunkEnd,
+					chunkSize: size,
+					startWeek,
+					endWeek,
 					aiNotes: chunkNotes
 				})
 			});
@@ -334,7 +401,7 @@
 
 			for (let i = 0; i < data.weeks.length; i++) {
 				const weekData = data.weeks[i];
-				const weekNum = chunkStart + i;
+				const weekNum = startWeek + i;
 				const row = weekRow(weekNum);
 				if (chunkMode === 'outline') {
 					row.outlineTheme = {
@@ -354,16 +421,87 @@
 				(a, b) => Number(a.week.value) - Number(b.week.value)
 			);
 			plan.teachingSequence = plan.teachingSequence.slice();
-			chunkUsage = {
-				model: data.model,
-				modelLabel: data.modelLabel,
-				attemptedModels: data.attemptedModels ?? [],
-				usedFallback: data.usedFallback ?? false
+			return {
+				ok: true,
+				usage: {
+					model: data.model,
+					modelLabel: data.modelLabel,
+					attemptedModels: data.attemptedModels ?? [],
+					usedFallback: data.usedFallback ?? false
+				}
 			};
 		} catch (e) {
-			chunkError = e instanceof Error ? e.message : 'Chunk generation failed';
+			return {
+				ok: false,
+				error: e instanceof Error ? e.message : 'Chunk generation failed'
+			};
+		}
+	}
+
+	async function generateChunk() {
+		chunkGenerating = true;
+		chunkError = '';
+		chunkUsage = null;
+		batchFinished = false;
+		const result = await generateChunkRange(chunkStart, chunkEnd, chunkSize);
+		if (result.ok) {
+			chunkUsage = result.usage;
+		} else {
+			chunkError = result.error;
+		}
+		chunkGenerating = false;
+	}
+
+	async function generateChunkRangeWithRetries(
+		from: number,
+		to: number,
+		count: number
+	): Promise<{ ok: true; usage: GenerationUsage } | { ok: false; error: string }> {
+		let lastError = '';
+		for (let attempt = 1; attempt <= BATCH_CHUNK_RETRIES; attempt++) {
+			batchStatus =
+				attempt === 1
+					? `Generating weeks ${from}–${to}…`
+					: `Generating weeks ${from}–${to}… (retry ${attempt}/${BATCH_CHUNK_RETRIES})`;
+
+			const result = await generateChunkRange(from, to, count);
+			if (result.ok) return result;
+			lastError = result.error;
+		}
+		return { ok: false, error: lastError };
+	}
+
+	async function generateAllChunksSequentially() {
+		const range = batchWeekRange();
+		if (!range) {
+			chunkError = 'Add teaching weeks first (e.g. Ensure 10 weeks).';
+			return;
+		}
+
+		batchGenerating = true;
+		batchFinished = false;
+		batchStatus = '';
+		chunkError = '';
+		chunkUsage = null;
+		ensureWeekThrough(range.end, range.start);
+
+		try {
+			for (let from = range.start; from <= range.end; from += BATCH_CHUNK_SIZE) {
+				const to = Math.min(from + BATCH_CHUNK_SIZE - 1, range.end);
+				const count = to - from + 1;
+
+				const result = await generateChunkRangeWithRetries(from, to, count);
+				if (!result.ok) {
+					chunkError = result.error;
+					batchStatus = `Stopped at weeks ${from}–${to} after ${BATCH_CHUNK_RETRIES} attempts`;
+					return;
+				}
+				chunkUsage = result.usage;
+			}
+			batchFinished = true;
+			batchStatus = 'Finished';
 		} finally {
-			chunkGenerating = false;
+			batchGenerating = false;
 		}
 	}
 
@@ -545,11 +683,28 @@
 						? 'Generating…'
 						: 'Export Detailed Learning Guide'}
 				</button>
+				<input
+					bind:this={learningGuideImportInput}
+					type="file"
+					accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+					hidden
+					onchange={onLearningGuideImportSelected}
+				/>
+				<button
+					class="btn"
+					onclick={() => learningGuideImportInput?.click()}
+					disabled={learningGuideImporting}
+				>
+					{learningGuideImporting ? 'Importing…' : 'Import Learning Guide'}
+				</button>
 			</div>
 		</div>
 
 		{#if learningGuideExportError}
 			<p class="error">{learningGuideExportError}</p>
+		{/if}
+		{#if learningGuideImportError}
+			<p class="error">{learningGuideImportError}</p>
 		{/if}
 
 		{#if learningGuideExporting}
@@ -603,6 +758,32 @@
 {/if}
 
 {#if section === 'sequence'}
+	{@const batchRange = batchWeekRange()}
+	<div class="sequence-batch-bar">
+		<button
+			class="btn btn-primary"
+			onclick={generateAllChunksSequentially}
+			disabled={batchGenerating || chunkGenerating || !batchRange}
+		>
+			{#if batchGenerating}
+				{batchStatus}
+			{:else if batchRange}
+				Generate all weeks {batchRange.start}–{batchRange.end} ({BATCH_CHUNK_SIZE} at a time)
+			{:else}
+				Generate all (add weeks first)
+			{/if}
+		</button>
+		{#if batchFinished && !batchGenerating}
+			<span class="meta batch-finished">Finished</span>
+		{/if}
+		{#if batchRange && !batchGenerating}
+			<span class="meta">
+				Uses {chunkMode === 'outline' ? 'outline' : 'weekly detail'} mode
+			</span>
+		{/if}
+		<ModelFeedback usage={batchGenerating || batchFinished ? chunkUsage : null} />
+	</div>
+
 	<div class="chunk-panel">
 		<h2>Chunked generation</h2>
 		<p class="meta">Outline mode: high-level week themes (3–5 weeks). Weekly mode: theory, prac, assessment detail (3 weeks at a time).</p>

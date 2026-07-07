@@ -7,6 +7,7 @@ import type {
 	UnitPlan,
 	TeachingWeek
 } from '$lib/types';
+import { applyCheckedSubElementsFromText } from '$lib/general-capabilities';
 import {
 	extractBodyBlocks,
 	loadDocumentXml,
@@ -78,13 +79,26 @@ function emptyParsed(): ParsedUnitPlanFields {
 }
 
 function parseTitle(text: string): Partial<ParsedUnitPlanFields> {
-	const match = text.match(/^Year\s+(\d+)\s+(.+?)\s+[—–-]\s+(.+)$/);
-	if (!match) return {};
-	return {
-		yearLevel: Number(match[1]),
-		subject: match[2].trim(),
-		unitTitle: match[3].trim()
-	};
+	const trimmed = text.trim();
+	const withYear = trimmed.match(/^Year\s+(\d+)\s+(.+?)\s+[—–-]\s+(.+)$/);
+	if (withYear) {
+		return {
+			yearLevel: Number(withYear[1]),
+			subject: withYear[2].trim(),
+			unitTitle: withYear[3].trim()
+		};
+	}
+
+	const withoutYear = trimmed.match(/^Year\s+(.+?)\s+[—–-]\s+(.+)$/);
+	if (withoutYear) {
+		return {
+			yearLevel: '',
+			subject: withoutYear[1].trim(),
+			unitTitle: withoutYear[2].trim()
+		};
+	}
+
+	return {};
 }
 
 function parseUnitLine(text: string): Partial<ParsedUnitPlanFields> {
@@ -424,9 +438,11 @@ function mergeCapabilities(
 	return existing.map((cap) => {
 		const row = parsed.find((p) => p.name === cap.name.value);
 		if (!row) return cap;
+		const subElementChecks = applyCheckedSubElementsFromText(cap, row.subElements);
 		return {
 			...cap,
-			subElements: { ...cap.subElements, value: row.subElements },
+			subElementChecks,
+			subElements: { ...cap.subElements, value: cap.subElements.value },
 			evidenceNotes: { ...cap.evidenceNotes, value: row.evidenceNotes }
 		};
 	});

@@ -337,6 +337,60 @@ export function getCapabilityDefinition(name: string): CapabilityDefinition | un
 	return GENERAL_CAPABILITY_DEFINITIONS.find((def) => def.name === name);
 }
 
+export function parseCheckedSubElementsFromText(
+	name: string,
+	text: string
+): Record<string, boolean> {
+	const def = getCapabilityDefinition(name);
+	const checks: Record<string, boolean> = {};
+	if (!def) return checks;
+
+	for (const id of allSubElementIds(def)) {
+		checks[id] = false;
+	}
+
+	for (const line of text.split(/\r?\n/)) {
+		const trimmed = line.trim();
+		if (!trimmed) continue;
+		const colonIdx = trimmed.indexOf(':');
+		if (colonIdx < 0) continue;
+
+		const categoryLabel = trimmed.slice(0, colonIdx).trim();
+		const category = def.categories.find((entry) => entry.label === categoryLabel);
+		if (!category) continue;
+
+		const parts = trimmed
+			.slice(colonIdx + 1)
+			.split(';')
+			.map((part) => part.trim())
+			.filter(Boolean);
+
+		for (const part of parts) {
+			const sub = category.subElements.find((entry) => entry.label === part);
+			if (sub) checks[sub.id] = true;
+		}
+	}
+
+	return checks;
+}
+
+export function applyCheckedSubElementsFromText(
+	cap: {
+		name: { value: string };
+		subElements: { value: string };
+		subElementChecks?: Record<string, boolean>;
+	},
+	text: string
+) {
+	const checks = ensureUnitCapabilityChecks(cap);
+	const parsed = parseCheckedSubElementsFromText(cap.name.value, text);
+	for (const id of Object.keys(parsed)) {
+		checks[id] = parsed[id];
+	}
+	cap.subElements.value = formatCheckedSubElements(cap.name.value, checks);
+	return checks;
+}
+
 export function formatCheckedSubElements(
 	name: string,
 	checks: Record<string, boolean>
