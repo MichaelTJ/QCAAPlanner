@@ -12,7 +12,7 @@
 	import type { LevelPlan, LevelPlanUnit } from '$lib/types';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
 	import CapabilityUnitMatrix from '$lib/components/CapabilityUnitMatrix.svelte';
-	import { syncCapabilityRowColumns } from '$lib/general-capabilities';
+	import { syncCapabilityRowColumns, unitPlanForLevelIndex } from '$lib/general-capabilities';
 	import { syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
@@ -213,7 +213,7 @@
 	}
 
 	function unitPlanForIndex(index: number) {
-		return unitPlans.find((u) => Number(u.unitNumber.value) === index + 1);
+		return unitPlanForLevelIndex(plan.units[index], index, unitPlans);
 	}
 
 	async function refreshUnitPlans() {
@@ -452,6 +452,13 @@
 {/if}
 
 {#if section === 'content'}
+	<div class="card">
+		<p class="meta" style="margin:0">
+			For units with an attached unit plan, each checkbox shows whether any assessment in that
+			unit includes the descriptor. Edit descriptors per assessment in
+			<a href="/quick-level-plan">Quick plan</a>.
+		</p>
+	</div>
 	<div class="card checkbox-matrix content-descriptions-matrix">
 		<table class="data-table">
 			<thead>
@@ -474,12 +481,22 @@
 						<td class="content-text-cell">{row.text.value}</td>
 						<td class="content-code-cell">{row.code.value}</td>
 						{#each row.unitInclusions as _, ci}
+							{@const linkedUnitPlan = unitPlanForIndex(ci)}
 							<td class="unit-check-cell">
-								<input
-									type="checkbox"
-									aria-label="{row.code.value} — {plan.units[ci]?.unitTitle.value || `Unit ${ci + 1}`}"
-									bind:checked={row.unitInclusions[ci]}
-								/>
+								{#if linkedUnitPlan}
+									<input
+										type="checkbox"
+										checked={row.unitInclusions[ci]}
+										disabled
+										aria-label="{row.code.value} — {plan.units[ci]?.unitTitle.value || `Unit ${ci + 1}`} (from assessments)"
+									/>
+								{:else}
+									<input
+										type="checkbox"
+										aria-label="{row.code.value} — {plan.units[ci]?.unitTitle.value || `Unit ${ci + 1}`}"
+										bind:checked={row.unitInclusions[ci]}
+									/>
+								{/if}
 							</td>
 						{/each}
 					</tr>

@@ -1,7 +1,7 @@
 import { getCurriculumForPlanType } from '$lib/curriculum/quick-plan-data';
 import type { CurriculumContentDescriptor } from '$lib/curriculum/quick-plan-data';
 import { createId } from '$lib/defaults';
-import { syncCapabilityRowColumns } from '$lib/general-capabilities';
+import { syncCapabilityRowColumns, unitPlanForLevelIndex } from '$lib/general-capabilities';
 import {
 	aiField,
 	type ContentDescriptionRow,
@@ -12,7 +12,9 @@ import {
 	type QuickPlanAssessment,
 	type QuickPlanContentInclusion,
 	type QuickPlanType,
-	type QuickPlanUnit
+	type QuickPlanUnit,
+	type UnitAssessmentContentDescription,
+	type UnitPlan
 } from '$lib/types';
 
 export const ASSESSMENTS_PER_UNIT = 2;
@@ -199,23 +201,105 @@ export function contentDescriptorsFromLevelPlan(levelPlan: LevelPlan): Curriculu
 	});
 }
 
+function descriptorMatchesCode(cd: CurriculumContentDescriptor, code: string): boolean {
+	const normalized = code.trim();
+	if (!normalized) return false;
+	return cd.id === normalized || cd.code === normalized;
+}
+
+function unitContentDescriptionFromCurriculum(
+	cd: CurriculumContentDescriptor
+): UnitAssessmentContentDescription {
+	const isCategory =
+		cd.category === 'Knowledge and understanding' ||
+		cd.category === 'Processes and production skills';
+
+	return {
+		id: createId('ucd'),
+		strand: aiField(isCategory ? cd.category : cd.strand || cd.category),
+		subStrand: aiField(isCategory ? cd.strand : cd.subStrand),
+		text: aiField(cd.text),
+		code: aiField(cd.code || cd.id)
+	};
+}
+
+function unitPlanAssessmentForQuickAssessment(
+	quickAssessment: QuickPlanAssessment,
+	assessmentIndex: number,
+	levelAssessment: LevelPlanAssessment | undefined,
+	unitPlan: UnitPlan
+) {
+	if (levelAssessment?.id) {
+		const byLevelId = unitPlan.assessments.find((assessment) => assessment.id === levelAssessment.id);
+		if (byLevelId) return byLevelId;
+	}
+
+	const byQuickId = unitPlan.assessments.find((assessment) => assessment.id === quickAssessment.id);
+	if (byQuickId) return byQuickId;
+
+	const title = quickAssessment.title.trim().toLowerCase();
+	if (title) {
+		const byTitle = unitPlan.assessments.find(
+			(assessment) => String(assessment.title.value).trim().toLowerCase() === title
+		);
+		if (byTitle) return byTitle;
+	}
+
+	return unitPlan.assessments[assessmentIndex];
+}
+
+export function refreshQuickPlanContentInclusionsFromUnitPlans(
+	plan: QuickLevelPlan,
+	levelPlan: LevelPlan,
+	unitPlans: UnitPlan[]
+): QuickLevelPlan {
+	const curriculum = getCurriculumForPlanType(plan.planType);
+	const descriptors =
+		curriculum.contentDescriptors.length > 0
+			? curriculum.contentDescriptors
+			: contentDescriptorsFromLevelPlan(levelPlan);
+
+	return {
+		...plan,
+		contentInclusions: buildContentInclusionsFromLevelPlan(
+			levelPlan,
+			descriptors,
+			plan.units,
+			unitPlans
+		)
+	};
+}
+
 export function buildContentInclusionsFromLevelPlan(
 	levelPlan: LevelPlan,
 	descriptors: CurriculumContentDescriptor[],
-	units: QuickPlanUnit[]
+	units: QuickPlanUnit[],
+	unitPlans: UnitPlan[] = []
 ): QuickPlanContentInclusion[] {
 	const cols = totalAssessmentColumns(units);
 
 	return descriptors.map((cd) => {
-		const lpRow = levelPlan.contentDescriptions.find(
-			(row) => row.code.value === cd.id || row.code.value === cd.code
-		);
 		const assessmentInclusions = Array(cols).fill(false);
 
-		if (lpRow) {
-			for (let ui = 0; ui < units.length; ui++) {
-				if (!lpRow.unitInclusions[ui]) continue;
-				for (let ai = 0; ai < units[ui].assessments.length; ai++) {
+		for (let ui = 0; ui < units.length; ui++) {
+			const unitPlan = unitPlans.length
+				? unitPlanForLevelIndex(levelPlan.units[ui], ui, unitPlans)
+				: undefined;
+			if (!unitPlan) continue;
+
+			for (let ai = 0; ai < units[ui].assessments.length; ai++) {
+				const assessment = unitPlanAssessmentForQuickAssessment(
+					units[ui].assessments[ai],
+					ai,
+					levelPlan.units[ui]?.assessments[ai],
+					unitPlan
+				);
+				if (!assessment) continue;
+
+				const included = assessment.contentDescriptions.some((row) =>
+					descriptorMatchesCode(cd, String(row.code.value))
+				);
+				if (included) {
 					assessmentInclusions[assessmentColumnIndex(units, ui, ai)] = true;
 				}
 			}
@@ -278,7 +362,8 @@ export function importLevelPlanToQuickPlan(
 	levelPlan: LevelPlan,
 	planType: QuickPlanType,
 	sourceLevelPlanId: string,
-	existing?: QuickLevelPlan
+	existing?: QuickLevelPlan,
+	unitPlans: UnitPlan[] = []
 ): QuickLevelPlan {
 	const curriculum = getCurriculumForPlanType(planType);
 	const descriptors =
@@ -294,7 +379,12 @@ export function importLevelPlanToQuickPlan(
 		assessments: quickPlanAssessmentsFromLevelUnit(unit.assessments)
 	}));
 
-	const contentInclusions = buildContentInclusionsFromLevelPlan(levelPlan, descriptors, units);
+	const contentInclusions = buildContentInclusionsFromLevelPlan(
+		levelPlan,
+		descriptors,
+		units,
+		unitPlans
+	);
 
 	const now = new Date().toISOString();
 	return {
@@ -407,6 +497,36 @@ function applyQuickPlanContentInclusionsToLevelPlan(
 				quickPlan.units,
 				unitIndex
 			);
+		}
+	}
+}
+
+export function applyQuickPlanContentInclusionsToUnitPlans(
+	quickPlan: QuickLevelPlan,
+	levelPlan: LevelPlan,
+	unitPlans: UnitPlan[],
+	descriptors: CurriculumContentDescriptor[]
+) {
+	for (let unitIndex = 0; unitIndex < quickPlan.units.length; unitIndex++) {
+		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans);
+		if (!unitPlan) continue;
+
+		for (let assessmentIndex = 0; assessmentIndex < quickPlan.units[unitIndex].assessments.length; assessmentIndex++) {
+			const assessment = unitPlanAssessmentForQuickAssessment(
+				quickPlan.units[unitIndex].assessments[assessmentIndex],
+				assessmentIndex,
+				levelPlan.units[unitIndex]?.assessments[assessmentIndex],
+				unitPlan
+			);
+			if (!assessment) continue;
+
+			const selected = getSelectedDescriptorsForAssessment(
+				quickPlan,
+				descriptors,
+				unitIndex,
+				assessmentIndex
+			);
+			assessment.contentDescriptions = selected.map(unitContentDescriptionFromCurriculum);
 		}
 	}
 }

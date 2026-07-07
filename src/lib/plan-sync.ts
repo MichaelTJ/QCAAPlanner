@@ -203,41 +203,6 @@ export function applyUnitContentDescriptionsToLevelPlanColumn(
 	}
 }
 
-function contentDescriptorsForLevelColumn(
-	levelPlan: LevelPlan,
-	unitIndex: number
-): UnitAssessment['contentDescriptions'] {
-	return levelPlan.contentDescriptions
-		.filter((row) => row.unitInclusions[unitIndex])
-		.map((row) => ({
-			id: createId('ucd'),
-			strand: cloneAiField(row.strand),
-			subStrand: cloneAiField(row.subStrand),
-			text: cloneAiField(row.text),
-			code: cloneAiField(row.code)
-		}));
-}
-
-export function applyLevelPlanContentColumnToUnitPlan(
-	levelPlan: LevelPlan,
-	unitPlan: UnitPlan,
-	unitIndex: number
-) {
-	const descriptors = contentDescriptorsForLevelColumn(levelPlan, unitIndex);
-	if (unitPlan.assessments.length === 0) return;
-
-	for (const assessment of unitPlan.assessments) {
-		assessment.contentDescriptions = descriptors.map((row) => ({
-			...row,
-			id: createId('ucd'),
-			strand: cloneAiField(row.strand),
-			subStrand: cloneAiField(row.subStrand),
-			text: cloneAiField(row.text),
-			code: cloneAiField(row.code)
-		}));
-	}
-}
-
 export function clearLevelPlanSlotMatrix(levelPlan: LevelPlan, unitIndex: number) {
 	const unitCount = levelPlan.units.length;
 	for (const row of levelPlan.contentDescriptions) {
@@ -304,7 +269,6 @@ export function syncLevelPlanIntoUnitPlans(levelPlan: LevelPlan, unitPlans: Unit
 		if (!unitPlan) continue;
 		applyLevelPlanUnitToUnitPlan(levelPlan, levelPlan.units[unitIndex], unitPlan, unitIndex);
 		applyLevelPlanCapabilitiesToUnitPlan(levelPlan, unitPlan, unitIndex);
-		applyLevelPlanContentColumnToUnitPlan(levelPlan, unitPlan, unitIndex);
 		updated.push(unitPlan);
 	}
 	return updated;

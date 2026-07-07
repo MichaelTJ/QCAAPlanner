@@ -12,9 +12,11 @@ import {
 	createEmptyQuickLevelPlan,
 	contentDescriptorsFromLevelPlan,
 	exportQuickPlanToLevelPlan,
+	applyQuickPlanContentInclusionsToUnitPlans,
 	importLevelPlanToQuickPlan,
 	inferQuickPlanType,
 	inferQuickPlanTypeFromTitle,
+	refreshQuickPlanContentInclusionsFromUnitPlans,
 	syncQuickPlanColumns
 } from '$lib/quick-plan';
 import { getCurriculumForPlanType } from '$lib/curriculum/quick-plan-data';
@@ -699,6 +701,13 @@ export async function syncQuickLevelPlanIntoLevelPlan(
 
 	exportQuickPlanToLevelPlan(quickPlan, levelPlan, descriptors);
 	await saveLevelPlan(levelPlan);
+
+	const unitPlans = await listUnitPlans(quickPlan.sourceLevelPlanId);
+	applyQuickPlanContentInclusionsToUnitPlans(quickPlan, levelPlan, unitPlans, descriptors);
+	for (const unitPlan of unitPlans) {
+		await saveUnitPlan(unitPlan);
+	}
+
 	return levelPlan;
 }
 
@@ -796,7 +805,7 @@ export async function syncQuickLevelPlanFromLevelPlan(
 		throw new Error('Could not determine plan type for this level plan');
 	}
 
-	return importLevelPlanToQuickPlan(levelPlan, planType, levelPlanId, existing);
+	return importLevelPlanToQuickPlan(levelPlan, planType, levelPlanId, existing, unitPlans);
 }
 
 export async function refreshQuickLevelPlanFromSource(
@@ -815,6 +824,15 @@ export async function refreshQuickLevelPlanFromSource(
 
 	if (quickPlanNewerThanLevelPlan(levelPlanId, synced.modifiedAt, faculty.rows)) {
 		return saveQuickLevelPlanWithSourceSync(synced);
+	}
+
+	const levelPlan = await getLevelPlan(levelPlanId);
+	if (!levelPlan) return synced;
+
+	const unitPlans = await listUnitPlans(levelPlanId);
+	const refreshed = refreshQuickPlanContentInclusionsFromUnitPlans(synced, levelPlan, unitPlans);
+	if (JSON.stringify(refreshed.contentInclusions) !== JSON.stringify(synced.contentInclusions)) {
+		return saveQuickLevelPlan(refreshed);
 	}
 
 	return synced;
