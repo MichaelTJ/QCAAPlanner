@@ -149,7 +149,19 @@ export async function buildGenerationContext(
 			if (unit) context.unitPlan = summarizeUnitPlan(unit);
 			context.assessmentItem = {
 				title: item.title.value,
-				description: item.description.value
+				description: item.description.value,
+				technique: item.technique.value,
+				mode: item.mode.value,
+				task: item.task.value,
+				context: item.context.value,
+				conditions: item.conditions.value,
+				selectedContentDescriptions: item.contentDescriptions
+					.filter((cd) => cd.selected)
+					.map((cd) => ({
+						code: cd.code.value,
+						text: cd.text.value,
+						strand: cd.strand.value
+					}))
 			};
 		}
 	}
@@ -304,7 +316,7 @@ export async function generateChunkContent(request: ChunkGenerateRequest) {
 
 	const modeInstructions =
 		request.mode === 'outline'
-			? `Generate a high-level outline for "${targetUnitTitle}" only — weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on. For each week return only: week number and outlineTheme (brief focus/theme aligned to this unit's description and assessments, not full lesson detail). Do NOT use topics from other units in the band.`
+			? `Generate a high-level outline for "${targetUnitTitle}" only — weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on. For each week return only: week number and outlineTheme (focus/theme aligned to this unit's description and assessments, not full lesson detail). Make the outlines bigger — they get 3 lessons a week so feel free to fill them up. Do NOT use topics from other units in the band.`
 			: `Generate detailed weekly content for "${targetUnitTitle}" only — weeks ${request.startWeek}–${request.endWeek} (${weekCount} weeks). Return exactly ${weekCount} objects in order. Object at index 0 is week ${request.startWeek}, index 1 is week ${request.startWeek + 1}, and so on.
 
 For each week N, the detailed content MUST implement the outlineTheme for week N from chunkOutline in the context — do not use the previous or next week's theme.

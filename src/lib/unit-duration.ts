@@ -59,6 +59,28 @@ export function formatTermWeekLabel(term: number, week: number): string {
 	return `Term ${term} Week ${week}`;
 }
 
+/** Shift a term/week or plain week label by `delta` weeks (negative = earlier). */
+export function offsetWeekLabel(label: string, delta: number): string {
+	const text = String(label).trim();
+	if (!text || delta === 0) return text;
+
+	const termWeek = parseTermWeekLabel(text);
+	if (termWeek) {
+		const absolute = Math.max(1, absoluteWeekNumber(termWeek) + delta);
+		return formatTermWeekLabel(
+			Math.floor((absolute - 1) / WEEKS_PER_TERM) + 1,
+			((absolute - 1) % WEEKS_PER_TERM) + 1
+		);
+	}
+
+	const plain = text.match(/^(?:week\s*)?(\d+)$/i);
+	if (plain) {
+		return `Week ${Math.max(1, Number(plain[1]) + delta)}`;
+	}
+
+	return text;
+}
+
 export function durationFromTermWeekLabels(start: string, finish: string): string {
 	const startTw = parseTermWeekLabel(start);
 	const finishTw = parseTermWeekLabel(finish);

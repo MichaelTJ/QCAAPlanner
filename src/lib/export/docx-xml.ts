@@ -12,6 +12,23 @@ export const LEARNING_GUIDE_TEMPLATE_PATH = path.join(
 	'FacultyDocs/Templates/LG - Digital Technologies - Term 1 2026.docx'
 );
 
+export const ASSESSMENT_TEMPLATE_PATHS = {
+	'7-8': {
+		assignment: path.join(
+			process.cwd(),
+			'FacultyDocs/Templates/DigiTech7-8AssignmentTemplate.docx'
+		),
+		exam: path.join(process.cwd(), 'FacultyDocs/Templates/DigiTech7-8ExamTemplate.docx')
+	},
+	'9-10': {
+		assignment: path.join(
+			process.cwd(),
+			'FacultyDocs/Templates/DigiTech9-10AssignmentTemplate.docx'
+		),
+		exam: path.join(process.cwd(), 'FacultyDocs/Templates/DigiTech9-10ExamTemplate.docx')
+	}
+} as const;
+
 /** Internal marker passed to setRowCells for checkbox cells. */
 export const TICK_SENTINEL = '\uE000';
 

@@ -1,5 +1,11 @@
 import { error } from '@sveltejs/kit';
-import { getLevelPlan, getUnitPlan, listUnitPlans } from '$lib/server/data';
+import {
+	getLevelPlan,
+	getUnitPlan,
+	listAllAssessmentItems,
+	listAssessmentItems,
+	listUnitPlans
+} from '$lib/server/data';
 import { unitPlanForLevelIndex } from '$lib/plan-sync';
 import { aiField } from '$lib/types';
 import type { PageServerLoad } from './$types';
@@ -25,5 +31,14 @@ export const load: PageServerLoad = async ({ params }) => {
 		}
 	}
 
-	return { plan };
+	const [assessmentItems, allAssessmentItems] = await Promise.all([
+		listAssessmentItems(undefined, plan.id),
+		listAllAssessmentItems()
+	]);
+
+	return {
+		plan,
+		assessmentItems,
+		standaloneAssessments: allAssessmentItems.filter((item) => item.isStandalone)
+	};
 };

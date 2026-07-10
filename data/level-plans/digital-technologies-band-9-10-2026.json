@@ -104,7 +104,7 @@
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided.",
+        "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided. Through guided analysis and controlled, ethical simulations, students will explore common features of scam websites, including deceptive design choices, persuasive language, fake forms, and misleading links. By constructing mock scam websites in a safe learning environment, students will develop an understanding of how attackers exploit human behaviour rather than technical vulnerabilities. Students will also examine protective strategies such as recognising warning signs, verifying sources, and applying safe online practices.",
         "aiNotes": ""
       },
       "assessments": [
@@ -119,7 +119,7 @@
             "aiNotes": ""
           },
           "term": {
-            "value": 2,
+            "value": "",
             "aiNotes": ""
           },
           "week": {
@@ -127,7 +127,7 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems.",
+            "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems. They will define the problem, generate and evaluate design solutions, represent websites using content/structure/presentation, model data, collaborate using agile tools, and apply Australian Privacy Principles.",
             "aiNotes": ""
           },
           "technique": {
@@ -139,7 +139,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations. 1 minute presentation of the final product.",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -147,7 +147,7 @@
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "value": "Monitoring: Week 5, Conferencing: Week 7",
             "aiNotes": ""
           }
         }
@@ -440,7 +440,7 @@
       "unitInclusions": [
         true,
         true,
-        true,
+        false,
         false
       ]
     },
@@ -465,7 +465,7 @@
       "unitInclusions": [
         true,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -490,7 +490,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -515,7 +515,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -540,7 +540,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -565,7 +565,7 @@
       "unitInclusions": [
         false,
         false,
-        true,
+        false,
         true
       ]
     },
@@ -590,7 +590,7 @@
       "unitInclusions": [
         false,
         false,
-        true,
+        false,
         true
       ]
     },
@@ -615,7 +615,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -640,7 +640,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -665,7 +665,7 @@
       "unitInclusions": [
         false,
         false,
-        true,
+        false,
         true
       ]
     },
@@ -690,7 +690,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -740,7 +740,7 @@
       "unitInclusions": [
         false,
         true,
-        true,
+        false,
         true
       ]
     },
@@ -804,10 +804,98 @@
       },
       "unitInclusions": [
         true,
-        true,
-        true,
+        false,
+        false,
         true
-      ]
+      ],
+      "categoryInclusions": {
+        "cct-inquiring": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "cct-inquiring-develop-questions": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-inquiring-identify-process-evaluate": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-create-possibilities": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-consider-alternatives": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-put-ideas-into-action": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-interpret-concepts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-draw-conclusions": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-evaluate-actions": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting-metacognition": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting-transfer-knowledge": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-nsk2coa8",
@@ -817,10 +905,110 @@
       },
       "unitInclusions": [
         true,
-        true,
-        true,
+        false,
+        false,
         true
-      ]
+      ],
+      "categoryInclusions": {
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-exchanging": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operating": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "dl-safety-manage-online": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-privacy-identity": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-locate": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-acquire": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-interpret": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-plan": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-communicate-collaborate": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-ip": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-content": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-protect": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operate": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-qg1eebf3",
@@ -830,10 +1018,62 @@
       },
       "unitInclusions": [
         false,
-        true,
+        false,
         false,
         false
-      ]
+      ],
+      "categoryInclusions": {
+        "eu-concepts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "eu-concepts-explore": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-values-rights": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-influences": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-issues": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-decisions": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-z58pfapr",
@@ -846,7 +1086,83 @@
         false,
         false,
         false
-      ]
+      ],
+      "categoryInclusions": {
+        "iu-reflecting": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "iu-reflecting-cultures-identities": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-perspectives": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-influence": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-communicate": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-perspectives": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-empathy": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-responses": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-biases": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-pji2g6ui",
@@ -857,9 +1173,103 @@
       "unitInclusions": [
         true,
         true,
-        true,
+        false,
         true
-      ]
+      ],
+      "categoryInclusions": {
+        "lit-speaking-listening": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-reading-viewing": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-writing": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "lit-listening": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-interacting": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-speaking": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-understanding-texts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonic-knowledge": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-fluency": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-creating-texts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-grammar": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-punctuation": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-spelling": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-handwriting-keyboarding": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-t58d70ya",
@@ -870,9 +1280,115 @@
       "unitInclusions": [
         false,
         false,
-        true,
+        false,
         true
-      ]
+      ],
+      "categoryInclusions": {
+        "num-number-algebra": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measurement-geometry": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-statistics-probability": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "num-place-value": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-counting": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-additive": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-multiplicative": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-fractions": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-proportional": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-patterns-algebra": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-money": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-units-measurement": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-geometric-properties": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-positioning": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measuring-time": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-chance": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-data": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     },
     {
       "id": "cap-os2jiucr",
@@ -885,7 +1401,119 @@
         true,
         false,
         false
-      ]
+      ],
+      "categoryInclusions": {
+        "psc-self-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-self-management": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-management": [
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "psc-personal-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-reflective-practice": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-goal-setting": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-perseverance": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-empathy": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-relational-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-community-awareness": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-communication": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-collaboration": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-leadership": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-decision-making": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
     }
   ],
   "crossCurriculumPriorities": [

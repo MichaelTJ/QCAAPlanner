@@ -1,0 +1,342 @@
+{
+  "id": "unit-786c1ae2",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 9,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Microbits - Data Gathering and Analysis",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "20 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students will use micro:bit devices to collect real-world data and investigate how digital systems acquire, store, and process information.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-a6928922",
+      "assessmentNumber": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Data Collection",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will design and implement a micro:bit program to collect sports science–related data.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Investigation",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 3, Week 8",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 5; Conferencing: Week 7",
+        "aiNotes": ""
+      },
+      "contentDescriptions": []
+    },
+    {
+      "id": "uassess-96b5dea9",
+      "assessmentNumber": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Wearable Sports Science",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will design and develop a wearable sports science data collection device using a micro:bit.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 5; Conferencing: Week 7",
+        "aiNotes": ""
+      },
+      "contentDescriptions": []
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-c124a613",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-934a959b",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-7a90e6b4",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-4b9096c7",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-bb2adbe7",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-49bfa512",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-1aa62211",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

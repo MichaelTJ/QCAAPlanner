@@ -1,12 +1,20 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {
+	applyAssessmentItemToUnitAssessment,
+	assessmentItemForUnitIndex,
+	seedInstrumentFromUnitAssessment
+} from '$lib/assessment/digitech-instruments';
+import {
+	createEmptyAssessmentItem,
 	createEmptyLevelPlan,
 	createEmptyUnitPlan,
 	createId,
 	DEFAULT_SETTINGS,
 	formatBandSubjectTitle,
-	STANDALONE_LEVEL_PLAN_ID
+	normalizeAssessmentItem,
+	STANDALONE_LEVEL_PLAN_ID,
+	STANDALONE_UNIT_PLAN_ID
 } from '$lib/defaults';
 import {
 	createEmptyQuickLevelPlan,
@@ -33,6 +41,7 @@ import {
 	clearLevelPlanSlotMatrix
 } from '$lib/plan-sync';
 import {
+	curriculumKeysCompatible,
 	curriculumMatchFromUnit,
 	unitCompatibleWithFaculty
 } from '$lib/curriculum-match';
@@ -40,6 +49,7 @@ import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, 
 import { resolveUnitDuration } from '$lib/unit-duration';
 import type {
 	AssessmentItem,
+	AssessmentItemSummary,
 	FacultyIndex,
 	FacultyRow,
 	LevelPlan,
@@ -254,6 +264,12 @@ async function relocateUnitPlan(plan: UnitPlan, newLevelPlanId: string): Promise
 		await fs.unlink(unitPlanPath(oldLevelPlanId, plan.id));
 	} catch {
 		// ignore missing file
+	}
+	const items = await listAssessmentItems(undefined, plan.id);
+	for (const item of items) {
+		if (item.levelPlanId === newLevelPlanId) continue;
+		item.levelPlanId = newLevelPlanId;
+		await writeJson(path.join(PATHS.assessmentItems, `${item.id}.json`), item);
 	}
 	return plan;
 }
@@ -565,7 +581,7 @@ export async function deleteUnitPlan(
 	} catch {
 		// ignore missing file
 	}
-	const items = await listAssessmentItems(levelPlanId, unitId);
+	const items = await listAssessmentItems(undefined, unitId);
 	for (const item of items) {
 		try {
 			await fs.unlink(path.join(PATHS.assessmentItems, `${item.id}.json`));
@@ -578,10 +594,12 @@ export async function deleteUnitPlan(
 
 export async function getAssessmentItem(id: string): Promise<AssessmentItem | null> {
 	await ensureDataDirs();
-	return readJson<AssessmentItem | null>(
+	const raw = await readJson<(Partial<AssessmentItem> & { id: string }) | null>(
 		path.join(PATHS.assessmentItems, `${id}.json`),
 		null
 	);
+	if (!raw) return null;
+	return normalizeAssessmentItem(raw);
 }
 
 export async function listAssessmentItems(
@@ -594,11 +612,12 @@ export async function listAssessmentItems(
 		const items: AssessmentItem[] = [];
 		for (const file of files) {
 			if (!file.endsWith('.json')) continue;
-			const item = await readJson<AssessmentItem | null>(
+			const raw = await readJson<(Partial<AssessmentItem> & { id: string }) | null>(
 				path.join(PATHS.assessmentItems, file),
 				null
 			);
-			if (!item) continue;
+			if (!raw) continue;
+			const item = normalizeAssessmentItem(raw);
 			if (levelPlanId && item.levelPlanId !== levelPlanId) continue;
 			if (unitPlanId && item.unitPlanId !== unitPlanId) continue;
 			items.push(item);
@@ -609,30 +628,223 @@ export async function listAssessmentItems(
 	}
 }
 
-export async function saveAssessmentItem(item: AssessmentItem) {
-	await writeJson(path.join(PATHS.assessmentItems, `${item.id}.json`), item);
-	await touchFacultyRow(item.levelPlanId);
+export async function listAllAssessmentItems(): Promise<AssessmentItemSummary[]> {
+	const items = await listAssessmentItems();
+	return items
+		.map((item) => ({
+			id: item.id,
+			unitPlanId: item.unitPlanId,
+			levelPlanId: item.levelPlanId,
+			title: String(item.title.value) || 'Untitled assessment',
+			technique: String(item.technique.value),
+			assessmentNumber: item.assessmentNumber.value,
+			yearLevel: item.yearLevel.value,
+			subject: String(item.subject.value),
+			unitTitle: String(item.unitTitle.value),
+			isStandalone: item.unitPlanId === STANDALONE_UNIT_PLAN_ID
+		}))
+		.sort((a, b) => {
+			if (a.isStandalone !== b.isStandalone) return a.isStandalone ? -1 : 1;
+			return a.title.localeCompare(b.title);
+		});
+}
+
+export async function saveAssessmentItem(item: AssessmentItem, options?: { syncUnit?: boolean }) {
+	const normalized = normalizeAssessmentItem(item);
+	await writeJson(path.join(PATHS.assessmentItems, `${normalized.id}.json`), normalized);
+
+	if (options?.syncUnit !== false && normalized.unitPlanId !== STANDALONE_UNIT_PLAN_ID) {
+		const unit = await getUnitPlan(normalized.levelPlanId, normalized.unitPlanId);
+		if (unit) {
+			const matchedIndex = unit.assessments.findIndex((slot, index) => {
+				const match = assessmentItemForUnitIndex(slot, index, [normalized]);
+				return match?.id === normalized.id;
+			});
+			if (matchedIndex >= 0) {
+				applyAssessmentItemToUnitAssessment(unit.assessments[matchedIndex], normalized);
+				await writeJson(unitPlanPath(unit.levelPlanId, unit.id), unit);
+				if (unit.levelPlanId !== STANDALONE_LEVEL_PLAN_ID) {
+					const levelPlan = await getLevelPlan(unit.levelPlanId);
+					if (levelPlan) {
+						const unitPlans = await listUnitPlans(unit.levelPlanId);
+						const unitIndex = levelPlan.units.findIndex(
+							(_u, index) =>
+								unitPlanForLevelIndex(levelPlan.units[index], index, unitPlans)?.id === unit.id
+						);
+						if (unitIndex >= 0) {
+							applyUnitPlanToLevelPlan(levelPlan, unit, unitIndex);
+							await writeJson(path.join(PATHS.levelPlans, `${levelPlan.id}.json`), levelPlan);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	await touchFacultyRow(normalized.levelPlanId);
+	return normalized;
 }
 
 export async function createAssessmentItem(
 	levelPlanId: string,
 	unitPlanId: string,
-	title = 'New assessment item'
+	options?: { title?: string; assessmentIndex?: number }
 ): Promise<AssessmentItem> {
-	const item: AssessmentItem = {
-		id: createId('assess'),
+	const title = options?.title ?? 'New assessment item';
+
+	if (unitPlanId === STANDALONE_UNIT_PLAN_ID) {
+		const item = createEmptyAssessmentItem(
+			createId('assess'),
+			STANDALONE_LEVEL_PLAN_ID,
+			STANDALONE_UNIT_PLAN_ID,
+			title
+		);
+		await saveAssessmentItem(item, { syncUnit: false });
+		return item;
+	}
+
+	const unit = await getUnitPlan(levelPlanId, unitPlanId);
+	if (!unit) {
+		const item = createEmptyAssessmentItem(createId('assess'), levelPlanId, unitPlanId, title);
+		await saveAssessmentItem(item, { syncUnit: false });
+		return item;
+	}
+
+	const index =
+		options?.assessmentIndex ??
+		unit.assessments.findIndex((a) => String(a.title.value) === title);
+	const slot =
+		index >= 0 && index < unit.assessments.length
+			? unit.assessments[index]
+			: unit.assessments[0];
+
+	if (!slot) {
+		const item = createEmptyAssessmentItem(createId('assess'), levelPlanId, unitPlanId, title);
+		item.subject = unit.subject;
+		item.unitTitle = unit.unitTitle;
+		item.yearLevel = unit.yearLevel;
+		await saveAssessmentItem(item, { syncUnit: false });
+		return item;
+	}
+
+	const item = seedInstrumentFromUnitAssessment(unit, slot, {
 		levelPlanId,
-		unitPlanId,
-		title: { value: title, aiNotes: '' },
-		description: { value: '', aiNotes: '' },
-		technique: { value: '', aiNotes: '' },
-		mode: { value: '', aiNotes: '' },
-		conditions: { value: '', aiNotes: '' },
-		markingCriteria: { value: '', aiNotes: '' },
-		notes: { value: '', aiNotes: '' }
-	};
-	await saveAssessmentItem(item);
+		assessmentIndex: index >= 0 ? index : 0
+	});
+	await saveAssessmentItem(item, { syncUnit: false });
 	return item;
+}
+
+export async function deleteAssessmentItem(id: string) {
+	const item = await getAssessmentItem(id);
+	if (!item) throw new Error('Assessment item not found');
+	if (item.unitPlanId !== STANDALONE_UNIT_PLAN_ID) {
+		throw new Error(
+			'Only standalone assessment items can be deleted. Detach from the unit plan first.'
+		);
+	}
+	try {
+		await fs.unlink(path.join(PATHS.assessmentItems, `${id}.json`));
+	} catch {
+		// ignore
+	}
+}
+
+function assessmentCompatibleWithUnit(item: AssessmentItem, unit: UnitPlan): boolean {
+	return curriculumKeysCompatible(
+		curriculumMatchFromUnit(String(item.subject.value), item.yearLevel.value).key,
+		curriculumMatchFromUnit(String(unit.subject.value), unit.yearLevel.value).key
+	);
+}
+
+export async function detachAssessmentFromUnitPlan(
+	levelPlanId: string,
+	unitId: string,
+	assessmentIndex: number
+) {
+	const unit = await getUnitPlan(levelPlanId, unitId);
+	if (!unit) throw new Error('Unit plan not found');
+	if (assessmentIndex < 0 || assessmentIndex >= unit.assessments.length) {
+		throw new Error('Invalid assessment slot');
+	}
+
+	const items = await listAssessmentItems(undefined, unitId);
+	const item = assessmentItemForUnitIndex(unit.assessments[assessmentIndex], assessmentIndex, items);
+	if (!item) throw new Error('No assessment item is attached to this slot');
+
+	item.unitPlanId = STANDALONE_UNIT_PLAN_ID;
+	item.levelPlanId = STANDALONE_LEVEL_PLAN_ID;
+	item.assessmentNumber.value = '';
+	await writeJson(path.join(PATHS.assessmentItems, `${item.id}.json`), item);
+	await touchFacultyRow(levelPlanId);
+	return { unitPlan: unit, assessmentItem: item };
+}
+
+export async function attachAssessmentToUnitPlan(
+	levelPlanId: string,
+	unitId: string,
+	assessmentIndex: number,
+	assessmentItemId: string,
+	options?: { replace?: boolean }
+) {
+	const unit = await getUnitPlan(levelPlanId, unitId);
+	if (!unit) throw new Error('Unit plan not found');
+	if (assessmentIndex < 0 || assessmentIndex >= unit.assessments.length) {
+		throw new Error('Invalid assessment slot');
+	}
+
+	const item = await getAssessmentItem(assessmentItemId);
+	if (!item) throw new Error('Assessment item not found');
+	if (item.unitPlanId !== STANDALONE_UNIT_PLAN_ID) {
+		throw new Error('Only standalone assessment items can be attached');
+	}
+
+	if (!assessmentCompatibleWithUnit(item, unit)) {
+		throw new Error(
+			'This assessment does not match the unit subject and year band. Check subject/year before attaching.'
+		);
+	}
+
+	const existingItems = await listAssessmentItems(undefined, unitId);
+	const existing = assessmentItemForUnitIndex(
+		unit.assessments[assessmentIndex],
+		assessmentIndex,
+		existingItems
+	);
+	if (existing) {
+		if (!options?.replace) {
+			throw new Error('This slot already has an assessment item. Detach it first or choose replace.');
+		}
+		await detachAssessmentFromUnitPlan(levelPlanId, unitId, assessmentIndex);
+	}
+
+	item.unitPlanId = unit.id;
+	item.levelPlanId = unit.levelPlanId;
+	item.assessmentNumber.value = assessmentIndex + 1;
+	item.subject.value = String(unit.subject.value) || item.subject.value;
+	item.unitTitle.value = String(unit.unitTitle.value) || item.unitTitle.value;
+	if (unit.yearLevel.value !== '') item.yearLevel.value = unit.yearLevel.value;
+
+	applyAssessmentItemToUnitAssessment(unit.assessments[assessmentIndex], item);
+	await writeJson(unitPlanPath(unit.levelPlanId, unit.id), unit);
+	await writeJson(path.join(PATHS.assessmentItems, `${item.id}.json`), item);
+
+	if (unit.levelPlanId !== STANDALONE_LEVEL_PLAN_ID) {
+		const levelPlan = await getLevelPlan(unit.levelPlanId);
+		if (levelPlan) {
+			const unitPlans = await listUnitPlans(unit.levelPlanId);
+			const unitIndex = levelPlan.units.findIndex(
+				(_u, index) => unitPlanForLevelIndex(levelPlan.units[index], index, unitPlans)?.id === unit.id
+			);
+			if (unitIndex >= 0) {
+				applyUnitPlanToLevelPlan(levelPlan, unit, unitIndex);
+				await writeJson(path.join(PATHS.levelPlans, `${levelPlan.id}.json`), levelPlan);
+			}
+		}
+	}
+
+	await touchFacultyRow(unit.levelPlanId);
+	return { unitPlan: unit, assessmentItem: item };
 }
 
 export function slugId(text: string): string {

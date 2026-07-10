@@ -9,7 +9,7 @@
 		STANDALONE_LEVEL_PLAN_ID,
 		createId
 	} from '$lib/defaults';
-	import type { UnitPlan, UnitAssessment } from '$lib/types';
+	import type { AssessmentItem, AssessmentItemSummary, UnitPlan, UnitAssessment } from '$lib/types';
 	import type { GenerationUsage } from '$lib/gemini-models';
 	import ModelFeedback from '$lib/components/ModelFeedback.svelte';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
@@ -20,6 +20,8 @@
 		formatCheckedSubElements,
 		validSubElementIds
 	} from '$lib/general-capabilities';
+	import { assessmentItemForUnitIndex } from '$lib/assessment/digitech-instruments';
+	import { curriculumKeysCompatible, curriculumMatchFromUnit } from '$lib/curriculum-match';
 	import { learningGuideFromUnitPlan, learningGuideTitle } from '$lib/learning-guide-data';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
@@ -27,6 +29,10 @@
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<UnitPlan>(structuredClone(data.plan));
+	let assessmentItems = $state<AssessmentItem[]>(structuredClone(data.assessmentItems));
+	let standaloneAssessments = $state<AssessmentItemSummary[]>(
+		structuredClone(data.standaloneAssessments)
+	);
 	for (const cap of plan.generalCapabilities) {
 		cap.subElementChecks = ensureUnitCapabilityChecks(cap);
 	}
@@ -269,7 +275,19 @@
 	}
 
 	function ensureWeeks(count: number, startAt = 1) {
-		ensureWeekThrough(startAt + count - 1, startAt);
+		const maxWeek = startAt + count - 1;
+		ensureWeekThrough(maxWeek, startAt);
+		plan.teachingSequence = plan.teachingSequence.filter((w) => {
+			const n = Number(w.week.value);
+			return n >= startAt && n <= maxWeek;
+		});
+	}
+
+	function removeWeek(index: number) {
+		const week = plan.teachingSequence[index];
+		const label = week ? `Week ${week.week.value}` : 'this week';
+		if (!confirm(`Remove ${label} from the teaching sequence?`)) return;
+		plan.teachingSequence = plan.teachingSequence.filter((_, i) => i !== index);
 	}
 
 	function weekRow(weekNum: number) {
@@ -619,18 +637,91 @@
 		}
 	}
 
-	async function createAssessmentItem(assess: UnitAssessment) {
+	async function createAssessmentItem(assess: UnitAssessment, assessmentIndex: number) {
 		const res = await fetch('/api/assessment-items', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
 				levelPlanId: plan.levelPlanId,
 				unitPlanId: plan.id,
-				title: assess.title.value || 'Assessment item'
+				title: assess.title.value || 'Assessment item',
+				assessmentIndex
 			})
 		});
 		const item = await res.json();
 		window.location.href = `/assessment-item/${item.id}`;
+	}
+
+	function linkedAssessmentItem(assess: UnitAssessment, assessmentIndex: number) {
+		return assessmentItemForUnitIndex(assess, assessmentIndex, assessmentItems);
+	}
+
+	function compatibleStandaloneAssessments() {
+		const unitKey = curriculumMatchFromUnit(String(plan.subject.value), plan.yearLevel.value).key;
+		return standaloneAssessments.filter((item) =>
+			curriculumKeysCompatible(
+				unitKey,
+				curriculumMatchFromUnit(item.subject, item.yearLevel).key
+			)
+		);
+	}
+
+	async function refreshAssessmentLinks() {
+		const [linkedRes, allRes] = await Promise.all([
+			fetch(`/api/assessment-items?unitPlanId=${encodeURIComponent(plan.id)}`),
+			fetch('/api/assessment-items?all=1')
+		]);
+		if (linkedRes.ok) assessmentItems = await linkedRes.json();
+		if (allRes.ok) {
+			const all = (await allRes.json()) as AssessmentItemSummary[];
+			standaloneAssessments = all.filter((item) => item.isStandalone);
+		}
+	}
+
+	async function detachAssessmentItem(assessmentIndex: number, title: string) {
+		if (!confirm(`Detach assessment item from "${title}"?`)) return;
+		const res = await fetch(
+			`/api/unit-plan/${plan.levelPlanId}/${plan.id}/assessments/${assessmentIndex}/detach`,
+			{ method: 'POST' }
+		);
+		if (!res.ok) {
+			const body = await res.json().catch(() => ({}));
+			alert(body.message || 'Detach failed');
+			return;
+		}
+		await refreshAssessmentLinks();
+	}
+
+	async function attachAssessmentItem(
+		assessmentIndex: number,
+		assessmentItemId: string,
+		title: string,
+		hasExisting: boolean
+	) {
+		if (!assessmentItemId) return;
+		let replace = false;
+		if (hasExisting) {
+			if (!confirm(`Replace the assessment item on "${title}"? The current item will be detached.`)) {
+				return;
+			}
+			replace = true;
+		}
+		const res = await fetch(
+			`/api/unit-plan/${plan.levelPlanId}/${plan.id}/assessments/${assessmentIndex}/attach`,
+			{
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ assessmentItemId, replace })
+			}
+		);
+		if (!res.ok) {
+			const body = await res.json().catch(() => ({}));
+			alert(body.message || 'Attach failed');
+			return;
+		}
+		const result = await res.json();
+		plan = result.unitPlan;
+		await refreshAssessmentLinks();
 	}
 </script>
 
@@ -714,6 +805,8 @@
 {#if section === 'assessments'}
 	<div class="toolbar"><button class="btn" onclick={addAssessment}>Add assessment</button></div>
 	{#each plan.assessments as assess, ai (assess.id)}
+		{@const linked = linkedAssessmentItem(assess, ai)}
+		{@const attachable = compatibleStandaloneAssessments()}
 		<div class="card">
 			<div class="toolbar">
 				<h2 style="margin:0;flex:1">{assess.title.value || `Assessment ${ai + 1}`}</h2>
@@ -729,7 +822,30 @@
 			<FieldEditor label="Timing" bind:field={assess.timing} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.timing" multiline={false} />
 			<FieldEditor label="Achievement standard" bind:field={assess.achievementStandard} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.achievementStandard" rows={5} />
 			<FieldEditor label="Moderation" bind:field={assess.moderation} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.moderation" />
-			<button class="btn btn-sm" onclick={() => createAssessmentItem(assess)}>Create assessment item</button>
+			<div class="toolbar" style="margin-top:0.75rem;flex-wrap:wrap;gap:0.5rem">
+				{#if linked}
+					<a class="btn btn-sm btn-primary" href="/assessment-item/{linked.id}">Open assessment item</a>
+					<a class="btn btn-sm" href="/api/export/assessment-item/{linked.id}" target="_blank">Export Word</a>
+					<button class="btn btn-sm" onclick={() => detachAssessmentItem(ai, assess.title.value || `Assessment ${ai + 1}`)}>Detach</button>
+					<span class="meta">Linked: {linked.title.value}</span>
+				{:else}
+					<button class="btn btn-sm btn-primary" onclick={() => createAssessmentItem(assess, ai)}>Create assessment item</button>
+				{/if}
+				{#if attachable.length}
+					<select
+						onchange={(e) => {
+							const value = e.currentTarget.value;
+							e.currentTarget.value = '';
+							attachAssessmentItem(ai, value, assess.title.value || `Assessment ${ai + 1}`, Boolean(linked));
+						}}
+					>
+						<option value="">Attach standalone…</option>
+						{#each attachable as candidate (candidate.id)}
+							<option value={candidate.id}>{candidate.title}</option>
+						{/each}
+					</select>
+				{/if}
+			</div>
 		</div>
 	{/each}
 {/if}
@@ -971,7 +1087,10 @@
 
 	{#each plan.teachingSequence as week, wi (week.id)}
 		<div class="card">
-			<h2>Week {week.week.value}</h2>
+			<div class="toolbar">
+				<h2 style="margin:0;flex:1">Week {week.week.value}</h2>
+				<button class="btn btn-sm" onclick={() => removeWeek(wi)} disabled={sequenceBusy()}>Remove</button>
+			</div>
 			{#if week.outlineTheme}
 				<FieldEditor label="Outline theme" bind:field={week.outlineTheme} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="teachingSequence.{wi}.outlineTheme" />
 			{/if}

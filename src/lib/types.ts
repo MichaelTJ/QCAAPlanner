@@ -170,17 +170,108 @@ export interface UnitPlan {
 	evaluation: AiField;
 }
 
+export interface AssessmentCheckpoint {
+	id: string;
+	label: string;
+	week: AiField;
+	action: AiField;
+	checked: boolean;
+}
+
+export interface AssessmentAuthStrategy {
+	id: string;
+	label: string;
+	selected: boolean;
+}
+
+export interface AssessmentInstrumentContentDescription {
+	id: string;
+	strand: AiField;
+	subStrand: AiField;
+	text: AiField;
+	code: AiField;
+	selected: boolean;
+}
+
+export interface AssessmentCriteriaDescriptors {
+	A: string;
+	B: string;
+	C: string;
+	D: string;
+	E: string;
+}
+
+export interface AssessmentCriteriaRow {
+	id: string;
+	category: string;
+	strand: string;
+	enabled: boolean;
+	descriptors: AssessmentCriteriaDescriptors;
+	contentDescriptionCodes: string[];
+}
+
+export interface AssessmentExamQuestion {
+	id: string;
+	prompt: AiField;
+	marks: AiField<number | ''>;
+}
+
+export interface AssessmentExamSection {
+	id: string;
+	title: AiField;
+	questions: AssessmentExamQuestion[];
+}
+
 export interface AssessmentItem {
 	id: string;
 	unitPlanId: string;
 	levelPlanId: string;
+	assessmentNumber: AiField<number | ''>;
+	instrumentNumber: AiField;
+	yearLevel: AiField<number | ''>;
+	subject: AiField;
+	unitTitle: AiField;
 	title: AiField;
 	description: AiField;
 	technique: AiField<AssessmentTechnique | ''>;
 	mode: AiField<AssessmentMode | ''>;
 	conditions: AiField;
-	markingCriteria: AiField;
+	duration: AiField;
+	length: AiField;
+	individualOrGroup: AiField;
+	conditionsOther: AiField;
+	resourcesAvailable: AiField;
+	examTimeMinutes: AiField;
+	perusalMinutes: AiField;
+	instructions: AiField;
+	topics: AiField;
+	context: AiField;
+	task: AiField;
+	toComplete: AiField;
+	stimulus: AiField;
+	scaffolding: AiField;
+	checkpoints: AssessmentCheckpoint[];
+	authenticationStrategies: AssessmentAuthStrategy[];
+	contentDescriptions: AssessmentInstrumentContentDescription[];
+	knowledgeUnderstandingResult: AiField;
+	processProductionResult: AiField;
+	overallResult: AiField;
+	criteriaRows: AssessmentCriteriaRow[];
+	examSections: AssessmentExamSection[];
 	notes: AiField;
+}
+
+export interface AssessmentItemSummary {
+	id: string;
+	unitPlanId: string;
+	levelPlanId: string;
+	title: string;
+	technique: string;
+	assessmentNumber: number | '';
+	yearLevel: number | '';
+	subject: string;
+	unitTitle: string;
+	isStandalone: boolean;
 }
 
 export interface GenerateRequest {

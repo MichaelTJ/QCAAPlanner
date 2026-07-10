@@ -2,20 +2,24 @@
 	import type { PageData } from './$types';
 	import { formatBandSubjectTitle } from '$lib/defaults';
 	import { unitCompatibleWithFaculty } from '$lib/curriculum-match';
-	import type { FacultyOverviewEntry, UnitPlanSummary } from '$lib/types';
+	import type { AssessmentItemSummary, FacultyOverviewEntry, UnitPlanSummary } from '$lib/types';
 
 	let { data }: { data: PageData } = $props();
 
 	let entries = $state<FacultyOverviewEntry[]>([...data.overview]);
 	let allUnits = $state<UnitPlanSummary[]>([...data.allUnits]);
+	let allAssessments = $state<AssessmentItemSummary[]>([...data.allAssessments]);
 	let learningAreaSubject = $state('');
 	let yearLevelBand = $state('');
 	let standaloneTitle = $state('');
+	let standaloneAssessmentTitle = $state('');
 	let saving = $state(false);
 	let creatingStandalone = $state(false);
+	let creatingStandaloneAssessment = $state(false);
 	let boardBusy = $state('');
 	let error = $state('');
 	let standaloneError = $state('');
+	let standaloneAssessmentError = $state('');
 	let boardError = $state('');
 
 	function compatibleStandaloneUnits(entry: FacultyOverviewEntry): UnitPlanSummary[] {
@@ -48,12 +52,14 @@
 	}
 
 	async function refreshBoard() {
-		const [overviewRes, unitsRes] = await Promise.all([
+		const [overviewRes, unitsRes, assessmentsRes] = await Promise.all([
 			fetch('/api/faculty/overview'),
-			fetch('/api/unit-plans')
+			fetch('/api/unit-plans'),
+			fetch('/api/assessment-items?all=1')
 		]);
 		if (overviewRes.ok) entries = await overviewRes.json();
 		if (unitsRes.ok) allUnits = await unitsRes.json();
+		if (assessmentsRes.ok) allAssessments = await assessmentsRes.json();
 	}
 
 	function formatDate(iso: string) {
@@ -139,6 +145,44 @@
 			const data = await res.json().catch(() => ({}));
 			standaloneError =
 				data.message || 'Failed to delete unit. Only standalone units can be deleted here.';
+		}
+	}
+
+	async function createStandaloneAssessment() {
+		creatingStandaloneAssessment = true;
+		standaloneAssessmentError = '';
+		try {
+			const res = await fetch('/api/assessment-items', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					standalone: true,
+					title: standaloneAssessmentTitle.trim() || 'New assessment item'
+				})
+			});
+			const item = await res.json();
+			if (!res.ok) throw new Error(item.message || 'Failed to create assessment');
+			standaloneAssessmentTitle = '';
+			window.location.href = `/assessment-item/${item.id}`;
+		} catch (e) {
+			standaloneAssessmentError = e instanceof Error ? e.message : 'Failed to create assessment';
+		} finally {
+			creatingStandaloneAssessment = false;
+		}
+	}
+
+	async function deleteStandaloneAssessment(item: AssessmentItemSummary) {
+		if (!item.isStandalone) return;
+		if (!confirm(`Delete "${item.title}"? This cannot be undone.`)) return;
+		const res = await fetch(`/api/assessment-items?id=${encodeURIComponent(item.id)}`, {
+			method: 'DELETE'
+		});
+		if (res.ok) {
+			await refreshBoard();
+		} else {
+			const data = await res.json().catch(() => ({}));
+			standaloneAssessmentError =
+				data.message || 'Failed to delete assessment. Only standalone items can be deleted here.';
 		}
 	}
 
@@ -527,6 +571,66 @@
 					{/each}
 				</tbody>
 			</table>
+		{/if}
+	</div>
+</section>
+
+<section class="all-units-section">
+	<h2>Standalone assessment pool</h2>
+	<p class="meta section-intro">
+		Assessment instruments not linked to a unit plan. Attach them from a unit’s Assessments tab.
+	</p>
+	<div class="card">
+		<div class="form-row">
+			<label>
+				Title (optional)
+				<input bind:value={standaloneAssessmentTitle} placeholder="Untitled assessment" />
+			</label>
+			<button
+				class="btn btn-primary"
+				onclick={createStandaloneAssessment}
+				disabled={creatingStandaloneAssessment}
+			>
+				{creatingStandaloneAssessment ? 'Creating…' : 'Create standalone assessment'}
+			</button>
+		</div>
+		{#if standaloneAssessmentError}<p class="error">{standaloneAssessmentError}</p>{/if}
+
+		{#if allAssessments.some((item) => item.isStandalone)}
+			<table class="data-table">
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Subject</th>
+						<th>Year</th>
+						<th>Technique</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					{#each allAssessments.filter((item) => item.isStandalone) as item (item.id)}
+						<tr>
+							<td>{item.title}</td>
+							<td>{item.subject || '—'}</td>
+							<td>{item.yearLevel !== '' ? item.yearLevel : '—'}</td>
+							<td>{item.technique || '—'}</td>
+							<td class="unit-actions">
+								<a class="btn btn-sm btn-primary" href="/assessment-item/{item.id}">Open</a>
+								<a
+									class="btn btn-sm"
+									href="/api/export/assessment-item/{item.id}"
+									target="_blank">Export</a
+								>
+								<button class="btn btn-sm" onclick={() => deleteStandaloneAssessment(item)}
+									>Delete</button
+								>
+							</td>
+						</tr>
+					{/each}
+				</tbody>
+			</table>
+		{:else}
+			<p class="meta">No standalone assessment items in the pool yet.</p>
 		{/if}
 	</div>
 </section>

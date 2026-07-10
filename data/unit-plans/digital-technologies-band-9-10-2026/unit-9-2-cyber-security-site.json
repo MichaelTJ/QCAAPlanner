@@ -87,13 +87,13 @@
       },
       "contentDescriptions": [
         {
-          "id": "cd-fshvv7h7",
+          "id": "ucd-695756aa",
           "strand": {
-            "value": "Knowledge and understanding",
+            "value": "Data representation",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Data representation",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -106,32 +106,13 @@
           }
         },
         {
-          "id": "cd-1xozrqob",
+          "id": "ucd-d0ca06f3",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Data representation",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Acquiring, managing and analysing data",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10P01",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "cd-opgmps13",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -144,13 +125,32 @@
           }
         },
         {
-          "id": "cd-hcp63yod",
+          "id": "ucd-cd2d6b62",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-492dd3d4",
+          "strand": {
             "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -163,13 +163,13 @@
           }
         },
         {
-          "id": "cd-9wow3mbo",
+          "id": "ucd-e69dd0c2",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -182,13 +182,13 @@
           }
         },
         {
-          "id": "cd-imgiknbj",
+          "id": "ucd-cc1550e4",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Investigating and defining",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Investigating and defining",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -201,13 +201,13 @@
           }
         },
         {
-          "id": "cd-2350zrxb",
+          "id": "ucd-06f274f4",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Generating and designing",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Generating and designing",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -220,13 +220,13 @@
           }
         },
         {
-          "id": "cd-h1wlr554",
+          "id": "ucd-4ff940ee",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Generating and designing",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Generating and designing",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -239,13 +239,13 @@
           }
         },
         {
-          "id": "cd-0n432pu9",
+          "id": "ucd-7988d8f4",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Evaluating",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Evaluating",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -258,13 +258,13 @@
           }
         },
         {
-          "id": "cd-vter7auh",
+          "id": "ucd-ff15dc01",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Collaborating and managing",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Collaborating and managing",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -277,13 +277,13 @@
           }
         },
         {
-          "id": "cd-t61awesz",
+          "id": "ucd-cb41612f",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Collaborating and managing",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Collaborating and managing",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -296,13 +296,13 @@
           }
         },
         {
-          "id": "cd-l80mbyqq",
+          "id": "ucd-b20e2c6b",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Privacy and security",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Privacy and security",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -315,13 +315,13 @@
           }
         },
         {
-          "id": "cd-derlvnq7",
+          "id": "ucd-33ed389e",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Privacy and security",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Privacy and security",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -344,12 +344,24 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Inquiring, Generating, Analysing, Reflecting",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "Students inquire into scam techniques, generate website designs, analyse threat models, and reflect on their own digital footprint.",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
       }
     },
     {
@@ -359,12 +371,26 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Practising digital safety and wellbeing, Investigating, Creating and exchanging, Managing and operating",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "Core focus on cybersecurity, managing digital identity, and using development tools.",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
       }
     },
     {
@@ -374,12 +400,20 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Understanding ethical concepts and perspectives, Responding to ethical issues",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "Application of Australian Privacy Principles and ethical consideration of scam simulation.",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
       }
     }
   ],
@@ -391,7 +425,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students examine the core components of the CIA triad (Confidentiality, Integrity, Availability) and the ethical implications of cyber security research. Discussion centres on the distinction between white-hat and black-hat activities and the legal frameworks protecting digital systems.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -399,24 +433,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Australian Privacy Principles fact sheets, CIA triad case study handouts, secure classroom lab environment guide, research logbook templates.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Introduction to the cyber threat landscape; overview of the CIA triad; introduction to the Australian Privacy Principles (APPs) and their relevance to data handling and individual digital footprints.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Establishment of a secure research logbook. Exploration of controlled environments and safe-browsing protocols for subsequent web analysis. Collaborative mapping of how data travels through school infrastructure.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "None; observational assessment of understanding regarding ethical conduct and foundational concepts.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Introduction to Cybersecurity Fundamentals and Ethical Frameworks",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -426,7 +461,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Focus on the psychology of influence and the common triggers used in social engineering. Students examine real-world phishing case studies, identifying the 'urgent' or 'fear-based' narratives that bypass user critical thinking.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -434,24 +469,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "De-identified phishing attack examples, user story templates, psychology of influence reading materials, collaborative project planning tools.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Psychological triggers in social engineering; anatomy of a phishing attempt; identifying indicators of malicious intent; importance of sender verification and link analysis.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Analysis of provided email/web snippets to classify tactics. Students work in pairs to construct user stories defining a 'victim persona' for their simulated scam website project, identifying key pain points to exploit.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative evaluation of user stories and persona development for the upcoming project.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Human-Centric Vulnerabilities and Social Engineering Tactics",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -461,7 +497,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Dissection of web-based scams. Students explore the technical and visual elements that convey false authority, such as domain spoofing, HTTPS deception, and the use of 'dark patterns' in UI design.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -469,24 +505,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Web inspection tools, wireframing software (e.g., Balsamiq or Lucidchart), anatomy of a scam checklist, UI/UX deception guide.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Mechanics of deceptive design; structure of malicious websites (HTML/CSS role in presentation); data acquisition forms as threat vectors; comparing legitimate vs. scam UI components.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Deconstruction of mock scam landing pages to identify deceptive design choices. Students begin wireframing their own simulated scam prototype using low-fidelity tools to map user journey and content structure.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Ongoing assessment of wireframe drafts against project design criteria.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Deceptive Design: Analysing Scam Website Anatomy",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -496,7 +533,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students critically apply the Australian Privacy Principles (APPs) to the context of online data collection. They analyse how malicious sites deliberately breach principles related to transparency, data collection limits, and security. Students refine their project definitions by developing formal user story specifications that identify the functional requirements of their simulated scam site from both the attacker's and the victim’s perspective.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -504,24 +541,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "OAIC Australian Privacy Principles summary, User Story template, collaborative documentation platform (e.g., OneNote or Google Docs).",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Examination of the Australian Privacy Principles (APPs), focusing on APP 1 (open management), APP 3 (collection of solicited information), and APP 11 (security). Comparison of ethical data acquisition versus the deceptive practices used by cybercriminals. Use of technical specifications to increase the precision of problem definitions.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Students perform a 'Privacy Audit' on their initial wireframes, identifying which APPs their site would theoretically violate. They draft formal user stories (As a [User Role], I want [Feature] so that [Reason]) to specify the interactions for their prototype, ensuring each story addresses a specific psychological trigger identified in Week 2.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative evaluation of User Story specifications and the Privacy Audit document.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Data Privacy Principles and User Story Specification",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -531,7 +569,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students transition from specification to project management by exploring agile methodologies. They apply computational thinking to decompose the complex task of building a website into smaller, manageable sub-tasks. Students are introduced to digital project management tools to track timelines and responsibilities, simulating a professional development environment.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -539,24 +577,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Agile project management tools (e.g., Trello, Microsoft Planner, or Jira), task decomposition worksheets, project timeline examples.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Concepts of project management: Agile vs. Waterfall methodologies. Principles of decomposition—breaking down a digital solution into content, logic, and asset requirements. Understanding task dependencies and the importance of iterative development in a technical project.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Establishment of a digital Kanban board for project tracking. Students decompose their site prototype into a backlog of tasks (e.g., logo design, HTML form structure, CSS styling for urgency indicators). They assign priorities and estimated timeframes for each task to manage their development schedule.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Observation of project board setup and the quality of decomposed tasks.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Agile Project Planning and Task Decomposition",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -566,7 +605,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Focus shifts to the technical abstraction of web systems. Students model their site architecture by distinguishing between content, structure, and presentation. They explore how these three layers interact to create a user experience that can either inform or deceive. Students begin creating structural models to represent how data will flow from user input to the backend.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -574,24 +613,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Site mapping software (e.g., Lucidchart or Draw.io), CSS style guide templates, web architecture diagrams.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "The principle of abstraction in web documents: Content (the information/data), Structure (HTML tags and hierarchy), and Presentation (CSS styling and visual layout). Data modelling for web forms, including data types and validation requirements for user input.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Creation of a site architecture map showing the relationship between different pages. Students develop a 'Style Tile' or presentation model that defines the visual elements (colour palettes, typography) intended to mimic legitimate institutions. They document the HTML structure required to support their deceptive content layer.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Submission of the Site Architecture Map and Content/Structure/Presentation model.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Website Architecture: Content, Structure, and Presentation Modeling",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -601,7 +641,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students move to the iterative construction of their scam prototypes. Focus is placed on applying 'dark patterns'—UI elements designed to trick users—while balancing this with technical safeguards such as basic HTTPS configuration and site validation protocols. Teacher facilitates a peer-review session to evaluate the effectiveness of the deceptive design against the user stories.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -609,24 +649,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "CSS framework documentation, sandboxed hosting environment, peer-evaluation rubrics, UI pattern libraries.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Advanced deceptive UI design: forced action, confirm-shaming, and visual hierarchy manipulation. Technical safeguards and the role of SSL/TLS certificates in building false trust. Analyzing user feedback loops and iterative refinement of digital interfaces.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Development of the front-end interface using HTML/CSS. Implementation of interactive elements that capture 'simulated' user data. Applying validation checks that mimic real-world form collection while ensuring all data remains within a local, sandboxed environment.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative evaluation of prototype iteration against the design criteria; peer-feedback report on the persuasiveness of the scam site.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Prototyping Simulated Scams and Technical Safeguards",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -636,7 +677,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Finalisation of the scam website project. Students perform an 'Ethical Impact Assessment,' documenting how their site breaches Australian Privacy Principles and explaining why these principles are vital for online protection. Final presentation focuses on the 'anatomy of the scam' rather than the site itself, highlighting how user psychology was exploited.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -644,24 +685,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Project submission portal, final report template, OIAI case studies for final reflection, reflection logbooks.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Reflection on the project process, evaluating the effectiveness of the chosen social engineering tactics. Critical discussion of the Australian Privacy Principles in the context of real-world data breaches. Understanding the role of digital citizenship in identifying and reporting malicious sites.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Completion and ‘publishing’ of the site within a controlled classroom environment. Drafting the final reflective report which maps site features to the intended psychological triggers and privacy violations.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Summative assessment: Cyber Security Site project. Submission includes the functional prototype and the final project report (User stories, architecture models, privacy audit, and reflection).",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Project Finalisation and Ethical Reflection",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -671,7 +713,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Broadening the scope to system interdependency. Students investigate supply chain vulnerabilities, examining how third-party plugins or scripts in a website can become vectors for attack. Analysis of real-world examples where 'trusted' providers were compromised, leading to widespread data exposure.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -679,24 +721,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Browser developer tools, supply chain case studies, dependency mapping worksheet, diagramming tools.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Supply chain vulnerabilities: how external dependencies (scripts, APIs, content delivery networks) impact site security. System interdependency and the risk of 'cascading failures' in digital networks. Strategies for verifying the integrity of third-party digital components.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Simulation activity: Mapping the dependencies of a website. Students use browser developer tools to inspect the 'network' tab and identify third-party requests, discussing the security risks inherent in relying on external resources.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative check: Short response analysis of a supply chain attack case study.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Supply Chain Vulnerabilities and System Interdependency",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -706,7 +749,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students explore the lifecycle of data acquisition in web systems and the necessity of validation to maintain integrity. Teacher leads a critique on how ‘trust indicators’ on websites often mask insecure data storage practices, contrasting these with secure, encrypted database environments.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -714,24 +757,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Validation logic templates, secure data handling case studies, documentation on hashing vs encryption.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Principles of data validation (client-side vs server-side); understanding data sanitisation to prevent injection attacks; methods for secure data storage including hashing and salting; critical review of APP 11 regarding security of personal information.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Students design a schema for a secure data-handling form. Practical task involves implementing basic validation rules using JavaScript (regex) to ensure data accuracy and prevent malicious inputs, while documenting the storage path to a secure backend.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative evaluation of data schema and validation logic implementation.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Data Acquisition, Validation, and Secure Storage Practices",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -741,7 +785,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Focus on multidimensional data modeling to identify trends in cyber threats. Students analyse datasets containing metadata from mock attack simulations to model the 'threat landscape', moving from simple lists to relational data representations.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -749,24 +793,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Threat intelligence datasets, spreadsheet software (Excel), ERD design tools (Lucidchart), anomaly detection guidelines.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Introduction to relational database concepts (keys, relationships, tables) for modelling threat intelligence; interpreting multidimensional data sets to isolate patterns; identifying anomalies in security logs.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Students use spreadsheet software to model and filter simulated breach data, identifying outliers and frequent attack vectors. They construct a basic entity-relationship diagram (ERD) to structure data related to their previous scam project to improve defensive tracking.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative assessment of the threat intelligence data model and identified anomaly report.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Multidimensional Data Modeling and Threat Intelligence",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -776,7 +821,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Exploration of digital footprints using visualization techniques. Students reflect on their own digital presence and the 'scam' footprint created during the unit, evaluating how data points can be aggregated to build a profile of a user or a system.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -784,24 +829,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Data visualization tools (Power BI or Tableau Public), digital footprint audit template, final reflection guide.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Visualization techniques to interpret data trends and digital footprints; the ethics of data scraping and surveillance; summarizing complex datasets to support conclusions about systemic security vulnerabilities; final review of Australian Privacy Principles in the digital age.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Students create a visual dashboard to represent their findings from the previous threat intelligence model. They perform a 'Digital Footprint Self-Audit,' mapping how their online activity creates trackable data, and propose visual strategies to minimize exposure.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Summative reflection: 'The Ethics of Visibility'—a short report evaluating the implications of digital footprints and data visualization in cyber security.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Visualization of Digital Footprints and Trend Analysis",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -811,7 +857,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Students analyse how enterprise-level systems employ threat modeling to anticipate attack vectors. Focus is directed towards the STRIDE model (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) as a framework for identifying vulnerabilities in digital architecture.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -819,24 +865,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "STRIDE threat modeling worksheets, enterprise architecture case studies, risk matrix templates, classroom discussion boards.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Introduction to the STRIDE threat modeling methodology. Analysis of system components and trust boundaries. Risk assessment techniques: categorising threats based on impact, likelihood, and potential damage to data integrity.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Students perform a comprehensive threat assessment on a case-study e-commerce site. Using a provided architectural diagram, they identify potential entry points for attackers and map them against the STRIDE categories to propose security mitigations.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative evaluation of the threat assessment report and application of the STRIDE model to identify potential vulnerabilities.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Cyber Security Threat Modeling and Risk Assessment",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -846,7 +893,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Investigation into the security implications of emerging technologies such as IoT devices and generative AI in the context of cyber systems. Students debate the trade-offs between increased system functionality and the expansion of the attack surface.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -854,24 +901,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Case studies on IoT vulnerabilities, AI security papers, trend analysis summary sheets, digital project management tools.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Future-proofing digital systems: examining how AI-driven attacks challenge existing defense mechanisms. Discussion on the impact of automated social engineering and the importance of adapting system security to emerging technological trends.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Scenario-based modelling: students update their threat models from Week 13 to include emerging technology risks. They brainstorm 'future-impact' design criteria to enhance the resilience of their simulated scam websites against next-generation security filters.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Formative check: Peer-review session evaluating the 'Future Impact' segment of student project updates.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Evaluating Emerging Technologies and Future System Impact",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     },
     {
@@ -881,7 +929,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "",
+        "value": "Consolidation of secure design principles across the unit. Students synthesise their understanding of system interdependency, data privacy, and ethical design to reflect on the role of developers in creating secure digital environments.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -889,29 +937,34 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "",
+        "value": "Security by Design frameworks, unit summary overview, reflective report templates, student project portfolios.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "",
+        "value": "Review of the unit’s key concepts: CIA triad, APP compliance, and threat modeling. Discussion of 'Security by Design' principles as a holistic approach to minimizing digital footprints and preventing malicious exploitation.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "",
+        "value": "Final reflective synthesis: Students document a 'Secure Development Life Cycle' (SDLC) plan, outlining the steps required to ensure security is integrated from the initial planning stage through to deployment and maintenance of digital systems.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "",
+        "value": "Summative reflection: 'Security by Design' report documenting the application of learned cyber security principles to a hypothetical enterprise project.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "",
-        "aiNotes": ""
+        "value": "Consolidation of Secure System Design Principles",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:07:52.098Z"
       }
     }
   ],
   "evaluation": {
     "value": "Not provided.",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "15 weeks",
     "aiNotes": ""
   }
 }
