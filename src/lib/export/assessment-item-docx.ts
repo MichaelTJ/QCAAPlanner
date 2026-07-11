@@ -74,9 +74,10 @@ function makePlainCell(
 		if (!/textDirection/.test(tcPr)) {
 			tcPr = tcPr.replace('</w:tcPr>', '<w:textDirection w:val="btLr"/></w:tcPr>');
 		}
-		if (!/vAlign/.test(tcPr)) {
-			tcPr = tcPr.replace('</w:tcPr>', '<w:vAlign w:val="center"/></w:tcPr>');
-		}
+		tcPr = tcPr
+			.replace(/<w:vAlign\b[^/]*\/>/g, '')
+			.replace(/<w:vAlign\b[^>]*>[\s\S]*?<\/w:vAlign>/g, '');
+		tcPr = tcPr.replace('</w:tcPr>', '<w:vAlign w:val="center"/></w:tcPr>');
 	}
 
 	const bold = options?.bold ? '<w:b/>' : '';
@@ -84,7 +85,9 @@ function makePlainCell(
 		text.includes('  ') || text.startsWith(' ') || text.endsWith(' ')
 			? ' xml:space="preserve"'
 			: '';
-	const paragraph = `<w:p><w:pPr><w:pStyle w:val="Tabletext"/><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:suppressAutoHyphens/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:eastAsia="Arial" w:cs="Arial"/><w:color w:val="000000"/><w:sz w:val="20"/>${bold}</w:rPr><w:t${preserve}>${escapeXml(text)}</w:t></w:r></w:p>`;
+	// For btLr labels, paragraph center aligns the text along the cell height (vertical centering).
+	const jc = options?.vertical ? '<w:jc w:val="center"/>' : '';
+	const paragraph = `<w:p><w:pPr><w:pStyle w:val="Tabletext"/><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/>${jc}<w:suppressAutoHyphens/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:eastAsia="Arial" w:cs="Arial"/><w:color w:val="000000"/><w:sz w:val="20"/>${bold}</w:rPr><w:t${preserve}>${escapeXml(text)}</w:t></w:r></w:p>`;
 	return `${tcOpen}${tcPr}${paragraph}</w:tc>`;
 }
 

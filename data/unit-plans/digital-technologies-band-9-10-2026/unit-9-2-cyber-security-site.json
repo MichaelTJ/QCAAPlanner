@@ -38,7 +38,7 @@
     "aiNotes": ""
   },
   "cohortAndClassConsiderations": {
-    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills.",
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
     "aiNotes": ""
   },
   "adjustments": [],
@@ -87,13 +87,13 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-695756aa",
+          "id": "ucd-7f5592ac",
           "strand": {
-            "value": "Data representation",
+            "value": "Knowledge and understanding",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Data representation",
             "aiNotes": ""
           },
           "text": {
@@ -106,13 +106,13 @@
           }
         },
         {
-          "id": "ucd-d0ca06f3",
+          "id": "ucd-bd1cc436",
           "strand": {
-            "value": "Data representation",
+            "value": "Knowledge and understanding",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Data representation",
             "aiNotes": ""
           },
           "text": {
@@ -125,13 +125,13 @@
           }
         },
         {
-          "id": "ucd-cd2d6b62",
+          "id": "ucd-e6605ab0",
           "strand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "text": {
@@ -144,13 +144,13 @@
           }
         },
         {
-          "id": "ucd-492dd3d4",
+          "id": "ucd-85d91ceb",
           "strand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "text": {
@@ -163,13 +163,13 @@
           }
         },
         {
-          "id": "ucd-e69dd0c2",
+          "id": "ucd-a137ecb7",
           "strand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "text": {
@@ -182,13 +182,13 @@
           }
         },
         {
-          "id": "ucd-cc1550e4",
+          "id": "ucd-5a4ccf9e",
           "strand": {
-            "value": "Investigating and defining",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Investigating and defining",
             "aiNotes": ""
           },
           "text": {
@@ -201,13 +201,13 @@
           }
         },
         {
-          "id": "ucd-06f274f4",
+          "id": "ucd-98d31655",
           "strand": {
-            "value": "Generating and designing",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Generating and designing",
             "aiNotes": ""
           },
           "text": {
@@ -220,13 +220,13 @@
           }
         },
         {
-          "id": "ucd-4ff940ee",
+          "id": "ucd-1a1ee85c",
           "strand": {
-            "value": "Generating and designing",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Generating and designing",
             "aiNotes": ""
           },
           "text": {
@@ -239,13 +239,13 @@
           }
         },
         {
-          "id": "ucd-7988d8f4",
+          "id": "ucd-30eab74e",
           "strand": {
-            "value": "Evaluating",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Evaluating",
             "aiNotes": ""
           },
           "text": {
@@ -258,13 +258,13 @@
           }
         },
         {
-          "id": "ucd-ff15dc01",
+          "id": "ucd-2c17c764",
           "strand": {
-            "value": "Collaborating and managing",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Collaborating and managing",
             "aiNotes": ""
           },
           "text": {
@@ -277,13 +277,13 @@
           }
         },
         {
-          "id": "ucd-cb41612f",
+          "id": "ucd-312cae0e",
           "strand": {
-            "value": "Collaborating and managing",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Collaborating and managing",
             "aiNotes": ""
           },
           "text": {
@@ -296,13 +296,13 @@
           }
         },
         {
-          "id": "ucd-b20e2c6b",
+          "id": "ucd-e22085ef",
           "strand": {
-            "value": "Privacy and security",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Privacy and security",
             "aiNotes": ""
           },
           "text": {
@@ -315,13 +315,13 @@
           }
         },
         {
-          "id": "ucd-33ed389e",
+          "id": "ucd-c1cd4f63",
           "strand": {
-            "value": "Privacy and security",
+            "value": "Processes and production skills",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "",
+            "value": "Privacy and security",
             "aiNotes": ""
           },
           "text": {

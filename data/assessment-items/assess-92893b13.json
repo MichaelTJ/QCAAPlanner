@@ -1,13 +1,13 @@
 {
-  "id": "assess-8985d58d",
+  "id": "assess-92893b13",
   "levelPlanId": "digital-technologies-band-9-10-2026",
-  "unitPlanId": "unit-9-2-cyber-security-site",
+  "unitPlanId": "unit-786c1ae2",
   "assessmentNumber": {
-    "value": 2,
+    "value": 3,
     "aiNotes": ""
   },
   "instrumentNumber": {
-    "value": "2",
+    "value": "",
     "aiNotes": ""
   },
   "yearLevel": {
@@ -19,19 +19,19 @@
     "aiNotes": ""
   },
   "unitTitle": {
-    "value": "Cyber Security Site",
+    "value": "Microbits - Data Gathering and Analysis",
     "aiNotes": ""
   },
   "title": {
-    "value": "Cyber Security Site",
+    "value": "Data Collection",
     "aiNotes": ""
   },
   "description": {
-    "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems. They will define the problem, generate and evaluate design solutions, represent websites using content/structure/presentation, model data, collaborate using agile tools, and apply Australian Privacy Principles.",
+    "value": "Students will design and implement a micro:bit program to collect sports science–related data.",
     "aiNotes": ""
   },
   "technique": {
-    "value": "Project",
+    "value": "Investigation",
     "aiNotes": ""
   },
   "mode": {
@@ -39,11 +39,11 @@
     "aiNotes": ""
   },
   "conditions": {
-    "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations. 1 minute presentation of the final product.",
+    "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
     "aiNotes": ""
   },
   "duration": {
-    "value": "6 weeks",
+    "value": "10 weeks",
     "aiNotes": ""
   },
   "length": {
@@ -59,9 +59,8 @@
     "aiNotes": ""
   },
   "resourcesAvailable": {
-    "value": "*   Hardware: Secure lab workstations with isolated network segment (sandboxed environment) for web development; internet access restricted to a managed, filtered gateway for research and simulation purposes.\n*   Software: Industry-standard code editors (e.g., VS Code); web development environments (HTML/CSS/JS); project management and collaboration platforms (e.g., Jira or Trello for Kanban tracking); spreadsheet software (Microsoft Excel) and relational database tools (e.g., Microsoft Access or MySQL) for data modelling and analysis.\n*   Digital Resources: Curated database of anonymised scam landing page examples for deconstruction; St Brendan’s College internal network diagram for infrastructure mapping; virtual machine (VM) instances for hosting student prototypes securely.\n*   Teaching Support: Structured templates for project logs, wireframing, and user story documentation; scaffolded reflection guides mapped to Australian Privacy Principles (APPs); threat intelligence case studies and STRIDE threat modelling templates.\n*   Infrastructure: Dedicated classroom server for hosting student-created simulated environments; enterprise-level cybersecurity awareness documentation and Australian Government (OAIC) guidance materials regarding the APPs.",
-    "aiNotes": "",
-    "lastGenerated": "2026-07-10T11:24:08.702Z"
+    "value": "",
+    "aiNotes": ""
   },
   "examTimeMinutes": {
     "value": "",
@@ -76,24 +75,26 @@
     "aiNotes": ""
   },
   "topics": {
-    "value": "Cyber Security Site",
+    "value": "Data Collection",
     "aiNotes": ""
   },
   "context": {
-    "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided. Through guided analysis and controlled, ethical simulations, students will explore common features of scam websites, including deceptive design choices, persuasive language, fake forms, and misleading links. By constructing mock scam websites in a safe learning environment, students will develop an understanding of how attackers exploit human behaviour rather than technical vulnerabilities. Students will also examine protective strategies such as recognising warning signs, verifying sources, and applying safe online practices.",
-    "aiNotes": ""
+    "value": "In contemporary sports science, the ability to accurately capture and analyse biometric and movement data is fundamental to enhancing athletic performance and informing physiological research. In this investigation, students utilise micro:bit devices as physical computing tools to collect real-world data, exploring the systemic processes through which digital systems acquire, store, and process information. By contextualising data analysis within a sports science framework, students evaluate how hardware-software interactions facilitate the transformation of raw physical inputs into meaningful digital insights, allowing for the identification of trends and the validation of performance outcomes.",
+    "aiNotes": "This is the context for the assignment - say something about how valuable data analysis is to sports science/ One paragraph",
+    "lastGenerated": "2026-07-10T19:23:19.526Z"
   },
   "task": {
-    "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems. They will define the problem, generate and evaluate design solutions, represent websites using content/structure/presentation, model data, collaborate using agile tools, and apply Australian Privacy Principles.",
-    "aiNotes": ""
+    "value": "Students will design and implement a program for the micro:bit to acquire, process, and visualise sports science–related data. They will decompose the data collection problem, develop and validate an algorithm—represented via pseudocode and flowcharts—and implement the solution. Students are required to document the data acquisition process, including techniques for validating data accuracy and consistency, and provide a visual analysis of the results to draw evidence-based conclusions regarding physical performance metrics.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-10T19:23:14.219Z"
   },
   "toComplete": {
-    "value": "To complete this task, you must provide a digital project that documents the development of a simulated scam website prototype. You are required to:\n\n1.  **Define and Decompose the Problem:** Interview a peer (acting as a stakeholder) to develop specific user stories that capture psychological triggers. Decompose the project into functional components—content, structure, and presentation—using an agile methodology on a digital Kanban board.\n2.  **Design and Prototype:** Create wireframes and a style guide that reflect deceptive design principles. Develop the front-end using HTML and CSS, ensuring the site mimics the UI/UX features of legitimate institutions. \n3.  **Model and Manage Data:** Implement a structured data schema for the collection of simulated user inputs. Create a relational database or spreadsheet model to manage this data, applying validation rules to ensure domain-appropriate accuracy.\n4.  **Critique and Evaluate:** Conduct a privacy audit of your prototype against the Australian Privacy Principles (APPs). Evaluate your design against your initial user stories, documenting how your site exploits human behaviour and identifying the potential future impact of such deceptive systems.\n5.  **Present:** Submit your prototype along with an annotated technical report (4–6 A3 pages or digital equivalent) and deliver a 1-minute oral presentation that justifies your design choices and reflects on the ethical implications of your simulated scam.",
+    "value": "* Define and decompose a specific sports science problem to determine data requirements and user stories.\n* Design a validated algorithm, represented as flowcharts or pseudocode, to manage data acquisition from micro:bit sensors.\n* Implement the program on a micro:bit to acquire, clean and validate real-world data, ensuring it is accurate, consistent and domain-appropriate.\n* Model and visualise the acquired data using digital tools to explore trends, outliers and performance insights.\n* Explain the interaction between the micro:bit hardware and software components in managing and securing the collected data.\n* Critique the data collection solution and its digital footprint by applying the Australian Privacy Principles.\n* Document the investigation using a multimodal format, including annotated graphical representations of the system and its outputs.",
     "aiNotes": "",
-    "lastGenerated": "2026-07-10T11:24:57.886Z"
+    "lastGenerated": "2026-07-10T19:23:46.519Z"
   },
   "stimulus": {
-    "value": "Stimulus on website",
+    "value": "No stimulus",
     "aiNotes": ""
   },
   "scaffolding": {
@@ -102,43 +103,43 @@
   },
   "checkpoints": [
     {
-      "id": "cp-3cacf206",
+      "id": "cp-8e66873d",
       "label": "Monitoring",
       "week": {
-        "value": "",
+        "value": "6",
         "aiNotes": ""
       },
       "action": {
-        "value": "",
+        "value": "Monitoring",
         "aiNotes": ""
       },
-      "checked": false
+      "checked": true
     },
     {
-      "id": "cp-e3b131e1",
+      "id": "cp-c1f8a641",
       "label": "Conferencing",
       "week": {
-        "value": "",
+        "value": "8",
         "aiNotes": ""
       },
       "action": {
-        "value": "",
+        "value": "Conferencing",
         "aiNotes": ""
       },
-      "checked": false
+      "checked": true
     },
     {
-      "id": "cp-a838581f",
+      "id": "cp-f0a90a7d",
       "label": "Due Date",
       "week": {
-        "value": "",
+        "value": "10",
         "aiNotes": ""
       },
       "action": {
-        "value": "",
+        "value": "Due",
         "aiNotes": ""
       },
-      "checked": false
+      "checked": true
     }
   ],
   "authenticationStrategies": [
@@ -150,7 +151,7 @@
     {
       "id": "supervised-sections",
       "label": "You will produce sections of the final response under supervised conditions.",
-      "selected": false
+      "selected": true
     },
     {
       "id": "progress-docs",
@@ -160,7 +161,7 @@
     {
       "id": "monitor-junctures",
       "label": "Your teacher will collect copies of your response and monitor at key junctures.",
-      "selected": false
+      "selected": true
     },
     {
       "id": "annotate-draft",
@@ -170,7 +171,7 @@
     {
       "id": "consultations",
       "label": "Your teacher will conduct interviews or consultations as you develop the response.",
-      "selected": false
+      "selected": true
     },
     {
       "id": "acknowledge-sources",
@@ -180,7 +181,7 @@
     {
       "id": "declaration",
       "label": "You must submit a declaration of authenticity.",
-      "selected": false
+      "selected": true
     },
     {
       "id": "summaries",
@@ -190,7 +191,7 @@
     {
       "id": "post-interviews",
       "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
-      "selected": false
+      "selected": true
     },
     {
       "id": "group-compare",
@@ -205,7 +206,7 @@
   ],
   "contentDescriptions": [
     {
-      "id": "acd-fd7c3ebb",
+      "id": "acd-97d6ff92",
       "strand": {
         "value": "Digital systems",
         "aiNotes": ""
@@ -225,7 +226,7 @@
       "selected": false
     },
     {
-      "id": "acd-8a31e5db",
+      "id": "acd-8ef4f298",
       "strand": {
         "value": "Data representation",
         "aiNotes": ""
@@ -242,10 +243,10 @@
         "value": "AC9TDI10K02",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-4e9a0d08",
+      "id": "acd-5ea50cc8",
       "strand": {
         "value": "Data representation",
         "aiNotes": ""
@@ -262,10 +263,10 @@
         "value": "AC9TDI10K03",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-b6cbcd5a",
+      "id": "acd-23b09577",
       "strand": {
         "value": "Acquiring, managing and analysing data",
         "aiNotes": ""
@@ -282,10 +283,10 @@
         "value": "AC9TDI10P01",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-8a1e0834",
+      "id": "acd-a5ee9b6f",
       "strand": {
         "value": "Acquiring, managing and analysing data",
         "aiNotes": ""
@@ -302,10 +303,10 @@
         "value": "AC9TDI10P02",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-087e0421",
+      "id": "acd-285901c4",
       "strand": {
         "value": "Acquiring, managing and analysing data",
         "aiNotes": ""
@@ -322,10 +323,10 @@
         "value": "AC9TDI10P03",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-4f417764",
+      "id": "acd-af5c4b68",
       "strand": {
         "value": "Investigating and defining",
         "aiNotes": ""
@@ -342,10 +343,10 @@
         "value": "AC9TDI10P04",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-6b38dd77",
+      "id": "acd-ab26beb5",
       "strand": {
         "value": "Generating and designing",
         "aiNotes": ""
@@ -365,7 +366,7 @@
       "selected": false
     },
     {
-      "id": "acd-19f2c34f",
+      "id": "acd-c1fe5c52",
       "strand": {
         "value": "Generating and designing",
         "aiNotes": ""
@@ -385,7 +386,7 @@
       "selected": false
     },
     {
-      "id": "acd-b6da2b94",
+      "id": "acd-d115635e",
       "strand": {
         "value": "Generating and designing",
         "aiNotes": ""
@@ -402,10 +403,10 @@
         "value": "AC9TDI10P07",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-66bd340d",
+      "id": "acd-d45b7634",
       "strand": {
         "value": "Generating and designing",
         "aiNotes": ""
@@ -422,10 +423,10 @@
         "value": "AC9TDI10P08",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-9cfdf731",
+      "id": "acd-bb8c302a",
       "strand": {
         "value": "Producing and implementing",
         "aiNotes": ""
@@ -445,7 +446,7 @@
       "selected": false
     },
     {
-      "id": "acd-f4142a7b",
+      "id": "acd-20e900ec",
       "strand": {
         "value": "Evaluating",
         "aiNotes": ""
@@ -462,10 +463,10 @@
         "value": "AC9TDI10P10",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-a15006df",
+      "id": "acd-fe27fd50",
       "strand": {
         "value": "Collaborating and managing",
         "aiNotes": ""
@@ -482,10 +483,10 @@
         "value": "AC9TDI10P11",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-6039fd62",
+      "id": "acd-aee50399",
       "strand": {
         "value": "Collaborating and managing",
         "aiNotes": ""
@@ -502,10 +503,10 @@
         "value": "AC9TDI10P12",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-77a20bf3",
+      "id": "acd-037c5006",
       "strand": {
         "value": "Privacy and security",
         "aiNotes": ""
@@ -522,10 +523,10 @@
         "value": "AC9TDI10P13",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     },
     {
-      "id": "acd-151a0733",
+      "id": "acd-9d8e6a1e",
       "strand": {
         "value": "Privacy and security",
         "aiNotes": ""
@@ -542,7 +543,7 @@
         "value": "AC9TDI10P14",
         "aiNotes": ""
       },
-      "selected": true
+      "selected": false
     }
   ],
   "knowledgeUnderstandingResult": {
@@ -589,7 +590,7 @@
         "D": "partial representation of documents as content, structure and/or presentation",
         "E": "directed representation of documents as content, structure and/or presentation"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-acquiring",
@@ -607,7 +608,7 @@
         "D": "partial acquisition, interpretation and/or modelling of complex data with databases",
         "E": "fragmented acquisition, interpretation and modelling of complex data with databases"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-investigating",
@@ -623,7 +624,7 @@
         "D": "partial decomposition of real-world problems",
         "E": "statement/s about real-world problems"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-generating-algo",
@@ -656,7 +657,7 @@
         "D": "partial design and/or prototyping of the user experience of a digital system",
         "E": "directed design and/or prototyping of the user experience of a digital system"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-generating-design",
@@ -672,7 +673,7 @@
         "D": "partial development and modification of innovative digital solutions",
         "E": "fragmented development and/or modification of innovative digital solutions"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-producing",
@@ -704,7 +705,7 @@
         "D": "partial evaluation of alternative solutions against stakeholder elicited user stories",
         "E": "identification of alternative solutions against stakeholder elicited user stories"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-collaborating",
@@ -721,7 +722,7 @@
         "D": "variable use of advanced features of digital tools to partially create interactive content; plan, collaborate on and/or manage agile projects",
         "E": "directed use of digital tools"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-privacy-cyber",
@@ -737,7 +738,7 @@
         "D": "partial modelling of cyber security threats and/or exploration of a vulnerability",
         "E": "statement/s about cyber security threats"
       },
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "dt910-privacy-footprint",
@@ -753,19 +754,19 @@
         "D": "partial application of privacy principles to manage digital footprints.",
         "E": "directed application of privacy principles to manage digital footprints."
       },
-      "enabled": true
+      "enabled": false
     }
   ],
   "examSections": [
     {
-      "id": "examsec-07a01059",
+      "id": "examsec-20e1af98",
       "title": {
         "value": "Multiple choice",
         "aiNotes": ""
       },
       "questions": [
         {
-          "id": "q-871e003b",
+          "id": "q-e329d0d7",
           "prompt": {
             "value": "Question 1",
             "aiNotes": ""
@@ -776,7 +777,7 @@
           }
         },
         {
-          "id": "q-65cba692",
+          "id": "q-879f1257",
           "prompt": {
             "value": "Question 2",
             "aiNotes": ""
@@ -787,7 +788,7 @@
           }
         },
         {
-          "id": "q-b51fd6d3",
+          "id": "q-64866dca",
           "prompt": {
             "value": "Question 3",
             "aiNotes": ""
@@ -798,7 +799,7 @@
           }
         },
         {
-          "id": "q-bad00a8a",
+          "id": "q-1d2bf62c",
           "prompt": {
             "value": "Question 4",
             "aiNotes": ""
@@ -809,7 +810,7 @@
           }
         },
         {
-          "id": "q-85cd4203",
+          "id": "q-52e57d22",
           "prompt": {
             "value": "Question 5",
             "aiNotes": ""
@@ -822,14 +823,14 @@
       ]
     },
     {
-      "id": "examsec-979ea9bf",
+      "id": "examsec-0dd5516e",
       "title": {
         "value": "Short response questions — simple",
         "aiNotes": ""
       },
       "questions": [
         {
-          "id": "q-aed55f63",
+          "id": "q-d0377f62",
           "prompt": {
             "value": "Question 1",
             "aiNotes": ""
@@ -840,7 +841,7 @@
           }
         },
         {
-          "id": "q-c342ab6b",
+          "id": "q-0ea1c56f",
           "prompt": {
             "value": "Question 2",
             "aiNotes": ""
@@ -851,7 +852,7 @@
           }
         },
         {
-          "id": "q-e8fdc84c",
+          "id": "q-b7003c2a",
           "prompt": {
             "value": "Question 3",
             "aiNotes": ""
@@ -862,7 +863,7 @@
           }
         },
         {
-          "id": "q-0899c48f",
+          "id": "q-fe01b9e8",
           "prompt": {
             "value": "Question 4",
             "aiNotes": ""
@@ -875,14 +876,14 @@
       ]
     },
     {
-      "id": "examsec-28f33722",
+      "id": "examsec-688e617c",
       "title": {
         "value": "Short response questions",
         "aiNotes": ""
       },
       "questions": [
         {
-          "id": "q-50c823d0",
+          "id": "q-c2425d46",
           "prompt": {
             "value": "Question 1",
             "aiNotes": ""
@@ -893,7 +894,7 @@
           }
         },
         {
-          "id": "q-6aa747d2",
+          "id": "q-2e6dc6fc",
           "prompt": {
             "value": "Question 2",
             "aiNotes": ""
@@ -904,7 +905,7 @@
           }
         },
         {
-          "id": "q-44df2432",
+          "id": "q-6847fc35",
           "prompt": {
             "value": "Question 3",
             "aiNotes": ""
@@ -915,7 +916,7 @@
           }
         },
         {
-          "id": "q-0a3fe056",
+          "id": "q-3d97960c",
           "prompt": {
             "value": "Question 4",
             "aiNotes": ""
@@ -926,7 +927,7 @@
           }
         },
         {
-          "id": "q-f09e8944",
+          "id": "q-e5dc9916",
           "prompt": {
             "value": "Question 5",
             "aiNotes": ""
@@ -937,7 +938,7 @@
           }
         },
         {
-          "id": "q-971a10d5",
+          "id": "q-299c2dc0",
           "prompt": {
             "value": "Question 6",
             "aiNotes": ""

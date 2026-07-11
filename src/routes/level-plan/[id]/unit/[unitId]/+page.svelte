@@ -21,6 +21,12 @@
 		validSubElementIds
 	} from '$lib/general-capabilities';
 	import { assessmentItemForUnitIndex } from '$lib/assessment/digitech-instruments';
+	import {
+		assessmentHasContentCode,
+		resolveCurriculumPlanTypeForUnit,
+		toggleAssessmentContentDescription,
+		type PickerContentDescriptor
+	} from '$lib/content-descriptions';
 	import { curriculumKeysCompatible, curriculumMatchFromUnit } from '$lib/curriculum-match';
 	import { learningGuideFromUnitPlan, learningGuideTitle } from '$lib/learning-guide-data';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
@@ -33,6 +39,11 @@
 	let standaloneAssessments = $state<AssessmentItemSummary[]>(
 		structuredClone(data.standaloneAssessments)
 	);
+	const contentDescriptors = $derived(data.contentDescriptors as PickerContentDescriptor[]);
+	const levelDescription = $derived(data.levelDescription ?? '');
+	let refiningKey = $state<string | null>(null);
+	let refineError = $state('');
+	let refineUsage = $state<GenerationUsage | null>(null);
 	for (const cap of plan.generalCapabilities) {
 		cap.subElementChecks = ensureUnitCapabilityChecks(cap);
 	}
@@ -334,6 +345,104 @@
 		plan.assessments = plan.assessments.filter((_, i) => i !== index);
 	}
 
+	function onContentDescriptorToggle(
+		assessmentIndex: number,
+		descriptor: PickerContentDescriptor,
+		checked: boolean
+	) {
+		const assessment = plan.assessments[assessmentIndex];
+		if (!assessment) return;
+		assessment.contentDescriptions = toggleAssessmentContentDescription(
+			assessment.contentDescriptions,
+			descriptor,
+			checked
+		);
+	}
+
+	function selectedDescriptorsForRefine(assessmentIndex: number | undefined = undefined) {
+		if (assessmentIndex !== undefined) {
+			const assessment = plan.assessments[assessmentIndex];
+			if (!assessment) return [];
+			return contentDescriptors.filter((d) =>
+				assessmentHasContentCode(assessment.contentDescriptions, d.code)
+			);
+		}
+		const codes = new Set<string>();
+		for (const assessment of plan.assessments) {
+			for (const cd of assessment.contentDescriptions) {
+				const code = String(cd.code.value).trim().toUpperCase();
+				if (code) codes.add(code);
+			}
+		}
+		return contentDescriptors.filter((d) => codes.has(d.code.trim().toUpperCase()));
+	}
+
+	async function refineDescription(
+		target: 'unit' | 'assessment',
+		assessmentIndex: number | undefined = undefined
+	) {
+		const selected = selectedDescriptorsForRefine(assessmentIndex);
+		if (!selected.length) {
+			refineError =
+				target === 'unit'
+					? 'Select content descriptors on at least one assessment before refining the unit description.'
+					: 'Select at least one content descriptor for this assessment before refining.';
+			return;
+		}
+
+		const planType =
+			resolveCurriculumPlanTypeForUnit(String(plan.subject.value), plan.yearLevel.value) ||
+			'9-10-digital-technologies';
+		const key =
+			target === 'unit' ? 'unit' : `assess-${assessmentIndex ?? 0}`;
+		refiningKey = key;
+		refineError = '';
+		refineUsage = null;
+		try {
+			const assessment =
+				assessmentIndex !== undefined ? plan.assessments[assessmentIndex] : undefined;
+			const res = await fetch('/api/refine-description', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					target,
+					planType,
+					levelDescription,
+					unitTitle: String(plan.unitTitle.value),
+					assessmentTitle: assessment ? String(assessment.title.value) : undefined,
+					currentValue:
+						target === 'unit'
+							? String(plan.unitDescription.value)
+							: String(assessment?.description.value ?? ''),
+					selectedContentDescriptors: selected.map((d) => ({
+						code: d.code,
+						text: d.text,
+						strand: d.strand
+					}))
+				})
+			});
+			const body = await res.json().catch(() => ({}));
+			if (!res.ok) throw new Error(body.message || 'Refine failed');
+			if (target === 'unit') {
+				plan.unitDescription.value = body.value;
+				plan.unitDescription.lastGenerated = body.lastGenerated;
+			} else if (assessment) {
+				assessment.description.value = body.value;
+				assessment.description.lastGenerated = body.lastGenerated;
+			}
+			refineUsage = {
+				model: body.model,
+				modelLabel: body.modelLabel,
+				attemptedModels: body.attemptedModels ?? [],
+				usedFallback: body.usedFallback ?? false
+			};
+		} catch (e) {
+			refineError = e instanceof Error ? e.message : 'Refine failed';
+		} finally {
+			refiningKey = null;
+		}
+	}
+
 	function addAdjustment() {
 		plan.adjustments = [
 			...plan.adjustments,
@@ -419,6 +528,32 @@
 
 	function sequenceBusy() {
 		return outlineGenerating || batchGenerating || weeklyChunkGenerating;
+	}
+
+	function hasOutlineThemes() {
+		return plan.teachingSequence.some((w) => Boolean(w.outlineTheme?.value?.trim()));
+	}
+
+	function clearTeachingSequencePlanning() {
+		if (
+			!confirm(
+				'Clear all teaching sequence planning? This removes every week and all outline/weekly content.'
+			)
+		) {
+			return;
+		}
+		plan.teachingSequence = [];
+		outlineFinished = false;
+		outlineError = '';
+		outlineUsage = null;
+		outlineStatus = '';
+		batchFinished = false;
+		batchStatus = '';
+		batchUsage = null;
+		weeklyError = '';
+		weeklyChunkError = '';
+		weeklyChunkUsage = null;
+		weeklyChunkStatus = '';
 	}
 
 	function teachingSequenceContextForApi() {
@@ -781,7 +916,21 @@
 
 	<div class="card">
 		<SelectFieldEditor label="Status" bind:field={plan.status} options={PLAN_STATUSES} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="status" />
+		<div class="toolbar" style="margin-bottom:0.5rem">
+			<span class="meta" style="flex:1">Unit description</span>
+			<button
+				class="btn btn-sm btn-primary"
+				onclick={() => refineDescription('unit')}
+				disabled={refiningKey !== null}
+			>
+				{refiningKey === 'unit' ? 'Refining…' : 'AI Refine'}
+			</button>
+		</div>
 		<FieldEditor label="Unit description" bind:field={plan.unitDescription} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="unitDescription" rows={6} />
+		{#if refineError}
+			<p class="error">{refineError}</p>
+		{/if}
+		<ModelFeedback usage={refineUsage} />
 		<FieldEditor label="Cohort and class considerations" bind:field={plan.cohortAndClassConsiderations} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="cohortAndClassConsiderations" rows={4} />
 	</div>
 
@@ -813,6 +962,16 @@
 				<button class="btn btn-sm" onclick={() => removeAssessment(ai)}>Remove</button>
 			</div>
 			<FieldEditor label="Title" bind:field={assess.title} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.title" multiline={false} />
+			<div class="toolbar" style="margin-bottom:0.5rem">
+				<span class="meta" style="flex:1">Description</span>
+				<button
+					class="btn btn-sm btn-primary"
+					onclick={() => refineDescription('assessment', ai)}
+					disabled={refiningKey !== null}
+				>
+					{refiningKey === `assess-${ai}` ? 'Refining…' : 'AI Refine'}
+				</button>
+			</div>
 			<FieldEditor label="Description" bind:field={assess.description} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.description" rows={5} />
 			<div class="grid-2">
 				<SelectFieldEditor label="Technique" bind:field={assess.technique} options={ASSESSMENT_TECHNIQUES} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.technique" />
@@ -822,6 +981,43 @@
 			<FieldEditor label="Timing" bind:field={assess.timing} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.timing" multiline={false} />
 			<FieldEditor label="Achievement standard" bind:field={assess.achievementStandard} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.achievementStandard" rows={5} />
 			<FieldEditor label="Moderation" bind:field={assess.moderation} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="assessments.{ai}.moderation" />
+
+			<div class="content-descriptor-picker" style="margin-top:1rem">
+				<h3 style="margin:0 0 0.5rem;font-size:1rem">Content descriptions</h3>
+				{#if contentDescriptors.length === 0}
+					<p class="meta">No curriculum catalogue matched this unit. Add descriptors on the level plan first, or set subject/year level to a supported band.</p>
+				{:else}
+					<table class="data-table">
+						<thead>
+							<tr>
+								<th style="width:2.5rem"></th>
+								<th>Code</th>
+								<th>Strand</th>
+								<th>Text</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each contentDescriptors as cd (cd.id)}
+								<tr>
+									<td>
+										<input
+											type="checkbox"
+											checked={assessmentHasContentCode(assess.contentDescriptions, cd.code)}
+											onchange={(e) =>
+												onContentDescriptorToggle(ai, cd, e.currentTarget.checked)}
+											aria-label="Include {cd.code}"
+										/>
+									</td>
+									<td class="content-code-cell">{cd.code}</td>
+									<td>{cd.strand}{cd.subStrand ? ` · ${cd.subStrand}` : ''}</td>
+									<td class="content-text-cell">{cd.text}</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				{/if}
+			</div>
+
 			<div class="toolbar" style="margin-top:0.75rem;flex-wrap:wrap;gap:0.5rem">
 				{#if linked}
 					<a class="btn btn-sm btn-primary" href="/assessment-item/{linked.id}">Open assessment item</a>
@@ -999,16 +1195,31 @@
 	<div class="toolbar">
 		<button class="btn" onclick={() => ensureWeeks(10)} disabled={sequenceBusy()}>Ensure 10 weeks</button>
 		<button class="btn" onclick={() => ensureWeeks(20)} disabled={sequenceBusy()}>Ensure 20 weeks</button>
+		<button
+			class="btn"
+			onclick={clearTeachingSequencePlanning}
+			disabled={sequenceBusy() || plan.teachingSequence.length === 0}
+		>
+			Clear all planning
+		</button>
 	</div>
 
 	{@const weekRange = batchWeekRange()}
 
 	<div class="chunk-panel">
 		<h2>Unit outline (planning pass)</h2>
-		<p class="meta">High-level week themes for the whole unit.</p>
+		<p class="meta">
+			High-level week themes for the whole unit. After the first pass, add feedback in the notes and regenerate.
+		</p>
 		<label>
-			AI notes for this chunk
-			<textarea bind:value={outlineNotes} rows="2" style="width:100%"></textarea>
+			AI notes / feedback
+			<textarea
+				bind:value={outlineNotes}
+				rows="3"
+				style="width:100%"
+				placeholder="e.g. More detail for weeks 3–5; keep cyber safety lighter; cover 3 lessons per week…"
+				disabled={sequenceBusy()}
+			></textarea>
 		</label>
 		<button
 			class="btn btn-primary"
@@ -1017,14 +1228,16 @@
 		>
 			{#if outlineGenerating}
 				{outlineStatus}
-			{:else if weekRange}
-				Generate unit outline (weeks {weekRange.start}–{weekRange.end})
-			{:else}
+			{:else if !weekRange}
 				Generate unit outline (add weeks first)
+			{:else if hasOutlineThemes() || outlineFinished}
+				Regenerate outline with notes (weeks {weekRange.start}–{weekRange.end})
+			{:else}
+				Generate unit outline (weeks {weekRange.start}–{weekRange.end})
 			{/if}
 		</button>
 		{#if outlineFinished && !outlineGenerating}
-			<span class="meta batch-finished">Finished</span>
+			<span class="meta batch-finished">Finished — edit notes above and regenerate anytime</span>
 		{/if}
 		<ModelFeedback usage={outlineUsage} />
 		{#if outlineError}<p class="error">{outlineError}</p>{/if}
@@ -1032,10 +1245,16 @@
 
 	<div class="chunk-panel">
 		<h2>Weekly detail (content pass)</h2>
-		<p class="meta">Theory, prac, and assessment detail — run after the outline pass.</p>
+		<p class="meta">Theory, prac, and assessment detail — run after the outline pass. Add feedback in notes to revise on re-run.</p>
 		<label>
-			AI notes
-			<textarea bind:value={weeklyNotes} rows="2" style="width:100%"></textarea>
+			AI notes / feedback
+			<textarea
+				bind:value={weeklyNotes}
+				rows="3"
+				style="width:100%"
+				placeholder="e.g. More prac detail; 3 lessons per week; less assessment in early weeks…"
+				disabled={sequenceBusy()}
+			></textarea>
 		</label>
 		<button
 			class="btn btn-primary"
@@ -1044,14 +1263,16 @@
 		>
 			{#if batchGenerating}
 				{batchStatus}
-			{:else if weekRange}
-				Generate all weeks {weekRange.start}–{weekRange.end} ({BATCH_CHUNK_SIZE} at a time)
-			{:else}
+			{:else if !weekRange}
 				Generate all weeks (add weeks first)
+			{:else if batchFinished}
+				Regenerate all weeks {weekRange.start}–{weekRange.end} with notes ({BATCH_CHUNK_SIZE} at a time)
+			{:else}
+				Generate all weeks {weekRange.start}–{weekRange.end} ({BATCH_CHUNK_SIZE} at a time)
 			{/if}
 		</button>
 		{#if batchFinished && !batchGenerating}
-			<span class="meta batch-finished">Finished</span>
+			<span class="meta batch-finished">Finished — edit notes above and regenerate anytime</span>
 		{/if}
 		<ModelFeedback usage={batchGenerating || batchFinished ? batchUsage : null} />
 		{#if weeklyError}<p class="error">{weeklyError}</p>{/if}
@@ -1062,16 +1283,16 @@
 			<div class="form-row">
 				<label>
 					From week
-					<input type="number" min="1" bind:value={chunkStart} />
+					<input type="number" min="1" bind:value={chunkStart} disabled={sequenceBusy()} />
 				</label>
 				<label>
 					To week
-					<input type="number" min="1" bind:value={chunkEnd} />
+					<input type="number" min="1" bind:value={chunkEnd} disabled={sequenceBusy()} />
 				</label>
 			</div>
 			<label>
 				AI notes for this chunk
-				<textarea bind:value={weeklyChunkNotes} rows="2" style="width:100%"></textarea>
+				<textarea bind:value={weeklyChunkNotes} rows="2" style="width:100%" disabled={sequenceBusy()}></textarea>
 			</label>
 			<button
 				class="btn"

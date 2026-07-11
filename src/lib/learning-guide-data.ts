@@ -20,11 +20,34 @@ function parseTermFromWeekLabel(label: string): number | '' {
 	return Number(match[1]);
 }
 
+/** Periods in these abbreviations must not count as sentence boundaries (e.g. Scope bullets). */
+const ABBREVIATION_PERIOD = /\b(e\.g|i\.e|vs|Mr|Mrs|Ms|Dr|Prof)\./gi;
+
+function withProtectedAbbreviations(text: string, map: (safeText: string) => string): string;
+function withProtectedAbbreviations(text: string, map: (safeText: string) => string[]): string[];
+function withProtectedAbbreviations(
+	text: string,
+	map: (safeText: string) => string | string[]
+): string | string[] {
+	const saved: string[] = [];
+	const safeText = text.replace(ABBREVIATION_PERIOD, (match) => {
+		const token = `\u0000ABBR${saved.length}\u0000`;
+		saved.push(match);
+		return token;
+	});
+	const restore = (value: string) =>
+		value.replace(/\u0000ABBR(\d+)\u0000/g, (_, index) => saved[Number(index)] ?? '');
+	const result = map(safeText);
+	return Array.isArray(result) ? result.map(restore) : restore(result);
+}
+
 function firstSentence(text: string): string {
 	const trimmed = text.trim();
 	if (!trimmed) return '';
-	const match = trimmed.match(/^(.+?[.!?])(?:\s|$)/);
-	return (match?.[1] ?? trimmed.split(/\n/)[0] ?? trimmed).trim();
+	return withProtectedAbbreviations(trimmed, (safeText) => {
+		const match = safeText.match(/^(.+?[.!?])(?:\s|$)/);
+		return (match?.[1] ?? safeText.split(/\n/)[0] ?? safeText).trim();
+	});
 }
 
 function splitIntoBullets(text: string, max = 4): string[] {
@@ -37,11 +60,13 @@ function splitIntoBullets(text: string, max = 4): string[] {
 		.filter(Boolean);
 	if (lines.length > 1) return lines.slice(0, max);
 
-	return trimmed
-		.split(/(?<=[.!?])\s+/)
-		.map((sentence) => sentence.trim())
-		.filter(Boolean)
-		.slice(0, max);
+	return withProtectedAbbreviations(trimmed, (safeText) =>
+		safeText
+			.split(/(?<=[.!?])\s+/)
+			.map((sentence) => sentence.trim())
+			.filter(Boolean)
+			.slice(0, max)
+	);
 }
 
 function stripSectionPrefix(text: string, prefix: string): string {

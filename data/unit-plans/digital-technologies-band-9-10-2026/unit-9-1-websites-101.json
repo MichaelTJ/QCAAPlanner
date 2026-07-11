@@ -70,11 +70,11 @@
         "aiNotes": ""
       },
       "conditions": {
-        "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+        "value": "up to 50 minutes plus 10 minutes planning time; under supervised conditions; short response up to 100 words per item, up to 600 words for the task; extended response 200–300 words per item, up to 600 words for the task",
         "aiNotes": ""
       },
       "timing": {
-        "value": "Week 5",
+        "value": "Term 1, Week 5",
         "aiNotes": ""
       },
       "achievementStandard": {
@@ -82,12 +82,12 @@
         "aiNotes": ""
       },
       "moderation": {
-        "value": "A sample of student portfolios representing a range of achievement levels will be reviewed by another Digital Technologies teacher, who will provide feedback on the consistency and fairness of the grading. Any necessary adjustments will be made to ensure alignment with the assessment criteria and standards.",
+        "value": "A sample of student portfolios representing a range of achievement levels will be reviewed by another Digital Technologies teacher.",
         "aiNotes": ""
       },
       "contentDescriptions": [
         {
-          "id": "cd-i7dgi2dl",
+          "id": "ucd-ce028cfe",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -106,7 +106,7 @@
           }
         },
         {
-          "id": "cd-r496y0ha",
+          "id": "ucd-e0984dff",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -125,7 +125,7 @@
           }
         },
         {
-          "id": "cd-0z568586",
+          "id": "ucd-70339fea",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -154,12 +154,24 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "• Inquiring\n- Develop questions\n- Identify, process and evaluate information\n• Generating\n- Create possibilities\n- Consider alternatives\n- Put ideas into action\n• Analysing\n- Interpret concepts and problems\n- Draw conclusions and provide reasons\n- Evaluate actions and outcomes\n• Reflecting\n- Transfer knowledge",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
       }
     },
     {
@@ -169,12 +181,26 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "• Practising digital safety and wellbeing\n- Manage online safety\n- Manage digital privacy and identity\n- Manage digital wellbeing\n• Investigating\n- Locate information\n- Acquire and collate data\n- Interpret data\n• Creating and exchanging\n- Plan\n- Create, communicate and collaborate\n- Respect intellectual property\n• Managing and operating\n- Select and operate tools",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
       }
     },
     {
@@ -184,12 +210,26 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "• Reading and viewing\n- Understanding texts\n• Writing",
+        "value": "",
         "aiNotes": ""
       },
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
       }
     }
   ],
@@ -372,6 +412,10 @@
   ],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "5 weeks",
     "aiNotes": ""
   }
 }

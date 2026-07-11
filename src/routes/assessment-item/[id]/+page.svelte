@@ -10,7 +10,8 @@
 	} from '$lib/defaults';
 	import {
 		selectedContentDescriptionCodes,
-		toggleContentDescription
+		toggleContentDescription,
+		toggleCriteriaRow
 	} from '$lib/assessment/digitech-instruments';
 	import type { AssessmentItem } from '$lib/types';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
@@ -76,6 +77,15 @@
 
 	function onCdToggle(code: string, selected: boolean) {
 		item = toggleContentDescription(structuredClone(item), code, selected);
+	}
+
+	function onCriteriaToggle(rowId: string, enabled: boolean) {
+		item = toggleCriteriaRow(structuredClone(item), rowId, enabled);
+	}
+
+	function linkedContentDescriptions(row: AssessmentItem['criteriaRows'][number]) {
+		const codes = new Set(row.contentDescriptionCodes);
+		return item.contentDescriptions.filter((cd) => codes.has(String(cd.code.value)));
 	}
 
 	async function detach() {
@@ -221,8 +231,8 @@
 	{#if section === 'content'}
 		<div class="card">
 			<p class="meta">
-				Selected content descriptions seed the Word instrument and enable matching rubric rows
-				({selectedContentDescriptionCodes(item).length} selected).
+				Ticking a content description enables its linked rubric row(s), and ticking a rubric row
+				selects its content descriptions ({selectedContentDescriptionCodes(item).length} selected).
 			</p>
 		</div>
 		{#if item.contentDescriptions.length}
@@ -300,16 +310,31 @@
 			</label>
 			{#each item.criteriaRows as row (row.id)}
 				{#if row.enabled || showDisabledCriteria}
+					{@const linked = linkedContentDescriptions(row)}
 					<div class="card" style="background:#f8fafc">
 						<div class="toolbar">
 							<label class="cd-row" style="flex:1;margin:0">
-								<input type="checkbox" bind:checked={row.enabled} />
+								<input
+									type="checkbox"
+									checked={row.enabled}
+									onchange={(e) => onCriteriaToggle(row.id, e.currentTarget.checked)}
+								/>
 								<span>
 									<strong>{row.category}</strong> — {row.strand}
 									<span class="meta">({row.contentDescriptionCodes.join(', ')})</span>
 								</span>
 							</label>
 						</div>
+						{#if linked.length}
+							<ul class="linked-cds">
+								{#each linked as cd (cd.id)}
+									<li class:selected-cd={cd.selected}>
+										<code>{cd.code.value}</code>
+										{cd.text.value}
+									</li>
+								{/each}
+							</ul>
+						{/if}
 						{#if row.enabled || showDisabledCriteria}
 							<div class="rubric-grid">
 								<label
@@ -419,5 +444,22 @@
 		overflow: hidden;
 		resize: none;
 		min-height: 2.75rem;
+	}
+	.linked-cds {
+		margin: 0 0 0.75rem;
+		padding-left: 1.25rem;
+		font-size: 0.85rem;
+		color: #475569;
+	}
+	.linked-cds li {
+		margin: 0.2rem 0;
+	}
+	.linked-cds li.selected-cd {
+		color: #0f172a;
+		font-weight: 500;
+	}
+	.linked-cds code {
+		font-size: 0.8rem;
+		margin-right: 0.35rem;
 	}
 </style>

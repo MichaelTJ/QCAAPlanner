@@ -6,14 +6,13 @@
 		ASSESSMENT_MODES,
 		ASSESSMENT_TECHNIQUES,
 		PLAN_STATUSES,
-		createId,
-		mapLevelPlanAssessmentsToUnitAssessments
+		createId
 	} from '$lib/defaults';
 	import type { LevelPlan, LevelPlanUnit } from '$lib/types';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
 	import CapabilityUnitMatrix from '$lib/components/CapabilityUnitMatrix.svelte';
 	import { syncCapabilityRowColumns, unitPlanForLevelIndex } from '$lib/general-capabilities';
-	import { syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
+	import { seedUnitPlanFromLevelPlan, syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
@@ -279,17 +278,12 @@
 		saving = false;
 	}
 
-	async function createUnitPlan(unit: LevelPlanUnit, index: number) {
+	async function createUnitPlan(_unit: LevelPlanUnit, index: number) {
 		await refreshUnitPlans();
 		if (unitPlanForIndex(index)) {
 			alert('A unit plan already exists for this unit. Delete it first or refresh the page.');
 			return;
 		}
-
-		const assessments = mapLevelPlanAssessmentsToUnitAssessments(
-			unit.assessments,
-			unit.yearLevel.value
-		);
 
 		const res = await fetch(`/api/unit-plan/${plan.id}`, {
 			method: 'POST',
@@ -307,12 +301,7 @@
 		}
 
 		const created = await res.json();
-		created.unitTitle.value = unit.unitTitle.value;
-		created.yearLevel.value = unit.yearLevel.value;
-		created.unitDescription.value = unit.description.value;
-		created.duration = { value: String(unit.duration.value || ''), aiNotes: '' };
-		created.subject.value = plan.bandSubjectTitle.value;
-		created.assessments = assessments;
+		seedUnitPlanFromLevelPlan(plan, created, index);
 
 		const putRes = await fetch(`/api/unit-plan/${plan.id}`, {
 			method: 'PUT',
@@ -407,7 +396,8 @@
 			</div>
 			<div class="toolbar">
 				{#if !unitPlanForIndex(ui)}
-					<button class="btn btn-sm btn-primary" onclick={() => createUnitPlan(unit, ui)}>Create unit plan</button>
+					<a class="btn btn-sm btn-primary" href="/unit-wizard?levelPlanId={plan.id}&unitIndex={ui}">Plan with AI</a>
+					<button class="btn btn-sm" onclick={() => createUnitPlan(unit, ui)}>Create unit plan</button>
 				{:else}
 					<a class="btn btn-sm" href="/level-plan/{plan.id}/unit/{unitPlanForIndex(ui)?.id}">Open unit plan</a>
 				{/if}
@@ -455,8 +445,7 @@
 	<div class="card">
 		<p class="meta" style="margin:0">
 			For units with an attached unit plan, each checkbox shows whether any assessment in that
-			unit includes the descriptor. Edit descriptors per assessment in
-			<a href="/quick-level-plan">Quick plan</a>.
+			unit includes the descriptor. Edit descriptors per assessment on the unit plan.
 		</p>
 	</div>
 	<div class="card checkbox-matrix content-descriptions-matrix">

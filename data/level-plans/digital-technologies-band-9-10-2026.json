@@ -40,7 +40,7 @@
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students will explore the foundational technologies behind the internet and how websites function. They will examine how digital systems use hardware and software to manage and secure access to data across networks. Through guided investigation and hands-on tasks, students will learn how websites are constructed by separating content, structure, and presentation using HTML and CSS. They will also be introduced to simple data compression techniques and understand their importance in efficient web communication.",
+        "value": "In this unit, students will explore the foundational technologies behind the internet and how websites function. They will examine how digital systems use hardware and software to manage and secure access to data across networks. Through guided investigation and hands-on tasks, students will learn how websites are constructed by separating content, structure, and presentation using HTML and CSS. They will also be introduced to simple data compression techniques and understand their importance in efficient web communication. This unit builds the knowledge and skills required for designing and analysing secure, well-structured, and efficient digital content online.",
         "aiNotes": ""
       },
       "assessments": [
@@ -63,7 +63,7 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Students will complete a written exam that assesses their understanding of how websites function and how data is managed in networked digital systems.",
+            "value": "Students will complete a written exam that assesses their understanding of how websites function and how data is managed in networked digital systems. The exam will include questions on the roles of hardware and software in securing and controlling access to data, the structure of web documents using HTML and CSS, and basic data compression techniques.",
             "aiNotes": ""
           },
           "technique": {
@@ -463,10 +463,10 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        true,
+        false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -491,7 +491,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -516,7 +516,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -541,7 +541,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -566,7 +566,7 @@
         false,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -591,7 +591,7 @@
         false,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -616,7 +616,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -641,7 +641,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -666,7 +666,7 @@
         false,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -691,7 +691,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -716,7 +716,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -741,7 +741,7 @@
         false,
         true,
         false,
-        true
+        false
       ]
     },
     {
@@ -803,7 +803,7 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        true,
+        false,
         false,
         false,
         true
@@ -904,7 +904,7 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        true,
+        false,
         false,
         false,
         true
@@ -1171,7 +1171,7 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        true,
+        false,
         true,
         false,
         true

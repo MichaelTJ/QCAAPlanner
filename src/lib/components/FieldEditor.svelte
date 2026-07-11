@@ -30,11 +30,19 @@
 	let generating = $state(false);
 	let error = $state('');
 	let lastUsage = $state<GenerationUsage | null>(null);
+	// Local notes avoid Svelte 5 nested $bindable writes being dropped before generate().
+	let aiNotes = $state(String(field.aiNotes ?? ''));
+
+	function commitField(next: AiField<unknown>) {
+		field = next;
+		onupdate?.(next);
+	}
 
 	async function generate() {
 		generating = true;
 		error = '';
 		lastUsage = null;
+		const notes = aiNotes;
 		try {
 			const res = await fetch('/api/generate', {
 				method: 'POST',
@@ -46,23 +54,23 @@
 					fieldPath,
 					fieldLabel: label,
 					currentValue: String(field.value ?? ''),
-					aiNotes: field.aiNotes
+					aiNotes: notes
 				})
 			});
 			const data = await res.json();
 			if (!res.ok) throw new Error(data.message || 'Generation failed');
-			field = {
+			commitField({
 				...field,
 				value: data.value,
+				aiNotes: notes,
 				lastGenerated: data.lastGenerated
-			};
+			});
 			lastUsage = {
 				model: data.model,
 				modelLabel: data.modelLabel,
 				attemptedModels: data.attemptedModels ?? [],
 				usedFallback: data.usedFallback ?? false
 			};
-			onupdate?.(field);
 		} catch (e) {
 			error = e instanceof Error ? e.message : 'Generation failed';
 		} finally {
@@ -85,7 +93,7 @@
 		<textarea
 			id="{fieldPath}-notes"
 			placeholder="Tell the AI what to write or how to improve..."
-			bind:value={field.aiNotes}
+			bind:value={aiNotes}
 		></textarea>
 		<div class="field-actions">
 			<button class="btn btn-primary btn-sm" onclick={generate} disabled={generating}>

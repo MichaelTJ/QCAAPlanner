@@ -34,7 +34,13 @@ function isRetryable(error: unknown): boolean {
 
 export type GenerateContentParams = {
 	contents: string;
-	config?: { systemInstruction?: string };
+	config?: {
+		systemInstruction?: string;
+		/** Cap for long JSON chunk responses; omit for short field generation. */
+		maxOutputTokens?: number;
+		/** Ask the API for JSON (useful for teaching-sequence chunks). */
+		responseMimeType?: 'application/json' | 'text/plain';
+	};
 };
 
 async function generateContentOnce(
@@ -50,6 +56,17 @@ async function generateContentOnce(
 		body.systemInstruction = { parts: [{ text: params.config.systemInstruction }] };
 	}
 
+	const generationConfig: Record<string, unknown> = {};
+	if (params.config?.maxOutputTokens != null) {
+		generationConfig.maxOutputTokens = params.config.maxOutputTokens;
+	}
+	if (params.config?.responseMimeType) {
+		generationConfig.responseMimeType = params.config.responseMimeType;
+	}
+	if (Object.keys(generationConfig).length > 0) {
+		body.generationConfig = generationConfig;
+	}
+
 	const response = await fetch(
 		`${GEMINI_API_BASE}/models/${model}:generateContent?key=${apiKey}`,
 		{
@@ -61,7 +78,10 @@ async function generateContentOnce(
 	);
 
 	const payload = (await response.json()) as {
-		candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+		candidates?: Array<{
+			content?: { parts?: Array<{ text?: string }> };
+			finishReason?: string;
+		}>;
 		error?: { message?: string; code?: number; status?: string };
 	};
 
@@ -72,7 +92,15 @@ async function generateContentOnce(
 		throw error;
 	}
 
-	const text = payload.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+	const candidate = payload.candidates?.[0];
+	const finishReason = candidate?.finishReason;
+	if (finishReason === 'MAX_TOKENS') {
+		throw new Error(
+			'Model response was truncated (hit max output tokens). Try a smaller week range or fewer weeks per pass.'
+		);
+	}
+
+	const text = candidate?.content?.parts?.[0]?.text?.trim();
 	if (!text) {
 		throw new Error('Gemini returned empty content');
 	}

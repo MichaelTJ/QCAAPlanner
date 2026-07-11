@@ -362,53 +362,9 @@ export interface FacultyOverviewEntry extends FacultyRow {
 	units: OverviewUnitEntry[];
 }
 
-export type QuickPlanType =
-	| '7-8-digital-technologies'
-	| '9-10-design'
-	| '9-10-digital-technologies'
-	| '10-engineering';
-
-export interface QuickPlanAssessment {
-	id: string;
-	title: string;
-	description: string;
-}
-
-export interface QuickPlanUnit {
-	id: string;
-	title: string;
-	description: string;
-	duration: string;
-	assessments: QuickPlanAssessment[];
-}
-
-export interface QuickPlanContentInclusion {
-	contentDescriptorId: string;
-	assessmentInclusions: boolean[];
-}
-
-export interface QuickLevelPlan {
-	id: string;
-	planType: QuickPlanType;
-	title: string;
-	createdAt: string;
-	modifiedAt: string;
-	sourceLevelPlanId?: string;
-	units: QuickPlanUnit[];
-	contentInclusions: QuickPlanContentInclusion[];
-}
-
-export interface QuickLevelPlanSummary {
-	id: string;
-	planType: QuickPlanType;
-	title: string;
-	modifiedAt: string;
-	sourceLevelPlanId?: string;
-}
-
-export interface QuickPlanRefineRequest {
+export interface DescriptionRefineRequest {
 	target: 'unit' | 'assessment';
-	planType: QuickPlanType;
+	planType: string;
 	levelDescription: string;
 	unitTitle: string;
 	assessmentTitle?: string;

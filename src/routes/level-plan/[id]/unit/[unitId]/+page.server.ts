@@ -6,8 +6,9 @@ import {
 	listAssessmentItems,
 	listUnitPlans
 } from '$lib/server/data';
+import { resolveContentDescriptorsForUnit } from '$lib/content-descriptions';
 import { unitPlanForLevelIndex } from '$lib/plan-sync';
-import { aiField } from '$lib/types';
+import { aiField, type ContentDescriptionRow } from '$lib/types';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
@@ -18,8 +19,13 @@ export const load: PageServerLoad = async ({ params }) => {
 		plan.duration = aiField('');
 	}
 
+	let levelDescription = '';
+	let levelPlanContentDescriptions: ContentDescriptionRow[] | undefined;
+
 	const levelPlan = await getLevelPlan(params.id);
 	if (levelPlan) {
+		levelDescription = String(levelPlan.levelDescription?.value ?? '');
+		levelPlanContentDescriptions = levelPlan.contentDescriptions;
 		const unitPlans = await listUnitPlans(params.id);
 		for (const [index, levelUnit] of levelPlan.units.entries()) {
 			const matched = unitPlanForLevelIndex(levelUnit, index, unitPlans);
@@ -31,6 +37,12 @@ export const load: PageServerLoad = async ({ params }) => {
 		}
 	}
 
+	const contentDescriptors = resolveContentDescriptorsForUnit({
+		subject: String(plan.subject.value),
+		yearLevel: plan.yearLevel.value,
+		levelPlanContentDescriptions
+	});
+
 	const [assessmentItems, allAssessmentItems] = await Promise.all([
 		listAssessmentItems(undefined, plan.id),
 		listAllAssessmentItems()
@@ -39,6 +51,8 @@ export const load: PageServerLoad = async ({ params }) => {
 	return {
 		plan,
 		assessmentItems,
-		standaloneAssessments: allAssessmentItems.filter((item) => item.isStandalone)
+		standaloneAssessments: allAssessmentItems.filter((item) => item.isStandalone),
+		contentDescriptors,
+		levelDescription
 	};
 };

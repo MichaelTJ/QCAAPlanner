@@ -180,24 +180,41 @@ export function applyUnitContentDescriptionsToLevelPlanColumn(
 	unitPlan: UnitPlan,
 	unitIndex: number
 ) {
+	const unitCount = levelPlan.units.length;
+
 	for (const row of levelPlan.contentDescriptions) {
 		if (row.unitInclusions[unitIndex] !== undefined) {
 			row.unitInclusions[unitIndex] = false;
 		}
 	}
 
-	const codes = new Set<string>();
+	const byCode = new Map<string, (typeof levelPlan.contentDescriptions)[number]>();
+	for (const row of levelPlan.contentDescriptions) {
+		const code = String(row.code.value).trim();
+		if (code) byCode.set(code, row);
+	}
+
 	for (const assessment of unitPlan.assessments) {
 		for (const cd of assessment.contentDescriptions) {
 			const code = String(cd.code.value).trim();
-			if (code) codes.add(code);
-		}
-	}
-	if (codes.size === 0) return;
+			if (!code) continue;
 
-	for (const row of levelPlan.contentDescriptions) {
-		const code = String(row.code.value).trim();
-		if (code && codes.has(code)) {
+			let row = byCode.get(code);
+			if (!row) {
+				row = {
+					id: createId('cd'),
+					strand: cloneAiField(cd.strand),
+					subStrand: cloneAiField(cd.subStrand),
+					text: cloneAiField(cd.text),
+					code: cloneAiField(cd.code),
+					unitInclusions: Array.from({ length: unitCount }, () => false)
+				};
+				levelPlan.contentDescriptions.push(row);
+				byCode.set(code, row);
+			}
+			if (row.unitInclusions.length < unitCount) {
+				while (row.unitInclusions.length < unitCount) row.unitInclusions.push(false);
+			}
 			row.unitInclusions[unitIndex] = true;
 		}
 	}
@@ -253,6 +270,41 @@ export function applyLevelPlanUnitToUnitPlan(
 	applyLevelPlanUnitFieldsToUnitPlan(levelUnit, unitPlan, levelPlan, unitIndex);
 }
 
+/** Copy level-plan content descriptions ticked for a unit onto empty assessment CD lists. */
+export function applyLevelPlanContentDescriptionsToUnitAssessments(
+	levelPlan: LevelPlan,
+	unitPlan: UnitPlan,
+	unitIndex: number
+) {
+	const selected = levelPlan.contentDescriptions.filter((row) =>
+		Boolean(row.unitInclusions[unitIndex])
+	);
+	if (!selected.length || !unitPlan.assessments.length) return;
+
+	for (const assessment of unitPlan.assessments) {
+		if (assessment.contentDescriptions.length > 0) continue;
+		assessment.contentDescriptions = selected.map((row) => ({
+			id: createId('ucd'),
+			strand: cloneAiField(row.strand),
+			subStrand: cloneAiField(row.subStrand),
+			text: cloneAiField(row.text),
+			code: cloneAiField(row.code)
+		}));
+	}
+}
+
+/** Seed a newly created unit plan from its level-plan slot (fields, assessments, CDs, capabilities). */
+export function seedUnitPlanFromLevelPlan(
+	levelPlan: LevelPlan,
+	unitPlan: UnitPlan,
+	unitIndex: number
+) {
+	if (unitIndex < 0 || unitIndex >= levelPlan.units.length) return;
+	applyLevelPlanUnitToUnitPlan(levelPlan, levelPlan.units[unitIndex], unitPlan, unitIndex);
+	applyLevelPlanCapabilitiesToUnitPlan(levelPlan, unitPlan, unitIndex);
+	applyLevelPlanContentDescriptionsToUnitAssessments(levelPlan, unitPlan, unitIndex);
+}
+
 /** Overlay unit plan content onto the level plan for display and export. */
 export function syncUnitPlansIntoLevelPlan(levelPlan: LevelPlan, unitPlans: UnitPlan[]) {
 	for (let unitIndex = 0; unitIndex < levelPlan.units.length; unitIndex++) {
@@ -279,6 +331,11 @@ export function applyLevelPlanCapabilitiesToUnitPlan(
 	unitPlan: UnitPlan,
 	unitIndex: number
 ) {
+	const unitCount = levelPlan.units.length;
+	for (const row of levelPlan.generalCapabilities) {
+		syncCapabilityRowColumns(row, unitCount);
+	}
+
 	for (const unitCap of unitPlan.generalCapabilities) {
 		const levelRow = levelPlan.generalCapabilities.find(
 			(row) => row.name.value === unitCap.name.value

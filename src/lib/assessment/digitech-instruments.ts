@@ -1,4 +1,4 @@
-import { getCurriculumForPlanType, type CurriculumContentDescriptor } from '$lib/curriculum/quick-plan-data';
+import { getCurriculumForPlanType, type CurriculumContentDescriptor } from '$lib/curriculum/curriculum-catalogue';
 import {
 	createDefaultAuthenticationStrategies,
 	createDefaultCheckpoints,
@@ -107,10 +107,21 @@ const RUBRIC_7_8: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
 		'directed design and/or tracing of algorithms'
 	),
 	row(
+		'dt78-generating-ux',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDI8P07'],
+		'considered design of the user experience of a digital system',
+		'effective design of the user experience of a digital system',
+		'design of the user experience of a digital system',
+		'partial design of the user experience of a digital system',
+		'directed design of the user experience of a digital system'
+	),
+	row(
 		'dt78-generating-design',
 		'Processes and production skills',
 		'Generating and designing',
-		['AC9TDI8P07', 'AC9TDI8P08'],
+		['AC9TDI8P08'],
 		'considered development and modification of creative digital solutions',
 		'effective development and modification of creative digital solutions',
 		'development and modification of creative digital solutions',
@@ -191,11 +202,11 @@ const RUBRIC_9_10: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
 		'Knowledge and understanding',
 		'Data representation',
 		['AC9TDI10K02', 'AC9TDI10K03'],
-		'reasoned representation of documents as content, structure and presentation',
-		'effective representation of documents as content, structure and presentation',
-		'representation of documents as content, structure and presentation',
-		'partial representation of documents as content, structure and/or presentation',
-		'directed representation of documents as content, structure and/or presentation'
+		'reasoned representation of documents as content, structure and presentation; discerning investigation of simple data compression techniques',
+		'effective representation of documents as content, structure and presentation; informed investigation of simple data compression techniques',
+		'representation of documents as content, structure and presentation; investigation of simple data compression techniques',
+		'partial representation of documents as content, structure and/or presentation; partial investigation of simple data compression techniques',
+		'directed representation of documents as content, structure and/or presentation; statement/s about simple data compression techniques'
 	),
 	row(
 		'dt910-acquiring',
@@ -231,10 +242,21 @@ const RUBRIC_9_10: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
 		'directed design and/or validation of algorithms'
 	),
 	row(
+		'dt910-generating-ux',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDI10P07'],
+		'considered design and prototyping of the user experience of a digital system',
+		'effective design and prototyping of the user experience of a digital system',
+		'design and prototyping of the user experience of a digital system',
+		'partial design and/or prototyping of the user experience of a digital system',
+		'directed design and/or prototyping of the user experience of a digital system'
+	),
+	row(
 		'dt910-generating-design',
 		'Processes and production skills',
 		'Generating and designing',
-		['AC9TDI10P07', 'AC9TDI10P08'],
+		['AC9TDI10P08'],
 		'considered development and modification of innovative digital solutions',
 		'effective development and modification of innovative digital solutions',
 		'development and modification of innovative digital solutions',
@@ -360,6 +382,22 @@ export function toggleContentDescription(item: AssessmentItem, code: string, sel
 	return applyContentDescriptionSelection(item, [...codes]);
 }
 
+/** Enable/disable a criteria row and keep matching content-description selections in sync. */
+export function toggleCriteriaRow(
+	item: AssessmentItem,
+	rowId: string,
+	enabled: boolean
+): AssessmentItem {
+	const row = item.criteriaRows.find((r) => r.id === rowId);
+	if (!row) return item;
+	const codes = new Set(selectedContentDescriptionCodes(item));
+	for (const code of row.contentDescriptionCodes) {
+		if (enabled) codes.add(code);
+		else codes.delete(code);
+	}
+	return applyContentDescriptionSelection(item, [...codes]);
+}
+
 function buildContentDescriptions(
 	catalogue: DigiTechInstrumentCatalogue,
 	selectedCodes: Set<string>
@@ -454,17 +492,65 @@ export function seedInstrumentFromUnitAssessment(
 }
 
 export function ensureInstrumentCatalogue(item: AssessmentItem): AssessmentItem {
-	if (item.contentDescriptions.length && item.criteriaRows.length) return item;
 	const band = resolveDigiTechBand(item.yearLevel.value, String(item.subject.value));
 	if (!band) return item;
 	const catalogue = getDigiTechCatalogue(band);
 	const selected = new Set(selectedContentDescriptionCodes(item));
+
 	if (!item.contentDescriptions.length) {
 		item.contentDescriptions = buildContentDescriptions(catalogue, selected);
+	} else {
+		// Keep any teacher selections, but ensure every catalogue CD is present (e.g. K02).
+		const byCode = new Map(
+			item.contentDescriptions.map((cd) => [String(cd.code.value), cd] as const)
+		);
+		item.contentDescriptions = catalogue.contentDescriptors.map((cd) => {
+			const existing = byCode.get(cd.code);
+			if (existing) {
+				return {
+					...existing,
+					strand: existing.strand?.value ? existing.strand : aiField(cd.strand),
+					subStrand: existing.subStrand ?? aiField(cd.subStrand),
+					text: existing.text?.value ? existing.text : aiField(cd.text),
+					code: aiField(cd.code),
+					selected: selected.has(cd.code) || Boolean(existing.selected)
+				};
+			}
+			return {
+				id: createId('acd'),
+				strand: aiField(cd.strand),
+				subStrand: aiField(cd.subStrand),
+				text: aiField(cd.text),
+				code: aiField(cd.code),
+				selected: selected.has(cd.code)
+			};
+		});
 	}
+
 	if (!item.criteriaRows.length) {
 		item.criteriaRows = buildCriteriaRows(catalogue, selected);
+	} else {
+		// Refresh codes/labels from catalogue so CD↔criteria links stay accurate.
+		const byId = new Map(item.criteriaRows.map((row) => [row.id, row] as const));
+		item.criteriaRows = catalogue.criteriaRows.map((catalogueRow) => {
+			const existing = byId.get(catalogueRow.id);
+			if (!existing) {
+				return {
+					...catalogueRow,
+					enabled: catalogueRow.contentDescriptionCodes.some((code) => selected.has(code)),
+					descriptors: { ...catalogueRow.descriptors }
+				};
+			}
+			return {
+				...existing,
+				category: catalogueRow.category,
+				strand: catalogueRow.strand,
+				contentDescriptionCodes: [...catalogueRow.contentDescriptionCodes],
+				descriptors: existing.descriptors ?? { ...catalogueRow.descriptors }
+			};
+		});
 	}
+
 	return applyContentDescriptionSelection(item, selectedContentDescriptionCodes(item));
 }
 

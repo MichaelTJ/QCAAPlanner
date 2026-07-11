@@ -1,4 +1,4 @@
-export type QuickPlanType =
+export type CurriculumPlanTypeId =
 	| '7-8-digital-technologies'
 	| '9-10-design'
 	| '9-10-digital-technologies'
@@ -14,7 +14,7 @@ export interface CurriculumContentDescriptor {
 }
 
 export interface CurriculumPlanType {
-	id: QuickPlanType;
+	id: CurriculumPlanTypeId;
 	label: string;
 	levelDescription: string;
 	contentDescriptors: CurriculumContentDescriptor[];
@@ -461,7 +461,7 @@ const CONTENT_DESCRIPTORS_10_ENGINEERING: CurriculumContentDescriptor[] = ENGINE
 	}
 );
 
-export const QUICK_PLAN_TYPES: Record<QuickPlanType, CurriculumPlanType> = {
+export const CURRICULUM_PLAN_TYPES: Record<CurriculumPlanTypeId, CurriculumPlanType> = {
 	'7-8-digital-technologies': {
 		id: '7-8-digital-technologies',
 		label: '7-8 Digital Technologies',
@@ -488,8 +488,43 @@ export const QUICK_PLAN_TYPES: Record<QuickPlanType, CurriculumPlanType> = {
 	}
 };
 
-export const QUICK_PLAN_TYPE_LIST = Object.values(QUICK_PLAN_TYPES);
+export const CURRICULUM_PLAN_TYPE_LIST = Object.values(CURRICULUM_PLAN_TYPES);
 
-export function getCurriculumForPlanType(planType: QuickPlanType): CurriculumPlanType {
-	return QUICK_PLAN_TYPES[planType];
+export function getCurriculumForPlanType(planType: CurriculumPlanTypeId): CurriculumPlanType {
+	return CURRICULUM_PLAN_TYPES[planType];
+}
+
+export function inferCurriculumPlanType(
+	learningAreaSubject: string,
+	yearLevelBand: string
+): CurriculumPlanTypeId | null {
+	const subject = learningAreaSubject.toLowerCase();
+	const band = yearLevelBand.toLowerCase().replace(/–/g, '-');
+
+	if (subject.includes('engineering') && band.includes('10')) return '10-engineering';
+	if (subject.includes('digital') && (band.includes('7') || band.includes('8'))) {
+		return '7-8-digital-technologies';
+	}
+	if (subject.includes('design') && (band.includes('9') || band.includes('10'))) {
+		return '9-10-design';
+	}
+	if (subject.includes('digital') && (band.includes('9') || band.includes('10'))) {
+		return '9-10-digital-technologies';
+	}
+	return null;
+}
+
+export function inferCurriculumPlanTypeFromTitle(bandSubjectTitle: string): CurriculumPlanTypeId | null {
+	const title = bandSubjectTitle.toLowerCase().replace(/–/g, '-');
+	if (title.includes('engineering') && title.includes('10')) return '10-engineering';
+	if (title.includes('digital') && (title.includes('7-8') || title.includes('7') || title.includes('8'))) {
+		return '7-8-digital-technologies';
+	}
+	if (title.includes('design') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
+		return '9-10-design';
+	}
+	if (title.includes('digital') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
+		return '9-10-digital-technologies';
+	}
+	return null;
 }

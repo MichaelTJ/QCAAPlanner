@@ -12,6 +12,11 @@ export const LEARNING_GUIDE_TEMPLATE_PATH = path.join(
 	'FacultyDocs/Templates/LG - Digital Technologies - Term 1 2026.docx'
 );
 
+export const UNIT_PLAN_TEMPLATE_PATH = path.join(
+	process.cwd(),
+	'FacultyDocs/Templates/Example_unit_plan_Digital_Technologies_Year_7_Unit_1_2026.docx'
+);
+
 export const ASSESSMENT_TEMPLATE_PATHS = {
 	'7-8': {
 		assignment: path.join(

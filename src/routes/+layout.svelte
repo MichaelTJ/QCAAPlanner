@@ -15,7 +15,8 @@
 		<a href="/">Faculty Planning</a>
 		<nav>
 			<a href="/" class:active={$page.url.pathname === '/'}>Overview</a>
-			<a href="/quick-level-plan" class:active={$page.url.pathname.startsWith('/quick-level-plan')}>Quick plan</a>
+			<a href="/export" class:active={$page.url.pathname.startsWith('/export')}>Export</a>
+			<a href="/unit-wizard" class:active={$page.url.pathname.startsWith('/unit-wizard')}>Unit wizard</a>
 			<a href="/settings" class:active={$page.url.pathname === '/settings'}>Settings</a>
 		</nav>
 	</header>

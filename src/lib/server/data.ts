@@ -3,6 +3,7 @@ import path from 'node:path';
 import {
 	applyAssessmentItemToUnitAssessment,
 	assessmentItemForUnitIndex,
+	ensureInstrumentCatalogue,
 	seedInstrumentFromUnitAssessment
 } from '$lib/assessment/digitech-instruments';
 import {
@@ -16,18 +17,6 @@ import {
 	STANDALONE_LEVEL_PLAN_ID,
 	STANDALONE_UNIT_PLAN_ID
 } from '$lib/defaults';
-import {
-	createEmptyQuickLevelPlan,
-	contentDescriptorsFromLevelPlan,
-	exportQuickPlanToLevelPlan,
-	applyQuickPlanContentInclusionsToUnitPlans,
-	importLevelPlanToQuickPlan,
-	inferQuickPlanType,
-	inferQuickPlanTypeFromTitle,
-	refreshQuickPlanContentInclusionsFromUnitPlans,
-	syncQuickPlanColumns
-} from '$lib/quick-plan';
-import { getCurriculumForPlanType } from '$lib/curriculum/quick-plan-data';
 import {
 	applyUnitPlanToLevelPlan,
 	insertLevelPlanUnitColumnAfter,
@@ -53,9 +42,6 @@ import type {
 	FacultyIndex,
 	FacultyRow,
 	LevelPlan,
-	QuickLevelPlan,
-	QuickLevelPlanSummary,
-	QuickPlanType,
 	Settings,
 	UnitPlan,
 	UnitPlanSummary,
@@ -70,8 +56,7 @@ const PATHS = {
 	facultyIndex: path.join(DATA_DIR, 'faculty', 'index.json'),
 	levelPlans: path.join(DATA_DIR, 'level-plans'),
 	unitPlans: path.join(DATA_DIR, 'unit-plans'),
-	assessmentItems: path.join(DATA_DIR, 'assessment-items'),
-	quickLevelPlans: path.join(DATA_DIR, 'quick-level-plans')
+	assessmentItems: path.join(DATA_DIR, 'assessment-items')
 };
 
 async function ensureDataDirs() {
@@ -79,7 +64,6 @@ async function ensureDataDirs() {
 	await fs.mkdir(PATHS.levelPlans, { recursive: true });
 	await fs.mkdir(PATHS.unitPlans, { recursive: true });
 	await fs.mkdir(PATHS.assessmentItems, { recursive: true });
-	await fs.mkdir(PATHS.quickLevelPlans, { recursive: true });
 }
 
 async function readJson<T>(filePath: string, fallback: T): Promise<T> {
@@ -650,7 +634,7 @@ export async function listAllAssessmentItems(): Promise<AssessmentItemSummary[]>
 }
 
 export async function saveAssessmentItem(item: AssessmentItem, options?: { syncUnit?: boolean }) {
-	const normalized = normalizeAssessmentItem(item);
+	const normalized = ensureInstrumentCatalogue(normalizeAssessmentItem(item));
 	await writeJson(path.join(PATHS.assessmentItems, `${normalized.id}.json`), normalized);
 
 	if (options?.syncUnit !== false && normalized.unitPlanId !== STANDALONE_UNIT_PLAN_ID) {
@@ -853,213 +837,6 @@ export function slugId(text: string): string {
 		.replace(/[^a-z0-9]+/g, '-')
 		.replace(/^-|-$/g, '')
 		.slice(0, 40);
-}
-
-export async function listQuickLevelPlans(): Promise<QuickLevelPlanSummary[]> {
-	await ensureDataDirs();
-	try {
-		const files = await fs.readdir(PATHS.quickLevelPlans);
-		const plans: QuickLevelPlanSummary[] = [];
-		for (const file of files) {
-			if (!file.endsWith('.json')) continue;
-			const plan = await readJson<QuickLevelPlan | null>(
-				path.join(PATHS.quickLevelPlans, file),
-				null
-			);
-			if (!plan) continue;
-			plans.push({
-				id: plan.id,
-				planType: plan.planType,
-				title: plan.title,
-				modifiedAt: plan.modifiedAt,
-				sourceLevelPlanId: plan.sourceLevelPlanId
-			});
-		}
-		return plans.sort(
-			(a, b) => new Date(b.modifiedAt).getTime() - new Date(a.modifiedAt).getTime()
-		);
-	} catch {
-		return [];
-	}
-}
-
-export async function getQuickLevelPlan(id: string): Promise<QuickLevelPlan | null> {
-	await ensureDataDirs();
-	return readJson<QuickLevelPlan | null>(
-		path.join(PATHS.quickLevelPlans, `${id}.json`),
-		null
-	);
-}
-
-export async function saveQuickLevelPlan(plan: QuickLevelPlan) {
-	const updated = { ...plan, modifiedAt: new Date().toISOString() };
-	await writeJson(path.join(PATHS.quickLevelPlans, `${plan.id}.json`), updated);
-	return updated;
-}
-
-export async function syncQuickLevelPlanIntoLevelPlan(
-	quickPlan: QuickLevelPlan
-): Promise<LevelPlan | null> {
-	if (!quickPlan.sourceLevelPlanId) return null;
-
-	const levelPlan = await getLevelPlan(quickPlan.sourceLevelPlanId);
-	if (!levelPlan) return null;
-
-	const curriculum = getCurriculumForPlanType(quickPlan.planType);
-	const descriptors =
-		curriculum.contentDescriptors.length > 0
-			? curriculum.contentDescriptors
-			: contentDescriptorsFromLevelPlan(levelPlan);
-
-	exportQuickPlanToLevelPlan(quickPlan, levelPlan, descriptors);
-	await saveLevelPlan(levelPlan);
-
-	const unitPlans = await listUnitPlans(quickPlan.sourceLevelPlanId);
-	applyQuickPlanContentInclusionsToUnitPlans(quickPlan, levelPlan, unitPlans, descriptors);
-	for (const unitPlan of unitPlans) {
-		await saveUnitPlan(unitPlan);
-	}
-
-	return levelPlan;
-}
-
-export async function saveQuickLevelPlanWithSourceSync(
-	plan: QuickLevelPlan
-): Promise<QuickLevelPlan> {
-	const normalized = syncQuickPlanColumns(plan);
-
-	if (!normalized.sourceLevelPlanId) {
-		return saveQuickLevelPlan(normalized);
-	}
-
-	const synced = await syncQuickLevelPlanIntoLevelPlan(normalized);
-	if (!synced) {
-		return saveQuickLevelPlan(normalized);
-	}
-
-	const faculty = await getFacultyIndex();
-	const row = faculty.rows.find((r) => r.id === normalized.sourceLevelPlanId);
-	const modifiedAt = row?.dateLastModified ?? new Date().toISOString();
-	return saveQuickLevelPlan({ ...normalized, modifiedAt });
-}
-
-export async function createQuickLevelPlan(planType: QuickPlanType): Promise<QuickLevelPlan> {
-	const plan = createEmptyQuickLevelPlan(planType);
-	await saveQuickLevelPlan(plan);
-	return plan;
-}
-
-export async function deleteQuickLevelPlan(id: string) {
-	await ensureDataDirs();
-	try {
-		await fs.unlink(path.join(PATHS.quickLevelPlans, `${id}.json`));
-	} catch {
-		// ignore missing file
-	}
-}
-
-export async function findQuickLevelPlanBySource(
-	sourceLevelPlanId: string
-): Promise<QuickLevelPlan | null> {
-	await ensureDataDirs();
-	try {
-		const files = await fs.readdir(PATHS.quickLevelPlans);
-		for (const file of files) {
-			if (!file.endsWith('.json')) continue;
-			const plan = await readJson<QuickLevelPlan | null>(
-				path.join(PATHS.quickLevelPlans, file),
-				null
-			);
-			if (plan?.sourceLevelPlanId === sourceLevelPlanId) return plan;
-		}
-		return null;
-	} catch {
-		return null;
-	}
-}
-
-function levelPlanNewerThanQuickPlan(
-	levelPlanId: string,
-	quickPlanModifiedAt: string,
-	facultyRows: FacultyRow[]
-): boolean {
-	const row = facultyRows.find((r) => r.id === levelPlanId);
-	return Boolean(row && row.dateLastModified > quickPlanModifiedAt);
-}
-
-function quickPlanNewerThanLevelPlan(
-	levelPlanId: string,
-	quickPlanModifiedAt: string,
-	facultyRows: FacultyRow[]
-): boolean {
-	const row = facultyRows.find((r) => r.id === levelPlanId);
-	return Boolean(row && quickPlanModifiedAt > row.dateLastModified);
-}
-
-export async function syncQuickLevelPlanFromLevelPlan(
-	levelPlanId: string,
-	existing?: QuickLevelPlan
-): Promise<QuickLevelPlan> {
-	const levelPlan = await getLevelPlan(levelPlanId);
-	if (!levelPlan) throw new Error('Level plan not found');
-
-	const unitPlans = await listUnitPlans(levelPlanId);
-	syncUnitPlansIntoLevelPlan(levelPlan, unitPlans);
-
-	const faculty = await getFacultyIndex();
-	const facultyRow = faculty.rows.find((row) => row.id === levelPlanId);
-
-	const planType =
-		(facultyRow && inferQuickPlanType(facultyRow.learningAreaSubject, facultyRow.yearLevelBand)) ||
-		inferQuickPlanTypeFromTitle(levelPlan.bandSubjectTitle.value);
-
-	if (!planType) {
-		throw new Error('Could not determine plan type for this level plan');
-	}
-
-	return importLevelPlanToQuickPlan(levelPlan, planType, levelPlanId, existing, unitPlans);
-}
-
-export async function refreshQuickLevelPlanFromSource(
-	plan: QuickLevelPlan
-): Promise<QuickLevelPlan> {
-	const synced = syncQuickPlanColumns(plan);
-	if (!synced.sourceLevelPlanId) return synced;
-
-	const faculty = await getFacultyIndex();
-	const levelPlanId = synced.sourceLevelPlanId;
-
-	if (levelPlanNewerThanQuickPlan(levelPlanId, synced.modifiedAt, faculty.rows)) {
-		const refreshed = await syncQuickLevelPlanFromLevelPlan(levelPlanId, synced);
-		return saveQuickLevelPlan(refreshed);
-	}
-
-	if (quickPlanNewerThanLevelPlan(levelPlanId, synced.modifiedAt, faculty.rows)) {
-		return saveQuickLevelPlanWithSourceSync(synced);
-	}
-
-	const levelPlan = await getLevelPlan(levelPlanId);
-	if (!levelPlan) return synced;
-
-	const unitPlans = await listUnitPlans(levelPlanId);
-	const refreshed = refreshQuickPlanContentInclusionsFromUnitPlans(synced, levelPlan, unitPlans);
-	if (JSON.stringify(refreshed.contentInclusions) !== JSON.stringify(synced.contentInclusions)) {
-		return saveQuickLevelPlan(refreshed);
-	}
-
-	return synced;
-}
-
-export async function importQuickLevelPlanFromLevelPlan(
-	levelPlanId: string
-): Promise<QuickLevelPlan> {
-	const existing = await findQuickLevelPlanBySource(levelPlanId);
-	if (existing) {
-		return refreshQuickLevelPlanFromSource(existing);
-	}
-
-	const plan = await syncQuickLevelPlanFromLevelPlan(levelPlanId);
-	return saveQuickLevelPlan(plan);
 }
 
 function uniqueImportId(index: FacultyIndex, base: string): string {

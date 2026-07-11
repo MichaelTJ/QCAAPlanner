@@ -26,11 +26,13 @@
 	let generating = $state(false);
 	let error = $state('');
 	let lastUsage = $state<GenerationUsage | null>(null);
+	let aiNotes = $state(String(field.aiNotes ?? ''));
 
 	async function generate() {
 		generating = true;
 		error = '';
 		lastUsage = null;
+		const notes = aiNotes;
 		try {
 			const res = await fetch('/api/generate', {
 				method: 'POST',
@@ -42,7 +44,7 @@
 					fieldPath,
 					fieldLabel: label,
 					currentValue: field.value,
-					aiNotes: field.aiNotes
+					aiNotes: notes
 				})
 			});
 			const data = await res.json();
@@ -50,7 +52,12 @@
 			const match = options.find((o) =>
 				data.value.toLowerCase().includes(o.toLowerCase())
 			);
-			field = { ...field, value: match || data.value, lastGenerated: data.lastGenerated };
+			field = {
+				...field,
+				value: match || data.value,
+				aiNotes: notes,
+				lastGenerated: data.lastGenerated
+			};
 			lastUsage = {
 				model: data.model,
 				modelLabel: data.modelLabel,
@@ -77,7 +84,7 @@
 	</div>
 	<div class="ai-panel">
 		<label for="{fieldPath}-notes">AI notes</label>
-		<textarea id="{fieldPath}-notes" bind:value={field.aiNotes}></textarea>
+		<textarea id="{fieldPath}-notes" bind:value={aiNotes}></textarea>
 		<div class="field-actions">
 			<button class="btn btn-primary btn-sm" onclick={generate} disabled={generating}>
 				{generating ? 'Generating…' : 'Generate'}

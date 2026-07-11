@@ -2,7 +2,14 @@
 	import type { PageData } from './$types';
 	import { formatBandSubjectTitle } from '$lib/defaults';
 	import { unitCompatibleWithFaculty } from '$lib/curriculum-match';
-	import type { AssessmentItemSummary, FacultyOverviewEntry, UnitPlanSummary } from '$lib/types';
+	import { seedUnitPlanFromLevelPlan } from '$lib/plan-sync';
+	import type {
+		AssessmentItemSummary,
+		FacultyOverviewEntry,
+		LevelPlan,
+		OverviewUnitEntry,
+		UnitPlanSummary
+	} from '$lib/types';
 
 	let { data }: { data: PageData } = $props();
 
@@ -129,6 +136,53 @@
 			standaloneError = e instanceof Error ? e.message : 'Failed to create unit';
 		} finally {
 			creatingStandalone = false;
+		}
+	}
+
+	async function createUnitForSlot(entry: FacultyOverviewEntry, unit: OverviewUnitEntry) {
+		boardError = '';
+		boardBusy = `${entry.id}:${unit.slotIndex}`;
+		try {
+			const levelRes = await fetch(`/api/level-plan/${entry.id}`);
+			const levelPlan = (await levelRes.json()) as LevelPlan & { message?: string };
+			if (!levelRes.ok) throw new Error(levelPlan.message || 'Failed to load level plan');
+
+			const levelUnit = levelPlan.units[unit.slotIndex];
+			if (!levelUnit) throw new Error('Unit slot not found on level plan');
+
+			const res = await fetch(`/api/unit-plan/${entry.id}`, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ unitNumber: unit.slotIndex + 1 })
+			});
+			const created = await res.json();
+			if (!res.ok) {
+				throw new Error(
+					res.status === 409
+						? 'A unit plan already exists for this slot. Refresh the page.'
+						: created.message || 'Failed to create unit'
+				);
+			}
+
+			seedUnitPlanFromLevelPlan(levelPlan, created, unit.slotIndex);
+
+			const putRes = await fetch(`/api/unit-plan/${entry.id}`, {
+				method: 'PUT',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(created)
+			});
+			if (!putRes.ok) {
+				await fetch(`/api/unit-plan/${entry.id}?unitId=${created.id}&internal=1`, {
+					method: 'DELETE'
+				});
+				throw new Error('Failed to save unit plan details.');
+			}
+
+			const saved = await putRes.json();
+			window.location.href = `/level-plan/${entry.id}/unit/${saved.id}`;
+		} catch (e) {
+			boardError = e instanceof Error ? e.message : 'Failed to create unit';
+			boardBusy = '';
 		}
 	}
 
@@ -413,7 +467,17 @@
 										{slotBusy ? '…' : 'Detach'}
 									</button>
 								{:else}
-									<a class="btn btn-sm" href="/level-plan/{entry.id}">Create in level plan</a>
+									<a
+										class="btn btn-sm btn-primary"
+										href="/unit-wizard?levelPlanId={entry.id}&unitIndex={unit.slotIndex}"
+									>Plan with AI</a>
+									<button
+										class="btn btn-sm"
+										disabled={slotBusy}
+										onclick={() => createUnitForSlot(entry, unit)}
+									>
+										{slotBusy ? '…' : 'Create new unit'}
+									</button>
 									{#if entry.units.length > 1}
 										<button
 											class="btn btn-sm"
@@ -480,8 +544,9 @@
 				Title (optional)
 				<input bind:value={standaloneTitle} placeholder="Untitled unit" />
 			</label>
+			<a class="btn btn-primary" href="/unit-wizard">Plan with AI</a>
 			<button
-				class="btn btn-primary"
+				class="btn"
 				onclick={createStandaloneUnit}
 				disabled={creatingStandalone}
 			>

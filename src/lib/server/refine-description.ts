@@ -4,7 +4,7 @@ import {
 	formatGenerationExamples,
 	loadGenerationExamples
 } from '$lib/server/generation-examples';
-import type { QuickPlanRefineRequest } from '$lib/types';
+import type { DescriptionRefineRequest } from '$lib/types';
 import type { GenerationUsage } from '$lib/gemini-models';
 
 function usageFromResult(result: Awaited<ReturnType<typeof generateContentWithCascade>>): GenerationUsage {
@@ -16,19 +16,20 @@ function usageFromResult(result: Awaited<ReturnType<typeof generateContentWithCa
 	};
 }
 
-export async function refineQuickPlanDescription(request: QuickPlanRefineRequest) {
+export async function refineDescription(request: DescriptionRefineRequest) {
 	const [settings, examples] = await Promise.all([
 		getSettings(),
 		loadGenerationExamples('descriptions')
 	]);
 	const examplesText = formatGenerationExamples(examples);
 	const targetLabel = request.target === 'unit' ? 'unit description' : 'assessment description';
+	const planLabel = request.planType.replace(/-/g, ' ');
 
 	const descriptorList = request.selectedContentDescriptors
 		.map((d) => `- ${d.code} (${d.strand}): ${d.text}`)
 		.join('\n');
 
-	const userPrompt = `Refine this ${targetLabel} for a QCAA-aligned ${request.planType.replace(/-/g, ' ')} level plan.
+	const userPrompt = `Refine this ${targetLabel} for a QCAA-aligned ${planLabel} level plan.
 
 Unit title: ${request.unitTitle}
 ${request.assessmentTitle ? `Assessment title: ${request.assessmentTitle}\n` : ''}
