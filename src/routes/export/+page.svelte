@@ -53,8 +53,11 @@
 		}
 		const blob = await res.blob();
 		const disposition = res.headers.get('Content-Disposition') || '';
-		const match = disposition.match(/filename="([^"]+)"/);
-		const filename = match?.[1] || fallbackName;
+		const utfMatch = disposition.match(/filename\*=UTF-8''([^;]+)/i);
+		const plainMatch = disposition.match(/filename="([^"]+)"/);
+		const filename = utfMatch?.[1]
+			? decodeURIComponent(utfMatch[1])
+			: plainMatch?.[1] || fallbackName;
 		const objectUrl = URL.createObjectURL(blob);
 		const a = document.createElement('a');
 		a.href = objectUrl;

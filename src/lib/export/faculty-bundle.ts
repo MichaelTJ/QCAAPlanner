@@ -11,6 +11,7 @@ import {
 import { buildLearningGuideDocxForUnit } from '$lib/server/learning-guide-export';
 import type { AssessmentItem, LevelPlan, UnitPlan } from '$lib/types';
 import { buildAssessmentItemDocx } from './assessment-item-docx';
+import { levelPlanExportFilename, unitPlanExportFilename } from './export-filenames';
 import { buildLevelPlanDocx } from './level-plan-docx';
 import { buildUnitPlanDocx } from './unit-plan-docx';
 
@@ -21,8 +22,8 @@ export type LevelPlanBundleOptions = {
 
 /**
  * Zip layout (folder root = level plan id):
- *   {levelPlanId}.docx
- *   units/{unitId}/{unitId}.docx
+ *   {level_plan_…}.docx
+ *   units/{unitId}/{unit_plan_…}.docx
  *   units/{unitId}/assessment_items/{assessmentId}.docx
  *   units/{unitId}/learning_guides/{unitId}-learning-guide.docx
  *   units/{unitId}/learning_guides/{unitId}-learning-guide-detailed.docx
@@ -62,7 +63,7 @@ async function addUnitFolder(
 	unit: UnitPlan,
 	assessments: AssessmentItem[]
 ) {
-	zip.addFile(`${unitFolder}/${unit.id}.docx`, await buildUnitPlanDocx(unit));
+	zip.addFile(`${unitFolder}/${unitPlanExportFilename(unit)}`, await buildUnitPlanDocx(unit));
 
 	for (const item of assessments) {
 		zip.addFile(
@@ -81,7 +82,7 @@ async function addLevelPlanFolder(
 	const unitPlans = await listUnitPlans(plan.id);
 	syncUnitPlansIntoLevelPlan(plan, unitPlans);
 
-	zip.addFile(`${folder}/${plan.id}.docx`, await buildLevelPlanDocx(plan));
+	zip.addFile(`${folder}/${levelPlanExportFilename(plan)}`, await buildLevelPlanDocx(plan));
 
 	const includedAssessmentIds = new Set<string>();
 
