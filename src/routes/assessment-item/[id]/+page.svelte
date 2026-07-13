@@ -76,11 +76,12 @@
 	}
 
 	function onCdToggle(code: string, selected: boolean) {
-		item = toggleContentDescription(structuredClone(item), code, selected);
+		// $state proxies are not structuredClone-able — snapshot first
+		item = toggleContentDescription($state.snapshot(item), code, selected);
 	}
 
 	function onCriteriaToggle(rowId: string, enabled: boolean) {
-		item = toggleCriteriaRow(structuredClone(item), rowId, enabled);
+		item = toggleCriteriaRow($state.snapshot(item), rowId, enabled);
 	}
 
 	function linkedContentDescriptions(row: AssessmentItem['criteriaRows'][number]) {
@@ -268,8 +269,8 @@
 		{:else}
 			<div class="card">
 				<p class="meta">
-					No DigiTech catalogue for this subject/year. Set year level and subject to Digital
-					Technologies 7–8 or 9–10, then reload.
+					No curriculum catalogue for this subject/year. Set year level and subject to Digital
+					Technologies 7–8 / 9–10 or Design and Technologies 9–10, then reload.
 				</p>
 			</div>
 		{/if}
@@ -383,7 +384,7 @@
 				{/if}
 			{/each}
 			{#if item.criteriaRows.length === 0}
-				<p class="meta">No rubric rows yet. Select DigiTech content descriptions first.</p>
+				<p class="meta">No rubric rows yet. Select content descriptions first.</p>
 			{/if}
 		</div>
 	{/if}

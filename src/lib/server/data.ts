@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {
 	applyAssessmentItemToUnitAssessment,
+	applyUnitAssessmentContentDescriptionsToItem,
 	assessmentItemForUnitIndex,
 	ensureInstrumentCatalogue,
 	seedInstrumentFromUnitAssessment
@@ -544,6 +545,18 @@ export async function saveUnitPlan(plan: UnitPlan) {
 	}
 
 	await writeJson(unitPlanPath(plan.levelPlanId, plan.id), plan);
+
+	// Keep linked assessment-item CD selections in sync with the unit assessment slots.
+	const linkedItems = await listAssessmentItems(plan.levelPlanId, plan.id);
+	if (linkedItems.length) {
+		for (let index = 0; index < plan.assessments.length; index++) {
+			const slot = plan.assessments[index];
+			const linked = assessmentItemForUnitIndex(slot, index, linkedItems);
+			if (!linked) continue;
+			const updated = applyUnitAssessmentContentDescriptionsToItem(linked, slot);
+			await saveAssessmentItem(updated, { syncUnit: false });
+		}
+	}
 
 	await touchFacultyRow(plan.levelPlanId);
 }

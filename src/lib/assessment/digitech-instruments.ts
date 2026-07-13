@@ -11,13 +11,19 @@ import { aiField, cloneAiField, type AssessmentCriteriaRow, type AssessmentItem,
 
 export type DigiTechBand = '7-8' | '9-10';
 
+/** Digital and Design instrument catalogues used for CD pickers + A–E rubrics. */
+export type InstrumentCatalogueKey = 'digital-7-8' | 'digital-9-10' | 'design-9-10';
+
 export type AssessmentTemplateKind = 'assignment' | 'exam';
 
-export interface DigiTechInstrumentCatalogue {
-	band: DigiTechBand;
+export interface InstrumentCatalogue {
+	key: InstrumentCatalogueKey;
 	contentDescriptors: CurriculumContentDescriptor[];
 	criteriaRows: Omit<AssessmentCriteriaRow, 'enabled'>[];
 }
+
+/** @deprecated Prefer InstrumentCatalogue — kept for DigiTech template export helpers. */
+export type DigiTechInstrumentCatalogue = InstrumentCatalogue & { band: DigiTechBand };
 
 function row(
 	id: string,
@@ -320,13 +326,114 @@ const RUBRIC_9_10: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
 	)
 ];
 
-export function resolveDigiTechBand(
-	yearLevel: number | '' | string,
-	subject = ''
-): DigiTechBand | null {
-	const subjectLower = subject.toLowerCase();
-	if (subjectLower && !subjectLower.includes('digital')) return null;
+/**
+ * Design and Technologies Years 9–10 A–E rows from QCAA standards elaborations
+ * (ac9_tech_design_se_yr9-10.docx). Mapped to AC v9.0 content description codes
+ * so selecting a CD enables the matching SE criterion.
+ */
+const RUBRIC_DESIGN_9_10: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
+	row(
+		'de910-se-society-factors',
+		'Knowledge and understanding',
+		'Technologies and society',
+		['AC9TDE10K01'],
+		'discerning explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living',
+		'detailed explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living',
+		'explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living',
+		'description of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living',
+		'statement/s about factors that impact on design decisions and/or the technologies used to design and produce designed solutions'
+	),
+	row(
+		'de910-se-society-innovation',
+		'Knowledge and understanding',
+		'Technologies and society',
+		['AC9TDE10K02'],
+		'discerning explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures',
+		'detailed explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures',
+		'explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures',
+		'description of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures',
+		'statement/s about innovation, enterprise skills, and/or emerging technologies'
+	),
+	row(
+		'de910-se-contexts',
+		'Knowledge and understanding',
+		'Technologies contexts',
+		['AC9TDE10K03', 'AC9TDE10K04', 'AC9TDE10K05', 'AC9TDE10K06'],
+		'discerning explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts',
+		'detailed explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts',
+		'explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts',
+		'description of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts',
+		'statement/s about the features of technologies and/or their appropriateness for purpose'
+	),
+	row(
+		'de910-se-investigating',
+		'Processes and production skills',
+		'Investigating and defining',
+		['AC9TDE10P01'],
+		'proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'effective analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'identification of needs or opportunities for one or more of the prescribed technologies contexts'
+	),
+	row(
+		'de910-se-generating-ideas',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDE10P02', 'AC9TDE10P04'],
+		'development of reasoned design criteria that include sustainability; proficient creation, adaptation and refinement of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities',
+		'development of effective design criteria that include sustainability; informed creation, adaptation and refinement of effective design ideas, processes and solutions based on analysis of needs or opportunities',
+		'development of design criteria that include sustainability; creation, adaptation and refinement of design ideas, processes and solutions based on analysis of needs or opportunities',
+		'guided development of design criteria that include sustainability; partial creation, adaptation and refinement of simple design ideas, processes and solutions based on analysis of needs or opportunities',
+		'directed development of design criteria that include sustainability; fragmented creation, adaptation and refinement of basic design ideas, processes and solutions based on needs or opportunities'
+	),
+	row(
+		'de910-se-generating-communicate',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDE10P02'],
+		'communication of comprehensive design ideas, processes and solutions to a range of audiences, including using digital tools',
+		'communication of effective design ideas, processes and solutions to a range of audiences, including using digital tools',
+		'communication of design ideas, processes and solutions to a range of audiences, including using digital tools',
+		'communication of superficial design ideas, processes and solutions to a range of audiences, including using digital tools',
+		'communication of fragmented design ideas, processes and solutions'
+	),
+	row(
+		'de910-se-producing',
+		'Processes and production skills',
+		'Producing and implementing',
+		['AC9TDE10P03'],
+		'purposeful selection and use of technologies to proficiently, skilfully and safely produce designed solutions',
+		'effective selection and use of technologies to effectively, skilfully and safely produce designed solutions',
+		'selection and use of technologies to skilfully and safely produce designed solutions',
+		'simple selection and use of technologies to safely produce simple designed solutions',
+		'basic selection and use of technologies to safely produce basic solutions'
+	),
+	row(
+		'de910-se-evaluating',
+		'Processes and production skills',
+		'Evaluating',
+		['AC9TDE10P04'],
+		'discerning justification of decisions against developed design criteria that include sustainability',
+		'logical justification of decisions against developed design criteria that include sustainability',
+		'justification of decisions against developed design criteria that include sustainability',
+		'partial justification of decisions against aspects of developed design criteria that include sustainability',
+		'statement/s about design decisions'
+	),
+	row(
+		'de910-se-collaborating',
+		'Processes and production skills',
+		'Collaborating and managing',
+		['AC9TDE10P05'],
+		'independent and collaborative: proficient development of production and project management plans; proficient application of production and project management plans, adjusting processes when necessary.',
+		'independent and collaborative: effective development of production and project management plans; effective application of production and project management plans, adjusting processes when necessary.',
+		'independent and collaborative development and application of production and project management plans, adjusting processes when necessary.',
+		'independent and collaborative: partial development of production and project management plans; partial application of production and project management plans, adjusting processes when necessary.',
+		'independent and/or collaborative: fragmented development of production and project management plans; fragmented application of production and project management plans, adjusting processes when necessary.'
+	)
+];
 
+function yearBandFromLevel(yearLevel: number | '' | string): DigiTechBand | null {
 	const yl =
 		typeof yearLevel === 'number'
 			? yearLevel
@@ -340,14 +447,62 @@ export function resolveDigiTechBand(
 	return null;
 }
 
+/** Resolve DigiTech band for DigiTech Word templates only. */
+export function resolveDigiTechBand(
+	yearLevel: number | '' | string,
+	subject = ''
+): DigiTechBand | null {
+	const subjectLower = subject.toLowerCase();
+	if (subjectLower && !subjectLower.includes('digital')) return null;
+	return yearBandFromLevel(yearLevel);
+}
+
+export function resolveInstrumentCatalogueKey(
+	yearLevel: number | '' | string,
+	subject = ''
+): InstrumentCatalogueKey | null {
+	const subjectLower = subject.toLowerCase();
+	const band = yearBandFromLevel(yearLevel);
+	if (!band) return null;
+
+	if (subjectLower.includes('digital')) {
+		return band === '7-8' ? 'digital-7-8' : 'digital-9-10';
+	}
+	if (subjectLower.includes('design')) {
+		// Curriculum catalogue currently covers Years 9–10 Design only.
+		if (band === '9-10') return 'design-9-10';
+		return null;
+	}
+	return null;
+}
+
+export function getInstrumentCatalogue(key: InstrumentCatalogueKey): InstrumentCatalogue {
+	switch (key) {
+		case 'digital-7-8':
+			return {
+				key,
+				contentDescriptors: getCurriculumForPlanType('7-8-digital-technologies').contentDescriptors,
+				criteriaRows: RUBRIC_7_8
+			};
+		case 'digital-9-10':
+			return {
+				key,
+				contentDescriptors: getCurriculumForPlanType('9-10-digital-technologies').contentDescriptors,
+				criteriaRows: RUBRIC_9_10
+			};
+		case 'design-9-10':
+			return {
+				key,
+				contentDescriptors: getCurriculumForPlanType('9-10-design').contentDescriptors,
+				criteriaRows: RUBRIC_DESIGN_9_10
+			};
+	}
+}
+
 export function getDigiTechCatalogue(band: DigiTechBand): DigiTechInstrumentCatalogue {
-	const planType =
-		band === '7-8' ? '7-8-digital-technologies' : '9-10-digital-technologies';
-	return {
-		band,
-		contentDescriptors: getCurriculumForPlanType(planType).contentDescriptors,
-		criteriaRows: band === '7-8' ? RUBRIC_7_8 : RUBRIC_9_10
-	};
+	const key: InstrumentCatalogueKey = band === '7-8' ? 'digital-7-8' : 'digital-9-10';
+	const catalogue = getInstrumentCatalogue(key);
+	return { ...catalogue, band };
 }
 
 export function resolveTemplateKind(technique: string): AssessmentTemplateKind {
@@ -399,7 +554,7 @@ export function toggleCriteriaRow(
 }
 
 function buildContentDescriptions(
-	catalogue: DigiTechInstrumentCatalogue,
+	catalogue: InstrumentCatalogue,
 	selectedCodes: Set<string>
 ): AssessmentItem['contentDescriptions'] {
 	return catalogue.contentDescriptors.map((cd) => ({
@@ -413,7 +568,7 @@ function buildContentDescriptions(
 }
 
 function buildCriteriaRows(
-	catalogue: DigiTechInstrumentCatalogue,
+	catalogue: InstrumentCatalogue,
 	selectedCodes: Set<string>
 ): AssessmentCriteriaRow[] {
 	return catalogue.criteriaRows.map((row) => ({
@@ -430,12 +585,15 @@ export function seedInstrumentFromUnitAssessment(
 		id?: string;
 		levelPlanId?: string;
 		assessmentIndex?: number;
-		band?: DigiTechBand | null;
+		catalogueKey?: InstrumentCatalogueKey | null;
 	}
 ): AssessmentItem {
-	const band =
-		options?.band ??
-		resolveDigiTechBand(unit.yearLevel.value || unitAssessment.yearLevel.value, String(unit.subject.value));
+	const catalogueKey =
+		options?.catalogueKey ??
+		resolveInstrumentCatalogueKey(
+			unit.yearLevel.value || unitAssessment.yearLevel.value,
+			String(unit.subject.value)
+		);
 	const id = options?.id ?? createId('assess');
 	const levelPlanId = options?.levelPlanId ?? unit.levelPlanId;
 	const item = createEmptyAssessmentItem(
@@ -472,8 +630,8 @@ export function seedInstrumentFromUnitAssessment(
 		unitAssessment.contentDescriptions.map((cd) => String(cd.code.value)).filter(Boolean)
 	);
 
-	if (band) {
-		const catalogue = getDigiTechCatalogue(band);
+	if (catalogueKey) {
+		const catalogue = getInstrumentCatalogue(catalogueKey);
 		item.contentDescriptions = buildContentDescriptions(catalogue, selectedCodes);
 		item.criteriaRows = buildCriteriaRows(catalogue, selectedCodes);
 	} else {
@@ -492,9 +650,12 @@ export function seedInstrumentFromUnitAssessment(
 }
 
 export function ensureInstrumentCatalogue(item: AssessmentItem): AssessmentItem {
-	const band = resolveDigiTechBand(item.yearLevel.value, String(item.subject.value));
-	if (!band) return item;
-	const catalogue = getDigiTechCatalogue(band);
+	const catalogueKey = resolveInstrumentCatalogueKey(
+		item.yearLevel.value,
+		String(item.subject.value)
+	);
+	if (!catalogueKey) return item;
+	const catalogue = getInstrumentCatalogue(catalogueKey);
 	const selected = new Set(selectedContentDescriptionCodes(item));
 
 	if (!item.contentDescriptions.length) {
@@ -579,6 +740,18 @@ export function applyAssessmentItemToUnitAssessment(
 			text: cloneAiField(cd.text),
 			code: cloneAiField(cd.code)
 		}));
+}
+
+/** Push unit-assessment content-description selections onto a linked instrument. */
+export function applyUnitAssessmentContentDescriptionsToItem(
+	item: AssessmentItem,
+	unitAssessment: UnitAssessment
+): AssessmentItem {
+	const selectedCodes = unitAssessment.contentDescriptions
+		.map((cd) => String(cd.code.value))
+		.filter(Boolean);
+	const withCatalogue = ensureInstrumentCatalogue(item);
+	return applyContentDescriptionSelection(withCatalogue, selectedCodes);
 }
 
 function normalizeTitle(title: string) {
