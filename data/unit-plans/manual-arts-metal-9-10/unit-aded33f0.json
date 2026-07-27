@@ -1,0 +1,777 @@
+{
+  "id": "unit-aded33f0",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "Design and Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Pot Plant Holder (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "Unit description\n\nIn this Year 9 Metal Technology unit, students design and manufacture a wrought-iron pot plant stand. They develop practical metalworking skills through marking out, cutting, filing, bending, twisting, scrolling and hard riveting steel components. Students learn to select and safely use appropriate hand tools, workshop equipment and metal-forming machinery while following established risk-control procedures. Alongside construction, students produce a design folio documenting their research, design development, CAD drawings, planning, production processes and evaluation of the completed product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "This unit is designed for Year 10 students with diverse levels of prior experience in manual metalwork. The cohort consists of learners with varying degrees of spatial awareness and technical proficiency, necessitating a scaffolded approach to workshop safety and machine operation. Instruction must account for differing fine-motor skill capabilities, particularly during complex tasks such as twisting and decorative scrolling. Strategies include peer-mentoring, tiered demonstration models, and the provision of visual checklists to support diverse learning needs and ensure consistent adherence to rigorous safety standards. The learning environment promotes collaborative problem-solving, requiring students to negotiate workspace access and resource sharing while maintaining an individual focus on project management and high-quality production outcomes.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-27T11:32:47.983Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-c195e541",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Pot Plant Holder (metal)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Assessment description\n\nStudents are required to design and manufacture a functional and aesthetically pleasing wrought-iron pot plant stand based on the supplied specifications. The stand must demonstrate accurate construction, effective use of scrolling and twisting techniques, secure joining methods and appropriate personalisation.\n\nStudents will also complete a folio containing:\n\nA design brief, success criteria and identified constraints\nResearch and analysis of existing products\nInitial sketches and proposed design modifications\nA final CAD model with dimensioned orthographic views\nA risk assessment and control measures\nA materials cutting list\nA photographic record of the production process\nResponses to associated metalworking theory questions\nA personal and peer evaluation of the finished product\n\nAssessment will consider the quality and functionality of the completed stand, the application of safe workshop practices, practical production skills, design development, time management and the quality of the supporting folio.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Folio: 6–8 A4 pages or equivalent digital media, including CAD drawings, project management plan, and risk assessment.\n• Practical product: Wrought-iron pot plant stand manufactured to specified dimensions.\n• Duration: 8 weeks, with production tasks occurring under supervised workshop conditions.\n• Monitoring: Mid-unit progress review (Week 5).\n• Conferencing: Final folio and product review (Week 9).",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:32:50.730Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the 9–10 Manual Arts faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings at Weeks 4 and 8 to review student folio samples, ensuring shared understanding of task criteria and evidence requirements.\n*   **Cross-marking:** Collaborative review of final folio submissions and product quality to calibrate grading against established descriptors.\n*   **Standardisation:** Review of student performance against annotated work samples to confirm consistent interpretation of performance criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:32:59.041Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-3db51126",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8034bc6b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1aa91a37",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6f7db191",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-56238ae5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-02828215",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-fce515e6",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-f66ea780",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-8f5cf86c",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-5e02a18e",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-a8746487",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-4c10ba7e",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-62958a16",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-3b25299c",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the wrought-iron project requirements and established workshop safety standards. They participate in a comprehensive induction covering metalworking hazards, the correct use of Personal Protective Equipment (PPE), and standard operating procedures (SOPs) for heavy machinery. The week concludes with a critical review of sample pot plant stands to analyse assembly sequences and joining techniques.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "St Brendan’s College workshop SOPs, PPE kits (safety glasses, leather gloves, aprons), sample pot plant stand prototypes, risk assessment templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the hierarchy of hazard control in a metal fabrication environment, emphasizing the 'take 5' risk management process. Students explore the properties of mild steel, including its malleability and structural limitations when subjected to cold-working processes. They examine the role of technical communication in documenting safe work practices and design intentions within the project folio.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions begin with a mandatory safety audit of the workspace and equipment familiarisation. Students practise identifying key workshop tools, including manual hacksaws, files, and bench vices, while demonstrating the correct fitting and maintenance of PPE. They conduct a hands-on teardown analysis of sample components to understand how scrolling and twisting aesthetics are achieved through physical forming.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of a signed student safety induction checklist and a quiz covering workshop SOPs and hazard identification.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the wrought-iron project, assessment requirements and the importance of professional workshop safety. They engage in a comprehensive induction covering metalworking hazards, PPE protocols and risk control measures while reviewing sample products to understand construction sequences.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-e2de10fc",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in a design research phase, analysing three distinct pot plant stand designs for stability, aesthetic proportion and functional constraints. They develop technical literacy by interpreting orthographic working drawings and applying these skills to create a comprehensive materials cutting list. The week culminates in the accurate marking out of raw steel stock, focusing on precision to minimise waste.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering squares, scribes, centre punches, steel rules, technical drawing samples, raw mild steel stock, project management planning sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching explores the principles of design in metalwork, specifically balance, symmetry, and load distribution in stand geometry. Students are introduced to the importance of standard measurement systems (metric), the function of a cut list in project management, and the necessity of grain orientation and surface preparation for cold-worked steel. They examine how design constraints—such as pot base diameter—directly influence structural layout.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use scribes, try-squares and steel rules to accurately transfer dimensions from technical drawings to flat and square steel stock. They practise the 'measure twice, cut once' methodology, using centre punches to mark drilling points. Practical sessions also include the setup and use of the horizontal bandsaw and manual marking-out stations to prepare stock for the subsequent cutting phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the materials cutting list and accuracy check of marked-out steel components against student drawings.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students research and analyse three existing pot plant stand designs, evaluating them for stability, aesthetics and functional constraints. This week focuses on interpreting technical working drawings, creating a detailed materials cutting list and accurately marking out components on raw steel stock.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-e63c8b19",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Following the technical analysis, students produce initial concept sketches and develop three distinct design modifications that address specific constraints. Practical sessions shift to manual fabrication, where students cut steel to length using manual hacksaws and angle grinders, prioritising clean, square ends to ensure structural integrity in the finished assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Manual hacksaws, angle grinders, bench vices, various hand files, deburring tools, sketching paper, design brief rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the kinematics of hand-tool cutting, specifically the mechanical action of hacksaw blades and the importance of speed and pressure in cold metal cutting. Students explore the concept of 'design justification'—the ability to explain aesthetic or functional choices through the lens of the project brief. Safety theory for portable power tools, specifically angle grinders, is reviewed to ensure awareness of cutting discs and spark containment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform primary metal cutting tasks, followed by the essential process of filing and deburring. They use bastard and second-cut files to refine edges, ensuring all components are free of sharp burrs and meet the required safety standards for handling. Practical work involves checking cut lengths against the previously developed cutting list to ensure tolerance compliance.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of cut-end quality, adherence to design dimensions, and completion of the initial design modification sketches with written justifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Following technical analysis, students produce initial sketches and develop three distinct design modifications, justifying their final choices based on the design brief. Practical sessions involve cutting steel to length using manual hacksaws and angle grinders, followed by filing and deburring edges to meet safety standards.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-bb4d8406",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to CAD software, focusing on interface navigation and basic geometry construction. Lessons transition between digital drafting and workshop demonstrations, where students observe the operation of the scroll-forming machine and manual bending jigs. They connect theoretical design requirements to the mechanical capabilities of the equipment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360), scroll-forming machine, bending jigs, vernier calipers, steel rule, safety goggles.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on orthographic projection conventions, including the use of hidden lines, centre lines and dimensioning standards. Students examine the mechanical advantage of leverage in manual metal-forming tools and the importance of maintaining consistent bend radii. The theory also covers the relationship between digital modelling dimensions and the physical 'spring-back' effect inherent in mild steel during cold bending.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin the initial CAD modelling of their primary stand legs and circular or scroll supports. In the workshop, they receive a formal demonstration on the scroll-forming machine, followed by supervised practice to achieve identical, mirrored scrolls. Students focus on repetitive bending tasks, using jigs to ensure consistent geometry across all four leg components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check of initial CAD layout and observation of competency during scroll-forming machine operation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to CAD software to develop orthographic drawing conventions and begin modelling the stand’s main components. Workshop time is dedicated to demonstrating scroll-forming machinery, allowing students to practise bending steel consistently while maintaining the design's required dimensions.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-3a1cd136",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus remains on finalising digital CAD models, producing accurately labelled front, top and side views to support the design folio. Practically, students refine their scroll-forming and shaping skills, progressing toward bending the legs and primary structural supports for the assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, anvil, soft-face mallets, bench vices, square stock templates, marking blue.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction covers the application of CAD-based dimensioning to ensure manufacture feasibility. Students study material allowance for bends, identifying how different thicknesses of steel respond to varying heat or cold-working techniques. The theory also addresses the geometric principles of symmetry in circular or square pot plant stand bases.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete their dimensioned orthographic drawings, incorporating sectional views where necessary for complex joints. In the workshop, they progress from individual scrolls to shaping the main structural legs, using the anvil and bench vice for final adjustments. Practical sessions involve aligning components against their CAD templates to ensure exact matches to the design intent.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer review of orthographic drawings for accuracy and clarity; check of leg component consistency against design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus remains on finalising digital CAD models, producing accurately labelled front, top and side views to support the design folio. Practically, students refine their scroll-forming and shaping skills, progressing toward bending the legs and primary structural supports for the assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-6ddb1ed3",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students formalise their project management by completing the individual risk assessment and studying the operational theory of metal-forming equipment. Practical work involves complex bending, twisting and shaping tasks to finalise individual components, followed by a dry-fit test to ensure symmetry and alignment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Risk assessment templates, G-clamps, spirit levels, twist bars, steel files, project folio documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching centres on the theory of risk assessment, specifically identifying residual risks in the assembly phase. Students investigate the effects of cold-working on steel grain structure and work-hardening. They also review the mechanical properties of fasteners and the theory of structural joints as preparation for the upcoming riveting phase.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise their individual components, performing precision twisting or decorative shaping as per their designs. A 'dry-fit' test is conducted where all components are temporarily clamped to check for overall product stability, squareness and aesthetic alignment. Students make necessary adjustments to any components that do not sit level before proceeding to permanent assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of individual risk assessment and quality check of the dry-fit assembly against the original success criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students formalise their project management by completing the individual risk assessment and studying the operational theory of metal-forming equipment. Practical work involves complex bending, twisting and shaping tasks to finalise individual components, followed by a dry-fit test to ensure symmetry and alignment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-4c0139ea",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a theoretical deep dive into hard riveting techniques, understanding the principles of cold forming and mechanical fastening. They learn the safe and effective operation of riveting tools and apply this knowledge practically by precisely marking and drilling rivet holes. This week initiates the critical assembly phase, focusing on achieving strong, accurate joints that ensure the structural integrity and aesthetic alignment of the pot plant holder.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Solid mild steel rivets (various sizes), manual rivet guns, rivet sets and dollies, ball-peen hammers, drill presses, appropriate drill bits, bench vices, G-clamps, centre punches, safety glasses, hearing protection.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the mechanics of hard riveting, including the selection of appropriate rivet types (e.g., solid rivets) and materials. Students explore the concept of mechanical advantage in riveting tools, the importance of correct hole size and alignment, and the process of deforming metal to create a permanent joint. Safety protocols for using drill presses, rivet guns, and hammering operations are thoroughly reviewed, emphasising proper clamping, eye protection, and hearing protection to mitigate associated risks.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with students marking out precise rivet locations on their pre-fabricated components, using centre punches to prevent drill wander. They then utilise drill presses to accurately drill all necessary rivet holes, ensuring perpendicularity and consistent sizing. Students practise the initial assembly of two or more components, applying G-clamps for alignment before learning the technique of setting solid rivets using a rivet gun or hammer and dolly, critically evaluating the quality and tightness of each joint.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher observation and feedback on the accuracy of rivet hole marking and drilling. Practical demonstration of initial riveting technique and quality assessment of the first set of riveted joints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theoretical study centres on hard riveting techniques, examining the tool use, safety and mechanical advantages of this traditional joining method. Students apply this knowledge to mark and drill rivet holes precisely, commencing the assembly phase while ensuring structural integrity and alignment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-2df3522b",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week integrates theoretical learning about steel production processes, the evolution of metalworking tools, and the interpretation of workshop safety signage. Practically, students continue the main assembly of their pot plant stands, applying learned riveting skills to secure all components while consistently checking against their design brief to ensure product stability and aesthetic consistency.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Informational texts/videos on steel production, images/diagrams of historical and modern metalworking tools, workshop safety signage examples, spirit levels, large try squares, straight edges, G-clamps, additional rivets and riveting tools as needed.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the journey of steel from raw iron ore through to its various finished forms, discussing the properties of different steel alloys and their applications in manufacturing. Students explore the historical progression of metalworking tools, from early blacksmithing implements to modern workshop machinery, understanding their impact on design and production. A detailed review of standard workshop safety signage (e.g., mandatory, warning, prohibition) is conducted, emphasising the importance of immediate recognition and adherence in a dynamic workshop environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students systematically continue the riveting process to fully assemble the pot plant stand, ensuring all structural elements are securely joined. They frequently employ measuring tools such as spirit levels, try squares, and straight edges to verify that the stand remains plumb, square, and stable throughout assembly, adhering to the dimensions and tolerances specified in their design brief. This involves careful clamping, re-checking alignment, and meticulously setting each rivet to create a robust and rigid final structure.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Observation of sustained safe work practices during assembly. Progress check on the completeness and stability of the assembled pot plant stand against design brief criteria. Short written quiz on steel production facts and workshop safety signage identification.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week explores the theory of steel production, the history of metalworking tools and standard workshop safety signage. Students continue the main assembly of their stand, checking against the original design brief to ensure joints are secure and the product remains stable.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-634fa777",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in comprehensive documentation of their manufacturing journey, creating an annotated production procedure that correlates photographic evidence with the specific tools and processes employed. Concurrently, practical efforts focus intensely on surface preparation, meticulously removing all sharp edges, burrs, and minor defects to ensure the stand is safe to handle and perfectly prepared for its final protective finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/smartphones for photography, computers with document software for folio compilation, various hand files, angle grinders with flap discs, wire brushes, sanding blocks, various grit sandpaper, bench grinders (with appropriate guarding), safety glasses, dust masks/respirators.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the principles of technical documentation within a design folio, focusing on clear, concise annotation and the effective integration of photographic evidence to illustrate complex manufacturing steps. Students learn about different methods of surface preparation, including grinding, filing, sanding, and wire brushing, understanding how each technique contributes to a safe, aesthetically pleasing, and durable final product. The importance of surface cleanliness and texture for optimal adhesion of protective coatings is also discussed.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students systematically photograph each major step of their assembly process, ensuring high-quality images that clearly depict the tools, techniques, and progress. These photos are then annotated with descriptive text for their production log. In the workshop, students undertake extensive surface preparation, using files, angle grinders with flap discs, and wire brushes to meticulously deburr all edges, smooth out any minor imperfections, and remove any remaining rust or scale. Emphasis is placed on achieving a uniformly clean and smooth surface ready for finishing.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the annotated photographic production log for clarity, accuracy, and completeness as a component of the folio. Practical assessment of the overall surface finish quality of the pot plant stand, checking for safety hazards (sharp edges) and readiness for painting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students document their manufacturing journey by creating an annotated production procedure, linking photographic evidence to the tools and processes used. Practically, students focus on surface preparation, removing sharp edges or defects and ensuring the stand is ready for a protective finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    },
+    {
+      "id": "week-43cff5f0",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a final, structured self-reflection process, comparing their finished pot plant holder against their original design constraints and success criteria. The week focuses on peer-led quality control inspections, where students provide constructive feedback on technical accuracy and aesthetic finish. Students dedicate remaining time to finalising folio documentation, ensuring all components from design to evaluation are collated and submitted for assessment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Peer feedback rubrics, final assessment marking guide, digital folio templates, workshop inspection area, hand tools for final adjustments, photographic records.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the importance of critical evaluation in the design process, specifically the role of 'post-project' reflection in identifying areas for future improvement. Students examine the difference between functional success (structural stability and load-bearing capacity) and aesthetic success (proportion, finish, and craftsmanship). They discuss the impact of design modifications made during the production phase and how these affected the project’s timeline and material efficiency.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical time is dedicated to a formal quality-control audit, where students use measurement tools to verify dimensions and stability against their CAD plans. Students participate in peer-critique sessions, evaluating the quality of rivet joints, symmetry of scrolls, and surface preparation consistency. The final task involves collating photographic evidence, the production log, the finished project, and the final self-evaluation into a professional presentation folio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the completed Pot Plant Holder (metal) and the comprehensive design folio. Assessment involves evaluating the product against specified criteria (stability, aesthetics, joining quality) and the folio against the documentation requirements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The final week involves evaluating the finished product against the original constraints and success criteria through self-reflection and peer feedback. Students finalise their folios, conduct a quality-control inspection and submit the completed pot plant stand for assessment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:33:14.331Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

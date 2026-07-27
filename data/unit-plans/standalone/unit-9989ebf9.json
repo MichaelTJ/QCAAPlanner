@@ -1,0 +1,299 @@
+{
+  "id": "unit-9989ebf9",
+  "levelPlanId": "standalone",
+  "yearLevel": {
+    "value": "8",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Country Enterprise: Digital Business Solutions",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students design and develop a website for a small business operating in a rural or regional community. Students investigate how businesses use digital systems to communicate with customers, promote services and simplify everyday tasks. They identify a target audience, develop user stories and establish design criteria before generating and evaluating alternative website and interface concepts. Using GitHub Codespaces, HTML, CSS and JavaScript, students create a responsive website that includes an interactive business tool such as a quote calculator, booking interface or product selector. Students may use generative artificial intelligence to assist with coding, content creation and debugging, but must test, modify and explain the resulting solution. They conduct usability testing, improve the website in response to feedback and evaluate the final product against the needs of the business and its customers.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-cb8f3988",
+      "assessmentNumber": {
+        "value": "5",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Regional Business Website Project",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students act as digital consultants to develop a functional, multi-page website tailored to a specific regional business requirement. Students begin by defining and decomposing the client problem, creating detailed user stories and design criteria to guide their development. They employ design thinking techniques to generate and communicate alternative interface concepts before refining their selected user experience through wireframes. Students implement the solution using a general-purpose programming language, incorporating control structures and functions to provide interactive features. Throughout the production process, students manage their project using agile practices, applying iterative testing and debugging to ensure the digital system aligns with design specifications. The final submission includes the functional website and a design portfolio documenting the development lifecycle, including the rationale for design choices, evidence of algorithmic planning, and a summative evaluation of the solution against user needs and future impact.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 3–4 A3 pages or equivalent digital media pages\n• May include annotated wireframes, flowcharts, and responsive design mock-ups\n• Access to GitHub Codespaces and web development documentation under supervised conditions",
+        "aiNotes": "3-4 A3 pages + website",
+        "lastGenerated": "2026-07-11T01:33:40.122Z"
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": []
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-5ea92dfd",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-6df601c6",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information; Acquire and collate data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Protect content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": true,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-572cc185",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-2986d43d",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-2409f6a5",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts; Handwriting and keyboarding",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": true
+      }
+    },
+    {
+      "id": "ucap-62badfd2",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Number patterns and algebraic thinking",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": true,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-8447b8df",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial awareness: Community awareness\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": true,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

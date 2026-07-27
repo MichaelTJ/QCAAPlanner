@@ -1,0 +1,777 @@
+{
+  "id": "unit-6c67e2ee",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 5,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Desk Organiser (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop practical woodworking and design skills through the production of a timber desk organiser. Students learn to safely select and use hand tools, power equipment and workshop processes to accurately measure, mark, cut, join, assemble and finish timber components. The project introduces box joints, timber properties, sanding and varnishing techniques, as well as the Lean 5S principles for creating an organised and efficient workspace.\n\nAlongside the practical project, students follow the SBC Design Model to develop an improved desk-organiser concept suited to their own study needs. They investigate existing products, generate ideas, produce dimensioned isometric drawings and evaluate their design against the requirements of the design brief.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-3b299546",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Desk Organiser",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students complete two connected assessment components:\n\nPractical project: Construct a functional timber desk organiser based on the supplied workshop design. Students are assessed on their safe workshop practices, accurate measurement and marking, production of box joints, assembly techniques, surface preparation, application of finishes and overall quality of the completed product.\nDesign and theory folio: Complete a digital folio documenting workshop safety, woodworking knowledge, Lean 5S principles and the development of an improved desk-organiser design. Students define the design problem, investigate existing organisers, identify useful design features, brainstorm ideas, produce a draft isometric sketch, self-evaluate their proposal and submit a final annotated and dimensioned design drawing. The design must be unique, provide storage for frequently used study items and must not include storage for a mobile phone.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Practical project: 6 weeks of workshop-based construction; assessed through direct teacher observation of safe, independent use of hand and power tools.\n• Design and theory folio: Maximum 6 A3 pages or equivalent digital portfolio, including annotated isometric sketches, technical drawings, and reflective commentary.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:06.251Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Design Technologies department to ensure consistent, evidence-based judgements aligned with the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled collaborative sessions at Weeks 4 and 8 to review samples of student folios and practical products, ensuring a shared understanding of the marking guide criteria.\n*   **Cross-marking:** Departmental review of the Design and Theory Folio to ensure objective application of quality standards regarding technical drawing accuracy and design evaluation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:50:58.941Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-6f2d63ea",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-44b32d41",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d5a5be86",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-51694c4d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-aea608b8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d4c99520",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-597d7b62",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-f414877b",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-8dcaa78d",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-7e4db67c",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-f1577f6f",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-527d2569",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-3e442e59",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-4da03d10",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are inducted into the workshop, establishing the foundational safety protocols and behavioral expectations required for a productive learning environment. The week focuses on the St Brendan’s College 'Gold Standard' for workshop safety and an introduction to the Lean 5S principles (Sort, Set in order, Shine, Standardise, Sustain) as a mechanism for workplace efficiency. Students examine the desk organiser project exemplar to deconstruct its assembly flow and material requirements, setting the stage for their individual design journeys.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety training platform, project exemplar, workshop PPE kit, 5S station labelling supplies, safety induction logbook.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching of WHS regulations, including hazard identification, risk assessment, and the mandatory use of Personal Protective Equipment (PPE). Students are introduced to the Lean 5S system and how these organisational principles mitigate waste and improve production precision in a woodworking context. The exemplar is analysed to explain the relationship between design features and manufacturing sequences, ensuring students understand the project's technical scope and structural integrity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the required OnGuard safety induction modules to earn their workshop access licence. Practical sessions involve a guided tour of the machinery zone, learning the 'Safe Operating Procedure' (SOP) for basic hand tools. Students engage in a 5S audit of their own workstation, labelling tools and clearing hazards to mirror professional cabinet-making practices.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of OnGuard safety modules and teacher observation of initial workshop conduct. Students provide an annotated 'Safety First' checklist entry in their digital folios.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the workshop environment, safety culture and the fundamental principles of the Lean 5S system. They examine the desk organiser exemplar to understand its structure, material requirements and assembly flow while completing mandatory OnGuard safety modules.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-1d2bc336",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus transitions to the initial design phase, where students establish their project's design criteria and define constraints such as size, functionality, and storage requirements. Students move into the workshop to apply their planning to timber selection, carefully inspecting stock for defects and selecting material that aligns with their planned dimensions. The practical workflow shifts to measuring and marking, requiring students to demonstrate precision using workshop tools to prepare their timber for accurate cutting.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Technical drawings, try-squares, marking knives, steel rulers, drafting paper, project timber stock (e.g., Pine or Tasmanian Oak).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching of the design brief and the importance of establishing design criteria—identifying what makes an organiser 'functional' and 'fit-for-purpose'. Concepts of technical drawing conventions, including the use of rulers, try-squares, and marking knives for high-precision layout, are taught alongside the importance of 'measuring twice and cutting once' to prevent material wastage.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin the design folio, recording project constraints and sketching early layout ideas. In the workshop, students select their timber lengths, checking for grain direction and surface condition. Using their technical drawings as a guide, they mark out the primary components, using try-squares to ensure all lines are perfectly perpendicular to the base edge.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Initial design proposal check and assessment of accuracy in timber marking during live workshop demonstration.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to the design process where students define the project requirements, limitations and intended use of their desk organiser. Students transition into the workshop to select their timber stock and accurately mark out components based on the provided technical drawings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-3c2834bc",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a deeper investigation into the characteristics and properties of timber, specifically distinguishing between the growth rings, grain patterns, heartwood, and sapwood to understand how these factors influence structural stability and aesthetic appeal. Workshop sessions are dedicated to the practical fabrication phase, where students use handsaws and back-saws to cut their components. The week concludes with rigorous verification of the squareness of each piece to ensure joints will fit correctly during future assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hand saws, back saws, bench hooks, combination squares, timber samples (to demonstrate grain/sapwood), digital folio template for reflection on timber science.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on timber science, focusing on how wood composition—such as grain direction and moisture content—affects the 'workability' and longevity of a desk organiser. Concepts include the difference between radial and tangential shrinkage and the environmental impact of sustainable timber harvesting. Teachers explain the critical importance of geometric accuracy (squareness) and how even slight deviations in initial cutting lead to compound errors in assembly.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical workshops involve learning the correct handling and usage of hand saws for cross-cutting and ripping timber. Students perform test cuts, comparing different methods of supporting timber for safe cutting. Each student must verify their cuts against their marked layout, using a combination square to check for absolute squareness and flat, true edges on all components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the 'squareness' and 'dimensional accuracy' of cut timber pieces against the technical drawing specifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate existing desk organiser designs to identify functional features and research timber properties including grain, heartwood and sapwood. Workshop sessions are dedicated to the precise cutting of timber components and verification of squareness for future assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-6942e7e6",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in divergent thinking to brainstorm and sketch unique features for their organiser that meet the design brief’s functionality requirements. Following the design session, students transition to the workshop to begin technical training on the layout and cutting of box joints, focusing on the relationship between grain orientation and joint strength.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, marking gauges, chisels (6mm–12mm), mallets, scrap pine offcuts, project technical diagrams.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the principles of box joint construction and why this joinery technique provides superior structural stability for a desk organiser compared to simple butt joints. Teachers explain the importance of 'waste side' marking during the layout process to ensure perfect fitment. Concepts regarding the selection of personalised design features—such as specific storage compartments or angled partitions—are linked back to the requirement of creating a 'fit-for-purpose' solution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions focus on the technical preparation of box joints using test pieces. Students use marking gauges, rulers, and pencils to accurately scribe the width and depth of pins and tails. They learn to safely use wood chisels and mallets for waste removal, focusing on maintaining vertical accuracy through the timber thickness to ensure a clean, tight fit in final assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of student sketches against the project constraints (e.g., uniqueness, exclusion of phone storage). Practical monitoring of chisel control and marking accuracy on timber scraps.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students use divergent thinking to brainstorm and sketch personalised design features for their organiser. Practical sessions introduce the technical requirements of box joints, with students practising marking and safe chisel techniques on test pieces.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-6b101b84",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus this week is on refining the conceptual design into a precise, dimensioned isometric sketch that serves as a manufacturing roadmap. In the workshop, students progress from test pieces to the actual timber components, applying their skills to mark out and cut the box joints for their primary desk organiser structure.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Isometric grid paper, drafting templates, 30-degree set squares, pencils, combination squares, workshop bench, mallet, chisels.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the conventions of isometric drawing, including the use of 30-degree angles to represent three-dimensional depth and the necessity of clear, neat annotation for professional communication of design intent. Students are taught how to calculate cumulative tolerances for joint assembly and the importance of iterative testing—where pieces are checked against each other frequently to ensure the box squareness is maintained throughout the build.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students produce a final, annotated isometric sketch detailing their chosen storage compartments and specific dimensions. In the workshop, they execute the marking and cutting of the main components. This includes the precise 'housing' of joints, requiring students to carefully remove wood in small, incremental steps using their chisels, testing each 'fit' as they work to reach the required level of mechanical precision.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Feedback on the draft isometric drawing to ensure dimensions are clear and logical. Summative: Observation of the accuracy of the cut box joints during the dry-fit phase.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory focus is on refining design ideas through the production of an annotated, dimensioned isometric sketch. In the workshop, students continue the fabrication of box joints, developing accuracy through iterative testing and material removal.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-43ba4332",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week centers on evaluating the viability of the initial draft designs through a collaborative critique process, followed by an intensive workshop cycle involving Lean 5S implementation and the structural assembly of the project. Students observe how efficient tool management directly impacts their workshop performance during the glue-up phase.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Lego bricks (for 5S simulation), wood glue (PVA), Sash clamps, square blocks for clamping, wet rags for glue cleanup, sandpaper, marking equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the Lean 5S system, specifically targeting the 'Set in Order' and 'Standardise' phases to optimize their specific workbench for the assembly process. Students analyze their draft designs against the project brief to identify potential manufacturing bottlenecks or design flaws. Discussion centers on the ethics and structural impacts of using wood glue versus mechanical fasteners in furniture construction, emphasizing why PVA glue is suitable for long-term grain-to-grain bonding.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in the 'Lean 5S Lego' activity to simulate the importance of organized workspaces and efficient production flows. Workshop sessions focus on finalizing the joint cuts, performing a dry assembly to verify fit, and initiating the primary glue-up of the desk organiser using Sash cramps to ensure consistent pressure and squareness while the adhesive sets.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of student design evaluation against the brief requirements. Assessment of the quality of the 'dry assembly' and the student's ability to clean away excess glue according to 5S hygiene standards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate their draft designs against the brief requirements and engage in the Lean 5S Lego activity to reinforce workplace efficiency. Practical time involves completing joints, performing dry assemblies and initiating the glue-up process for the main structure.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-3d4c12fb",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on finalising their digital folios, transitioning from sketches to professional, fully dimensioned isometric drawings. In the workshop, the primary activity is the assembly and clamping of the main carcass, followed by the technical process of cleaning squeeze-out to ensure a pristine finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Isometric drafting templates, drafting sets (30-degree set squares), CAD software (if applicable), sash clamps, PVA glue, damp rags for cleanup, scrapers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching of technical drawing conventions for manufacturing, including dimensioning, line types, and the use of scale. Students explore the technical requirements of clamping, discussing why uniform pressure is critical for strong, gap-free glue joints. The theory session also covers the importance of material preparation, explaining why removing excess glue while 'wet' or 'tacky' prevents future finishing issues.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use CAD or manual drafting tools to create final, dimensioned isometric drawings of their desk organiser. Workshop time is dedicated to the final assembly of the main structure; students carefully apply glue to all joint surfaces, assemble the carcass, and apply Sash clamps. Students work systematically to clean away excess PVA glue from internal and external corners, ensuring surfaces remain clean for subsequent finishing.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Feedback on the draft isometric drawing regarding technical accuracy and dimensioning standards. Observation of glue-up technique and workspace management according to 5S standards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their design folio by producing a professional, fully dimensioned isometric drawing suitable for manufacture. Workshop activity focuses on clamping, cleaning excess glue from joints and preparing the frame for initial surface finishing.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-0a55758f",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The week focuses on consolidating documentation as students complete and submit their design and theory folios. Workshop activities shift towards remedial work and progressive surface preparation, preparing the timber for the final protective layers.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital folio submission portal, assorted sandpaper grits (80, 120, 180, 240), sanding blocks, timber filler/putty, dust extraction system, PPE (dust masks).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on wood anatomy and finishing science, including how timber grain reacts to various abrasive grits during sanding. Students analyse the causes of common surface defects and learn remedial techniques, such as using custom-mixed timber fillers to conceal minor gaps or imperfections in the joints. The lesson connects this to the 'Shine' element of the 5S system, reinforcing the importance of a well-maintained, high-quality surface finish.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise and submit their digital design folios, ensuring all sections are annotated and final drawings are formatted correctly. In the workshop, students begin the sanding process, progressing through a sequence of abrasive grits (e.g., 80 to 240) to remove machining marks and achieve a consistent, smooth texture. Students apply wood putty to any necessary areas, sand these flush, and perform a final quality check for any remaining imperfections before the finishing phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Submission of the complete design and theory folio. Formative: Evaluation of surface readiness through tactile inspection of the sanded timber components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The theory focus is the completion and submission of the design and theory folio, including responses on timber science and workshop safety. Students apply initial remedial techniques, such as filling gaps with putty, and begin the progressive sanding process.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-ec70d587",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in the final stages of the project by learning professional finishing techniques, specifically the application of protective varnishes. This week emphasises the patience required for layered finishes and the critical importance of sanding between coats to achieve a high-quality, professional result.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Varnish/sealer, high-quality brushes, fine-grit sandpaper (320+), lint-free rags, ventilation equipment, safety glasses, drop sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the chemistry and application of wood finishes, specifically focusing on how varnish protects timber from environmental moisture and daily wear. Students learn the 'sanding between coats' concept—explaining how to raise and remove the 'grain' to ensure an ultra-smooth final finish. Discussion includes safety handling of flammable chemicals and the environmental impact of disposal of cleaning rags used with finishes.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students prepare their work area for the finishing process, ensuring it is free of dust to prevent contamination. Students apply the first base coat of varnish, learning correct brush technique and stroke direction to ensure an even coverage. Once dried, students perform a light 'de-nibbing' sand using fine-grit abrasive to flatten the surface, before applying subsequent coats of finish to achieve the desired build and protective quality.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of brush application technique and student understanding of the 'sanding between coats' procedure. Observation of safe chemical handling and disposal practices.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore professional finishing techniques, specifically the application of varnish and the importance of sanding between coats to achieve a high-quality surface. They complete all final surface preparation and apply the first stage of protective finishing.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    },
+    {
+      "id": "week-cef1997a",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week serves as the culmination of the project, focusing on the refined finishing of the desk organiser and comprehensive evaluation. Students complete the final protective coat of varnish, ensuring a high-quality, durable surface, before conducting a final rigorous inspection of their project against the initial design criteria. This stage allows students to consolidate their learning, reflecting on the challenges overcome during construction and the effectiveness of their chosen design features in meeting their original study needs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Finishing materials (high-grade varnish, soft-bristle brushes), quality control checklists, final project evaluation rubrics, workshop cleaning supplies (vacuum, dust pans, bench brushes), digital folio submission portal.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the assessment of 'fit-for-purpose' outcomes, exploring how the final product aligns with the original brief and the success criteria developed in their portfolios. Students review the impact of the 5S Lean principles on their workshop productivity throughout the term, reflecting on how an organised workspace contributes to higher quality outcomes. Theoretical discussion also includes an analysis of timber life cycles and the importance of material stewardship in sustainable design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to applying the final varnish layer and allowing for appropriate curing time. Students undertake a meticulous quality control check, ensuring that joints are stable, surfaces are smooth to the touch, and all functionality requirements are met. The final workshop activity involves a 'Shine' session to deep-clean all equipment and return the communal workshop space to its original state of order, fulfilling the final 5S obligation of the project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final practical assessment of the desk organiser project, evaluating construction quality, finish consistency, and adherence to design specifications. Students submit their final reflections as part of the Design and Theory folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "In the final week, students complete the last varnish coat and perform a comprehensive quality check of their finished product. The unit concludes with a reflection on the design and manufacturing process, documenting the final outcome for assessment submission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:51:38.935Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

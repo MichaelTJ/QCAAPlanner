@@ -1,0 +1,790 @@
+{
+  "id": "assess-4af89280",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "unitPlanId": "unit-3b156486",
+  "assessmentNumber": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "AgTech: Paddock to Product",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "AgTech Enterprise",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "In this unit, students investigate authentic challenges within local food and fibre industries, ranging from cattle and poultry management to horticulture and rural mechanisation. Students apply design thinking to develop solutions that improve the production, handling, storage, or marketing of agricultural goods. By focusing on the needs of a specific producer or customer, students explore safety, ethics, and commercial viability while refining their technical production skills. Through the development of a model or prototype and a corresponding commercial proposal, students engage with innovation and enterprise, balancing practical constraints with creative, sustainable design. This unit emphasises the real-world application of design technologies in an agricultural context, preparing students to critically evaluate the lifecycle and impact of their designed solutions.",
+    "aiNotes": "Students investigate a real problem facing a local agricultural producer and design a solution that improves how food or fibre is produced, handled, stored, transported or marketed.\n\nThis would suit country boys because it could involve cattle, fishing, cropping, poultry, horticulture, beekeeping, rural machinery or livestock rather than feeling like another classroom sustainability project.\n\nPossible student projects\n\nStudents could design:\n\na safer livestock-feeding system\na portable animal shelter or shade structure\na better system for transporting produce\nan egg-collection or chicken-feeding system\na water-saving trough or irrigation system\na farm-gate produce stall\nprotective packaging for local produce\na storage system that reduces food spoilage\na device for safely handling livestock\na modular beehive transport or storage solution\na service for connecting local producers with customers\na redesigned product made from wool, timber or another local fibre\n\nThey would not all need to make the same product. They could select an agricultural sector, identify a producer or user, and develop a solution suited to that context.\n\nStrong assessment concept\nDesign brief\n\nDesign a product, service or environment that improves an aspect of a food or fibre enterprise. The solution must respond to the needs of a specific producer or customer and consider safety, ethics, sustainability, production costs and commercial viability.\n\nStudents would:\n\nSelect a food or fibre enterprise.\nInvestigate how the enterprise currently operates.\nIdentify a genuine production, handling or marketing problem.\nDevelop criteria with the producer or user in mind.\nGenerate and test alternative ideas.\nProduce a model, prototype or working product.\nDevelop a simple commercial proposal.\nEvaluate whether the solution is practical and viable.\n\nThe commercial proposal could include estimated production cost, sale price, target market, branding and how the design creates value. That brings in the innovation and enterprise emphasis of AC9TDE10K02 without turning the unit into a business subject.",
+    "lastGenerated": "2026-07-14T00:52:19.164Z"
+  },
+  "technique": {
+    "value": "Project",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "Written",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "• 4–6 A3 pages or equivalent digital portfolio including annotated sketches, technical drawings, and prototype photographs\n• Project management plan (inclusive of sequenced time, cost, and safety analysis)",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T00:52:33.731Z"
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "4–6 A3 pages",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "Individual/group",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "examTimeMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "AgTech Enterprise",
+    "aiNotes": ""
+  },
+  "context": {
+    "value": "Food and fibre industries are essential to Australia’s economy, regional communities and food security. These enterprises rely on design and emerging technologies to improve production, handling, storage, transport and marketing while responding to changing consumer expectations. Innovation in agriculture must balance productivity and commercial viability with safety, ethics, sustainability and environmental responsibility. Understanding these interconnected challenges is important for developing practical solutions that support resilient, efficient and future-focused agricultural industries.",
+    "aiNotes": ""
+  },
+  "task": {
+    "value": "Students investigate authentic challenges within local food and fibre industries, ranging from cattle and poultry management to horticulture and rural mechanisation. Students apply design thinking to develop solutions that improve the production, handling, storage, or marketing of agricultural goods. By focusing on the needs of a specific producer or customer, students explore safety, ethics, and commercial viability while refining their technical production skills. Through the development of a model or prototype and a corresponding commercial proposal, students engage with innovation and enterprise, balancing practical constraints with creative, sustainable design. This unit emphasises the real-world application of design technologies in an agricultural context, preparing students to critically evaluate the lifecycle and impact of their designed solutions.",
+    "aiNotes": "Students investigate a real problem facing a local agricultural producer and design a solution that improves how food or fibre is produced, handled, stored, transported or marketed.\n\nThis would suit country boys because it could involve cattle, fishing, cropping, poultry, horticulture, beekeeping, rural machinery or livestock rather than feeling like another classroom sustainability project.\n\nPossible student projects\n\nStudents could design:\n\na safer livestock-feeding system\na portable animal shelter or shade structure\na better system for transporting produce\nan egg-collection or chicken-feeding system\na water-saving trough or irrigation system\na farm-gate produce stall\nprotective packaging for local produce\na storage system that reduces food spoilage\na device for safely handling livestock\na modular beehive transport or storage solution\na service for connecting local producers with customers\na redesigned product made from wool, timber or another local fibre\n\nThey would not all need to make the same product. They could select an agricultural sector, identify a producer or user, and develop a solution suited to that context.\n\nStrong assessment concept\nDesign brief\n\nDesign a product, service or environment that improves an aspect of a food or fibre enterprise. The solution must respond to the needs of a specific producer or customer and consider safety, ethics, sustainability, production costs and commercial viability.\n\nStudents would:\n\nSelect a food or fibre enterprise.\nInvestigate how the enterprise currently operates.\nIdentify a genuine production, handling or marketing problem.\nDevelop criteria with the producer or user in mind.\nGenerate and test alternative ideas.\nProduce a model, prototype or working product.\nDevelop a simple commercial proposal.\nEvaluate whether the solution is practical and viable.\n\nThe commercial proposal could include estimated production cost, sale price, target market, branding and how the design creates value. That brings in the innovation and enterprise emphasis of AC9TDE10K02 without turning the unit into a business subject.",
+    "lastGenerated": "2026-07-14T00:52:19.164Z"
+  },
+  "toComplete": {
+    "value": "In this task, students investigate authentic challenges within local food and fibre industries, such as cattle and poultry management, horticulture, or rural mechanisation. Students apply design thinking to develop solutions that improve the production, handling, storage, or marketing of agricultural goods. By focusing on the specific needs of a producer or consumer, students explore safety, ethics, and commercial viability while refining their technical production skills. Through the development of a model or prototype and a comprehensive commercial proposal, students engage with innovation and enterprise, balancing practical constraints with creative, sustainable design. Students are required to document their design process and final solution, ensuring the project reflects a critical evaluation of lifecycle impact and the effectiveness of the proposed technology.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T00:54:31.941Z"
+  },
+  "stimulus": {
+    "value": "See Stimulus at end of task sheet",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-f9a4f5a1",
+      "label": "Monitoring",
+      "week": {
+        "value": "Term 4 Week 6",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-6c5b3caa",
+      "label": "Conferencing",
+      "week": {
+        "value": "Term 4 Week 8",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-a87cddf2",
+      "label": "Due Date",
+      "week": {
+        "value": "Term 4 Week 9",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": true
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": true
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": false
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": false
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": false
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": true
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": false
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": true
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-6806de8f",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-80bc5eb2",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-f30998e2",
+      "strand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-f776cb9d",
+      "strand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-e9c3b63d",
+      "strand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-39353d68",
+      "strand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K06",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-205d2edb",
+      "strand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P01",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-bfc2e436",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P02",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-b2be4287",
+      "strand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P03",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-e4e2095c",
+      "strand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P04",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-320bd706",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P05",
+        "aiNotes": ""
+      },
+      "selected": true
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "de910-se-society-factors",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K01"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "B": "detailed explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "C": "explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "D": "description of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "E": "statement/s about factors that impact on design decisions and/or the technologies used to design and produce designed solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-society-innovation",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K02"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "B": "detailed explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "C": "explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "D": "description of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "E": "statement/s about innovation, enterprise skills, and/or emerging technologies"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-contexts",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies contexts",
+      "contentDescriptionCodes": [
+        "AC9TDE10K03",
+        "AC9TDE10K04",
+        "AC9TDE10K05",
+        "AC9TDE10K06"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "B": "detailed explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "C": "explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "D": "description of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "E": "statement/s about the features of technologies and/or their appropriateness for purpose"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDE10P01"
+      ],
+      "descriptors": {
+        "A": "proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "B": "effective analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "C": "analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "D": "superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "E": "identification of needs or opportunities for one or more of the prescribed technologies contexts"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-generating-ideas",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02",
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "development of reasoned design criteria that include sustainability; proficient creation, adaptation and refinement of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities",
+        "B": "development of effective design criteria that include sustainability; informed creation, adaptation and refinement of effective design ideas, processes and solutions based on analysis of needs or opportunities",
+        "C": "development of design criteria that include sustainability; creation, adaptation and refinement of design ideas, processes and solutions based on analysis of needs or opportunities",
+        "D": "guided development of design criteria that include sustainability; partial creation, adaptation and refinement of simple design ideas, processes and solutions based on analysis of needs or opportunities",
+        "E": "directed development of design criteria that include sustainability; fragmented creation, adaptation and refinement of basic design ideas, processes and solutions based on needs or opportunities"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-generating-communicate",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02"
+      ],
+      "descriptors": {
+        "A": "communication of comprehensive design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "B": "communication of effective design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "C": "communication of design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "D": "communication of superficial design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "E": "communication of fragmented design ideas, processes and solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P03"
+      ],
+      "descriptors": {
+        "A": "purposeful selection and use of technologies to proficiently, skilfully and safely produce designed solutions",
+        "B": "effective selection and use of technologies to effectively, skilfully and safely produce designed solutions",
+        "C": "selection and use of technologies to skilfully and safely produce designed solutions",
+        "D": "simple selection and use of technologies to safely produce simple designed solutions",
+        "E": "basic selection and use of technologies to safely produce basic solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "discerning justification of decisions against developed design criteria that include sustainability",
+        "B": "logical justification of decisions against developed design criteria that include sustainability",
+        "C": "justification of decisions against developed design criteria that include sustainability",
+        "D": "partial justification of decisions against aspects of developed design criteria that include sustainability",
+        "E": "statement/s about design decisions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P05"
+      ],
+      "descriptors": {
+        "A": "independent and collaborative: proficient development of production and project management plans; proficient application of production and project management plans, adjusting processes when necessary.",
+        "B": "independent and collaborative: effective development of production and project management plans; effective application of production and project management plans, adjusting processes when necessary.",
+        "C": "independent and collaborative development and application of production and project management plans, adjusting processes when necessary.",
+        "D": "independent and collaborative: partial development of production and project management plans; partial application of production and project management plans, adjusting processes when necessary.",
+        "E": "independent and/or collaborative: fragmented development of production and project management plans; fragmented application of production and project management plans, adjusting processes when necessary."
+      },
+      "enabled": true
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-01d9ce2b",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-86f1030a",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-aa8bdb68",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-0655884a",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-2f87b215",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-9e6f3a37",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-0973a6e8",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-369bada8",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-aac966a0",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-95ef703e",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-c8a31b3c",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-051a62ee",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-fd41c34a",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-c49c5e7d",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-ff103fd9",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-93c95573",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-0966feda",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-cbaebdaf",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

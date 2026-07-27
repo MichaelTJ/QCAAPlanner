@@ -28,7 +28,7 @@
     {
       "id": "unit-f50q9mk9",
       "unitTitle": {
-        "value": "Unit 1 — Engineering",
+        "value": "Engineering",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -36,7 +36,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "1 Semester",
+        "value": "15 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -133,9 +133,29 @@
       ]
     },
     {
+      "id": "unit-80337f0d",
+      "unitTitle": {
+        "value": "3D Modelling Intensive",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "5 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this five-week intensive unit, students develop practical 3D modelling skills using SketchUp. Through a sequence of guided activities and short design challenges, they learn to create accurate geometric forms, use dimensions and scale, organise models with groups and components, apply materials, and present designs using scenes and appropriate views. The unit focuses on building confidence, precision and efficient modelling practices while demonstrating how digital models can be used to explore, communicate and refine design ideas. Rather than completing a formal assessment, students produce a collection of increasingly complex models that prepare them to use 3D visualisation and computer-aided design in future design projects.",
+        "aiNotes": ""
+      },
+      "assessments": []
+    },
+    {
       "id": "unit-h2fd7vxk",
       "unitTitle": {
-        "value": "Unit 2 — Sustainability",
+        "value": "Sustainability",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -143,7 +163,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "1 Semester",
+        "value": "10 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -152,7 +172,7 @@
       },
       "assessments": [
         {
-          "id": "assess-97ed703b",
+          "id": "assess-a6ba3761",
           "assessmentNumber": {
             "value": 3,
             "aiNotes": ""
@@ -193,15 +213,37 @@
             "value": "Monitoring: Week 6\nConferencing: Week 8",
             "aiNotes": ""
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "unit-84621cb0",
+      "unitTitle": {
+        "value": "Future Food Lab",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Term",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate the intersection of food specialisations and emerging technologies through the application of virtual reality (VR) in culinary contexts. Students explore how immersive digital environments can simulate kitchen safety, complex culinary techniques, and production workflows to improve efficiency and reduce resource waste. They examine the role of simulation in modern food industries, considering how virtual environments support skill development and ethical decision-making in high-risk or resource-intensive scenarios. Through the design process, students generate and represent original ideas for virtual cooking experiences, using graphical representation techniques and storyboards to communicate their design thinking. The unit emphasises innovation, user experience, and the strategic use of technologies to address contemporary challenges in food production and training for preferred futures.",
+        "aiNotes": "I have a VR Cooking unit to teach Grade 9 Design. I need a Unit description.\n\nHere's an example for a Sustainability unit:\n\nIn this unit, students explore sustainable living through the lens of resilience and self-sufficiency, examining how designed solutions can support survival and wellbeing in extreme or off-grid scenarios. Students investigate sustainability from ecological, economic, and social perspectives, considering how ethical decision-making, resource management, and long-term impacts influence design choices. Through analysis of real-world sustainable systems such as energy, water, food production, and shelter, students develop an understanding of how designers and engineers respond to challenges related to security, sustainability, and human needs. The unit emphasises thoughtful planning, innovation, and the responsible use of technologies to create sustainable living environments.",
+        "lastGenerated": "2026-07-13T04:56:47.493Z"
+      },
+      "assessments": [
         {
-          "id": "assess-29fcc0c5",
+          "id": "assess-f9eb1644",
           "assessmentNumber": {
             "value": 4,
             "aiNotes": ""
           },
           "title": {
-            "value": "Sustainability Exam",
+            "value": "Food Trends",
             "aiNotes": ""
           },
           "term": {
@@ -213,27 +255,28 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "In this assessment, students complete an examination that assesses their understanding of key sustainability principles. The exam includes questions on how designers analyse needs and opportunities, consider ethical and sustainability factors. Students demonstrate knowledge of ecological, economical and societal sustainability as well as sketching and representation techniques. This assessment focuses on students’ ability to explain and apply foundational sustainability design knowledge across product, service and/or environmental design contexts.",
-            "aiNotes": ""
+            "value": "In this design project, students investigate contemporary drivers of food trends to define a design opportunity within a professional culinary context. Students select a specific driver—such as sustainability, health and wellbeing, or cultural fusion—to guide the development of a designed solution. They apply divergent design thinking to generate and explore multiple concepts, evaluated against specific criteria: trend alignment, environmental sustainability, and aesthetic appearance. Through iterative refinement and the use of graphical representation techniques, students communicate a final dish design, justifying their decisions based on technical, environmental, and social factors. The production phase utilises virtual reality (VR) technology to simulate complex culinary workflows, allowing students to demonstrate production skills and manage safety and efficiency in a digital environment. Finally, students evaluate the success of their designed solution and the effectiveness of the virtual production process against the established design criteria.",
+            "aiNotes": "Task 1 – Identify the Driver (Define) \n\nChoose one modern driver of food trends to guide your design. \nExamples: \n\nHealth and wellbeing (e.g. high-protein, low-sugar, plant-based) \n\nEnvironmental sustainability (e.g. local produce, minimal waste) \n\nCultural fusion (e.g. mixing flavours or ingredients from different cultures) \n\nConvenience and lifestyle (e.g. meals for busy people, easy to prepare) \n\nDeliverable: \n\nA short paragraph explaining your chosen food trend driver \n\n \n\nTask 2 – Generate Ideas (Develop) \n\nUse divergent thinking to explore a wide range of ideas. \n\nFocus on one design criterion at a time. The 3 criteria are trend alignment, sustainability, appearance \n\nCreate at least five different ideas for each criterion \n\nUse sketches, notes, or diagrams to show your thinking \n\nDeliverable: \n\nA3 page showing idea generation and exploration (sketches, annotations, mind maps) \n\n \n\nTask 3 – Combine and Refine \n\nNarrow down and improve your ideas. \n\nCombine your best elements into 2–3 refined concepts \n\nJustify why each concept could work for the restaurant \n\nEvaluate against the criteria to see which one best suits \n\nDeliverable: \n\nA3 page showing refined ideas with annotations and justifications \n\n \n\nTask 4 – Final Design (Deliver) \n\nPresent your final dish design. \n\nClearly show what the dish looks like (drawings, photos, or digital visuals) \n\nExplain how it reflects your chosen food trend driver \n\nDescribe how it meets all three criteria \n\nDeliverable: \n\nA3 page showing your final concept with clear visuals and explanations \n\n \n\nTask 5 – Cook it in VR \n\nCreate a video of you cooking a representation of the dish in VR.  \n\nEvaluate how well your dish meets each design criterion \n\nDeliverable: \n\nCooking video presentation ",
+            "lastGenerated": "2026-07-13T05:03:16.627Z"
           },
           "technique": {
-            "value": "Examination",
+            "value": "Project",
             "aiNotes": ""
           },
           "mode": {
-            "value": "Written",
+            "value": "Multimodal",
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• up to 50 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+            "value": "2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
             "aiNotes": ""
           },
           "achievementStandard": {
-            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.\n",
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Cross marking within the department.",
+            "value": "Monitoring: Week 6\nConferencing: Week 8",
             "aiNotes": ""
           }
         }
@@ -242,7 +285,7 @@
     {
       "id": "unit-50ezxdpw",
       "unitTitle": {
-        "value": "Unit 3 — Product",
+        "value": "Product Design",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -250,7 +293,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "1 Semester",
+        "value": "20 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -259,7 +302,7 @@
       },
       "assessments": [
         {
-          "id": "assess-xqfw64ib",
+          "id": "assess-600a88f0",
           "assessmentNumber": {
             "value": 5,
             "aiNotes": ""
@@ -269,7 +312,7 @@
             "aiNotes": ""
           },
           "term": {
-            "value": 2,
+            "value": 1,
             "aiNotes": ""
           },
           "week": {
@@ -285,11 +328,11 @@
             "aiNotes": ""
           },
           "mode": {
-            "value": "Written",
+            "value": "Multimodal",
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• multiple choice\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -302,7 +345,7 @@
           }
         },
         {
-          "id": "assess-mn1rgqvk",
+          "id": "assess-7e6c9015",
           "assessmentNumber": {
             "value": 6,
             "aiNotes": ""
@@ -312,11 +355,11 @@
             "aiNotes": ""
           },
           "term": {
-            "value": 3,
+            "value": 2,
             "aiNotes": ""
           },
           "week": {
-            "value": 5,
+            "value": 8,
             "aiNotes": ""
           },
           "description": {
@@ -340,71 +383,7 @@
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Monitoring: Week 6\nConferencing: Week 8",
-            "aiNotes": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": "unit-8srai3xa",
-      "unitTitle": {
-        "value": "Unit 4 — Cooking",
-        "aiNotes": ""
-      },
-      "yearLevel": {
-        "value": 10,
-        "aiNotes": ""
-      },
-      "duration": {
-        "value": "1 Term",
-        "aiNotes": ""
-      },
-      "description": {
-        "value": "In this unit, students explore food design and preparation through the use of a virtual kitchen environment. They investigate how food trends have evolved over time, comparing historical food practices with contemporary and emerging trends influenced by culture, technology, health, and sustainability. Students examine how sensory and functional properties of food affect design decisions, including flavour, texture, presentation, and nutritional value. By working in a virtual cooking space, students develop an understanding of how technologies can be used to design, test, and communicate food solutions in innovative and safe ways, while considering social and cultural influences on food choices.",
-        "aiNotes": ""
-      },
-      "assessments": [
-        {
-          "id": "assess-9b3v7ht8",
-          "assessmentNumber": {
-            "value": 7,
-            "aiNotes": ""
-          },
-          "title": {
-            "value": "Food Trend Dish",
-            "aiNotes": ""
-          },
-          "term": {
-            "value": 1,
-            "aiNotes": ""
-          },
-          "week": {
-            "value": 10,
-            "aiNotes": ""
-          },
-          "description": {
-            "value": "In this assessment, students analyse historical and modern food trends and select one trend as the basis for a designed food solution. Students develop a design brief and plan a dish that reflects the chosen trend, considering sensory, functional, and sustainability factors. Using a virtual kitchen, students design and prepare their dish and create a VR cooking video that demonstrates the preparation process and final outcome. Students justify their design decisions in relation to the selected food trend and evaluate their solution against developed criteria, communicating their ideas and processes using digital technologies.",
-            "aiNotes": ""
-          },
-          "technique": {
-            "value": "Project",
-            "aiNotes": ""
-          },
-          "mode": {
-            "value": "Multimodal",
-            "aiNotes": ""
-          },
-          "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
-            "aiNotes": ""
-          },
-          "achievementStandard": {
-            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
-            "aiNotes": ""
-          },
-          "moderation": {
-            "value": "Monitoring: Week 6\nConferencing: Week 8",
+            "value": "Monitoring: Week 4\nConferencing: Week 6",
             "aiNotes": ""
           }
         }
@@ -413,7 +392,7 @@
     {
       "id": "unit-7vduw2c6",
       "unitTitle": {
-        "value": "Unit 5 — Empathy",
+        "value": "Designing for Country",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -430,21 +409,21 @@
       },
       "assessments": [
         {
-          "id": "assess-4p4tw72z",
+          "id": "assess-217715dd",
           "assessmentNumber": {
             "value": 8,
             "aiNotes": ""
           },
           "title": {
-            "value": "Human Centered Design",
+            "value": "Exam",
             "aiNotes": ""
           },
           "term": {
-            "value": 4,
+            "value": 3,
             "aiNotes": ""
           },
           "week": {
-            "value": 8,
+            "value": 10,
             "aiNotes": ""
           },
           "description": {
@@ -460,7 +439,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task\n• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations\n• design solutions as negotiated",
+            "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task\n• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -469,6 +448,72 @@
           },
           "moderation": {
             "value": "Cross marked within the department.",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-b368c58a",
+      "unitTitle": {
+        "value": "AgTech: Paddock to Product",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "1 Term",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate how food and fibre enterprises use design and technology to respond to production challenges and changing consumer needs. Students examine a local agricultural industry and identify an opportunity to improve the production, handling, storage, transport or marketing of its products. They develop and evaluate alternative ideas before producing a model or prototype of their preferred solution. Throughout the design process, students consider the needs of producers and customers, as well as safety, ethics, sustainability, cost and commercial viability. The unit develops practical design skills while introducing students to innovation and enterprise within Australia’s agricultural industries.\n",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-762fd4b4",
+          "assessmentNumber": {
+            "value": "9",
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "AgTech Enterprise",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this unit, students investigate authentic challenges within local food and fibre industries, ranging from cattle and poultry management to horticulture and rural mechanisation. Students apply design thinking to develop solutions that improve the production, handling, storage, or marketing of agricultural goods. By focusing on the needs of a specific producer or customer, students explore safety, ethics, and commercial viability while refining their technical production skills. Through the development of a model or prototype and a corresponding commercial proposal, students engage with innovation and enterprise, balancing practical constraints with creative, sustainable design. This unit emphasises the real-world application of design technologies in an agricultural context, preparing students to critically evaluate the lifecycle and impact of their designed solutions.",
+            "aiNotes": "Students investigate a real problem facing a local agricultural producer and design a solution that improves how food or fibre is produced, handled, stored, transported or marketed.\n\nThis would suit country boys because it could involve cattle, fishing, cropping, poultry, horticulture, beekeeping, rural machinery or livestock rather than feeling like another classroom sustainability project.\n\nPossible student projects\n\nStudents could design:\n\na safer livestock-feeding system\na portable animal shelter or shade structure\na better system for transporting produce\nan egg-collection or chicken-feeding system\na water-saving trough or irrigation system\na farm-gate produce stall\nprotective packaging for local produce\na storage system that reduces food spoilage\na device for safely handling livestock\na modular beehive transport or storage solution\na service for connecting local producers with customers\na redesigned product made from wool, timber or another local fibre\n\nThey would not all need to make the same product. They could select an agricultural sector, identify a producer or user, and develop a solution suited to that context.\n\nStrong assessment concept\nDesign brief\n\nDesign a product, service or environment that improves an aspect of a food or fibre enterprise. The solution must respond to the needs of a specific producer or customer and consider safety, ethics, sustainability, production costs and commercial viability.\n\nStudents would:\n\nSelect a food or fibre enterprise.\nInvestigate how the enterprise currently operates.\nIdentify a genuine production, handling or marketing problem.\nDevelop criteria with the producer or user in mind.\nGenerate and test alternative ideas.\nProduce a model, prototype or working product.\nDevelop a simple commercial proposal.\nEvaluate whether the solution is practical and viable.\n\nThe commercial proposal could include estimated production cost, sale price, target market, branding and how the design creates value. That brings in the innovation and enterprise emphasis of AC9TDE10K02 without turning the unit into a business subject.",
+            "lastGenerated": "2026-07-14T00:52:19.164Z"
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 4–6 A3 pages or equivalent digital portfolio including annotated sketches, technical drawings, and prototype photographs\n• Project management plan (inclusive of sequenced time, cost, and safety analysis)",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T00:52:33.731Z"
+          },
+          "achievementStandard": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "",
             "aiNotes": ""
           }
         }
@@ -499,7 +544,9 @@
         false,
         true,
         false,
-        false
+        false,
+        true,
+        true
       ]
     },
     {
@@ -525,7 +572,9 @@
         false,
         true,
         true,
-        false
+        true,
+        false,
+        true
       ]
     },
     {
@@ -548,6 +597,8 @@
       },
       "unitInclusions": [
         true,
+        false,
+        false,
         false,
         false,
         false,
@@ -575,9 +626,11 @@
       "unitInclusions": [
         false,
         false,
+        true,
         false,
         false,
-        false
+        false,
+        true
       ]
     },
     {
@@ -603,6 +656,8 @@
         false,
         false,
         true,
+        false,
+        false,
         false
       ]
     },
@@ -627,7 +682,9 @@
       "unitInclusions": [
         true,
         false,
-        true,
+        false,
+        false,
+        false,
         false,
         false
       ]
@@ -654,8 +711,10 @@
         true,
         false,
         true,
+        true,
+        true,
         false,
-        false
+        true
       ]
     },
     {
@@ -679,6 +738,8 @@
       "unitInclusions": [
         true,
         false,
+        true,
+        true,
         true,
         true,
         true
@@ -707,7 +768,9 @@
         false,
         true,
         true,
-        false
+        true,
+        true,
+        true
       ]
     },
     {
@@ -733,6 +796,8 @@
         false,
         true,
         true,
+        true,
+        false,
         true
       ]
     },
@@ -757,9 +822,11 @@
       "unitInclusions": [
         true,
         false,
+        true,
         false,
+        true,
         false,
-        false
+        true
       ]
     }
   ],
@@ -775,11 +842,15 @@
         true,
         true,
         true,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "cct-inquiring": [
           false,
+          false,
+          true,
           false,
           false,
           false,
@@ -788,18 +859,24 @@
         "cct-generating": [
           true,
           false,
+          true,
+          true,
           false,
           false,
-          false
+          true
         ],
         "cct-analysing": [
           true,
+          false,
           true,
           false,
+          true,
           false,
           false
         ],
         "cct-reflecting": [
+          false,
+          false,
           false,
           false,
           false,
@@ -811,72 +888,92 @@
         "cct-inquiring-develop-questions": [
           false,
           false,
+          true,
           false,
           false,
+          true,
           false
         ],
         "cct-inquiring-identify-process-evaluate": [
           true,
+          false,
+          true,
+          true,
           true,
           false,
-          false,
-          false
+          true
         ],
         "cct-generating-create-possibilities": [
           true,
           true,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true,
+          true
         ],
         "cct-generating-consider-alternatives": [
           true,
           false,
+          true,
+          true,
           false,
-          false,
-          false
+          true,
+          true
         ],
         "cct-generating-put-ideas-into-action": [
           true,
           true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "cct-analysing-interpret-concepts": [
           true,
           true,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true,
+          true
         ],
         "cct-analysing-draw-conclusions": [
           true,
+          false,
           true,
           false,
+          true,
           false,
           false
         ],
         "cct-analysing-evaluate-actions": [
           true,
+          false,
           true,
-          false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "cct-reflecting-metacognition": [
           false,
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "cct-reflecting-transfer-knowledge": [
           true,
+          false,
           true,
           false,
+          true,
           false,
-          false
+          true
         ]
       }
     },
@@ -889,12 +986,16 @@
       "unitInclusions": [
         true,
         true,
-        false,
         true,
-        false
+        true,
+        true,
+        false,
+        true
       ],
       "categoryInclusions": {
         "dl-safety-wellbeing": [
+          false,
+          false,
           false,
           false,
           false,
@@ -906,6 +1007,8 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "dl-creating-exchanging": [
@@ -913,9 +1016,13 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "dl-managing-operating": [
+          false,
+          false,
           false,
           false,
           false,
@@ -929,9 +1036,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "dl-safety-privacy-identity": [
+          false,
+          false,
           false,
           false,
           false,
@@ -943,6 +1054,8 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "dl-investigating-locate": [
@@ -950,9 +1063,13 @@
           true,
           false,
           false,
-          false
+          true,
+          false,
+          true
         ],
         "dl-investigating-acquire": [
+          false,
+          false,
           false,
           false,
           false,
@@ -961,22 +1078,28 @@
         ],
         "dl-investigating-interpret": [
           false,
-          true,
           false,
+          false,
+          false,
+          true,
           false,
           false
         ],
         "dl-creating-plan": [
           true,
           true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "dl-creating-communicate-collaborate": [
           true,
-          true,
           false,
+          true,
+          true,
+          true,
           false,
           false
         ],
@@ -985,9 +1108,13 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "dl-managing-content": [
+          false,
+          false,
           false,
           false,
           false,
@@ -999,12 +1126,16 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "dl-managing-operate": [
           false,
           true,
-          false,
+          true,
+          true,
+          true,
           false,
           false
         ]
@@ -1021,6 +1152,8 @@
         false,
         true,
         true,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
@@ -1029,6 +1162,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "eu-responding": [
@@ -1036,6 +1171,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ]
       },
@@ -1044,14 +1181,18 @@
           true,
           false,
           false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "eu-concepts-values-rights": [
           true,
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "eu-concepts-influences": [
@@ -1059,6 +1200,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "eu-responding-frameworks": [
@@ -1066,20 +1209,26 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "eu-responding-issues": [
           true,
           false,
+          true,
           false,
-          false,
-          false
+          true,
+          true,
+          true
         ],
         "eu-responding-decisions": [
           true,
           false,
-          false,
-          false,
+          true,
+          true,
+          true,
+          true,
           false
         ]
       }
@@ -1093,9 +1242,11 @@
       "unitInclusions": [
         true,
         false,
+        false,
+        false,
         true,
         true,
-        true
+        false
       ],
       "categoryInclusions": {
         "iu-reflecting": [
@@ -1103,9 +1254,13 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-engaging": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1117,6 +1272,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ]
       },
@@ -1126,6 +1283,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-reflecting-perspectives": [
@@ -1133,6 +1292,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "iu-reflecting-influence": [
@@ -1140,9 +1301,13 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-engaging-communicate": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1154,6 +1319,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "iu-engaging-empathy": [
@@ -1161,6 +1328,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-navigating-responses": [
@@ -1168,6 +1337,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-navigating-biases": [
@@ -1175,6 +1346,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "iu-navigating-adapt": [
@@ -1182,6 +1355,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ]
       }
@@ -1197,13 +1372,17 @@
         false,
         true,
         true,
-        false
+        true,
+        true,
+        true
       ],
       "categoryInclusions": {
         "lit-speaking-listening": [
           false,
           false,
           false,
+          false,
+          true,
           false,
           false
         ],
@@ -1212,9 +1391,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "lit-writing": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1228,12 +1411,16 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "lit-interacting": [
           false,
           false,
           false,
+          false,
+          true,
           false,
           false
         ],
@@ -1242,6 +1429,8 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "lit-understanding-texts": [
@@ -1249,9 +1438,13 @@
           false,
           false,
           false,
-          false
+          false,
+          true,
+          true
         ],
         "lit-phonological-awareness": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1263,9 +1456,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "lit-fluency": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1275,12 +1472,16 @@
         "lit-creating-texts": [
           true,
           false,
+          true,
+          true,
           false,
-          false,
-          false
+          true,
+          true
         ],
         "lit-grammar": [
           true,
+          false,
+          false,
           false,
           false,
           false,
@@ -1291,6 +1492,8 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "lit-spelling": [
@@ -1298,9 +1501,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "lit-handwriting-keyboarding": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1317,13 +1524,17 @@
       },
       "unitInclusions": [
         false,
+        true,
         false,
         false,
+        true,
         false,
-        false
+        true
       ],
       "categoryInclusions": {
         "num-number-algebra": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1335,6 +1546,8 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "num-statistics-probability": [
@@ -1342,11 +1555,15 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ]
       },
       "subElementInclusions": {
         "num-place-value": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1358,9 +1575,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "num-additive": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1372,9 +1593,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "num-fractions": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1386,9 +1611,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "num-patterns-algebra": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1400,16 +1629,22 @@
           false,
           false,
           false,
-          false
+          true,
+          false,
+          true
         ],
         "num-units-measurement": [
           false,
+          true,
           false,
           false,
           false,
-          false
+          false,
+          true
         ],
         "num-geometric-properties": [
+          false,
+          true,
           false,
           false,
           false,
@@ -1417,6 +1652,8 @@
           false
         ],
         "num-positioning": [
+          false,
+          true,
           false,
           false,
           false,
@@ -1428,6 +1665,8 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "num-chance": [
@@ -1435,12 +1674,16 @@
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "num-data": [
           false,
           false,
           false,
+          false,
+          true,
           false,
           false
         ]
@@ -1454,10 +1697,12 @@
       },
       "unitInclusions": [
         true,
-        false,
         true,
-        false,
-        false
+        true,
+        true,
+        true,
+        true,
+        true
       ],
       "categoryInclusions": {
         "psc-self-awareness": [
@@ -1465,9 +1710,13 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "psc-self-management": [
+          false,
+          true,
           false,
           false,
           false,
@@ -1479,9 +1728,13 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "psc-social-management": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1495,6 +1748,8 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "psc-emotional-awareness": [
@@ -1502,16 +1757,22 @@
           false,
           false,
           false,
+          false,
+          true,
           false
         ],
         "psc-reflective-practice": [
           false,
           false,
-          false,
+          true,
+          true,
+          true,
           false,
           false
         ],
         "psc-goal-setting": [
+          false,
+          true,
           false,
           false,
           false,
@@ -1520,6 +1781,8 @@
         ],
         "psc-emotional-regulation": [
           false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1527,8 +1790,10 @@
         ],
         "psc-perseverance": [
           false,
+          true,
           false,
           false,
+          true,
           false,
           false
         ],
@@ -1537,6 +1802,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "psc-relational-awareness": [
@@ -1544,6 +1811,8 @@
           false,
           false,
           false,
+          true,
+          true,
           false
         ],
         "psc-community-awareness": [
@@ -1551,16 +1820,22 @@
           false,
           false,
           false,
-          false
+          true,
+          true,
+          true
         ],
         "psc-communication": [
           false,
           false,
           false,
           false,
+          true,
+          false,
           false
         ],
         "psc-collaboration": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1572,16 +1847,22 @@
           false,
           false,
           false,
+          false,
+          false,
           false
         ],
         "psc-decision-making": [
           false,
           false,
           false,
-          false,
-          false
+          true,
+          true,
+          true,
+          true
         ],
         "psc-conflict-resolution": [
+          false,
+          false,
           false,
           false,
           false,
@@ -1603,7 +1884,9 @@
         false,
         false,
         false,
-        true
+        false,
+        true,
+        false
       ]
     },
     {
@@ -1613,6 +1896,8 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        false,
+        false,
         false,
         false,
         false,
@@ -1628,7 +1913,9 @@
       },
       "unitInclusions": [
         true,
-        true,
+        false,
+        false,
+        false,
         true,
         false,
         false

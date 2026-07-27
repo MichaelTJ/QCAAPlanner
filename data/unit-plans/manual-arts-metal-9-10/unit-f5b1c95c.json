@@ -1,0 +1,795 @@
+{
+  "id": "unit-f5b1c95c",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 2,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Junior Hacksaw",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 9 Metal Technology unit, students design and manufacture a functional junior hacksaw from solid metal bar. Students develop practical workshop skills including measuring and marking out, cutting, filing, bending, drilling, thread cutting, assembly and surface finishing. They learn to select and safely use appropriate hand tools, portable power tools and workshop equipment. Students also follow a design process to investigate existing products, develop and communicate design ideas using sketches and CAD, plan production and evaluate the quality and functionality of their completed product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-4846adfc",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Junior Hacksaw",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will manufacture a functional junior hacksaw to the supplied specifications, incorporating appropriate personalisation or design improvements. The practical project will be assessed on accuracy, functionality, quality of finish, application of production procedures, time management and safe workshop practices.\n\nStudents will also complete a project folio containing:\n\nA design brief, success criteria and identified constraints\nResearch and analysis of existing junior hacksaws\nInitial sketches and proposed design improvements\nA CAD model and dimensioned orthographic drawings\nA risk assessment and material cutting list\nA photographic record of the manufacturing process\nAn evaluation of the completed product and production processes\nPeer and self-evaluation\nAssociated theory questions covering workshop safety, tools, equipment, filing, corrosion protection and thread cutting",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 3–5 A3 pages or equivalent digital media pages for the project folio\n• Includes dimensioned orthographic drawings, CAD renders, and an annotated photographic record of the manufacturing process\n• Completed junior hacksaw prototype verified against functional specifications\n• Supervised workshop conditions for practical manufacturing sessions\n• Internal moderation: Standardisation of marking across the 9–10 Design and Technologies faculty to ensure consistent application of QCAA achievement standards.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:12.149Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 10 Technologies department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review a range of student work samples (A–E) against the assessment criteria to verify interpretation of standards.\n*   **Cross-marking:** Departmental validation of the ‘Junior Hacksaw’ project folio and practical product quality, ensuring marking guides are applied equitably across different teaching cohorts.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:13.497Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-98375371",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e1bf8e14",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bb129696",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8cd33d35",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1500b56e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0ed4b022",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-edc71ae9",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-8f06f89b",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-4f264709",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-b39ccc14",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-0391f18c",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-bf99a733",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-25e10da5",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-10ac49db",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-90faea1c",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the Junior Hacksaw project, examining the design brief and success criteria required for the manufacture of a high-quality metal hand tool. Teachers conduct an intensive workshop induction, establishing mandatory safety protocols, PPE compliance (safety glasses, closed-in footwear), and proper conduct in a metal fabrication space. Students participate in a tool identification workshop, learning to differentiate between hand tools and workshop equipment while mapping the production constraints inherent in the design process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "St Brendan's College Metal Workshop, PPE (safety glasses/aprons), workshop floor plan, tool display board, project design brief, safety induction checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component focuses on the principles of design, specifically interpreting design briefs and translating constraints into actionable manufacturing criteria. Students are introduced to the properties of common workshop metals, focusing on material selection, machinability, and sustainability considerations. Safety theory covers the identification of workshop hazards, the hierarchy of control, and the critical importance of maintaining a clean and orderly workspace to prevent accidents during production.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions focus on hands-on workshop familiarisation and safety drills. Students participate in a guided tour of the metal lab, identifying the locations of emergency stops, first aid stations, and designated safety zones for machine operation. Students are taught correct tool storage procedures and practice the safe setup of a workbench, ensuring they can identify and safely handle the basic hand tools required for the project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via a safety quiz following the induction and teacher observation of students demonstrating safe workshop entry and equipment handling procedures.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the junior hacksaw project, focusing on design brief requirements, success criteria, and manufacturing constraints. Workshop induction sessions establish essential safety protocols, PPE compliance, and tool identification, ensuring students can work safely in the metal workshop environment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-0db14d18",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a research and analysis phase, examining existing junior hacksaw models to identify common functional features, ergonomic design considerations, and assembly methods. Following this, students transition to the workshop to commence the marking out process on solid metal bar, ensuring their work aligns precisely with technical specifications and the project drawings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Junior hacksaw samples, engineer's squares, scribers, steel rules, centre punches, engineer's blue, technical working drawings.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the principles of accurate marking out using engineering tools such as squares, scribers, and centre punches. Students investigate the importance of datum lines and reference points in precision engineering to minimise waste and ensure component fitment. Theory lessons include analysis of ergonomic design, explaining how handle shape, blade tensioning mechanisms, and tool balance affect user comfort and operational efficiency.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply engineering marking out techniques to prepare the solid metal bar for cutting. They learn to use a try-square for perpendicularity and a steel rule for precise measurement. Practical activity includes the identification of reference edges on raw material and the application of engineer’s blue for clear scriber visibility during marking out operations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of the accuracy of marking out on the metal stock against the project working drawings, providing feedback before material is cut.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students research and analyse existing junior hacksaw designs to evaluate functional features and material choices. In the workshop, students begin the production phase by precisely measuring and marking out the solid metal bar in accordance with technical working drawings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-eba2c5cd",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students apply design thinking methodologies to improve the functionality of their hacksaw design, focusing on iterative refinement. Lessons guide students through techniques to modify or combine components to increase durability and performance. Workshop time is dedicated to mastering the physical application of hand tools, specifically the proper technique for manual hacksaw cutting and initial edge filing to clean up cut surfaces.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Bench vices, junior hacksaws, various metal files (flat, bastard), cross-cut saws, sketching paper, design thinking graphic organisers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions explore creative design strategies, including modification and elimination, to enhance product viability. Students learn the mechanics of the hacksawing process, specifically the geometry of saw teeth (pitch and set) and how these affect cutting speed and finish on different metals. Instruction also covers the safety and technique of flat filing to achieve square and smooth edges, including the correct stance and pressure application.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform controlled cuts on metal bar stock using a bench-mounted junior hacksaw, focusing on maintaining a straight line and correct stroke rate. Following the cut, students engage in file-work, practicing draw-filing to achieve a clean, deburred edge. This stage serves as a core skill-building exercise before students advance to more complex drilling and thread cutting tasks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the quality of the initial cut and filing, focusing on the ability to achieve a finish consistent with engineering standards and safe tool handling.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Design thinking is applied through strategies such as modifying, eliminating, or combining components to enhance the hacksaw's performance. Students document these improvements via annotated concept sketches while simultaneously practising basic hacksaw cutting techniques and initial edge filing in the workshop.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-66862681",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise their design choices for the junior hacksaw, articulating and justifying specific modifications against the established success criteria. This week transitions into the initial phases of Computer-Aided Design (CAD), where students are introduced to the formal conventions of orthographic projection to accurately represent their designed components in a digital environment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360, SolidWorks or equivalent), student computers, design brief, success criteria, project folio templates, examples of orthographic projections, technical drawing guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of effective design justification, requiring students to link their chosen modifications directly to the project's success criteria and identified constraints. The theory component also introduces the fundamental concepts of CAD software, specifically the principles of orthographic projection. Students learn about the importance of front, top, and side views, the use of hidden lines, and the correct alignment of features to ensure comprehensive and unambiguous representation of 3D objects in 2D space.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students formally document their final design choices and the rationale for their customisations within their project folios. Practical CAD sessions begin with students navigating the chosen software interface, establishing appropriate drawing planes, and creating initial 2D sketches of their hacksaw components. They apply the principles of orthographic projection by sketching primary views (front, top, side) for key components, ensuring correct alignment and the use of appropriate geometric constraints.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via teacher review of students' written design justifications and initial 2D CAD sketches, checking for clarity, adherence to orthographic conventions, and accurate representation of design intent.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their design choice and prepare a justification for their specific modifications against the success criteria. Concurrently, they transition to CAD modelling, learning the formal conventions of orthographic projection to accurately represent their designed components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-db10b8ec",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The primary focus this week shifts to the advanced digital documentation of the junior hacksaw components, with students generating fully dimensioned and labelled CAD models, including orthographic projections. Concurrently, workshop time is dedicated to the precise bending of the hacksaw frame, ensuring the formed shape strictly aligns with the finalised project drawings and design specifications.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, technical drawing standards (e.g., AS 1100), bending jigs, hydraulic press brake or workshop vice with bending tools, steel rules, protractors, engineers squares, metal stock for frame, safety gloves, PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons delve into the critical aspects of technical drawing standards, specifically focusing on dimensioning and annotation. Students learn about different types of dimensions (linear, radial, angular), proper placement, baseline dimensioning, and the use of leaders and symbols according to ISO or AS standards. Additionally, the mechanical properties of metals related to bending are discussed, including concepts such as yield strength, ductility, and spring-back, which are crucial for achieving accurate bends without material failure. Safe operation procedures for bending equipment are also covered.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete their CAD models by adding precise dimensions and annotations to all orthographic views (front, top, side) and any necessary sectional views of the hacksaw components. This ensures their digital documentation is production-ready. In the workshop, students use bending jigs or a hydraulic press brake to accurately form the main frame of the junior hacksaw from the prepared metal stock. Emphasis is placed on precise measurement, marking bend lines, controlling bend angles, and carefully checking the resulting geometry against their technical drawings.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the completeness and accuracy of CAD drawings, specifically the correct application of dimensioning standards. Practical observation and measurement of the bent hacksaw frame for angular accuracy and adherence to critical dimensions specified in the drawings.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to digital documentation as students generate dimensioned and labelled CAD models including front, top, and side views. Workshop time is dedicated to the precise bending of the hacksaw frame, ensuring all forms align strictly with the finalized project drawings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-9512565a",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop a comprehensive project risk assessment document, identifying potential hazards associated with the tools and equipment involved in the hacksaw's manufacture and outlining the necessary mitigation controls. Practical lessons provide intensive instruction and practice on the safe and accurate operation of the drill press, emphasising correct work-holding methods, appropriate drill bit selection, and precise drilling of all frame assembly holes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Risk assessment templates, drill press, machine vice, C-clamps, safety glasses, ear protection, various HSS drill bits, cutting fluid, centre punch, hammer, drill bit sharpening guide, workshop safety posters.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Detailed instruction is provided on the principles of risk assessment, guiding students through identifying hazards, assessing risks, and implementing control measures using the hierarchy of controls (eliminate, substitute, isolate, engineering controls, administrative controls, PPE). Specific hazards related to drilling operations, such as entanglement, flying swarf, and workpiece rotation, are thoroughly examined along with their corresponding safety procedures. Theory also covers drill bit nomenclature (e.g., HSS, jobber), correct drill bit selection for various materials, and determining appropriate cutting speeds (RPM) to prevent bit breakage or material overheating.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply risk assessment methodology to their project, completing a comprehensive written risk assessment that details specific hazards, potential harm, and control measures for each stage of the hacksaw manufacturing process, with particular attention to drilling. In the workshop, students receive hands-on training with the drill press. They practice securely clamping their hacksaw frame components, selecting the correct drill bits, setting the appropriate spindle speed, and accurately drilling pilot holes and final assembly holes according to their technical drawings. Emphasis is placed on using cutting fluid, safe body positioning, and deburring drilled holes.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the completed project risk assessment, checking for thoroughness, accuracy, and clear identification of hazards and controls. Practical observation of drill press setup, safe operation, work-holding techniques, and the accuracy and quality of drilled holes in the hacksaw components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students develop a comprehensive project risk assessment, identifying hazards associated with tools and equipment while documenting mitigation controls. Practical lessons emphasise safe drill press operation, focusing on correct work-holding methods, drill bit selection, and accuracy when drilling frame assembly holes.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-b8e6d45d",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the fundamental engineering principles of fastening and assembly. Students explore the technical aspects of internal and external thread systems, learning how to correctly identify pitch and diameter. Workshop sessions provide hands-on experience using precision cutting tools, where students apply systematic procedures to create functional threads within their hacksaw components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Metric tap and die sets, tap wrenches, drill press, correct size drill bits, cutting fluid, Vernier calipers, thread pitch gauges.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the geometry of ISO metric screw threads and the specific terminology associated with thread cutting, including tap drills, clearance, and thread engagement. Students examine the mechanics of using an engineering tap and die set, focusing on the importance of maintaining perpendicular alignment to ensure fastener integrity. Concepts of lubrication and friction are discussed, highlighting the role of cutting fluid in heat dissipation and chip evacuation during the thread-cutting process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical lessons involve the setup and operation of a pedestal drill for drilling tap-holes, followed by the careful application of hand taps and dies to create threads in the hacksaw frame. Students practice steady, incremental turning and reversing of the tools to break off metal chips, preventing tap breakage and ensuring high-quality thread formation. Emphasis is placed on the consistent use of cutting oil and verifying the fitment of fasteners against their workpieces.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via practical observation of the threading process and a technical check of the fitment between the tapped holes and threaded fasteners for precision and thread cleanliness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons explore the mechanics of internal and external threads, focusing on thread terminology and the correct application of engineering taps and dies. Students apply this knowledge in the workshop to cut precise threads, utilising cutting fluid and proper technique to ensure fastener integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-4dddd237",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students pivot to project management and documentation by formalising their material cutting lists and populating their photographic production records. The workshop focus shifts to the final assembly of the junior hacksaw, where students perform the critical task of blade installation, tensioning, and quality testing for ergonomics and functionality.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/tablets, folio templates, junior hacksaw blades, tensioning screws/thumbscrews, workshop assembly area, test materials (scrap metal).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on technical documentation, specifically the importance of accurately recording the 'as-built' status of the project using appropriate workshop terminology in the photographic folio. Students explore the physics of blade tensioning, understanding how the hacksaw frame acts as a spring-loaded system. Theory lessons also review the ergonomics of hand-tool assembly, discussing how handle alignment and frame balance directly influence user safety and operational efficiency during subsequent metal cutting tasks.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete their material cutting lists, reflecting on actual usage compared to their original estimates. In the workshop, they perform the final assembly, including installing the tensioning mechanism and the hacksaw blade. Practical time is used to test the hacksaw's performance on scrap metal, making minor adjustments to the tensioning screw and grip comfort to ensure the tool meets the success criteria for functionality.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of the photographic record and material cutting list for compliance with project documentation requirements. Summative check of the final hacksaw assembly for blade tension and frame alignment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete their material cutting lists and begin the formal photographic production record using appropriate technical terminology for annotations. The practical focus is on the final assembly of the hacksaw, including blade installation and testing for tension, comfort, and general functionality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-0e3da181",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "In the final week of production, students focus on refining the surface quality of their metalwork. Lessons cover advanced metal finishing, including the progressive use of filing grades and the application of portable power tools for surface enhancement. Students complete their projects by addressing imperfections and applying anti-corrosion treatments to ensure a professional finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Files (bastard, second cut, smooth), wet-and-dry abrasive paper, wire wool, anti-corrosion oil, deburring tools, PPE (masks, gloves, eye protection).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching explores the science of surface finish, specifically the hierarchy of metal files (bastard, second cut, smooth) and the use of abrasive media. Students learn about the electrochemical process of oxidation (corrosion) and how protective barriers, such as oils or surface coatings, mitigate rust on carbon steel components. The safety theory for power tools, such as the angle grinder or bench-mounted deburring wheel, is reinforced, focusing on the mitigation of high-speed projectile hazards and vibration management.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a multi-stage finishing process on their hacksaw frames, beginning with draw-filing to remove deep scratches and progressing to fine-grit wet-and-dry paper for a smooth finish. Students safely use portable power tools (where applicable) to deburr edges and polish surfaces to a professional standard. The final practical activity is the application of a protective lubricant or rust inhibitor to preserve the metal finish and prepare the completed hacksaw for final evaluation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative inspection of the project's aesthetic finish and quality, assessing the removal of sharp edges and the overall professionalism of the surface preparation against the project rubric.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Lessons review advanced metal finishing processes including filing grades, the use of portable power tools for surface refinement, and anti-corrosion techniques. Students finalise their projects by removing imperfections such as scratches and sharp edges to achieve a professional-quality surface finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    },
+    {
+      "id": "week-274afeb2",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct a summative evaluation by comparing their finished hacksaw against the initial design brief, constraints, and success criteria. The unit concludes with formal project submission, peer reflection, self-assessment, and the completion of final theory questions regarding metalwork processes.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:24:39.358Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

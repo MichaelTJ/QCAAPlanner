@@ -1,0 +1,795 @@
+{
+  "id": "unit-397b477d",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Engineers Square",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 9 Metal Technology unit, students design and manufacture an engineer’s square from aluminium or mild steel. Students develop practical skills in accurate measuring and marking out, cutting, filing, shaping, drilling, countersinking, riveting and surface finishing. They investigate existing products, develop and communicate design ideas using sketches and CAD, and make appropriate modifications within the project specifications. Throughout the unit, students learn to select and safely use workshop tools and equipment, follow risk-control procedures and evaluate the accuracy, function and quality of their finished product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-f5fe53ae",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Assessment 1",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will individually design and manufacture a functional engineer’s square to the supplied specifications. The completed product should demonstrate accuracy, squareness, secure assembly, smooth safety edges and a high-quality surface finish. Students may personalise or adapt aspects of the design where these changes do not affect its function.\n\nStudents will also complete a project folio documenting the design and production process. The folio will include:\n\nA design brief, success criteria and project constraints\nResearch and analysis of existing products\nInitial sketches and proposed design improvements\nA CAD model with dimensioned orthographic views\nA risk assessment and material cutting list\nA photographic record of the manufacturing process\nAssociated workshop theory and safety questions\nA final evaluation and peer evaluation\n\nAssessment will consider students’ understanding of materials, tools and production processes, as well as their ability to generate ideas, work safely, manufacture accurately, manage time and evaluate the completed solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Project folio: up to 7 A4 pages or equivalent digital format, including sketches, CAD documentation, and photographic records\n• Manufacturing task: in-class production under supervised workshop conditions\n• Safety compliance: must adhere to all St Brendan’s College Workshop Safety protocols, including mandatory PPE and tool-specific induction logs\n• Timeframe: 10-week development and construction period, inclusive of planning and evaluation phases",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:00.042Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 10 Industrial Technology faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Production Standards Moderation:** A scheduled workshop \"benchmarking\" session in Week 8 where teachers compare physical student work samples against the \"Engineers Square\" success criteria to ensure objective and consistent application of the marking guide.\n*   **Final Grade Calibration:** Departmental meeting in Week 10 to review borderline student folios and final products, ensuring the alignment of summative evidence with the Year 10 achievement standards for Materials and Technologies Specialisations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:07.874Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-a754b251",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-39a8d267",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8634d4eb",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3cbfe290",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-a04fbb59",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-67c8ed96",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e0de66b1",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-abcdc151",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-cceeaafc",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-3647dcd7",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-9af514eb",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-3a4491f4",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-9984606f",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-23da0978",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-c8d97267",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the design brief, functional requirements and safety protocols inherent in metalwork. They conduct a comprehensive workshop induction, focusing on personal protective equipment and the identification of potential hazards to establish a culture of safety. The week concludes with the commencement of the design brief and the initial exploration of measuring and marking-out tool techniques.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop safety induction manual, PPE (safety glasses, aprons), engineers' squares, scribers, engineers' blue, scrap metal pieces, technical drawing samples.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on workshop safety culture and risk mitigation strategies, including the correct use of Personal Protective Equipment (PPE). Students are introduced to the engineering design process, focusing on interpreting design briefs and success criteria. Concepts include material selection criteria, such as the ductility and machineability of mild steel versus aluminium, and the fundamental principles of precise metal marking.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical induction activities involve navigating the workshop, identifying emergency stops and safety zones, and demonstrating safe tool handling. Students conduct initial marking-out exercises on scrap metal using engineers' blue, scribers, and combination squares to develop manual dexterity and precision before commencing actual project components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher observation of safe workshop practices and competency-based safety induction checklist.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the design brief, functional requirements and safety protocols inherent in metalwork. They conduct a comprehensive workshop induction, focusing on personal protective equipment and the identification of potential hazards to establish a culture of safety. The week concludes with the commencement of the design brief and the initial exploration of measuring and marking-out tool techniques.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-35cff309",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students perform a comparative research analysis on existing engineer's squares to inform their own design decisions while considering material properties like aluminium and mild steel. In the workshop, students interpret technical drawings and apply precision marking techniques to the blade and stock. This process emphasises the necessity of accurate scribing and centre-punching to ensure future machining success.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample engineer’s squares, vernier calipers, steel rules, scribers, centre punches, ball-peen hammers, technical drawings/CAD templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation into the function and geometry of an engineer’s square, focusing on how squareness is achieved and maintained. Explicit teaching of orthographic projection conventions used in metal fabrication, including dimensions, centrelines, and hidden details. Students evaluate material properties, discussing the trade-offs between surface finish, strength, and corrosion resistance for their chosen materials.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply technical drawing dimensions to their stock material using precision measurement tools. Practical work focuses on systematic marking-out of the blade and stock, including the use of dividers for layout and centre punches for marking drill locations. Students perform a 'check-measure' process with peers to verify the accuracy of their scribed lines against the provided specifications.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Monitoring of marking-out accuracy and documentation of research in the initial pages of the project folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students perform a comparative research analysis on existing engineer's squares to inform their own design decisions while considering material properties like aluminium and mild steel. In the workshop, students interpret technical drawings and apply precision marking techniques to the blade and stock. This process emphasises the necessity of accurate scribing and centre-punching to ensure future machining success.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-9c5c7a23",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Design development continues with students producing detailed sketches and proposing personalised features for their project. They evaluate these design iterations against constraints before finalising their chosen plan. Workshop activities focus on rough-cutting materials to size and mastering manual filing techniques to achieve straight, accurate edges on all components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hacksaws, metal files (flat and bastard), bench vices, master square, folio templates for design sketches, personal protective equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Focus on design iteration and evaluation, where students weigh aesthetic modifications against functional integrity. Explicit teaching of filing techniques, including draw-filing to achieve smooth, flat surfaces and square edges. Discussion on the importance of tolerances in engineering and how manual filing processes can impact the final fit and accuracy of the square's assembly.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete rough-cutting of components using hacksaws or bandsaws with close supervision. The majority of lesson time is dedicated to bench work, using vices and files to remove saw marks and bring edges to the scribed layout lines. Students practice consistent filing strokes and checking squareness using a trial square as they refine component shapes.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of student folio sketches and check of initial component squareness using a master square.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Design development continues with students producing detailed sketches and proposing personalised features for their project. They evaluate these design iterations against constraints before finalising their chosen plan. Workshop activities focus on rough-cutting materials to size and mastering manual filing techniques to achieve straight, accurate edges on all components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-18d84268",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in digital literacy by generating precise CAD models and orthographic projections of their engineer's square components, focusing on accurate dimensioning and views. Concurrently, they continue to refine the physical components in the workshop, meticulously filing edges to achieve squareness and parallelism in preparation for assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360, Onshape), computers, projectors for demonstrations, digital templates for orthographic views, metal files (flat, hand, square), bench vices, engineers' squares, master square, surface plates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the principles of computer-aided design (CAD) software, including creating 2D sketches, extruding 3D models, and applying geometric constraints. Emphasis is placed on generating dimensioned orthographic projections (front, top, side views) to industry standards, understanding projection symbols and annotation conventions. Theory also covers the advanced techniques of precision filing, such as achieving truly parallel and perpendicular surfaces, and the importance of these tolerances for the square's functional accuracy.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use CAD software to model both the blade and stock components of their engineer's square, applying all specified dimensions and geometric relationships. They generate and annotate orthographic projections, including critical dimensions for manufacturing. In the workshop, students continue bench filing, employing advanced techniques to achieve the final dimensions and precise squareness of all component edges. Regular checks using a master square and surface plate are performed to ensure accuracy and remove any remaining irregularities.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher checks of CAD model progress and the accuracy of orthographic projections in the folio. Practical observation of students' filing techniques and dimensional accuracy of components using a master square.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to digital literacy as students generate CAD models and orthographic projections, including front, top and side views with precise dimensions. Simultaneously, in the workshop, students continue the filing process to refine component shape and squareness. They prioritise removing irregularities and ensuring that edges are parallel in preparation for assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-1cc21842",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on developing essential safety documentation through a comprehensive risk assessment for power tools and compiling a material cutting list. Practical workshop time is dedicated to mastering the safe and accurate operation of the drill press, with emphasis on secure work-holding and precise hole drilling.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Risk assessment templates, material cutting list templates, drill press, various drill bits, machine vices, clamps (G-clamps, step clamps), cutting fluid, safety glasses, ear protection, project drawings with hole dimensions.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students learn the systematic process of developing a workshop risk assessment, including identifying specific hazards associated with drilling and power tools, assessing risk levels, and proposing control measures (e.g., guarding, PPE, safe operating procedures). Theory also covers the principles of material optimisation when creating a cutting list to minimise waste. Instruction on drill bit terminology, appropriate drill speeds and feeds for different metals, the purpose of pilot holes, and critical drill press safety procedures, including machine guarding and secure work-holding.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete a detailed risk assessment for the drilling process, outlining hazards and control measures. They also finalise a material cutting list for their project, ensuring efficient use of stock. In the workshop, a comprehensive demonstration of drill press operation and safety protocols is conducted. Students then accurately transfer their marked hole locations to the physical components, using a centre punch. Under close supervision, they proceed to drill pilot holes and then final holes to the specified diameter, prioritising secure clamping and correct technique.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of completed risk assessment and material cutting list in the project folio. Observation and checklist assessment of safe drill press operation and the accuracy of drilled holes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students develop a rigorous risk assessment identifying hazards related to drilling and power tools, supported by a formalised material cutting list. In the workshop, the focus is on safety during drill press operations, specifically regarding work-holding and clamping. Students accurately transfer their marked locations to the material and drill pilot and final holes to the specified tolerances.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-5267ff74",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students investigate the technical aspects of fastening, focusing on appropriate drill size selection, countersinking, and different rivet types. Practical activities involve deburring all drilled holes, performing accurate countersinking, and conducting dry-fit assemblies to ensure precise alignment before final riveting.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Deburring tools, countersinks, hand files, various rivet types for demonstration, hand riveters, project components (blade and stock), master square, surface plate, calipers/depth gauge for countersink measurement.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the principles of mechanical fastening, specifically focusing on riveting. This includes understanding the relationship between rivet diameter and drill size, the purpose and process of countersinking to ensure flush rivet heads, and the identification of different rivet types (e.g., solid rivets, pop rivets) and their suitable applications. Students learn the importance of deburring to prevent stress concentrations and ensure a clean fit, and the critical role of dry-fitting components to verify alignment and squareness prior to permanent assembly.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students meticulously deburr all drilled holes on both the blade and stock components using deburring tools or a larger drill bit. Following this, they are instructed on the correct use of countersinks and proceed to countersink holes to the required depth and angle, ensuring the rivet heads will sit flush. Practical work culminates in performing dry-fit test assemblies of the blade to the stock. Students critically evaluate the alignment, squareness, and overall fit of the components, making any minor adjustments necessary before proceeding to the final fastening stage.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher check of deburred and countersunk holes for quality and accuracy. Observation of students' dry-fit assembly for correct alignment and identification of any issues.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week explores the technical aspects of fastening, including drill size selection, countersinking processes and rivet types. Students explain the technical rationale for alignment and secure assembly. Practical work involves deburring holes and performing dry-fit test assemblies to verify component alignment before the final fastening process.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-cfe9f5b3",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the engineering requirement of geometric accuracy, specifically the concept of tolerances in precision tools. Students transition to the final assembly of their project, learning to safely and securely rivet the blade to the stock. Systematic quality assurance checks are performed to ensure the tool meets functional right-angle specifications.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Solid rivets, ball-peen hammers, rivet punches/sets, precision surface plates, master engineers' squares, calipers, protective eyewear, workbench vices.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the importance of tolerances in engineering and why 'squareness' is a critical constraint for measuring tools. Theory covers the physical properties of rivets and the mechanical advantage they provide when joining components. Students are taught the procedure for conducting a formal quality check, including the use of an engineer’s square and surface plate to verify 90-degree alignment and identify necessary adjustments.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a dry-fit assembly followed by the final riveting process using a ball-peen hammer and rivet set or pneumatic riveter. They learn to manage material expansion and ensure the rivet head sits flush. Workshop time is dedicated to testing the square's accuracy; students use a 'flipped-square' test on a precision surface to detect and rectify any angular discrepancies.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the assembly's structural integrity and check of squareness using master reference tools. Peer-check verification documented in the folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students examine the concepts of tolerance and the geometric necessity of squareness in measuring tools to ensure future accuracy. Workshop time is dedicated to the assembly phase, where students rivet the blade to the stock. They apply systematic quality checks to verify the tool's right angle and perform minor adjustments to ensure the square functions as intended.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-8c5bc657",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students investigate metal surface finishing techniques to prevent corrosion and enhance the aesthetic quality of their engineer's square. The week involves comparing different abrasive media and surface treatments such as bluing or oil-based rust prevention. Students apply these techniques in the workshop, focusing on achieving a consistent and professional finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Wet-and-dry abrasive paper, sanding blocks, chemical bluing agent, clean rags, light machine oil, nitrile gloves, chemical storage cabinet, PPE (respiratory and skin protection).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons cover surface science, including the oxidation process and how protective barriers like black oxide (bluing), paint, or light oil films function as corrosion inhibitors. Students learn about abrasive hierarchy, discussing the grit progression required to move from raw, filed surfaces to a polished or brushed metal finish. Discussion focuses on how environmental factors influence material life cycles and why consistent surface care is vital for tool longevity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop activities involve a structured abrasive sequence, progressing from coarse files to wet-and-dry emery paper (typically 240 to 600 grit) to remove all surface scratches and burrs. Students apply their chosen finish—such as chemical bluing for mild steel components—while observing strict chemical safety protocols. They practice applying protective coatings uniformly to ensure a high-quality, durable surface finish.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of surface consistency and quality. Checklist assessment of adherence to finishing safety procedures.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate metal surface preparation and the protective benefits of finishes like bluing, oil, or paint. They compare different abrasive grades to determine the best approach for achieving a professional finish. In the workshop, they meticulously sand, file and polish the metal surfaces to remove all burrs and tool marks, preparing the project for its final protective coating.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-57e3f19f",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise their project folio by curating their manufacturing journey, highlighting the iterative nature of their design and construction. They evaluate the completed tool against their initial design brief and success criteria. Workshop time is prioritised for final functional testing and verifying that all safety standards have been met prior to final submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/devices for documentation, folio templates, final evaluation rubrics, workshop cleaning supplies (brushes, rags, machine oil), secure storage for final assessment submission.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the structure of a formal design evaluation, including how to measure the effectiveness of a solution against technical specifications. Students reflect on their risk management and project planning successes, identifying potential improvements in their workflow. Theory also covers the final presentation requirements for the project folio, ensuring all required sections are complete and correctly annotated.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students capture final high-quality photographs of the completed square for their folio. They conduct a final, rigorous evaluation test, documenting the tool’s functional accuracy and aesthetic outcome. The workshop concludes with a comprehensive cleanup, involving the proper cleaning, oiling, and storing of all personal and shared tools used throughout the unit to maintain workshop longevity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the engineer's square and the accompanying project folio, assessed against the unit criteria (design, manufacture, safety, and evaluation).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their folio by documenting the manufacturing journey through ordered procedures and annotated photography. They evaluate the tool against its original design brief and success criteria. Workshop time is spent conducting final functional testing of the square's accuracy and ensuring all safety requirements have been met prior to final submission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    },
+    {
+      "id": "week-4e3a3313",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week centres on critical reflection and professional closure. Students engage in a structured 'debrief' of their manufacturing journey, conducting formal peer evaluations to critique the functional and aesthetic quality of each other's squares. The experience concludes with a methodical workshop restoration process, ensuring all tooling is accounted for and workspaces are returned to industry standards of cleanliness.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Peer evaluation rubrics, project folios, cleaning equipment (degreaser, cloths, oil spray, wire brushes), tool inventory checklists, and project storage solutions.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students participate in a reflective analysis session, where they explicitly link their production outcomes back to the project constraints and success criteria defined in Week 1. Theory focuses on the evaluation phase of the design process, prompting students to articulate the rationale behind their specific construction choices, such as file handling or fastening techniques. A final discussion on engineering ethics and workshop stewardship is held to reinforce the responsibility of maintaining high-quality tools and safe, shared environments.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to peer-reviewing finished projects using a rubric focused on squareness, surface finish, and assembly integrity. Students capture final data points for their folio reflections before participating in a comprehensive workshop 'end-of-life' protocol. This involves the systematic cleaning, oiling, and inventory check of all hand tools, followed by the deep cleaning of workbenches and the safe disposal of project waste to meet industry health and safety standards.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Final evaluation component of the project folio is submitted alongside the physical engineer’s square. Peer feedback is documented as part of the formative reflection process.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with students reflecting on their production journey and evaluating the strengths and weaknesses of their design and construction choices. They engage in peer evaluation to discuss the effectiveness of their manufacturing processes. The week is rounded out by the final presentation of the folio and the cleaning of workshop tools and workspaces.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:17:55.808Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

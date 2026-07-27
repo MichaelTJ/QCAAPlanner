@@ -1,0 +1,903 @@
+{
+  "id": "unit-e4709695",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 5,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Project management - GDevelop",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 8",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 9",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "12 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students will design and develop a digital game using GDevelop. They will begin by exploring how game engines work, including frames, inputs, events, collisions, movement, graphics, and the game loop. Students will practise decomposing simple games into smaller systems and create a basic prototype before beginning their major project. For the assignment, students will work in groups to research existing games, analyse user experience, and design an original or modified game concept that considers flow, challenge, feedback, clarity, and player engagement. Using agile project management methods, students will create a Kanban board, break their project into manageable tasks, hold regular team meetings, and iteratively develop their game through prototyping, testing, feedback, and refinement. By the end of the unit, students will produce a playable game and evaluate how effectively their design decisions, development process, and final product meet the intended user experience.\n",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-9d96a885",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Project Development - Game",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assignment, students will work in groups to design and develop a playable digital game using GDevelop. Students will begin by researching existing games and analysing how user experience features such as controls, feedback, challenge, flow, visuals, instructions, and level design affect player engagement. They will then create their own game concept, decompose it into smaller systems, and plan the development process using agile project management methods.\n\nEach group will create and maintain a Kanban board in Trello to organise tasks, manage responsibilities, track progress, and respond to problems during development. Students will build their game through prototyping, testing, feedback, and refinement. They will collect player feedback, make improvements based on that feedback, and keep evidence of their design and development process.\n\nThe final submission will include a playable GDevelop game, evidence of planning and project management, research into existing games, design documentation, testing and feedback evidence, and an evaluation of how effectively the final game meets the intended user experience.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-f053fe6d",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how hardware and software manage, control and secure access to data in networked digital systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-257c1fa4",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b17ae4da",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "validate algorithms and programs by comparing their output against a range of test cases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fdc187df",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design and prototype the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6d5cc0c9",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and critically evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-340482c2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-65e5992a",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9c5ba5de",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9d6a0561",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P12",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-e8c871db",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-054fdee1",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Protect content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": true,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-a7c2c456",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Responding to ethical issues: Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-7cd62f85",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-6d32e835",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Speaking and listening: Listening; Interacting; Speaking\nWriting: Creating texts; Handwriting and keyboarding",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": true,
+        "lit-interacting": true,
+        "lit-speaking": true,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": true
+      }
+    },
+    {
+      "id": "ucap-311ad639",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-2795fc93",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Personal awareness; Emotional awareness\nSelf-management: Goal setting; Emotional regulation; Perseverance and adaptability\nSocial awareness: Empathy; Relational awareness\nSocial management: Communication; Collaboration; Leadership; Decision-making; Conflict resolution",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": true,
+        "psc-emotional-awareness": true,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": true,
+        "psc-perseverance": true,
+        "psc-empathy": true,
+        "psc-relational-awareness": true,
+        "psc-community-awareness": false,
+        "psc-communication": true,
+        "psc-collaboration": true,
+        "psc-leadership": true,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": true
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-3c3a649a",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the core concepts of game development, including the game loop (input, update, draw). Exploration of the GDevelop environment, identifying the interface, project structure, and the logic of event-driven programming. Discussion on the importance of frames and refresh rates in real-time interactivity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GDevelop software, teacher-led demonstration slides, 'Intro to Game Loop' worksheet, sample project files.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Overview of game engine architecture; principles of the game loop; introduction to event-sheet logic versus traditional procedural coding; GDevelop interface navigation and file management best practices.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Initial familiarisation with GDevelop; creating a 'Hello World' project; exploring built-in templates; identifying and manipulating game objects, sprites, and background layers.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "No formal assessment; observational assessment of initial software competency and understanding of the game loop.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to game engines, the game loop, and the mechanics of GDevelop interfaces.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-f03f7491",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on computational thinking through decomposition of game mechanics. Teachers guide students in breaking down movement into coordinate-based changes and defining collision triggers as Boolean logic conditions. Introduction to input handling for character control.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GDevelop tutorial library, decomposition graphic organiser, input-action mapping worksheet, GDevelop help documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Decomposition of user-controlled movement; understanding event conditions (if/then) and actions; principles of collision detection and Hitbox management; exploring input variables.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Developing a basic player character; implementing keyboard-based movement (x/y axis control); configuring collision masking and triggers for simple interactions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check: students demonstrate a sprite moving in response to user input.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Decomposing game logic: inputs, events, movement, and collision detection systems.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-30848e5f",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Transition from individual mechanics to iterative prototyping. Students identify technical constraints and performance bottlenecks. Introduction to agile methodology concepts such as 'minimum viable product' (MVP) and the role of testing in refining game feel.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Trello accounts, prototyping feedback log template, GDevelop debugging tools, project management planning guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to Agile project management in a digital context; identifying technical constraints; the role of rapid prototyping; iterative testing and debugging strategies.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Building a fundamental game prototype; setting up a Trello Kanban board for the major project; conducting 'bug-hunting' sessions to document technical limitations and feedback.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Initial Kanban board setup; reflection on prototype limitations and identified project constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Prototyping fundamental mechanics and identifying technical constraints through iterative testing.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-8ce3291a",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students analyse game mechanics and user experience through a 'play-and-critique' workshop. Teachers guide the evaluation of flow (pacing), challenge (difficulty curves), and visual feedback (juice/particle effects). Students apply these concepts to their own game concepts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Game design evaluation template, case study examples (indie games), UX feedback log, GDevelop project documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of User Experience (UX) design in games; mechanics of game flow; balancing challenge and frustration; the role of visual and auditory feedback in player engagement; game design clarity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Researching and documenting existing games; using comparative analysis frameworks to evaluate UX features; applying findings to refine game mechanics; brainstorming feedback loops for player progression.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: UX critique report based on research into existing game examples.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "User Experience (UX) analysis: researching game flow, challenge, and visual feedback design.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-13c852ed",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on the transition from conceptualisation to implementation using Agile methodology. Teachers lead a workshop on decomposing game requirements into functional 'User Stories' and mapping these to a shared Kanban board in Trello.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Trello project boards, user story templates, collaborative planning checklists, group project role descriptions.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Agile project management concepts: Sprints, User Stories, and Kanban workflow; collaboration strategies for group projects; task prioritisation based on dependencies and technical complexity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Developing the group's product backlog; writing user stories to define game features; configuring the Trello Kanban board; assigning initial development tasks and setting internal deadlines for the first sprint.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Team Kanban board structure and alignment of user stories to game goals.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Agile project management: defining user stories and establishing a collaborative Kanban workflow.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-c63ab34b",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Formalising the Game Design Document (GDD) as a roadmap for production. Teachers model how to link the GDD to the Kanban board and establish milestones for testing and iterative refinement.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GDD template, project milestone planner, asset organisation guidelines, GDevelop environment setup protocols.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Structure and purpose of a GDD; documentation of game concepts, mechanics, and visual style; planning for iterative development; identification of key milestones for project progress tracking.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Collaborative drafting of the project GDD; visualising game elements through wireframing or mock-ups; scheduling development milestones; initial setup of core game scenes in GDevelop based on design specifications.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Initial GDD draft and project timeline mapping.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Game design documentation: formalising concept specifications and development milestones.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-99a21781",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the implementation of core mechanics and the transition to a shared project environment. Teachers provide direct instruction on GDevelop's 'External Events' to modularise logic and manage complex systems without code duplication. Group sessions are dedicated to establishing consistent naming conventions for objects and variables to avoid conflicts during collaborative development.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GDevelop 'External Events' guide, naming convention templates, team collaboration checklist, GDevelop project file management guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to modular programming principles; managing project complexity through external events; version control and conflict resolution strategies for collaborative game development; maintaining project coherence in group workflows.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Implementing core player and game-world interactions using external events; setting up shared project folders; synchronising Kanban board tasks with current development sprints; collaborative debugging sessions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on the implementation of core mechanics; teacher observation of team versioning and workflow management.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Iterative development: implementing core game systems and managing group code repositories.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-2d87a7a1",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on enhancing player immersion through intermediate game systems. Teachers model the use of global variables to track progress (e.g., scores, health, level state) and lead workshops on audio integration for immediate feedback. Students explore layer management to control game depth and visual hierarchy.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Audio asset repository, GDevelop 'Variables and Storage' tutorial, level design graphic organisers, UI design samples.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of variable management; designing for feedback and feedforward; using audio for user engagement; layer-based visual composition; the impact of 'game juice' on user experience and satisfaction.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Creating and manipulating global variables; integrating sound effects for collisions and rewards; designing level layouts using tilemaps; refining visual layers for background and foreground clarity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Demonstration of functional variable-based tracking (e.g., UI score updates); peer review of auditory feedback effectiveness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Intermediate game systems: level design, variable management, and sound feedback integration.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-d6c35f43",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct structured user testing sessions to validate their game’s engagement and playability. Teachers instruct on the importance of neutral observation and data collection during playtests, encouraging groups to gather qualitative feedback and track performance metrics to identify potential 'bottlenecks' or engagement gaps.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "User testing feedback templates, playtest observation log, performance tracking spreadsheets, iterative refinement reflection guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Methods for user-centred research; designing effective feedback surveys; analysing playtest data; the iterative cycle of testing, identifying issues, and implementing refinements based on user feedback.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Conducting group-led playtesting sessions with external peers; documenting user feedback using standardised logs; analysing data to prioritise 'quick-fix' improvements; updating the Kanban backlog based on findings.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Analysis of initial playtest feedback data; documented summary of proposed refinements based on user experience testing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "User testing and data acquisition: collecting feedback to validate player engagement.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-294c4cf5",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on diagnostic debugging and the refinement of user experience (UX) based on empirical testing data. Teachers guide students through the systematic identification of 'edge cases'—unintended player behaviours that break game logic—and lead workshops on enhancing game 'juice' (visual and audio cues) to improve player feedback loops.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GDevelop debugger tool, bug-tracking log templates, UI/UX design heuristics checklist, peer-review feedback rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of debugging complex object-oriented logic; strategies for performance optimisation in GDevelop; advanced UX concepts including visual feedback, input responsiveness, and the reduction of cognitive load for players.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Conducting deep-dive 'bug hunts' using the GDevelop debugger console; applying refinements to game mechanics based on data gathered in week 9; balancing game difficulty through value adjustment of global variables; finalising UI assets for clarity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Update to the Kanban board reflecting bug resolutions and refined features; annotated test-log documenting changes made based on user feedback.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Refinement and debugging: addressing technical issues and polishing UX based on test data.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-fc2d3d70",
+      "week": {
+        "value": 11,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on the finalisation phase of the development lifecycle. Teachers assist groups in integrating individual scene components into a cohesive final build, ensuring consistent global naming conventions and checking for memory leaks or performance bottlenecks before final export.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project integration checklist, GDevelop build/export documentation, final presentation templates, version control log.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Software integration workflows; verifying product against initial design specifications and user stories; identifying and mitigating final production risks; principles of game build packaging and distribution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Consolidating all game scenes and external event files; conducting a final 'system integration' test to ensure all game-wide variables behave as expected; producing a final playable build; finalising all project management documentation for submission.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Verification of the 'Playable Build' against the original design criteria; final review of the Trello Kanban board to ensure all assigned tasks are closed.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project finalisation: integrating components and verifying performance against design criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    },
+    {
+      "id": "week-266ccf78",
+      "week": {
+        "value": 12,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Reflective practice and evaluation of the project lifecycle. Students analyse the effectiveness of their chosen agile methodology, comparing their initial user stories against the final product outcome. Discussion focuses on lessons learned regarding project management, technical problem-solving, and team collaboration.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Evaluation report framework, digital project portfolio template, self/peer reflection survey, submission checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Critical evaluation of design outcomes; reflecting on the effectiveness of project management methodologies (Agile vs. Waterfall); analysis of the digital footprint and ethical considerations in game design; evaluating project success against user experience goals.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Developing the final evaluation report; creating a short 'showcase' video demonstrating core game mechanics; final cleanup of the Trello board; reflective group discussion on the collaborative development process.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission including the playable game, GDD, Kanban evidence, testing logs, and the evaluation report.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Evaluation and reflection: assessing project effectiveness against user stories and goals.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T20:03:46.035Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

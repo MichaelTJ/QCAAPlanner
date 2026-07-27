@@ -25,6 +25,8 @@ export interface FacultyRow {
 	id: string;
 	learningAreaSubject: string;
 	yearLevelBand: string;
+	/** Optional override: which AC curriculum catalogue this plan uses (e.g. Design criteria for Manual Arts). */
+	curriculumPlanType?: string;
 	dateLastModified: string;
 }
 

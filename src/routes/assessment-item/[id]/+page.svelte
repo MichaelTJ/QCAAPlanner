@@ -9,9 +9,13 @@
 		STANDALONE_UNIT_PLAN_ID
 	} from '$lib/defaults';
 	import {
+		applyInstrumentCatalogue,
+		INSTRUMENT_CATALOGUE_OPTIONS,
+		resolveInstrumentCatalogueKey,
 		selectedContentDescriptionCodes,
 		toggleContentDescription,
-		toggleCriteriaRow
+		toggleCriteriaRow,
+		type InstrumentCatalogueKey
 	} from '$lib/assessment/digitech-instruments';
 	import type { AssessmentItem } from '$lib/types';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
@@ -39,12 +43,24 @@
 	let showDisabledCriteria = $state(false);
 	let statusMessage = $state('');
 	let rubricPanel: HTMLElement | undefined = $state();
+	let catalogueOverride = $state<InstrumentCatalogueKey | ''>('');
+	const inferredCatalogue = $derived(
+		resolveInstrumentCatalogueKey(item.yearLevel.value, String(item.subject.value))
+	);
+	const activeCatalogue = $derived(catalogueOverride || inferredCatalogue || '');
 
 	const isStandalone = $derived(item.unitPlanId === STANDALONE_UNIT_PLAN_ID);
 	const isExam = $derived(item.technique.value === 'Examination');
 	const backHref = $derived(
 		isStandalone ? '/' : `/level-plan/${item.levelPlanId}/unit/${item.unitPlanId}`
 	);
+
+	function onCatalogueChange(value: string) {
+		const key = value as InstrumentCatalogueKey | '';
+		catalogueOverride = key && key === inferredCatalogue ? '' : key;
+		if (!key) return;
+		item = applyInstrumentCatalogue($state.snapshot(item), key as InstrumentCatalogueKey);
+	}
 
 	$effect(() => {
 		if (section !== 'rubric') return;
@@ -231,6 +247,22 @@
 
 	{#if section === 'content'}
 		<div class="card">
+			<label class="catalogue-picker">
+				<span class="meta">Curriculum catalogue</span>
+				<select
+					value={activeCatalogue}
+					onchange={(e) => onCatalogueChange(e.currentTarget.value)}
+				>
+					{#if !inferredCatalogue}
+						<option value="">Select catalogue…</option>
+					{/if}
+					{#each INSTRUMENT_CATALOGUE_OPTIONS as option (option.key)}
+						<option value={option.key}>
+							{option.label}{inferredCatalogue === option.key ? ' (from subject/year)' : ''}
+						</option>
+					{/each}
+				</select>
+			</label>
 			<p class="meta">
 				Ticking a content description enables its linked rubric row(s), and ticking a rubric row
 				selects its content descriptions ({selectedContentDescriptionCodes(item).length} selected).
@@ -269,8 +301,9 @@
 		{:else}
 			<div class="card">
 				<p class="meta">
-					No curriculum catalogue for this subject/year. Set year level and subject to Digital
-					Technologies 7–8 / 9–10 or Design and Technologies 9–10, then reload.
+					No curriculum catalogue for this subject/year. Pick a catalogue from the dropdown above, or
+					set year level and subject to Digital Technologies 7–8 / 9–10 or Design and Technologies
+					7–8 / 9–10.
 				</p>
 			</div>
 		{/if}
@@ -305,6 +338,22 @@
 
 	{#if section === 'rubric'}
 		<div class="card" bind:this={rubricPanel}>
+			<label class="catalogue-picker">
+				<span class="meta">Curriculum catalogue</span>
+				<select
+					value={activeCatalogue}
+					onchange={(e) => onCatalogueChange(e.currentTarget.value)}
+				>
+					{#if !inferredCatalogue}
+						<option value="">Select catalogue…</option>
+					{/if}
+					{#each INSTRUMENT_CATALOGUE_OPTIONS as option (option.key)}
+						<option value={option.key}>
+							{option.label}{inferredCatalogue === option.key ? ' (from subject/year)' : ''}
+						</option>
+					{/each}
+				</select>
+			</label>
 			<label class="cd-row" style="margin-bottom:1rem">
 				<input type="checkbox" bind:checked={showDisabledCriteria} />
 				<span>Show disabled criteria rows</span>
@@ -417,6 +466,16 @@
 <FloatingSaveButton {dirty} {saving} {saved} onclick={save} />
 
 <style>
+	.catalogue-picker {
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+		margin-bottom: 0.75rem;
+		max-width: 22rem;
+	}
+	.catalogue-picker select {
+		width: 100%;
+	}
 	.cd-row {
 		display: flex;
 		gap: 0.6rem;

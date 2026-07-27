@@ -38,7 +38,7 @@
     "aiNotes": ""
   },
   "cohortAndClassConsiderations": {
-    "value": "",
+    "value": "In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.",
     "aiNotes": ""
   },
   "adjustments": [],
@@ -88,7 +88,103 @@
         "aiNotes": "",
         "lastGenerated": "2026-07-05T10:54:17.520Z"
       },
-      "contentDescriptions": []
+      "contentDescriptions": [
+        {
+          "id": "ucd-e8b593ba",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-a078d2f5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-16890fdc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-824bae06",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "trace algorithms to predict output for a given input and to identify errors",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bdf319c3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        }
+      ]
     }
   ],
   "generalCapabilities": [
@@ -204,7 +300,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Writing: Creating texts; Grammar; Punctuation; Spelling; Handwriting and keyboarding",
+        "value": "Writing: Handwriting and keyboarding",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -219,10 +315,10 @@
         "lit-phonological-awareness": false,
         "lit-phonic-knowledge": false,
         "lit-fluency": false,
-        "lit-creating-texts": true,
-        "lit-grammar": true,
-        "lit-punctuation": true,
-        "lit-spelling": true,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
         "lit-handwriting-keyboarding": true
       }
     },
@@ -653,6 +749,10 @@
   ],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
     "aiNotes": ""
   }
 }

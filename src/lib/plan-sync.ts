@@ -1,5 +1,10 @@
 import { assessmentTimingFromLevelPlan, createId } from '$lib/defaults';
 import {
+	achievementStandardForLevelPlanTitle,
+	achievementStandardForUnit,
+	normalizePlanContentFields
+} from '$lib/content-descriptions';
+import {
 	applyDurationToUnitWeeks,
 	resolveDurationForLevelPlanSync
 } from '$lib/unit-duration';
@@ -14,6 +19,7 @@ import {
 import {
 	aiField,
 	cloneAiField,
+	type AiField,
 	type LevelPlan,
 	type LevelPlanAssessment,
 	type LevelPlanUnit,
@@ -22,6 +28,34 @@ import {
 } from '$lib/types';
 
 export { unitPlanForLevelIndex };
+
+function fillEmptyAchievementStandardField(field: AiField, text: string) {
+	if (!text || String(field.value).trim()) return;
+	field.value = text;
+}
+
+/** Autofill official AC achievement standard where the field is still empty. */
+export function fillEmptyAchievementStandardsOnUnit(unitPlan: UnitPlan) {
+	const text = achievementStandardForUnit(
+		String(unitPlan.subject.value),
+		unitPlan.yearLevel.value
+	);
+	if (!text) return;
+	for (const assessment of unitPlan.assessments) {
+		fillEmptyAchievementStandardField(assessment.achievementStandard, text);
+	}
+}
+
+export function fillEmptyAchievementStandardsOnLevelUnit(
+	levelPlan: LevelPlan,
+	levelUnit: LevelPlanUnit
+) {
+	const text = achievementStandardForLevelPlanTitle(String(levelPlan.bandSubjectTitle.value));
+	if (!text) return;
+	for (const assessment of levelUnit.assessments) {
+		fillEmptyAchievementStandardField(assessment.achievementStandard, text);
+	}
+}
 
 function ensureUnitPlanDuration(unitPlan: UnitPlan) {
 	if (!unitPlan.duration) {
@@ -199,18 +233,32 @@ export function applyUnitContentDescriptionsToLevelPlanColumn(
 			const code = String(cd.code.value).trim();
 			if (!code) continue;
 
+			const normalized = normalizePlanContentFields(
+				String(cd.strand.value),
+				String(cd.subStrand.value),
+				code
+			);
+
 			let row = byCode.get(code);
 			if (!row) {
 				row = {
 					id: createId('cd'),
-					strand: cloneAiField(cd.strand),
-					subStrand: cloneAiField(cd.subStrand),
+					strand: aiField(normalized.strand),
+					subStrand: aiField(normalized.subStrand),
 					text: cloneAiField(cd.text),
 					code: cloneAiField(cd.code),
 					unitInclusions: Array.from({ length: unitCount }, () => false)
 				};
 				levelPlan.contentDescriptions.push(row);
 				byCode.set(code, row);
+			} else {
+				const repaired = normalizePlanContentFields(
+					String(row.strand.value),
+					String(row.subStrand.value),
+					code
+				);
+				row.strand.value = repaired.strand;
+				row.subStrand.value = repaired.subStrand;
 			}
 			if (row.unitInclusions.length < unitCount) {
 				while (row.unitInclusions.length < unitCount) row.unitInclusions.push(false);
@@ -303,22 +351,29 @@ export function seedUnitPlanFromLevelPlan(
 	applyLevelPlanUnitToUnitPlan(levelPlan, levelPlan.units[unitIndex], unitPlan, unitIndex);
 	applyLevelPlanCapabilitiesToUnitPlan(levelPlan, unitPlan, unitIndex);
 	applyLevelPlanContentDescriptionsToUnitAssessments(levelPlan, unitPlan, unitIndex);
+	fillEmptyAchievementStandardsOnLevelUnit(levelPlan, levelPlan.units[unitIndex]);
+	fillEmptyAchievementStandardsOnUnit(unitPlan);
 }
 
 /** Overlay unit plan content onto the level plan for display and export. */
 export function syncUnitPlansIntoLevelPlan(levelPlan: LevelPlan, unitPlans: UnitPlan[]) {
+	const usedIds = new Set<string>();
 	for (let unitIndex = 0; unitIndex < levelPlan.units.length; unitIndex++) {
-		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans);
-		if (unitPlan) applyUnitPlanToLevelPlan(levelPlan, unitPlan, unitIndex);
+		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans, usedIds);
+		if (!unitPlan) continue;
+		usedIds.add(unitPlan.id);
+		applyUnitPlanToLevelPlan(levelPlan, unitPlan, unitIndex);
 	}
 }
 
 /** Push level plan unit content into linked unit plans. */
 export function syncLevelPlanIntoUnitPlans(levelPlan: LevelPlan, unitPlans: UnitPlan[]): UnitPlan[] {
 	const updated: UnitPlan[] = [];
+	const usedIds = new Set<string>();
 	for (let unitIndex = 0; unitIndex < levelPlan.units.length; unitIndex++) {
-		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans);
+		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans, usedIds);
 		if (!unitPlan) continue;
+		usedIds.add(unitPlan.id);
 		applyLevelPlanUnitToUnitPlan(levelPlan, levelPlan.units[unitIndex], unitPlan, unitIndex);
 		applyLevelPlanCapabilitiesToUnitPlan(levelPlan, unitPlan, unitIndex);
 		updated.push(unitPlan);
@@ -370,7 +425,7 @@ export function resetLevelPlanUnitSlot(unit: LevelPlanUnit, unitNumber: number):
 export function orphanedUnitPlans(levelPlan: LevelPlan, unitPlans: UnitPlan[]): UnitPlan[] {
 	const matchedIds = new Set<string>();
 	for (let unitIndex = 0; unitIndex < levelPlan.units.length; unitIndex++) {
-		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans);
+		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans, matchedIds);
 		if (unitPlan) matchedIds.add(unitPlan.id);
 	}
 	return unitPlans.filter((plan) => !matchedIds.has(plan.id));
@@ -500,6 +555,33 @@ export function insertLevelPlanUnitColumnAfter(
 			...row.unitInclusions.slice(insertAt)
 		];
 	}
+}
+
+/** Append a blank unit column and pad inclusion matrices. Returns the new unit index. */
+export function appendEmptyUnitColumn(levelPlan: LevelPlan, title?: string): number {
+	const unitIndex = levelPlan.units.length;
+	levelPlan.units = [
+		...levelPlan.units,
+		{
+			id: createId('unit'),
+			unitTitle: aiField(title?.trim() || `Unit ${unitIndex + 1}`),
+			yearLevel: aiField<number | ''>(''),
+			duration: aiField(''),
+			description: aiField(),
+			assessments: []
+		}
+	];
+	const count = levelPlan.units.length;
+	for (const row of levelPlan.contentDescriptions) {
+		while (row.unitInclusions.length < count) row.unitInclusions.push(false);
+	}
+	for (const row of levelPlan.generalCapabilities) {
+		syncCapabilityRowColumns(row, count);
+	}
+	for (const row of levelPlan.crossCurriculumPriorities) {
+		while (row.unitInclusions.length < count) row.unitInclusions.push(false);
+	}
+	return unitIndex;
 }
 
 export function removeLevelPlanUnitColumn(levelPlan: LevelPlan, unitIndex: number) {

@@ -1,0 +1,774 @@
+{
+  "id": "unit-406d580d",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 9,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "User Experience Design",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate the principles of user-centred design by creating a Minecraft modification or gameplay experience for a specific audience. Students work with stakeholders to identify needs, define design criteria, and develop user stories that guide the design process. They generate, prototype, communicate, and evaluate multiple design ideas before refining a solution that enhances the Minecraft experience for their target users. Students use emerging digital tools, including artificial intelligence where appropriate, to develop interactive content and communicate their designs. Throughout the unit, students apply agile project management practices to plan, monitor, and evaluate their work while considering future opportunities, user feedback, and the broader impact of their solutions.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-98152a2c",
+      "assessmentNumber": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Minecraft Experience",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will investigate, design, and prototype a specialised digital experience within a Minecraft environment, addressing a specific real-world problem. Students decompose the problem into manageable components, developing user stories and design criteria to guide their development. They will generate, communicate, and evaluate alternative design iterations, selecting and utilising emerging digital features and advanced tools to create interactive content for a diverse audience. Throughout the project, students apply agile project management techniques to plan tasks, manage risks, and monitor progress. The final submission requires students to evaluate their implemented solution against the established design criteria and user stories, while critically reflecting on potential future impacts and enterprise opportunities provided by the digital system.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Investigation",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 4, Week 8",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 5; Conferencing: Week 7",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-93ead6ce",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d4df3804",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design and prototype the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-39932515",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and critically evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5ed31408",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7fc3a305",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8aecf5c8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P12",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-c0938c49",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-b9228780",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-87d51657",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-1edf6733",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-596eb526",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Speaking and listening: Interacting\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": true,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-0b96d8aa",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Number and place value\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": true,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-3e14c39a",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Personal awareness; Emotional awareness\nSelf-management: Goal setting; Perseverance and adaptability\nSocial awareness: Empathy\nSocial management: Communication; Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": true,
+        "psc-emotional-awareness": true,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": true,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": true,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-f926cacf",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to user-centred design principles and the Minecraft Education workspace. Explicit instruction on interface navigation, project scope, and the relationship between game features and user needs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Minecraft Education software, St Brendan’s College digital portal access, guided navigation worksheets, introductory UCD slide deck.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of user-centred design (UCD) methodologies. Discussion on how digital interfaces can be customised to solve real-world problems. Overview of the Minecraft Education software architecture.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Navigation and exploration of the Minecraft Education sandbox environment. Students perform guided tasks to manipulate the game world, identify coordinate systems, and practice basic environmental interaction.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Anecdotal evidence of engagement and proficiency with the Minecraft interface through guided navigation exercises.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Foundations of Minecraft Education environment, interface navigation, and introduction to user-centred design principles.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-67ddae6a",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Technical demonstration of interactive mechanics within Minecraft. Focus on automation, command blocks, and conditional logic to support complex user experiences.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Minecraft Education documentation, Redstone tutorial assets, command block reference guide, St Brendan's ICT lab.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of logic gates, event-driven programming, and the use of console commands. Understanding the role of hardware/software components in game system efficiency.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Implementation of Redstone circuits and logic gates to create automated events. Students practice using '/give' and '/setblock' commands to manipulate gameplay parameters.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-reviewed demonstration of a functional Redstone logic mechanism.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Technical configuration of interactive game mechanics, including console commands, automation blocks, and basic logic gates.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-ac70c05e",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction of the Minecraft Experience assessment. Explicit teaching on problem decomposition, stakeholder identification, and the construction of user stories.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project brief template, user story mapping boards (digital/physical), Minecraft Experience assessment task sheet, design criteria rubric.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Agile project initiation; the importance of design criteria and user requirements. How to conduct stakeholder analysis to refine project scope.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students work in collaborative groups to decompose their selected real-world problem into manageable components. Drafting of initial user stories and project milestones.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of an initial project brief, including a problem statement, stakeholder list, and 3-5 user stories.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Initiation of the Minecraft Experience assessment; problem decomposition, stakeholder identification, and drafting initial user stories.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-2bc615eb",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Explicit instruction on Agile project management frameworks within a software development context. Students transition from high-level user stories to a technical development backlog, applying task prioritisation matrices to manage project scope and milestones.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Agile methodology slide deck, digital Kanban board templates, MoSCoW prioritisation guide, St Brendan’s College project portal.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of Agile methodologies, specifically focusing on Scrum and Kanban. Understanding the lifecycle of a 'Sprint', the importance of a development backlog, and defining 'Definition of Done' (DoD) to ensure quality control in digital solutions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students initialise a digital project board (e.g., Microsoft Planner or Trello) to categorise and prioritise tasks derived from their week 3 user stories. They establish a 2-week sprint goal and assign specific technical requirements to their development backlog.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher review of the digital development backlog and the prioritisation of tasks for the first development sprint.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Adopting agile methodology: sprint planning, task prioritisation, and establishing a development backlog for project milestones.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-a3a454b9",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Technical deep-dive into the Minecraft Education file architecture. Focus on the distinction between presentation (Resource Packs) and logic (Behaviour Packs) and how these components are utilised to create complex, data-driven user experiences.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Minecraft Add-on documentation, JSON editing tools (Bridge or VS Code), Structure Block reference guide, entity component samples.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of JSON-based behaviour packs and the mechanics of .mcstructure files for modular design. Discussion on abstraction through the representation of game entities and world components as editable data structures.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop and implement a custom behaviour pack to modify entity interactions or gameplay mechanics. They utilise Structure Blocks to capture and export .mcstructure files, allowing for the iterative prototyping of modular world components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Technical validation of a functional behaviour pack and the successful deployment of a modular .mcstructure file within the prototype.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Advanced structural design: implementing complex behaviour packs, .mcstructure files, and iterative prototyping of game components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-a6c0e6fc",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Facilitation of divergent design thinking workshops to refine the user experience. Students engage in peer-feedback cycles to identify usability friction points and apply creative techniques to generate alternative design solutions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Divergent thinking graphic organisers, peer-testing feedback templates, prototype observation logs, UX design principles checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of divergent thinking (e.g., SCAMPER) and its application in UX refinement. Understanding the relationship between qualitative user feedback and the iteration of functional requirements in a digital system.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct 'flash testing' sessions where peers interact with the current Minecraft prototype. They collect feedback using structured observation sheets and use divergent techniques to map at least three potential gameplay iterations based on the data gathered.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a design journal entry documenting the mapping of user feedback to specific planned iterations for the next development cycle.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Refining user experiences through divergent design thinking; mapping user feedback to specific gameplay iterations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-19da9676",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Technical facilitation of the primary development phase. Explicit instruction on integrating Microsoft MakeCode block-based scripting with physical Redstone logic to create automated, responsive environments. Students apply computational thinking to translate complex user stories into functional scripts that manage game state and user interaction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft MakeCode for Minecraft, Redstone logic diagrams, logic gate reference sheets, St Brendan’s College development servers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of event-driven programming and control structures (loops, selection) within the Minecraft environment. Understanding the integration of software-based automation (MakeCode) with hardware-simulated logic (Redstone) to satisfy specific functional requirements and design criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Implementation of the primary design prototype. Students use block-based scripting to automate environment responses and construct sophisticated Redstone circuitry to manage user navigation and feedback loops. Iterative development of the core digital experience based on the prioritised backlog.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Technical review of block-based scripts and Redstone integration to ensure alignment with defined user stories.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Technical development phase: applying block-based scripting and Redstone circuitry to realise the primary design prototype.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-c566d8e0",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Facilitation of structured user testing and agile evaluation. Students lead peer-testing sessions to identify usability friction and technical bugs. Instruction on debugging techniques and the importance of validating digital solutions against original design criteria and user-centred requirements.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "User testing templates, bug tracking logs, screen capture software for recording testing sessions, design criteria checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of software testing (alpha/beta) and quality assurance. Discussion on debugging methodologies, including dry-running scripts and isolating variables. Ethical considerations in collecting and interpreting user data to improve digital experiences.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Execution of formal user testing sessions. Students observe peers interacting with their prototypes, recording functional errors and usability challenges. Technical debugging and refinement of core mechanics occur in response to identified issues, updating the project backlog accordingly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a testing log and debug report, documenting changes made to the prototype based on user feedback and functional testing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Agile evaluation and testing: conducting user testing sessions and debugging core mechanics against defined design criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-eed125cf",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Guidance on the finalisation and validation of the digital solution. Focus on ensuring the 'Definition of Done' is met for all project components. Instruction on effective communication of technical designs to a diverse audience through annotated documentation and multimedia demonstrations.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment submission portal, video editing tools, final project checklist, QCAA-aligned evaluation templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The role of validation in the software development lifecycle. Understanding how to demonstrate that a solution solves the intended real-world problem. Review of project management practices and the importance of final system auditing before delivery.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Final technical refinements and environmental polishing. Students perform a final audit of their Minecraft Experience against the assessment rubric. Preparation of the digital submission, including world exports, annotated screenshots, and a video walkthrough of the interactive features.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the 'Minecraft Experience' investigation, including the functional prototype, project documentation, and evaluation against design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Finalisation of the Minecraft Experience; validating functional requirements and preparing the digital solution for final submission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    },
+    {
+      "id": "week-b36955b6",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Facilitation of a reflective seminar on the broader societal implications of the students' Minecraft projects. Instruction on the Australian Privacy Principles (APP) and their relevance to digital data collection within interactive systems. Guided discussion on identifying enterprise opportunities for Minecraft modifications in commercial or educational contexts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Australian Privacy Principles (OAIC) summary guide, enterprise strategy templates, reflective portfolio rubrics, class debate guidelines for 'Digital Ethics in Gaming'.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Analysis of the Australian Privacy Principles in the context of user data and game-based systems. Exploration of 'future impact' as a design requirement; evaluating how digital solutions scale, adapt, or create unintended consequences. Discussion on the nexus between creative digital modification and enterprise-level software development.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a final 'System Audit' of their Minecraft project, documenting how they have (or could) apply privacy by design. Drafting a brief 'Enterprise Opportunity Statement' that justifies the commercial or social value of their Minecraft modification for a potential client or external user group.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A reflective post-mortem report and presentation detailing the project’s future impact, alignment with the Australian Privacy Principles, and proposed enterprise potential.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Critical reflection on enterprise opportunities, future impact, and the application of Australian Privacy Principles within digital systems.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T11:56:36.202Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

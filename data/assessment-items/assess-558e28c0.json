@@ -1,0 +1,965 @@
+{
+  "id": "assess-558e28c0",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "unitPlanId": "unit-530f2b33",
+  "assessmentNumber": {
+    "value": "4",
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Artificial Intelligence",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "Sign Language Translator",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "Students design and develop an original sign-language recognition model using machine learning principles. They act as developers to collect and label representative training data, configure and train their model within a development environment, and iteratively test and refine its performance to improve accuracy. Students document their technical process in a logbook, including data cleaning strategies and model optimization. The project concludes with a working prototype demonstration, accompanied by an evaluation of the system’s effectiveness, limitations, and ethical implications, specifically addressing data bias and the Australian Privacy Principles.",
+    "aiNotes": ""
+  },
+  "technique": {
+    "value": "Project",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "Multimodal",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "• Project documentation (including model development log, bias audit report, and ethical evaluation)\n• Working AI prototype (Google Teachable Machine model)\n",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:16:08.878Z"
+  },
+  "duration": {
+    "value": "6 weeks",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "4–6 A3 pages",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "Individual",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "Google Teachable Machine (web-based platform), MyComputerBrain interactive datasets, high-definition webcams, student laptops with stable internet access, and project logbook templates. Supplementary resources include curated datasets for sign language recognition, teacher-led slide decks detailing machine learning lifecycles, and a dedicated repository of Australian Privacy Principle (APP) case studies for ethical evaluation.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:17:03.964Z"
+  },
+  "examTimeMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "Artificial Intelligence fundamentals; supervised learning and data classification; machine learning cycles and training data; algorithmic bias and representative sampling; ethics, privacy, and the Australian Privacy Principles; user experience design for AI systems; and model performance evaluation using precision and recall metrics.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:15:39.003Z"
+  },
+  "context": {
+    "value": "Artificial intelligence is increasingly used to interpret human behaviour and improve how people interact with digital systems. Machine learning applications such as gesture recognition rely on carefully collected data, accurate classification and ongoing testing to produce reliable results. In accessibility contexts, these technologies have the potential to reduce communication barriers and create more inclusive digital experiences. However, their effectiveness depends on the quality and diversity of training data, while their use raises important concerns about privacy, consent, bias and ethical data management. Understanding these technical and ethical challenges is essential for developing responsible AI solutions that are accurate, inclusive and appropriate for real-world use.\n",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:17:08.505Z"
+  },
+  "task": {
+    "value": "Students design and develop an original sign-language recognition model using machine learning principles. They act as developers to collect and label representative training data, configure and train their model within a development environment, and iteratively test and refine its performance to improve accuracy. Students document their technical process in a logbook, including data cleaning strategies and model optimization. The project concludes with a working prototype demonstration, accompanied by an evaluation of the system’s effectiveness, limitations, and ethical implications, specifically addressing data bias and the Australian Privacy Principles.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:17:54.145Z"
+  },
+  "toComplete": {
+    "value": "The task requires a project portfolio documenting the design, development, and evaluation phases:\n1. Data Acquisition: Establishing a controlled environment to collect and label robust training data.\n2. Model Development: Training and refining the model through iterative testing and data cleaning.\n3. Bias Audit: Analysing the training data for representative gaps and documenting corrective measures.\n4. System Validation: Presenting a working prototype and providing a critical evaluation of its accuracy, usefulness, and ethical impact.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-14T01:18:05.300Z"
+  },
+  "stimulus": {
+    "value": "See Stimulus at end of task sheet",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-cc031e62",
+      "label": "Monitoring",
+      "week": {
+        "value": "Term 1 Week 4",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-77aaf19c",
+      "label": "Conferencing",
+      "week": {
+        "value": "Term 1 Week 6",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-72d948da",
+      "label": "Due Date",
+      "week": {
+        "value": "Term 1 Week 8",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": true
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": true
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": false
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": false
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": false
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": true
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": false
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": true
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-584c8bba",
+      "strand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how hardware and software manage, control and secure access to data in networked digital systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-092f4a19",
+      "strand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "represent documents online as content (text), structure (markup) and presentation (styling) and explain why such representations are important",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-842a44a2",
+      "strand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate simple data compression techniques",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-f6cb561e",
+      "strand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P01",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-463deb9e",
+      "strand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and visualise data interactively using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends and outliers",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-020de40f",
+      "strand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "model and query entities and their relationships using structured data",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P03",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-71a23d35",
+      "strand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P04",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-561aa227",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P05",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-88a48bd8",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "validate algorithms and programs by comparing their output against a range of test cases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P06",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-bccac1ef",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design and prototype the user experience of a digital system",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P07",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-305337d8",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, modify, communicate and critically evaluate alternative designs",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P08",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-b3869d9c",
+      "strand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P09",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-77d25e36",
+      "strand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P10",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-84581d83",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P11",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-5f2a16b2",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P12",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-ac37c3a2",
+      "strand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop cyber security threat models, and explore a software, user or software supply chain vulnerability",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P13",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-0f5b36df",
+      "strand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply the Australian Privacy Principles to critique and manage the digital footprint that existing systems and student solutions collect",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI10P14",
+        "aiNotes": ""
+      },
+      "selected": false
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "dt910-ds",
+      "category": "Knowledge and understanding",
+      "strand": "Digital systems",
+      "contentDescriptionCodes": [
+        "AC9TDI10K01"
+      ],
+      "descriptors": {
+        "A": "considered explanation of how digital systems manage, control and secure access to data",
+        "B": "detailed explanation of how digital systems manage, control and secure access to data",
+        "C": "explanation of how digital systems manage, control and secure access to data",
+        "D": "description of how digital systems manage, control and/or secure access to data",
+        "E": "statement/s about data management, control and/or secure access to data"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt910-data-rep",
+      "category": "Knowledge and understanding",
+      "strand": "Data representation",
+      "contentDescriptionCodes": [
+        "AC9TDI10K02",
+        "AC9TDI10K03"
+      ],
+      "descriptors": {
+        "A": "reasoned representation of documents as content, structure and presentation; discerning investigation of simple data compression techniques",
+        "B": "effective representation of documents as content, structure and presentation; informed investigation of simple data compression techniques",
+        "C": "representation of documents as content, structure and presentation; investigation of simple data compression techniques",
+        "D": "partial representation of documents as content, structure and/or presentation; partial investigation of simple data compression techniques",
+        "E": "directed representation of documents as content, structure and/or presentation; statement/s about simple data compression techniques"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt910-acquiring",
+      "category": "Processes and production skills",
+      "strand": "Acquiring, managing and analysing data",
+      "contentDescriptionCodes": [
+        "AC9TDI10P01",
+        "AC9TDI10P02",
+        "AC9TDI10P03"
+      ],
+      "descriptors": {
+        "A": "proficient acquisition, interpretation and modelling of complex data with databases",
+        "B": "effective acquisition, interpretation and modelling of complex data with databases",
+        "C": "acquisition, interpretation and modelling of complex data with databases",
+        "D": "partial acquisition, interpretation and/or modelling of complex data with databases",
+        "E": "fragmented acquisition, interpretation and modelling of complex data with databases"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDI10P04"
+      ],
+      "descriptors": {
+        "A": "reasoned decomposition of real-world problems",
+        "B": "effective decomposition of real-world problems",
+        "C": "decomposition of real-world problems",
+        "D": "partial decomposition of real-world problems",
+        "E": "statement/s about real-world problems"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-generating-algo",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI10P05",
+        "AC9TDI10P06"
+      ],
+      "descriptors": {
+        "A": "considered design and validation of algorithms",
+        "B": "effective design and validation of algorithms",
+        "C": "design and validation of algorithms",
+        "D": "guided design and/or validation of algorithms",
+        "E": "directed design and/or validation of algorithms"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-generating-ux",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI10P07"
+      ],
+      "descriptors": {
+        "A": "considered design and prototyping of the user experience of a digital system",
+        "B": "effective design and prototyping of the user experience of a digital system",
+        "C": "design and prototyping of the user experience of a digital system",
+        "D": "partial design and/or prototyping of the user experience of a digital system",
+        "E": "directed design and/or prototyping of the user experience of a digital system"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-generating-design",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI10P08"
+      ],
+      "descriptors": {
+        "A": "considered development and modification of innovative digital solutions",
+        "B": "effective development and modification of innovative digital solutions",
+        "C": "development and modification of innovative digital solutions",
+        "D": "partial development and modification of innovative digital solutions",
+        "E": "fragmented development and/or modification of innovative digital solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDI10P09"
+      ],
+      "descriptors": {
+        "A": "proficient implementation of algorithms, including in an object-oriented programming language",
+        "B": "effective implementation of algorithms, including in an object-oriented programming language",
+        "C": "implementation of algorithms, including in an object-oriented programming language",
+        "D": "partial implementation of algorithms, including in an object-oriented programming language",
+        "E": "directed implementation of algorithms"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt910-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDI10P10"
+      ],
+      "descriptors": {
+        "A": "discerning critical evaluation of alternative solutions against stakeholder elicited user stories",
+        "B": "effective critical evaluation of alternative solutions against stakeholder elicited user stories",
+        "C": "critical evaluation of alternative solutions against stakeholder elicited user stories",
+        "D": "partial evaluation of alternative solutions against stakeholder elicited user stories",
+        "E": "identification of alternative solutions against stakeholder elicited user stories"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDI10P11",
+        "AC9TDI10P12"
+      ],
+      "descriptors": {
+        "A": "proficient use of advanced features of digital tools to create interactive content; plan, collaborate on and manage agile projects",
+        "B": "effective use of advanced features of digital tools to create interactive content; plan, collaborate on and manage agile projects",
+        "C": "use of advanced features of digital tools to create interactive content; plan, collaborate on and manage agile projects",
+        "D": "variable use of advanced features of digital tools to partially create interactive content; plan, collaborate on and/or manage agile projects",
+        "E": "directed use of digital tools"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt910-privacy-cyber",
+      "category": "Processes and production skills",
+      "strand": "Privacy and security",
+      "contentDescriptionCodes": [
+        "AC9TDI10P13"
+      ],
+      "descriptors": {
+        "A": "discerning modelling of cyber security threats and exploration of a vulnerability",
+        "B": "plausible modelling of cyber security threats and exploration of a vulnerability",
+        "C": "modelling of cyber security threats and exploration of a vulnerability",
+        "D": "partial modelling of cyber security threats and/or exploration of a vulnerability",
+        "E": "statement/s about cyber security threats"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt910-privacy-footprint",
+      "category": "Processes and production skills",
+      "strand": "Privacy and security",
+      "contentDescriptionCodes": [
+        "AC9TDI10P14"
+      ],
+      "descriptors": {
+        "A": "proficient application of privacy principles to manage digital footprints.",
+        "B": "informed application of privacy principles to manage digital footprints.",
+        "C": "application of privacy principles to manage digital footprints.",
+        "D": "partial application of privacy principles to manage digital footprints.",
+        "E": "directed application of privacy principles to manage digital footprints."
+      },
+      "enabled": false
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-2232b664",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-ee78e36f",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-6651fff7",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-dc5e98fd",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-76ec387b",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-e941c283",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-5f82d637",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-1f8edb2b",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-5540400d",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-19a0d326",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-159487e3",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-e210b781",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-c1b5f28e",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-6d80af58",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-c009568e",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-2427c235",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-d6e79e99",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a749450c",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "markingCriteria": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

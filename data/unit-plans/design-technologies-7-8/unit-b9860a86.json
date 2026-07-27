@@ -1,0 +1,796 @@
+{
+  "id": "unit-b9860a86",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Carry all (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop practical metalworking and design skills through the construction and redesign of a sheet-metal carryall. Students learn about workshop safety, risk assessment, tools, manufacturing processes, material properties, forces and cold working. Using the SBC Design Model, they investigate existing products, generate ideas and develop an improved carryall for a specific purpose. Students communicate their final solution through sketches and a fully dimensioned SketchUp model.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-f0572ae4",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Carry all",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students complete a two-part assessment consisting of workshop theory and a design folio. The theory component covers safety inductions, risk assessment, the hierarchy of controls, tool identification, material properties and forces. For the design folio, students redesign the carryall for a specific use while retaining its original overall dimensions. Evidence includes background research, brainstorming, an isometric concept sketch, self-evaluation and three PDF views of a fully dimensioned SketchUp model that clearly communicates the proposed improvements.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• under supervised workshop and classroom conditions\n• 4 A3 pages or equivalent \n• includes annotated graphical representations, an isometric concept sketch, and three dimensioned PDF views of a SketchUp model\n• completion of a physical prototype adhering to St Brendan’s College Work Health and Safety (WHS) protocols and workshop safety inductions",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:36:37.975Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Technologies department to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process includes:\n\n*   **Monitoring:** Periodic review of student progress during the workshop phase and SketchUp development to ensure consistent scaffolding and adherence to safety and risk assessment protocols.\n*   **Conferencing:** Scheduled moderation meetings to review representative samples of student portfolios and physical carry-all prototypes across the A–E range.\n*   **Cross-marking:** Double-marking of the theory component (safety, materials, and forces) and the final SketchUp models to validate the objective application of the marking guide.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:38:39.544Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-59ce2c12",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7ef9fd1d",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-33c33ddc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-96cfb5d3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5f44ad7e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5a2f45a2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cea907c2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-050f7553",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-22dc633f",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Manage content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": true,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-e4a8bc59",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-8d2c7869",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-ef61d373",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-24e8fa22",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-1c718c39",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-ccf1f14d",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the 'Carry all' project through an overview of the design brief and workshop safety expectations at St Brendan’s College. Explicit teaching focuses on the safety protocols for the metalwork environment, followed by mandatory equipment inductions for the cordless drill and the pan brake. Practical sessions allow students to familiarise themselves with the workshop layout and develop foundational technical skills by performing marking-out exercises on scrap sheet metal using precision measurement tools.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SBC Safety Induction Booklets, steel rules, scribers, cordless drills, pan brake, scrap galvanised sheet metal, safety glasses, and ear protection.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to Workshop Health and Safety (WHS) protocols specifically tailored for sheet-metal fabrication, including the identification of Personal Protective Equipment (PPE). Students explore the properties of galvanised steel and the functional requirements of the carryall project. Theory covers the correct operation and safety features of the cordless drill and pan brake, emphasizing the prevention of common workshop injuries. Students learn the importance of accuracy in technical measurement and the role of standard units in Australian manufacturing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in a workshop safety walk-through and complete formal induction tests for the cordless drill and pan brake. Under teacher supervision, students practice marking out simple geometric shapes on scrap material using steel rules and scribers to achieve millimetre-perfect accuracy. They practice clamping techniques and the safe handling of sheet-metal offcuts. The week concludes with students performing basic drilling operations on scrap pieces to ensure competence in speed selection and pressure application.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of safety induction checklists and teacher observation of marking-out accuracy on scrap material.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the carryall project, establishing workshop expectations and completing mandatory safety inductions for equipment including cordless drills and the pan brake. Practical sessions focus on workshop orientation and the application of basic measuring and marking-out techniques on scrap material to build foundational technical skills.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-66dd2ddd",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus moves to risk management where students learn to identify workplace hazards and assess their potential impact. Students interpret technical drawings and orthogonal projections to understand the three-dimensional form of the carryall body. In the workshop, they transition from scrap material to their project metal, applying marking-out techniques to the main chassis of the carryall using precision layout tools such as scribers and dividers.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Carryall technical drawings, 0.6mm galvanised sheet metal, dividers, scribers, engineer’s squares, and risk assessment templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate the principles of risk management, learning how to identify hazards, assess risk levels using a matrix, and determine appropriate control measures. Technical literacy is developed through the analysis of 2D engineering drawings, focusing on dimension lines, hidden detail, and fold lines. Explicit teaching covers the geometry of layout work, explaining how dividers are used to create accurate radii and how scribers provide the precision required for metal fabrication compared to traditional pencils.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete a comprehensive construction risk assessment for the carryall project, documenting hazards associated with cutting and folding. They then transfer dimensions from the technical drawing onto a sheet of 0.6mm galvanised steel. Using dividers, students mark out specific radii for the carryall corners and handle locations. Precision checks are conducted using engineer’s squares to ensure all lines are perpendicular and align with the provided design specifications.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of the construction risk assessment and teacher inspection of the marked-out carryall body for dimensional accuracy before cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to risk management where students identify hazards and determine risk levels to complete a comprehensive construction risk assessment. In the workshop, students interpret technical drawings to accurately mark out the carryall body on sheet metal using precision tools such as scribers and dividers.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-e3cd605a",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the hierarchy of controls for sheet-metal processing and begin the 'Investigate' phase of the SBC Design Model by defining a specific design problem for their improved carryall. Practical work focuses on the material removal process, where students cut out the main components of the carryall. Significant time is dedicated to material preparation, including the essential skills of filing and deburring to ensure the workpiece is safe for further handling.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hand snips, aviation snips, flat bastard files, half-round files, emery cloth, design folio templates, and the SBC Design Model guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the Hierarchy of Controls (Elimination, Substitution, Engineering, Administration, and PPE) as a framework for workshop safety. Students are taught the 'Define' stage of the design process, learning how to identify a specific user need or opportunity that will guide their carryall redesign (e.g., storage for specific trade tools or hobby equipment). Theoretical concepts of material removal are introduced, explaining how different file teeth (bastard, second-cut, smooth) are used to achieve specific surface finishes on metal edges.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use straight-cut snips and aviation snips to accurately cut the carryall body from the marked sheet metal, following their layout lines precisely. Following the cut, students engage in extensive filing sessions, practicing both cross-filing and draw-filing techniques to remove burrs and sharp edges. They verify the smoothness of their edges using a safety-first 'sight and touch' protocol. In their design folios, students write a design brief that outlines their chosen specific use for the redesigned carryall.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Checkpoint of the 'Define' section in the design folio and a physical quality check of filed edges for safety and smoothness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the hierarchy of controls for sheet-metal processing while beginning to define a specific design problem for their improved carryall. Practical work involves cutting out the main components and performing initial material preparation, including filing and deburring edges to ensure safety and precision.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-57e3b52f",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from material preparation to structural forming, exploring the physical limits of sheet metal through the lens of mechanical forces. The lessons balance the theoretical study of how storage containers withstand load with the high-precision practical task of folding the carryall chassis. Students work through the 'Investigate' phase of the SBC Design Model, comparing their project to commercial solutions to understand how geometry influences strength.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pan brake (box and pan folder), 0.6mm galvanised steel, protractors, engineer’s squares, laptops for storage solution research, design folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the mechanical forces of tension, compression, and shear as they apply to sheet-metal products. Students investigate how the specific geometry of a fold can increase the moment of inertia and prevent the carryall from buckling under weight. Explicit teaching covers the operation of the pan brake, focusing on the relationship between the clamping bar and the folding leaf to achieve accurate radii. Students research existing industrial storage solutions, documenting how ribbed or folded surfaces are used to manage stresses in thin-gauge materials.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students operate the pan brake to perform the sequential folds required for the carryall's main body, following a strict order to avoid machine interference. During the process, they use protractors and engineer’s squares to verify that each fold achieves a precise 90-degree angle. Small-scale experiments are conducted on offcuts to observe shear failure, helping students differentiate between a clean cut and a material tear. They record these observations and their research findings into their design folio, justifying the structural design of their base chassis.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher inspection of the folded chassis for dimensional accuracy and squareness; completion of the 'Forces and Stresses' worksheet in the design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The theoretical focus covers forces and stresses such as tension and shear acting on the carryall, supported by research into existing storage solutions. During practical lessons, students operate the pan brake to fold the main body, continuously verifying angles and dimensions against the working drawings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-5d903d4c",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus moves to material science and the 'Ideate' phase of the design process, where students begin to personalise their solutions. They investigate the effects of manufacturing processes on metal properties and apply this knowledge to brainstorm functional improvements. Practical lessons are dedicated to the fabrication of secondary components, requiring students to transition back to marking-out and drilling with higher expectations for precision.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pedestal drill, HSS drill bits, centre punches, aviation snips, flat files, 0.6mm galvanised steel offcuts, SBC Design Model brainstorming guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students explore the concepts of cold working and work hardening, learning how the internal grain structure of the metal changes during bending and hammering. Discussion focuses on how these changes increase the hardness of the material but can also lead to brittleness if over-worked. This informs the brainstorming of design improvements, where students must consider the manufacturability of their ideas. Instruction also covers technical specifications for drilling, including the selection of high-speed steel (HSS) bits and the calculation of appropriate drilling speeds for thin-gauge steel.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students mark out and cut the end panels and handle supports, ensuring all dimensions align with their updated design brief. Using the pedestal drill or cordless drills, they execute the hole patterns required for the assembly phase, practicing center-punching to prevent drill bit wander. In their folios, students generate three distinct conceptual ideas for functional improvements (e.g., tool dividers, reinforced handles, or specialized clip points). A 'dry fit' assembly is performed using temporary clamps to verify that all secondary components align perfectly with the folded main body.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of brainstormed design improvements; physical check of secondary component dimensions and hole placement accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Investigations into cold working and work hardening explain material changes during manufacturing, which informs student brainstorming for functional design improvements. Students fabricate secondary components like end panels and handle supports, drilling required holes and preparing all parts for the assembly phase.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-b2a8870b",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop the graphical skills necessary to communicate their design intent in three dimensions while beginning the permanent assembly of their project. This week bridges the gap between conceptual thinking and physical manufacturing through isometric drawing and pop-riveting. The classroom environment emphasizes the importance of structural integrity and the aesthetic quality of mechanical joins in professional metalwork.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pop rivet guns, 3.2mm aluminium rivets, G-clamps, isometric grid paper, 2H pencils, technical drawing equipment, partially assembled carryall components.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the principles of isometric drawing, focusing on the use of 30-degree axes to represent the carryall in a three-dimensional view. Students learn how to represent hidden detail and exploded views to clarify how their design improvements integrate with the standard chassis. The theory of permanent joining is introduced, specifically the mechanics of blind (pop) riveting. Students investigate why riveting is preferred over welding for thin-gauge galvanised steel, considering the preservation of the protective zinc coating and the avoidance of heat distortion.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students produce a refined isometric concept sketch of their redesigned carryall, using 30-degree grid paper to maintain correct proportions and scale. In the workshop, they begin the final assembly by securing the end panels to the main body using pop rivet guns. Emphasis is placed on the use of G-clamps to maintain structural alignment before drilling through both layers of metal simultaneously. Students evaluate each rivet for a 'flush fit,' ensuring the mandrel has snapped correctly and the joint is under sufficient tension to prevent movement.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the isometric concept sketch for technical accuracy; teacher inspection of initial riveted joints for structural alignment and quality.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students learn isometric drawing principles to communicate their design improvements through detailed conceptual sketches. Practical lessons focus on the assembly of the carryall using riveting techniques, with an emphasis on maintaining structural alignment and join quality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-0d86952b",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from physical assembly to digital representation by evaluating their manufactured chassis against the original design brief. One lesson is dedicated to the 'Evaluate' phase of the SBC Design Model, where students reflect on construction tolerances before beginning digital prototyping. The remaining workshop time focuses on the completion of the handle sub-assembly and initial functional testing of the riveted joints to ensure structural reliability. These experiences bridge the gap between the physical 'Make' phase and the final digital communication phase of the project.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp for Schools, bending jigs, 3.2mm rivets, rivet guns, galvanised wire or strap for handles, digital cameras for documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the role of Computer-Aided Design (CAD) in the iterative design process, specifically how digital prototypes allow for precise modification without material waste. Students explore the 'Evaluate' stage of the design cycle, learning how to compare physical outcomes against established success criteria. Technical instruction covers the geometry of handle ergonomic design and the mechanical advantages of different handle attachment methods. Discussions include the impact of manufacturing errors on final product utility and how digital models can rectify these in future iterations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students initiate their digital design by setting up a SketchUp workspace with appropriate templates for millimetre-scale engineering. In the workshop, they fabricate and install the carryall handle, utilising bending jigs or the pan brake for precise shaping. Students conduct 'stress-test' evaluations on their assembly, checking for rivet looseness or material deformation under moderate load. They document these findings with photographs and annotations, identifying specific areas where their physical build deviated from the initial concept or required refinement for the digital model.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the 'Evaluation of Prototype' worksheet and initial SketchUp geometry checks to ensure correct scaling.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Learners evaluate their physical progress against the design brief to refine their concepts before transitioning to digital prototyping in SketchUp. Workshop time is dedicated to completing the handle assembly and performing functional tests to ensure all components are securely fastened and operational.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-071302eb",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to high-fidelity digital communication as students produce a fully dimensioned SketchUp model of their redesigned carryall. Lessons alternate between the computer lab for CAD work and the workshop for final quality control and finishing. Students learn to apply textures and annotations in SketchUp to simulate real-world materials and provide clear manufacturing instructions. Final workshop sessions are dedicated to refining the physical product, ensuring all surfaces meet professional safety and aesthetic standards before the final testing phase.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp for Schools, emery cloth, fine smooth files, engineer's squares, PDF export software, laptops.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on CAD standards, including the application of industry-standard dimensioning (linear, radial, and angular) within a digital environment. Students investigate the importance of Quality Control (QC) in manufacturing, focusing on how minor imperfections like burrs or misaligned folds affect both safety and marketability. Instruction covers finishing techniques for galvanised steel, explaining how to treat exposed edges without compromising the zinc coating. Theoretical concepts include the use of annotations to communicate material specifications and assembly sequences to potential manufacturers.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use SketchUp tools to create a 3D representation of their improved carryall, incorporating their specific design modifications such as internal dividers or reinforced corners. They apply the 'Dimensions' tool to create three PDF views (Front, Side, Top) that clearly communicate the scale of their solution. In the workshop, students perform final finishing tasks, using fine-cut files and emery cloth to remove any remaining sharp edges. They check all riveted joints for flushness and use engineer's squares to verify that the final product maintains its intended geometric form.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer review of SketchUp models against dimensioning standards; teacher check of final metal finish and edge safety.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus moves to digital design communication as students produce a fully dimensioned and annotated SketchUp model of their redesigned carryall. Final practical work involves detailed finishing and quality control, addressing any uneven joins or sharp edges to prepare the product for submission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-752b2d37",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students consolidate their understanding of the entire design and production cycle by finalising their design folio and conducting formal performance testing. The week bridges the gap between material science theory and practical reality through empirical testing of their manufactured solution. One lesson is dedicated to a 'Post-Mortem' analysis of the project, where students discuss the relationship between material properties and structural failure. The final sessions focus on the completion of all written documentation to ensure alignment with the SBC Design Model and the achievement standards.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Test weights, scales, design folio templates, SBC Design Model evaluation rubric, cameras for final product photography.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Revision of material properties (malleability, ductility, and hardness) and how these were affected by the cold-working processes used during the term. Students analyse the distribution of forces—such as tension in the handle and shear in the rivets—when the carryall is under maximum load. Explicit teaching focuses on how to write a formal evaluation that synthesises testing data with design criteria. Safety theory is revisited to reflect on how risk assessments guided the construction phase and successfully prevented workplace incidents.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct weight-bearing and stability tests on their completed carryall, measuring the deflection of the base and the security of the handle under specific loads (e.g., 5kg–10kg). They record testing outcomes in their folios, using the data to determine if the product met the needs identified in their initial design brief. Time is provided to finalise all folio sections, including the background research, brainstorming, and the three SketchUp views. Students perform a final safety audit of their workstation and tools before the final submission of the physical and digital project components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Submission of the final Design Folio (Background, Sketches, SketchUp views, Evaluation) and the completed physical Carryall for final marking.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students consolidate their knowledge of material properties, forces, and workshop safety while finalising their design folio documentation. In the workshop, the completed carryall is tested for strength, stability, and carrying capacity to determine the success of the manufactured solution.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    },
+    {
+      "id": "week-85692397",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conclude the project by conducting a final self-evaluation of their manufacturing precision and their commitment to workshop safety throughout the term. Lessons transition from active production to project wrap-up, focusing on professional photographic documentation of their completed carryall and a comprehensive workshop clean-up. This final week emphasizes the vocational responsibility of maintaining a shared workspace and the academic requirement of reflecting on the design cycle's outcomes. The unit ends with a formal submission process where students ensure all components of the SBC Design Model are evidenced within their folio.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras or mobile devices, neutral backdrops, tool oil, cleaning brushes, SBC Project Evaluation Rubric, online submission portal.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction covers the principles of formal project evaluation, where students compare their finished carryall against the specific design criteria and constraints established earlier in the unit. Students examine the importance of 'Design for Manufacture' (DfM) by identifying how their construction choices and tool selection influenced the final product's quality and dimensional accuracy. Theoretical discussion also addresses workshop decommissioning protocols, including the maintenance of tools and the environmental impact of waste management in a metalworking environment. Students learn techniques for technical photography, such as using neutral backgrounds and appropriate lighting to clearly showcase design improvements and joinery quality for their final portfolio.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a 'Final Quality Audit' using a checklist to verify all edges are safe and all rivets are secure. They set up a dedicated photography station to capture high-quality images of their carryall from isometric, front, and top-down perspectives, ensuring all design modifications are visible for the assessor. A significant portion of the practical time is dedicated to a structured 'Deep Clean' of the metalwork facility, where students clean and oil hand tools, clear metal swarf from benches, and organise the sheet metal store. Finally, students perform a digital upload of all documentation to ensure their Design Folio is complete and aligned with the assessment requirements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the physical Carryall product and the complete digital Design Folio, including the evaluation reflection and photographic documentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with a formal evaluation of the project, where students reflect on their construction accuracy and adherence to safety protocols. Final practical sessions involve workspace clean-up and the photographic documentation of the finished carryall for inclusion in the assessment portfolio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:39:37.883Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

@@ -10,6 +10,7 @@ export function resolveWizardPlanType(
 	if (subjectFamily === 'engineering' && yearBand === '10') return '10-engineering';
 	if (subjectFamily === 'digital' && yearBand === '7-8') return '7-8-digital-technologies';
 	if (subjectFamily === 'digital' && yearBand === '9-10') return '9-10-digital-technologies';
+	if (subjectFamily === 'design' && yearBand === '7-8') return '7-8-design';
 	if (subjectFamily === 'design' && (yearBand === '9-10' || yearBand === '10')) {
 		return '9-10-design';
 	}
@@ -21,6 +22,7 @@ export function subjectLabelForPlanType(planType: CurriculumPlanTypeId): string 
 		case '7-8-digital-technologies':
 		case '9-10-digital-technologies':
 			return 'Digital Technologies';
+		case '7-8-design':
 		case '9-10-design':
 			return 'Design and Technologies';
 		case '10-engineering':
@@ -42,7 +44,15 @@ export function inferWizardSubjectAndBand(text: string): {
 	let subjectFamily: WizardSubjectFamily | '' = '';
 	if (value.includes('engineering')) subjectFamily = 'engineering';
 	else if (value.includes('digital')) subjectFamily = 'digital';
-	else if (value.includes('design')) subjectFamily = 'design';
+	else if (
+		value.includes('design') ||
+		value.includes('manual art') ||
+		value.includes('agriculture') ||
+		/\bagri\b/.test(value) ||
+		value.includes('industrial tech')
+	) {
+		subjectFamily = 'design';
+	}
 
 	let yearBand: WizardYearBand | '' = '';
 	if (value.includes('7-8') || /\b7\b/.test(value) || /\b8\b/.test(value)) yearBand = '7-8';

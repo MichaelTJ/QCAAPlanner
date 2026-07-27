@@ -1,0 +1,776 @@
+{
+  "id": "unit-3af98158",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Future Food Lab",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate the intersection of food specialisations and emerging technologies through the application of virtual reality (VR) in culinary contexts. Students explore how immersive digital environments can simulate kitchen safety, complex culinary techniques, and production workflows to improve efficiency and reduce resource waste. They examine the role of simulation in modern food industries, considering how virtual environments support skill development and ethical decision-making in high-risk or resource-intensive scenarios. Through the design process, students generate and represent original ideas for virtual cooking experiences, using graphical representation techniques and storyboards to communicate their design thinking. The unit emphasises innovation, user experience, and the strategic use of technologies to address contemporary challenges in food production and training for preferred futures.",
+    "aiNotes": "I have a VR Cooking unit to teach Grade 9 Design. I need a Unit description.\n\nHere's an example for a Sustainability unit:\n\nIn this unit, students explore sustainable living through the lens of resilience and self-sufficiency, examining how designed solutions can support survival and wellbeing in extreme or off-grid scenarios. Students investigate sustainability from ecological, economic, and social perspectives, considering how ethical decision-making, resource management, and long-term impacts influence design choices. Through analysis of real-world sustainable systems such as energy, water, food production, and shelter, students develop an understanding of how designers and engineers respond to challenges related to security, sustainability, and human needs. The unit emphasises thoughtful planning, innovation, and the responsible use of technologies to create sustainable living environments.",
+    "lastGenerated": "2026-07-13T04:56:47.493Z"
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-20557f7f",
+      "assessmentNumber": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Food Trends",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this design project, students investigate contemporary drivers of food trends to define a design opportunity within a professional culinary context. Students select a specific driver—such as sustainability, health and wellbeing, or cultural fusion—to guide the development of a designed solution. They apply divergent design thinking to generate and explore multiple concepts, evaluated against specific criteria: trend alignment, environmental sustainability, and aesthetic appearance. Through iterative refinement and the use of graphical representation techniques, students communicate a final dish design, justifying their decisions based on technical, environmental, and social factors. The production phase utilises virtual reality (VR) technology to simulate complex culinary workflows, allowing students to demonstrate production skills and manage safety and efficiency in a digital environment. Finally, students evaluate the success of their designed solution and the effectiveness of the virtual production process against the established design criteria.",
+        "aiNotes": "Task 1 – Identify the Driver (Define) \n\nChoose one modern driver of food trends to guide your design. \nExamples: \n\nHealth and wellbeing (e.g. high-protein, low-sugar, plant-based) \n\nEnvironmental sustainability (e.g. local produce, minimal waste) \n\nCultural fusion (e.g. mixing flavours or ingredients from different cultures) \n\nConvenience and lifestyle (e.g. meals for busy people, easy to prepare) \n\nDeliverable: \n\nA short paragraph explaining your chosen food trend driver \n\n \n\nTask 2 – Generate Ideas (Develop) \n\nUse divergent thinking to explore a wide range of ideas. \n\nFocus on one design criterion at a time. The 3 criteria are trend alignment, sustainability, appearance \n\nCreate at least five different ideas for each criterion \n\nUse sketches, notes, or diagrams to show your thinking \n\nDeliverable: \n\nA3 page showing idea generation and exploration (sketches, annotations, mind maps) \n\n \n\nTask 3 – Combine and Refine \n\nNarrow down and improve your ideas. \n\nCombine your best elements into 2–3 refined concepts \n\nJustify why each concept could work for the restaurant \n\nEvaluate against the criteria to see which one best suits \n\nDeliverable: \n\nA3 page showing refined ideas with annotations and justifications \n\n \n\nTask 4 – Final Design (Deliver) \n\nPresent your final dish design. \n\nClearly show what the dish looks like (drawings, photos, or digital visuals) \n\nExplain how it reflects your chosen food trend driver \n\nDescribe how it meets all three criteria \n\nDeliverable: \n\nA3 page showing your final concept with clear visuals and explanations \n\n \n\nTask 5 – Cook it in VR \n\nCreate a video of you cooking a representation of the dish in VR.  \n\nEvaluate how well your dish meets each design criterion \n\nDeliverable: \n\nCooking video presentation ",
+        "lastGenerated": "2026-07-13T05:03:16.627Z"
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.\n",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 6\nConferencing: Week 8",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-803a3894",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6a01a0ed",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Food specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b60b6539",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-457d27f5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cfd45526",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2e874d0a",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-fbbed16b",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-0904aef9",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-2ec98bc5",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts\nResponding to ethical issues: Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-d508a83d",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-3f1eb89b",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-a84a1e15",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-89e5efa6",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-ae014ed9",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to the unit inquiry: 'How can we design healthy, sustainable food solutions using food trends and VR?'. Students participate in a carousel activity exploring contemporary food trends and complete a 'Cooking Confidence' diagnostic. Initial induction into the VR cooking environment focusing on navigation, interface interaction, and safety parameters within a virtual workspace.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "VR headsets, VR cooking simulation software, trend case study cards, student journals, projector for software orientation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Overview of global food trends (e.g., sustainability, convenience, health-conscious eating). Introduction to the role of VR in food product development, prototyping, and design-thinking. Establishing classroom expectations for digital safety and the iterative design process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "VR orientation workshop: mastering basic movement, object manipulation, and environment interaction. Students complete a 'first-cook' simulation to familiarise themselves with VR tool physics, haptic feedback, and spatial awareness.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Participation in trend discussion and completion of the Cooking Confidence diagnostic tool.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to food trends and VR environment orientation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-3f22d9d8",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Explicit instruction on food safety, hygiene, and kitchen organisation. Connecting real-world safety standards (HACCP principles) to the VR environment. Scaffolding task: students perform specific kitchen procedures in VR, focusing on precision, cross-contamination prevention, and efficient workflow management.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Food safety reference guides, VR cooking software, checklists for safe handling procedures, interactive demonstration materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Food safety fundamentals: personal hygiene, cross-contamination, high-risk foods, and equipment safety. Discussion on how digital simulation allows for stress-free iterative testing of techniques (chopping, boiling, frying) without physical waste.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "VR simulation tasks: students follow a digital recipe to practise specific knife skills (chopping), heat control (boiling/frying), and systematic kitchen setup within the virtual environment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Practical checklist of kitchen safety protocols and successful completion of a VR 'mise en place' activity.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Food safety, hygiene and VR kitchen operational skills",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-757ead7b",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Deep dive into 'Food Trend Drivers' (e.g., plant-based innovations, global fusion, sustainable packaging, and social media aesthetic culture). Students analyse how these drivers respond to community needs and technological advancements. Research and selection of one specific driver to anchor their forthcoming design brief.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Online industry articles, library databases for food science, mood board templates (digital/physical), research scaffold.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Analysis of modern culinary influencers and the impact of social media on food presentation and innovation. Defining the role of the designer in predicting future food needs based on current environmental and societal shifts.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Investigation activity: students source and annotate food images or industry articles linked to their chosen trend driver. Collaborative group discussions to critique how these trends translate into sustainable and healthy design solutions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Annotated 'Trend Mood Board' demonstrating clear justification for the chosen design driver.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Investigation of food trend drivers and design opportunities",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-31ffbef3",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on integrating nutritional science with food design; examination of physical and chemical changes in food during processing; exploration of life cycle thinking in packaging and waste reduction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "VR cooking software licences, food science reference charts, interactive whiteboards, digital nutrient databases, sustainable packaging case studies.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Nutrition foundations: macro-nutrients (fats, carbohydrates, proteins, fibre) and their functional roles in meal design. Food science principles: spoilage, preservation techniques (freezing, dehydration, pickling), and sustainable packaging options for future food security.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "VR laboratory simulation: students manipulate ingredient variables to observe 'digital' food spoilage and test the effectiveness of different preservation methods within the virtual environment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on knowledge integration (Nutrition/Sustainability) via a class-based technical quiz.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Nutritional science, sustainability and food preservation principles",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-0e06da6e",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Explicit teaching of the design brief process and criteria-setting; establishing the nexus between food trends and user needs; modelling how to translate a 'problem' into measurable design outcomes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design brief templates, criteria rubrics, trend driver stimulus cards, exemplars of well-structured design briefs, student laptops.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Deconstructing the design brief: identifying client needs, trend drivers, and constraints. Defining success: establishing qualitative and quantitative criteria (e.g., nutritional profile, aesthetic appeal, carbon footprint, technical complexity).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Drafting the Design Brief and Criteria for Success (Part 1 of assessment). Students conduct peer-review sessions to refine criteria to ensure they are measurable and align with the assessment standards.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Draft submission: Design Brief and Criteria for Success (internal check for teacher feedback).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Establishing design briefs and criteria for success",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-e99bcd68",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Divergent and convergent thinking for meal ideation; use of graphical representation to communicate culinary concepts; scaffolding the move from concept generation to systematic prototyping.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, sketching software/tools, VR headset and software, recipe development journals, food presentation guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Ideation techniques: mind mapping, mood boarding, and rapid sketching to explore food trends. Principles of visual communication: colour theory, texture, balance, and plating in a digital context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Initial prototyping in VR: students begin generating and testing three distinct meal concepts based on their chosen trend. Use of digital annotation and wireframing for recipe layouts.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Ongoing: Evaluation of brainstorming and initial design sketches included in the design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Generating initial meal concepts and trend-based ideation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-33372092",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on the synthesis of design ideas through comparative analysis. Explicit teaching of iterative refinement and the justification of design choices against the established Criteria for Success.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "VR cooking software, Criteria for Success checklist, design development templates, student research journals.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Analysis of design concepts; techniques for comparing and contrasting meal ideas against criteria; strategies for justifying design decisions based on nutrition, sustainability, and trend alignment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students evaluate and merge components of their preliminary meal ideas into a single refined concept. Continued simulation and iterative testing within the VR cooking environment to validate flavour combinations and preparation sequences.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of the Design Development portfolio, focusing on the refinement of the selected meal concept.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Refining design ideas and VR technical prototyping",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-1750cd53",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Emphasis on visual communication as a design skill. Modelling effective annotation and graphical representation techniques for food presentation and plating.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Visual communication rubrics, design software (e.g., Canva/Adobe Express), food photography/styling references, drafting materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of visual communication in food design: balance, contrast, scale, and layout. Understanding the role of annotation in conveying design intent, nutritional justification, and sustainable production methods.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Creation of the final A3 design page. Students produce detailed sketches and rendered views of their final meal concept, incorporating precise annotations that link the visual output to their original trend driver and design brief.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Drafting of the final design documentation (A3 page) for teacher feedback.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Visual communication of final design concepts",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-7fa64a01",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Development of pitch skills and high-fidelity representation of the final design solution. Structuring a persuasive argument for a target audience.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Screen recording and video editing software, pitch structure templates, student VR hardware, rubric criteria.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Developing a 2-minute pitch: communicating the 'why' behind the food trend, design choices, and the technical execution of the VR dish. Techniques for reflecting on the design process and sustainability impacts.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Recording the final VR cooking sequence; editing the footage for clarity and pace. Structuring and rehearsing the final pitch presentation to the ‘restaurant team’ panel.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Submission of the VR cooking demonstration video and preparation of the pitch script.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "VR production and finalising the stakeholder pitch",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    },
+    {
+      "id": "week-24edd0ad",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students participate in a formal design presentation, 'pitching' their VR cooking solution to the class. Peer and teacher feedback is structured around the criteria for success developed in Week 5. Following the presentations, students complete a reflective evaluation, synthesising their journey from trend investigation to final product. They discuss the potential of VR technologies in the culinary industry and the broader implications for sustainability and food innovation in future societies.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "VR hardware and software (virtual kitchen environment), screen recording tools, presentation rubric, reflective journal templates, peer-feedback forms, projector for student pitches.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Reflective practice in Design and Technologies; evaluating designed solutions against identified criteria; discussion of future trends in food specialisations, including the integration of virtual reality for prototyping and sustainable food design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct final presentation of the Food Trend Dish; formal documentation of final evaluation and reflection log; final export and submission of the VR cooking video and supporting design documentation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Food Trend Dish (Project): Submission of final virtual design, video demonstration, and the summative evaluation/pitch presentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project presentation, evaluation and critical reflection",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T01:31:53.754Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "1 Term",
+    "aiNotes": ""
+  }
+}

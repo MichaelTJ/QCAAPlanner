@@ -3,7 +3,6 @@
 	import {
 		ASSESSMENT_MODES,
 		ASSESSMENT_TECHNIQUES,
-		STANDALONE_LEVEL_PLAN_ID,
 		createId
 	} from '$lib/defaults';
 	import { seedUnitPlanFromLevelPlan } from '$lib/plan-sync';
@@ -25,6 +24,7 @@
 		type WizardSubjectFamily,
 		type WizardYearBand
 	} from '$lib/unit-wizard-client';
+	import { getAchievementStandardForPlanType } from '$lib/curriculum/curriculum-catalogue';
 	import { durationFromWeekCount } from '$lib/unit-duration';
 
 	let { data }: { data: PageData } = $props();
@@ -74,6 +74,10 @@
 	let assessmentCount = $state(2);
 	let assessments = $state<WizardAssessment[]>([]);
 	let createItems = $state(true);
+	let destinationMode = $state<'standalone' | 'level-plan'>(
+		prefill ? 'level-plan' : 'standalone'
+	);
+	let destinationLevelPlanId = $state(prefill?.levelPlanId || '');
 
 	const weekSelectOptions = $derived(
 		WEEK_OPTIONS.includes(durationWeeks)
@@ -93,6 +97,18 @@
 	const curriculum = $derived(
 		planType ? data.planTypes.find((p) => p.id === planType) ?? null : null
 	);
+
+	const compatibleLevelPlans = $derived(
+		planType
+			? data.levelPlanOptions.filter((p) => p.curriculumPlanType === planType)
+			: data.levelPlanOptions
+	);
+
+	const selectedDestination = $derived(
+		compatibleLevelPlans.find((p) => p.id === destinationLevelPlanId) ?? null
+	);
+
+	const effectiveDestinationId = $derived(selectedDestination?.id ?? '');
 
 	const pickerDescriptors = $derived.by((): PickerDescriptor[] => {
 		if (!curriculum) return [];
@@ -333,6 +349,9 @@
 	}
 
 	function buildAssessmentsForPlan(yearLevel: number): UnitAssessment[] {
+		const achievementStandard = planType
+			? getAchievementStandardForPlanType(planType)
+			: '';
 		return assessments.map((a, index) => ({
 			id: createId('uassess'),
 			assessmentNumber: aiField(index + 1),
@@ -343,7 +362,7 @@
 			mode: aiField(a.mode),
 			conditions: aiField(''),
 			timing: aiField(''),
-			achievementStandard: aiField(''),
+			achievementStandard: aiField(achievementStandard),
 			moderation: aiField(''),
 			contentDescriptions: a.contentCodes
 				.map(descriptorToUnitCd)
@@ -365,6 +384,41 @@
 		plan.assessments = buildAssessmentsForPlan(yearLevel);
 	}
 
+	async function createUnitOnLevelPlan(levelPlanId: string, unitIndex: number): Promise<UnitPlan> {
+		const levelRes = await fetch(`/api/level-plan/${levelPlanId}`);
+		const levelPlan = (await levelRes.json()) as LevelPlan & { message?: string };
+		if (!levelRes.ok) throw new Error(levelPlan.message || 'Failed to load level plan');
+
+		const res = await fetch(`/api/unit-plan/${levelPlanId}`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ unitNumber: unitIndex + 1 })
+		});
+		const created = await res.json();
+		if (!res.ok) {
+			throw new Error(
+				res.status === 409
+					? 'A unit plan already exists for this slot.'
+					: created.message || 'Failed to create unit'
+			);
+		}
+		seedUnitPlanFromLevelPlan(levelPlan, created, unitIndex);
+		applyWizardFields(created);
+		const putRes = await fetch(`/api/unit-plan/${levelPlanId}`, {
+			method: 'PUT',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(created)
+		});
+		if (!putRes.ok) {
+			await fetch(`/api/unit-plan/${levelPlanId}?unitId=${created.id}&internal=1`, {
+				method: 'DELETE'
+			});
+			const err = await putRes.json().catch(() => ({}));
+			throw new Error(err.message || 'Failed to save unit plan');
+		}
+		return putRes.json();
+	}
+
 	async function saveUnitPlan() {
 		saving = true;
 		errorMessage = '';
@@ -375,42 +429,30 @@
 			}
 
 			let plan: UnitPlan;
-			let levelPlanId: string;
 
 			if (prefill) {
-				levelPlanId = prefill.levelPlanId;
-				const levelRes = await fetch(`/api/level-plan/${levelPlanId}`);
-				const levelPlan = (await levelRes.json()) as LevelPlan & { message?: string };
-				if (!levelRes.ok) throw new Error(levelPlan.message || 'Failed to load level plan');
-
-				const res = await fetch(`/api/unit-plan/${levelPlanId}`, {
+				plan = await createUnitOnLevelPlan(prefill.levelPlanId, prefill.unitIndex);
+			} else if (destinationMode === 'level-plan') {
+				if (!effectiveDestinationId) {
+					throw new Error('Choose a level band plan to add this unit to');
+				}
+				const slotRes = await fetch(`/api/level-plan/${effectiveDestinationId}/units`, {
 					method: 'POST',
 					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify({ unitNumber: prefill.unitIndex + 1 })
+					body: JSON.stringify({
+						title: unitTitle.trim() || undefined,
+						reuseEmptySlot: true
+					})
 				});
-				const created = await res.json();
-				if (!res.ok) {
-					throw new Error(
-						res.status === 409
-							? 'A unit plan already exists for this slot.'
-							: created.message || 'Failed to create unit'
-					);
+				const slotBody = await slotRes.json();
+				if (!slotRes.ok) {
+					throw new Error(slotBody.message || 'Failed to reserve a unit slot on the level plan');
 				}
-				seedUnitPlanFromLevelPlan(levelPlan, created, prefill.unitIndex);
-				applyWizardFields(created);
-				const putRes = await fetch(`/api/unit-plan/${levelPlanId}`, {
-					method: 'PUT',
-					headers: { 'Content-Type': 'application/json' },
-					body: JSON.stringify(created)
-				});
-				if (!putRes.ok) {
-					await fetch(`/api/unit-plan/${levelPlanId}?unitId=${created.id}&internal=1`, {
-						method: 'DELETE'
-					});
-					const err = await putRes.json().catch(() => ({}));
-					throw new Error(err.message || 'Failed to save unit plan');
+				const unitIndex = Number(slotBody.unitIndex);
+				if (!Number.isInteger(unitIndex) || unitIndex < 0) {
+					throw new Error('Level plan did not return a valid unit slot');
 				}
-				plan = await putRes.json();
+				plan = await createUnitOnLevelPlan(effectiveDestinationId, unitIndex);
 			} else {
 				const res = await fetch('/api/unit-plans', {
 					method: 'POST',
@@ -430,7 +472,6 @@
 					throw new Error(err.message || 'Failed to save unit plan');
 				}
 				plan = await putRes.json();
-				levelPlanId = plan.levelPlanId || STANDALONE_LEVEL_PLAN_ID;
 			}
 
 			let firstItemId: string | null = null;
@@ -726,17 +767,73 @@
 			{durationWeeks} week{durationWeeks === 1 ? '' : 's'} ·
 			{assessments.length} assessment{assessments.length === 1 ? '' : 's'} ·
 			{selectedCodes.length} content descriptor{selectedCodes.length === 1 ? '' : 's'}
-			{#if prefill}
-				· Slot {prefill.unitIndex + 1} on {prefill.levelPlanTitle || 'level plan'}
-			{:else}
-				· Standalone unit plan
-			{/if}
 		</p>
+
+		{#if prefill}
+			<p class="meta">
+				Slot {prefill.unitIndex + 1} on {prefill.levelPlanTitle || 'level plan'}
+			</p>
+		{:else}
+			<fieldset class="destination-fieldset">
+				<legend>Where should this unit go?</legend>
+				<label class="destination-option">
+					<input type="radio" bind:group={destinationMode} value="standalone" />
+					<span>
+						<strong>Standalone</strong>
+						<span class="meta">Keep it unattached; you can add it to a level plan later.</span>
+					</span>
+				</label>
+				<label class="destination-option">
+					<input
+						type="radio"
+						bind:group={destinationMode}
+						value="level-plan"
+						disabled={!compatibleLevelPlans.length}
+					/>
+					<span>
+						<strong>Existing level band plan</strong>
+						<span class="meta">
+							{#if compatibleLevelPlans.length}
+								Uses an empty slot if available, otherwise adds a new unit column.
+							{:else}
+								No level plans match this subject and year band yet.
+							{/if}
+						</span>
+					</span>
+				</label>
+				{#if destinationMode === 'level-plan'}
+					<label style="display:block;margin-top:0.75rem;max-width:28rem">
+						Level band plan
+						<select bind:value={destinationLevelPlanId}>
+							<option value="">Select…</option>
+							{#each compatibleLevelPlans as plan}
+								<option value={plan.id}>
+									{plan.title}
+									({plan.emptySlotCount} empty · {plan.unitCount} units)
+								</option>
+							{/each}
+						</select>
+					</label>
+					{#if selectedDestination}
+						<p class="meta" style="margin-top:0.5rem">
+							{selectedDestination.learningAreaSubject}
+							· {selectedDestination.yearLevelBand}
+						</p>
+					{/if}
+				{/if}
+			</fieldset>
+		{/if}
+
 		<label style="display:flex;align-items:center;gap:0.5rem;margin:1rem 0">
 			<input type="checkbox" bind:checked={createItems} />
 			Also create assessment item instruments for each assessment
 		</label>
-		<button class="btn btn-primary" onclick={saveUnitPlan} disabled={saving}>
+		<button
+			class="btn btn-primary"
+			onclick={saveUnitPlan}
+			disabled={saving ||
+				(!prefill && destinationMode === 'level-plan' && !effectiveDestinationId)}
+		>
 			{saving ? 'Saving…' : createItems ? 'Save unit & create items' : 'Save unit plan'}
 		</button>
 	</div>
@@ -822,5 +919,32 @@
 		padding: 0.4rem 0.5rem;
 		border: 1px solid #c5d0dc;
 		border-radius: 4px;
+	}
+
+	.destination-fieldset {
+		margin: 1rem 0 0;
+		padding: 0.85rem 1rem;
+		border: 1px solid #c5d0dc;
+		border-radius: 6px;
+	}
+
+	.destination-fieldset legend {
+		padding: 0 0.35rem;
+		font-size: 0.9rem;
+		font-weight: 600;
+	}
+
+	.destination-option {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.6rem;
+		margin-top: 0.65rem;
+		font-weight: 400;
+	}
+
+	.destination-option span {
+		display: flex;
+		flex-direction: column;
+		gap: 0.15rem;
 	}
 </style>

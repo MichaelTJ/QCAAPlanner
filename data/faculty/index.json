@@ -4,19 +4,32 @@
       "id": "digital-technologies-band-7-8-2026",
       "learningAreaSubject": "Digital Technologies",
       "yearLevelBand": "7-8",
-      "dateLastModified": "2026-07-05T11:46:44.843Z"
+      "dateLastModified": "2026-07-13T04:32:39.182Z"
     },
     {
       "id": "design-and-technologies-band-9-10-2026",
       "learningAreaSubject": "Design Technologies",
       "yearLevelBand": "9-10",
-      "dateLastModified": "2026-07-06T11:45:35.401Z"
+      "dateLastModified": "2026-07-14T05:43:12.308Z"
     },
     {
       "id": "digital-technologies-band-9-10-2026",
       "learningAreaSubject": "Digital Technologies",
       "yearLevelBand": "9-10",
-      "dateLastModified": "2026-07-11T01:50:00.464Z"
+      "dateLastModified": "2026-07-14T11:06:20.569Z"
+    },
+    {
+      "id": "design-technologies-7-8",
+      "learningAreaSubject": "Design Technologies",
+      "yearLevelBand": "7-8",
+      "dateLastModified": "2026-07-27T11:07:53.696Z"
+    },
+    {
+      "id": "manual-arts-metal-9-10",
+      "learningAreaSubject": "Manual Arts (metal)",
+      "yearLevelBand": "9-10",
+      "curriculumPlanType": "9-10-design",
+      "dateLastModified": "2026-07-27T11:35:32.021Z"
     }
   ]
 }

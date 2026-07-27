@@ -11,7 +11,12 @@ import {
 import { buildLearningGuideDocxForUnit } from '$lib/server/learning-guide-export';
 import type { AssessmentItem, LevelPlan, UnitPlan } from '$lib/types';
 import { buildAssessmentItemDocx } from './assessment-item-docx';
-import { levelPlanExportFilename, unitPlanExportFilename } from './export-filenames';
+import {
+	assessmentItemExportFilename,
+	levelPlanExportFilename,
+	unitPlanExportFilename,
+	unitPlanExportFolderName
+} from './export-filenames';
 import { buildLevelPlanDocx } from './level-plan-docx';
 import { buildUnitPlanDocx } from './unit-plan-docx';
 
@@ -20,24 +25,43 @@ export type LevelPlanBundleOptions = {
 	learningGuides?: boolean;
 };
 
+function uniqueName(base: string, used: Set<string>): string {
+	if (!used.has(base)) {
+		used.add(base);
+		return base;
+	}
+	const stem = base.replace(/\.docx$/i, '');
+	const ext = base.endsWith('.docx') ? '.docx' : '';
+	let n = 2;
+	while (used.has(`${stem}-${n}${ext}`)) n += 1;
+	const unique = `${stem}-${n}${ext}`;
+	used.add(unique);
+	return unique;
+}
+
+function uniqueUnitFolderName(plan: UnitPlan, used: Set<string>): string {
+	return uniqueName(unitPlanExportFolderName(plan), used);
+}
+
 /**
  * Zip layout (folder root = level plan id):
  *   {level_plan_…}.docx
- *   units/{unitId}/{unit_plan_…}.docx
- *   units/{unitId}/assessment_items/{assessmentId}.docx
- *   units/{unitId}/learning_guides/{unitId}-learning-guide.docx
- *   units/{unitId}/learning_guides/{unitId}-learning-guide-detailed.docx
- *   assessment_items/{id}.docx   ← only orphans not linked to a unit
+ *   units/{unit-grade-n-title}/{unit_plan_…}.docx
+ *   units/{unit-grade-n-title}/{assessment_…}.docx
+ *   units/{unit-grade-n-title}/{folder}-learning-guide.docx
+ *   units/{unit-grade-n-title}/{folder}-learning-guide-detailed.docx
+ *   {assessment_…}.docx   ← only orphans not linked to a unit in this level
  */
 async function addLearningGuides(zip: AdmZip, unitFolder: string, unit: UnitPlan) {
 	const guide = learningGuideFromUnitPlan(unit);
 	if (guide.weeks.length === 0) return;
 
+	const folderName = unitFolder.split('/').pop() || unit.id;
 	for (const detail of ['summary', 'detailed'] as const) {
 		try {
 			const { buffer } = await buildLearningGuideDocxForUnit(unit, { detail });
 			const suffix = detail === 'detailed' ? '-learning-guide-detailed' : '-learning-guide';
-			zip.addFile(`${unitFolder}/learning_guides/${unit.id}${suffix}.docx`, buffer);
+			zip.addFile(`${unitFolder}/${folderName}${suffix}.docx`, buffer);
 		} catch (e) {
 			console.warn(
 				`Skipping ${detail} learning guide for ${unit.levelPlanId}/${unit.id}:`,
@@ -65,11 +89,10 @@ async function addUnitFolder(
 ) {
 	zip.addFile(`${unitFolder}/${unitPlanExportFilename(unit)}`, await buildUnitPlanDocx(unit));
 
+	const usedFiles = new Set<string>([unitPlanExportFilename(unit)]);
 	for (const item of assessments) {
-		zip.addFile(
-			`${unitFolder}/assessment_items/${item.id}.docx`,
-			await buildAssessmentItemDocx(item)
-		);
+		const filename = uniqueName(assessmentItemExportFilename(item), usedFiles);
+		zip.addFile(`${unitFolder}/${filename}`, await buildAssessmentItemDocx(item));
 	}
 }
 
@@ -85,12 +108,13 @@ async function addLevelPlanFolder(
 	zip.addFile(`${folder}/${levelPlanExportFilename(plan)}`, await buildLevelPlanDocx(plan));
 
 	const includedAssessmentIds = new Set<string>();
+	const usedUnitFolders = new Set<string>();
 
 	for (const unit of unitPlans) {
 		const assessments = await assessmentsForUnitPlan(unit);
 		for (const item of assessments) includedAssessmentIds.add(item.id);
 
-		const unitFolder = `${folder}/units/${unit.id}`;
+		const unitFolder = `${folder}/units/${uniqueUnitFolderName(unit, usedUnitFolders)}`;
 		await addUnitFolder(zip, unitFolder, unit, assessments);
 
 		if (options.learningGuides) {
@@ -99,17 +123,16 @@ async function addLevelPlanFolder(
 	}
 
 	// Level-linked items not already nested under a unit (orphans / mismatched unitPlanId)
+	const usedOrphanFiles = new Set<string>();
 	const levelAssessments = await listAssessmentItems(plan.id);
 	for (const item of levelAssessments) {
 		if (includedAssessmentIds.has(item.id)) continue;
-		zip.addFile(
-			`${folder}/assessment_items/${item.id}.docx`,
-			await buildAssessmentItemDocx(item)
-		);
+		const filename = uniqueName(assessmentItemExportFilename(item), usedOrphanFiles);
+		zip.addFile(`${folder}/${filename}`, await buildAssessmentItemDocx(item));
 	}
 }
 
-/** One unit plan + every assessment item attached to it (supports 2+). */
+/** One unit plan + assessments + summary/detailed learning guides. */
 export async function buildUnitPlanBundleZip(
 	levelPlanId: string,
 	unitId: string
@@ -119,17 +142,19 @@ export async function buildUnitPlanBundleZip(
 
 	const zip = new AdmZip();
 	const assessments = await assessmentsForUnitPlan(unit);
-	await addUnitFolder(zip, unit.id, unit, assessments);
+	const unitFolder = unitPlanExportFolderName(unit);
+	await addUnitFolder(zip, unitFolder, unit, assessments);
+	await addLearningGuides(zip, unitFolder, unit);
 	return zip.toBuffer();
 }
 
-/** One level plan + each unit folder (unit docx + all its assessment items). */
+/** One level plan + each unit folder (unit, assessments, learning guides). */
 export async function buildLevelPlanBundleZip(levelPlanId: string): Promise<Buffer> {
 	const plan = await getLevelPlan(levelPlanId);
 	if (!plan) throw new Error('Level plan not found');
 
 	const zip = new AdmZip();
-	await addLevelPlanFolder(zip, plan, { learningGuides: false });
+	await addLevelPlanFolder(zip, plan, { learningGuides: true });
 	return zip.toBuffer();
 }
 

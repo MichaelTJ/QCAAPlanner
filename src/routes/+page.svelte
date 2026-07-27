@@ -2,6 +2,7 @@
 	import type { PageData } from './$types';
 	import { formatBandSubjectTitle } from '$lib/defaults';
 	import { unitCompatibleWithFaculty } from '$lib/curriculum-match';
+	import { CURRICULUM_CATALOGUE_OPTIONS } from '$lib/content-descriptions';
 	import { seedUnitPlanFromLevelPlan } from '$lib/plan-sync';
 	import type {
 		AssessmentItemSummary,
@@ -18,6 +19,7 @@
 	let allAssessments = $state<AssessmentItemSummary[]>([...data.allAssessments]);
 	let learningAreaSubject = $state('');
 	let yearLevelBand = $state('');
+	let curriculumPlanType = $state('');
 	let standaloneTitle = $state('');
 	let standaloneAssessmentTitle = $state('');
 	let saving = $state(false);
@@ -38,7 +40,8 @@
 						unit.subject,
 						unit.yearLevel,
 						entry.learningAreaSubject,
-						entry.yearLevelBand
+						entry.yearLevelBand,
+						entry.curriculumPlanType
 					)
 			)
 			.sort(
@@ -91,7 +94,11 @@
 			const res = await fetch('/api/faculty', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ learningAreaSubject, yearLevelBand })
+				body: JSON.stringify({
+					learningAreaSubject,
+					yearLevelBand,
+					...(curriculumPlanType ? { curriculumPlanType } : {})
+				})
 			});
 			const row = await res.json();
 			if (!res.ok) throw new Error(row.message);
@@ -106,6 +113,7 @@
 			];
 			learningAreaSubject = '';
 			yearLevelBand = '';
+			curriculumPlanType = '';
 		} catch (e) {
 			error = e instanceof Error ? e.message : 'Failed to add row';
 		} finally {
@@ -379,14 +387,27 @@
 
 <div class="card">
 	<h2>Add level plan</h2>
+	<p class="meta" style="margin-top:0">
+		You can create multiple plans that share the same curriculum criteria — e.g. Design, Manual Arts, and
+		Agriculture all using Design and Technologies.
+	</p>
 	<div class="form-row">
 		<label>
 			Learning area / subject
-			<input bind:value={learningAreaSubject} placeholder="Digital Technologies" />
+			<input bind:value={learningAreaSubject} placeholder="Manual Arts" />
 		</label>
 		<label>
 			Year level / band
-			<input bind:value={yearLevelBand} placeholder="9-10" />
+			<input bind:value={yearLevelBand} placeholder="7-8" />
+		</label>
+		<label>
+			Curriculum criteria
+			<select bind:value={curriculumPlanType}>
+				<option value="">Auto-detect from subject name</option>
+				{#each CURRICULUM_CATALOGUE_OPTIONS as opt}
+					<option value={opt.id}>{opt.label}</option>
+				{/each}
+			</select>
 		</label>
 		<button class="btn btn-primary" onclick={addRow} disabled={saving}>Add</button>
 	</div>
@@ -399,11 +420,15 @@
 			<div>
 				<h2 class="level-plan-title">{entry.bandSubjectTitle}</h2>
 				<p class="meta">
-					{#if entry.levelPlanStatus}
-						{entry.levelPlanStatus}
-						·
+					{entry.learningAreaSubject} · {entry.yearLevelBand}
+					{#if entry.curriculumPlanType}
+						· Criteria: {CURRICULUM_CATALOGUE_OPTIONS.find((o) => o.id === entry.curriculumPlanType)
+							?.label || entry.curriculumPlanType}
 					{/if}
-					Updated {formatDate(entry.dateLastModified)}
+					{#if entry.levelPlanStatus}
+						· {entry.levelPlanStatus}
+					{/if}
+					· Updated {formatDate(entry.dateLastModified)}
 				</p>
 			</div>
 			<div class="level-plan-actions">

@@ -1,0 +1,455 @@
+{
+  "id": "quick-plan-4894a588",
+  "planType": "9-10-digital-technologies",
+  "title": "9-10 Digital Technologies",
+  "sourceLevelPlanId": "digital-technologies-band-9-10-2026",
+  "createdAt": "2026-06-25T06:51:19.293Z",
+  "modifiedAt": "2026-07-09T01:23:04.517Z",
+  "units": [
+    {
+      "id": "unit-twnxcitm",
+      "title": "Websites and Cyber Security",
+      "description": "In this unit, students will explore how websites and servers work by interacting with a controlled, deliberately vulnerable web application. Through guided investigation and hands-on challenges, students will examine how data moves between a browser and server, how user input is processed, and how poor design choices can create security weaknesses. Students will test, identify and explain simple vulnerabilities in a safe learning environment, then recommend and apply improvements to make the system more secure. This unit develops practical understanding of web technologies, ethical hacking, secure design principles and responsible digital behaviour.",
+      "duration": "1 Semester",
+      "assessments": [
+        {
+          "id": "assess-teot36ec",
+          "title": "Web Exam",
+          "description": "Students will complete a written examination to assess their understanding of the interdependencies between hardware and software components within networked digital systems, with a focus on mechanisms for managing, controlling, and securing data access. The assessment requires students to explain the abstraction of online documents by distinguishing between content, structure, and presentation, and to justify the importance of these representations in contemporary web environments. "
+        },
+        {
+          "id": "qassess-e742a0d8",
+          "title": "Fix the Vulnerable Web App",
+          "description": "Students investigate the architecture of networked digital systems, focusing on how hardware and software components manage, control, and secure access to data. Through the analysis of a provided web application, students identify software vulnerabilities and apply their knowledge of content, structure, and presentation to propose and implement robust, secure, and user-friendly modifications. The task requires students to develop a cyber security threat model, critique the system’s digital footprint against the Australian Privacy Principles, and employ object-oriented programming to debug and harden server-side logic and input validation. Students document the problem-solving process, justifying their design choices against established criteria, user stories, and potential future enterprise impacts. The final solution is evaluated for its effectiveness in mitigating identified risks and improving overall system integrity."
+        }
+      ]
+    },
+    {
+      "id": "unit-z6wtoifw",
+      "title": "Microbits - Sports Science",
+      "description": "In this unit, students investigate how data can be used to monitor performance, evaluate progress, and make informed decisions in a sports science context. Using micro:bits as data collection devices, students gather quantitative data from physical activities and import it into Microsoft Excel for organisation, analysis, and visualisation. Students apply formulas, charts, and data modelling techniques to identify trends, compare performance over time, and evaluate the effectiveness of training or testing strategies. Through increasingly independent investigations, students use evidence from their data to justify conclusions and make recommendations for improving performance, reinforcing the role of digital technologies in solving real-world problems.",
+      "duration": "10 weeks",
+      "assessments": [
+        {
+          "id": "assess-5w2zlygh",
+          "title": "Sports Science Training",
+          "description": "Students will design and prototype a digital system using Micro:bit technology to address a real-world sports science problem, beginning with the definition and decomposition of requirements into user stories and design criteria. Students will generate and critically evaluate alternative designs, representing their chosen algorithmic logic through flowcharts and pseudocode that incorporate logical operators. The implementation phase requires the application of object-oriented programming to manage data acquisition, with performance validated through a structured suite of test cases. Following data collection, students will utilise software to clean, validate, and query structured data, identifying trends and outliers through interactive visualisations. The submission must include the documented design and prototyping process, the validated program code, and a critical evaluation of the system’s effectiveness against the defined design criteria and user requirements."
+        }
+      ]
+    },
+    {
+      "id": "unit-ggx1tcsx",
+      "title": "User Experience Design",
+      "description": "In this unit, students investigate the principles of user-centred design by creating a Minecraft modification or gameplay experience for a specific audience. Students work with stakeholders to identify needs, define design criteria, and develop user stories that guide the design process. They generate, prototype, communicate, and evaluate multiple design ideas before refining a solution that enhances the Minecraft experience for their target users. Students use emerging digital tools, including artificial intelligence where appropriate, to develop interactive content and communicate their designs. Throughout the unit, students apply agile project management practices to plan, monitor, and evaluate their work while considering future opportunities, user feedback, and the broader impact of their solutions.",
+      "duration": "10 weeks",
+      "assessments": [
+        {
+          "id": "assess-eq7h2679",
+          "title": "Minecraft Experience",
+          "description": "Students will investigate, design, and prototype a specialised digital experience within a Minecraft environment, addressing a specific real-world problem defined through stakeholder interviews. Students decompose the problem into manageable components, developing user stories and design criteria to guide their development. They will generate, communicate, and evaluate alternative design iterations, selecting and utilising emerging digital features and advanced tools to create interactive content for a diverse audience. Throughout the project, students apply agile project management techniques to plan tasks, manage risks, and monitor progress. The final submission requires students to evaluate their implemented solution against the established design criteria and user stories, while critically reflecting on potential future impacts and enterprise opportunities provided by the digital system."
+        }
+      ]
+    },
+    {
+      "id": "unit-27asibzk",
+      "title": "AI",
+      "description": "In this unit, students investigate how artificial intelligence systems learn from data and how machine learning can be used to classify images and gestures. Using resources from MyComputerBrain and Google Teachable Machine, students explore key AI concepts including training data, classes, confidence, accuracy, testing and bias. Students then design and develop their own sign-language recognition model, collecting and labelling data, training a model, testing its performance and improving it through iteration. Through this project, students learn that AI systems are not simply “smart”, but are shaped by the quality and fairness of the data used to train them. The unit concludes with students presenting a working prototype and evaluating its usefulness, limitations and ethical impact.",
+      "duration": "8 weeks",
+      "assessments": [
+        {
+          "id": "assess-jpal7ty6",
+          "title": "Sign Language Translator",
+          "description": "Students then design and develop their own sign-language recognition model, collecting and labelling data, training a model, testing its performance and improving it through iteration. Through this project, students learn that AI systems are not simply “smart”, but are shaped by the quality and fairness of the data used to train them. The unit concludes with students presenting a working prototype and evaluating its usefulness, limitations and ethical impact."
+        }
+      ]
+    },
+    {
+      "id": "qunit-50e229c1",
+      "title": "Project management - GDevelop",
+      "description": "In this unit, students will design and develop a digital game using GDevelop. They will begin by exploring how game engines work, including frames, inputs, events, collisions, movement, graphics, and the game loop. Students will practise decomposing simple games into smaller systems and create a basic prototype before beginning their major project. For the assignment, students will work in groups to research existing games, analyse user experience, and design an original or modified game concept that considers flow, challenge, feedback, clarity, and player engagement. Using agile project management methods, students will create a Kanban board, break their project into manageable tasks, hold regular team meetings, and iteratively develop their game through prototyping, testing, feedback, and refinement. By the end of the unit, students will produce a playable game and evaluate how effectively their design decisions, development process, and final product meet the intended user experience.\n",
+      "duration": "12 weeks",
+      "assessments": [
+        {
+          "id": "qassess-df39a353",
+          "title": "Project Development - Game",
+          "description": "In this assignment, students will work in groups to design and develop a playable digital game using GDevelop. Students will begin by researching existing games and analysing how user experience features such as controls, feedback, challenge, flow, visuals, instructions, and level design affect player engagement. They will then create their own game concept, decompose it into smaller systems, and plan the development process using agile project management methods.\n\nEach group will create and maintain a Kanban board in Trello to organise tasks, manage responsibilities, track progress, and respond to problems during development. Students will build their game through prototyping, testing, feedback, and refinement. They will collect player feedback, make improvements based on that feedback, and keep evidence of their design and development process.\n\nThe final submission will include a playable GDevelop game, evidence of planning and project management, research into existing games, design documentation, testing and feedback evidence, and an evaluation of how effectively the final game meets the intended user experience."
+        }
+      ]
+    },
+    {
+      "id": "qunit-e527d64e",
+      "title": "Microbit Transmissions",
+      "description": "In this unit, students design and test a micro:bit-based secure classroom response system. Each student micro:bit acts as a user device, while a teacher micro:bit acts as the server that receives, verifies and processes student responses. Students investigate how hardware and software manage, control and secure access to data in networked digital systems by designing login methods, user IDs, radio communication protocols and validation rules. They explore simple data compression techniques by shortening names, answers and status messages into efficient codes. Students design algorithms using logical operators, represent them as flowcharts and pseudocode, and validate their programs against a range of test cases. They also develop a cyber security threat model for their system and apply the Australian Privacy Principles to critique the digital footprint created by collecting student IDs, answers and login data.",
+      "duration": "10 weeks",
+      "assessments": [
+        {
+          "id": "qassess-7add2b4b",
+          "title": "Radio Investigation",
+          "description": "In this unit, students design and test a micro:bit-based secure classroom response system. Each student micro:bit acts as a user device, while a teacher micro:bit acts as the server that receives, verifies and processes student responses. Students investigate how hardware and software manage, control and secure access to data in networked digital systems by designing login methods, user IDs, radio communication protocols and validation rules. They explore simple data compression techniques by shortening names, answers and status messages into efficient codes. Students design algorithms using logical operators, represent them as flowcharts and pseudocode, and validate their programs against a range of test cases. They also develop a cyber security threat model for their system and apply the Australian Privacy Principles to critique the digital footprint created by collecting student IDs, answers and login data."
+        }
+      ]
+    },
+    {
+      "id": "qunit-55618b66",
+      "title": "a) IOT",
+      "description": "Design a smart system for a house/ag piece of land/city",
+      "duration": "",
+      "assessments": [
+        {
+          "id": "qassess-39196d33",
+          "title": "Assessment 1",
+          "description": "Design a smart system for a house/ag piece of land/city"
+        },
+        {
+          "id": "qassess-fc7c6743",
+          "title": "Assessment 2",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "qunit-870c7c56",
+      "title": "b) Advanced AI",
+      "description": "Learn how APIs work to generate a text-based adventure.",
+      "duration": "",
+      "assessments": [
+        {
+          "id": "qassess-525dfa19",
+          "title": "Assessment 1",
+          "description": "Learn how APIs work to generate a text-based adventure."
+        },
+        {
+          "id": "qassess-63919144",
+          "title": "Assessment 2",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "qunit-f51e448d",
+      "title": "c) Robotics",
+      "description": "Open-ended robotics challenge",
+      "duration": "",
+      "assessments": [
+        {
+          "id": "qassess-ea4c9a8e",
+          "title": "Assessment 1",
+          "description": "Choose a task to design and prototype a robot for"
+        },
+        {
+          "id": "qassess-ec7b3924",
+          "title": "Assessment 2",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "contentInclusions": [
+    {
+      "contentDescriptorId": "AC9TDI10K01",
+      "assessmentInclusions": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10K02",
+      "assessmentInclusions": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10K03",
+      "assessmentInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P01",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P02",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P03",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P04",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P05",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P06",
+      "assessmentInclusions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P07",
+      "assessmentInclusions": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P08",
+      "assessmentInclusions": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P09",
+      "assessmentInclusions": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P10",
+      "assessmentInclusions": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P11",
+      "assessmentInclusions": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P12",
+      "assessmentInclusions": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P13",
+      "assessmentInclusions": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "contentDescriptorId": "AC9TDI10P14",
+      "assessmentInclusions": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

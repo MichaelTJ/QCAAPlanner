@@ -14,7 +14,7 @@
     "aiNotes": ""
   },
   "unitTitle": {
-    "value": "Cyber Security Site",
+    "value": "Microbits - Sports Science",
     "aiNotes": ""
   },
   "year": {
@@ -26,15 +26,15 @@
     "aiNotes": ""
   },
   "startWeek": {
-    "value": "Term 1 Week 6",
+    "value": "Term 3 Week 1",
     "aiNotes": ""
   },
   "finishWeek": {
-    "value": "Term 2 Week 10",
+    "value": "Term 3 Week 10",
     "aiNotes": ""
   },
   "unitDescription": {
-    "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided. Through guided analysis and controlled, ethical simulations, students will explore common features of scam websites, including deceptive design choices, persuasive language, fake forms, and misleading links. By constructing mock scam websites in a safe learning environment, students will develop an understanding of how attackers exploit human behaviour rather than technical vulnerabilities. Students will also examine protective strategies such as recognising warning signs, verifying sources, and applying safe online practices.",
+    "value": "In this unit, students investigate how data can be used to monitor performance, evaluate progress, and make informed decisions in a sports science context. Using micro:bits as data collection devices, students gather quantitative data from physical activities and import it into Microsoft Excel for organisation, analysis, and visualisation. Students apply formulas, charts, and data modelling techniques to identify trends, compare performance over time, and evaluate the effectiveness of training or testing strategies. Through increasingly independent investigations, students use evidence from their data to justify conclusions and make recommendations for improving performance, reinforcing the role of digital technologies in solving real-world problems.",
     "aiNotes": ""
   },
   "cohortAndClassConsiderations": {
@@ -54,12 +54,13 @@
         "aiNotes": ""
       },
       "title": {
-        "value": "Cyber Security Site",
+        "value": "Sports Science Training",
         "aiNotes": ""
       },
       "description": {
-        "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems. They will define the problem, generate and evaluate design solutions, represent websites using content/structure/presentation, model data, collaborate using agile tools, and apply Australian Privacy Principles.",
-        "aiNotes": ""
+        "value": "In this unit, students apply computational thinking and systems design to the field of sports science, using the Micro:bit V2 as an integrated data acquisition tool. Students decompose athletic performance requirements into specific metrics, designing and implementing object-oriented solutions to capture, process, and log physiological and movement data. The unit emphasises data integrity, requiring students to clean, validate, and query structured datasets to derive actionable insights. Through the development of interactive visualisations and dashboards, students model performance trends and evaluate their systems against established user stories and design criteria. Ethical considerations regarding data privacy and the future impact of wearable technologies are critiqued, aligning with the school’s focus on transferable digital skills and analytical rigour.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:50:23.457Z"
       },
       "technique": {
         "value": "Project",
@@ -70,11 +71,11 @@
         "aiNotes": ""
       },
       "conditions": {
-        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations. 1 minute presentation of the final product.",
+        "value": "",
         "aiNotes": ""
       },
       "timing": {
-        "value": "Week 8",
+        "value": "Term 3, Week 8",
         "aiNotes": ""
       },
       "achievementStandard": {
@@ -82,56 +83,37 @@
         "aiNotes": ""
       },
       "moderation": {
-        "value": "Monitoring: Week 5, Conferencing: Week 7",
+        "value": "Monitoring: Week 5; Conferencing: Week 7",
         "aiNotes": ""
       },
       "contentDescriptions": [
         {
-          "id": "ucd-7f5592ac",
+          "id": "ucd-2e4c7a4d",
           "strand": {
-            "value": "Knowledge and understanding",
+            "value": "Digital systems",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Data representation",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
-            "value": "represent documents online as content (text), structure (markup) and presentation (styling) and explain why such representations are important",
+            "value": "investigate how hardware and software manage, control and secure access to data in networked digital systems",
             "aiNotes": ""
           },
           "code": {
-            "value": "AC9TDI10K02",
+            "value": "AC9TDI10K01",
             "aiNotes": ""
           }
         },
         {
-          "id": "ucd-bd1cc436",
+          "id": "ucd-aec4518a",
           "strand": {
-            "value": "Knowledge and understanding",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Data representation",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "investigate simple data compression techniques",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10K03",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-e6605ab0",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
             "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -144,13 +126,13 @@
           }
         },
         {
-          "id": "ucd-85d91ceb",
+          "id": "ucd-d813b953",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -163,13 +145,13 @@
           }
         },
         {
-          "id": "ucd-a137ecb7",
+          "id": "ucd-644eb53b",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Acquiring, managing and analysing data",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Acquiring, managing and analysing data",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -182,13 +164,13 @@
           }
         },
         {
-          "id": "ucd-5a4ccf9e",
+          "id": "ucd-8f126380",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Investigating and defining",
             "aiNotes": ""
           },
           "subStrand": {
-            "value": "Investigating and defining",
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -201,51 +183,70 @@
           }
         },
         {
-          "id": "ucd-98d31655",
+          "id": "ucd-c6f07c29",
           "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
             "value": "Generating and designing",
             "aiNotes": ""
           },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
           "text": {
-            "value": "design and prototype the user experience of a digital system",
+            "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
             "aiNotes": ""
           },
           "code": {
-            "value": "AC9TDI10P07",
+            "value": "AC9TDI10P05",
             "aiNotes": ""
           }
         },
         {
-          "id": "ucd-1a1ee85c",
+          "id": "ucd-56792324",
           "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
             "value": "Generating and designing",
             "aiNotes": ""
           },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
           "text": {
-            "value": "generate, modify, communicate and critically evaluate alternative designs",
+            "value": "validate algorithms and programs by comparing their output against a range of test cases",
             "aiNotes": ""
           },
           "code": {
-            "value": "AC9TDI10P08",
+            "value": "AC9TDI10P06",
             "aiNotes": ""
           }
         },
         {
-          "id": "ucd-30eab74e",
+          "id": "ucd-9967e256",
           "strand": {
-            "value": "Processes and production skills",
+            "value": "Producing and implementing",
             "aiNotes": ""
           },
           "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-29fc3c68",
+          "strand": {
             "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
             "aiNotes": ""
           },
           "text": {
@@ -254,82 +255,6 @@
           },
           "code": {
             "value": "AC9TDI10P10",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-2c17c764",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Collaborating and managing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10P11",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-312cae0e",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Collaborating and managing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10P12",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-e22085ef",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Privacy and security",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "develop cyber security threat models, and explore a software, user or software supply chain vulnerability",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10P13",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-c1cd4f63",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Privacy and security",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "apply the Australian Privacy Principles to critique and manage the digital footprint that existing systems and student solutions collect",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI10P14",
             "aiNotes": ""
           }
         }
@@ -344,7 +269,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -353,13 +278,13 @@
       },
       "subElementChecks": {
         "cct-inquiring-develop-questions": false,
-        "cct-inquiring-identify-process-evaluate": false,
+        "cct-inquiring-identify-process-evaluate": true,
         "cct-generating-create-possibilities": false,
-        "cct-generating-consider-alternatives": false,
-        "cct-generating-put-ideas-into-action": false,
-        "cct-analysing-interpret-concepts": false,
-        "cct-analysing-draw-conclusions": false,
-        "cct-analysing-evaluate-actions": false,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
         "cct-reflecting-metacognition": false,
         "cct-reflecting-transfer-knowledge": false
       }
@@ -371,7 +296,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Investigating: Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -383,14 +308,14 @@
         "dl-safety-privacy-identity": false,
         "dl-safety-wellbeing": false,
         "dl-investigating-locate": false,
-        "dl-investigating-acquire": false,
-        "dl-investigating-interpret": false,
-        "dl-creating-plan": false,
-        "dl-creating-communicate-collaborate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
         "dl-creating-ip": false,
         "dl-managing-content": false,
         "dl-managing-protect": false,
-        "dl-managing-operate": false
+        "dl-managing-operate": true
       }
     },
     {
@@ -425,7 +350,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students examine the core components of the CIA triad (Confidentiality, Integrity, Availability) and the ethical implications of cyber security research. Discussion centres on the distinction between white-hat and black-hat activities and the legal frameworks protecting digital systems.",
+        "value": "Theory: Introduction to the intersection of sports science and digital technology. Exploration of how quantitative data (acceleration, velocity, and force) is acquired using Micro:bit V2 hardware. Explicit teaching on the onboard sensors relevant to athletics, specifically the 3-axis accelerometer and magnetometer. Discussion on the data acquisition cycle: sensing, processing, and outputting. \n\nPrac: Initial hardware setup and 'Hello World' equivalent for sports monitoring. Students investigate the 'live data' view in MakeCode to visualise real-time accelerometer streams. Hands-on exploration of the Micro:bit hardware specifications to determine suitability for various physical activities (e.g., measuring a sprint vs. a jump).",
         "aiNotes": ""
       },
       "adjustments": {
@@ -433,25 +358,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Australian Privacy Principles fact sheets, CIA triad case study handouts, secure classroom lab environment guide, research logbook templates.",
+        "value": "Micro:bit V2 kits, USB cables, laptops, Microsoft MakeCode editor, accelerometer data visualisation guide.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Introduction to the cyber threat landscape; overview of the CIA triad; introduction to the Australian Privacy Principles (APPs) and their relevance to data handling and individual digital footprints.",
+        "value": "Introduction to the intersection of sports science and digital technology. Exploration of how quantitative data (acceleration, velocity, and force) is acquired using Micro:bit V2 hardware. Explicit teaching on the onboard sensors relevant to athletics, specifically the 3-axis accelerometer and magnetometer. Discussion on the data acquisition cycle: sensing, processing, and outputting.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Establishment of a secure research logbook. Exploration of controlled environments and safe-browsing protocols for subsequent web analysis. Collaborative mapping of how data travels through school infrastructure.",
+        "value": "Initial hardware setup and 'Hello World' equivalent for sports monitoring. Students investigate the 'live data' view in MakeCode to visualise real-time accelerometer streams. Hands-on exploration of the Micro:bit hardware specifications to determine suitability for various physical activities (e.g., measuring a sprint vs. a jump).",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "None; observational assessment of understanding regarding ethical conduct and foundational concepts.",
+        "value": "Formative observation of hardware connection and data stream interpretation. Initial project log entry defining hardware capabilities.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Introduction to Cybersecurity Fundamentals and Ethical Frameworks",
+        "value": "Introduction to sports science data acquisition and micro:bit hardware capabilities.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -461,7 +386,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Focus on the psychology of influence and the common triggers used in social engineering. Students examine real-world phishing case studies, identifying the 'urgent' or 'fear-based' narratives that bypass user critical thinking.",
+        "value": "Theory: Introduction to problem definition and decomposition in a sports context. Analysis of stakeholder needs (coaches vs. athletes) to develop precise user stories. Teaching the process of breaking down a complex athletic measurement (e.g., 'improving a vertical leap') into technical requirements like jump height calculation, time in air, and landing impact. \n\nPrac: Students conduct a mock stakeholder interview to identify a specific sports performance gap. They draft a series of user stories following the 'As a... I want to... so that...' format. Development of initial design criteria including functional requirements (accuracy of sensor data) and non-functional requirements (device portability and weight).",
         "aiNotes": ""
       },
       "adjustments": {
@@ -469,25 +394,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "De-identified phishing attack examples, user story templates, psychology of influence reading materials, collaborative project planning tools.",
+        "value": "User story templates, design thinking worksheets, sports science case studies (AFL/Rugby GPS tracking examples).",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Psychological triggers in social engineering; anatomy of a phishing attempt; identifying indicators of malicious intent; importance of sender verification and link analysis.",
+        "value": "Introduction to problem definition and decomposition in a sports context. Analysis of stakeholder needs (coaches vs. athletes) to develop precise user stories. Teaching the process of breaking down a complex athletic measurement (e.g., 'improving a vertical leap') into technical requirements like jump height calculation, time in air, and landing impact.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Analysis of provided email/web snippets to classify tactics. Students work in pairs to construct user stories defining a 'victim persona' for their simulated scam website project, identifying key pain points to exploit.",
+        "value": "Students conduct a mock stakeholder interview to identify a specific sports performance gap. They draft a series of user stories following the 'As a... I want to... so that...' format. Development of initial design criteria including functional requirements (accuracy of sensor data) and non-functional requirements (device portability and weight).",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative evaluation of user stories and persona development for the upcoming project.",
+        "value": "Project Portfolio: Submission of defined problem statement, decomposed requirements, and drafted user stories.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Human-Centric Vulnerabilities and Social Engineering Tactics",
+        "value": "Defining requirements and decomposing sports performance problems into user stories.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -497,7 +422,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Dissection of web-based scams. Students explore the technical and visual elements that convey false authority, such as domain spoofing, HTTPS deception, and the use of 'dark patterns' in UI design.",
+        "value": "Theory: Instruction on designing algorithmic logic for movement tracking. Introduction to logical operators (AND, OR, NOT) within the context of sensor thresholds (e.g., if acceleration > 2048 mg). Comparative study of flowcharts versus pseudocode for representing conditional logic and loops used in continuous data monitoring. \n\nPrac: Design an algorithm for a specific sports metric (e.g., a step counter or impact logger). Students create flowcharts to map the logic of detecting a 'movement event' and represent the same logic using structured pseudocode. Peer review of algorithms to check for logical errors or 'infinite loops' in the tracking logic.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -505,25 +430,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Web inspection tools, wireframing software (e.g., Balsamiq or Lucidchart), anatomy of a scam checklist, UI/UX deception guide.",
+        "value": "Flowcharting software (Lucidchart or diagrams.net), pseudocode syntax guide, threshold calibration worksheet.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Mechanics of deceptive design; structure of malicious websites (HTML/CSS role in presentation); data acquisition forms as threat vectors; comparing legitimate vs. scam UI components.",
+        "value": "Instruction on designing algorithmic logic for movement tracking. Introduction to logical operators (AND, OR, NOT) within the context of sensor thresholds (e.g., if acceleration > 2048 mg). Comparative study of flowcharts versus pseudocode for representing conditional logic and loops used in continuous data monitoring.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Deconstruction of mock scam landing pages to identify deceptive design choices. Students begin wireframing their own simulated scam prototype using low-fidelity tools to map user journey and content structure.",
+        "value": "Design an algorithm for a specific sports metric (e.g., a step counter or impact logger). Students create flowcharts to map the logic of detecting a 'movement event' and represent the same logic using structured pseudocode. Peer review of algorithms to check for logical errors or 'infinite loops' in the tracking logic.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Ongoing assessment of wireframe drafts against project design criteria.",
+        "value": "Algorithm design task: Submission of a validated flowchart and corresponding pseudocode for a movement-tracking solution.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Deceptive Design: Analysing Scam Website Anatomy",
+        "value": "Designing algorithmic logic for movement tracking using flowcharts and pseudocode.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -533,7 +458,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students critically apply the Australian Privacy Principles (APPs) to the context of online data collection. They analyse how malicious sites deliberately breach principles related to transparency, data collection limits, and security. Students refine their project definitions by developing formal user story specifications that identify the functional requirements of their simulated scam site from both the attacker's and the victim’s perspective.",
+        "value": "Theory: Examination of object-oriented concepts within the Micro:bit ecosystem, specifically how sensors are represented as objects with properties and methods. Discussion on the data lifecycle: acquisition, local processing, and real-time streaming via serial communication. Principles of variable scope and data types in the context of high-frequency sensor readings.\n\nPrac: Translation of Week 3 flowcharts into functional code using the MakeCode editor. Students implement the data collection logic for their specific sport metric (e.g., impact force or rotation). Setup and configuration of the serial console to monitor real-time accelerometer and magnetometer streams, ensuring data aligns with predicted physical movements.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -541,25 +466,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "OAIC Australian Privacy Principles summary, User Story template, collaborative documentation platform (e.g., OneNote or Google Docs).",
+        "value": "Micro:bit V2, USB cables, Microsoft MakeCode (Python/Blocks), Serial data monitoring guide.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Examination of the Australian Privacy Principles (APPs), focusing on APP 1 (open management), APP 3 (collection of solicited information), and APP 11 (security). Comparison of ethical data acquisition versus the deceptive practices used by cybercriminals. Use of technical specifications to increase the precision of problem definitions.",
+        "value": "Examination of object-oriented concepts within the Micro:bit ecosystem, specifically how sensors are represented as objects with properties and methods. Discussion on the data lifecycle: acquisition, local processing, and real-time streaming via serial communication. Principles of variable scope and data types in the context of high-frequency sensor readings.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Students perform a 'Privacy Audit' on their initial wireframes, identifying which APPs their site would theoretically violate. They draft formal user stories (As a [User Role], I want [Feature] so that [Reason]) to specify the interactions for their prototype, ensuring each story addresses a specific psychological trigger identified in Week 2.",
+        "value": "Translation of Week 3 flowcharts into functional code using the MakeCode editor. Students implement the data collection logic for their specific sport metric (e.g., impact force or rotation). Setup and configuration of the serial console to monitor real-time accelerometer and magnetometer streams, ensuring data aligns with predicted physical movements.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative evaluation of User Story specifications and the Privacy Audit document.",
+        "value": "Programming Checkpoint: Verification of code logic against design documentation; demonstration of real-time data stream functionality.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Data Privacy Principles and User Story Specification",
+        "value": "Implementing object-oriented programming for real-time sensor data collection.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -569,7 +494,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students transition from specification to project management by exploring agile methodologies. They apply computational thinking to decompose the complex task of building a website into smaller, manageable sub-tasks. Students are introduced to digital project management tools to track timelines and responsibilities, simulating a professional development environment.",
+        "value": "Theory: Deep dive into the application of complex logical operators (AND, OR, NOT) to filter noise from sports data (e.g., ignoring minor vibrations to identify a true 'step' or 'jump'). Instruction on using the Micro:bit V2 Data Logger extension for persistent storage. Analysis of sampling rates and the trade-off between data granularity and memory constraints.\n\nPrac: Refining implementation to include compound conditionals for event triggering. Students program 'on-board' data logging to capture datasets without a PC connection. Implementation of user interface elements (LED feedback) to indicate logging status. Debugging sessions focused on eliminating logical errors in sensor threshold triggers.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -577,25 +502,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Agile project management tools (e.g., Trello, Microsoft Planner, or Jira), task decomposition worksheets, project timeline examples.",
+        "value": "Micro:bit Data Logger extension, threshold calibration templates, debugging checklist.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Concepts of project management: Agile vs. Waterfall methodologies. Principles of decomposition—breaking down a digital solution into content, logic, and asset requirements. Understanding task dependencies and the importance of iterative development in a technical project.",
+        "value": "Deep dive into the application of complex logical operators (AND, OR, NOT) to filter noise from sports data (e.g., ignoring minor vibrations to identify a true 'step' or 'jump'). Instruction on using the Micro:bit V2 Data Logger extension for persistent storage. Analysis of sampling rates and the trade-off between data granularity and memory constraints.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Establishment of a digital Kanban board for project tracking. Students decompose their site prototype into a backlog of tasks (e.g., logo design, HTML form structure, CSS styling for urgency indicators). They assign priorities and estimated timeframes for each task to manage their development schedule.",
+        "value": "Refining implementation to include compound conditionals for event triggering. Students program 'on-board' data logging to capture datasets without a PC connection. Implementation of user interface elements (LED feedback) to indicate logging status. Debugging sessions focused on eliminating logical errors in sensor threshold triggers.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Observation of project board setup and the quality of decomposed tasks.",
+        "value": "Technical Review: Code submission focusing on the use of logical operators and the efficiency of the data logging sub-routines.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Agile Project Planning and Task Decomposition",
+        "value": "Refining data logging code and applying logical operators for performance metrics.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -605,7 +530,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Focus shifts to the technical abstraction of web systems. Students model their site architecture by distinguishing between content, structure, and presentation. They explore how these three layers interact to create a user experience that can either inform or deceive. Students begin creating structural models to represent how data will flow from user input to the backend.",
+        "value": "Theory: Introduction to field testing protocols and data integrity in uncontrolled environments. Discussion on environmental variables that affect sensor accuracy, such as device orientation and attachment stability. Procedures for capturing raw datasets and the importance of metadata (e.g., trial number, athlete ID) in experimental trials.\n\nPrac: Conduct 'Field Trials' on the college oval or sports hall. Students secure Micro:bits to athletes or equipment to capture raw movement data during live physical activities (e.g., 20m sprints, vertical jumps). Execution of multiple trials to ensure data reliability. Initial export of logged data from Micro:bit flash memory to raw CSV files for subsequent analysis.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -613,25 +538,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Site mapping software (e.g., Lucidchart or Draw.io), CSS style guide templates, web architecture diagrams.",
+        "value": "Micro:bit battery packs, wearable straps/mounts, stopwatches, sports equipment, laptop with Micro:bit Drive access.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "The principle of abstraction in web documents: Content (the information/data), Structure (HTML tags and hierarchy), and Presentation (CSS styling and visual layout). Data modelling for web forms, including data types and validation requirements for user input.",
+        "value": "Introduction to field testing protocols and data integrity in uncontrolled environments. Discussion on environmental variables that affect sensor accuracy, such as device orientation and attachment stability. Procedures for capturing raw datasets and the importance of metadata (e.g., trial number, athlete ID) in experimental trials.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Creation of a site architecture map showing the relationship between different pages. Students develop a 'Style Tile' or presentation model that defines the visual elements (colour palettes, typography) intended to mimic legitimate institutions. They document the HTML structure required to support their deceptive content layer.",
+        "value": "Conduct 'Field Trials' on the college oval or sports hall. Students secure Micro:bits to athletes or equipment to capture raw movement data during live physical activities (e.g., 20m sprints, vertical jumps). Execution of multiple trials to ensure data reliability. Initial export of logged data from Micro:bit flash memory to raw CSV files for subsequent analysis.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Submission of the Site Architecture Map and Content/Structure/Presentation model.",
+        "value": "Project Portfolio: Submission of raw CSV datasets and a field log documenting trial conditions and device performance.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Website Architecture: Content, Structure, and Presentation Modeling",
+        "value": "Data acquisition field trials and capturing raw datasets from physical activities.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -641,7 +566,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students move to the iterative construction of their scam prototypes. Focus is placed on applying 'dark patterns'—UI elements designed to trick users—while balancing this with technical safeguards such as basic HTTPS configuration and site validation protocols. Teacher facilitates a peer-review session to evaluate the effectiveness of the deceptive design against the user stories.",
+        "value": "Theory: Examination of data integrity and validation techniques within structured datasets. Instruction on identifying 'noise' versus 'signal' in sports sensor data and the impact of sensor drift or sampling errors. Explicit teaching of logical queries and spreadsheet functions (e.g., IF, AND, OR) used to automate data cleaning and verify that captured values fall within realistic physical boundaries (e.g., G-force limits in a sprint).\n\nPrac: Students import their raw CSV files from Week 6 field trials into Microsoft Excel. They apply data cleaning workflows, including unit conversions (e.g., milli-g to m/s²) and the removal of pre-and-post trial 'dead time' using filtering tools. Students implement logical queries to flag outliers or inconsistent data points that do not align with the defined testing protocol.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -649,25 +574,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "CSS framework documentation, sandboxed hosting environment, peer-evaluation rubrics, UI pattern libraries.",
+        "value": "Microsoft Excel, student-captured raw CSV datasets, data validation checklist, formula syntax guide for sports metrics.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Advanced deceptive UI design: forced action, confirm-shaming, and visual hierarchy manipulation. Technical safeguards and the role of SSL/TLS certificates in building false trust. Analyzing user feedback loops and iterative refinement of digital interfaces.",
+        "value": "Examination of data integrity and validation techniques within structured datasets. Instruction on identifying 'noise' versus 'signal' in sports sensor data and the impact of sensor drift or sampling errors. Explicit teaching of logical queries and spreadsheet functions (e.g., IF, AND, OR) used to automate data cleaning and verify that captured values fall within realistic physical boundaries (e.g., G-force limits in a sprint).",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Development of the front-end interface using HTML/CSS. Implementation of interactive elements that capture 'simulated' user data. Applying validation checks that mimic real-world form collection while ensuring all data remains within a local, sandboxed environment.",
+        "value": "Students import their raw CSV files from Week 6 field trials into Microsoft Excel. They apply data cleaning workflows, including unit conversions (e.g., milli-g to m/s²) and the removal of pre-and-post trial 'dead time' using filtering tools. Students implement logical queries to flag outliers or inconsistent data points that do not align with the defined testing protocol.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative evaluation of prototype iteration against the design criteria; peer-feedback report on the persuasiveness of the scam site.",
+        "value": "Formative Progress Check: Evidence of a cleaned, structured spreadsheet with documented logical queries and data validation rules applied.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Prototyping Simulated Scams and Technical Safeguards",
+        "value": "Cleaning and validating structured data using spreadsheet tools and logical queries.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -677,7 +602,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Finalisation of the scam website project. Students perform an 'Ethical Impact Assessment,' documenting how their site breaches Australian Privacy Principles and explaining why these principles are vital for online protection. Final presentation focuses on the 'anatomy of the scam' rather than the site itself, highlighting how user psychology was exploited.",
+        "value": "Theory: Instruction on interactive data modelling to extract meaning from athletic performance. Discussion on selecting appropriate visualisations (e.g., line graphs for velocity over time, scatter plots for impact distribution) to support coaching decisions. Analysis of how to identify performance trends and genuine outliers (e.g., an elite-level acceleration burst versus a hardware glitch) through visual inspection.\n\nPrac: Development of an interactive data dashboard in Excel using slicers and PivotCharts. Students model their cleaned data to visualise trends across multiple trials, such as fatigue rates or peak impact forces. They annotate graphs to highlight significant movement events and use conditional formatting to automatically identify results that exceed or fall below performance targets.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -685,25 +610,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Project submission portal, final report template, OIAI case studies for final reflection, reflection logbooks.",
+        "value": "Excel dashboard templates, PivotChart tutorial, performance benchmarking data, project report scaffold.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Reflection on the project process, evaluating the effectiveness of the chosen social engineering tactics. Critical discussion of the Australian Privacy Principles in the context of real-world data breaches. Understanding the role of digital citizenship in identifying and reporting malicious sites.",
+        "value": "Instruction on interactive data modelling to extract meaning from athletic performance. Discussion on selecting appropriate visualisations (e.g., line graphs for velocity over time, scatter plots for distribution) to support coaching decisions. Analysis of how to identify performance trends and genuine outliers (e.g., an elite-level acceleration burst versus a hardware glitch) through visual inspection.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Completion and ‘publishing’ of the site within a controlled classroom environment. Drafting the final reflective report which maps site features to the intended psychological triggers and privacy violations.",
+        "value": "Development of an interactive data dashboard in Excel using slicers and PivotCharts. Students model their cleaned data to visualise trends across multiple trials, such as fatigue rates or peak impact forces. They annotate graphs to highlight significant movement events and use conditional formatting to automatically identify results that exceed or fall below performance targets.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Summative assessment: Cyber Security Site project. Submission includes the functional prototype and the final project report (User stories, architecture models, privacy audit, and reflection).",
+        "value": "Project Submission: Sports Science Training. Final submission of the interactive data model, visualisations, and the technical implementation of the Micro:bit system.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Project Finalisation and Ethical Reflection",
+        "value": "Visualising performance trends and identifying outliers through interactive data modelling.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -713,7 +638,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Broadening the scope to system interdependency. Students investigate supply chain vulnerabilities, examining how third-party plugins or scripts in a website can become vectors for attack. Analysis of real-world examples where 'trusted' providers were compromised, leading to widespread data exposure.",
+        "value": "Theory: Exploration of evaluation frameworks for digital solutions. Students learn to critique their prototypes by mapping final system performance back to the user stories and design criteria established in Week 2. Discussion on the ethical implications of sports data collection and the future impact of wearable technologies on athlete privacy and professional training environments.\n\nPrac: Students conduct a systematic evaluation of their digital system's effectiveness. They verify their solution against their test cases and user requirements, documenting any discrepancies between expected and actual performance. Students draft a critical reflection that justifies their design decisions and proposes future iterations based on stakeholder feedback (e.g., coach or athlete usability).",
         "aiNotes": ""
       },
       "adjustments": {
@@ -721,25 +646,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Browser developer tools, supply chain case studies, dependency mapping worksheet, diagramming tools.",
+        "value": "Evaluation rubric, Week 2 design criteria/user stories, technical documentation template, Australian Privacy Principles (APP) summary.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Supply chain vulnerabilities: how external dependencies (scripts, APIs, content delivery networks) impact site security. System interdependency and the risk of 'cascading failures' in digital networks. Strategies for verifying the integrity of third-party digital components.",
+        "value": "Exploration of evaluation frameworks for digital solutions. Students learn to critique their prototypes by mapping final system performance back to the user stories and design criteria established in Week 2. Discussion on the ethical implications of sports data collection and the future impact of wearable technologies on athlete privacy and professional training environments.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Simulation activity: Mapping the dependencies of a website. Students use browser developer tools to inspect the 'network' tab and identify third-party requests, discussing the security risks inherent in relying on external resources.",
+        "value": "Students conduct a systematic evaluation of their digital system's effectiveness. They verify their solution against their test cases and user requirements, documenting any discrepancies between expected and actual performance. Students draft a critical reflection that justifies their design decisions and proposes future iterations based on stakeholder feedback (e.g., coach or athlete usability).",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative check: Short response analysis of a supply chain attack case study.",
+        "value": "Project Submission: Evaluation report component, including the critique of the solution against design criteria and user requirements.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Supply Chain Vulnerabilities and System Interdependency",
+        "value": "Evaluating the effectiveness of digital solutions against design criteria and user requirements.",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -749,7 +674,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students explore the lifecycle of data acquisition in web systems and the necessity of validation to maintain integrity. Teacher leads a critique on how ‘trust indicators’ on websites often mask insecure data storage practices, contrasting these with secure, encrypted database environments.",
+        "value": "Theory: Consolidation of learning across the unit, focusing on the synthesis of technical implementation and data analysis. Facilitation of a final project gallery walk where students present their Micro:bit systems and dashboard visualisations. Discussion on the broader application of sports analytics in professional settings, including career pathways in sports science and data engineering. \n\nPrac: Completion and final submission of the Project Portfolio. Peer-review sessions where students provide constructive feedback on peers' data models and system designs. Final system demonstrations to verify functionality and 'troubleshooting' clinics to refine any lingering issues in code or data interpretation prior to submission.",
         "aiNotes": ""
       },
       "adjustments": {
@@ -757,25 +682,25 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Validation logic templates, secure data handling case studies, documentation on hashing vs encryption.",
+        "value": "Project submission portal, peer-review feedback rubrics, final portfolio checklist, summary of unit learning objectives.",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Principles of data validation (client-side vs server-side); understanding data sanitisation to prevent injection attacks; methods for secure data storage including hashing and salting; critical review of APP 11 regarding security of personal information.",
+        "value": "Consolidation of learning across the unit, focusing on the synthesis of technical implementation and data analysis. Facilitation of a final project gallery walk where students present their Micro:bit systems and dashboard visualisations. Discussion on the broader application of sports analytics in professional settings, including career pathways in sports science and data engineering.",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Students design a schema for a secure data-handling form. Practical task involves implementing basic validation rules using JavaScript (regex) to ensure data accuracy and prevent malicious inputs, while documenting the storage path to a secure backend.",
+        "value": "Completion and final submission of the Project Portfolio. Peer-review sessions where students provide constructive feedback on peers' data models and system designs. Final system demonstrations to verify functionality and 'troubleshooting' clinics to refine any lingering issues in code or data interpretation prior to submission.",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative evaluation of data schema and validation logic implementation.",
+        "value": "Final submission of the 'Sports Science Training' Project Portfolio, comprising the system prototype, data analysis dashboard, and critical evaluation report.",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Data Acquisition, Validation, and Secure Storage Practices",
+        "value": "Final review and revision",
         "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "lastGenerated": "2026-07-10T11:06:24.103Z"
       }
     },
     {
@@ -785,7 +710,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Focus on multidimensional data modeling to identify trends in cyber threats. Students analyse datasets containing metadata from mock attack simulations to model the 'threat landscape', moving from simple lists to relational data representations.",
+        "value": "",
         "aiNotes": ""
       },
       "adjustments": {
@@ -793,25 +718,24 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Threat intelligence datasets, spreadsheet software (Excel), ERD design tools (Lucidchart), anomaly detection guidelines.",
+        "value": "",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Introduction to relational database concepts (keys, relationships, tables) for modelling threat intelligence; interpreting multidimensional data sets to isolate patterns; identifying anomalies in security logs.",
+        "value": "",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Students use spreadsheet software to model and filter simulated breach data, identifying outliers and frequent attack vectors. They construct a basic entity-relationship diagram (ERD) to structure data related to their previous scam project to improve defensive tracking.",
+        "value": "",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative assessment of the threat intelligence data model and identified anomaly report.",
+        "value": "",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Multidimensional Data Modeling and Threat Intelligence",
-        "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "value": "",
+        "aiNotes": ""
       }
     },
     {
@@ -821,7 +745,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Exploration of digital footprints using visualization techniques. Students reflect on their own digital presence and the 'scam' footprint created during the unit, evaluating how data points can be aggregated to build a profile of a user or a system.",
+        "value": "",
         "aiNotes": ""
       },
       "adjustments": {
@@ -829,25 +753,24 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Data visualization tools (Power BI or Tableau Public), digital footprint audit template, final reflection guide.",
+        "value": "",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Visualization techniques to interpret data trends and digital footprints; the ethics of data scraping and surveillance; summarizing complex datasets to support conclusions about systemic security vulnerabilities; final review of Australian Privacy Principles in the digital age.",
+        "value": "",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Students create a visual dashboard to represent their findings from the previous threat intelligence model. They perform a 'Digital Footprint Self-Audit,' mapping how their online activity creates trackable data, and propose visual strategies to minimize exposure.",
+        "value": "",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Summative reflection: 'The Ethics of Visibility'—a short report evaluating the implications of digital footprints and data visualization in cyber security.",
+        "value": "",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Visualization of Digital Footprints and Trend Analysis",
-        "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "value": "",
+        "aiNotes": ""
       }
     },
     {
@@ -857,7 +780,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Students analyse how enterprise-level systems employ threat modeling to anticipate attack vectors. Focus is directed towards the STRIDE model (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) as a framework for identifying vulnerabilities in digital architecture.",
+        "value": "",
         "aiNotes": ""
       },
       "adjustments": {
@@ -865,25 +788,24 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "STRIDE threat modeling worksheets, enterprise architecture case studies, risk matrix templates, classroom discussion boards.",
+        "value": "",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Introduction to the STRIDE threat modeling methodology. Analysis of system components and trust boundaries. Risk assessment techniques: categorising threats based on impact, likelihood, and potential damage to data integrity.",
+        "value": "",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Students perform a comprehensive threat assessment on a case-study e-commerce site. Using a provided architectural diagram, they identify potential entry points for attackers and map them against the STRIDE categories to propose security mitigations.",
+        "value": "",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative evaluation of the threat assessment report and application of the STRIDE model to identify potential vulnerabilities.",
+        "value": "",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Cyber Security Threat Modeling and Risk Assessment",
-        "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "value": "",
+        "aiNotes": ""
       }
     },
     {
@@ -893,7 +815,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Investigation into the security implications of emerging technologies such as IoT devices and generative AI in the context of cyber systems. Students debate the trade-offs between increased system functionality and the expansion of the attack surface.",
+        "value": "",
         "aiNotes": ""
       },
       "adjustments": {
@@ -901,25 +823,24 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Case studies on IoT vulnerabilities, AI security papers, trend analysis summary sheets, digital project management tools.",
+        "value": "",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Future-proofing digital systems: examining how AI-driven attacks challenge existing defense mechanisms. Discussion on the impact of automated social engineering and the importance of adapting system security to emerging technological trends.",
+        "value": "",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Scenario-based modelling: students update their threat models from Week 13 to include emerging technology risks. They brainstorm 'future-impact' design criteria to enhance the resilience of their simulated scam websites against next-generation security filters.",
+        "value": "",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Formative check: Peer-review session evaluating the 'Future Impact' segment of student project updates.",
+        "value": "",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Evaluating Emerging Technologies and Future System Impact",
-        "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "value": "",
+        "aiNotes": ""
       }
     },
     {
@@ -929,7 +850,7 @@
         "aiNotes": ""
       },
       "keyTeachingExperiences": {
-        "value": "Consolidation of secure design principles across the unit. Students synthesise their understanding of system interdependency, data privacy, and ethical design to reflect on the role of developers in creating secure digital environments.",
+        "value": "",
         "aiNotes": ""
       },
       "adjustments": {
@@ -937,25 +858,24 @@
         "aiNotes": ""
       },
       "resources": {
-        "value": "Security by Design frameworks, unit summary overview, reflective report templates, student project portfolios.",
+        "value": "",
         "aiNotes": ""
       },
       "theory": {
-        "value": "Review of the unit’s key concepts: CIA triad, APP compliance, and threat modeling. Discussion of 'Security by Design' principles as a holistic approach to minimizing digital footprints and preventing malicious exploitation.",
+        "value": "",
         "aiNotes": ""
       },
       "prac": {
-        "value": "Final reflective synthesis: Students document a 'Secure Development Life Cycle' (SDLC) plan, outlining the steps required to ensure security is integrated from the initial planning stage through to deployment and maintenance of digital systems.",
+        "value": "",
         "aiNotes": ""
       },
       "assessment": {
-        "value": "Summative reflection: 'Security by Design' report documenting the application of learned cyber security principles to a hypothetical enterprise project.",
+        "value": "",
         "aiNotes": ""
       },
       "outlineTheme": {
-        "value": "Consolidation of Secure System Design Principles",
-        "aiNotes": "",
-        "lastGenerated": "2026-07-10T11:07:52.098Z"
+        "value": "",
+        "aiNotes": ""
       }
     }
   ],
@@ -964,7 +884,7 @@
     "aiNotes": ""
   },
   "duration": {
-    "value": "15 weeks",
+    "value": "10 weeks",
     "aiNotes": ""
   }
 }

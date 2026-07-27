@@ -1,0 +1,758 @@
+{
+  "id": "unit-223f763a",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": "7",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Pencil Case",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop foundational woodworking and design skills by producing a timber pencil box from a supplied technical drawing. They learn to safely select and use hand tools and workshop equipment while accurately measuring, marking out, forming timber joints, assembling, sanding and applying a finish to create a durable and functional product. Students also investigate throwaway culture, sustainability and the circular economy, considering how products can be designed for longevity, repair and reduced waste. Using the SBC Year 7 Design Model, students research existing products, generate and refine ideas, produce isometric sketches, evaluate their ideas against design requirements and communicate a final annotated design for an improved, personalised and repairable pencil box.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-1be7d17e",
+      "assessmentNumber": {
+        "value": "1",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "7",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Pencil Case",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students address the environmental and economic impacts of the 'Throw Away Society' by constructing a durable, long-term storage solution and designing a sustainable iteration. The task requires students to apply technical skills to manufacture a pencil box according to specific design requirements, demonstrating the safe and effective use of appropriate technologies and processes. Concurrently, students use the SBC Year 7 Design Model to develop an improved version of the product that incorporates principles of the Circular Economy. Through a folio of work, students document their design process, justifying their selection of materials and components while communicating innovative ideas through sophisticated design drawings. The final folio evaluates how design modifications can enhance sustainability and product longevity within a modern context.",
+        "aiNotes": "The quest for new and innovative products combined with profits being made by companies selling as many units as possible has resulted in what is termed a Throw Away Society, where increasingly the cost of repair is more than the cost of replacement. The resultant drain on landfill, construction resources and associated carbon emissions all point to the unsustainability of a Throw Away Society. \n\nIn this unit students will acquire the skills to build and maintain a key item required for the completion of their secondary and tertiary studies as well as produce an improved design that will add to the sustainability and associated financial savings of a pencil box that will last for multiple decades.\n\nYour task is to create a pencil case to the specifications of the design attached, using the materials provided. \n\nYou are also required to design an improved version of the pencil case you have made, incorporating elements of sustainability and the Circular Economy. This design task will be completed as a folio of work, documenting the use of the SBC year 7 Design Model, resulting in a final design drawing.\n\nAssessment Objectives:\n•\tDevelop, modify and communicate design ideas by applying creativity, innovation and skills of increasing sophistication.\n•\tWork flexibly to effectively and safely test, select, justify and use appropriate technologies and processes to make designed solutions.\n",
+        "lastGenerated": "2026-07-20T11:19:58.579Z"
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Construction: Completed in a supervised workshop environment adhering to Workplace Health and Safety (WHS) protocols.\n• Design Folio: 4–6 A3 pages (or digital equivalent) documenting the application of the SBC Year 7 Design Model.\n• Evidence: A physical prototype constructed to specifications and a folio containing annotated graphical representations, justification of material and process selections, and a final design drawing.",
+        "aiNotes": "The quest for new and innovative products combined with profits being made by companies selling as many units as possible has resulted in what is termed a Throw Away Society, where increasingly the cost of repair is more than the cost of replacement. The resultant drain on landfill, construction resources and associated carbon emissions all point to the unsustainability of a Throw Away Society. \n\nIn this unit students will acquire the skills to build and maintain a key item required for the completion of their secondary and tertiary studies as well as produce an improved design that will add to the sustainability and associated financial savings of a pencil box that will last for multiple decades.\n\nYour task is to create a pencil case to the specifications of the design attached, using the materials provided. \n\nYou are also required to design an improved version of the pencil case you have made, incorporating elements of sustainability and the Circular Economy. This design task will be completed as a folio of work, documenting the use of the SBC year 7 Design Model, resulting in a final design drawing.\n\nAssessment Objectives:\n•\tDevelop, modify and communicate design ideas by applying creativity, innovation and skills of increasing sophistication.\n•\tWork flexibly to effectively and safely test, select, justify and use appropriate technologies and processes to make designed solutions.\n",
+        "lastGenerated": "2026-07-20T11:21:13.844Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-fa820eb7",
+          "strand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-488f20a8",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c507fd9e",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1758217e",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-a4e1ac39",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-2e6ecfbf",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-e285ee95",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-39379add",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts\nResponding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-dd1a4f4b",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-16d9273d",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-438c80e4",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-6d9f425f",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-fcdd7a7f",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the Design Technologies workshop at St Brendan’s College, establishing clear expectations for workplace health and safety (WHS) and the 'Pencil Case' project requirements. They engage with the project brief to identify the functional requirements of the timber storage solution and the constraints of the provided materials. The week focuses on achieving mandatory safety competencies, specifically the chisel induction and OnGuard modules, to ensure all students can operate safely within the production environment. Practical activities involve students organising their workspace and learning the systematic storage procedures for tools and timber stock to maintain a managed workshop area.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety Training software, timber chisels, safety glasses, St Brendan’s College workshop induction manual, Pencil Case design brief, individual student folios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the importance of WHS protocols and the identification of potential workshop hazards relevant to timber production. Students examine the specific safety requirements for hand tools, focusing on the correct handling, storage, and posture required when using timber chisels. They learn the fundamental components of a design brief, including how to identify success criteria, constraints, and the needs of the end-user. The concept of a managed production environment is introduced, highlighting the necessity of systematic material storage and tool maintenance for both safety and efficiency.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete their mandatory OnGuard safety certifications and participate in a teacher-led demonstration of the chisel safety induction. They conduct a workshop tour to locate safety equipment, emergency stops, and designated storage areas for their individual projects. Practical exercises involve the safe handling of timber stock and the initial setup of workbenches, ensuring tools are laid out according to safety standards. Students begin documenting their understanding of workshop safety and project requirements in their design folios, establishing the foundation for their iterative design process.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Completion of OnGuard Safety Training modules and practical chisel safety induction. Teacher observation of initial workshop conduct and safety awareness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the workshop environment, safety protocols, and the Pencil Case project requirements. They complete mandatory OnGuard training and the chisel safety induction to establish safe work habits and foundational tool knowledge. Practical activities involve familiarising themselves with the workspace and the safe storage of materials and tools to ensure a managed production environment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-1f5fd954",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the transition from design concepts to technical reality through the interpretation of 2D technical drawings. Students analyse the Pencil Case plans to identify essential dimensions and material requirements for their timber stock, considering how grain direction affects strength. They are introduced to precision marking tools, learning how to transfer measurements from a drawing to a physical workpiece with high accuracy. In their design folios, students begin the 'Define' phase of the SBC Design Model by articulating the specific problem and identifying the constraints of the provided brief.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "300mm steel rules, try-squares, marking gauges, marking knives, Radiata Pine timber stock, Pencil Case technical drawings, pencil and eraser.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate the physical properties of the supplied timber, discussing how characteristics like grain orientation and moisture content impact construction and finishing. Theory lessons cover the conventions of technical drawing, including the use of scale, dimension lines, and orthographic projections to communicate design intent. Explicit teaching occurs on the operation of try-squares and marking gauges, emphasising the importance of established 'face side' and 'face edge' marks for precision. Students also explore how accurate marking out reduces material waste, connecting technical skills to sustainable production practices.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students receive their timber components and begin the process of identifying and marking the face side and face edge using standard workshop symbols. Using try-squares and marking gauges, they accurately transfer dimensions from the technical drawing onto their timber stock to define component lengths. They practice using a marking knife to create physical 'tracks' for sawing, ensuring high precision for the upcoming fabrication phase. Concurrently, students update their design folios to include a formal definition of the design problem and a list of project requirements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Quality check of marking out accuracy against technical drawings; review of initial folio entries for problem definition and constraint identification.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to interpreting technical drawings, where students identify key dimensions and timber properties required for construction. They begin the marking out process on their timber stock using try-squares and marking gauges to achieve high precision and minimise waste. In their design folios, students define the problem and identify the constraints and requirements of the provided design brief.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-167113a5",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the mechanical properties of joining timber, specifically focusing on the structural differences between butt and rebate joints. They compare these methods in terms of surface area for gluing, structural strength, and suitability for durable furniture construction. Practical lessons focus on the foundational skills of sawing and paring, where students use tenon saws and chisels to form their first joints with tight tolerances. Folio work involves students researching existing storage solutions to identify functional and aesthetic design features that could be improved in their own sustainable design iteration.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Tenon saws, bench hooks, wood vices, sharp chisels, mallets, internet access for product research, design folio templates, sample timber joints.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the geometry of the rebate joint and why it provides superior strength and alignment compared to a simple butt joint. Students learn about the mechanics of the tenon saw, including tooth geometry and the technique of 'kerfing' to guide a cut along a shoulder. They discuss the concept of 'tolerances' in woodworking and the impact of loose or over-tight joints on the long-term durability and functionality of the product. Theory also covers research methodologies, teaching students how to critique existing products based on ergonomics, capacity, and material sustainability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use tenon saws to perform vertical and horizontal cuts for the rebate joints, following their previously marked lines with precision. They apply chisel paring techniques to clean out the waste from the joints, ensuring a flat, square fit that facilitates a strong glue bond. Bench hooks and wood vices are used correctly to secure workpieces during the cutting and paring process to ensure safety and accuracy. In their folios, students compile a visual research report on current pencil case designs, noting specific features that support product longevity or ease of repair.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Practical demonstration of tenon saw and chisel use; peer and teacher feedback on the fit and squareness of the first rebate joints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the structural properties of butt and rebate joints, comparing their suitability for light furniture construction and product durability. They use tenon saws and chisels to accurately cut and form joints, ensuring tight tolerances for a professional finish. Folio work involves researching existing storage solutions to identify functional and aesthetic design features that could be improved.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-57f2de8c",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students advance the fabrication of their pencil box by machining and preparing the base, lid, and side components. This phase requires constant verification of dimensions against technical drawings to ensure internal and external squareness. Parallel to the workshop activity, students engage with theoretical content regarding the global impact of the 'throwaway society' and the shift toward a circular economy, specifically how deliberate design choices can extend product lifecycles.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Timber stock (Radiata Pine), circular saws, hand planes, try-squares, digital calipers, St Brendan’s College WHS workshop register, design folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the environmental and economic implications of linear manufacturing models compared to circular alternatives. Students investigate design for longevity, repair, and modularity, examining how these principles could be applied to their own timber projects. Concepts of material selection, sourcing, and the environmental footprint of waste are explored. Lessons also cover the critical importance of tolerance and precision, explaining how accurate fabrication at this stage directly determines the structural integrity and functionality of the finished pencil box.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use the circular saw (under strict supervision) and hand planes to prepare timber stock to precise dimensions, ensuring grain direction is considered for optimal finish. They cut the base and lid components, regularly utilizing try-squares to verify 90-degree corners and flush joints. Practical sessions include structured 'quality gates' where students must demonstrate that their components meet the specifications before proceeding to assembly. Students begin brainstorming and listing potential design features—such as replaceable hinges or modular internal dividers—to enhance their future iterations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Teacher check-list monitoring the dimensional accuracy of individual components and student progress in documenting the 'Define' and 'Ideate' phases of their design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Fabrication continues as students produce the base, lid, and side components, consistently checking for squareness and dimensional accuracy against their plans. In theory lessons, students explore the environmental impact of 'throwaway culture' and the importance of designing for product longevity and repair. They begin brainstorming innovative features that could improve the sustainability and functionality of a standard pencil box.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-29e9335c",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to the primary assembly phase, where students apply gluing and clamping techniques to bond components accurately. Students also transition to manual graphical communication, learning the conventions of isometric drawing. They apply these technical drawing skills to draft a preliminary sketch of their proposed sustainable pencil box iteration, ensuring the representation of complex 3D forms is clear and adheres to standard design communication practices.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA wood glue, sash clamps, G-clamps, framing squares, A3 cartridge paper, 2H and HB pencils, isometric grid paper, drawing templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons detail the mechanics of adhesives and clamping pressure, explaining why uniform distribution is essential for joint strength. Students learn how to identify and rectify 'racking' (a lack of squareness) during the drying process. Concurrently, instruction in technical drawing explores the application of isometric axes, projected lines, and hidden detail representation. This includes understanding the role of scale and why isometric drawings serve as a bridge between a conceptual idea and a manufacturing blueprint.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use PVA wood glue and a variety of sash and G-clamps to assemble their box structures, using squares to confirm alignment before the adhesive sets. Following the assembly, they move to the drawing board to practice creating isometric projections of cubes and boxes, eventually sketching their unique, improved design. This task requires students to annotate their sketches, justifying their design changes by referencing the circular economy principles discussed in the previous week.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Observation of assembly accuracy and squareness of the final structure; assessment of the initial isometric sketch for structural clarity and the application of correct drawing conventions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The practical focus is on the assembly of the primary structure, where students learn effective gluing and clamping techniques to maintain structural integrity and squareness. Simultaneously, students are introduced to manual isometric drawing techniques to communicate complex 3D forms effectively. They apply these skills to produce an initial sketch of their improved, personalised design iteration.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-cb647937",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake the refinement of their constructed boxes, addressing imperfections such as gaps or surface inconsistencies through the application of timber putty and strategic hand-sanding. This troubleshooting phase encourages students to reflect on the relationship between assembly precision and the necessity of remedial work. The week concludes with a critical self-evaluation where students measure their proposed sustainable design iterations against established criteria, including material capacity, structural strength, and the potential for long-term repairability.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Timber putty, various grades of abrasive paper (sandpaper), sanding blocks, micro-planes, design folio evaluation rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the chemistry of timber fillers and their appropriate use for aesthetic versus structural repairs. Students explore how to evaluate design modifications against the constraints of the circular economy, focusing on the trade-off between complexity and functionality. Discussion is facilitated on how to present a 'design case' in their folios, requiring students to link their proposed aesthetic and functional improvements back to the needs of the end-user and the goal of creating a durable product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical work involves careful application of timber putty to fill nail holes or small gaps, followed by systematic sanding to prepare the surfaces for final finishing. Students also refine the 'fit' of moving parts—such as the lid—to ensure smooth, frictionless functionality. In their folios, students complete a 'critique table' where they evaluate their initial sketches against their stated success criteria, adjusting their designs based on the practical lessons learned during their build.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Review of the critical self-evaluation entry in the design folio; practical inspection of the box finish and the functional quality of moving parts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students address construction imperfections by applying timber putty and refining the fit of moving parts to ensure smooth functionality. They perform a critical self-evaluation of their proposed design modifications against criteria such as capacity, strength, and personalisation. This phase ensures the design is refined for manufacture while adhering to the principles of the circular economy.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-a324a418",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on refining the surface quality of their timber projects, moving systematically through grit levels to prepare for a professional finish. In the design folio, the focus transitions to graphical communication, where students apply formal technical drawing conventions to create an isometric projection of their improved pencil box design. This ensures their design intent is communicated with the precision required for subsequent manufacture.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Orbital and block sanders, assorted grit sandpaper (80–240), vacuum extraction systems, A3 cartridge paper, isometric templates, technical drafting pencils (2H/HB), erasers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the material science of abrasives, explaining how different grit sequences work together to refine timber grain and eliminate surface imperfections. Students explore technical drawing conventions, specifically the application of isometric axes, projected lines, and the importance of formal annotations and dimensional accuracy. Lessons emphasize why clear technical communication is a critical step in the design process, enabling the accurate translation of an idea into a functional, sustainable product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve hands-on sanding, beginning with coarse 80-grit paper to remove defects and progressing through to 240-grit for a smooth finish, always sanding in the direction of the grain. Concurrently, students produce a detailed final isometric drawing on A3 cartridge paper, utilizing tools such as T-squares, set squares, and 30-degree templates. They document these steps in their folios, verifying their drawing against their identified design criteria.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Practical inspection of surface finish quality; evaluation of the final isometric drawing for adherence to technical standards and inclusion of formal dimensions and annotations.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Practical lessons focus on progressive sanding techniques, where students move through abrasive grades to achieve a smooth surface finish while working with the timber grain. In the design folio, students produce a detailed final isometric drawing that includes formal annotations and dimensions. This drawing communicates the design intent for their improved version with sufficient detail for manufacture.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-7e435a79",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week centers on the application of protective finishes, such as varnish, to enhance both the aesthetic appeal and long-term durability of the pencil case. Students focus on safe, controlled application techniques to achieve a uniform finish. Simultaneously, students complete and finalize their design folios, ensuring all research, ideation, and technical drawings are synthesized to demonstrate a comprehensive and iterative design process prior to the submission deadline.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "High-quality wood varnish, synthetic brushes, fine-grade steel wool, drop sheets, personal protective equipment (gloves/aprons), design folio submission checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons detail the purpose of wood finishes, focusing on how varnishes provide a barrier against moisture and wear, directly contributing to product longevity. Students examine the 'circular economy' aspects of their finish choices, such as maintenance and re-coatability. Explicit teaching is provided on workshop safety when using chemical finishes, including ventilation requirements and proper brush maintenance. Students also review their design folios to ensure all justifications for material selection and design modifications are clearly articulated.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply multiple coats of varnish, practicing 'denibbing' with fine steel wool between coats to achieve a high-quality surface. In the design studio, students perform a final review of their folios, cross-checking their work against the project brief and assessment rubric. They ensure that their iterative design steps—from initial research to final isometric drawing—are logically sequenced and supported by reflective analysis.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Design Folio due for submission. Teacher assessment of finished timber project for craftsmanship, surface quality, and technical accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students apply protective finishes, such as varnish, using controlled techniques that prioritise workshop safety and uniform coverage. This week serves as the final deadline for the design folio, encompassing all research, ideation, and technical drawings. Students ensure all documentation demonstrates an iterative design process and a clear justification for material and component selection.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-5fa5e0e1",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct a final quality audit of their completed pencil cases, assessing the structural integrity and aesthetic results of their work. They perform minor aesthetic refinements to ensure the product is finished to a high standard. The week culminates in a summative self-evaluation where students critically reflect on their practical performance, time management, and the accuracy of their build compared to their final technical drawings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Quality inspection checklists, reflection templates, hand files, soft brushes, final exhibition display space.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the concept of 'quality assurance' in manufacturing, exploring how errors can be identified and mitigated through consistent checking throughout the build. Students explore the broader impact of construction quality on the lifecycle of a product, reinforcing how durability is a key driver of sustainability. Lessons conclude by linking the practical challenges encountered during the project to the importance of accurate technical planning and documentation.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical activity involves a final inspection of joints, surface smoothness, and the overall fit of the lid. Students use hand tools for minor, final adjustments and cleaning to ensure the product is presentation-ready. Students then complete their written evaluation, identifying the most successful elements of their project and reflecting on how their iterative design changes influenced the final durability and functionality of their pencil box.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Self-evaluation reflection completion. Summative assessment: Final project exhibition and peer/teacher review of finished product durability and craftsmanship.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The final stages of the project involve a comprehensive quality inspection of the assembled product and the completion of minor aesthetic refinements. Students write a summative evaluation of their practical performance, focusing on their use of tools, time management, and accuracy against the technical drawing. They reflect on how their construction quality impacts the overall durability and longevity of the solution.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    },
+    {
+      "id": "week-17742157",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conclude the project by presenting their completed timber pencil boxes and their design folios to the class. This exhibition provides a forum for students to articulate the rationale behind their sustainable design iterations, comparing their personalised features against the original prescribed build. The final lessons involve a comprehensive unit review, focusing on the synthesis of technical drawing standards, safety protocols, and the practical application of woodworking techniques. Students engage in a final reflection on the efficacy of their design solutions and the broader implications of circular economy principles in mitigating the environmental impacts of the 'throwaway society'.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Completed timber pencil boxes, final design folios, peer-review rubric, presentation guidelines, classroom display area for final exhibition, reflective journal templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the critical evaluation of design solutions, reinforcing the necessity of matching functional performance against established design criteria. The unit concludes with a theoretical synthesis of how circular design—specifically focusing on repairability, longevity, and material lifecycle—functions as a countermeasure to modern waste systems. Students review the technical drawing conventions, workshop safety, and jointing techniques mastered throughout the term, solidifying their understanding of how these foundational skills contribute to high-quality, sustainable outcomes.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the formal presentation of final products and the final submission of design portfolios. Students demonstrate the functionality of their pencil boxes, highlighting any bespoke features intended to extend the product's lifespan or ease of repair. Students conduct a peer-review session where they evaluate the success of their classmates' projects against the design brief, fostering a culture of constructive criticism and collaborative learning in the workshop environment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Evaluation of final project and design folio based on the Pencil Case project rubric. Formative assessment: Student presentation and reflective discussion on design iterations and circular economy concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students present their completed timber pencil boxes to the class, articulating the differences between the prescribed build and their sustainable design iteration. A comprehensive unit review reinforces key concepts in workshop safety, timber joining techniques, and technical drawing standards. The class concludes by reflecting on how circular design principles and repairability can mitigate the impacts of modern waste systems.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-20T12:05:02.288Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

@@ -1,0 +1,1628 @@
+{
+  "id": "design-technologies-7-8",
+  "bandSubjectTitle": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "school": {
+    "value": "St Brendan's College (Yeppoon)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "levelDescription": {
+    "value": "By the end of Year 8, students independently and collaboratively apply design thinking to create, modify, and evaluate designed solutions that respond to identified needs or opportunities. They investigate the characteristics and properties of materials, systems, and components, applying this knowledge to select appropriate resources for the production of sustainable and functional solutions. Students develop skills in technical drawing and graphical representation, using both manual and computer-aided design (CAD) tools to communicate design intent, dimensions, and assembly sequences. Throughout the design process, students define and decompose complex design problems, identifying constraints and design criteria to guide their decision-making. They use divergent and convergent techniques to generate, critique, and refine ideas, ensuring that their proposed solutions are both innovative and fit-for-purpose. Students document their design process using portfolios that demonstrate iterative testing, reflecting on the success of their solutions against established criteria. They apply systems thinking to consider the lifecycle of products, the ethical and environmental implications of their designs, and the impact of emerging technologies on society. Students work safely and ethically with a range of tools and technologies, adhering to work health and safety (WHS) practices. In Design Technologies, students are provided with authentic learning opportunities that require them to manage projects, interpret technical data, and consider the aesthetic, functional, and social dimensions of their designed environments.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:02:47.436Z"
+  },
+  "contextAndCohortConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "units": [
+    {
+      "id": "unit-ac2a432a",
+      "unitTitle": {
+        "value": "Pencil Case",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "7",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop foundational woodworking and design skills by producing a timber pencil box from a supplied technical drawing. They learn to safely select and use hand tools and workshop equipment while accurately measuring, marking out, forming timber joints, assembling, sanding and applying a finish to create a durable and functional product. Students also investigate throwaway culture, sustainability and the circular economy, considering how products can be designed for longevity, repair and reduced waste. Using the SBC Year 7 Design Model, students research existing products, generate and refine ideas, produce isometric sketches, evaluate their ideas against design requirements and communicate a final annotated design for an improved, personalised and repairable pencil box.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-f90ad0d6",
+          "assessmentNumber": {
+            "value": "1",
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Pencil Case",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assessment, students address the environmental and economic impacts of the 'Throw Away Society' by constructing a durable, long-term storage solution and designing a sustainable iteration. The task requires students to apply technical skills to manufacture a pencil box according to specific design requirements, demonstrating the safe and effective use of appropriate technologies and processes. Concurrently, students use the SBC Year 7 Design Model to develop an improved version of the product that incorporates principles of the Circular Economy. Through a folio of work, students document their design process, justifying their selection of materials and components while communicating innovative ideas through sophisticated design drawings. The final folio evaluates how design modifications can enhance sustainability and product longevity within a modern context.",
+            "aiNotes": "The quest for new and innovative products combined with profits being made by companies selling as many units as possible has resulted in what is termed a Throw Away Society, where increasingly the cost of repair is more than the cost of replacement. The resultant drain on landfill, construction resources and associated carbon emissions all point to the unsustainability of a Throw Away Society. \n\nIn this unit students will acquire the skills to build and maintain a key item required for the completion of their secondary and tertiary studies as well as produce an improved design that will add to the sustainability and associated financial savings of a pencil box that will last for multiple decades.\n\nYour task is to create a pencil case to the specifications of the design attached, using the materials provided. \n\nYou are also required to design an improved version of the pencil case you have made, incorporating elements of sustainability and the Circular Economy. This design task will be completed as a folio of work, documenting the use of the SBC year 7 Design Model, resulting in a final design drawing.\n\nAssessment Objectives:\n•\tDevelop, modify and communicate design ideas by applying creativity, innovation and skills of increasing sophistication.\n•\tWork flexibly to effectively and safely test, select, justify and use appropriate technologies and processes to make designed solutions.\n",
+            "lastGenerated": "2026-07-20T11:19:58.579Z"
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Construction: Completed in a supervised workshop environment adhering to Workplace Health and Safety (WHS) protocols.\n• Design Folio: 4–6 A3 pages (or digital equivalent) documenting the application of the SBC Year 7 Design Model.\n• Evidence: A physical prototype constructed to specifications and a folio containing annotated graphical representations, justification of material and process selections, and a final design drawing.",
+            "aiNotes": "The quest for new and innovative products combined with profits being made by companies selling as many units as possible has resulted in what is termed a Throw Away Society, where increasingly the cost of repair is more than the cost of replacement. The resultant drain on landfill, construction resources and associated carbon emissions all point to the unsustainability of a Throw Away Society. \n\nIn this unit students will acquire the skills to build and maintain a key item required for the completion of their secondary and tertiary studies as well as produce an improved design that will add to the sustainability and associated financial savings of a pencil box that will last for multiple decades.\n\nYour task is to create a pencil case to the specifications of the design attached, using the materials provided. \n\nYou are also required to design an improved version of the pencil case you have made, incorporating elements of sustainability and the Circular Economy. This design task will be completed as a folio of work, documenting the use of the SBC year 7 Design Model, resulting in a final design drawing.\n\nAssessment Objectives:\n•\tDevelop, modify and communicate design ideas by applying creativity, innovation and skills of increasing sophistication.\n•\tWork flexibly to effectively and safely test, select, justify and use appropriate technologies and processes to make designed solutions.\n",
+            "lastGenerated": "2026-07-20T11:21:13.844Z"
+          },
+          "achievementStandard": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-1892c073",
+      "unitTitle": {
+        "value": "Dustpan",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "7",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate the characteristics and functional properties of sheet metal within the Materials and Technologies specialisations context. They explore the environmental impacts of metal production, specifically examining the galvanising process and the role of recycling in achieving sustainable designed solutions. Students develop essential graphical representation skills through a technical drawing booklet, mastering isometric and orthogonal techniques to communicate design ideas with precision, scale, and appropriate technical terminology.\n\nWorking in a workshop environment, students identify and apply safe working procedures to manage the production of a sheet metal dustpan. They demonstrate technical competence in marking out, cutting, folding, and joining materials using a range of specialised tools and equipment. Throughout the 10-week cycle, students develop project management skills and evaluate their manufacturing processes and final products against design criteria, considering the efficiency and durability of their solutions for a preferred future.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-29d7477e",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Sheet Metal Dustpan Design and Production Project",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students document the investigation, design, and manufacture of a functional sheet metal dustpan within a technical folio and physical prototype. They apply graphical representation techniques to communicate design ideas and demonstrate technical competence in marking out, cutting, folding, and joining galvanised steel using specialised workshop equipment. The project requires students to justify material selections based on sustainability factors and evaluate the final solution against established design criteria.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Technical folio: 5–8 A4 pages (or equivalent digital media) including technical drawings, sustainability investigation, and evaluation\n• Physical product: One functional sheet metal dustpan\n• Technical drawings: Manual or CAD-generated orthogonal and isometric projections to scale\n• Supervision: Completed in class under teacher supervision to ensure authenticity and workshop safety\n• Access: Use of specialised workshop hand tools and machinery (guillotine, panbrake, folder, and spot welder)\n• Evidence: Students must submit a completed production log and evidence of marking out prior to fabrication",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-26T11:04:51.232Z"
+          },
+          "achievementStandard": {
+            "value": "",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-26T11:05:39.385Z"
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process involves:\n\n*   **Progress Monitoring (Week 6):** Review of student technical drawing booklets and initial sheet metal marking out to ensure accuracy and adherence to safety protocols prior to the assembly phase.\n*   **Cross-marking:** Comparative assessment of the manufactured dustpans and folio evaluations to verify the objective grading of technical skills (cutting, folding, joining) and the justification of material choices.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-26T11:07:49.579Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-2a637c1d",
+      "unitTitle": {
+        "value": "Carry all (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop practical metalworking and design skills through the construction and redesign of a sheet-metal carryall. Students learn about workshop safety, risk assessment, tools, manufacturing processes, material properties, forces and cold working. Using the SBC Design Model, they investigate existing products, generate ideas and develop an improved carryall for a specific purpose. Students communicate their final solution through sketches and a fully dimensioned SketchUp model.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-0c4b23eb",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Carry all",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students complete a two-part assessment consisting of workshop theory and a design folio. The theory component covers safety inductions, risk assessment, the hierarchy of controls, tool identification, material properties and forces. For the design folio, students redesign the carryall for a specific use while retaining its original overall dimensions. Evidence includes background research, brainstorming, an isometric concept sketch, self-evaluation and three PDF views of a fully dimensioned SketchUp model that clearly communicates the proposed improvements.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• under supervised workshop and classroom conditions\n• 4 A3 pages or equivalent \n• includes annotated graphical representations, an isometric concept sketch, and three dimensioned PDF views of a SketchUp model\n• completion of a physical prototype adhering to St Brendan’s College Work Health and Safety (WHS) protocols and workshop safety inductions",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:36:37.975Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Technologies department to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process includes:\n\n*   **Monitoring:** Periodic review of student progress during the workshop phase and SketchUp development to ensure consistent scaffolding and adherence to safety and risk assessment protocols.\n*   **Conferencing:** Scheduled moderation meetings to review representative samples of student portfolios and physical carry-all prototypes across the A–E range.\n*   **Cross-marking:** Double-marking of the theory component (safety, materials, and forces) and the final SketchUp models to validate the objective application of the marking guide.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:38:39.544Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-98db5113",
+      "unitTitle": {
+        "value": "LED Light (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop foundation skills in workshop production, technical drawing and basic electronics through the manufacture of a handheld LED torch. Students interpret an engineering drawing, identify materials and components, and follow a planned production sequence to construct the torch from aluminium and hardboard Masonite.\n\nStudents learn about basic DC circuits, including voltage, current, resistance, conductors, insulators, switches, LEDs and batteries. They apply safe workshop practices while marking out, cutting, drilling, countersinking, filing, finishing and assembling their product. Sustainability is explored through the properties and recycling of aluminium, battery disposal and the responsible use of materials. Students test their completed torch and evaluate its function, finish and suitability for its intended user.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-310a2d4c",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "LED Light (metal)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will manufacture a functional handheld LED torch using the supplied engineering drawing and materials. The torch must contain a working DC circuit consisting of a CR2032 power source, switching mechanism and LED load.\n\nStudents will demonstrate their ability to safely select and use workshop tools, accurately measure and mark materials, cut and shape components, drill and countersink holes, finish surfaces and assemble the product. They will also complete a folio and theory activities demonstrating their understanding of technical drawings, electricity, voltage, current, resistance, button battery safety, aluminium recycling and production processes.\n\nAt the end of the project, students will test and evaluate the completed torch against the supplied specifications.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Conducted over 10 weeks during scheduled class time.\n• Supervised workshop and classroom conditions.\n• Individual production of a functional prototype and completion of a design folio.\n• Folio: 4–6 A4 pages (or digital equivalent) including annotated technical drawings, circuit diagrams, and written evaluation.\n• Access to workshop machinery, hand tools, and supplied materials (aluminium, hardboard, electronic components).\n• Mandatory compliance with Work Health and Safety (WHS) protocols and equipment safety inductions.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:44:39.769Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Technologies department to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process involves:\n\n*   Monitoring: Periodic review of student work-in-progress and workshop safety compliance during the marking-out and manufacturing phases of the LED Light.\n*   Moderation Conferencing: Scheduled departmental meetings to review representative samples of student projects (spanning the A–E range) to calibrate marking of the final product and accompanying folio evidence.\n*   Cross-marking: Collaborative marking of the theoretical components and the final evaluation task to ensure objective and consistent application of the marking guide across different class cohorts.\n*   Evidence Validation: Verification that student folios demonstrate iterative testing, technical accuracy in graphical representations, and the application of systems thinking regarding material properties and circuit functionality.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:44:37.843Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-02766b73",
+      "unitTitle": {
+        "value": "Desk Organiser (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop practical woodworking and design skills through the production of a timber desk organiser. Students learn to safely select and use hand tools, power equipment and workshop processes to accurately measure, mark, cut, join, assemble and finish timber components. The project introduces box joints, timber properties, sanding and varnishing techniques, as well as the Lean 5S principles for creating an organised and efficient workspace.\n\nAlongside the practical project, students follow the SBC Design Model to develop an improved desk-organiser concept suited to their own study needs. They investigate existing products, generate ideas, produce dimensioned isometric drawings and evaluate their design against the requirements of the design brief.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-dc663c84",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Desk Organiser",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students complete two connected assessment components:\n\nPractical project: Construct a functional timber desk organiser based on the supplied workshop design. Students are assessed on their safe workshop practices, accurate measurement and marking, production of box joints, assembly techniques, surface preparation, application of finishes and overall quality of the completed product.\nDesign and theory folio: Complete a digital folio documenting workshop safety, woodworking knowledge, Lean 5S principles and the development of an improved desk-organiser design. Students define the design problem, investigate existing organisers, identify useful design features, brainstorm ideas, produce a draft isometric sketch, self-evaluate their proposal and submit a final annotated and dimensioned design drawing. The design must be unique, provide storage for frequently used study items and must not include storage for a mobile phone.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Practical project: 6 weeks of workshop-based construction; assessed through direct teacher observation of safe, independent use of hand and power tools.\n• Design and theory folio: Maximum 6 A3 pages or equivalent digital portfolio, including annotated isometric sketches, technical drawings, and reflective commentary.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:51:06.251Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Design Technologies department to ensure consistent, evidence-based judgements aligned with the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled collaborative sessions at Weeks 4 and 8 to review samples of student folios and practical products, ensuring a shared understanding of the marking guide criteria.\n*   **Cross-marking:** Departmental review of the Design and Theory Folio to ensure objective application of quality standards regarding technical drawing accuracy and design evaluation.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T10:50:58.941Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-8538d15d",
+      "unitTitle": {
+        "value": "Port (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 8 Industrial Technology and Design unit, students design and manufacture a personalised wooden port or suitcase. They develop practical woodworking skills through measuring, marking, cutting, chiselling, joining, sanding and finishing timber, with particular emphasis on accurately producing finger joints and safely using workshop tools and equipment.\n\nStudents use the SBC Design Model to investigate existing products, develop ideas and repurpose the standard wooden port for a practical use, such as storing fishing equipment, art supplies, stationery, medals or personal items. They communicate their improved design through annotated sketches and a dimensioned SketchUp model before constructing and evaluating the finished product.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-3b76c515",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Port (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students complete three connected components:\n\nSafety and theory tasks covering workshop procedures, risk assessment, timber, tools, fasteners, joints and finishing processes.\nA design folio documenting the SBC Design Model: defining the problem, researching existing products, brainstorming, sketching, self-evaluating and producing a final dimensioned SketchUp design.\nA practical wooden port manufactured to the supplied dimensions and personalised for an identified purpose.\n\nStudents are assessed on their understanding of materials, tools and production processes; development and communication of design ideas; safe and accurate workshop practices; management of the production process; quality and functionality of the completed port; and evaluation of their design and finished product.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 10 hours of supervised class time\n• Design Folio: 6 A3 pages including annotated sketches, a dimensioned SketchUp model, and evidence of iterative design\n• Practical: Constructed wooden port (dimensions approximately 400mm x 250mm x 200mm)\n• Adherence to mandatory St Brendan’s College workshop safety protocols and WHS requirements",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T11:06:05.992Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Industrial Technology and Design faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings held in Week 5 and Week 9 to review student design folios and evaluate the quality of practical construction against the provided assessment rubric.\n*   **Work Sample Analysis:** Cross-marking of a representative sample of student folios and finished projects to confirm alignment of grades across the Year 8 cohort.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T11:06:06.599Z"
+          }
+        }
+      ]
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "cd-abbf0317",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-51a7acde",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-bed48204",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-7b35f124",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-33018acb",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-0c1cd3c3",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-67bbc94b",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-56791b5e",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how force, motion and energy are used to manipulate and control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "cap-315cda5e",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "cct-inquiring": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating": [
+          true,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "cct-inquiring-develop-questions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-inquiring-identify-process-evaluate": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-generating-create-possibilities": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "cct-generating-consider-alternatives": [
+          true,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "cct-generating-put-ideas-into-action": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-analysing-interpret-concepts": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "cct-analysing-draw-conclusions": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-evaluate-actions": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-reflecting-metacognition": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ],
+        "cct-reflecting-transfer-knowledge": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-8ebbc46f",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-exchanging": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operating": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "dl-safety-manage-online": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-privacy-identity": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-locate": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-acquire": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-interpret": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-plan": [
+          false,
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "dl-creating-communicate-collaborate": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "dl-creating-ip": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-content": [
+          false,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-protect": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operate": [
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "id": "cap-5cd9d333",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "eu-concepts": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "eu-concepts-explore": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-values-rights": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "eu-concepts-influences": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-issues": [
+          true,
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        "eu-responding-decisions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-a34cec19",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "iu-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "iu-reflecting-cultures-identities": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-perspectives": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-influence": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-communicate": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-perspectives": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-responses": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-biases": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-7f6cff4a",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "lit-speaking-listening": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-reading-viewing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-writing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "lit-listening": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-interacting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-speaking": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-understanding-texts": [
+          true,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonic-knowledge": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-fluency": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-creating-texts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "lit-grammar": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-punctuation": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-spelling": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-handwriting-keyboarding": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-0aea935c",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "num-number-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measurement-geometry": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-statistics-probability": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "num-place-value": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-counting": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-additive": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-multiplicative": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-fractions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-proportional": [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-patterns-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-money": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-units-measurement": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "num-geometric-properties": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "num-positioning": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measuring-time": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-chance": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-data": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-079b415e",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "psc-self-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-self-management": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-management": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "psc-personal-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-reflective-practice": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "psc-goal-setting": [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-perseverance": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        "psc-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-relational-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-community-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-communication": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-collaboration": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-leadership": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-decision-making": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "crossCurriculumPriorities": [
+    {
+      "id": "ccp-debdc5f1",
+      "name": {
+        "value": "Aboriginal and Torres Strait Islander histories and cultures",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-c3956bea",
+      "name": {
+        "value": "Asia and Australia's engagement with Asia",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-763690df",
+      "name": {
+        "value": "Sustainability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

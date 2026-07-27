@@ -1,8 +1,19 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { getFacultyIndex, saveFacultyIndex, slugId, createLevelPlanFromFacultyRow } from '$lib/server/data';
-import { createId } from '$lib/defaults';
+import {
+	getFacultyIndex,
+	saveFacultyIndex,
+	uniqueFacultyId,
+	createLevelPlanFromFacultyRow
+} from '$lib/server/data';
+import {
+	CURRICULUM_PLAN_TYPE_LIST,
+	resolveFacultyCurriculumPlanType,
+	type CurriculumPlanTypeId
+} from '$lib/curriculum/curriculum-catalogue';
 import type { FacultyRow } from '$lib/types';
+
+const VALID_PLAN_TYPES = new Set(CURRICULUM_PLAN_TYPE_LIST.map((p) => p.id));
 
 export const GET: RequestHandler = async () => {
 	const index = await getFacultyIndex();
@@ -13,22 +24,31 @@ export const POST: RequestHandler = async ({ request }) => {
 	const body = (await request.json()) as {
 		learningAreaSubject: string;
 		yearLevelBand: string;
+		curriculumPlanType?: string;
 	};
 
-	const id =
-		slugId(`${body.learningAreaSubject}-${body.yearLevelBand}`) || createId('plan');
+	if (!body.learningAreaSubject?.trim() || !body.yearLevelBand?.trim()) {
+		return json({ message: 'Learning area and year band are required' }, { status: 400 });
+	}
+
+	const index = await getFacultyIndex();
+	const id = uniqueFacultyId(index, body.learningAreaSubject, body.yearLevelBand);
+
+	const explicitType =
+		body.curriculumPlanType && VALID_PLAN_TYPES.has(body.curriculumPlanType as CurriculumPlanTypeId)
+			? (body.curriculumPlanType as CurriculumPlanTypeId)
+			: null;
+	const resolved =
+		explicitType ||
+		resolveFacultyCurriculumPlanType(body.learningAreaSubject, body.yearLevelBand);
 
 	const row: FacultyRow = {
 		id,
-		learningAreaSubject: body.learningAreaSubject,
-		yearLevelBand: body.yearLevelBand,
+		learningAreaSubject: body.learningAreaSubject.trim(),
+		yearLevelBand: body.yearLevelBand.trim(),
+		...(resolved ? { curriculumPlanType: resolved } : {}),
 		dateLastModified: new Date().toISOString()
 	};
-
-	const index = await getFacultyIndex();
-	if (index.rows.some((r) => r.id === id)) {
-		return json({ message: 'A plan with this subject and band already exists' }, { status: 400 });
-	}
 
 	index.rows.push(row);
 	await saveFacultyIndex(index);
@@ -43,7 +63,16 @@ export const PUT: RequestHandler = async ({ request }) => {
 	const idx = index.rows.findIndex((r) => r.id === body.id);
 	if (idx === -1) return json({ message: 'Row not found' }, { status: 404 });
 
-	index.rows[idx] = { ...body, dateLastModified: new Date().toISOString() };
+	const curriculumPlanType =
+		body.curriculumPlanType && VALID_PLAN_TYPES.has(body.curriculumPlanType as CurriculumPlanTypeId)
+			? body.curriculumPlanType
+			: index.rows[idx].curriculumPlanType;
+
+	index.rows[idx] = {
+		...body,
+		...(curriculumPlanType ? { curriculumPlanType } : {}),
+		dateLastModified: new Date().toISOString()
+	};
 	await saveFacultyIndex(index);
 	return json(index.rows[idx]);
 };

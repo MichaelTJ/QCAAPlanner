@@ -1,0 +1,434 @@
+{
+  "id": "unit-a32e7ae4",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 2,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "3D Modelling Intensive",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 6",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "5 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this five-week intensive unit, students develop practical 3D modelling skills using SketchUp. Through a sequence of guided activities and short design challenges, they learn to create accurate geometric forms, use dimensions and scale, organise models with groups and components, apply materials, and present designs using scenes and appropriate views. The unit focuses on building confidence, precision and efficient modelling practices while demonstrating how digital models can be used to explore, communicate and refine design ideas. Rather than completing a formal assessment, students produce a collection of increasingly complex models that prepare them to use 3D visualisation and computer-aided design in future design projects.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [],
+  "generalCapabilities": [
+    {
+      "id": "ucap-cd41b364",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Generating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-d5f2dd3f",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-fa647a21",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-10b086bf",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-903f4094",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-a45e5c78",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-3a9d2ade",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-management: Goal setting; Emotional regulation; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": true,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-18d44536",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin by orienting themselves to the SketchUp workspace, focusing on viewport navigation using the orbit, pan, and zoom tools. Lesson time is dedicated to mastering the 3D axis system and learning to place geometric primitives with precise numerical input. Students participate in scaffolded exercises that require them to draw shapes to specific dimensions, reinforcing the connection between 2D sketches and 3D volume.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp for Web, lab workstations, mouse with scroll wheel, digital 'Quick Start' reference guide, dimensioned worksheet templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory focuses on the Cartesian coordinate system as the foundation for all 3D modelling. Students examine how SketchUp uses three axes (X, Y, Z) to define spatial depth and orientation. Concepts of scale, absolute vs relative dimensions, and the importance of working at a 1:1 scale are explicitly taught to ensure models are accurate for real-world application. Students also learn about the 'sticky' nature of geometry, where raw edges and faces automatically merge if not managed through logical grouping.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical tasks involve the creation of basic primitives such as cubes, cylinders, and prisms using the Line, Rectangle, and Circle tools. Students refine these shapes using the Push/Pull tool to generate 3D forms. They practice 'inferencing'—utilising the software’s internal snap points to align objects precisely along axes, ensuring no gaps or stray geometry remain in their initial constructions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher observation of modelling accuracy and workflow during initial primitive construction tasks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the SketchUp interface and foundational 3D modelling concepts, including the 3D axis system and navigation tools. Through guided tutorials, they learn to construct basic geometric primitives using precision input for dimensions, establishing the importance of accurate modelling from the outset.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:38:45.589Z"
+      }
+    },
+    {
+      "id": "week-5ccca137",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Building on foundational shapes, students engage in lessons dedicated to more complex transformation techniques. They explore how to sweep profiles along paths using the Follow Me tool and replicate geometry efficiently using the Array command. Lessons integrate critical thinking as students choose the most efficient modelling strategy to recreate specific functional objects, such as a table leg or a profile-based container.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp component library access, video tutorial snippets for complex tool sequences, reference images of orthographic mechanical parts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching centres on 'Procedural Modelling'—the practice of using transformation tools to minimise manual effort. Students discuss the critical distinction between raw geometry and Components, examining how components allow for singular updates to multiple identical objects, thus enhancing model efficiency. The concept of 'geometric hierarchy' is introduced, teaching students to encapsulate distinct parts of a model into named groups to maintain structural integrity and prevent unexpected surface merging.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students undertake a sequence of modelling tasks that require the application of the Offset, Follow Me, and Rotate-plus-Copy (Array) tools. They create a functional assembly, such as a simple chair or a mechanical bracket, ensuring each component is correctly grouped and placed. A significant portion of time is spent debugging models where students have neglected to use groups, necessitating the re-isolation of geometry to achieve a 'manifold' (water-tight) mesh.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of 'Component vs Group' implementation in a student-produced, multi-part mechanical assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to creating complex forms through 2D-to-3D transformation tools such as Arrays and Follow Me. Students apply these techniques to model functional objects, learning to manage geometry effectively by implementing groups and components to prevent merging of surfaces.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:38:45.589Z"
+      }
+    },
+    {
+      "id": "week-78c1ea42",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week of this block shifts toward aesthetics and communication. Students experiment with applying textures from the material library and creating custom materials to simulate real-world surfaces. Lessons transition to digital photography techniques, where students learn to position the camera, adjust Field of View (FOV) to minimise distortion, and establish specific scenes to capture orthographic and isometric views of their designs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp Materials browser, scene manager settings, sample technical drawings for reference, high-resolution texture repository.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching focuses on visual communication principles: scale, texture mapping, and perspective vs orthographic representation. Students learn why orthographic drawings are essential for manufacturing and how perspective views provide context for human-centric designs. The unit explores how lighting and shadow settings in the software can be used to add depth and realism, assisting in the communication of design intent to an audience.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply textures to their models from the previous week, adjusting scale and orientation to suit surfaces. They experiment with the 'Shadows' and 'Fog' palettes to enhance visual depth. The practical core involves creating a series of 'Scenes' (preset views) that include top, front, side, and isometric angles, which are then exported as high-quality images to demonstrate professional presentation techniques.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-review feedback session focusing on the legibility of exported orthographic scenes and the quality of material application.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the application of materials, textures, and realistic lighting to enhance the visual impact of their models. They progress to using scenes and camera positioning to establish professional views, effectively communicating scale and design intent through orthographic and perspective angles.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:38:45.589Z"
+      }
+    },
+    {
+      "id": "week-78ea7907",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a comprehensive design challenge that requires them to synthesise previous modelling skills to create a multi-part assembly. The lessons focus on modular design, where students independently plan and construct individual sub-assemblies before integrating them into a singular, cohesive final model. There is a strong emphasis on managing the digital workspace, ensuring students apply consistent naming conventions and layer structures to maintain file responsiveness.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project brief for the assembly challenge, SketchUp 'Tags' and 'Outliner' workflow guides, technical drawing templates for reference dimensions.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The focus is on project management and workflow optimisation in 3D environments. Students examine the importance of 'modularity'—the practice of isolating complex parts to facilitate easier iteration and precision assembly. Explicit teaching covers the strategic use of layers (tags) to manage visibility, and the necessity of 'outliner' management to track component hierarchies. These concepts are framed within the context of industrial design, where clear organisational structure is vital for design collaboration and manufacturing readiness.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students construct a complex multi-part assembly, such as a precision-engineered desk lamp or a modular storage unit, requiring the integration of multiple components. Practical time is dedicated to 'nested component' design, where students build sub-assemblies in isolation before referencing them into the primary project file. Regular check-ins are conducted to ensure students are maintaining a clean, manifold mesh and applying logical grouping to all geometric entities.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on model hierarchy (Outliner) and tag management, verifying that all sub-assemblies are appropriately structured for ease of modification.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students undertake a design challenge that requires the integration of previous skills to create a cohesive multi-part assembly. Emphasis is placed on project management through efficient layering and component organization to ensure the model remains responsive and easy to iterate upon.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:38:45.589Z"
+      }
+    },
+    {
+      "id": "week-1cae908e",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week shifts focus to the curation and presentation of the student's 3D portfolio. Students review their models for precision and aesthetic quality, refining details such as chamfered edges or material textures to improve realism. Lessons conclude with the systematic generation of a professional suite of rendered scenes, capturing the model from multiple orthographic and perspective viewpoints to effectively communicate the final design.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Portfolio presentation checklist, high-resolution rendering settings guide, reflective self-evaluation rubric.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching concentrates on the principles of design communication and self-evaluation. Students explore how to present design iterations to diverse audiences, emphasising the role of high-quality visuals in conveying design intent and spatial relationships. The theory includes a reflection on 'geometric accuracy', where students analyse their own modelling efficiency, evaluating how their choice of tools and organisational methods impacted the final output and ease of production.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical tasks include the final refinement of the assembly model, ensuring consistent material application and high-fidelity rendering settings. Students configure camera focal lengths and shadow positions to produce a high-quality, professional portfolio of exports. The final lesson is dedicated to a structured self-evaluation, where students audit their files against a checklist of professional modelling standards (e.g., no loose edges, correct component classification, efficient scene setups).",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative (Collection): A final digital portfolio consisting of an assembled 3D model, exported orthographic/perspective scenes, and a short self-evaluation of modelling process and efficiency.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "In the final week, students refine their model portfolio, applying final details and producing a series of high-quality rendered views. They conduct a self-evaluation of their modelling accuracy and workflow efficiency, finalising their collection of 3D designs for presentation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:38:45.589Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

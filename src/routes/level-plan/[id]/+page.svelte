@@ -13,6 +13,7 @@
 	import CapabilityUnitMatrix from '$lib/components/CapabilityUnitMatrix.svelte';
 	import { syncCapabilityRowColumns, unitPlanForLevelIndex } from '$lib/general-capabilities';
 	import { seedUnitPlanFromLevelPlan, syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
+	import { achievementStandardForLevelPlanTitle } from '$lib/content-descriptions';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
@@ -105,6 +106,9 @@
 	}
 
 	function addAssessment(unit: LevelPlanUnit) {
+		const achievementStandard = achievementStandardForLevelPlanTitle(
+			String(plan.bandSubjectTitle.value)
+		);
 		unit.assessments = [
 			...unit.assessments,
 			{
@@ -117,7 +121,7 @@
 				technique: { value: '', aiNotes: '' },
 				mode: { value: '', aiNotes: '' },
 				conditions: { value: '', aiNotes: '' },
-				achievementStandard: { value: '', aiNotes: '' },
+				achievementStandard: { value: achievementStandard, aiNotes: '' },
 				moderation: { value: '', aiNotes: '' }
 			}
 		];
@@ -211,8 +215,20 @@
 		}
 	}
 
+	const unitPlanByIndex = $derived.by(() => {
+		const map = new Map<number, (typeof unitPlans)[number]>();
+		const usedIds = new Set<string>();
+		for (let index = 0; index < plan.units.length; index++) {
+			const matched = unitPlanForLevelIndex(plan.units[index], index, unitPlans, usedIds);
+			if (!matched) continue;
+			usedIds.add(matched.id);
+			map.set(index, matched);
+		}
+		return map;
+	});
+
 	function unitPlanForIndex(index: number) {
-		return unitPlanForLevelIndex(plan.units[index], index, unitPlans);
+		return unitPlanByIndex.get(index);
 	}
 
 	async function refreshUnitPlans() {

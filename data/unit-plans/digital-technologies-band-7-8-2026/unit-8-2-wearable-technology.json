@@ -22,7 +22,7 @@
     "aiNotes": ""
   },
   "status": {
-    "value": "Draft",
+    "value": "Draft (Validated)",
     "aiNotes": ""
   },
   "startWeek": {
@@ -87,7 +87,7 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-aa28d8df",
+          "id": "ucd-ae857192",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -106,26 +106,7 @@
           }
         },
         {
-          "id": "ucd-74e9a363",
-          "strand": {
-            "value": "Knowledge and understanding",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Digital systems",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8K02",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-35d6e8c2",
+          "id": "ucd-dff3c70f",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -144,7 +125,7 @@
           }
         },
         {
-          "id": "ucd-507d55cb",
+          "id": "ucd-c98a5c4f",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -163,7 +144,7 @@
           }
         },
         {
-          "id": "ucd-3f1eba48",
+          "id": "ucd-f92be243",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -182,7 +163,7 @@
           }
         },
         {
-          "id": "ucd-1310e3eb",
+          "id": "ucd-18b88856",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -201,159 +182,7 @@
           }
         },
         {
-          "id": "ucd-22d4e86b",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Acquiring, managing and analysing data",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "model and query the attributes of objects and events using structured data",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P03",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-4bdbea3e",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Investigating and defining",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "define and decompose real-world problems with design criteria and by creating user stories",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P04",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-8fa1835d",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P05",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-b02bf6d8",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "trace algorithms to predict output for a given input and to identify errors",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P06",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-c3846b17",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "design the user experience of a digital system",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P07",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-ca8670dd",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "generate, modify, communicate and evaluate alternative designs",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P08",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-24c29288",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Producing and implementing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P09",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-baf162eb",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Evaluating",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P10",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-47a3f4a9",
+          "id": "ucd-df54e550",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -417,7 +246,7 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-523bfb07",
+          "id": "ucd-ffc7434b",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -436,7 +265,7 @@
           }
         },
         {
-          "id": "ucd-bd4017ca",
+          "id": "ucd-5b1372f4",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -455,45 +284,7 @@
           }
         },
         {
-          "id": "ucd-7e1befe6",
-          "strand": {
-            "value": "Knowledge and understanding",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Data representation",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "investigate how digital systems represent text, image and audio data using integers",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8K03",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-1df727c6",
-          "strand": {
-            "value": "Knowledge and understanding",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Data representation",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "explain how and why digital systems represent integers in binary",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8K04",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-4a29d050",
+          "id": "ucd-c897bddf",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -512,7 +303,7 @@
           }
         },
         {
-          "id": "ucd-6a81134d",
+          "id": "ucd-01b43e51",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -531,7 +322,7 @@
           }
         },
         {
-          "id": "ucd-cf6a52f7",
+          "id": "ucd-e79ee975",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -550,26 +341,7 @@
           }
         },
         {
-          "id": "ucd-85d69d1d",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Investigating and defining",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "define and decompose real-world problems with design criteria and by creating user stories",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P04",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-48aa6e6d",
+          "id": "ucd-8b91b24f",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -588,7 +360,7 @@
           }
         },
         {
-          "id": "ucd-22df9405",
+          "id": "ucd-dcffddef",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -607,83 +379,7 @@
           }
         },
         {
-          "id": "ucd-ec64c9b6",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "design the user experience of a digital system",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P07",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-8b88a786",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "generate, modify, communicate and evaluate alternative designs",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P08",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-e4ae476f",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Producing and implementing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P09",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-0e981903",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Evaluating",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDI8P10",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-95b08975",
+          "id": "ucd-632ca537",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -712,7 +408,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -720,14 +416,14 @@
         "aiNotes": ""
       },
       "subElementChecks": {
-        "cct-inquiring-develop-questions": false,
-        "cct-inquiring-identify-process-evaluate": false,
-        "cct-generating-create-possibilities": false,
-        "cct-generating-consider-alternatives": false,
-        "cct-generating-put-ideas-into-action": false,
-        "cct-analysing-interpret-concepts": false,
-        "cct-analysing-draw-conclusions": false,
-        "cct-analysing-evaluate-actions": false,
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
         "cct-reflecting-metacognition": false,
         "cct-reflecting-transfer-knowledge": false
       }
@@ -739,7 +435,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Investigating: Locate information; Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Select and operate tools",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -750,15 +446,15 @@
         "dl-safety-manage-online": false,
         "dl-safety-privacy-identity": false,
         "dl-safety-wellbeing": false,
-        "dl-investigating-locate": false,
-        "dl-investigating-acquire": false,
-        "dl-investigating-interpret": false,
-        "dl-creating-plan": false,
-        "dl-creating-communicate-collaborate": false,
-        "dl-creating-ip": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
         "dl-managing-content": false,
         "dl-managing-protect": false,
-        "dl-managing-operate": false
+        "dl-managing-operate": true
       }
     },
     {
@@ -791,7 +487,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Writing: Handwriting and keyboarding",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -810,7 +506,7 @@
         "lit-grammar": false,
         "lit-punctuation": false,
         "lit-spelling": false,
-        "lit-handwriting-keyboarding": false
+        "lit-handwriting-keyboarding": true
       }
     },
     {
@@ -820,7 +516,7 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Measurement and geometry: Positioning and locating",
         "aiNotes": ""
       },
       "evidenceNotes": {
@@ -838,7 +534,7 @@
         "num-money": false,
         "num-units-measurement": false,
         "num-geometric-properties": false,
-        "num-positioning": false,
+        "num-positioning": true,
         "num-measuring-time": false,
         "num-chance": false,
         "num-data": false
@@ -1549,6 +1245,10 @@
   ],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "20 weeks",
     "aiNotes": ""
   }
 }

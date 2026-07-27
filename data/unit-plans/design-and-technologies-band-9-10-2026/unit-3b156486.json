@@ -1,0 +1,814 @@
+{
+  "id": "unit-3b156486",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 7,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "AgTech: Paddock to Product",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "1 Term",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate how food and fibre enterprises use design and technology to respond to production challenges and changing consumer needs. Students examine a local agricultural industry and identify an opportunity to improve the production, handling, storage, transport or marketing of its products. They develop and evaluate alternative ideas before producing a model or prototype of their preferred solution. Throughout the design process, students consider the needs of producers and customers, as well as safety, ethics, sustainability, cost and commercial viability. The unit develops practical design skills while introducing students to innovation and enterprise within Australia’s agricultural industries.\n",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-092613f0",
+      "assessmentNumber": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "AgTech Enterprise",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate authentic challenges within local food and fibre industries, ranging from cattle and poultry management to horticulture and rural mechanisation. Students apply design thinking to develop solutions that improve the production, handling, storage, or marketing of agricultural goods. By focusing on the needs of a specific producer or customer, students explore safety, ethics, and commercial viability while refining their technical production skills. Through the development of a model or prototype and a corresponding commercial proposal, students engage with innovation and enterprise, balancing practical constraints with creative, sustainable design. This unit emphasises the real-world application of design technologies in an agricultural context, preparing students to critically evaluate the lifecycle and impact of their designed solutions.",
+        "aiNotes": "Students investigate a real problem facing a local agricultural producer and design a solution that improves how food or fibre is produced, handled, stored, transported or marketed.\n\nThis would suit country boys because it could involve cattle, fishing, cropping, poultry, horticulture, beekeeping, rural machinery or livestock rather than feeling like another classroom sustainability project.\n\nPossible student projects\n\nStudents could design:\n\na safer livestock-feeding system\na portable animal shelter or shade structure\na better system for transporting produce\nan egg-collection or chicken-feeding system\na water-saving trough or irrigation system\na farm-gate produce stall\nprotective packaging for local produce\na storage system that reduces food spoilage\na device for safely handling livestock\na modular beehive transport or storage solution\na service for connecting local producers with customers\na redesigned product made from wool, timber or another local fibre\n\nThey would not all need to make the same product. They could select an agricultural sector, identify a producer or user, and develop a solution suited to that context.\n\nStrong assessment concept\nDesign brief\n\nDesign a product, service or environment that improves an aspect of a food or fibre enterprise. The solution must respond to the needs of a specific producer or customer and consider safety, ethics, sustainability, production costs and commercial viability.\n\nStudents would:\n\nSelect a food or fibre enterprise.\nInvestigate how the enterprise currently operates.\nIdentify a genuine production, handling or marketing problem.\nDevelop criteria with the producer or user in mind.\nGenerate and test alternative ideas.\nProduce a model, prototype or working product.\nDevelop a simple commercial proposal.\nEvaluate whether the solution is practical and viable.\n\nThe commercial proposal could include estimated production cost, sale price, target market, branding and how the design creates value. That brings in the innovation and enterprise emphasis of AC9TDE10K02 without turning the unit into a business subject.",
+        "lastGenerated": "2026-07-14T00:52:19.164Z"
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 4–6 A3 pages or equivalent digital portfolio including annotated sketches, technical drawings, and prototype photographs\n• Project management plan (inclusive of sequenced time, cost, and safety analysis)",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T00:52:33.731Z"
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-ef642680",
+          "strand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-78daca8f",
+          "strand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2a4f8f6b",
+          "strand": {
+            "value": "Technologies context: Food and fibre production",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b5d8da11",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ec7018dd",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-626b7eef",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3df1b2dd",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c0cbd2b0",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-f370f63a",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-9e5d8e48",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-30cc3a95",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts\nResponding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-77555a81",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-9b58ce9a",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-eba94678",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Understanding money\nMeasurement and geometry: Understanding units of measurement",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": true,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-430a2f12",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Social awareness: Community awareness\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": true,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-c601a542",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin by investigating the complex 'Paddock to Product' journey, focusing on local Central Queensland commodities such as beef and pineapples. Through collaborative mapping, they trace the supply chain from primary production through to processing, transport, and retail, identifying where value is added and where inefficiencies occur. Explicit teaching focuses on the integration of technology in modern farming systems, highlighting how digital and mechanical innovations address global challenges in resource efficiency and food security. Students conclude the week by categorising specific production challenges related to pest management and post-harvest handling within a chosen agricultural sector.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Meat & Livestock Australia (MLA) industry reports, AgriFutures Australia case studies, supply chain mapping software (Lucidchart or Canva), local agricultural commodity data (e.g., Livingstone Shire agricultural profiles).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of the food and fibre production context, focusing on the interconnected nature of modern agricultural supply chains. Students investigate the role of emerging technologies, such as GPS-guided machinery, automated irrigation systems, and remote sensing, in improving sustainability and yield. Theoretical focus is placed on 'Life Cycle Thinking' and how technological interventions can mitigate environmental impacts during the production and transport phases. Students learn to identify specific constraints within the agricultural industry, including biosecurity protocols, climate variability, and ethical considerations in animal welfare or chemical use.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a supply chain mapping workshop, using digital tools to visualise the movement of a local agricultural product from the farm gate to the consumer. They participate in a 'Tech Audit' of current agricultural equipment, evaluating the effectiveness of existing tools versus automated alternatives. Practical activities include simulated post-harvest handling scenarios where students must identify points of potential product degradation and propose technology-based monitoring solutions, such as temperature sensors or moisture-controlled storage models.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of a detailed supply chain flowchart and a summary report identifying three major technological gaps in a local agricultural industry.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the agricultural supply chain to identify opportunities for technological intervention within local food and fibre industries. They map the flow of commodities and examine how automation and remote sensing improve production efficiency and sustainability.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-79feeee8",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus transitions to design thinking methodologies, with students performing a structured audit of an agricultural enterprise to pinpoint specific design opportunities. They develop empathy for producers by simulating stakeholder interviews or conducting on-site observations at the college farm to understand daily operational friction points. Students practice defining a clear problem scope, moving from a broad industry challenge to a specific, manageable technical problem. The week culminates in the development of comprehensive design criteria that balance functional requirements with social, ethical, and economic sustainability factors.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "QCAA Design Brief templates, Farm Safety manuals, digital recording devices for interviews, site access to college agricultural precinct.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the 'Define' and 'Empathise' stages of the design process within an agricultural context. Students learn the importance of stakeholder requirements, distinguishing between 'needs' and 'wants' in a commercial production environment. Explicit teaching covers the formulation of design criteria, including safety standards, commercial viability (cost-benefit analysis), and environmental footprints. Students explore how Australian agricultural standards and legal regulations (such as WHS on farms) influence the development of new technological products or systems.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a field audit of the college’s agricultural facilities, documenting issues related to handling, storage, or mechanisation. They perform role-play stakeholder interviews to gather qualitative data on user needs, using this information to draft a formal Design Brief. Practical exercises include 'Criterion-Weighting' activities, where students justify why certain factors (e.g., durability in harsh environments) take precedence over others (e.g., aesthetic finish) for agricultural tools.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Draft Design Brief including a stakeholder needs analysis and a prioritised list of design criteria for their 'AgTech Enterprise' project.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students audit agricultural facilities to identify specific design opportunities and define stakeholder requirements for their project. They establish formal design criteria by considering work health and safety, environmental impact, and commercial viability.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-3a839d52",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in divergent thinking sessions to generate a wide range of technological solutions, moving from low-tech mechanical improvements to high-tech, data-driven systems. Using rapid ideation techniques, they explore how Internet of Things (IoT) sensors, robotics, or modified physical structures could solve their identified challenge. The lessons focus on translating abstract ideas into concrete visualisations through technical sketching and detailed annotation. Students are encouraged to experiment with different scales and perspectives to communicate the functional mechanics of their proposed AgTech innovation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Drawing equipment (A3 layout pads, fine liners), 3D modelling software (Tinkercad or Shapr3D), visual stimulus gallery of existing AgTech innovations (e.g., Agerris robotics, Ceres Tag).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of divergent thinking strategies such as SCAMPER and morphological analysis to stimulate innovation in food and fibre production. Students study the principles of technical representation, focusing on how to use 2D and 3D sketching to communicate motion, assembly, and user interaction. Theoretical content also introduces the concepts of 'Smart Farming' and 'Precision Agriculture,' examining how data-driven systems (e.g., soil moisture probes linked to cloud platforms) can be designed to automate decision-making on a farm.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in an 'Ideation Sprint,' producing a minimum of three distinct conceptual sketches for their chosen problem. They practice technical drawing techniques, including isometric sketching and exploded views, to show internal components of their proposed device. Activities include peer-to-peer 'Critical Friends' sessions, where students provide feedback on the feasibility of each other's annotated concepts based on the design criteria established in Week 2.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Portfolio of annotated concept sketches demonstrating at least three varied technological interventions for their agricultural problem.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students generate diverse conceptual ideas using divergent thinking techniques and document them through annotated 2D and 3D sketches. They explore the integration of smart systems and precision agriculture to address the functional requirements of their challenge.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-9834edaa",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students move from ideation to evaluation, subjecting their concepts to rigorous feasibility and sustainability analysis. They learn to balance technical performance against commercial viability, assessing resource requirements and projected costs. Through collaborative workshops, students refine their project management skills, creating detailed GANTT charts or action plans that sequence their fabrication steps and material procurement for the remaining weeks.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project management templates (GANTT chart tools), environmental impact calculators (e.g., carbon footprint estimation guides), budget planning worksheets, procurement databases.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on project management methodologies and life-cycle thinking. Students analyse the 'Triple Bottom Line' (economic, environmental, and social) to evaluate their designs against sustainability constraints. They are introduced to cost-benefit analysis techniques, considering material longevity, maintenance requirements, and the total cost of ownership. Theoretical discussion covers the importance of scheduling and resource allocation as essential skills for modern agribusiness and engineering projects.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use project management software or templated spreadsheets to build a comprehensive production timeline. They perform a 'Constraint Analysis' on their preferred design, documenting why certain materials or mechanisms were selected based on cost and environmental impact. Practical sessions also involve the creation of a 'Bill of Materials,' where students quantify every component, fastener, and raw material required for their prototype, checking against their project budget.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a Project Management Plan including a timeline, task breakdown, and a preliminary budget/resource list for the prototype phase.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate their concepts against sustainability and cost constraints to select a preferred solution for development. They produce detailed project management plans, including sequenced timelines and resource lists, to ensure prototype feasibility.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-89f2fd78",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus turns to the technical documentation required before fabrication begins. Students transform their concept sketches into precise technical drawings, learning how to use standard conventions for orthogonal and sectional views to communicate complex internal features of their designs. The week includes explicit instruction on risk management, requiring students to document safety protocols and potential hazards associated with their construction phase and the eventual operation of the AgTech device.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360, SketchUp), drafting instruments, WHS/Risk assessment templates, standard engineering symbol guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to technical communication standards in engineering and manufacturing. Students study the conventions of orthogonal projection, scale, and sectional/exploded views to ensure their designs can be accurately fabricated. Explicit teaching covers the 'Hierarchy of Hazard Control' in the context of farm machinery and AgTech device operation. Concepts such as tolerance, material properties, and ergonomic considerations for rural users are integrated into the technical planning stage.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students produce a set of technical drawings, moving from freehand sketches to CAD (Computer-Aided Design) or refined mechanical drafting. They create an 'exploded view' diagram to illustrate the assembly of their prototype and a 'sectional view' to reveal critical internal mechanics or data-sensing components. A formalised 'Risk Assessment' document is generated, mapping out safe work procedures for the tools and fabrication techniques they have selected.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A technical drawing package (orthogonal, sectional/exploded views) and a formal safety and risk management plan for the build.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students produce technical drawings, including orthogonal and exploded views, to communicate the mechanical components of their design. They develop formal risk management protocols and safe work procedures for the upcoming fabrication and assembly phase.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-086eeac7",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students commence the iterative production phase, moving from planning to fabrication. The week is defined by precision assembly and simulation, where students build their prototypes or digital models. Emphasis is placed on the 'build-test-adjust' cycle, where students document performance observations in real-time. They are encouraged to reflect on the performance of their prototype components, adapting their original plans if technical obstacles arise during construction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop tools (as per safety plan), rapid prototyping materials (e.g., hot glue, laser-cut components), Arduino/microcontroller kits for sensor simulation, documentation templates for progress journals.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of prototyping techniques and the importance of iterative design in product development. Students learn the concept of 'Functional Testing,' exploring how to validate that a prototype meets its design criteria without needing a full-scale commercial model. Discussion points include precision in assembly, the role of rapid prototyping, and how technical failures during construction can inform better design outcomes through systematic troubleshooting and critical reflection.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Hands-on assembly of prototypes using selected materials (e.g., recycled plastics, modular timber, or simulated IoT circuitry). Students perform 'alpha testing' on individual functional components (e.g., testing the range of a sensor or the load-bearing capacity of a joint) and record these data points in their production journals. They adjust their assembly techniques based on performance observations, ensuring the model aligns with their technical drawings from Week 5.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Production journal entries documenting the fabrication progress, testing observations, and any design modifications made in response to testing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students begin constructing their AgTech prototype using precision assembly techniques and iterative testing. They conduct functional trials on individual components and document any mechanical modifications or troubleshooting steps taken during the building process.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-cfccc6c2",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students move into the refinement phase of their AgTech prototypes, focusing on technical precision and aesthetic finish to ensure the model is industry-ready. Explicit teaching focuses on Life Cycle Assessment (LCA), where students evaluate the environmental and ethical footprint of their solution from raw material extraction to end-of-life disposal. They begin drafting the commercial proposal, specifically addressing how their technology integrates into existing agricultural workflows while meeting sustainability benchmarks. These lessons bridge the gap between a functional prototype and a commercially viable product, requiring students to justify their material choices through the lens of social and environmental responsibility.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Life Cycle Assessment (LCA) templates, Australian Agricultural Sustainability Framework (AASF) guidelines, finishing materials (paints, sealants, cable ties), impact calculation software.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate the principles of Life Cycle Thinking (LCT) and its application in Australian primary industries. Theory covers the environmental impacts of different manufacturing processes (e.g., additive manufacturing vs. traditional fabrication) and the ethical considerations of automation in rural workforces. Explicit instruction is provided on 'Social License to Operate,' exploring how new agricultural technologies must satisfy community expectations regarding land stewardship and animal welfare. Students learn to use impact-assessment matrices to quantify the carbon footprint and resource intensity of their proposed technological solution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve the final 'bench-testing' and aesthetic refinement of the prototype, such as securing internal wiring, applying protective finishes, or calibrating sensors for consistent output. Students conduct a formal Life Cycle Audit of their design, using digital spreadsheets to map the journey of every component in their 'Bill of Materials.' They engage in a structured peer-critique workshop focused on the 'Commercial Proposal' draft, specifically evaluating whether the environmental and ethical claims are supported by technical evidence and aligned with industry standards.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Life Cycle Impact matrix and a draft of the 'Sustainability and Ethics' section of the commercial proposal.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students refine their prototypes while investigating the lifecycle impacts and ethical considerations of their proposed technology. They analyse the sustainability of material choices and evaluate how their solution supports long-term resource management in the primary industry sector.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-daa02c48",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to professional communication and the finalisation of the technical documentation required for the AgTech Enterprise project. Students complete all fabrication tasks and transition to capturing high-quality visual evidence of their working model, including video demonstrations of functional features. They develop promotional materials, such as a technical pitch deck or a product brochure, designed to communicate the value proposition of their innovation to local producers or investors. Lessons emphasize the use of professional graphic design conventions and persuasive language to highlight efficiency gains and return on investment (ROI) within a competitive agricultural market.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/tablets, graphic design software (Canva or Adobe Express), professional portfolio templates, examples of AgTech industry brochures.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of technical marketing and professional communication within the AgTech sector. Students study how to present complex technical data (e.g., sensor accuracy or mechanical advantage) in a way that is accessible to diverse stakeholders, including farmers, agronomists, and financial backers. Explicit teaching covers the 'Value Proposition' framework, helping students articulate exactly how their product reduces waste, saves time, or improves safety. Theoretical instruction also includes the final requirements for portfolio assembly, ensuring that all 2D/3D representations and production journals are curated into a cohesive technical report.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use digital photography and video recording equipment to document the 'Final Product' in a simulated or real-world agricultural environment (e.g., the college farm). They apply graphic design principles to create a 'Product Data Sheet' or pitch presentation using industry-standard software. Final practical time is dedicated to 'Portfolio Curation,' where students integrate their technical drawings, project management plans, and risk assessments into a professional submission format, ensuring all design decisions from previous weeks are clearly justified.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Final review of the technical model and a peer-review of the promotional pitch deck for clarity and professional tone.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their technical models and develop a commercial proposal communicating the product's value and efficiency. They produce promotional materials and technical data sheets that justify their design decisions and economic viability to industry stakeholders.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-40503916",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The unit culminates in the formal submission and presentation of the 'AgTech Enterprise' project. Students participate in a 'Solution Showcase,' acting as technical consultants to explain their design decisions and justify their technological approach to a panel of peers and teachers. This week provides an opportunity for critical reflection, where students evaluate the success of their prototype against the original design criteria established in Week 2. The session concludes with a structured peer-review process, simulating an industry 'pitch-and-pivot' environment where students provide constructive feedback on the commercial and technical feasibility of each other’s solutions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment rubrics, project submission portal, exhibition space for model display, peer-review feedback templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students examine the role of professional critique and iterative feedback in the engineering and design lifecycle. They learn how to use evidence-based reasoning to defend their technological choices, particularly when faced with constraints identified during the production phase. Discussion focuses on 'Innovation Pathways'—how a classroom prototype could transition to a commercial startup or a patentable product in the Australian AgTech ecosystem. Theoretical focus is placed on the 'Evaluation' phase of the design process, specifically the identification of unforeseen technical limitations and opportunities for future iteration.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Submission of the final AgTech Enterprise Project, comprising the physical/digital model, the commercial proposal, and the comprehensive design portfolio. Students engage in a 'Trade Show' style presentation, demonstrating their working model and responding to technical questions from their 'stakeholder' peers. They complete a final written evaluation that cross-references their prototype’s performance against the initial stakeholder needs, project management efficiency, and sustainability goals documented throughout the term.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative Assessment: AgTech Enterprise Project (Technical Model, Commercial Proposal, and Design Portfolio).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students submit their final project and present their working models in a professional trade-show environment. They defend their technological choices during peer reviews and evaluate the effectiveness of their final designed solution against the initial criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    },
+    {
+      "id": "week-21a558a1",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in a final reflection on the complete 'Paddock to Product' journey, synthesising their experiences from initial supply chain mapping to the delivery of a functional prototype. Lessons facilitate a shift from individual project outcomes to a broader industry perspective, where students analyse how their technical solutions contribute to the 'preferred futures' of Australian agriculture. They participate in a career-pathways workshop, connecting the innovation and enterprise skills developed throughout the term—such as project management and technical representation—to emerging roles within the AgTech sector.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "AgriFutures 'Future of Ag' reports, Primary Industries Education Foundation Australia (PIEFA) career infographics, student e-portfolio templates, industry-standard self-evaluation rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the final 'Evaluate' stage of the design process, specifically the use of objective data and stakeholder feedback to measure design success. Students examine future horizons in food and fibre production, investigating how emerging trends such as autonomous farming systems, blockchain traceability, and remote sensing are set to redefine the industry. Theoretical discussion explores the concept of 'Innovation Resilience,' encouraging students to reflect on how they adapted to technical failures during the production phase. The week concludes with a study of professional development pathways, identifying the specific vocational and tertiary skills required to enter the modern agricultural workforce in Central Queensland and beyond.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a comprehensive 'Post-Mortem' analysis of their AgTech Enterprise project, documenting the effectiveness of their solution against the original design criteria and identifying specific technical improvements for a version 2.0. They develop a personal skills-mapping document, cross-referencing the competencies gained in this unit with achievement standards and industry requirements. Practical activities include a collaborative brainstorming session on 'Agriculture 2050,' where students use their developed prototypes as a baseline to predict future technological shifts. Final digital management tasks involve archiving production journals and technical drawings into a professional e-portfolio to demonstrate their design capabilities.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of a final self-evaluation report and a personal AgTech career development plan based on the skills acquired throughout the unit.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate future trends in the AgTech sector and reflect on the innovation skills developed throughout the unit. They identify professional career pathways in the agricultural industry and archive their design journey in a professional e-portfolio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:03:39.410Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

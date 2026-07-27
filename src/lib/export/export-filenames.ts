@@ -1,4 +1,4 @@
-import type { LevelPlan, UnitPlan } from '$lib/types';
+import type { AssessmentItem, LevelPlan, UnitPlan } from '$lib/types';
 
 function field(value: unknown): string {
 	if (value == null) return '';
@@ -20,6 +20,31 @@ function part(text: string): string {
 		.replace(/^_|_$/g, '');
 }
 
+/** Lowercase hyphen slug for folder segments (matches unit-7-1-digital-literacy style). */
+function slugPart(text: string): string {
+	return text
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+}
+
+/**
+ * Zip folder name, e.g. unit-7-1-digital-literacy / unit-8-4-country-event-experience
+ */
+export function unitPlanExportFolderName(plan: UnitPlan): string {
+	const yearLevel = plan.yearLevel.value === '' ? '' : String(plan.yearLevel.value);
+	const unitNumber = plan.unitNumber.value === '' ? '' : String(plan.unitNumber.value);
+	const title = slugPart(field(plan.unitTitle.value)).slice(0, 60);
+
+	const parts = ['unit'];
+	if (yearLevel) parts.push(yearLevel);
+	if (unitNumber) parts.push(unitNumber);
+	if (title) parts.push(title);
+
+	if (parts.length === 1) return plan.id;
+	return parts.join('-');
+}
+
 /**
  * FacultyDocs-style name, e.g.
  * unit_plan_Digital_Technologies_Year_9_Unit_2_—_Cyber_Security_Site_2026.docx
@@ -36,6 +61,20 @@ export function unitPlanExportFilename(plan: UnitPlan): string {
 	if (unitNumber) name += `_Unit_${unitNumber}`;
 	if (title) name += `_—_${title}`;
 	if (year) name += `_${year}`;
+	return `${name}.docx`;
+}
+
+/**
+ * Assessment instrument filename, e.g.
+ * assessment_Website_Prototype.docx
+ */
+export function assessmentItemExportFilename(item: AssessmentItem): string {
+	const number =
+		item.assessmentNumber.value === '' ? '' : String(item.assessmentNumber.value);
+	const title = part(field(item.title.value)) || part(item.id) || 'Assessment';
+	let name = 'assessment';
+	if (number) name += `_${number}`;
+	name += `_${title}`;
 	return `${name}.docx`;
 }
 

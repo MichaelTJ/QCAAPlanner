@@ -1,0 +1,777 @@
+{
+  "id": "unit-7bd541e6",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "Design and Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 6,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Port (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 8 Industrial Technology and Design unit, students design and manufacture a personalised wooden port or suitcase. They develop practical woodworking skills through measuring, marking, cutting, chiselling, joining, sanding and finishing timber, with particular emphasis on accurately producing finger joints and safely using workshop tools and equipment.\n\nStudents use the SBC Design Model to investigate existing products, develop ideas and repurpose the standard wooden port for a practical use, such as storing fishing equipment, art supplies, stationery, medals or personal items. They communicate their improved design through annotated sketches and a dimensioned SketchUp model before constructing and evaluating the finished product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-f2ca03a9",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Port (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students complete three connected components:\n\nSafety and theory tasks covering workshop procedures, risk assessment, timber, tools, fasteners, joints and finishing processes.\nA design folio documenting the SBC Design Model: defining the problem, researching existing products, brainstorming, sketching, self-evaluating and producing a final dimensioned SketchUp design.\nA practical wooden port manufactured to the supplied dimensions and personalised for an identified purpose.\n\nStudents are assessed on their understanding of materials, tools and production processes; development and communication of design ideas; safe and accurate workshop practices; management of the production process; quality and functionality of the completed port; and evaluation of their design and finished product.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 10 hours of supervised class time\n• Design Folio: 6 A3 pages including annotated sketches, a dimensioned SketchUp model, and evidence of iterative design\n• Practical: Constructed wooden port (dimensions approximately 400mm x 250mm x 200mm)\n• Adherence to mandatory St Brendan’s College workshop safety protocols and WHS requirements",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:05.992Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Industrial Technology and Design faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings held in Week 5 and Week 9 to review student design folios and evaluate the quality of practical construction against the provided assessment rubric.\n*   **Work Sample Analysis:** Cross-marking of a representative sample of student folios and finished projects to confirm alignment of grades across the Year 8 cohort.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:06.599Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-6ba52764",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9c719bde",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bbc8df4f",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d912637c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2e5c463e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f2030144",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-a87389a7",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-b3511963",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-c9896c25",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-f38602e5",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-ffce4250",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-2548ef3a",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-dba0cc1b",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-4f40d2ac",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the wooden port design project and the overarching assessment requirements. They complete mandatory OnGuard safety modules and receive specific training on the safe use of chisels and hand tools. The week concludes with a comprehensive workshop induction to ensure all students understand the safety protocols and equipment expectations.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety training platform, chisels, sharpening stones (oil/water), mallets, workshop safety induction checklist, project design brief.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the SBC Design Model and the specific parameters of the Port project. Students explore WHS protocols within the timber workshop, specifically focusing on the hierarchy of hazard control. Explicit instruction is provided on timber properties, focusing on grain direction, density, and how these factors influence structural stability and joinery performance.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of mandatory OnGuard safety modules and certification. Students participate in hands-on demonstrations of hand tools, with specific emphasis on safe chisel handling techniques, including sharpening methods and the correct use of a mallet. Initial workshop familiarisation concludes with students setting up their individual project stations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of student engagement with OnGuard modules and demonstrated proficiency in safe tool handling during small-group supervised practice.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the wooden port design project and the overarching assessment requirements. They complete mandatory OnGuard safety modules and receive specific training on the safe use of chisels and hand tools. The week concludes with a comprehensive workshop induction to ensure all students understand the safety protocols and equipment expectations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-bcac4200",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to defining the design problem by identifying user needs and specific constraints for the port's internal layout. Students begin the practical manufacturing phase by measuring and dressing timber stock to the dimensions specified in the working drawings. Emphasis is placed on accurate marking techniques to ensure precision in the initial stages of assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Working drawings, timber stock (dressed or rough-sawn), try squares, marking gauges, steel rulers, hand planes, layout pencils.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the importance of accurate measurement and marking-out techniques in timber production. Students analyse the relationship between material dimensions and functional capacity, identifying constraints such as timber thickness and internal clearance. Concepts of 'dressing' timber are introduced, covering the sequential use of hand planes and measuring tools to achieve square and parallel surfaces.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students commence the practical phase by interpreting working drawings to measure and mark out their timber stock. Lessons involve hands-on practice in dressing timber, ensuring edges are straight and true for subsequent joining. Students focus on the application of accurate marking-out tools, including try squares, marking gauges, and steel rulers to prepare components to specification.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of 'marking-out' accuracy and adherence to material dimensions as per the design brief and technical drawings.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to defining the design problem by identifying user needs and specific constraints for the port's internal layout. Students begin the practical manufacturing phase by measuring and dressing timber stock to the dimensions specified in the working drawings. Emphasis is placed on accurate marking techniques to ensure precision in the initial stages of assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-1c658081",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students investigate existing storage solutions, evaluating the functional features of three comparable products to inform their own design improvements. In the workshop, they begin the intricate process of marking out finger joints. They practise the safe handling of saws and chisels to achieve the accuracy required for high-quality joinery.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Three physical or virtual product examples, marking knives, tenon saws, chisels, mallets, practice timber stock, design folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching regarding the structural integrity and aesthetic application of finger joints. Students are introduced to methods for evaluating existing product designs, focusing on 'form and function' analysis. Discussion topics include trade-offs between joint strength and manufacturing time, as well as the necessity for iterative testing in the design process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a comparative product analysis of three existing storage solutions, documenting functional strengths and weaknesses in their folios. Workshop time is dedicated to the precise marking out of finger joints on test timber blocks. Students practise sawing techniques to create housing joints, followed by the systematic removal of waste material using chisels to achieve a tight, square fit.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of investigative research in the design folio and the accuracy of the trial finger-joint fit on practice timber.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate existing storage solutions, evaluating the functional features of three comparable products to inform their own design improvements. In the workshop, they begin the intricate process of marking out finger joints. They practise the safe handling of saws and chisels to achieve the accuracy required for high-quality joinery.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-d0b1436e",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake brainstorming sessions to ideate internal storage solutions based on their chosen utility, such as custom dividers for fishing tackle or foam inserts for tools. Workshop sessions focus on the iterative refinement of finger joints, with students performing frequent dry-fits to ensure accuracy. Teachers provide 1-on-1 support for adjusting shoulder cuts and cleaning out corners with chisels.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Marking gauges, tenon saws, sharp wood chisels, mallet, combination squares, test timber stock, sandpaper blocks.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the geometric requirements of finger joints, emphasising the relationship between tolerance and structural fit. Students explore material properties regarding shrinkage and expansion, and how these affect the longevity of wooden joints. Discussion covers the design thinking process behind creating personalised internal features that enhance the port’s functionality for specific user needs.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use marking gauges to scribe precise baselines for finger joints on all side components. Practical sessions are dedicated to the careful sawing of joint cheeks, followed by the systematic removal of waste using sharp chisels. Students engage in iterative testing of their joints, filing or paring material to achieve a high-quality, flush fit across all corners.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the accuracy and neatness of finger joints on the actual project timber; feedback provided on the feasibility of internal storage concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in brainstorming sessions to develop personalised internal compartments and decorative features that cater to their chosen utility. Practical time is dedicated to the iterative cutting and fitting of finger joints. Students are required to test their components frequently, learning to refine gaps and correct alignment issues to improve fit.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-4275483d",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop annotated isometric sketches to formalise their internal compartment layouts and hardware selections, translating ideas from their brainstorming sessions into detailed technical drawings. In the workshop, the focus transitions from individual joint testing to the final assembly of the main port frame. Students execute a trial dry-assembly to check for squareness before moving to the permanent gluing process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Isometric drawing paper, drafting pencils, T-squares, wood glue, sash clamps, try squares, damp rags for cleanup.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to isometric projection techniques for technical documentation, focusing on the inclusion of dimensions, annotations, and assembly notes. Concepts of structural integrity in box construction are covered, specifically the importance of 'squareness' (diagonal measurement) and the correct application of clamping pressure to ensure an even distribution of adhesive.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete their annotated isometric sketches in their design folios. Practical workshop time is dedicated to the final dry-fit and assembly of the four sides using wood glue and sash clamps. Students demonstrate competency in checking for squareness using a try square and steel rule, followed by the removal of excess 'squeeze-out' glue before it cures.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of isometric sketch quality and accuracy of the dry assembly; check of frame squareness prior to glue-up.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students produce an annotated isometric sketch that clearly communicates their design intent, including material choices and functional additions. Following this, they finalise the joinery and conduct a dry assembly of their project. The week concludes with gluing and clamping the frames, with a strict focus on checking for squareness and structural integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-88340f50",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct a formal risk assessment for their manufacturing process, documenting hazards associated with specific power tools or assembly tasks encountered. Workshop time involves measuring and fitting base and lid panels, ensuring a flush finish with the frame. The week ends with comprehensive surface preparation, focusing on sanding techniques that transition through grit levels to achieve a professional timber finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Risk assessment templates, hand planes, sandpapers (80 to 240 grit), sanding blocks, measuring tapes, hand-held power sanders (if certified).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on risk management, including identifying hazards and implementing controls in the workshop environment. Discussion on timber preparation strategies, such as managing grain tear-out and the importance of progressive sanding (from coarse to fine) to prepare surfaces for future finishing coatings.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students draft a risk assessment matrix identifying potential hazards for their specific construction tasks. Practical lessons involve measuring and cutting plywood or solid timber for the port base and lid, followed by precise fitting using hand planes or sanding blocks. Students complete extensive surface sanding on all exterior surfaces to remove pencil marks, glue stains, and surface irregularities.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Submission of the formal risk assessment for the design folio and teacher assessment of the quality of surface preparation on the port assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The design process continues with students evaluating their initial prototypes against the project brief and completing a formal risk assessment. Workshop time is spent preparing and fitting the top and base panels. Students perform careful sanding and surface preparation to remove excess adhesive and smooth the wooden surfaces.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-0366b0e7",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students leverage CAD technology by developing their final port design in SketchUp, incorporating accurate dimensions and personalised modifications. Practical lessons focus on hardware installation, including the alignment and fitting of hinges, handles, and clasps to ensure the functionality of the opening mechanism.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "SketchUp for Web, digital calipers, drill press, bits, hinge/clasp kits, marking knives, screwdrivers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the principles of Computer-Aided Design (CAD) and its application in industrial design. Students analyse the relationship between component dimensions and the operational requirements of hardware such as hinges and clasps. Lessons also cover the importance of tolerance and clearance in mechanical assemblies to ensure fluid movement.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop their final 3D models in SketchUp, applying precise measurements to their specific port dimensions. In the workshop, students measure, mark, and pilot-drill holes for the attachment of hardware. They focus on the accurate alignment of hinges to prevent binding and ensure the lid sits flush with the base.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of SketchUp model accuracy against design criteria; practical check of hardware alignment and function.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students leverage CAD technology by developing their final port design in SketchUp, incorporating accurate dimensions and personalised modifications. Practical lessons focus on hardware installation, including the alignment and fitting of hinges, handles, and clasps to ensure the functionality of the opening mechanism.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-1dcdb468",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The design folio is finalised and submitted, with students documenting their production journey through annotated photographs. Workshop tasks focus on the manufacture and installation of internal dividers and personalised inserts. Students may also integrate decorative elements using CNC or laser-cutting equipment where applicable to the design.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/devices for documentation, laser cutter/CNC, plywood/softwood scraps, wood glue, finishing abrasives, folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Discussion on modular design and internal organisation strategies. Students evaluate the impact of internal inserts on the overall utility of the port. Theoretical concepts regarding the use of CNC and laser technology in timber manufacturing are explored, highlighting the role of digital precision in decorative detail.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design and manufacture custom internal dividers using thin-stock timber or plywood. They engage in the setup and operation of workshop machinery (under supervision) or laser cutters to produce personalised inlays or engravings. Folio work involves capturing final evidence and writing reflective justifications for design choices.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of folio progress and quality of internal divider fit; completion of decorative elements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The design folio is finalised and submitted, with students documenting their production journey through annotated photographs. Workshop tasks focus on the manufacture and installation of internal dividers and personalised inserts. Students may also integrate decorative elements using CNC or laser-cutting equipment where applicable to the design.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-9d5c9e67",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory lessons are dedicated to exploring timber properties, joint types, fastener applications, and finishing techniques appropriate for long-term protection. Students review their folio entries to ensure all evidence is complete and logically structured. In the workshop, final sanding is completed to achieve a professional-grade finish before the application of coatings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sandpaper (up to 400 grit), tack cloths, wood finish (oil/wax/varnish), brushes/rags, student design folios, assessment rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on timber finishing, comparing protective qualities of oils, waxes, and varnishes. Students review the hierarchy of timber joinery and discuss how different mechanical fasteners—such as screws and nails—interact with timber fibres. A major focus is placed on reviewing folio documentation against the final assessment rubrics.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete final 'scuff' sanding to remove all imperfections before applying a chosen finish. Hands-on practice includes the correct application methods for oils or polyurethane coatings to ensure durability. Final time is dedicated to ensuring all folio sections—research, CAD designs, risk assessments, and evaluations—are cohesive.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative preparation: final review of the design folio and quality audit of the completed port finish.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons are dedicated to exploring timber properties, joint types, fastener applications, and finishing techniques appropriate for long-term protection. Students review their folio entries to ensure all evidence is complete and logically structured. In the workshop, final sanding is completed to achieve a professional-grade finish before the application of coatings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    },
+    {
+      "id": "week-0827081c",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a final, structured self-evaluation of their completed port, comparing the physical outcome against their original SketchUp model and success criteria. Lessons include a final workshop audit where students ensure all tools are cleaned and returned to their designated locations, followed by a collaborative peer review where students constructively discuss the successes and challenges of their construction processes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, final evaluation rubric, cleaning equipment (brooms, dust pans, vacuum), workshop storage checklists, digital camera/device for final portfolio imagery.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit reflection on the design-to-manufacture process. Students analyse the divergence between their initial design intentions and the final physical product, identifying how material constraints and production challenges impacted their results. Discussions focus on the lifecycle of their timber project, the durability of the chosen finishes, and how future iterations could improve upon structural efficiency or aesthetic appeal.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct final inspections of their ports, testing the functionality of hinges, clasps, and internal partitions. They perform a deep clean of their assigned workshop stations, following WHS procedures for hazardous waste and equipment storage. The remainder of the time is dedicated to finalizing the evaluation section of the design folio, attaching high-quality photographs of the completed project and verifying that all documentation meets submission requirements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative submission of the complete design folio (including the final design model and project evaluation) and the completed practical wooden port. Teacher assessment is based on project functionality, accuracy of joinery, and the depth of reflective practice demonstrated in the final folio entries.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with students evaluating their completed ports against the original success criteria and design brief. They perform final assembly inspections, clean up their workstations, and document their project outcomes through self-assessment and peer reflection. The final practical projects are submitted for assessment alongside the completed design folio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:06:37.088Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "id": "assess-23184c32",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "unitPlanId": "unit-46954567",
+  "assessmentNumber": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Designing for Country",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "Exam",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "In this assessment, students complete a designed solution task under exam-style time constraints to simulate working to a real-world deadline. Students are given an Australia-based design scenario and follow the final stages of the design process to generate, revise, evaluate, and refine a solution. Evaluation of the design must explicitly demonstrate empathy skills, including consideration of user perspectives, cultural context, and social impact. This assessment focuses on students’ ability to apply ethical, culturally informed, and reflective thinking to design decisions.",
+    "aiNotes": ""
+  },
+  "technique": {
+    "value": "Examination",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "Written",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task\n• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "up to 90 minutes plus 10 minutes planning time",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "4 A3 pages",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "Individual",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "examTimeMinutes": {
+    "value": "90",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "Exam",
+    "aiNotes": ""
+  },
+  "context": {
+    "value": "In this unit, students develop an understanding of Australian and Aboriginal histories and cultures while building empathy as a core design skill. Students explore how culture, context, and lived experience influence design decisions, and examine the importance of ethical and respectful design when responding to Aboriginal perspectives. Through guided learning, students consider how designers can create solutions that acknowledge cultural significance, community needs, and social impact. The unit emphasises empathy, reflection, and responsible decision-making, encouraging students to design with awareness of Australia’s cultural diversity and shared histories.",
+    "aiNotes": ""
+  },
+  "task": {
+    "value": "In this assessment, students complete a designed solution task under exam-style time constraints to simulate working to a real-world deadline. Students are given an Australia-based design scenario and follow the final stages of the design process to generate, revise, evaluate, and refine a solution. Evaluation of the design must explicitly demonstrate empathy skills, including consideration of user perspectives, cultural context, and social impact. This assessment focuses on students’ ability to apply ethical, culturally informed, and reflective thinking to design decisions.",
+    "aiNotes": ""
+  },
+  "toComplete": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "stimulus": {
+    "value": "See Stimulus at end of task sheet",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-59043a88",
+      "label": "Monitoring",
+      "week": {
+        "value": "Term 3 Week 6",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": false
+    },
+    {
+      "id": "cp-c9a7c25c",
+      "label": "Conferencing",
+      "week": {
+        "value": "Term 3 Week 8",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": false
+    },
+    {
+      "id": "cp-e8ea2a05",
+      "label": "Due Date",
+      "week": {
+        "value": "Term 3 Week 9",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": false
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": true
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": true
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": false
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": false
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": false
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": false
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": true
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-4394fa5e",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-ea497003",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-c4ae6016",
+      "strand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-91113f6a",
+      "strand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-3e07e67f",
+      "strand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-6ca65dd1",
+      "strand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K06",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-8a240635",
+      "strand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-862900cd",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P02",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-f54763e9",
+      "strand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P03",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-a614f5a8",
+      "strand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-26f062db",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P05",
+        "aiNotes": ""
+      },
+      "selected": false
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "de910-se-society-factors",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K01"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "B": "detailed explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "C": "explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "D": "description of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "E": "statement/s about factors that impact on design decisions and/or the technologies used to design and produce designed solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-society-innovation",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K02"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "B": "detailed explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "C": "explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "D": "description of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "E": "statement/s about innovation, enterprise skills, and/or emerging technologies"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de910-se-contexts",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies contexts",
+      "contentDescriptionCodes": [
+        "AC9TDE10K03",
+        "AC9TDE10K04",
+        "AC9TDE10K05",
+        "AC9TDE10K06"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "B": "detailed explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "C": "explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "D": "description of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "E": "statement/s about the features of technologies and/or their appropriateness for purpose"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de910-se-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDE10P01"
+      ],
+      "descriptors": {
+        "A": "proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "B": "effective analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "C": "analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "D": "superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "E": "identification of needs or opportunities for one or more of the prescribed technologies contexts"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de910-se-generating-ideas",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02",
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "development of reasoned design criteria that include sustainability; proficient creation, adaptation and refinement of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities",
+        "B": "development of effective design criteria that include sustainability; informed creation, adaptation and refinement of effective design ideas, processes and solutions based on analysis of needs or opportunities",
+        "C": "development of design criteria that include sustainability; creation, adaptation and refinement of design ideas, processes and solutions based on analysis of needs or opportunities",
+        "D": "guided development of design criteria that include sustainability; partial creation, adaptation and refinement of simple design ideas, processes and solutions based on analysis of needs or opportunities",
+        "E": "directed development of design criteria that include sustainability; fragmented creation, adaptation and refinement of basic design ideas, processes and solutions based on needs or opportunities"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-generating-communicate",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02"
+      ],
+      "descriptors": {
+        "A": "communication of comprehensive design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "B": "communication of effective design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "C": "communication of design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "D": "communication of superficial design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "E": "communication of fragmented design ideas, processes and solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P03"
+      ],
+      "descriptors": {
+        "A": "purposeful selection and use of technologies to proficiently, skilfully and safely produce designed solutions",
+        "B": "effective selection and use of technologies to effectively, skilfully and safely produce designed solutions",
+        "C": "selection and use of technologies to skilfully and safely produce designed solutions",
+        "D": "simple selection and use of technologies to safely produce simple designed solutions",
+        "E": "basic selection and use of technologies to safely produce basic solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "discerning justification of decisions against developed design criteria that include sustainability",
+        "B": "logical justification of decisions against developed design criteria that include sustainability",
+        "C": "justification of decisions against developed design criteria that include sustainability",
+        "D": "partial justification of decisions against aspects of developed design criteria that include sustainability",
+        "E": "statement/s about design decisions"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de910-se-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P05"
+      ],
+      "descriptors": {
+        "A": "independent and collaborative: proficient development of production and project management plans; proficient application of production and project management plans, adjusting processes when necessary.",
+        "B": "independent and collaborative: effective development of production and project management plans; effective application of production and project management plans, adjusting processes when necessary.",
+        "C": "independent and collaborative development and application of production and project management plans, adjusting processes when necessary.",
+        "D": "independent and collaborative: partial development of production and project management plans; partial application of production and project management plans, adjusting processes when necessary.",
+        "E": "independent and/or collaborative: fragmented development of production and project management plans; fragmented application of production and project management plans, adjusting processes when necessary."
+      },
+      "enabled": false
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-49bce390",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-fd466bcc",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-d7f7add4",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-b0066dc5",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a00a5fd4",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-335deec5",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-1f747331",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-50f54313",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a545769b",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-eec4b35b",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-23bb0836",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-a6f8a5b6",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-fbcaaa7e",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-98d10f0d",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-18f85a96",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-0de5d975",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-4db94d18",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-47d32bc8",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "Design an outdoor school space that helps students connect with local Country, culture and community. The design must respond to the needs of its users, the local environment and guidance provided by Aboriginal community members.",
+    "aiNotes": ""
+  }
+}

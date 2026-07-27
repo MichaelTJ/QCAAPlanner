@@ -87,7 +87,7 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-71e3b60f",
+          "id": "ucd-72cbb8bb",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -106,7 +106,7 @@
           }
         },
         {
-          "id": "ucd-9caed1bc",
+          "id": "ucd-273d884a",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -125,7 +125,7 @@
           }
         },
         {
-          "id": "ucd-d3b37b16",
+          "id": "ucd-336e91b2",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -144,7 +144,7 @@
           }
         },
         {
-          "id": "ucd-060948d3",
+          "id": "ucd-df05e115",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -163,7 +163,7 @@
           }
         },
         {
-          "id": "ucd-0a7071dc",
+          "id": "ucd-af185a8b",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -182,7 +182,7 @@
           }
         },
         {
-          "id": "ucd-1ff60ad8",
+          "id": "ucd-d6da5c2c",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -201,7 +201,7 @@
           }
         },
         {
-          "id": "ucd-03804c84",
+          "id": "ucd-ed79b71a",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -230,20 +230,20 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Draw conclusions and provide reasons",
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons",
         "aiNotes": ""
       },
       "evidenceNotes": {
-        "value": "These elements are evident in the PowerPoint assessment.",
+        "value": "",
         "aiNotes": ""
       },
       "subElementChecks": {
-        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-develop-questions": true,
         "cct-inquiring-identify-process-evaluate": true,
-        "cct-generating-create-possibilities": false,
-        "cct-generating-consider-alternatives": false,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
         "cct-generating-put-ideas-into-action": true,
-        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-interpret-concepts": true,
         "cct-analysing-draw-conclusions": true,
         "cct-analysing-evaluate-actions": false,
         "cct-reflecting-metacognition": false,
@@ -257,11 +257,11 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "Practising digital safety and wellbeing: Manage online safety; Manage digital privacy and identity\nInvestigating: Acquire and collate data; Interpret data\nCreating and exchanging: Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Protect content; Select and operate tools",
+        "value": "Practising digital safety and wellbeing: Manage online safety; Manage digital privacy and identity\nInvestigating: Acquire and collate data; Interpret data\nCreating and exchanging: Create, communicate and collaborate\nManaging and operating: Manage content; Protect content; Select and operate tools",
         "aiNotes": ""
       },
       "evidenceNotes": {
-        "value": "These elements are evident in the PowerPoint assessment.",
+        "value": "",
         "aiNotes": ""
       },
       "subElementChecks": {
@@ -273,7 +273,7 @@
         "dl-investigating-interpret": true,
         "dl-creating-plan": false,
         "dl-creating-communicate-collaborate": true,
-        "dl-creating-ip": true,
+        "dl-creating-ip": false,
         "dl-managing-content": true,
         "dl-managing-protect": true,
         "dl-managing-operate": true
@@ -286,11 +286,11 @@
         "aiNotes": ""
       },
       "subElements": {
-        "value": "",
+        "value": "Reading and viewing: Fluency\nWriting: Creating texts; Handwriting and keyboarding",
         "aiNotes": ""
       },
       "evidenceNotes": {
-        "value": "These elements are evident in the PowerPoint assessment.",
+        "value": "",
         "aiNotes": ""
       },
       "subElementChecks": {
@@ -300,12 +300,12 @@
         "lit-understanding-texts": false,
         "lit-phonological-awareness": false,
         "lit-phonic-knowledge": false,
-        "lit-fluency": false,
-        "lit-creating-texts": false,
+        "lit-fluency": true,
+        "lit-creating-texts": true,
         "lit-grammar": false,
         "lit-punctuation": false,
         "lit-spelling": false,
-        "lit-handwriting-keyboarding": false
+        "lit-handwriting-keyboarding": true
       }
     },
     {
@@ -319,7 +319,7 @@
         "aiNotes": ""
       },
       "evidenceNotes": {
-        "value": "These elements are evident in the PowerPoint assessment.",
+        "value": "",
         "aiNotes": ""
       },
       "subElementChecks": {
@@ -700,6 +700,10 @@
   ],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
     "aiNotes": ""
   }
 }

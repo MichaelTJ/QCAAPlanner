@@ -20,6 +20,7 @@ import {
 } from '$lib/defaults';
 import {
 	applyUnitPlanToLevelPlan,
+	appendEmptyUnitColumn,
 	insertLevelPlanUnitColumnAfter,
 	orphanedUnitPlans,
 	removeLevelPlanUnitColumn,
@@ -35,19 +36,22 @@ import {
 	curriculumMatchFromUnit,
 	unitCompatibleWithFaculty
 } from '$lib/curriculum-match';
+import { achievementStandardForUnit } from '$lib/content-descriptions';
 import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, unitCopyLabel } from '$lib/import/plan-clone';
 import { resolveUnitDuration } from '$lib/unit-duration';
-import type {
-	AssessmentItem,
-	AssessmentItemSummary,
-	FacultyIndex,
-	FacultyRow,
-	LevelPlan,
-	Settings,
-	UnitPlan,
-	UnitPlanSummary,
-	FacultyOverviewEntry,
-	OverviewUnitEntry
+import {
+	aiField,
+	type AssessmentItem,
+	type AssessmentItemSummary,
+	type FacultyIndex,
+	type FacultyRow,
+	type LevelPlan,
+	type Settings,
+	type UnitAssessment,
+	type UnitPlan,
+	type UnitPlanSummary,
+	type FacultyOverviewEntry,
+	type OverviewUnitEntry
 } from '$lib/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -304,7 +308,8 @@ export async function attachUnitToLevelPlan(
 		String(unitPlan.subject.value),
 		unitPlan.yearLevel.value,
 		facultyRow.learningAreaSubject,
-		facultyRow.yearLevelBand
+		facultyRow.yearLevelBand,
+		facultyRow.curriculumPlanType
 	);
 	if (!compatible) {
 		throw new Error(
@@ -340,6 +345,28 @@ export async function attachUnitToLevelPlan(
 	await writeJson(path.join(PATHS.levelPlans, `${levelPlan.id}.json`), levelPlan);
 	await touchFacultyRow(levelPlanId);
 	return { levelPlan, unitPlan: standalonePlan };
+}
+
+export async function appendUnitColumnToLevelPlan(levelPlanId: string, title?: string) {
+	const levelPlan = await getLevelPlan(levelPlanId);
+	if (!levelPlan) throw new Error('Level plan not found');
+	const unitIndex = appendEmptyUnitColumn(levelPlan, title);
+	await saveLevelPlan(levelPlan);
+	await touchFacultyRow(levelPlanId);
+	return { levelPlan, unitIndex };
+}
+
+/** Prefer the first empty slot; otherwise append a new unit column. */
+export async function ensureEmptyUnitSlotOnLevelPlan(levelPlanId: string, title?: string) {
+	const levelPlan = await getLevelPlan(levelPlanId);
+	if (!levelPlan) throw new Error('Level plan not found');
+	const unitPlans = await listUnitPlans(levelPlanId);
+	for (let index = 0; index < levelPlan.units.length; index++) {
+		const existing = unitPlanForLevelIndex(levelPlan.units[index], index, unitPlans);
+		if (!existing) return { levelPlan, unitIndex: index, created: false };
+	}
+	const appended = await appendUnitColumnToLevelPlan(levelPlanId, title);
+	return { ...appended, created: true };
 }
 
 export async function removeUnitColumnFromLevelPlan(levelPlanId: string, unitIndex: number) {
@@ -472,13 +499,12 @@ function matchUnitPlan(
 	if (byNumber) return byNumber;
 
 	const levelTitle = normalizeTitle(String(levelUnit.unitTitle.value));
-	return unitPlans.find(
-		(p) =>
-			!usedIds.has(p.id) &&
-			(levelTitle === normalizeTitle(String(p.unitTitle.value)) ||
-				normalizeTitle(String(p.unitTitle.value)).includes(levelTitle) ||
-				levelTitle.includes(normalizeTitle(String(p.unitTitle.value))))
-	);
+	if (!levelTitle) return undefined;
+	return unitPlans.find((p) => {
+		if (usedIds.has(p.id)) return false;
+		const unitTitle = normalizeTitle(String(p.unitTitle.value));
+		return Boolean(unitTitle) && levelTitle === unitTitle;
+	});
 }
 
 export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
@@ -549,10 +575,12 @@ export async function saveUnitPlan(plan: UnitPlan) {
 	// Keep linked assessment-item CD selections in sync with the unit assessment slots.
 	const linkedItems = await listAssessmentItems(plan.levelPlanId, plan.id);
 	if (linkedItems.length) {
+		const usedIds = new Set<string>();
 		for (let index = 0; index < plan.assessments.length; index++) {
 			const slot = plan.assessments[index];
-			const linked = assessmentItemForUnitIndex(slot, index, linkedItems);
+			const linked = assessmentItemForUnitIndex(slot, index, linkedItems, usedIds);
 			if (!linked) continue;
+			usedIds.add(linked.id);
 			const updated = applyUnitAssessmentContentDescriptionsToItem(linked, slot);
 			await saveAssessmentItem(updated, { syncUnit: false });
 		}
@@ -716,10 +744,29 @@ export async function createAssessmentItem(
 			: unit.assessments[0];
 
 	if (!slot) {
-		const item = createEmptyAssessmentItem(createId('assess'), levelPlanId, unitPlanId, title);
-		item.subject = unit.subject;
-		item.unitTitle = unit.unitTitle;
-		item.yearLevel = unit.yearLevel;
+		// Ensure the unit has an assessment slot so the instrument stays linked in the UI.
+		const newSlot: UnitAssessment = {
+			id: createId('uassess'),
+			assessmentNumber: aiField(unit.assessments.length + 1),
+			yearLevel: aiField(unit.yearLevel.value),
+			title: aiField(title),
+			description: aiField(''),
+			technique: aiField(''),
+			mode: aiField(''),
+			conditions: aiField(''),
+			timing: aiField(''),
+			achievementStandard: aiField(
+				achievementStandardForUnit(String(unit.subject.value), unit.yearLevel.value)
+			),
+			moderation: aiField(''),
+			contentDescriptions: []
+		};
+		unit.assessments = [...unit.assessments, newSlot];
+		const item = seedInstrumentFromUnitAssessment(unit, newSlot, {
+			levelPlanId,
+			assessmentIndex: unit.assessments.length - 1
+		});
+		await writeJson(unitPlanPath(unit.levelPlanId, unit.id), unit);
 		await saveAssessmentItem(item, { syncUnit: false });
 		return item;
 	}
@@ -852,6 +899,23 @@ export function slugId(text: string): string {
 		.slice(0, 40);
 }
 
+/** Unique faculty/level-plan id; allows multiple plans for the same subject+band. */
+export function uniqueFacultyId(
+	index: FacultyIndex,
+	learningAreaSubject: string,
+	yearLevelBand: string
+): string {
+	const base = slugId(`${learningAreaSubject}-${yearLevelBand}`) || createId('plan');
+	if (!index.rows.some((row) => row.id === base)) return base;
+	let suffix = 2;
+	let candidate = `${base}-${suffix}`.slice(0, 48);
+	while (index.rows.some((row) => row.id === candidate)) {
+		suffix += 1;
+		candidate = `${base}-${suffix}`.slice(0, 48);
+	}
+	return candidate;
+}
+
 function uniqueImportId(index: FacultyIndex, base: string): string {
 	const date = new Date().toISOString().slice(0, 10);
 	let candidate = slugId(`${base}-import-${date}`) || createId('plan');
@@ -888,6 +952,9 @@ export async function importLevelPlanAsNew(
 		learningAreaSubject:
 			sourceRow?.learningAreaSubject ?? merged.bandSubjectTitle.value ?? 'Imported plan',
 		yearLevelBand: sourceRow?.yearLevelBand ?? '',
+		...(sourceRow?.curriculumPlanType
+			? { curriculumPlanType: sourceRow.curriculumPlanType }
+			: {}),
 		dateLastModified: new Date().toISOString()
 	};
 

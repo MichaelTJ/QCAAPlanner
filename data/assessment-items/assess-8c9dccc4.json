@@ -1,0 +1,771 @@
+{
+  "id": "assess-8c9dccc4",
+  "levelPlanId": "standalone",
+  "unitPlanId": "unit-b1696ad7",
+  "assessmentNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Unit 2",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "technique": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "examTimeMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "context": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "task": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "toComplete": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "stimulus": {
+    "value": "See Stimulus at end of task sheet",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-4419ec41",
+      "label": "Monitoring",
+      "week": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-b859daa4",
+      "label": "Conferencing",
+      "week": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-dd9306eb",
+      "label": "Due Date",
+      "week": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": true
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": false
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": false
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": false
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": false
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": false
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": false
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": false
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-bbfec875",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-6a80bd0f",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation and the development of technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-7967215b",
+      "strand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how force, motion and energy are used to manipulate and control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-e8a409ad",
+      "strand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how food and fibre are produced in managed environments and how these can become sustainable",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-d3af3cf6",
+      "strand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how properties of foods determine preparation and presentation techniques when designing solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K05",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-de5ccc38",
+      "strand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K06",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-6bb3fb0d",
+      "strand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-4836c869",
+      "strand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-245eeab1",
+      "strand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-f5fad88c",
+      "strand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-600f3fc7",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8P05",
+        "aiNotes": ""
+      },
+      "selected": false
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "de78-se-society",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE8K01",
+        "AC9TDE8K02"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of how people design, innovate and produce products, services and environments for preferred futures",
+        "B": "detailed explanation of how people design, innovate and produce products, services and environments for preferred futures",
+        "C": "explanation of how people design, innovate and produce products, services and environments for preferred futures",
+        "D": "description of how people design, innovate and produce products, services and environments for preferred futures",
+        "E": "statement/s about how people design, innovate and/or produce designed solutions"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-contexts",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies contexts",
+      "contentDescriptionCodes": [
+        "AC9TDE8K03",
+        "AC9TDE8K04",
+        "AC9TDE8K05",
+        "AC9TDE8K06"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts",
+        "B": "detailed explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts",
+        "C": "explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts",
+        "D": "description of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts",
+        "E": "statement/s about the features of technologies for one or more of the prescribed technologies contexts"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDE8P01"
+      ],
+      "descriptors": {
+        "A": "proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "B": "effective analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "C": "analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "D": "superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "E": "identification of needs or opportunities for one or more of the prescribed technologies contexts"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-generating-ideas",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE8P02",
+        "AC9TDE8P04"
+      ],
+      "descriptors": {
+        "A": "proficient creation and adaptation of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities",
+        "B": "informed creation and adaptation of effective design ideas, processes and solutions based on analysis of needs or opportunities",
+        "C": "creation and adaptation of design ideas, processes and solutions based on analysis of needs or opportunities",
+        "D": "partial creation and adaptation of simple design ideas, processes and solutions based on analysis of needs or opportunities",
+        "E": "fragmented creation of and/or adaptation of aspects of basic design ideas, processes and solutions based on needs or opportunities"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-generating-communicate",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE8P02"
+      ],
+      "descriptors": {
+        "A": "communication of design ideas and solutions to audiences with: considered use of technical terms; comprehensive use of graphical representation techniques, including using digital tools",
+        "B": "communication of design ideas and solutions to audiences with: effective use of technical terms; detailed use of graphical representation techniques, including using digital tools",
+        "C": "communication of design ideas and solutions to audiences using: technical terms; graphical representation techniques, including using digital tools",
+        "D": "communication of design ideas and solutions to audiences with: superficial use of technical terms and/or simple use of graphical representation techniques, including using digital tools",
+        "E": "communication of design ideas and solutions with: fragmented use of technical terms and/or basic use of graphical representation techniques, including using digital tools"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDE8P03"
+      ],
+      "descriptors": {
+        "A": "proficient and safe production of designed solutions for one or more of the prescribed technologies contexts",
+        "B": "effective and safe production of designed solutions for one or more of the prescribed technologies contexts",
+        "C": "safe production of designed solutions for one or more of the prescribed technologies contexts",
+        "D": "safe production of aspects of designed solutions for one or more of the prescribed technologies contexts",
+        "E": "safe production of a designed solution, with direction, for one or more of the prescribed technologies contexts"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDE8P04"
+      ],
+      "descriptors": {
+        "A": "discerning justification of their decisions against developed design criteria that include sustainability",
+        "B": "logical justification of their decisions against developed design criteria that include sustainability",
+        "C": "justification of their decisions against developed design criteria that include sustainability",
+        "D": "partial justification of their decisions against aspects of developed design criteria that include sustainability",
+        "E": "statement/s about design decisions"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de78-se-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDE8P05"
+      ],
+      "descriptors": {
+        "A": "independent and collaborative: comprehensive documentation; proficient management of production processes",
+        "B": "independent and collaborative: detailed documentation; effective management of production processes",
+        "C": "independent and collaborative documentation and management of production processes",
+        "D": "independent and collaborative: partial documentation; guided management of production processes",
+        "E": "independent and/or collaborative: fragmented documentation; directed management of production processes"
+      },
+      "enabled": false
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-197e6c9f",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-cbdf583f",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-72951304",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-65a54e8e",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-6ad66b5a",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-80b39b2a",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-88d0b943",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-0ea9e66e",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-2c002d28",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-aef3a923",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-78edd329",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-673cc1d3",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-d27403fd",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a41c014b",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a0161bde",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-e071f79b",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-23c7ddab",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-b7537a09",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

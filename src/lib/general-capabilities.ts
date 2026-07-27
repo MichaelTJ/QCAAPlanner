@@ -499,21 +499,25 @@ function normalizeUnitTitle(title: string) {
 export function unitPlanForLevelIndex(
 	levelUnit: LevelPlanUnit,
 	unitIndex: number,
-	unitPlans: UnitPlan[]
+	unitPlans: UnitPlan[],
+	usedIds?: Set<string>
 ): UnitPlan | undefined {
+	const available = (plan: UnitPlan) => !usedIds?.has(plan.id);
+
 	const byNumber = unitPlans.find(
-		(plan) => plan.unitNumber.value !== '' && Number(plan.unitNumber.value) === unitIndex + 1
+		(plan) =>
+			available(plan) &&
+			plan.unitNumber.value !== '' &&
+			Number(plan.unitNumber.value) === unitIndex + 1
 	);
 	if (byNumber) return byNumber;
 
 	const levelTitle = normalizeUnitTitle(String(levelUnit.unitTitle.value));
+	if (!levelTitle) return undefined;
 	return unitPlans.find((plan) => {
+		if (!available(plan)) return false;
 		const unitTitle = normalizeUnitTitle(String(plan.unitTitle.value));
-		return (
-			levelTitle === unitTitle ||
-			unitTitle.includes(levelTitle) ||
-			levelTitle.includes(unitTitle)
-		);
+		return Boolean(unitTitle) && levelTitle === unitTitle;
 	});
 }
 
@@ -556,9 +560,12 @@ export function applyUnitPlanCapabilitiesToLevelPlan(
 }
 
 export function syncUnitPlansIntoLevelCapabilities(levelPlan: LevelPlan, unitPlans: UnitPlan[]) {
+	const usedIds = new Set<string>();
 	for (let unitIndex = 0; unitIndex < levelPlan.units.length; unitIndex++) {
-		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans);
-		if (unitPlan) applyUnitPlanCapabilitiesToLevelPlan(levelPlan, unitPlan, unitIndex);
+		const unitPlan = unitPlanForLevelIndex(levelPlan.units[unitIndex], unitIndex, unitPlans, usedIds);
+		if (!unitPlan) continue;
+		usedIds.add(unitPlan.id);
+		applyUnitPlanCapabilitiesToLevelPlan(levelPlan, unitPlan, unitIndex);
 	}
 }
 

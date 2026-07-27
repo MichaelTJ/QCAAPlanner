@@ -36,7 +36,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "",
+        "value": "10 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -100,7 +100,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "",
+        "value": "20 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -207,7 +207,7 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "",
+        "value": "10 weeks",
         "aiNotes": ""
       },
       "description": {
@@ -262,6 +262,71 @@
           }
         }
       ]
+    },
+    {
+      "id": "qunit-58e4a5cf",
+      "unitTitle": {
+        "value": "Country Event Experience",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "8",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students design a digital experience for a regional event, club or community organisation. They investigate how websites communicate information and support users before, during and after an event, with a focus on audience needs, navigation, accessibility and visual design. Students develop user stories and design criteria, map the user journey, organise content and generate alternative interface concepts before producing detailed wireframes and a visual style guide. Using GitHub Codespaces and generative AI, students transform their designs into a functional website prototype. They test the prototype with users, identify usability issues and refine the solution in response to feedback. The emphasis is on user-experience design, design decision-making, evaluation and the responsible use of AI rather than technical programming skills. This complements the existing Year 8 emphasis on user stories, alternative designs, project management and evaluation.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "qassess-9dff75ca",
+          "assessmentNumber": {
+            "value": "5",
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Website Prototype",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students design and develop an AI-assisted website prototype for a regional event, club or community organisation. They identify a target audience, create user stories and design criteria, and investigate the information and features users require. Students communicate their proposed solution through a user journey map, site map, alternative interface concepts, annotated wireframes and a visual style guide. They then use generative AI within GitHub Codespaces to produce a functional prototype based on their own design specifications. Students conduct usability testing, compare the prototype against the original user stories and design criteria, and direct AI-assisted improvements to the layout, navigation, accessibility and content. The final submission includes the design portfolio, working prototype, testing evidence, a record of significant AI interactions and an evaluation of the solution and design process.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 3 A3 pages\n• May include wireframes, style guides, and annotated user-interface designs\n• Accessible via a web browser (or hosted live URL)",
+            "aiNotes": "A3 pages and website",
+            "lastGenerated": "2026-07-11T01:55:15.609Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
+            "aiNotes": ""
+          }
+        }
+      ]
     }
   ],
   "contentDescriptions": [
@@ -285,6 +350,7 @@
       },
       "unitInclusions": [
         false,
+        true,
         true,
         false
       ]
@@ -310,6 +376,7 @@
       "unitInclusions": [
         false,
         true,
+        false,
         false
       ]
     },
@@ -334,6 +401,7 @@
       "unitInclusions": [
         true,
         true,
+        false,
         false
       ]
     },
@@ -358,6 +426,7 @@
       "unitInclusions": [
         false,
         true,
+        false,
         false
       ]
     },
@@ -382,6 +451,7 @@
       "unitInclusions": [
         true,
         true,
+        false,
         false
       ]
     },
@@ -406,6 +476,7 @@
       "unitInclusions": [
         true,
         true,
+        false,
         false
       ]
     },
@@ -430,6 +501,7 @@
       "unitInclusions": [
         false,
         true,
+        false,
         false
       ]
     },
@@ -453,8 +525,9 @@
       },
       "unitInclusions": [
         false,
+        false,
         true,
-        false
+        true
       ]
     },
     {
@@ -477,6 +550,7 @@
       },
       "unitInclusions": [
         false,
+        true,
         true,
         false
       ]
@@ -502,6 +576,7 @@
       "unitInclusions": [
         false,
         true,
+        true,
         false
       ]
     },
@@ -525,8 +600,9 @@
       },
       "unitInclusions": [
         false,
-        true,
-        false
+        false,
+        false,
+        true
       ]
     },
     {
@@ -549,8 +625,9 @@
       },
       "unitInclusions": [
         true,
-        true,
-        false
+        false,
+        false,
+        true
       ]
     },
     {
@@ -573,8 +650,9 @@
       },
       "unitInclusions": [
         false,
+        false,
         true,
-        false
+        true
       ]
     },
     {
@@ -597,8 +675,9 @@
       },
       "unitInclusions": [
         false,
-        true,
-        false
+        false,
+        false,
+        true
       ]
     },
     {
@@ -622,7 +701,8 @@
       "unitInclusions": [
         true,
         false,
-        false
+        false,
+        true
       ]
     },
     {
@@ -646,7 +726,8 @@
       "unitInclusions": [
         true,
         false,
-        false
+        false,
+        true
       ]
     },
     {
@@ -669,6 +750,7 @@
       },
       "unitInclusions": [
         true,
+        false,
         false,
         false
       ]
@@ -694,6 +776,7 @@
       "unitInclusions": [
         false,
         true,
+        false,
         false
       ]
     }
@@ -708,25 +791,30 @@
       "unitInclusions": [
         true,
         false,
+        true,
         true
       ],
       "categoryInclusions": {
         "cct-inquiring": [
-          false,
+          true,
+          true,
           false,
           false
         ],
         "cct-generating": [
-          false,
-          false,
+          true,
+          true,
+          true,
           true
         ],
         "cct-analysing": [
           false,
-          false,
-          true
+          true,
+          true,
+          false
         ],
         "cct-reflecting": [
+          false,
           false,
           false,
           false
@@ -734,51 +822,61 @@
       },
       "subElementInclusions": {
         "cct-inquiring-develop-questions": [
-          false,
+          true,
+          true,
           false,
           false
         ],
         "cct-inquiring-identify-process-evaluate": [
           true,
-          false,
+          true,
+          true,
           true
         ],
         "cct-generating-create-possibilities": [
-          false,
-          false,
+          true,
+          true,
+          true,
           true
         ],
         "cct-generating-consider-alternatives": [
-          false,
-          false,
+          true,
+          true,
+          true,
           true
         ],
         "cct-generating-put-ideas-into-action": [
           true,
-          false,
+          true,
+          true,
           true
         ],
         "cct-analysing-interpret-concepts": [
-          false,
-          false,
+          true,
+          true,
+          true,
           true
         ],
         "cct-analysing-draw-conclusions": [
           true,
-          false,
-          true
+          true,
+          true,
+          false
         ],
         "cct-analysing-evaluate-actions": [
           false,
-          false,
+          true,
+          true,
           true
         ],
         "cct-reflecting-metacognition": [
           false,
           false,
+          false,
           false
         ],
         "cct-reflecting-transfer-knowledge": [
+          false,
           false,
           false,
           false
@@ -794,26 +892,31 @@
       "unitInclusions": [
         true,
         false,
+        true,
         true
       ],
       "categoryInclusions": {
         "dl-safety-wellbeing": [
           false,
           false,
+          false,
           false
         ],
         "dl-investigating": [
           false,
+          true,
           false,
-          false
+          true
         ],
         "dl-creating-exchanging": [
           false,
+          true,
           false,
-          false
+          true
         ],
         "dl-managing-operating": [
           true,
+          false,
           false,
           false
         ]
@@ -822,61 +925,73 @@
         "dl-safety-manage-online": [
           true,
           false,
+          false,
           false
         ],
         "dl-safety-privacy-identity": [
           true,
+          false,
           false,
           false
         ],
         "dl-safety-wellbeing": [
           false,
           false,
+          false,
           false
         ],
         "dl-investigating-locate": [
           false,
-          false,
+          true,
+          true,
           true
         ],
         "dl-investigating-acquire": [
           true,
+          true,
           false,
-          false
+          true
         ],
         "dl-investigating-interpret": [
           true,
+          true,
           false,
-          false
+          true
         ],
         "dl-creating-plan": [
           false,
-          false,
+          true,
+          true,
           true
         ],
         "dl-creating-communicate-collaborate": [
           true,
-          false,
+          true,
+          true,
           true
         ],
         "dl-creating-ip": [
+          false,
           true,
           false,
-          false
+          true
         ],
         "dl-managing-content": [
           true,
           false,
-          false
+          false,
+          true
         ],
         "dl-managing-protect": [
           true,
+          false,
           false,
           false
         ],
         "dl-managing-operate": [
           true,
-          false,
+          true,
+          true,
           true
         ]
       }
@@ -890,15 +1005,18 @@
       "unitInclusions": [
         true,
         false,
-        true
+        true,
+        false
       ],
       "categoryInclusions": {
         "eu-concepts": [
           false,
           false,
+          false,
           false
         ],
         "eu-responding": [
+          false,
           false,
           false,
           false
@@ -908,14 +1026,17 @@
         "eu-concepts-explore": [
           false,
           false,
-          true
+          true,
+          false
         ],
         "eu-concepts-values-rights": [
           false,
           false,
-          false
+          false,
+          true
         ],
         "eu-concepts-influences": [
+          false,
           false,
           false,
           false
@@ -923,14 +1044,17 @@
         "eu-responding-frameworks": [
           false,
           false,
+          false,
           false
         ],
         "eu-responding-issues": [
           false,
           false,
-          true
+          true,
+          false
         ],
         "eu-responding-decisions": [
+          false,
           false,
           false,
           false
@@ -946,10 +1070,12 @@
       "unitInclusions": [
         false,
         false,
+        true,
         true
       ],
       "categoryInclusions": {
         "lit-speaking-listening": [
+          false,
           false,
           false,
           false
@@ -957,16 +1083,19 @@
         "lit-reading-viewing": [
           false,
           false,
+          false,
           false
         ],
         "lit-writing": [
           false,
           false,
-          true
+          false,
+          false
         ]
       },
       "subElementInclusions": {
         "lit-listening": [
+          false,
           false,
           false,
           false
@@ -974,9 +1103,11 @@
         "lit-interacting": [
           false,
           false,
+          false,
           false
         ],
         "lit-speaking": [
+          false,
           false,
           false,
           false
@@ -984,9 +1115,11 @@
         "lit-understanding-texts": [
           false,
           false,
+          false,
           false
         ],
         "lit-phonological-awareness": [
+          false,
           false,
           false,
           false
@@ -994,14 +1127,17 @@
         "lit-phonic-knowledge": [
           false,
           false,
+          false,
           false
         ],
         "lit-fluency": [
+          true,
           false,
           false,
           false
         ],
         "lit-creating-texts": [
+          true,
           false,
           false,
           true
@@ -1009,21 +1145,25 @@
         "lit-grammar": [
           false,
           false,
-          true
+          false,
+          false
         ],
         "lit-punctuation": [
           false,
           false,
-          true
+          false,
+          false
         ],
         "lit-spelling": [
           false,
           false,
-          true
+          false,
+          false
         ],
         "lit-handwriting-keyboarding": [
-          false,
-          false,
+          true,
+          true,
+          true,
           true
         ]
       }
@@ -1037,10 +1177,12 @@
       "unitInclusions": [
         true,
         false,
-        true
+        true,
+        false
       ],
       "categoryInclusions": {
         "num-number-algebra": [
+          false,
           false,
           false,
           false
@@ -1048,9 +1190,11 @@
         "num-measurement-geometry": [
           false,
           false,
+          false,
           false
         ],
         "num-statistics-probability": [
+          false,
           false,
           false,
           false
@@ -1060,9 +1204,11 @@
         "num-place-value": [
           false,
           false,
+          false,
           false
         ],
         "num-counting": [
+          false,
           false,
           false,
           false
@@ -1070,9 +1216,11 @@
         "num-additive": [
           false,
           false,
+          false,
           false
         ],
         "num-multiplicative": [
+          false,
           false,
           false,
           false
@@ -1080,9 +1228,11 @@
         "num-fractions": [
           false,
           false,
+          false,
           false
         ],
         "num-proportional": [
+          false,
           false,
           false,
           false
@@ -1090,9 +1240,11 @@
         "num-patterns-algebra": [
           true,
           false,
-          true
+          true,
+          false
         ],
         "num-money": [
+          false,
           false,
           false,
           false
@@ -1100,19 +1252,23 @@
         "num-units-measurement": [
           false,
           false,
-          true
+          true,
+          false
         ],
         "num-geometric-properties": [
+          false,
           false,
           false,
           false
         ],
         "num-positioning": [
           false,
-          false,
-          true
+          true,
+          true,
+          false
         ],
         "num-measuring-time": [
+          false,
           false,
           false,
           false
@@ -1120,10 +1276,12 @@
         "num-chance": [
           false,
           false,
+          false,
           false
         ],
         "num-data": [
           true,
+          false,
           false,
           false
         ]

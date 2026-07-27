@@ -1,4 +1,5 @@
 import { getCurriculumForPlanType, type CurriculumContentDescriptor } from '$lib/curriculum/curriculum-catalogue';
+import { planFieldsFromCatalogueDescriptor } from '$lib/content-descriptions';
 import {
 	createDefaultAuthenticationStrategies,
 	createDefaultCheckpoints,
@@ -12,7 +13,7 @@ import { aiField, cloneAiField, type AssessmentCriteriaRow, type AssessmentItem,
 export type DigiTechBand = '7-8' | '9-10';
 
 /** Digital and Design instrument catalogues used for CD pickers + A–E rubrics. */
-export type InstrumentCatalogueKey = 'digital-7-8' | 'digital-9-10' | 'design-9-10';
+export type InstrumentCatalogueKey = 'digital-7-8' | 'digital-9-10' | 'design-7-8' | 'design-9-10';
 
 export type AssessmentTemplateKind = 'assignment' | 'exam';
 
@@ -327,6 +328,102 @@ const RUBRIC_9_10: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
 ];
 
 /**
+ * Design and Technologies Years 7–8 A–E rows from QCAA standards elaborations
+ * (ac9_tech_design_se_yr7-8.docx). Mapped to AC v9.0 content description codes
+ * so selecting a CD enables the matching SE criterion.
+ */
+const RUBRIC_DESIGN_7_8: Omit<AssessmentCriteriaRow, 'enabled'>[] = [
+	row(
+		'de78-se-society',
+		'Knowledge and understanding',
+		'Technologies and society',
+		['AC9TDE8K01', 'AC9TDE8K02'],
+		'discerning explanation of how people design, innovate and produce products, services and environments for preferred futures',
+		'detailed explanation of how people design, innovate and produce products, services and environments for preferred futures',
+		'explanation of how people design, innovate and produce products, services and environments for preferred futures',
+		'description of how people design, innovate and produce products, services and environments for preferred futures',
+		'statement/s about how people design, innovate and/or produce designed solutions'
+	),
+	row(
+		'de78-se-contexts',
+		'Knowledge and understanding',
+		'Technologies contexts',
+		['AC9TDE8K03', 'AC9TDE8K04', 'AC9TDE8K05', 'AC9TDE8K06'],
+		'discerning explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts',
+		'detailed explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts',
+		'explanation of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts',
+		'description of how the features of technologies impact on design decisions for one or more of the prescribed technologies contexts',
+		'statement/s about the features of technologies for one or more of the prescribed technologies contexts'
+	),
+	row(
+		'de78-se-investigating',
+		'Processes and production skills',
+		'Investigating and defining',
+		['AC9TDE8P01'],
+		'proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'effective analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts',
+		'identification of needs or opportunities for one or more of the prescribed technologies contexts'
+	),
+	row(
+		'de78-se-generating-ideas',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDE8P02', 'AC9TDE8P04'],
+		'proficient creation and adaptation of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities',
+		'informed creation and adaptation of effective design ideas, processes and solutions based on analysis of needs or opportunities',
+		'creation and adaptation of design ideas, processes and solutions based on analysis of needs or opportunities',
+		'partial creation and adaptation of simple design ideas, processes and solutions based on analysis of needs or opportunities',
+		'fragmented creation of and/or adaptation of aspects of basic design ideas, processes and solutions based on needs or opportunities'
+	),
+	row(
+		'de78-se-generating-communicate',
+		'Processes and production skills',
+		'Generating and designing',
+		['AC9TDE8P02'],
+		'communication of design ideas and solutions to audiences with: considered use of technical terms; comprehensive use of graphical representation techniques, including using digital tools',
+		'communication of design ideas and solutions to audiences with: effective use of technical terms; detailed use of graphical representation techniques, including using digital tools',
+		'communication of design ideas and solutions to audiences using: technical terms; graphical representation techniques, including using digital tools',
+		'communication of design ideas and solutions to audiences with: superficial use of technical terms and/or simple use of graphical representation techniques, including using digital tools',
+		'communication of design ideas and solutions with: fragmented use of technical terms and/or basic use of graphical representation techniques, including using digital tools'
+	),
+	row(
+		'de78-se-producing',
+		'Processes and production skills',
+		'Producing and implementing',
+		['AC9TDE8P03'],
+		'proficient and safe production of designed solutions for one or more of the prescribed technologies contexts',
+		'effective and safe production of designed solutions for one or more of the prescribed technologies contexts',
+		'safe production of designed solutions for one or more of the prescribed technologies contexts',
+		'safe production of aspects of designed solutions for one or more of the prescribed technologies contexts',
+		'safe production of a designed solution, with direction, for one or more of the prescribed technologies contexts'
+	),
+	row(
+		'de78-se-evaluating',
+		'Processes and production skills',
+		'Evaluating',
+		['AC9TDE8P04'],
+		'discerning justification of their decisions against developed design criteria that include sustainability',
+		'logical justification of their decisions against developed design criteria that include sustainability',
+		'justification of their decisions against developed design criteria that include sustainability',
+		'partial justification of their decisions against aspects of developed design criteria that include sustainability',
+		'statement/s about design decisions'
+	),
+	row(
+		'de78-se-collaborating',
+		'Processes and production skills',
+		'Collaborating and managing',
+		['AC9TDE8P05'],
+		'independent and collaborative: comprehensive documentation; proficient management of production processes',
+		'independent and collaborative: detailed documentation; effective management of production processes',
+		'independent and collaborative documentation and management of production processes',
+		'independent and collaborative: partial documentation; guided management of production processes',
+		'independent and/or collaborative: fragmented documentation; directed management of production processes'
+	)
+];
+
+/**
  * Design and Technologies Years 9–10 A–E rows from QCAA standards elaborations
  * (ac9_tech_design_se_yr9-10.docx). Mapped to AC v9.0 content description codes
  * so selecting a CD enables the matching SE criterion.
@@ -442,8 +539,8 @@ function yearBandFromLevel(yearLevel: number | '' | string): DigiTechBand | null
 	if (yl >= 9 && yl <= 10) return '9-10';
 
 	const band = normalizeYearBand(String(yearLevel));
-	if (band.startsWith('7') || band.includes('7-8')) return '7-8';
-	if (band.startsWith('9') || band.includes('9-10')) return '9-10';
+	if (band.includes('7-8') || /^7\b/.test(band) || /^8\b/.test(band)) return '7-8';
+	if (band.includes('9-10') || /^9\b/.test(band) || /^10\b/.test(band)) return '9-10';
 	return null;
 }
 
@@ -454,7 +551,18 @@ export function resolveDigiTechBand(
 ): DigiTechBand | null {
 	const subjectLower = subject.toLowerCase();
 	if (subjectLower && !subjectLower.includes('digital')) return null;
-	return yearBandFromLevel(yearLevel);
+	return yearBandFromLevel(yearLevel) || yearBandFromLevel(subject);
+}
+
+export const INSTRUMENT_CATALOGUE_OPTIONS: { key: InstrumentCatalogueKey; label: string }[] = [
+	{ key: 'digital-7-8', label: '7–8 Digital Technologies' },
+	{ key: 'design-7-8', label: '7–8 Design Technologies' },
+	{ key: 'digital-9-10', label: '9–10 Digital Technologies' },
+	{ key: 'design-9-10', label: '9–10 Design Technologies' }
+];
+
+export function instrumentCatalogueLabel(key: InstrumentCatalogueKey): string {
+	return INSTRUMENT_CATALOGUE_OPTIONS.find((option) => option.key === key)?.label ?? key;
 }
 
 export function resolveInstrumentCatalogueKey(
@@ -462,14 +570,16 @@ export function resolveInstrumentCatalogueKey(
 	subject = ''
 ): InstrumentCatalogueKey | null {
 	const subjectLower = subject.toLowerCase();
-	const band = yearBandFromLevel(yearLevel);
+	// Prefer explicit year level; fall back to band text embedded in the subject title
+	// (e.g. "9-10 Design Technologies" with empty yearLevel).
+	const band = yearBandFromLevel(yearLevel) || yearBandFromLevel(subject);
 	if (!band) return null;
 
 	if (subjectLower.includes('digital')) {
 		return band === '7-8' ? 'digital-7-8' : 'digital-9-10';
 	}
 	if (subjectLower.includes('design')) {
-		// Curriculum catalogue currently covers Years 9–10 Design only.
+		if (band === '7-8') return 'design-7-8';
 		if (band === '9-10') return 'design-9-10';
 		return null;
 	}
@@ -489,6 +599,12 @@ export function getInstrumentCatalogue(key: InstrumentCatalogueKey): InstrumentC
 				key,
 				contentDescriptors: getCurriculumForPlanType('9-10-digital-technologies').contentDescriptors,
 				criteriaRows: RUBRIC_9_10
+			};
+		case 'design-7-8':
+			return {
+				key,
+				contentDescriptors: getCurriculumForPlanType('7-8-design').contentDescriptors,
+				criteriaRows: RUBRIC_DESIGN_7_8
 			};
 		case 'design-9-10':
 			return {
@@ -557,14 +673,17 @@ function buildContentDescriptions(
 	catalogue: InstrumentCatalogue,
 	selectedCodes: Set<string>
 ): AssessmentItem['contentDescriptions'] {
-	return catalogue.contentDescriptors.map((cd) => ({
-		id: createId('acd'),
-		strand: aiField(cd.strand),
-		subStrand: aiField(cd.subStrand),
-		text: aiField(cd.text),
-		code: aiField(cd.code),
-		selected: selectedCodes.has(cd.code)
-	}));
+	return catalogue.contentDescriptors.map((cd) => {
+		const fields = planFieldsFromCatalogueDescriptor(cd);
+		return {
+			id: createId('acd'),
+			strand: aiField(fields.strand),
+			subStrand: aiField(fields.subStrand),
+			text: aiField(fields.text),
+			code: aiField(fields.code),
+			selected: selectedCodes.has(cd.code)
+		};
+	});
 }
 
 function buildCriteriaRows(
@@ -649,11 +768,14 @@ export function seedInstrumentFromUnitAssessment(
 	return item;
 }
 
-export function ensureInstrumentCatalogue(item: AssessmentItem): AssessmentItem {
-	const catalogueKey = resolveInstrumentCatalogueKey(
-		item.yearLevel.value,
-		String(item.subject.value)
-	);
+export function ensureInstrumentCatalogue(
+	item: AssessmentItem,
+	options?: { catalogueKey?: InstrumentCatalogueKey | null }
+): AssessmentItem {
+	const catalogueKey =
+		options && 'catalogueKey' in options
+			? options.catalogueKey ?? null
+			: resolveInstrumentCatalogueKey(item.yearLevel.value, String(item.subject.value));
 	if (!catalogueKey) return item;
 	const catalogue = getInstrumentCatalogue(catalogueKey);
 	const selected = new Set(selectedContentDescriptionCodes(item));
@@ -666,23 +788,26 @@ export function ensureInstrumentCatalogue(item: AssessmentItem): AssessmentItem 
 			item.contentDescriptions.map((cd) => [String(cd.code.value), cd] as const)
 		);
 		item.contentDescriptions = catalogue.contentDescriptors.map((cd) => {
+			const fields = planFieldsFromCatalogueDescriptor(cd);
 			const existing = byCode.get(cd.code);
 			if (existing) {
 				return {
 					...existing,
-					strand: existing.strand?.value ? existing.strand : aiField(cd.strand),
-					subStrand: existing.subStrand ?? aiField(cd.subStrand),
-					text: existing.text?.value ? existing.text : aiField(cd.text),
-					code: aiField(cd.code),
+					strand: existing.strand?.value ? existing.strand : aiField(fields.strand),
+					subStrand: existing.subStrand?.value
+						? existing.subStrand
+						: aiField(fields.subStrand),
+					text: existing.text?.value ? existing.text : aiField(fields.text),
+					code: aiField(fields.code),
 					selected: selected.has(cd.code) || Boolean(existing.selected)
 				};
 			}
 			return {
 				id: createId('acd'),
-				strand: aiField(cd.strand),
-				subStrand: aiField(cd.subStrand),
-				text: aiField(cd.text),
-				code: aiField(cd.code),
+				strand: aiField(fields.strand),
+				subStrand: aiField(fields.subStrand),
+				text: aiField(fields.text),
+				code: aiField(fields.code),
 				selected: selected.has(cd.code)
 			};
 		});
@@ -713,6 +838,14 @@ export function ensureInstrumentCatalogue(item: AssessmentItem): AssessmentItem 
 	}
 
 	return applyContentDescriptionSelection(item, selectedContentDescriptionCodes(item));
+}
+
+/** Rebuild CD + rubric rows from a chosen catalogue, preserving matching selections. */
+export function applyInstrumentCatalogue(
+	item: AssessmentItem,
+	catalogueKey: InstrumentCatalogueKey
+): AssessmentItem {
+	return ensureInstrumentCatalogue(structuredClone(item), { catalogueKey });
 }
 
 /** Push instrument planning fields onto the matching unit assessment. */
@@ -761,10 +894,14 @@ function normalizeTitle(title: string) {
 export function assessmentItemForUnitIndex(
 	unitAssessment: UnitAssessment,
 	assessmentIndex: number,
-	items: AssessmentItem[]
+	items: AssessmentItem[],
+	usedIds?: Set<string>
 ): AssessmentItem | undefined {
+	const available = (item: AssessmentItem) => !usedIds?.has(item.id);
+
 	const byNumber = items.find(
 		(item) =>
+			available(item) &&
 			item.assessmentNumber.value !== '' &&
 			Number(item.assessmentNumber.value) === assessmentIndex + 1
 	);
@@ -773,11 +910,8 @@ export function assessmentItemForUnitIndex(
 	const slotTitle = normalizeTitle(String(unitAssessment.title.value));
 	if (!slotTitle) return undefined;
 	return items.find((item) => {
+		if (!available(item)) return false;
 		const itemTitle = normalizeTitle(String(item.title.value));
-		return (
-			slotTitle === itemTitle ||
-			itemTitle.includes(slotTitle) ||
-			slotTitle.includes(itemTitle)
-		);
+		return Boolean(itemTitle) && slotTitle === itemTitle;
 	});
 }

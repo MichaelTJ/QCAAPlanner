@@ -1,3 +1,7 @@
+import {
+	contentDescriptionExportLabel,
+	contentDescriptionSide
+} from '$lib/content-descriptions';
 import type { CapabilityRow, ContentDescriptionRow, LevelPlan, LevelPlanUnit } from '$lib/types';
 import {
 	checkmark,
@@ -34,8 +38,6 @@ import {
 	wrapTable
 } from './docx-xml';
 
-const KNOWLEDGE_STRAND = 'Knowledge and understanding';
-const PROCESSES_STRAND = 'Processes and production skills';
 const MAX_UNITS_PER_ROW = 4;
 
 const ASSESSMENT_FIELDS = [
@@ -161,8 +163,12 @@ function buildAssessmentBlockTable(tableInner: string, units: LevelPlanUnit[]): 
 }
 
 function splitContentByStrand(rows: ContentDescriptionRow[]) {
-	const knowledge = rows.filter((r) => r.strand.value.trim() === KNOWLEDGE_STRAND);
-	const processes = rows.filter((r) => r.strand.value.trim() === PROCESSES_STRAND);
+	const knowledge = rows.filter(
+		(r) => contentDescriptionSide(r.strand.value, String(r.code.value)) === 'knowledge'
+	);
+	const processes = rows.filter(
+		(r) => contentDescriptionSide(r.strand.value, String(r.code.value)) === 'processes'
+	);
 	return { knowledge, processes };
 }
 
@@ -177,7 +183,11 @@ function contentSide(row: ContentDescriptionRow | undefined, unitCount: number):
 	);
 	if (!row) return { text: '', ticks };
 	return {
-		text: formatContentDescription(row.subStrand.value, row.text.value, row.code.value),
+		text: formatContentDescription(
+			contentDescriptionExportLabel(row.strand.value, row.subStrand.value),
+			row.text.value,
+			row.code.value
+		),
 		ticks
 	};
 }

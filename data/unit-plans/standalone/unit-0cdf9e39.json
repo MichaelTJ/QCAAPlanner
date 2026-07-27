@@ -1,6 +1,6 @@
 {
   "id": "unit-0cdf9e39",
-  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "levelPlanId": "standalone",
   "yearLevel": {
     "value": 9,
     "aiNotes": ""
@@ -10,7 +10,7 @@
     "aiNotes": ""
   },
   "unitNumber": {
-    "value": 2,
+    "value": "",
     "aiNotes": ""
   },
   "unitTitle": {

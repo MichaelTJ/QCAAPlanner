@@ -18,14 +18,29 @@ export interface LearningGuideGenerationResult {
 	weeks: LearningGuideWeekSummary[];
 }
 
+/** Appended once per week to a single summarised learning-guide bullet. */
+export const LEARNING_GUIDE_TEAMS_NOTE = '(Content available on Teams)';
+
 export function learningGuideContentLimits(weekCount: number): {
 	maxBullets: number;
 	maxBulletWords: number;
 	maxTitleWords: number;
 } {
-	if (weekCount > 14) return { maxBullets: 1, maxBulletWords: 8, maxTitleWords: 6 };
-	if (weekCount > 10) return { maxBullets: 1, maxBulletWords: 10, maxTitleWords: 7 };
-	return { maxBullets: 2, maxBulletWords: 10, maxTitleWords: 8 };
+	if (weekCount > 14) return { maxBullets: 3, maxBulletWords: 8, maxTitleWords: 6 };
+	if (weekCount > 10) return { maxBullets: 3, maxBulletWords: 9, maxTitleWords: 7 };
+	return { maxBullets: 3, maxBulletWords: 10, maxTitleWords: 8 };
+}
+
+/** Ensures exactly one bullet per week ends with the Teams availability note. */
+export function appendTeamsNoteToOneBullet(bullets: string[]): string[] {
+	if (!bullets.length) return bullets;
+	if (bullets.some((bullet) => bullet.includes(LEARNING_GUIDE_TEAMS_NOTE))) {
+		return bullets;
+	}
+	const next = [...bullets];
+	const index = next.length - 1;
+	next[index] = `${next[index].replace(/\s+$/, '')} ${LEARNING_GUIDE_TEAMS_NOTE}`;
+	return next;
 }
 
 export function normalizeLearningGuideVocabulary(text: string): string {
@@ -98,10 +113,11 @@ export function applyLearningGuideWeekSummaries(
 		weeks: guide.weeks.map((week) => {
 			const summary = byWeek.get(String(week.week));
 			if (!summary) return week;
+			const bullets = summary.bullets.length ? summary.bullets : week.bullets;
 			return {
 				week: week.week,
 				title: summary.title || week.title,
-				bullets: summary.bullets.length ? summary.bullets : week.bullets
+				bullets: appendTeamsNoteToOneBullet(bullets)
 			};
 		})
 	};
@@ -170,13 +186,13 @@ export function buildLearningGuideSummaryUserPrompt(
 	const teachingWeeks = Array.isArray(context.teachingWeeks) ? context.teachingWeeks : [];
 	const limits = learningGuideContentLimits(teachingWeeks.length);
 
-	return `Create content for a student learning guide that must fit on ONE printed A4 page (including the vocabulary section).
+	return `Create content for a student learning guide that should fit on ONE printed A4 page where possible (including the vocabulary section).
 
 Return a single JSON object with this exact shape:
 {
   "vocabulary": "topic lines here (newline-separated string)",
   "weeks": [
-    { "week": 1, "title": "Short theme", "bullets": ["Objective one", "Objective two"] }
+    { "week": 1, "title": "Short theme", "bullets": ["Objective one", "Objective two", "Objective three"] }
   ]
 }
 
@@ -190,9 +206,10 @@ VOCABULARY rules:
 WEEK SUMMARY rules (critical — the page overflows if these are too long):
 - Include one entry in "weeks" for every teaching week in teachingWeeks (match the week number)
 - title: max ${limits.maxTitleWords} words — a short student-friendly theme for the week
-- bullets: max ${limits.maxBullets} bullet(s) per week
+- bullets: exactly ${limits.maxBullets} bullets per week
 - each bullet: max ${limits.maxBulletWords} words — one concise learning objective
 - Distil the week's theory and practical focus; do not copy long sentences from the source
+- Do not add Teams or resource notes — those are appended automatically after generation
 - Use Australian English
 
 Example vocabulary format (topics will differ for each unit):

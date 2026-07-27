@@ -1,5 +1,6 @@
 export type CurriculumPlanTypeId =
 	| '7-8-digital-technologies'
+	| '7-8-design'
 	| '9-10-design'
 	| '9-10-digital-technologies'
 	| '10-engineering';
@@ -17,6 +18,8 @@ export interface CurriculumPlanType {
 	id: CurriculumPlanTypeId;
 	label: string;
 	levelDescription: string;
+	/** Australian Curriculum v9.0 achievement standard for the band/subject. */
+	achievementStandard: string;
 	contentDescriptors: CurriculumContentDescriptor[];
 }
 
@@ -29,6 +32,21 @@ They apply design thinking by using divergent techniques, such as mind mapping, 
 Students apply systems thinking by exploring the connections between hardware capabilities and tasks users want to perform. They investigate how data is transmitted via wired and wireless networks and explain the need for encryption to protect and secure data. Students use an increasing range of the features of digital tools to improve their efficiency and the consistency of the content they create, locate and communicate. They plan and manage projects individually and collaboratively, improving their control over the quality of their content. Students investigate personal security controls, including multi-factor authentication, to protect their data if passwords are compromised, and they understand the impact of phishing and other cyber security threats on people and data.
 
 In Digital Technologies, students should have frequent opportunities for authentic learning by making key connections with other learning areas.`;
+
+const LEVEL_DESCRIPTION_7_8_DESIGN = `By the end of Year 8 students will have had the opportunity to create designed solutions at least once in each of the four technologies contexts:
+
+Engineering principles and systems
+Food and fibre production
+Food specialisations
+Materials and technologies specialisations.
+
+Students should have opportunities to design and produce products, services and environments. There are rich connections to other subjects, for example Science, Geography and Health and Physical Education.
+
+Students investigate and select from a range of technologies — materials, systems, components, tools and equipment. They consider how the characteristics and properties of technologies can be combined to design and produce sustainable designed solutions to problems for individuals and the community, considering ethical, economic, environmental and social sustainability factors. Students use creativity, innovation and enterprise skills with increasing independence and collaboration. They respond to feedback from others and evaluate design processes used and designed solutions for preferred futures. Students investigate design and technology professions and the contributions that each makes to society locally, regionally and globally through creativity, innovation and enterprise. They critique the advantages and disadvantages of design ideas and technologies.
+
+Using a range of technologies including a variety of graphical representation techniques to communicate, students generate and clarify ideas through sketching, modelling, perspective and orthogonal drawings. They use a range of symbols and technical terms in a variety of contexts to produce patterns, annotate concept sketches and drawings, using scale, pictorial and aerial views to draw environments.
+
+With greater autonomy, students identify the sequences and steps involved in design tasks. They develop plans to manage design tasks, including safe and responsible use of materials and tools, and apply their plans to successfully complete these tasks. Students establish safety procedures that minimise risk and manage a project with safety and efficiency in mind when making designed solutions.`;
 
 const LEVEL_DESCRIPTION_9_10_DESIGN = `By the end of Year 10 students should have had the opportunity to design and produce at least 4 designed solutions focused on one or more of the 4 technologies contexts:
 
@@ -51,6 +69,15 @@ const LEVEL_DESCRIPTION_9_10_DIGITAL = `By the end of Year 10 students should ha
 const LEVEL_DESCRIPTION_10_ENGINEERING = `Students investigate real-world engineering problems and use knowledge of materials, systems, forces, motion and energy to design, prototype, test and refine engineered solutions. They apply engineering communication techniques such as sketching, CAD, diagrams, data tables and technical reports. Students use project management processes to plan and safely produce solutions, gather and analyse testing data, and evaluate their designs against success criteria including performance, sustainability, safety, cost and user needs.
 
 Grade 10 Engineering is reported against Years 9–10 Design and Technologies descriptors in the Engineering principles and systems context, with selected Digital Technologies descriptors where students use data, CAD, simulation, coding, microcontrollers, spreadsheets or digital project tools.`;
+
+/** Source: ACARA Australian Curriculum v9.0 / QCAA standard elaborations. */
+const ACHIEVEMENT_STANDARD_7_8_DT = `By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.`;
+
+const ACHIEVEMENT_STANDARD_7_8_DESIGN = `By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.`;
+
+const ACHIEVEMENT_STANDARD_9_10_DESIGN = `By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.`;
+
+const ACHIEVEMENT_STANDARD_9_10_DIGITAL = `By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on and manage agile projects. Students apply privacy principles to manage digital footprints.`;
 
 const CONTENT_DESCRIPTORS_7_8_DT: CurriculumContentDescriptor[] = [
 	{
@@ -196,6 +223,97 @@ const CONTENT_DESCRIPTORS_7_8_DT: CurriculumContentDescriptor[] = [
 		subStrand: '',
 		text: 'investigate and manage the digital footprint existing systems and student solutions collect and assess if the data is essential to their purpose',
 		code: 'AC9TDI8P14'
+	}
+];
+
+const CONTENT_DESCRIPTORS_7_8_DESIGN: CurriculumContentDescriptor[] = [
+	{
+		id: 'AC9TDE8K01',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies and society',
+		subStrand: '',
+		text: 'analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments',
+		code: 'AC9TDE8K01'
+	},
+	{
+		id: 'AC9TDE8K02',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies and society',
+		subStrand: '',
+		text: 'analyse the impact of innovation and the development of technologies on designed solutions for global preferred futures',
+		code: 'AC9TDE8K02'
+	},
+	{
+		id: 'AC9TDE8K03',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies context: Engineering principles and systems',
+		subStrand: '',
+		text: 'analyse how force, motion and energy are used to manipulate and control engineered systems',
+		code: 'AC9TDE8K03'
+	},
+	{
+		id: 'AC9TDE8K04',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies context: Food and fibre production',
+		subStrand: '',
+		text: 'analyse how food and fibre are produced in managed environments and how these can become sustainable',
+		code: 'AC9TDE8K04'
+	},
+	{
+		id: 'AC9TDE8K05',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies context: Food specialisations',
+		subStrand: '',
+		text: 'analyse how properties of foods determine preparation and presentation techniques when designing solutions for healthy eating',
+		code: 'AC9TDE8K05'
+	},
+	{
+		id: 'AC9TDE8K06',
+		category: 'Knowledge and understanding',
+		strand: 'Technologies context: Materials and technologies specialisations',
+		subStrand: '',
+		text: 'analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions',
+		code: 'AC9TDE8K06'
+	},
+	{
+		id: 'AC9TDE8P01',
+		category: 'Processes and production skills',
+		strand: 'Investigating and defining',
+		subStrand: '',
+		text: 'analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions',
+		code: 'AC9TDE8P01'
+	},
+	{
+		id: 'AC9TDE8P02',
+		category: 'Processes and production skills',
+		strand: 'Generating and designing',
+		subStrand: '',
+		text: 'generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools',
+		code: 'AC9TDE8P02'
+	},
+	{
+		id: 'AC9TDE8P03',
+		category: 'Processes and production skills',
+		strand: 'Producing and implementing',
+		subStrand: '',
+		text: 'select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions',
+		code: 'AC9TDE8P03'
+	},
+	{
+		id: 'AC9TDE8P04',
+		category: 'Processes and production skills',
+		strand: 'Evaluating',
+		subStrand: '',
+		text: 'develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions',
+		code: 'AC9TDE8P04'
+	},
+	{
+		id: 'AC9TDE8P05',
+		category: 'Processes and production skills',
+		strand: 'Collaborating and managing',
+		subStrand: '',
+		text: 'develop project plans to individually and collaboratively manage time, cost and production of designed solutions',
+		code: 'AC9TDE8P05'
 	}
 ];
 
@@ -466,24 +584,36 @@ export const CURRICULUM_PLAN_TYPES: Record<CurriculumPlanTypeId, CurriculumPlanT
 		id: '7-8-digital-technologies',
 		label: '7-8 Digital Technologies',
 		levelDescription: LEVEL_DESCRIPTION_7_8_DT,
+		achievementStandard: ACHIEVEMENT_STANDARD_7_8_DT,
 		contentDescriptors: CONTENT_DESCRIPTORS_7_8_DT
+	},
+	'7-8-design': {
+		id: '7-8-design',
+		label: '7-8 Design Technologies',
+		levelDescription: LEVEL_DESCRIPTION_7_8_DESIGN,
+		achievementStandard: ACHIEVEMENT_STANDARD_7_8_DESIGN,
+		contentDescriptors: CONTENT_DESCRIPTORS_7_8_DESIGN
 	},
 	'9-10-design': {
 		id: '9-10-design',
 		label: '9-10 Design Technologies',
 		levelDescription: LEVEL_DESCRIPTION_9_10_DESIGN,
+		achievementStandard: ACHIEVEMENT_STANDARD_9_10_DESIGN,
 		contentDescriptors: CONTENT_DESCRIPTORS_9_10_DESIGN
 	},
 	'9-10-digital-technologies': {
 		id: '9-10-digital-technologies',
 		label: '9-10 Digital Technologies',
 		levelDescription: LEVEL_DESCRIPTION_9_10_DIGITAL,
+		achievementStandard: ACHIEVEMENT_STANDARD_9_10_DIGITAL,
 		contentDescriptors: CONTENT_DESCRIPTORS_9_10_DT
 	},
 	'10-engineering': {
 		id: '10-engineering',
 		label: '10 Engineering',
 		levelDescription: LEVEL_DESCRIPTION_10_ENGINEERING,
+		// Reported against Years 9–10 Design and Technologies achievement standard.
+		achievementStandard: ACHIEVEMENT_STANDARD_9_10_DESIGN,
 		contentDescriptors: CONTENT_DESCRIPTORS_10_ENGINEERING
 	}
 };
@@ -494,37 +624,79 @@ export function getCurriculumForPlanType(planType: CurriculumPlanTypeId): Curric
 	return CURRICULUM_PLAN_TYPES[planType];
 }
 
+export function getAchievementStandardForPlanType(
+	planType: CurriculumPlanTypeId | null | undefined
+): string {
+	if (!planType) return '';
+	return CURRICULUM_PLAN_TYPES[planType]?.achievementStandard ?? '';
+}
+
 export function inferCurriculumPlanType(
 	learningAreaSubject: string,
 	yearLevelBand: string
 ): CurriculumPlanTypeId | null {
-	const subject = learningAreaSubject.toLowerCase();
+	const subject = learningAreaSubject.toLowerCase().replace(/–/g, '-');
 	const band = yearLevelBand.toLowerCase().replace(/–/g, '-');
+	const isDesign =
+		subject.includes('design') ||
+		subject.includes('manual art') ||
+		subject.includes('agriculture') ||
+		/\bagri\b/.test(subject) ||
+		subject.includes('industrial tech');
+	const isDigital = subject.includes('digital');
+	const isEngineering = subject.includes('engineering');
+	const is78 = band.includes('7') || band.includes('8') || band.includes('7-8');
+	const is910 = band.includes('9') || band.includes('10') || band.includes('9-10');
 
-	if (subject.includes('engineering') && band.includes('10')) return '10-engineering';
-	if (subject.includes('digital') && (band.includes('7') || band.includes('8'))) {
-		return '7-8-digital-technologies';
-	}
-	if (subject.includes('design') && (band.includes('9') || band.includes('10'))) {
-		return '9-10-design';
-	}
-	if (subject.includes('digital') && (band.includes('9') || band.includes('10'))) {
-		return '9-10-digital-technologies';
-	}
+	if (isEngineering && band.includes('10')) return '10-engineering';
+	if (isDigital && is78) return '7-8-digital-technologies';
+	if (isDesign && is78) return '7-8-design';
+	if (isDesign && is910) return '9-10-design';
+	if (isDigital && is910) return '9-10-digital-technologies';
 	return null;
 }
 
 export function inferCurriculumPlanTypeFromTitle(bandSubjectTitle: string): CurriculumPlanTypeId | null {
 	const title = bandSubjectTitle.toLowerCase().replace(/–/g, '-');
+	const isDesign =
+		title.includes('design') ||
+		title.includes('manual art') ||
+		title.includes('agriculture') ||
+		/\bagri\b/.test(title) ||
+		title.includes('industrial tech');
 	if (title.includes('engineering') && title.includes('10')) return '10-engineering';
 	if (title.includes('digital') && (title.includes('7-8') || title.includes('7') || title.includes('8'))) {
 		return '7-8-digital-technologies';
 	}
-	if (title.includes('design') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
+	if (isDesign && (title.includes('7-8') || title.includes('7') || title.includes('8'))) {
+		return '7-8-design';
+	}
+	if (isDesign && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
 		return '9-10-design';
 	}
 	if (title.includes('digital') && (title.includes('9-10') || title.includes('9') || title.includes('10'))) {
 		return '9-10-digital-technologies';
 	}
 	return null;
+}
+
+/** Resolve catalogue type from faculty row fields (explicit override wins). */
+export function resolveFacultyCurriculumPlanType(
+	learningAreaSubject: string,
+	yearLevelBand: string,
+	curriculumPlanType?: string | null
+): CurriculumPlanTypeId | null {
+	if (
+		curriculumPlanType === '7-8-digital-technologies' ||
+		curriculumPlanType === '9-10-digital-technologies' ||
+		curriculumPlanType === '7-8-design' ||
+		curriculumPlanType === '9-10-design' ||
+		curriculumPlanType === '10-engineering'
+	) {
+		return curriculumPlanType;
+	}
+	return (
+		inferCurriculumPlanType(learningAreaSubject, yearLevelBand) ||
+		inferCurriculumPlanTypeFromTitle(`${learningAreaSubject} ${yearLevelBand}`)
+	);
 }

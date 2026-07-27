@@ -1,0 +1,717 @@
+{
+  "id": "unit-46954567",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 6,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Designing for Country",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop an understanding of Australian and Aboriginal histories and cultures while building empathy as a core design skill. Students explore how culture, context, and lived experience influence design decisions, and examine the importance of ethical and respectful design when responding to Aboriginal perspectives. Through guided learning, students consider how designers can create solutions that acknowledge cultural significance, community needs, and social impact. The unit emphasises empathy, reflection, and responsible decision-making, encouraging students to design with awareness of Australia’s cultural diversity and shared histories.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-1953cd8e",
+      "assessmentNumber": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Exam",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students complete a designed solution task under exam-style time constraints to simulate working to a real-world deadline. Students are given an Australia-based design scenario and follow the final stages of the design process to generate, revise, evaluate, and refine a solution. Evaluation of the design must explicitly demonstrate empathy skills, including consideration of user perspectives, cultural context, and social impact. This assessment focuses on students’ ability to apply ethical, culturally informed, and reflective thinking to design decisions.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Examination",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task\n• 2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 3, Week 10",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Cross marked within the department.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-ced40cb7",
+          "strand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6c6c4ebe",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-96fadb30",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-c0719804",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions\nGenerating: Create possibilities; Consider alternatives\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-a4744387",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-b098fbae",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts; Examine values, rights and responsibilities, and ethical norms; Recognise influences on ethical behaviour and perspectives\nResponding to ethical issues: Explore ethical perspectives and frameworks; Explore ethical issues; Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": true,
+        "eu-responding-frameworks": true,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-776b14b8",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reflecting on culture and cultural diversity: Reflect on the relationship between cultures and identities; Examine cultural perspectives and world views; Explore the influence of cultures on interactions\nEngaging with cultural and linguistic diversity: Develop multiple perspectives; Develop empathy\nNavigating intercultural contexts: Consider responses to intercultural experiences; Respond to biases, stereotypes, prejudices and discrimination; Adapt in intercultural exchanges",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": true,
+        "iu-reflecting-perspectives": true,
+        "iu-reflecting-influence": true,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": true,
+        "iu-engaging-empathy": true,
+        "iu-navigating-responses": true,
+        "iu-navigating-biases": true,
+        "iu-navigating-adapt": true
+      }
+    },
+    {
+      "id": "ucap-751a6633",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-a987e418",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-0dfada23",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Personal awareness; Emotional awareness\nSocial awareness: Empathy; Relational awareness; Community awareness\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": true,
+        "psc-emotional-awareness": true,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": true,
+        "psc-relational-awareness": true,
+        "psc-community-awareness": true,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-c0c8b588",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Introduction to Human-Centred Design (HCD) as a methodology for addressing complex real-world problems. Students explore the concept of 'empathy' in a design context, moving beyond aesthetics to understand user-centred needs. Initial sketching exercises focus on observational drawing as a tool for understanding human interaction with environments.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sketchbooks, graphite pencils (HB-4B), multimedia presentation on HCD case studies, ergonomic assessment prompts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Core principles of HCD: Empathise, Define, Ideate, Prototype, Test. Exploration of the 'empathy gap' and how designers identify pain points for diverse user groups.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Introduction to rapid sketching techniques. Exercises in sketching people in natural movement, focus on proportional human figure drawing and observational sketching of everyday tools to understand ergonomic constraints.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Participation in empathy-mapping workshop and initial observational sketch portfolio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to Empathy and Human-Centred Design principles",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-eb2fd5e9",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Exploration of Aboriginal and Torres Strait Islander perspectives within the built and natural environment. Focus on the relationship between Country, culture, and sustainable design. Analysis of traditional land management and how historical engineering and design practices inform contemporary sustainable solutions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Aboriginal cultural resource guides, local mapping tools, site observation worksheets, isometric graph paper.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Cultural context: Introduction to deep listening (Dadirri) as a precursor to design research. Analysis of how Aboriginal knowledge systems contribute to modern environmental design and resilience.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Graphical representation workshop: Students sketch local site features identified through an 'Aboriginal perspective' lens, annotating for cultural significance and environmental connectivity. Introduction to basic perspective drawing to document site relationships.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Annotated sketches documenting site-specific observations; review of reflective journal entries.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Cultural context: Aboriginal and Torres Strait Islander perspectives in design",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-ee4d7ee2",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Deep dive into ethical considerations, intellectual property, and community protocols. Discussion regarding the respectful use of Indigenous Cultural and Intellectual Property (ICIP) in design. Examination of how designers can act as collaborators rather than extractors of knowledge.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "ICIP resource materials, case study articles, storyboard templates, digital presentation tools.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of ethical engagement, collaborative design, and the importance of protocol. Discussion of case studies where design solutions successfully integrated cultural knowledge with community consent.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Development of a 'Design Ethics Protocol' document. Practical sketching activity involving 'storyboarding' a project workflow that prioritises ethical consultation and user-feedback loops.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Critique of proposed project protocols and ethical reasoning reflected in design storyboards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Ethical considerations and protocols for culturally respectful design",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-0b310ed5",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in empathy-mapping workshops to identify and document user needs. Theory focuses on the design thinking process, specifically the ‘Empathise’ and ‘Define’ stages, and the importance of ethical engagement with Aboriginal community narratives. Practical activities focus on observational sketching and the development of interview-based user personas to drive design intent.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Empathy mapping templates, design research scenarios, exemplar annotated sketches, digital sketching tablets or paper/drawing implements, ICIP briefing document.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to human-centred design principles. Analysis of case studies involving co-design with Aboriginal communities, focusing on the ‘Indigenous Cultural and Intellectual Property’ (ICIP) protocols. Understanding how to translate qualitative research into visual design narratives.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Conducting empathy mapping activities. Students practise sketching ‘user journeys’ and ‘lived experience’ vignettes, incorporating annotations that reflect the specific cultural and social contexts identified in their research.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Empathy map and annotated user research sketches. Peer feedback session focusing on the depth of understanding of user needs and cultural sensitivity.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Human-centred research and sketching: Capturing user narratives and lived experiences",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-45979908",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to visualising the social impact of design solutions. Students explore sustainable systems through a community lens, considering how designed products or services can improve wellbeing. Theory addresses life cycle thinking and ecological sustainability, while practical sessions involve rapid sketching techniques to communicate technical and social features of their concepts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sketching reference guides (perspective/orthographic), case study materials regarding community sustainable systems, sketching paper, layout markers, and fineliner pens.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of social sustainability and community-based systems. Discussion on how design solutions can address challenges in both urban and remote community settings through an empathetic, rather than prescriptive, lens.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Developing concept sketches for community-based solutions. Students apply formal sketching techniques—including 3D isometric and orthographic views—to articulate their design proposals, supported by detailed annotations outlining social and sustainable impacts.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: ‘Design Concept Sprint’. Students must produce three distinct sketches that demonstrate how their solution addresses a specific social impact or community need.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Visualising social impact: Sketching community-based solutions and sustainable systems",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-1a4cba04",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students synthesise their findings through the evaluation of Australian design case studies. Theory focuses on critical analysis, looking at how well designs meet the needs of diverse user groups. Practical work involves producing annotated, analytical sketches that highlight successful (and unsuccessful) design responses to social and cultural requirements.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design evaluation rubrics, high-quality Australian design case studies, past exam practice papers, annotated exemplars of analytical sketches, technical drawing tools.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Critiquing design impact: Assessing how Australian products account for user perspectives, ethical manufacturing, and cultural representation. Introduction to evaluation rubrics for the upcoming exam.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Analytical sketching: Students deconstruct an existing design product via annotated, multi-view sketches to identify how the designer addressed user empathy and social/cultural values.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Materials and forces/Design evaluation exam. This assessment focuses on the application of theoretical knowledge of design processes, materials, and ethical/empathetic considerations in an exam environment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Case study synthesis: Evaluating Australian design responses through annotated sketches",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-28ea2859",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on the synthesis of ethnographic research and visual communication. Students refine empathy mapping techniques, translating user-centered data into visual narratives that articulate specific needs or opportunities within an Australian cultural context. Explicit instruction on drawing techniques including perspective, scale, and annotation to effectively communicate design intent.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sketchbooks, drafting equipment, reference materials on Indigenous design protocols, empathy mapping templates, digital sketching tablets (optional), ICT laboratory.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Deepening understanding of user-centred design methodologies and the role of empathy in identifying authentic design problems. Review of cultural protocols and ethical considerations when designing for or with Aboriginal and Torres Strait Islander communities. Exploration of how visual communication influences the reception of design solutions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Development of empathy maps based on gathered user personas. Iterative sketching sessions focusing on translating user insights into conceptual solutions, incorporating annotations to explain the 'why' behind design choices and cultural considerations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Review of annotated sketchbooks and empathy-mapping documentation; feedback provided on design thinking processes and the clarity of visual communication.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Developing visual communication: Sketching and empathy-mapping techniques to articulate user needs",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-7bcbe2a2",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Implementation of Part A of the Human Centered Design examination. Students are presented with an Australia-based design scenario and must apply the design process to generate and represent initial ideas, ensuring user perspectives and cultural context are integrated into the design generation stage.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Examination paper/digital task sheet, drawing media, design briefs, assessment marking guide, invigilation materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Recap of design constraints, target audience analysis, and the application of human-centred principles in a time-constrained environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Examination session: Students complete Part A, focusing on the identification of design opportunities and the generation of multiple, annotated design concepts using 2D or 3D representations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Human Centered Design Examination (Part A: Design generation and sketching). Focus on the application of design process stages and the quality of graphical representation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Formative application: Iterative refinement of sketches and design concepts",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-54052a82",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Implementation of Part B of the Human Centered Design examination. Students engage in the evaluation and refinement of their Part A solutions, applying critical reflection to justify design decisions against ethical, cultural, and social impact criteria.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Examination paper/digital task sheet, student design drafts from Week 8, assessment marking guide, invigilation materials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Frameworks for critical evaluation, including life cycle thinking, social sustainability, and the ethical responsibility of designers to engage with local and regional stakeholders.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Examination session: Students complete Part B, reflecting on their developed concepts, refining details based on user needs, and articulating the cultural and social significance of their final proposed solution.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Human Centered Design Examination (Part B: Evaluation, refinement and cultural reflection). Focus on the ability to critique design work and connect solutions to broader community and ethical contexts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Examination preparation: Review of design process, empathy skills, and graphical conventions",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    },
+    {
+      "id": "week-053b22bc",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Consolidation of Human-Centred Design (HCD) principles; reinforcement of ethical engagement protocols and the significance of Aboriginal and Torres Strait Islander perspectives in the design process. Students review assessment criteria for empathy-driven problem solving and graphical representation standards.\nPrac: Finalisation of the HCD examination task. Students demonstrate technical sketching proficiency, applying annotation techniques to articulate user narratives and cultural context. They complete the design synthesis, refining solutions to ensure they are culturally respectful, socially impactful, and meet the defined project needs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Examination papers, sketching equipment (HB/2B pencils, fine-liners, drafting paper), empathy-map templates, project brief, and design evaluation rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Revision of empathy-mapping techniques; analysis of design impacts on community and cultural contexts; reinforcement of ethical considerations when designing for diverse groups and Aboriginal and Torres Strait Islander communities.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of the formal examination: Part A (Analysis and Empathy) and Part B (Graphical Representation and Design Solution). Students apply iterative design thinking to generate and communicate final design concepts through detailed, annotated sketches.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Human Centered Design Examination Task: Part A (Analysis and Empathy) and Part B (Graphical Representation and Design Solution).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Summative Assessment: Human Centred Design examination",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T02:42:49.968Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "1 Term",
+    "aiNotes": ""
+  }
+}

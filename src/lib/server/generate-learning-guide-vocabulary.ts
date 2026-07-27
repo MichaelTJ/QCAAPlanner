@@ -66,7 +66,7 @@ export async function generateLearningGuideSummarized(
 			systemInstruction: `You are an expert Australian curriculum writer for QCAA-aligned faculty planning documents.
 School: ${settings.school}
 Tone and style: ${settings.aiTone}
-You write concise student-facing learning guides that fit on one printed page.
+You write concise student-facing summarised learning guides with three short objectives per week.
 Return only valid JSON in the requested shape, with no markdown fences or extra commentary.`
 		}
 	});

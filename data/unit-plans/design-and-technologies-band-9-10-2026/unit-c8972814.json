@@ -1,0 +1,1255 @@
+{
+  "id": "unit-c8972814",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 5,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Product Design",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students explore commercial design by examining how products are developed to meet user needs and succeed in competitive markets. Students investigate market analysis, target audiences, product design and manufacturing processes, and basic business principles such as value proposition, cost, and sustainability. Through analysis of existing commercial products and innovation case studies, students develop an understanding of how designers balance functionality, aesthetics, ethical considerations, and commercial viability. The unit emphasises innovation, enterprise skills, and informed decision-making in the development of market-ready designed solutions.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-a7fb6b91",
+      "assessmentNumber": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Exam",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students complete an examination that assesses their understanding of key commercial design principles. The exam includes questions on how designers analyse needs and opportunities, consider ethical and sustainability factors, and apply innovation and enterprise skills when developing commercial products. Students demonstrate knowledge of materials, systems, and manufacturing considerations, as well as basic business concepts such as target audiences, market needs, and value creation. This assessment focuses on students’ ability to explain and apply foundational commercial design knowledge to authentic product design contexts.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Examination",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• up to 90 minutes plus 10 minutes planning time\n• under supervised conditions\n• multiple choice\n• short response up to 100 words per item, up to 600 words for the task\n• extended response 200–300 words per item, up to 600 words for the task",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 1, Week 6",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Exams are to be cross marked across the department.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-5f3e0c04",
+          "strand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-433cc2b5",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-065af6a3",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3eda5318",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "uassess-d7a64abe",
+      "assessmentNumber": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Shark Tank",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this assessment, students respond to a given design situation by developing a commercial product for a specified target audience. Students follow the design process to analyse user needs and market factors, define a design brief, generate and prototype ideas, and evaluate and refine their solution against developed criteria. They consider materials, systems, manufacturing processes, sustainability, and commercial viability when making design decisions. Students communicate their final designed solution through appropriate representations and justify their decisions, demonstrating innovation, enterprise skills, and effective use of technologies throughout the design process.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 2, Week 8",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 4\nConferencing: Week 6",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-c1510c68",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-24fd4730",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b28c5c00",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cc5a5b03",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2d14b1de",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-615df5c3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-2823f47f",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-21a8b367",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-94e5d1de",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts; Examine values, rights and responsibilities, and ethical norms; Recognise influences on ethical behaviour and perspectives\nResponding to ethical issues: Explore ethical perspectives and frameworks; Explore ethical issues; Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": true,
+        "eu-responding-frameworks": true,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-ca017a06",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reflecting on culture and cultural diversity: Examine cultural perspectives and world views\nEngaging with cultural and linguistic diversity: Develop multiple perspectives",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": true,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": true,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-d3bb0e52",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Speaking and listening: Listening; Interacting; Speaking",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": true,
+        "lit-interacting": true,
+        "lit-speaking": true,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-cb6196fe",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Understanding money\nStatistics and probability: Understanding chance; Interpreting and representing data",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": true,
+        "num-data": true
+      }
+    },
+    {
+      "id": "ucap-36d9aea8",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Perseverance and adaptability\nSocial awareness: Empathy; Relational awareness; Community awareness\nSocial management: Communication; Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": true,
+        "psc-relational-awareness": true,
+        "psc-community-awareness": true,
+        "psc-communication": true,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-6483a60d",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to the principles of commercial design and the role of the industrial designer in a market-driven economy. Exploration of market context, including the distinction between niche and mass-market products. Discussion on how economic, social, and environmental factors influence the success of a designed solution within a specific marketplace.\n\nPrac: Students undertake a product deconstruction and market mapping exercise. They select a common household product and identify its market position, competitors, and the specific problem it was designed to solve. Students begin a digital design journal to document market observations and initial insights into commercial viability.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital design journal templates, market mapping exemplars, case study videos of successful Australian start-ups, product deconstruction worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the principles of commercial design and the role of the industrial designer in a market-driven economy. Exploration of market context, including the distinction between niche and mass-market products. Discussion on how economic, social, and environmental factors influence the success of a designed solution within a specific marketplace.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students undertake a product deconstruction and market mapping exercise. They select a common household product and identify its market position, competitors, and the specific problem it was designed to solve. Students begin a digital design journal to document market observations and initial insights into commercial viability.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of digital design journals and participation in market mapping discussions to establish baseline understanding of commercial contexts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Introduction to Commercial Design and Market Context",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-06b0ef68",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation of target audiences through the lens of demographics, psychographics, and user behaviour. Explicit teaching on user-centred design (UCD) methodologies, including the use of surveys, interviews, and observations to identify authentic consumer needs and 'pain points'. Discussion on how designers use empathy to create products that resonate with specific user groups.\n\nPrac: Students develop a 'User Persona' based on a selected market segment. They design and conduct a mini-market research survey using digital tools to gather data on consumer preferences and unmet needs. Students analyse this data to identify a specific design opportunity for their upcoming project.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microsoft Forms for survey creation, persona development templates, secondary research databases, demographic profile examples.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation of target audiences through the lens of demographics, psychographics, and user behaviour. Explicit teaching on user-centred design (UCD) methodologies, including the use of surveys, interviews, and observations to identify authentic consumer needs and 'pain points'. Discussion on how designers use empathy to create products that resonate with specific user groups.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop a 'User Persona' based on a selected market segment. They design and conduct a mini-market research survey using digital tools to gather data on consumer preferences and unmet needs. Students analyse this data to identify a specific design opportunity for their upcoming project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Peer review of User Personas; teacher feedback on the validity of identified market gaps and data collection methods.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Analysing Target Audiences and Consumer Needs",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-5e0229fa",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination of the ethical and environmental responsibilities of commercial designers. Introduction to Life Cycle Thinking (LCT) and the 'Cradle to Grave' vs. 'Cradle to Cradle' concepts. Analysis of how material selection, manufacturing processes, and end-of-life disposal impact a product's sustainability profile. Discussion of ethical issues such as planned obsolescence and fair-trade manufacturing.\n\nPrac: Students conduct a Life Cycle Analysis (LCA) on a chosen commercial product, identifying environmental hotspots. They brainstorm 'green' alternatives to standard materials and propose design modifications that improve the product's sustainability without compromising commercial appeal.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "LCA software/online calculators, sustainability checklists, Australian Standards (AS) for environmental claims, ethical sourcing case studies.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Examination of the ethical and environmental responsibilities of commercial designers. Introduction to Life Cycle Thinking (LCT) and the 'Cradle to Grave' vs. 'Cradle to Cradle' concepts. Analysis of how material selection, manufacturing processes, and end-of-life disposal impact a product's sustainability profile. Discussion of ethical issues such as planned obsolescence and fair-trade manufacturing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a Life Cycle Analysis (LCA) on a chosen commercial product, identifying environmental hotspots. They brainstorm 'green' alternatives to standard materials and propose design modifications that improve the product's sustainability without compromising commercial appeal.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the Life Cycle Analysis report; drafting a 'Sustainability Statement' to be used in future design briefs.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Sustainability and Ethics in Commercial Products",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-c6c0be09",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation of material categories including timber, metals, and polymers, focusing on how their physical and mechanical properties dictate suitability for mass production. Students examine the shift from manual fabrication to industrial manufacturing processes such as injection moulding, CNC machining, and additive manufacturing. \n\nPrac: Material testing lab where students perform comparative analysis on samples, testing for tensile strength, flexibility, and surface finish. Students use CAD software to simulate how different manufacturing constraints (e.g., draft angles in moulding) influence the physical form of a commercial product.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Material sample kits, industrial process case study videos, CAD software, workshop testing equipment (weights, calipers, scales).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation of material categories including timber, metals, and polymers, focusing on how their physical and mechanical properties dictate suitability for mass production. Students examine the shift from manual fabrication to industrial manufacturing processes such as injection moulding, CNC machining, and additive manufacturing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Material testing lab where students perform comparative analysis on samples, testing for tensile strength, flexibility, and surface finish. Students use CAD software to simulate how different manufacturing constraints (e.g., draft angles in moulding) influence the physical form of a commercial product.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative technical drawing task requiring students to annotate a product component with specific material and manufacturing justifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Material Properties and Manufacturing Processes",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-085527c0",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to the concept of the Value Proposition and how it differentiates products in a saturated market. Exploration of economic viability, including calculating COGS (Cost of Goods Sold), identifying fixed and variable costs, and understanding the relationship between production volume and unit price (economies of scale).\n\nPrac: Students conduct a market audit of a common household appliance, deconstructing its features to estimate manufacturing costs versus retail price. Collaborative activity using a Business Model Canvas to map out the value delivery for a hypothetical product solution.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Business Model Canvas templates, spreadsheet software for cost modelling, retail price comparison data, examples of successful product pitches.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the concept of the Value Proposition and how it differentiates products in a saturated market. Exploration of economic viability, including calculating COGS (Cost of Goods Sold), identifying fixed and variable costs, and understanding the relationship between production volume and unit price (economies of scale).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a market audit of a common household appliance, deconstructing its features to estimate manufacturing costs versus retail price. Collaborative activity using a Business Model Canvas to map out the value delivery for a hypothetical product solution.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Drafting of a value proposition statement and preliminary cost analysis for a proposed design concept.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Value Propositions and Economic Viability",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-4b2aa000",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Revision of core unit concepts including target audience analysis, sustainability ethics, material selection, and economic viability. Discussion on exam techniques, specifically how to respond to design scenarios and justify decisions using technical terminology.\n\nPrac: Completion of the summative examination under supervised conditions. Students apply their knowledge to analyse unseen design problems and propose commercially viable solutions.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Examination papers, revision summaries, marking rubrics, silent workspace.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Revision of core unit concepts including target audience analysis, sustainability ethics, material selection, and economic viability. Discussion on exam techniques, specifically how to respond to design scenarios and justify decisions using technical terminology.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of the summative examination under supervised conditions. Students apply their knowledge to analyse unseen design problems and propose commercially viable solutions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 1: Examination of Commercial Design Principles (Supervised conditions).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Assessment: Examination of Commercial Design Principles",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-4bcb3216",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Students investigate the nature of innovation, distinguishing between incremental, radical, and disruptive strategies within commercial contexts. They explore enterprise skills such as risk-taking, collaboration, and adaptability, and how these are applied to bring products to market. Prac: Students engage in a 'Product Pivot' workshop using the SCAMPER brainstorming technique to modify existing products. They participate in a collaborative challenge to demonstrate enterprise skills in a time-constrained problem-solving scenario.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Innovation case study videos (e.g., Australian start-ups), SCAMPER prompt cards, enterprise skills self-assessment rubric, digital collaboration tools (Miro or Canva).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate the nature of innovation, distinguishing between incremental, radical, and disruptive strategies within commercial contexts. They explore enterprise skills such as risk-taking, collaboration, and adaptability, and how these are applied to bring products to market.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in a 'Product Pivot' workshop using the SCAMPER brainstorming technique to modify existing products. They participate in a collaborative challenge to demonstrate enterprise skills in a time-constrained problem-solving scenario.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of collaborative skills and the application of innovation strategies during the 'Product Pivot' task.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Innovation Strategies and Enterprise Skills",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-a5356362",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to market research methodologies, focusing on identifying underserved niches and market gaps. Students learn to conduct a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) and perform competitor benchmarking to determine the commercial viability of a design idea. Prac: Students conduct a market scan of a chosen product category, documenting existing solutions and identifying potential opportunities for new products. They apply a SWOT analysis to a current market leader to find competitive weaknesses.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Market research templates, SWOT analysis worksheets, access to consumer trend reports (IBISWorld or similar), competitor benchmarking spreadsheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to market research methodologies, focusing on identifying underserved niches and market gaps. Students learn to conduct a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) and perform competitor benchmarking to determine the commercial viability of a design idea.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a market scan of a chosen product category, documenting existing solutions and identifying potential opportunities for new products. They apply a SWOT analysis to a current market leader to find competitive weaknesses.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Teacher feedback on the Market Opportunity Analysis report and the identification of a viable gap for the Shark Tank project.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Identifying Market Gaps and Opportunity Analysis",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-71538789",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Exploration of Human-Centred Design (HCD) principles, focusing on empathy as the foundation of the design process. Students learn to create empathy maps (Says, Thinks, Does, Feels) and develop detailed user personas to represent their target audience. Prac: Students conduct empathy interviews with potential users to uncover latent needs and pain points. They synthesise this data into a visual empathy map and a comprehensive persona profile to guide their project development.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Empathy map templates, persona design canvases, interview question guides, video examples of user-centred design in practice.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Exploration of Human-Centred Design (HCD) principles, focusing on empathy as the foundation of the design process. Students learn to create empathy maps (Says, Thinks, Does, Feels) and develop detailed user personas to represent their target audience.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct empathy interviews with potential users to uncover latent needs and pain points. They synthesise this data into a visual empathy map and a comprehensive persona profile to guide their project development.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Portfolio entry: Submission of the completed Empathy Map and User Persona as evidence of user research for Assessment 2.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "User-Centred Design Research and Empathy Mapping",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-fbb7bf63",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Students transition from research to project definition by examining the components of a professional design brief. Explicit teaching focuses on translating qualitative user needs into quantitative performance criteria, ensuring all design goals are measurable and achievable. Discussion covers how commercial constraints like budget, time, and available workshop technologies define the scope of the Shark Tank project.\n\nPrac: Students draft their formal design briefs for the Shark Tank project, identifying specific constraints and success criteria. They participate in a structured peer-review session to evaluate the clarity of each other's performance criteria. Using digital templates, students map out their project milestones against the Term 2 timeline to establish a baseline for project management.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Professional design brief templates, performance criteria checklists, QCAA design process rubrics, project milestone mapping software.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The design brief serves as a formal contract between the designer and the client, outlining the problem, target audience, and specific requirements. Performance criteria must be objective and measurable, often categorised into functional, aesthetic, social, and economic factors. Understanding constraints is critical for commercial success, as they represent the physical and financial boundaries within which a designer must operate. Ethical considerations, such as sustainable material sourcing and fair manufacturing, are now essential components of modern commercial briefs to align with consumer expectations of corporate social responsibility.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin by synthesising their research from previous weeks into a concise design brief that identifies a specific market opportunity. They develop a list of 'Must-Have' and 'Should-Have' performance criteria, ensuring each can be tested during the evaluation phase. Working in pairs, students use a 'Critical Friend' protocol to check that their criteria are not too prescriptive, allowing for creative freedom during ideation. Finally, they create a visual project timeline that highlights key dependencies and resource requirements for the upcoming production phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the drafted design brief and performance criteria; teacher feedback on the feasibility of the proposed project scope.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Developing Design Briefs and Performance Criteria",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-42339326",
+      "week": {
+        "value": 11,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation of divergent and convergent thinking strategies used in commercial design firms to foster innovation. Students explore the SCAMPER technique and morphological analysis as structured methods for generating high-volume design variations. The lesson covers the concept of the 'Value Proposition' and how to select ideas that offer the most significant benefit to the target user while remaining commercially viable.\n\nPrac: Students engage in rapid-fire sketching sessions, using SCAMPER to pivot their initial concepts into multiple variations. They use a decision-matrix tool to evaluate their generated ideas against the performance criteria established in the design brief. By the end of the week, students select a final concept for their Shark Tank project and produce a detailed justification of its commercial potential.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sketching equipment (markers, fineliners), SCAMPER prompt cards, morphological analysis templates, decision matrix spreadsheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Ideation is a non-linear process that requires moving between divergent thinking (creating many options) and convergent thinking (selecting the best solution). SCAMPER (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) provides a systematic framework for creative problem-solving by forcing designers to look at existing products from new angles. Morphological analysis involves breaking a product down into its essential functions and brainstorming diverse ways to achieve each, then combining them into unique concepts. A strong value proposition clearly articulates why a customer should choose this product over a competitor, focusing on solved problems or specific gains.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a 'Sketching Blitz' where they are challenged to produce 10 distinct variations of their product concept in a single lesson. They apply morphological charts to explore different material combinations and mechanical solutions for their design. Using a weighted decision matrix, students rank their top three concepts based on criteria like ease of manufacture, cost, and user appeal. The week concludes with the creation of a 'Concept Pitch' slide that visualises the selected idea and highlights its unique selling points and value proposition.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of ideation sketches and the weighted decision matrix; submission of the selected concept justification for the project portfolio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Ideation Techniques and Concept Development",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-611a5914",
+      "week": {
+        "value": 12,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to formal graphical communication standards used to bridge the gap between design and manufacturing. Students examine the role of 3D visualisation in communicating complex design intent to stakeholders and investors. Explicit teaching covers Australian Standards (AS1100) for technical drawing, focusing on scale, line types, and dimensioning conventions for both 2D and 3D representations.\n\nPrac: Students develop a suite of technical drawings for their chosen concept, including orthographic projections and isometric views. They use CAD software to create 3D digital models, exploring how to apply textures and lighting to produce high-quality rendered views for marketing. Students annotate their drawings with technical specifications, material callouts, and assembly details to ensure the design is ready for the production planning phase.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD Software (e.g., Onshape, Fusion 360), AS1100 drawing standard guides, digital rendering tutorials, technical drawing equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Graphical representation serves as the primary language of design, ensuring that manufacturers can interpret and produce a solution exactly as intended. Technical drawings must adhere to strict conventions, such as AS1100, to maintain clarity and universal understanding across global supply chains. Orthographic projection provides a set of 2D views (top, front, side) that are essential for defining dimensions and assembly details. 3D visualisation, through techniques like isometric drawing or digital rendering, is used to represent the form and aesthetic of a product, making it a powerful tool for pitching ideas to non-technical audiences like potential investors.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students work in the CAD lab to build a digital twin of their product, focusing on accurate geometry and part relationships. They produce a set of dimensioned orthographic drawings, ensuring all line weights and symbols comply with Australian Standards. Using the rendering engine within the CAD software, students experiment with different material finishes (e.g., brushed aluminium vs. matte polymer) to visualise the final aesthetic. Detailed annotations are added to describe specific features that cannot be easily drawn, such as surface treatments or internal mechanisms.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of CAD models and orthographic drawings for technical accuracy and adherence to standards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Graphical Representation and 3D Visualisation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-648ae43c",
+      "week": {
+        "value": 13,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Analysis of project management frameworks used in the design and manufacturing industries to ensure efficiency and quality control. Students learn about Critical Path Analysis (CPA) and how to sequence manufacturing tasks to minimise downtime. The lesson covers risk mitigation strategies, focusing on identifying potential production bottlenecks and safety hazards before they occur in the workshop.\n\nPrac: Students use digital tools to develop a comprehensive project management plan, including a detailed Gantt chart. They create a sequenced production plan that lists all tools, processes, and materials required for each stage of the build. Students set time-based performance indicators (KPIs) to track their progress and document safety procedures for the high-risk equipment they intend to use during production.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Gantt chart software (e.g., ClickUp, Excel), production plan templates, workshop safety manuals, current material price lists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Effective project management in a commercial context is about balancing scope, time, and cost to deliver a high-quality product. Critical Path Analysis helps designers identify the longest sequence of dependent tasks, showing which activities must be completed on time to avoid delaying the entire project. Resource sequencing involves planning the order of operations—such as cutting, shaping, and finishing—to optimise workshop flow and reduce material waste. Risk management plans identify potential issues, such as equipment failure or material shortages, and establish contingency steps to keep production on track.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use project management software to break their product down into individual components and associated manufacturing tasks. They estimate the time required for each process and input these into a Gantt chart to visualise the overall production schedule. Working in the workshop environment, they conduct a 'Safety Audit' of the tools they will use, creating a risk assessment for their specific project. They also develop a Bill of Materials (BOM) that includes current market costs to ensure their production plan remains within the hypothetical budget.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the Project Management Plan (Gantt chart and Production Sequence) and Safety Risk Assessment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Project Management and Production Planning",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-d18aa469",
+      "week": {
+        "value": 14,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Exploration of iterative design principles, focusing on how rapid prototyping allows for the early detection of functional and ergonomic issues. Students distinguish between additive (3D printing) and subtractive (laser cutting, CNC) prototyping technologies. Discussion centres on the 'Fail Fast, Fail Cheap' philosophy, emphasizing how low-fidelity models reduce overall project risk and improve the final user experience.\n\nPrac: Students produce low-fidelity physical models using rapid prototyping materials like cardboard, foam, or 3D printed components. They conduct initial user testing with these models to gather feedback on scale, comfort, and basic functionality. Every modification made to the design is documented in their digital journal, showing the evolution from the initial CAD model to a refined prototype based on testing evidence.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "3D printers, laser cutter, prototyping foam, hot glue, digital journal templates, user feedback forms.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Iterative design is a cyclic process of prototyping, testing, analysing, and refining a solution until it meets the performance criteria. Rapid prototyping techniques, such as 3D printing and laser cutting, enable designers to create physical representations of digital designs in hours rather than days. Additive manufacturing builds parts layer by layer, allowing for complex geometries that are impossible with traditional methods, while subtractive manufacturing removes material from a solid block. The goal of early-stage prototyping is to validate assumptions about the user interface and mechanical function before committing to expensive final materials.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use the laser cutter or 3D printers to create 'form-study' prototypes of their project's key components. They participate in a 'Testing Carousel' where peers provide feedback on the ergonomics and intuitive use of the prototypes. Based on this feedback, students return to their CAD models to make necessary adjustments to dimensions or fastener locations. All iterations are photographed and annotated, explaining the specific design problem identified and how the subsequent modification aims to resolve it.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative feedback on iterative design documentation and the quality of the low-fidelity prototypes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Rapid Prototyping and Iterative Design",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-47c7edc1",
+      "week": {
+        "value": 15,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Investigation into material science fundamentals and how structural integrity is calculated and tested in product design. Students learn about mechanical properties such as tensile strength, compression, and shear, and how these affect a product's durability under load. The lesson also explores the ethical implications of material durability vs. planned obsolescence in commercial product lifecycles.\n\nPrac: Students design and conduct controlled tests on material samples or prototype joints to evaluate their strength and suitability. They use testing apparatus to apply loads and record the point of failure, documenting the results in a technical report. This data is used to justify the final material thicknesses and joining methods selected for the summative Shark Tank build.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Force gauges, weights, material samples (timbers, polymers, metals), data logging software, stress/strain charts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Structural integrity ensures that a product can withstand the forces it will encounter during normal use without failing. Designers must understand the relationship between stress (force applied) and strain (deformation) to select materials that offer an appropriate safety factor. Durability is not just about strength; it also involves resistance to wear, corrosion, and environmental degradation over time. Ethical design necessitates selecting materials that offer a long service life, reducing waste and the environmental impact associated with frequent product replacement and disposal.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up a testing station in the workshop to perform comparative stress tests on different joining methods (e.g., mechanical fasteners vs. adhesives). They use weights or force gauges to determine the breaking point of their prototype components, recording the data in spreadsheets. Students then analyse these results to create 'Material Data Sheets' for their project, justifying why their selected materials will ensure the product's commercial longevity. These findings are used to refine the final technical drawings before the final production phase begins.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative submission of the Material Testing Report and justified material selection data.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Testing Materials and Structural Integrity",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-523d0700",
+      "week": {
+        "value": 16,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Analysis of industrial assembly techniques and the importance of technical refinement in the final production phase. Students examine how manufacturing workflows are optimised for precision and consistency, focusing on the use of jigs and fixtures. Discussion covers the 'Quality Assurance' (QA) process, where final products are checked against the original design specifications to identify any discrepancies.\n\nPrac: Students execute the final assembly of their Shark Tank commercial product, applying high-level fabrication and finishing skills. They conduct precision checks using calipers and squares to ensure the final build matches their technical drawings exactly. Aesthetic refinement is a priority, with students applying appropriate surface finishes (e.g., sanding, painting, or oiling) to ensure the product is market-ready for the upcoming pitch.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop machinery (drills, saws, sanders), finishing materials (paints, oils, waxes), precision measuring tools (digital calipers, squares).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Technical refinement is the process of moving from a functional prototype to a high-quality finished product that meets commercial standards. Quality assurance involves systematic monitoring and evaluation of the production process to ensure that standards of quality are being met consistently. Jigs and fixtures are custom tools used to hold parts in the correct position, ensuring repeatability and accuracy during complex assembly tasks. Finishing techniques not only enhance the aesthetic appeal of a product but also provide essential protection against moisture, UV damage, and physical wear.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin final fabrication, following their sequenced production plans to cut, shape, and join their final materials. They create custom jigs to assist with difficult assembly steps, such as ensuring perfectly square corners or consistent hole spacing. Once assembled, students perform a 'Tolerance Check,' measuring their product against their technical drawings and documenting any deviations. The final lessons of the week are dedicated to surface preparation and the application of professional finishes, ensuring the product's visual appeal matches its functional quality.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of production skills and workshop safety; progress check on the final product assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Final Production and Technical Refinement",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-d0c1c15f",
+      "week": {
+        "value": 17,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to commercial marketing principles, focusing on how designers communicate innovation and value to a specific target audience. Students explore brand identity, including logo design and visual style, and how these influence consumer perception. Explicit teaching covers the structure of a persuasive pitch, including the 'hook,' the problem-solution narrative, and the financial justification for investment.\n\nPrac: Students draft their pitch decks and marketing materials, ensuring their brand identity is consistent across all visual aids. They participate in pitch rehearsal sessions, where they practice articulating the commercial viability and innovative features of their design. Peer feedback is used to refine their oral presentation skills, focusing on clarity, body language, and the ability to respond to critical questions about their product.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Presentation software (PowerPoint, Canva), graphic design tools, pitch structure templates, public speaking guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Marketing for product design is the process of building a narrative around a solution that resonates with the needs and desires of a target audience. A brand identity is the collection of all elements that a company creates to portray the right image to its consumer, including logos, typography, and colour palettes. Persuasive communication in a commercial 'pitch' environment requires a balance of emotional storytelling and logical data (such as cost-benefit analysis). Successful designers must be able to justify why their product is a 'better' solution than existing alternatives, focusing on unique selling points (USPs) and market readiness.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use graphic design software to create a logo and visual brand for their product, which is then integrated into a professional pitch deck. They develop a one-minute 'elevator pitch' that clearly defines the problem their product solves and its primary value proposition. In small groups, students take turns presenting their pitch to 'investors' (peers), who use a feedback rubric to score the persuasiveness and clarity of the presentation. They then refine their pitch based on this feedback, preparing the visual aids and final product display for the summative Shark Tank event.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of pitch decks and branding elements; peer and teacher feedback during rehearsal sessions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Marketing Strategies and Pitch Development",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-a341c87d",
+      "week": {
+        "value": 18,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Reflection on the holistic design process, focusing on the integration of research, technical skill, and enterprise thinking. Students explore the standards of professional conduct and presentation etiquette required for high-stakes commercial pitches. Discussion centres on how to handle critical feedback from 'sharks' or investors as an opportunity for further product refinement rather than a final judgement.\n\nPrac: The week is dedicated to the summative 'Shark Tank' Project Presentation. Students present their final designed solutions and marketing pitches to a panel of 'sharks' (teachers/peers). Following the presentations, students engage in a gallery walk where they evaluate the innovative features and market readiness of their classmates' designs, providing constructive feedback on the commercial potential of each solution.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pitch panel rubrics, display boards, projector for pitch decks, final completed products, design journals.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Professional presentations in design are as much about the delivery as the product itself; clarity, confidence, and visual evidence are key to securing stakeholder buy-in. An effective pitch must demonstrate that the designer has considered all aspects of the product lifecycle, from initial user empathy to final economic viability. Feedback is a critical component of the iterative design cycle, and the ability to professionally process and synthesise critique is a vital enterprise skill. Reflecting on the design process allows students to identify how their technical decisions directly influenced the success of the final product in meeting user needs.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up their 'Trade Display' featuring their final product, technical drawings, and marketing materials. They deliver their formal pitch to the panel, using their visual aids to support their arguments about market gap, sustainability, and innovation. After the Q&A session with the sharks, students participate in a peer-review activity where they use a 'Market Readiness' rubric to evaluate other projects. They record reflections on their own performance and the panel's feedback in their design journals to prepare for the final evaluation report.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Assessment 2: Shark Tank Project (Project submission and Pitch presentation).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Assessment: Shark Tank Project Presentation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-c5e4453d",
+      "week": {
+        "value": 19,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Introduction to the formal evaluative processes used in commercial design to measure project success and inform future development. Students learn how to synthesise qualitative feedback (user opinions) and quantitative data (testing results) into a cohesive evaluation report. Discussion covers the importance of 'lessons learned' documentation in professional practice to prevent recurring errors and optimize manufacturing workflows.\n\nPrac: Students complete a comprehensive Project Evaluation Report, analysing their prototype testing data and final project outcomes against the original performance criteria. They document the refinements made during the production phase and use feedback from the Shark Tank pitch to justify their design decisions. The report concludes with a critical self-reflection on their project management efficiency and the commercial viability of the final solution.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Evaluation report templates, PMI charts, previous testing data, Shark Tank feedback notes, rubric for evaluative writing.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Evaluation is the final stage of the design process, where the solution is critically appraised against the design brief and performance criteria to determine its success. In a commercial context, evaluation must consider not just if the product works, but if it meets market expectations for price, quality, and sustainability. Data-driven evaluation involves using recorded test results to prove the product's performance, while qualitative evaluation relies on user feedback to assess experience and aesthetic appeal. A thorough evaluation identifies strengths, weaknesses, and specific areas for future improvement, providing a roadmap for 'Version 2.0' of a product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students work through their digital journals to extract data from material tests, user surveys, and the Shark Tank pitch. They write structured responses for their evaluation report, categorising findings into functional, aesthetic, and commercial success. Using a 'Plus/Minus/Interesting' (PMI) framework, they analyse their project management process, identifying where time was lost or where production steps were most efficient. They conclude by proposing three specific technical or design modifications they would implement if they were to move the product into mass production, justifying these based on documented evidence.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the final Project Report; teacher feedback on the depth of critical analysis and data synthesis.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Evaluation of Designed Solutions and Processes",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    },
+    {
+      "id": "week-cb62a7ba",
+      "week": {
+        "value": 20,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory: Examination of emerging technologies such as Artificial Intelligence in design, smart manufacturing (Industry 4.0), and the circular economy. Students discuss how global supply chains impact product design and the ethical considerations of international distribution, including cultural sensitivities and varied regulatory standards. The lesson explores future-proofing designs for a world with changing environmental and social priorities.\n\nPrac: Students undertake a comparative case study of a global consumer product, researching how its design or marketing was modified for different international markets. They document the technical, social, and economic considerations that drove these changes (e.g., local power standards, cultural aesthetics, or material availability). This final task serves as an extension of their commercial design knowledge, applying it to a global perspective.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Global product case study databases (e.g., core77, Dezeen), international manufacturing standards documents, sustainability trend reports, digital mapping tools.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Industry 4.0 refers to the current trend of automation and data exchange in manufacturing technologies, including the Internet of Things (IoT) and cloud computing. Global design requires an understanding of 'Glocalisation'—adapting globally marketed products to meet local requirements and cultural preferences. Sustainability in a global context moves beyond material choice to include the carbon footprint of transport and the ethical treatment of workers throughout the supply chain. Emerging technologies like generative design are changing the role of the designer, moving from manual drafting to setting parameters for AI-driven optimisation of form and material use.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students select a well-known international product (e.g., a specific smartphone, kitchen appliance, or vehicle) and research its variations across three different continents. They use digital tools to create a 'Global Design Map' that highlights differences in technical specifications, safety labels, and marketing imagery. In small groups, they discuss the ethical and social implications of these variations, such as why a company might use different materials or labour practices in different regions. This research is synthesised into a final journal entry that reflects on the complexity of designing for a globalized world.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of the Global Design Case Study; final submission of the completed Digital Design Journal for the unit.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Emerging Technologies and Global Design Perspectives",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-07T00:53:49.547Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "20 weeks",
+    "aiNotes": ""
+  }
+}

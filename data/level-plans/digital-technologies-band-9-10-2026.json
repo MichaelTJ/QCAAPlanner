@@ -28,7 +28,7 @@
     {
       "id": "unit-twnxcitm",
       "unitTitle": {
-        "value": "Websites 101",
+        "value": "Websites and Cyber Security",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -36,11 +36,11 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "5 weeks",
+        "value": "1 Semester",
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students will explore the foundational technologies behind the internet and how websites function. They will examine how digital systems use hardware and software to manage and secure access to data across networks. Through guided investigation and hands-on tasks, students will learn how websites are constructed by separating content, structure, and presentation using HTML and CSS. They will also be introduced to simple data compression techniques and understand their importance in efficient web communication. This unit builds the knowledge and skills required for designing and analysing secure, well-structured, and efficient digital content online.",
+        "value": "In this unit, students will explore how websites and servers work by interacting with a controlled, deliberately vulnerable web application. Through guided investigation and hands-on challenges, students will examine how data moves between a browser and server, how user input is processed, and how poor design choices can create security weaknesses. Students will test, identify and explain simple vulnerabilities in a safe learning environment, then recommend and apply improvements to make the system more secure. This unit develops practical understanding of web technologies, ethical hacking, secure design principles and responsible digital behaviour.",
         "aiNotes": ""
       },
       "assessments": [
@@ -63,7 +63,7 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Students will complete a written exam that assesses their understanding of how websites function and how data is managed in networked digital systems. The exam will include questions on the roles of hardware and software in securing and controlling access to data, the structure of web documents using HTML and CSS, and basic data compression techniques.",
+            "value": "Students will complete a written examination to assess their understanding of the interdependencies between hardware and software components within networked digital systems, with a focus on mechanisms for managing, controlling, and securing data access. The assessment requires students to explain the abstraction of online documents by distinguishing between content, structure, and presentation, and to justify the importance of these representations in contemporary web environments. ",
             "aiNotes": ""
           },
           "technique": {
@@ -75,7 +75,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "up to 50 minutes plus 10 minutes planning time; under supervised conditions; short response up to 100 words per item, up to 600 words for the task; extended response 200–300 words per item, up to 600 words for the task",
+            "value": "Up to 50 minutes plus 10 minutes planning time; under supervised conditions; short response up to 100 words per item, up to 600 words for the task; extended response 200–300 words per item, up to 600 words for the task",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -86,13 +86,58 @@
             "value": "A sample of student portfolios representing a range of achievement levels will be reviewed by another Digital Technologies teacher.",
             "aiNotes": ""
           }
+        },
+        {
+          "id": "qassess-e742a0d8",
+          "assessmentNumber": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Fix the Vulnerable Web App",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 2,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students investigate the architecture of networked digital systems, focusing on how hardware and software components manage, control, and secure access to data. Through the analysis of a provided web application, students identify software vulnerabilities and apply their knowledge of content, structure, and presentation to propose and implement robust, secure, and user-friendly modifications. The task requires students to develop a cyber security threat model, critique the system’s digital footprint against the Australian Privacy Principles, and employ object-oriented programming to debug and harden server-side logic and input validation. Students document the problem-solving process, justifying their design choices against established criteria, user stories, and potential future enterprise impacts. The final solution is evaluated for its effectiveness in mitigating identified risks and improving overall system integrity.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Portfolio",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Digital portfolio or equivalent\n• Completed in-class under supervised conditions\n• Access to provided vulnerable web application source code and documentation\n• Use of approved integrated development environment (IDE) and network analysis tools\n• Inclusion of a cyber security threat model, annotated code samples, and a reflective justification of modifications",
+            "aiNotes": "Students investigate the architecture of networked digital systems, focusing on how hardware and software components manage, control, and secure access to data. Through the analysis of a provided web application, students identify software vulnerabilities and apply their knowledge of content, structure, and presentation to propose and implement robust, secure, and user-friendly modifications. The task requires students to develop a cyber security threat model, critique the system’s digital footprint against the Australian Privacy Principles, and employ object-oriented programming to debug and harden server-side logic and input validation. Students document the problem-solving process, justifying their design choices against established criteria, user stories, and potential future enterprise impacts. The final solution is evaluated for its effectiveness in mitigating identified risks and improving overall system integrity.\n\nPortfolio",
+            "lastGenerated": "2026-07-07T12:01:56.967Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Departmental cross-marking of the final \"Fix the Vulnerable Web App\" reports to ensure objective application of the achievement standards",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-07T12:03:27.884Z"
+          }
         }
       ]
     },
     {
       "id": "unit-z6wtoifw",
       "unitTitle": {
-        "value": "Cyber Security Site",
+        "value": "Microbits - Sports Science",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -100,11 +145,11 @@
         "aiNotes": ""
       },
       "duration": {
-        "value": "15 weeks",
+        "value": "10 weeks",
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students will investigate how cybercriminals design online scams and how these techniques can be identified and avoided. Through guided analysis and controlled, ethical simulations, students will explore common features of scam websites, including deceptive design choices, persuasive language, fake forms, and misleading links. By constructing mock scam websites in a safe learning environment, students will develop an understanding of how attackers exploit human behaviour rather than technical vulnerabilities. Students will also examine protective strategies such as recognising warning signs, verifying sources, and applying safe online practices.",
+        "value": "In this unit, students investigate how data can be used to monitor performance, evaluate progress, and make informed decisions in a sports science context. Using micro:bits as data collection devices, students gather quantitative data from physical activities and import it into Microsoft Excel for organisation, analysis, and visualisation. Students apply formulas, charts, and data modelling techniques to identify trends, compare performance over time, and evaluate the effectiveness of training or testing strategies. Through increasingly independent investigations, students use evidence from their data to justify conclusions and make recommendations for improving performance, reinforcing the role of digital technologies in solving real-world problems.",
         "aiNotes": ""
       },
       "assessments": [
@@ -115,11 +160,11 @@
             "aiNotes": ""
           },
           "title": {
-            "value": "Cyber Security Site",
+            "value": "Sports Science Training",
             "aiNotes": ""
           },
           "term": {
-            "value": "",
+            "value": 3,
             "aiNotes": ""
           },
           "week": {
@@ -127,8 +172,9 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Students will design and prototype a simulated scam website to investigate how online scams exploit users and digital systems. They will define the problem, generate and evaluate design solutions, represent websites using content/structure/presentation, model data, collaborate using agile tools, and apply Australian Privacy Principles.",
-            "aiNotes": ""
+            "value": "In this unit, students apply computational thinking and systems design to the field of sports science, using the Micro:bit V2 as an integrated data acquisition tool. Students decompose athletic performance requirements into specific metrics, designing and implementing object-oriented solutions to capture, process, and log physiological and movement data. The unit emphasises data integrity, requiring students to clean, validate, and query structured datasets to derive actionable insights. Through the development of interactive visualisations and dashboards, students model performance trends and evaluate their systems against established user stories and design criteria. Ethical considerations regarding data privacy and the future impact of wearable technologies are critiqued, aligning with the school’s focus on transferable digital skills and analytical rigour.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T01:50:23.457Z"
           },
           "technique": {
             "value": "Project",
@@ -139,71 +185,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations. 1 minute presentation of the final product.",
-            "aiNotes": ""
-          },
-          "achievementStandard": {
-            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
-            "aiNotes": ""
-          },
-          "moderation": {
-            "value": "Monitoring: Week 5, Conferencing: Week 7",
-            "aiNotes": ""
-          }
-        }
-      ]
-    },
-    {
-      "id": "unit-ggx1tcsx",
-      "unitTitle": {
-        "value": "Microbits - Data Gathering and Analysis",
-        "aiNotes": ""
-      },
-      "yearLevel": {
-        "value": 9,
-        "aiNotes": ""
-      },
-      "duration": {
-        "value": "20 weeks",
-        "aiNotes": ""
-      },
-      "description": {
-        "value": "In this unit, students will use micro:bit devices to collect real-world data and investigate how digital systems acquire, store, and process information.",
-        "aiNotes": ""
-      },
-      "assessments": [
-        {
-          "id": "assess-eq7h2679",
-          "assessmentNumber": {
-            "value": 3,
-            "aiNotes": ""
-          },
-          "title": {
-            "value": "Data Collection",
-            "aiNotes": ""
-          },
-          "term": {
-            "value": 3,
-            "aiNotes": ""
-          },
-          "week": {
-            "value": 8,
-            "aiNotes": ""
-          },
-          "description": {
-            "value": "Students will design and implement a micro:bit program to collect sports science–related data.",
-            "aiNotes": ""
-          },
-          "technique": {
-            "value": "Investigation",
-            "aiNotes": ""
-          },
-          "mode": {
-            "value": "Multimodal",
-            "aiNotes": ""
-          },
-          "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "value": "",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -214,15 +196,36 @@
             "value": "Monitoring: Week 5; Conferencing: Week 7",
             "aiNotes": ""
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "unit-ggx1tcsx",
+      "unitTitle": {
+        "value": "User Experience Design",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students investigate the principles of user-centred design by creating a Minecraft modification or gameplay experience for a specific audience. Students work with stakeholders to identify needs, define design criteria, and develop user stories that guide the design process. They generate, prototype, communicate, and evaluate multiple design ideas before refining a solution that enhances the Minecraft experience for their target users. Students use emerging digital tools, including artificial intelligence where appropriate, to develop interactive content and communicate their designs. Throughout the unit, students apply agile project management practices to plan, monitor, and evaluate their work while considering future opportunities, user feedback, and the broader impact of their solutions.",
+        "aiNotes": ""
+      },
+      "assessments": [
         {
-          "id": "assess-mhke2g5d",
+          "id": "assess-eq7h2679",
           "assessmentNumber": {
-            "value": 4,
+            "value": 3,
             "aiNotes": ""
           },
           "title": {
-            "value": "Wearable Sports Science",
+            "value": "Minecraft Experience",
             "aiNotes": ""
           },
           "term": {
@@ -230,15 +233,15 @@
             "aiNotes": ""
           },
           "week": {
-            "value": 9,
+            "value": 8,
             "aiNotes": ""
           },
           "description": {
-            "value": "Students will design and develop a wearable sports science data collection device using a micro:bit.",
+            "value": "Students will investigate, design, and prototype a specialised digital experience within a Minecraft environment, addressing a specific real-world problem. Students decompose the problem into manageable components, developing user stories and design criteria to guide their development. They will generate, communicate, and evaluate alternative design iterations, selecting and utilising emerging digital features and advanced tools to create interactive content for a diverse audience. Throughout the project, students apply agile project management techniques to plan tasks, manage risks, and monitor progress. The final submission requires students to evaluate their implemented solution against the established design criteria and user stories, while critically reflecting on potential future impacts and enterprise opportunities provided by the digital system.",
             "aiNotes": ""
           },
           "technique": {
-            "value": "Project",
+            "value": "Investigation",
             "aiNotes": ""
           },
           "mode": {
@@ -263,30 +266,30 @@
     {
       "id": "unit-27asibzk",
       "unitTitle": {
-        "value": "Game Development",
+        "value": "Artificial Intelligence",
         "aiNotes": ""
       },
       "yearLevel": {
-        "value": 10,
+        "value": "9",
         "aiNotes": ""
       },
       "duration": {
-        "value": "20 weeks",
+        "value": "8 weeks",
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students will design, develop, and analyse digital games using emerging game development platforms.",
+        "value": "In this unit, students investigate how artificial intelligence systems learn from data and how machine learning can be used to classify images and gestures. Using resources from MyComputerBrain and Google Teachable Machine, students explore key AI concepts including training data, classes, confidence, accuracy, testing and bias. Students then design and develop their own sign-language recognition model, collecting and labelling data, training a model, testing its performance and improving it through iteration. Through this project, students learn that AI systems are not simply “smart”, but are shaped by the quality and fairness of the data used to train them. The unit concludes with students presenting a working prototype and evaluating its usefulness, limitations and ethical impact.",
         "aiNotes": ""
       },
       "assessments": [
         {
           "id": "assess-jpal7ty6",
           "assessmentNumber": {
-            "value": 5,
+            "value": 4,
             "aiNotes": ""
           },
           "title": {
-            "value": "GDevelop Game",
+            "value": "Sign Language Translator",
             "aiNotes": ""
           },
           "term": {
@@ -294,11 +297,11 @@
             "aiNotes": ""
           },
           "week": {
-            "value": 9,
+            "value": 8,
             "aiNotes": ""
           },
           "description": {
-            "value": "Design and develop an original digital game using GDevelop.",
+            "value": "Students design and develop an original sign-language recognition model using machine learning principles. They act as developers to collect and label representative training data, configure and train their model within a development environment, and iteratively test and refine its performance to improve accuracy. Students document their technical process in a logbook, including data cleaning strategies and model optimization. The project concludes with a working prototype demonstration, accompanied by an evaluation of the system’s effectiveness, limitations, and ethical implications, specifically addressing data bias and the Australian Privacy Principles.",
             "aiNotes": ""
           },
           "technique": {
@@ -310,7 +313,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+            "value": "• Project documentation (including model development log, bias audit report, and ethical evaluation)\n• Working AI prototype (Google Teachable Machine model)\n",
             "aiNotes": ""
           },
           "achievementStandard": {
@@ -318,22 +321,172 @@
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "value": "Monitoring: Week 4; Conferencing: Week 6",
             "aiNotes": ""
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "qunit-50e229c1",
+      "unitTitle": {
+        "value": "Project management - GDevelop",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "12 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students will design and develop a digital game using GDevelop. They will begin by exploring how game engines work, including frames, inputs, events, collisions, movement, graphics, and the game loop. Students will practise decomposing simple games into smaller systems and create a basic prototype before beginning their major project. For the assignment, students will work in groups to research existing games, analyse user experience, and design an original or modified game concept that considers flow, challenge, feedback, clarity, and player engagement. Using agile project management methods, students will create a Kanban board, break their project into manageable tasks, hold regular team meetings, and iteratively develop their game through prototyping, testing, feedback, and refinement. By the end of the unit, students will produce a playable game and evaluate how effectively their design decisions, development process, and final product meet the intended user experience.\n",
+        "aiNotes": ""
+      },
+      "assessments": [
         {
-          "id": "assess-ga2z2xl5",
+          "id": "qassess-df39a353",
           "assessmentNumber": {
-            "value": 6,
+            "value": 1,
             "aiNotes": ""
           },
           "title": {
-            "value": "Rec Room VR - Game Analyst",
+            "value": "Project Development - Game",
             "aiNotes": ""
           },
           "term": {
-            "value": 2,
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this assignment, students will work in groups to design and develop a playable digital game using GDevelop. Students will begin by researching existing games and analysing how user experience features such as controls, feedback, challenge, flow, visuals, instructions, and level design affect player engagement. They will then create their own game concept, decompose it into smaller systems, and plan the development process using agile project management methods.\n\nEach group will create and maintain a Kanban board in Trello to organise tasks, manage responsibilities, track progress, and respond to problems during development. Students will build their game through prototyping, testing, feedback, and refinement. They will collect player feedback, make improvements based on that feedback, and keep evidence of their design and development process.\n\nThe final submission will include a playable GDevelop game, evidence of planning and project management, research into existing games, design documentation, testing and feedback evidence, and an evaluation of how effectively the final game meets the intended user experience.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "qunit-e527d64e",
+      "unitTitle": {
+        "value": "Microbit Transmissions",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students design and test a micro:bit-based secure classroom response system. Each student micro:bit acts as a user device, while a teacher micro:bit acts as the server that receives, verifies and processes student responses. Students investigate how hardware and software manage, control and secure access to data in networked digital systems by designing login methods, user IDs, radio communication protocols and validation rules. They explore simple data compression techniques by shortening names, answers and status messages into efficient codes. Students design algorithms using logical operators, represent them as flowcharts and pseudocode, and validate their programs against a range of test cases. They also develop a cyber security threat model for their system and apply the Australian Privacy Principles to critique the digital footprint created by collecting student IDs, answers and login data.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "qassess-7add2b4b",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Radio Investigation",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "In this unit, students design and test a micro:bit-based secure classroom response system. Each student micro:bit acts as a user device, while a teacher micro:bit acts as the server that receives, verifies and processes student responses. Students investigate how hardware and software manage, control and secure access to data in networked digital systems by designing login methods, user IDs, radio communication protocols and validation rules. They explore simple data compression techniques by shortening names, answers and status messages into efficient codes. Students design algorithms using logical operators, represent them as flowcharts and pseudocode, and validate their programs against a range of test cases. They also develop a cyber security threat model for their system and apply the Australian Privacy Principles to critique the digital footprint created by collecting student IDs, answers and login data.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "qunit-55618b66",
+      "unitTitle": {
+        "value": "Option a) IOT",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as micro-controllers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+        "aiNotes": "Design a smart system for a house/ag piece of land/city",
+        "lastGenerated": "2026-07-14T01:27:13.406Z"
+      },
+      "assessments": [
+        {
+          "id": "qassess-39196d33",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Smart systems",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
             "aiNotes": ""
           },
           "week": {
@@ -341,7 +494,74 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Act as gameplay analysts for a VR shooter prototype.",
+            "value": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as microcontrollers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+            "aiNotes": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as micro-controllers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+            "lastGenerated": "2026-07-14T01:28:03.797Z"
+          },
+          "technique": {
+            "value": "Investigation",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Written",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T01:28:21.464Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Years 9–10 cohort to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing (Week 7):** Professional dialogue sessions where staff review student work samples to verify the application of assessment criteria and ensure alignment with the expected standards.\n*   **Cross-marking (Week 9):** Departmental blind marking of a representative sample of student IoT solutions to validate the accuracy of grading and provide equitable feedback.\n*   **Standardisation:** Review of task specifications and marking guides prior to implementation to ensure clarity and shared understanding of evidence requirements.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T01:33:56.441Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qunit-f51e448d",
+      "unitTitle": {
+        "value": "Option b) Robotics",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this 10-week unit, students apply computational and design thinking to address complex, open-ended robotics challenges. By decomposing real-world scenarios, students define precise problem specifications and user stories to guide the iterative development of autonomous solutions. Students design, implement, and refine algorithms using object-oriented programming to control robotic hardware, employing flowcharts and pseudocode to verify the accuracy of their logic and ensure robust solution performance. Throughout the development process, students utilise systematic testing and debugging techniques to validate their solutions against specific design criteria.\n\nFurthermore, students explore the interaction between hardware and software components, managing data flow and control structures within digital systems. By documenting their design process and evaluating the effectiveness of their robotic solutions, students reflect on the enterprising nature of their work and the broader impact of autonomous technologies. This unit fosters collaborative project management skills, requiring students to plan tasks, manage timelines, and evaluate their prototypes against stakeholder needs and functionality requirements.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "qassess-ea4c9a8e",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Autonomous Robotics Solution Project",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students work in collaborative teams to design, implement, and refine an autonomous robotic solution addressing a defined real-world challenge, utilizing agile project management tools to track development. The project requires students to document their design process through user stories and flowcharts, implement modular code in an object-oriented language, and conduct systematic debugging against established test cases. The final submission is a multimodal presentation evaluating the functional prototype against stakeholder requirements and the broader enterprising impact of autonomous systems.",
             "aiNotes": ""
           },
           "technique": {
@@ -353,15 +573,81 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
-            "aiNotes": ""
+            "value": "• Collaborative project team (3 students)\n• Agile project management documentation (e.g., Kanban boards, sprint logs)\n• Design portfolio (5–7 A3 pages or equivalent digital media) including user stories, flowcharts, pseudocode, and systematic testing/debugging records\n• Functional robotic prototype demonstrating autonomous capability\n• Multimodal presentation (maximum 5 minutes) evaluating the solution against design criteria, stakeholder requirements, and broader enterprising impact\n• Supervised class time for iterative development and testing",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T05:59:58.002Z"
           },
           "achievementStandard": {
-            "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+            "value": "",
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Monitoring: Week 5; Conferencing: Week 7",
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-da153fd3",
+      "unitTitle": {
+        "value": "Option c) AI Driven Interactive Narratives",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students explore the integration of generative Artificial Intelligence (AI) and Application Programming Interfaces (APIs) to design and develop a sophisticated text-based adventure game. They apply design thinking to generate and prototype user experiences that leverage dynamic AI-generated content. They represent their solution logic through detailed flowcharts and pseudocode, which are then implemented using an object-oriented programming language. Throughout the development phase, students validate their algorithms and use specific test cases to ensure narrative consistency and technical robustness. Finally, students critique the digital footprint and ethical implications of generative AI, evaluating their projects against design criteria that consider enterprise opportunities and the future impact of automated content generation in a global context.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-f746f812",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "AI Interactive Narrative",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": 4,
+            "aiNotes": ""
+          },
+          "week": {
+            "value": 9,
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students follow a full development lifecycle to create an interactive text-based adventure game that leverages generative AI APIs for dynamic storytelling. They decompose complex problems into user stories and design prototypes that prioritise user experience before implementing their solution using modular, object-oriented programming techniques. The project concludes with a multimodal evaluation where students validate their data handling processes and critique the ethical implications and enterprise opportunities of their AI-driven system.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 4–6 weeks of class time with opportunities for supervised and independent development.\n• Project Portfolio (Digital): 8–10 A4 pages or equivalent digital media.\n• Submission components: Decomposed user stories, design criteria, algorithmic designs (flowcharts and pseudocode), modular source code (object-oriented), and data validation/test cases.\n• Multimodal Evaluation: 2–3 minute recorded demonstration and critique, or 800–1000 words of written analytical text.\n• Resources: Access to an integrated development environment (IDE), generative AI APIs, and digital design tools.\n• Authentication: Teacher observation of progressive development and verification of original code through school-approved plagiarism and AI-usage protocols.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-14T10:58:34.195Z"
+          },
+          "achievementStandard": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "",
             "aiNotes": ""
           }
         }
@@ -389,7 +675,12 @@
       },
       "unitInclusions": [
         true,
+        true,
         false,
+        false,
+        true,
+        true,
+        true,
         false,
         false
       ]
@@ -414,7 +705,12 @@
       },
       "unitInclusions": [
         true,
-        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false
       ]
@@ -438,8 +734,13 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
         true,
-        true,
+        false,
         false,
         false
       ]
@@ -466,7 +767,12 @@
         false,
         true,
         false,
-        false
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
       ]
     },
     {
@@ -489,6 +795,11 @@
       },
       "unitInclusions": [
         false,
+        true,
+        false,
+        false,
+        false,
+        true,
         true,
         false,
         false
@@ -516,6 +827,11 @@
         false,
         true,
         false,
+        true,
+        false,
+        true,
+        true,
+        false,
         false
       ]
     },
@@ -540,8 +856,13 @@
       "unitInclusions": [
         false,
         true,
+        true,
+        true,
         false,
-        false
+        false,
+        true,
+        true,
+        true
       ]
     },
     {
@@ -564,8 +885,13 @@
       },
       "unitInclusions": [
         false,
+        true,
         false,
         false,
+        true,
+        true,
+        true,
+        true,
         false
       ]
     },
@@ -589,8 +915,13 @@
       },
       "unitInclusions": [
         false,
+        true,
         false,
-        false,
+        true,
+        true,
+        true,
+        true,
+        true,
         false
       ]
     },
@@ -613,10 +944,15 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true,
         false,
         true,
         false,
-        false
+        true
       ]
     },
     {
@@ -638,9 +974,14 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
         true,
         false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
         false
       ]
     },
@@ -663,10 +1004,15 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
+        true,
         false,
         false,
+        true,
+        true,
         false,
-        false
+        true,
+        true
       ]
     },
     {
@@ -688,10 +1034,15 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
+        true,
+        true,
+        true,
+        true,
         true,
         false,
-        false
+        true,
+        true,
+        true
       ]
     },
     {
@@ -713,10 +1064,15 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
         true,
         false,
-        false
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
       ]
     },
     {
@@ -739,8 +1095,13 @@
       },
       "unitInclusions": [
         false,
+        false,
         true,
         false,
+        true,
+        false,
+        false,
+        true,
         false
       ]
     },
@@ -763,8 +1124,13 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
+        false,
+        false,
+        false,
         false,
         true,
+        false,
         false,
         false
       ]
@@ -788,7 +1154,12 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
         false,
+        false,
+        false,
+        false,
+        true,
         true,
         false,
         false
@@ -803,8 +1174,13 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
-        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
         false,
         true
       ],
@@ -812,88 +1188,158 @@
         "cct-inquiring": [
           false,
           false,
+          true,
+          true,
           false,
-          false
+          true,
+          true,
+          false,
+          true
         ],
         "cct-generating": [
           false,
           false,
+          true,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          true
         ],
         "cct-analysing": [
+          true,
+          true,
+          true,
+          true,
           false,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "cct-reflecting": [
           false,
           false,
           false,
-          false
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
         ]
       },
       "subElementInclusions": {
         "cct-inquiring-develop-questions": [
           false,
           false,
+          true,
+          true,
           false,
-          false
+          true,
+          true,
+          false,
+          true
         ],
         "cct-inquiring-identify-process-evaluate": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ],
         "cct-generating-create-possibilities": [
           false,
           false,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false
+          true
         ],
         "cct-generating-consider-alternatives": [
           false,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
           false,
-          false
+          true
         ],
         "cct-generating-put-ideas-into-action": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ],
         "cct-analysing-interpret-concepts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ],
         "cct-analysing-draw-conclusions": [
+          true,
+          true,
+          true,
+          true,
           false,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "cct-analysing-evaluate-actions": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ],
         "cct-reflecting-metacognition": [
+          true,
+          false,
+          true,
+          true,
           false,
           false,
           false,
-          false
+          false,
+          true
         ],
         "cct-reflecting-transfer-knowledge": [
           false,
           false,
           false,
-          false
+          true,
+          false,
+          true,
+          false,
+          false,
+          true
         ]
       }
     },
@@ -904,13 +1350,23 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
-        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
         false,
         true
       ],
       "categoryInclusions": {
         "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -920,35 +1376,65 @@
           false,
           false,
           false,
-          false
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "dl-creating-exchanging": [
           false,
           false,
+          true,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          true
         ],
         "dl-managing-operating": [
           false,
           false,
           false,
-          false
+          false,
+          true,
+          true,
+          false,
+          false,
+          true
         ]
       },
       "subElementInclusions": {
         "dl-safety-manage-online": [
+          true,
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "dl-safety-privacy-identity": [
+          true,
           false,
           false,
           false,
-          false
+          false,
+          true,
+          true,
+          false,
+          true
         ],
         "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -958,55 +1444,100 @@
           false,
           false,
           false,
-          false
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "dl-investigating-acquire": [
           false,
+          true,
+          true,
+          true,
           false,
           false,
-          false
+          true,
+          false,
+          true
         ],
         "dl-investigating-interpret": [
+          true,
+          true,
+          true,
+          true,
           false,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "dl-creating-plan": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ],
         "dl-creating-communicate-collaborate": [
           false,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
           false,
-          false
+          true
         ],
         "dl-creating-ip": [
           false,
           false,
+          true,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          true
         ],
         "dl-managing-content": [
           false,
           false,
+          true,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          true
         ],
         "dl-managing-protect": [
+          true,
           false,
           false,
           false,
-          false
+          true,
+          true,
+          false,
+          false,
+          true
         ],
         "dl-managing-operate": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false,
-          false
+          true
         ]
       }
     },
@@ -1020,16 +1551,31 @@
         false,
         false,
         false,
-        false
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
       ],
       "categoryInclusions": {
         "eu-concepts": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "eu-responding": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1041,11 +1587,21 @@
           false,
           false,
           false,
-          false
+          true,
+          false,
+          true,
+          false,
+          false,
+          true
         ],
         "eu-concepts-values-rights": [
           false,
           false,
+          false,
+          true,
+          false,
+          false,
+          true,
           false,
           false
         ],
@@ -1053,9 +1609,19 @@
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1065,11 +1631,21 @@
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "eu-responding-decisions": [
           false,
           false,
+          false,
+          false,
+          true,
+          false,
+          true,
           false,
           false
         ]
@@ -1085,10 +1661,20 @@
         false,
         false,
         false,
-        false
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
       ],
       "categoryInclusions": {
         "iu-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1098,9 +1684,19 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating": [
+          false,
+          false,
+          false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1112,15 +1708,30 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-reflecting-perspectives": [
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "iu-reflecting-influence": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1130,9 +1741,19 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-engaging-perspectives": [
+          false,
+          false,
+          false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1142,9 +1763,19 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating-responses": [
+          false,
+          false,
+          false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1154,9 +1785,19 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1171,7 +1812,12 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
         true,
         false,
         true
@@ -1181,15 +1827,30 @@
           false,
           false,
           false,
+          false,
+          true,
+          false,
+          false,
+          false,
           false
         ],
         "lit-reading-viewing": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-writing": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1201,9 +1862,19 @@
           false,
           false,
           false,
+          false,
+          true,
+          false,
+          false,
+          false,
           false
         ],
         "lit-interacting": [
+          false,
+          false,
+          true,
+          true,
+          true,
           false,
           false,
           false,
@@ -1213,15 +1884,30 @@
           false,
           false,
           false,
+          false,
+          true,
+          false,
+          false,
+          false,
           false
         ],
         "lit-understanding-texts": [
+          true,
           false,
           false,
+          true,
           false,
-          false
+          true,
+          false,
+          false,
+          true
         ],
         "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1231,21 +1917,41 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-fluency": [
           false,
           false,
           false,
-          false
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "lit-creating-texts": [
+          true,
           false,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
-          false,
-          false
+          true
         ],
         "lit-grammar": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1255,9 +1961,19 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-spelling": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1267,7 +1983,12 @@
           false,
           false,
           false,
-          false
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
         ]
       }
     },
@@ -1280,11 +2001,21 @@
       "unitInclusions": [
         false,
         false,
+        true,
+        false,
+        true,
+        true,
+        true,
         false,
         true
       ],
       "categoryInclusions": {
         "num-number-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1294,9 +2025,19 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "num-statistics-probability": [
+          true,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1307,10 +2048,20 @@
         "num-place-value": [
           false,
           false,
+          true,
+          false,
+          false,
+          true,
+          true,
           false,
           false
         ],
         "num-counting": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1320,15 +2071,30 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-multiplicative": [
           false,
           false,
           false,
+          false,
+          false,
+          true,
+          false,
+          false,
           false
         ],
         "num-fractions": [
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1338,10 +2104,20 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-patterns-algebra": [
+          true,
+          true,
           false,
+          false,
+          false,
+          true,
           false,
           false,
           false
@@ -1350,23 +2126,43 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-units-measurement": [
           false,
+          true,
+          true,
           false,
+          false,
+          false,
+          true,
           false,
           false
         ],
         "num-geometric-properties": [
           false,
+          true,
+          true,
           false,
+          false,
+          false,
+          true,
           false,
           false
         ],
         "num-positioning": [
           false,
+          true,
+          true,
           false,
+          true,
+          false,
+          true,
           false,
           false
         ],
@@ -1374,17 +2170,32 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "num-chance": [
+          true,
           false,
           false,
           false,
-          false
+          false,
+          true,
+          false,
+          false,
+          true
         ],
         "num-data": [
+          true,
+          true,
           false,
           false,
+          false,
+          false,
+          true,
           false,
           false
         ]
@@ -1399,17 +2210,32 @@
       "unitInclusions": [
         false,
         true,
+        true,
+        true,
+        true,
+        true,
+        true,
         false,
-        false
+        true
       ],
       "categoryInclusions": {
         "psc-self-awareness": [
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "psc-self-management": [
+          false,
+          false,
+          false,
+          false,
+          true,
           false,
           false,
           false,
@@ -1419,9 +2245,19 @@
           false,
           false,
           false,
+          true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-social-management": [
+          false,
+          false,
+          false,
+          false,
+          true,
           false,
           false,
           false,
@@ -1432,28 +2268,53 @@
         "psc-personal-awareness": [
           false,
           false,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          false,
+          true
         ],
         "psc-emotional-awareness": [
           false,
           false,
+          true,
+          true,
+          true,
           false,
-          false
+          false,
+          false,
+          true
         ],
         "psc-reflective-practice": [
           false,
           false,
           false,
-          false
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
         ],
         "psc-goal-setting": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
           false,
           false,
-          false,
-          false
+          true
         ],
         "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false,
+          true,
           false,
           false,
           false,
@@ -1462,22 +2323,42 @@
         "psc-perseverance": [
           false,
           false,
+          true,
           false,
-          false
+          true,
+          false,
+          true,
+          false,
+          true
         ],
         "psc-empathy": [
           false,
+          true,
+          true,
+          true,
+          true,
           false,
           false,
-          false
+          false,
+          true
         ],
         "psc-relational-awareness": [
           false,
           false,
           false,
-          false
+          true,
+          true,
+          false,
+          false,
+          false,
+          true
         ],
         "psc-community-awareness": [
+          false,
+          false,
+          false,
+          true,
+          false,
           false,
           false,
           false,
@@ -1485,11 +2366,21 @@
         ],
         "psc-communication": [
           false,
+          true,
+          true,
+          true,
+          true,
+          true,
           false,
           false,
           false
         ],
         "psc-collaboration": [
+          false,
+          false,
+          false,
+          false,
+          true,
           false,
           false,
           false,
@@ -1499,15 +2390,30 @@
           false,
           false,
           false,
+          false,
+          true,
+          false,
+          false,
+          false,
           false
         ],
         "psc-decision-making": [
           false,
           false,
+          true,
           false,
-          false
+          true,
+          false,
+          true,
+          false,
+          true
         ],
         "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false,
+          true,
           false,
           false,
           false,
@@ -1527,6 +2433,11 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false
       ]
     },
@@ -1540,6 +2451,11 @@
         false,
         true,
         false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false
       ]
     },
@@ -1550,6 +2466,11 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,

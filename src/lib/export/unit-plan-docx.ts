@@ -1,3 +1,9 @@
+import {
+	contentDescriptionExportLabel,
+	contentDescriptionSide,
+	KNOWLEDGE_AND_UNDERSTANDING,
+	PROCESSES_AND_PRODUCTION_SKILLS
+} from '$lib/content-descriptions';
 import { formatCheckedSubElements } from '$lib/general-capabilities';
 import {
 	aiField,
@@ -24,8 +30,6 @@ import {
 } from './docx-xml';
 
 const SCHOOL = "St Brendan's College (Yeppoon)";
-const KNOWLEDGE_STRAND = 'Knowledge and understanding';
-const PROCESSES_STRAND = 'Processes and production skills';
 const PLANNING_LABEL = 'Key teaching and learning experiences';
 
 const DEFAULT_SEP =
@@ -88,19 +92,25 @@ function buildAdjustmentsTable(tableXml: string, adjustments: UnitAdjustment[]):
 }
 
 function splitCdsByStrand(cds: UnitAssessmentContentDescription[]) {
-	const knowledge = cds.filter((c) => c.strand.value.trim() === KNOWLEDGE_STRAND);
-	const processes = cds.filter((c) => c.strand.value.trim() === PROCESSES_STRAND);
+	const knowledge = cds.filter(
+		(c) => contentDescriptionSide(c.strand.value, String(c.code.value)) === 'knowledge'
+	);
+	const processes = cds.filter(
+		(c) => contentDescriptionSide(c.strand.value, String(c.code.value)) === 'processes'
+	);
 	const other = cds.filter(
-		(c) =>
-			c.strand.value.trim() !== KNOWLEDGE_STRAND &&
-			c.strand.value.trim() !== PROCESSES_STRAND
+		(c) => contentDescriptionSide(c.strand.value, String(c.code.value)) === 'other'
 	);
 	return { knowledge, processes, other };
 }
 
 function formatCd(cd: UnitAssessmentContentDescription | undefined): string {
 	if (!cd) return '';
-	return formatContentDescription(cd.subStrand.value, cd.text.value, cd.code.value);
+	return formatContentDescription(
+		contentDescriptionExportLabel(cd.strand.value, cd.subStrand.value),
+		cd.text.value,
+		cd.code.value
+	);
 }
 
 function buildAssessmentTable(tableXml: string, assessment: UnitAssessment): string {
@@ -136,7 +146,7 @@ function buildAssessmentTable(tableXml: string, assessment: UnitAssessment): str
 		]),
 		setRowCells(moderationRow, ['Moderation', field(assessment.moderation.value)]),
 		setRowCells(contentHeader, ['Content descriptions', '']),
-		setRowCells(strandHeader, [KNOWLEDGE_STRAND, PROCESSES_STRAND])
+		setRowCells(strandHeader, [KNOWLEDGE_AND_UNDERSTANDING, PROCESSES_AND_PRODUCTION_SKILLS])
 	];
 
 	const { knowledge, processes, other } = splitCdsByStrand(assessment.contentDescriptions);

@@ -1,0 +1,740 @@
+{
+  "id": "unit-530f2b33",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Artificial Intelligence",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "8 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate how artificial intelligence systems learn from data and how machine learning can be used to classify images and gestures. Using resources from MyComputerBrain and Google Teachable Machine, students explore key AI concepts including training data, classes, confidence, accuracy, testing and bias. Students then design and develop their own sign-language recognition model, collecting and labelling data, training a model, testing its performance and improving it through iteration. Through this project, students learn that AI systems are not simply “smart”, but are shaped by the quality and fairness of the data used to train them. The unit concludes with students presenting a working prototype and evaluating its usefulness, limitations and ethical impact.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-jpal7ty6",
+      "assessmentNumber": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Sign Language Translator",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and develop an original sign-language recognition model using machine learning principles. They act as developers to collect and label representative training data, configure and train their model within a development environment, and iteratively test and refine its performance to improve accuracy. Students document their technical process in a logbook, including data cleaning strategies and model optimization. The project concludes with a working prototype demonstration, accompanied by an evaluation of the system’s effectiveness, limitations, and ethical implications, specifically addressing data bias and the Australian Privacy Principles.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Project documentation (including model development log, bias audit report, and ethical evaluation)\n• Working AI prototype (Google Teachable Machine model)\n",
+        "aiNotes": ""
+      },
+      "timing": {
+        "value": "Term 1, Week 8",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Monitoring: Week 4; Conferencing: Week 6",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-62e259b2",
+          "strand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "model and query entities and their relationships using structured data",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0c780b9c",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0c75d8bb",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "validate algorithms and programs by comparing their output against a range of test cases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-17cad187",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design and prototype the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b7fdcd2f",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and critically evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1ea21250",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3d07aa0d",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e8a1e304",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P01",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-332709bf",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition); Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-67f6785c",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information; Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-52e7e8fd",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts; Examine values, rights and responsibilities, and ethical norms",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-2d5cb050",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reflecting on culture and cultural diversity: Reflect on the relationship between cultures and identities\nEngaging with cultural and linguistic diversity: Communicate responsively; Develop multiple perspectives; Develop empathy\nNavigating intercultural contexts: Consider responses to intercultural experiences; Respond to biases, stereotypes, prejudices and discrimination; Adapt in intercultural exchanges",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": true,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": true,
+        "iu-engaging-perspectives": true,
+        "iu-engaging-empathy": true,
+        "iu-navigating-responses": true,
+        "iu-navigating-biases": true,
+        "iu-navigating-adapt": true
+      }
+    },
+    {
+      "id": "ucap-6ff537cc",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Speaking and listening: Interacting\nReading and viewing: Understanding texts; Fluency\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": true,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": true,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-c6d19834",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-5a54b07b",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Personal awareness; Emotional awareness\nSelf-management: Goal setting\nSocial awareness: Empathy; Relational awareness; Community awareness\nSocial management: Communication",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": true,
+        "psc-emotional-awareness": true,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": true,
+        "psc-relational-awareness": true,
+        "psc-community-awareness": true,
+        "psc-communication": true,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-3d28b3f2",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the fundamental concepts of Artificial Intelligence, distinguishing between rule-based systems and machine learning models. The lesson focuses on the definition of AI as a technology capable of perceiving, reasoning, and learning, and how these systems function within digital environments.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "MyComputerBrain educational portal, curated case studies of AI systems, interactive slides, and projector for system flow demonstration.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Overview of AI history and terminology; difference between human intelligence and machine learning; introduction to supervised learning; exploration of how sensors capture data input for AI systems.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Interactive exploration of 'MyComputerBrain' resources to visualize how AI recognizes patterns. Students compare different AI applications in the real world, such as image recognition and predictive text, and discuss the hardware-software interaction required to support these processes.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher-led class discussion and observational checklist regarding student comprehension of AI terminology.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Foundations of Artificial Intelligence: Definitions and System Overview",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-26d47323",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on data literacy, specifically the critical importance of training data quality and diversity in building effective AI models. Students investigate how 'classes' are defined and categorized to teach a machine to differentiate between specific visual inputs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Google Teachable Machine, webcams/student devices, template for documenting data collection steps, sample gesture libraries.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of data acquisition; the importance of high-quality, consistent training data; understanding labels and classes; identifying potential for error in dataset generation.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Introduction to Google Teachable Machine. Students plan and capture initial image data sets for a sign-language gesture, focusing on background consistency, lighting, and diverse angles to ensure robust training data.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of student data collection plans and initial dataset samples for labeling accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Data Literacy: Training Data and Class Categorisation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-ef5816c9",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Guided application of machine learning by training and testing a prototype model. Students learn to iteratively refine their models by reviewing training results, testing confidence levels, and troubleshooting common classification errors.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Google Teachable Machine, workstation computers, project logbooks for documenting iterations and performance testing data.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The machine learning cycle (collect, train, test); interpreting confidence levels and accuracy metrics; understanding the impact of overfitting vs. underfitting in model training.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use Google Teachable Machine to train their sign-language models, running iterative tests to validate performance. Students modify their training sets based on test failures to improve the model's reliability.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-review of model performance during testing phase and logbook entries detailing adjustments made based on training results.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Model Development: Iterative Training and Testing",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-33865b0d",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students investigate the sociological impacts of AI, focusing on how biased datasets lead to discriminatory outputs. Discussion shifts to the ethical considerations of AI, highlighting how unintended bias in sign-language gesture recognition could alienate potential users.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Case studies on AI bias in image recognition, fairness audit checklists, student project logbooks.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to algorithmic bias; understanding 'representative' vs 'non-representative' data; the role of diverse sampling in minimizing systemic errors; ethics of AI and the Australian Privacy Principles in data collection.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a 'Bias Audit' on their current datasets, systematically identifying gaps in diversity (e.g., lighting variances, hand position diversity). They document findings in their logbooks and propose strategies to mitigate identified biases.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Reflective logbook entry assessing the fairness of their dataset against diversity criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Evaluating Performance: Bias and Fairness in AI",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-6873b0e2",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Instruction focuses on the technical optimization of machine learning models. Students learn to refine their classification outcomes by adjusting training parameters and cleaning existing data to improve precision and recall.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Google Teachable Machine advanced settings, performance tracking templates, dataset cleaning guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Methods for improving model accuracy; advanced techniques in data cleaning; understanding the balance between training time and performance; the impact of 'noise' in visual data inputs.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students implement a 'Model Optimization Loop': retraining models using cleaned image sets, removing outlier data points, and documenting the percentage increase in accuracy post-refinement.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on model accuracy metrics; comparison charts of 'Pre-refinement' vs 'Post-refinement' performance.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Iterative Refinement: Improving Model Accuracy",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-5bbfa6d1",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus on the end-to-end integration of the AI model into a user-centric system. Students explore systems thinking, considering how their AI component interacts with hardware constraints and the final interface experience.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "UX design templates, storyboarding kits, hardware requirement documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Principles of user experience (UX) for AI; human-computer interaction (HCI) patterns; hardware considerations for real-time model deployment (latency, camera resolution); designing intuitive user feedback loops.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students storyboard the 'User Journey' for their sign-language translator, defining how the system provides feedback to the user. They begin prototyping the interface and testing the 'usability' of the gesture triggers in a simulated environment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-evaluation of user storyboards and interface mockups; feedback focused on system intuitiveness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Systems Thinking and User Experience",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-17a5cf52",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in final prototyping of their sign-language translator, ensuring the integration of hardware and software is seamless. The focus is on conducting comprehensive performance validation through structured testing, measuring system responsiveness, and finalising the user interface for accessibility.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Google Teachable Machine final build files, webcams, student project logbooks, performance validation templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Validation methodologies for machine learning models; distinguishing between training accuracy and real-world performance; technical troubleshooting of system latency; principles of user-centric design refinement.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Final 'Stress Testing' of the sign-language model using unseen data samples. Students document performance outcomes (precision and recall) and refine the final interface layout to enhance usability for the target audience.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher-led walkthrough of prototype performance data and peer-based 'usability' testing feedback in project logbooks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Final Prototyping and Performance Validation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    },
+    {
+      "id": "week-d49af612",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students prepare for the formal presentation of their prototype, focusing on the articulation of the development process, model limitations, and the broader ethical implications of their AI solution. Class discussion centres on the societal impact of AI and the responsibility of developers to mitigate bias.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Presentation templates (e.g., Canva or PowerPoint), project evaluation rubrics, summary of Australian Privacy Principles for reference.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Reflective practice in technology development; identifying social, legal, and ethical impacts of AI; criteria for evaluating project success; exploring the future of AI-driven accessibility tools.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Drafting and rehearsing the project evaluation presentation. Students reflect on their development cycle, documenting successes and failures, and presenting their analysis of the ethical considerations identified during the unit.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Presentation and evaluation component of the 'Sign Language Translator' project; submission of final project documentation/portfolio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Presentation and Ethical Impact Assessment",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-10T19:50:10.040Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

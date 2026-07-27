@@ -14,7 +14,7 @@
     "aiNotes": ""
   },
   "unitTitle": {
-    "value": "Unit 1 — Engineering",
+    "value": "Engineering",
     "aiNotes": ""
   },
   "year": {
@@ -26,11 +26,11 @@
     "aiNotes": ""
   },
   "startWeek": {
-    "value": "",
+    "value": "Term 1 Week 1",
     "aiNotes": ""
   },
   "finishWeek": {
-    "value": "",
+    "value": "Term 2 Week 5",
     "aiNotes": ""
   },
   "unitDescription": {
@@ -87,7 +87,7 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-6bd58c1b",
+          "id": "ucd-8520c5b7",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -106,7 +106,7 @@
           }
         },
         {
-          "id": "ucd-ba17d3d1",
+          "id": "ucd-5183d033",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -125,7 +125,7 @@
           }
         },
         {
-          "id": "ucd-10e63835",
+          "id": "ucd-64e3e86f",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -144,7 +144,7 @@
           }
         },
         {
-          "id": "ucd-542d75fc",
+          "id": "ucd-26961192",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -159,101 +159,6 @@
           },
           "code": {
             "value": "AC9TDE10K06",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-d39957b2",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Investigating and defining",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDE10P01",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-bd839bb5",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Generating and designing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDE10P02",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-2b519960",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Producing and implementing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDE10P03",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-e3c86530",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Evaluating",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDE10P04",
-            "aiNotes": ""
-          }
-        },
-        {
-          "id": "ucd-8a720138",
-          "strand": {
-            "value": "Processes and production skills",
-            "aiNotes": ""
-          },
-          "subStrand": {
-            "value": "Collaborating and managing",
-            "aiNotes": ""
-          },
-          "text": {
-            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
-            "aiNotes": ""
-          },
-          "code": {
-            "value": "AC9TDE10P05",
             "aiNotes": ""
           }
         }
@@ -303,7 +208,7 @@
       },
       "contentDescriptions": [
         {
-          "id": "ucd-ace3db0b",
+          "id": "ucd-9489a679",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -322,7 +227,7 @@
           }
         },
         {
-          "id": "ucd-1ee8a61c",
+          "id": "ucd-7f0f7c25",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -341,7 +246,7 @@
           }
         },
         {
-          "id": "ucd-7a6dcc60",
+          "id": "ucd-82a87804",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -360,7 +265,7 @@
           }
         },
         {
-          "id": "ucd-09575dc4",
+          "id": "ucd-c0c55c09",
           "strand": {
             "value": "Knowledge and understanding",
             "aiNotes": ""
@@ -379,7 +284,7 @@
           }
         },
         {
-          "id": "ucd-60e541ff",
+          "id": "ucd-a67d250d",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -398,7 +303,7 @@
           }
         },
         {
-          "id": "ucd-6425a090",
+          "id": "ucd-50f003fb",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -417,7 +322,7 @@
           }
         },
         {
-          "id": "ucd-596bcde0",
+          "id": "ucd-6bbff674",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -436,7 +341,7 @@
           }
         },
         {
-          "id": "ucd-7de3f2e3",
+          "id": "ucd-832db5f6",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -455,7 +360,7 @@
           }
         },
         {
-          "id": "ucd-11e6983a",
+          "id": "ucd-4c4438ae",
           "strand": {
             "value": "Processes and production skills",
             "aiNotes": ""
@@ -1398,6 +1303,10 @@
   ],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "15 weeks",
     "aiNotes": ""
   }
 }

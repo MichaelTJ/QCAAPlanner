@@ -1,0 +1,775 @@
+{
+  "id": "unit-333254b2",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 9,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Option c) AI Driven Interactive Narratives",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students explore the integration of generative Artificial Intelligence (AI) and Application Programming Interfaces (APIs) to design and develop a sophisticated text-based adventure game. They apply design thinking to generate and prototype user experiences that leverage dynamic AI-generated content. They represent their solution logic through detailed flowcharts and pseudocode, which are then implemented using an object-oriented programming language. Throughout the development phase, students validate their algorithms and use specific test cases to ensure narrative consistency and technical robustness. Finally, students critique the digital footprint and ethical implications of generative AI, evaluating their projects against design criteria that consider enterprise opportunities and the future impact of automated content generation in a global context.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-d3145300",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "AI Interactive Narrative",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students follow a full development lifecycle to create an interactive text-based adventure game that leverages generative AI APIs for dynamic storytelling. They decompose complex problems into user stories and design prototypes that prioritise user experience before implementing their solution using modular, object-oriented programming techniques. The project concludes with a multimodal evaluation where students validate their data handling processes and critique the ethical implications and enterprise opportunities of their AI-driven system.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 4–6 weeks of class time with opportunities for supervised and independent development.\n• Project Portfolio (Digital): 8–10 A4 pages or equivalent digital media.\n• Submission components: Decomposed user stories, design criteria, algorithmic designs (flowcharts and pseudocode), modular source code (object-oriented), and data validation/test cases.\n• Multimodal Evaluation: 2–3 minute recorded demonstration and critique, or 800–1000 words of written analytical text.\n• Resources: Access to an integrated development environment (IDE), generative AI APIs, and digital design tools.\n• Authentication: Teacher observation of progressive development and verification of original code through school-approved plagiarism and AI-usage protocols.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T10:58:34.195Z"
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-d7cda654",
+          "strand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f8263141",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-64f34fe5",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design and prototype the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d208ea13",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-efd12a39",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5a1fa132",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use emerging digital tools and advanced features to create and communicate interactive content for a diverse audience",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P11",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-4a8b6890",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition); Transfer knowledge",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": true
+      }
+    },
+    {
+      "id": "ucap-3c69e2d8",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Practising digital safety and wellbeing: Manage online safety; Manage digital privacy and identity\nInvestigating: Locate information; Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Protect content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": true,
+        "dl-safety-privacy-identity": true,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": true,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-98a3ac80",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Explore ethical concepts; Recognise influences on ethical behaviour and perspectives\nResponding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": true,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": true,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-b58c0445",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reflecting on culture and cultural diversity: Examine cultural perspectives and world views",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": true,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-5fbc784a",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts; Fluency\nWriting: Creating texts; Handwriting and keyboarding",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": true,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": true
+      }
+    },
+    {
+      "id": "ucap-5ac08442",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Statistics and probability: Understanding chance",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": true,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-247379d5",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Personal awareness; Emotional awareness; Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial awareness: Empathy; Relational awareness\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": true,
+        "psc-emotional-awareness": true,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": true,
+        "psc-relational-awareness": true,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-d37e3572",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the historical trajectory of interactive fiction, from early text-based adventures to modern systems enhanced by generative Artificial Intelligence. They investigate how LLMs (Large Language Models) provide a leap in immersion through procedurally generated descriptions and dynamic dialogue compared to traditional static scripts. Through guided analysis, students examine the technical architecture of AI-driven systems, identifying how local applications manage and control access to remote intelligence via Application Programming Interfaces (APIs).",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Classic IF examples (Zork, Colossal Cave Adventure), OpenAI/Anthropic API documentation, Postman or similar API testing tool, classroom presentations on API architecture.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the evolution of digital storytelling and the specific role of generative AI in creating unpredictable, high-fidelity narrative environments. Students learn about the client-server model and the function of an API as a bridge between their game logic and a large language model. The curriculum covers how digital systems manage data exchange through structured formats and the importance of secure access protocols, such as API keys and authentication headers, to control interactions with cloud-based services.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in a comparative play-testing session, evaluating the differences in agency and immersion between classic text games like Zork and modern AI-driven narratives. They perform a 'trace' of data flow in an existing web-based AI tool to understand how a user prompt is processed and returned. Practical exercises include setting up a development environment capable of making web requests and documenting the technical constraints and rate limits specified in current AI provider documentation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of a technical comparison report identifying the advantages and limitations of AI-generated content versus hard-coded branching paths.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the evolution of text-based adventure games and investigate how generative AI can enhance user immersion through dynamic dialogue and environmental descriptions. They analyse existing AI-driven systems to identify how digital systems manage and control access to large language models via APIs.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-d0d83942",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students apply design thinking principles to define the scope and narrative direction of their interactive game. They use divergent thinking techniques to generate unique story worlds and character concepts, ensuring they cater to a diverse audience with varying gameplay preferences. By interviewing peers, students practice gathering requirements and translating them into formal user stories that drive the development process. They apply problem decomposition to break their narrative vision into modular components such as the 'World Engine,' 'NPC Manager,' and 'User Interface.'",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design thinking templates, Miro or Canva for mind mapping, user story guides, interview protocols for stakeholder feedback.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component introduces design thinking as a structured approach to solving complex digital problems. Students learn the 'Define' and 'Ideate' phases, focusing on how to transform broad ideas into specific, actionable user stories (As a [user], I want [feature], so that [benefit]). Lessons cover the importance of decomposition in software engineering, explaining how breaking a project into smaller, manageable subsystems facilitates more efficient coding and debugging. Students also explore how to design for diverse audiences by considering accessibility and varied player motivations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in rapid brainstorming sessions, using mind mapping and 'Crazy 8s' to generate narrative hooks and game mechanics. They conduct structured interviews with classmates to identify player needs, which are then documented as formal user stories and design criteria. Using collaborative digital tools, students create a decomposition diagram that maps out the primary functional requirements of their game, including a project scope that identifies 'must-have' vs 'could-have' features for their MVP (Minimum Viable Product).",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer-to-peer feedback on drafted user stories and a teacher review of the project decomposition diagram and scope document.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students apply design thinking by using divergent techniques to generate ideas for their interactive narrative and interviewing peers to develop detailed user stories. They decompose their game concept into manageable components, identifying the specific needs of a diverse audience and defining the project’s scope.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-44e7023a",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from conceptual ideas to logical system design, representing the complex branching logic of their narratives through technical documentation. They focus on how the game state is managed—tracking variables like player location, inventory, and health—and how these variables interact with AI-generated outputs. A significant focus is placed on the logic of asynchronous communication, preparing students to design algorithms that handle the latency of AI API responses without interrupting the user experience.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowcharting software (Lucidchart or Draw.io), pseudocode syntax reference sheets, logic-tracing worksheets, examples of asynchronous programming patterns.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction is provided on representing algorithms using formal flowcharts and pseudocode, with a focus on decision-making branches and state-driven logic. Students learn how to model the 'Game Loop' and the integration points where AI content is injected into the predefined story structure. Theory also covers the concept of asynchronous calls (promises/callbacks) and how to design fail-safe logic in pseudocode to handle instances where an AI API might return an unexpected or malformed response, ensuring the system remains robust.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop a detailed flowchart that maps the 'Golden Path' of their narrative alongside at least three significant branching trajectories. They write pseudocode for a core game module that demonstrates how user input is captured, sent to an AI for processing, and then used to update the internal game state. Students perform a 'desk check' on their classmates' logic to identify potential infinite loops or orphaned states where the player might become stuck, refining their designs based on this technical validation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Technical review of the narrative flowchart and pseudocode for the primary interaction loop, assessed for logical completeness and error handling.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students represent the complex logic of their interactive narrative through detailed flowcharts and pseudocode, focusing on decision-making branches and state management. They design algorithms that handle asynchronous API calls and define how AI-generated content will be integrated into the predefined story structure.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-2017f32b",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from logical design to technical implementation by establishing the object-oriented foundation of their adventure game. They participate in a collaborative modeling session to map their previous decomposition diagrams into a class hierarchy, identifying shared attributes across game entities. Explicit instruction focuses on creating modular Python classes that represent the physical and narrative state of the game world, ensuring that each component functions independently before integration. Students explore how encapsulation allows them to hide the complexity of state changes within objects, making the overall system more maintainable.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Python IDE (VS Code or Thonny), OOP reference guides, class diagram templates, sample code for basic class inheritance.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory focuses on the core tenets of object-oriented programming (OOP), specifically encapsulation and abstraction within the context of game development. Students learn how to define classes for 'Locations', 'Items', and 'Characters', using constructors to initialise unique states and methods to handle interactions. The lesson covers the importance of access modifiers and the 'Single Responsibility Principle', explaining why a Room object should manage its own exits and descriptions rather than relying on a global script. This theoretical framework provides the scaffolding necessary to build a scalable engine that can handle a growing narrative without code fragility.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin by implementing a 'Room' class, defining attributes for descriptions and a dictionary to manage exits to adjacent locations. They practice instantiation by creating a network of linked room objects that represent the starting area of their narrative. Subsequent exercises involve creating an 'Item' class with properties such as 'weight' or 'is_hidden' and developing a method within the Room class to manage an inventory of these objects. By the end of the week, students execute a simple navigation script that allows a player object to move between instantiated room instances and query their state.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A code review session where students present their class structures and demonstrate their ability to instantiate objects and traverse a basic map programmatically.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students begin implementing their solution using an object-oriented programming language, focusing on creating modular classes for game entities like locations, items, and characters. They learn to apply encapsulation and abstraction to manage the game's state and ensure the code is maintainable and scalable.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-91df0348",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the technical integration of generative AI, with a heavy emphasis on secure data exchange and prompt engineering. Students investigate the mechanics of interacting with external Large Language Models (LLMs) through API requests, learning how to format data using JSON for structured communication. They participate in 'prompt-tuning' workshops, where they experiment with different system instructions to maintain narrative consistency and tone. A key focus is placed on cybersecurity, specifically the ethical and safe management of API keys and the implementation of environment variables to protect sensitive credentials in shared environments.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OpenAI/Anthropic API documentation, Python 'dotenv' library, JSON linting tools, prompt engineering cheat sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component covers the anatomy of a RESTful API request, including headers, payloads, and authentication. Students learn about the JSON (JavaScript Object Notation) format as a standard for data exchange between their local program and the cloud-based AI service. Lessons also explore advanced prompt engineering techniques, such as 'few-shot prompting' and the use of system personas to constrain AI output, ensuring the generated text fits the game’s specific genre. Additionally, students are introduced to the Australian Privacy Principles in the context of data sent to third-party AI providers.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up a secure configuration file using environment variables to store their API keys, ensuring no sensitive data is hard-coded in their main scripts. They write Python functions using the 'requests' library to send a user’s action to the AI and receive a descriptive narrative response. Practical tasks include 'cleaning' the API response to remove unwanted formatting and handling common network errors or rate-limit exceptions. Students refine their 'system prompt' to ensure the AI behaves as a consistent dungeon master, ignoring out-of-character requests from the player.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A 'Prompt Validation' task where students must demonstrate an API call that returns a narrative description conforming to a specific genre and length constraint.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the technical requirements of integrating external AI services, focusing on secure API key management and structured data exchange. They practice writing and refining prompts to ensure the generative output remains consistent with the game’s tone and functional requirements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-02f52080",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop the core interaction engine, known as the game loop, which serves as the heartbeat of their interactive narrative. They implement logic to parse player commands, identifying 'verbs' and 'nouns' to trigger specific game events or AI queries. The focus shifts to the user experience (UX), where students design clear feedback mechanisms and handle the latency associated with API calls to maintain player immersion. By the end of the week, students have a functional interaction loop where player input leads to state changes and dynamically generated narrative updates in a continuous cycle.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Command parsing logic examples, state-machine diagrams, text-interface design guidelines, asynchronous programming tutorials.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory focuses on the concept of a state machine and its application in managing the 'Input-Process-Output' cycle of a game. Students learn how to maintain a persistent game state across multiple turns and how to use conditional logic to decide when to use 'static' descriptions versus 'dynamic' AI-generated content. Explicit instruction is provided on designing intuitive text-based interfaces, including the use of breadcrumbs, clear status indicators, and error messages that help a diverse audience navigate the game without frustration. Students also explore the technical challenges of managing 'context windows' in AI conversations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students code the primary 'while' loop of their application, integrating their command parser with the room and item classes developed in Week 4. They implement a 'loading' indicator to provide visual feedback to the user while the system waits for an asynchronous API response. Exercises include writing 'try-except' blocks to handle invalid user commands gracefully and ensuring the game state (like current location or inventory) is correctly updated before the next prompt is sent to the AI. Students also build a 'help' system that lists available actions based on the current context.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A functional demonstration of the interaction loop, where the teacher tests the game's ability to process a sequence of five distinct commands without crashing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students develop the primary game loop, implementing the logic for processing user commands and triggering dynamic narrative updates. They focus on refining the user experience by providing clear feedback and ensuring the navigation between different game states is intuitive and error-free.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-8cc3f222",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students advance their game engine by implementing persistent data structures to track player history. They learn to store session-specific choices in object attributes, allowing the AI-narrator to reference previous actions, such as items retrieved or characters offended. The week centres on modularising code, separating the AI prompt-generation logic from the core navigation and state management classes to improve system stability.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Python IDE, JSON documentation, modular design templates, code repositories for version control (GitHub/GitLab).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory focuses on state persistence and the architectural benefits of modular programming. Students explore how to maintain a history buffer of player interactions and why passing this 'contextual memory' to an LLM is essential for coherent, long-form storytelling. Lessons also cover the 'Observer' pattern or simple callback functions to ensure that narrative events are triggered predictably by game state changes, enhancing the separation of concerns between game logic and content generation.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students refactor their existing code into separate modules (e.g., `game_engine.py`, `ai_handler.py`, `data_store.py`). They implement a JSON-based tracking system to save player metadata, ensuring the game remembers inventory state and completed story beats across turns. Practical tasks include writing a function to inject these stored variables into the AI system prompt, allowing the narrative to react dynamically to the player's past choices.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Code audit focusing on module structure and the effectiveness of the persistent data storage implementation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students extend their implementation by incorporating advanced data handling techniques to track player choices and influence future AI-generated story beats. They apply modular programming to keep the logic for narrative generation separate from the core game engine, facilitating easier debugging and modification.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-182dc450",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students move into a rigorous testing phase, shifting their focus from feature development to system validation. They perform path-tracing to identify 'dead-end' states or logic loops where the AI interaction might fail. By developing specific test cases—such as forcing an inventory overflow or providing contradictory user input—students verify that the game handles edge cases gracefully without losing its narrative flow.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Debugging tools (PDB or IDE visual debugger), unit testing frameworks, peer review check-lists, test case design worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on software verification and validation, including the use of test stubs and mock objects to simulate API responses without consuming usage credits. Students learn to critique their algorithms through systematic desk-checking and debugging, identifying common failure points in AI-integrated systems, such as input sanitisation errors and 'hallucination' management. The importance of robust error handling is reinforced through discussions on how to prevent system crashes when receiving unexpected data.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students build a test suite to validate their game logic, using 'mock' responses to simulate various AI outcomes and ensuring the game state updates correctly under each condition. They use debugging tools to step through the game loop and watch variable changes in real-time. Students also conduct a 'black-box' testing session where peers play their games, documenting any logic bugs or narrative inconsistencies that arise during the session.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a test report detailing at least three significant logic bugs discovered and the subsequent algorithmic fixes applied.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct rigorous testing by developing specific test cases to validate their algorithms and ensure technical robustness across different branching paths. They use debugging tools to identify and resolve logic errors, ensuring that the AI content does not break the game’s narrative flow or technical stability.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-ad7f3f00",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise their projects, shifting from coding to critical reflection. The week is dedicated to performing a multimodal evaluation of their AI-driven system, ensuring it meets the initial design criteria and user stories defined in Week 2. Students critique the ethical landscape of their work, specifically addressing potential biases in AI outputs and how they mitigated these risks through prompt constraints and input filtering.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Australian Privacy Principles (APP) summary, project evaluation rubrics, presentation software, reflection templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory covers the ethical implications of generative AI, including intellectual property, algorithmic bias, and the permanence of digital footprints. Students evaluate their projects through the lens of enterprise opportunities, discussing the potential for AI-driven storytelling in fields like education, marketing, and software entertainment. The lesson reinforces the importance of the Australian Privacy Principles, considering how their systems handle user-provided data during the generation process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students compile their final project, including the working codebase, a user manual, and their evaluation documentation. They complete a critical reflective essay or video presentation that maps their project outcomes against the original design criteria, identifies technical and ethical challenges, and proposes future improvements. This documentation highlights how they managed the digital footprint of their project and their approach to responsible AI development.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: AI Interactive Narrative Project (Codebase, Demonstration, and Multimodal Evaluation).",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their projects and perform a multimodal evaluation that critiques the ethical implications of using generative AI, including data privacy and bias. They evaluate their solution against the initial design criteria and user stories, identifying enterprise opportunities for AI-driven storytelling in the global market.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    },
+    {
+      "id": "week-05404779",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct a formal presentation of their interactive narratives, demonstrating core game loops and AI-generated content paths to their peers. These sessions facilitate a collaborative critique, where students reflect on the efficacy of their project management strategies—including time-boxing, debugging cycles, and feature prioritisation—used throughout the term. The concluding lessons focus on synthesizing these experiences to evaluate the broader implications of automated content generation in software development and the social responsibility required when managing digital footprints in AI-integrated ecosystems.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Presentation templates, peer feedback rubrics, project management retrospective templates, summary notes on the Australian Privacy Principles, and industry case studies on AI-driven narrative systems.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching shifts to a retrospective analysis of the development lifecycle, focusing on the future impact of generative AI on digital industries and creative authorship. Students explore the concept of the 'Digital Footprint' and the ethical duty of developers to ensure transparency, security, and bias mitigation in AI-driven systems. The unit concludes with a high-level discussion on how current AI-API integration patterns align with the Australian Privacy Principles and the long-term sustainability of automated content generation in a professional enterprise context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students deliver their final project demonstrations, highlighting specific design choices and instances where AI integration successfully enhanced user immersion. They engage in a structured 'Lessons Learned' workshop, using professional tools like Trello or a project journal to map their initial project plan against the final delivered product. The final practical activity involves drafting a short professional reflection statement on how they would refine their API security and data handling protocols if tasked with scaling their game to a commercial application.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Final submission of the project portfolio, including the completed interactive narrative, reflection document, and self-evaluation of adherence to design criteria and ethical standards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students present their interactive narratives to the class and reflect on the project management strategies used throughout the term. They discuss the future impact of automated content generation on digital systems and the importance of maintaining a responsible digital footprint in an increasingly AI-integrated world.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T11:02:33.609Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

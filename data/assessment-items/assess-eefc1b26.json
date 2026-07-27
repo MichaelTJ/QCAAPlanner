@@ -1,0 +1,790 @@
+{
+  "id": "assess-eefc1b26",
+  "levelPlanId": "design-and-technologies-band-9-10-2026",
+  "unitPlanId": "unit-3af98158",
+  "assessmentNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Future Food Lab",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "Food Trends",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "In this design project, students investigate contemporary drivers of food trends to define a design opportunity within a professional culinary context. Students select a specific driver—such as sustainability, health and wellbeing, or cultural fusion—to guide the development of a designed solution. They apply divergent design thinking to generate and explore multiple concepts, evaluated against specific criteria: trend alignment, environmental sustainability, and aesthetic appearance. Through iterative refinement and the use of graphical representation techniques, students communicate a final dish design, justifying their decisions based on technical, environmental, and social factors. The production phase utilises virtual reality (VR) technology to simulate complex culinary workflows, allowing students to demonstrate production skills and manage safety and efficiency in a digital environment. Finally, students evaluate the success of their designed solution and the effectiveness of the virtual production process against the established design criteria.",
+    "aiNotes": "Task 1 – Identify the Driver (Define) \n\nChoose one modern driver of food trends to guide your design. \nExamples: \n\nHealth and wellbeing (e.g. high-protein, low-sugar, plant-based) \n\nEnvironmental sustainability (e.g. local produce, minimal waste) \n\nCultural fusion (e.g. mixing flavours or ingredients from different cultures) \n\nConvenience and lifestyle (e.g. meals for busy people, easy to prepare) \n\nDeliverable: \n\nA short paragraph explaining your chosen food trend driver \n\n \n\nTask 2 – Generate Ideas (Develop) \n\nUse divergent thinking to explore a wide range of ideas. \n\nFocus on one design criterion at a time. The 3 criteria are trend alignment, sustainability, appearance \n\nCreate at least five different ideas for each criterion \n\nUse sketches, notes, or diagrams to show your thinking \n\nDeliverable: \n\nA3 page showing idea generation and exploration (sketches, annotations, mind maps) \n\n \n\nTask 3 – Combine and Refine \n\nNarrow down and improve your ideas. \n\nCombine your best elements into 2–3 refined concepts \n\nJustify why each concept could work for the restaurant \n\nEvaluate against the criteria to see which one best suits \n\nDeliverable: \n\nA3 page showing refined ideas with annotations and justifications \n\n \n\nTask 4 – Final Design (Deliver) \n\nPresent your final dish design. \n\nClearly show what the dish looks like (drawings, photos, or digital visuals) \n\nExplain how it reflects your chosen food trend driver \n\nDescribe how it meets all three criteria \n\nDeliverable: \n\nA3 page showing your final concept with clear visuals and explanations \n\n \n\nTask 5 – Cook it in VR \n\nCreate a video of you cooking a representation of the dish in VR.  \n\nEvaluate how well your dish meets each design criterion \n\nDeliverable: \n\nCooking video presentation ",
+    "lastGenerated": "2026-07-13T05:03:16.627Z"
+  },
+  "technique": {
+    "value": "Project",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "Multimodal",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "2–3 A3 pages or equivalent digital media pages that may include annotated graphical representations",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "6 weeks",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "4-5 A3 pages. 1 minute presentation of the final product.",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "Individual",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "• VR headsets (Meta Quest) and compatible hardware for immersive culinary simulation.\n• Professional culinary simulation software with haptic feedback and physics-based ingredient interaction.\n• Digital video recording and editing software for capturing and refining production sequences.\n• Graphic representation tools (e.g. Adobe Creative Cloud, Canva, or CAD software) for 2D/3D design and storyboarding.\n",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-13T05:18:37.669Z"
+  },
+  "examTimeMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "Food Trends",
+    "aiNotes": ""
+  },
+  "context": {
+    "value": "In this unit, students investigate the intersection of food specialisations and emerging technologies through the application of virtual reality (VR) in culinary contexts. Students explore how immersive digital environments can simulate kitchen safety, complex culinary techniques, and production workflows to improve efficiency and reduce resource waste. They examine the role of simulation in modern food industries, considering how virtual environments support skill development and ethical decision-making in high-risk or resource-intensive scenarios. Through the design process, students generate and represent original ideas for virtual cooking experiences, using graphical representation techniques and storyboards to communicate their design thinking. The unit emphasises innovation, user experience, and the strategic use of technologies to address contemporary challenges in food production and training for preferred futures.",
+    "aiNotes": ""
+  },
+  "task": {
+    "value": "In this design project, students investigate contemporary drivers of food trends to define a design opportunity within a professional culinary context. Students select a specific driver—such as sustainability, health and wellbeing, or cultural fusion—to guide the development of a designed solution. They apply divergent design thinking to generate and explore multiple concepts, evaluated against specific criteria: trend alignment, environmental sustainability, and aesthetic appearance. Through iterative refinement and the use of graphical representation techniques, students communicate a final dish design, justifying their decisions based on technical, environmental, and social factors. The production phase utilises virtual reality (VR) technology to simulate complex culinary workflows, allowing students to demonstrate production skills and manage safety and efficiency in a digital environment. Finally, students evaluate the success of their designed solution and the effectiveness of the virtual production process against the established design criteria.",
+    "aiNotes": "Task 1 – Identify the Driver (Define) \n\nChoose one modern driver of food trends to guide your design. \nExamples: \n\nHealth and wellbeing (e.g. high-protein, low-sugar, plant-based) \n\nEnvironmental sustainability (e.g. local produce, minimal waste) \n\nCultural fusion (e.g. mixing flavours or ingredients from different cultures) \n\nConvenience and lifestyle (e.g. meals for busy people, easy to prepare) \n\nDeliverable: \n\nA short paragraph explaining your chosen food trend driver \n\n \n\nTask 2 – Generate Ideas (Develop) \n\nUse divergent thinking to explore a wide range of ideas. \n\nFocus on one design criterion at a time. The 3 criteria are trend alignment, sustainability, appearance \n\nCreate at least five different ideas for each criterion \n\nUse sketches, notes, or diagrams to show your thinking \n\nDeliverable: \n\nA3 page showing idea generation and exploration (sketches, annotations, mind maps) \n\n \n\nTask 3 – Combine and Refine \n\nNarrow down and improve your ideas. \n\nCombine your best elements into 2–3 refined concepts \n\nJustify why each concept could work for the restaurant \n\nEvaluate against the criteria to see which one best suits \n\nDeliverable: \n\nA3 page showing refined ideas with annotations and justifications \n\n \n\nTask 4 – Final Design (Deliver) \n\nPresent your final dish design. \n\nClearly show what the dish looks like (drawings, photos, or digital visuals) \n\nExplain how it reflects your chosen food trend driver \n\nDescribe how it meets all three criteria \n\nDeliverable: \n\nA3 page showing your final concept with clear visuals and explanations \n\n \n\nTask 5 – Cook it in VR \n\nCreate a video of you cooking a representation of the dish in VR.  \n\nEvaluate how well your dish meets each design criterion \n\nDeliverable: \n\nCooking video presentation ",
+    "lastGenerated": "2026-07-13T05:03:16.627Z"
+  },
+  "toComplete": {
+    "value": "Investigate a specific driver of contemporary food trends, such as sustainability, health and wellbeing, or cultural fusion, and analyse its impact on modern culinary innovation and emerging technologies.\n\nDefine a design opportunity within a professional culinary context and develop a detailed design brief that identifies client needs and project constraints.\n\nDevelop specific criteria for success, including sustainability factors, to evaluate the effectiveness of design ideas and the final solution.\n\nGenerate and represent a range of original meal concepts using graphical representation techniques and virtual reality (VR) prototyping to explore sensory and functional properties.\n\nSelect and justify a preferred design solution, documenting the iterative refinement process and the impact of technical, environmental, and social factors.\n\nProduce a final design portfolio featuring annotated graphical representations, including rendered views and production plans that communicate the design intent.\n\nExecute the production of the designed solution within a virtual reality environment, applying safe work practices and managing complex culinary workflows with efficiency.\n\nEvaluate the success of the final dish and the effectiveness of the virtual production process against the established criteria for success.\n\nPresent a multimodal pitch and a recorded VR production sequence to stakeholders, reflecting on the role of innovation and emerging technologies in creating preferred food futures.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-13T05:19:45.135Z"
+  },
+  "stimulus": {
+    "value": "See Stimulus at end of task sheet",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-0168d98f",
+      "label": "Monitoring",
+      "week": {
+        "value": "Term 4 Week 6",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-f447d9cd",
+      "label": "Conferencing",
+      "week": {
+        "value": "Term 4 Week 8",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-9cbb5d7e",
+      "label": "Due Date",
+      "week": {
+        "value": "Term 4 Week 9",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": true
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": true
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": false
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": true
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": false
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": true
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": false
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": true
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-f707a12c",
+      "strand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-5b7718c8",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-a299bee0",
+      "strand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-b682fa39",
+      "strand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-e4bfb7af",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-992e681b",
+      "strand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K06",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-eb969671",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P01",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-141edfd2",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P02",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-32e2c844",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P03",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-894afbc9",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P04",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-54800b14",
+      "strand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P05",
+        "aiNotes": ""
+      },
+      "selected": false
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "de910-se-society-factors",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K01"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "B": "detailed explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "C": "explanation of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "D": "description of how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living",
+        "E": "statement/s about factors that impact on design decisions and/or the technologies used to design and produce designed solutions"
+      },
+      "enabled": false
+    },
+    {
+      "id": "de910-se-society-innovation",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies and society",
+      "contentDescriptionCodes": [
+        "AC9TDE10K02"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "B": "detailed explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "C": "explanation of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "D": "description of the contribution of innovation, enterprise skills and emerging technologies to global preferred futures",
+        "E": "statement/s about innovation, enterprise skills, and/or emerging technologies"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-contexts",
+      "category": "Knowledge and understanding",
+      "strand": "Technologies contexts",
+      "contentDescriptionCodes": [
+        "AC9TDE10K03",
+        "AC9TDE10K04",
+        "AC9TDE10K05",
+        "AC9TDE10K06"
+      ],
+      "descriptors": {
+        "A": "discerning explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "B": "detailed explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "C": "explanation of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "D": "description of the features of technologies and their appropriateness for purpose for one or more of the prescribed technologies contexts",
+        "E": "statement/s about the features of technologies and/or their appropriateness for purpose"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDE10P01"
+      ],
+      "descriptors": {
+        "A": "proficient analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "B": "effective analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "C": "analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "D": "superficial analysis of needs or opportunities for one or more of the prescribed technologies contexts",
+        "E": "identification of needs or opportunities for one or more of the prescribed technologies contexts"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-generating-ideas",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02",
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "development of reasoned design criteria that include sustainability; proficient creation, adaptation and refinement of comprehensive design ideas, processes and solutions based on analysis of needs or opportunities",
+        "B": "development of effective design criteria that include sustainability; informed creation, adaptation and refinement of effective design ideas, processes and solutions based on analysis of needs or opportunities",
+        "C": "development of design criteria that include sustainability; creation, adaptation and refinement of design ideas, processes and solutions based on analysis of needs or opportunities",
+        "D": "guided development of design criteria that include sustainability; partial creation, adaptation and refinement of simple design ideas, processes and solutions based on analysis of needs or opportunities",
+        "E": "directed development of design criteria that include sustainability; fragmented creation, adaptation and refinement of basic design ideas, processes and solutions based on needs or opportunities"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-generating-communicate",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P02"
+      ],
+      "descriptors": {
+        "A": "communication of comprehensive design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "B": "communication of effective design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "C": "communication of design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "D": "communication of superficial design ideas, processes and solutions to a range of audiences, including using digital tools",
+        "E": "communication of fragmented design ideas, processes and solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P03"
+      ],
+      "descriptors": {
+        "A": "purposeful selection and use of technologies to proficiently, skilfully and safely produce designed solutions",
+        "B": "effective selection and use of technologies to effectively, skilfully and safely produce designed solutions",
+        "C": "selection and use of technologies to skilfully and safely produce designed solutions",
+        "D": "simple selection and use of technologies to safely produce simple designed solutions",
+        "E": "basic selection and use of technologies to safely produce basic solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDE10P04"
+      ],
+      "descriptors": {
+        "A": "discerning justification of decisions against developed design criteria that include sustainability",
+        "B": "logical justification of decisions against developed design criteria that include sustainability",
+        "C": "justification of decisions against developed design criteria that include sustainability",
+        "D": "partial justification of decisions against aspects of developed design criteria that include sustainability",
+        "E": "statement/s about design decisions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "de910-se-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDE10P05"
+      ],
+      "descriptors": {
+        "A": "independent and collaborative: proficient development of production and project management plans; proficient application of production and project management plans, adjusting processes when necessary.",
+        "B": "independent and collaborative: effective development of production and project management plans; effective application of production and project management plans, adjusting processes when necessary.",
+        "C": "independent and collaborative development and application of production and project management plans, adjusting processes when necessary.",
+        "D": "independent and collaborative: partial development of production and project management plans; partial application of production and project management plans, adjusting processes when necessary.",
+        "E": "independent and/or collaborative: fragmented development of production and project management plans; fragmented application of production and project management plans, adjusting processes when necessary."
+      },
+      "enabled": false
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-c233aea1",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-6452cf2f",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-8e7c5eb6",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-0d2644d5",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-643362f6",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-3303e8d9",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-54217673",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-4fe8a505",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-d82d45e3",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-5af2b256",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-718fcd19",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-559b19cf",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-83a25ef2",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-f04fd51c",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-a4868822",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-dc70a7c5",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-c1a64220",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-5b11094d",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

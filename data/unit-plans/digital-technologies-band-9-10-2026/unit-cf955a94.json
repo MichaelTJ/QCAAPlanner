@@ -1,0 +1,854 @@
+{
+  "id": "unit-cf955a94",
+  "levelPlanId": "digital-technologies-band-9-10-2026",
+  "yearLevel": {
+    "value": "10",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 7,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Option a) IOT",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as micro-controllers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+    "aiNotes": "Design a smart system for a house/ag piece of land/city",
+    "lastGenerated": "2026-07-14T01:27:13.406Z"
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The Years 9–10 cohort consists of a diverse group of boys with a wide range of digital competencies, from students with strong technical skills and personal interest in IT, to those who require further support to confidently engage with digital systems. Many students come from regional or rural backgrounds, where access to structured digital learning opportunities may have been limited. The program is designed to build on prior knowledge while introducing more advanced and applied skills relevant to future study and employment. The curriculum supports the school’s priority to equip students with transferable digital skills, critical thinking abilities, and an understanding of ethical technology use in a rapidly changing world.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-fd8ac600",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "10",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Smart systems",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as microcontrollers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+        "aiNotes": "In this unit, students apply systems thinking to design an Internet of Things (IoT) solution for a local context, such as smart agricultural monitoring or intelligent residential resource management. Students investigate the interaction between hardware components, such as micro-controllers and sensors, and software platforms to manage, transmit, and visualise data. They develop user stories and design criteria to guide their problem-solving, applying computational thinking to decompose system requirements, design communication protocols, and validate algorithms for automated decision-making. Students address security and privacy by developing threat models for their system and applying the Australian Privacy Principles. The unit emphasises iterative prototyping, where students test, debug, and refine their IoT solutions, evaluating the effectiveness of their design decisions against the original user requirements and the potential long-term impacts of their system.",
+        "lastGenerated": "2026-07-14T01:28:03.797Z"
+      },
+      "technique": {
+        "value": "Investigation",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Written",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:28:21.464Z"
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Years 9–10 cohort to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing (Week 7):** Professional dialogue sessions where staff review student work samples to verify the application of assessment criteria and ensure alignment with the expected standards.\n*   **Cross-marking (Week 9):** Departmental blind marking of a representative sample of student IoT solutions to validate the accuracy of grading and provide equitable feedback.\n*   **Standardisation:** Review of task specifications and marking guides prior to implementation to ensure clarity and shared understanding of evidence requirements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:33:56.441Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-d683baf8",
+          "strand": {
+            "value": "Digital systems",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "investigate how hardware and software manage, control and secure access to data in networked digital systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-47e22ca8",
+          "strand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop techniques to acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-66eefb1f",
+          "strand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and visualise data interactively using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends and outliers",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8c434f08",
+          "strand": {
+            "value": "Acquiring, managing and analysing data",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "model and query entities and their relationships using structured data",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-234252c2",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d5a744ac",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e96d9ae0",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "validate algorithms and programs by comparing their output against a range of test cases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b2ce3908",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design and prototype the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-88e23c13",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f1176dce",
+          "strand": {
+            "value": "Privacy and security",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply the Australian Privacy Principles to critique and manage the digital footprint that existing systems and student solutions collect",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P14",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-9aec0b1f",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Develop questions; Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Draw conclusions and provide reasons; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": true,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": true,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-50a90641",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Practising digital safety and wellbeing: Manage digital privacy and identity\nInvestigating: Acquire and collate data; Interpret data\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": true,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-950c8737",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Examine values, rights and responsibilities, and ethical norms\nResponding to ethical issues: Make and reflect on ethical decisions",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": true
+      }
+    },
+    {
+      "id": "ucap-9835b1fb",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-2660dc03",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-6e043f7f",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Number and place value\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating; Measuring time\nStatistics and probability: Interpreting and representing data",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": true,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": true,
+        "num-chance": false,
+        "num-data": true
+      }
+    },
+    {
+      "id": "ucap-59b80749",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-management: Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-0a72c237",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the IoT landscape through case studies of smart farming and residential automation, identifying key system components. Teachers guide students through the distinction between sensors (input), microcontrollers (processing), and connectivity modules (transmission). Discussion focuses on the local context of Yeppoon, exploring how IoT can address resource management challenges in a regional setting.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample IoT hardware kits (microcontrollers, breadboards, sensors), diagramming software, case study articles on agricultural IoT, system-thinking worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The Internet of Things is defined as a network of physical objects embedded with sensors and software that exchange data. Explicit instruction covers the architecture of IoT systems: the physical layer (sensors/actuators), the network layer (transmission protocols), and the application layer (visualisation). Students examine how data is transformed from raw electrical signals into actionable information. The lesson emphasizes systems thinking, teaching students to view an IoT solution as an integrated chain rather than isolated hardware units.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a hardware audit, identifying various sensor types (temperature, moisture, motion, light) and discussing their specific use cases in local monitoring systems. Practical activities include mapping out the flow of data within a simple smart-home scenario, from the initial trigger (e.g., light sensor) to the final output (e.g., automated curtain or light). They annotate diagrams to label components and estimate power requirements for different hardware configurations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Student-led concept mapping of a proposed IoT system to gauge understanding of system architecture and component interaction.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the Internet of Things (IoT) landscape, exploring how connected devices, sensors, and controllers interact within intelligent systems. They investigate local contexts such as smart agriculture or residential management to frame their investigation, identifying the hardware components required for data acquisition and transmission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-3c46c639",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to computational thinking through problem decomposition. Students select a specific local problem to address, such as soil moisture monitoring for gardens or electricity usage alerts in residential areas. They develop detailed user stories and design criteria, translating these into technical requirements that dictate the inputs, processes, and outputs for their system.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design brief templates, user story worksheets, research prompts, collaborative whiteboards for system mapping.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching introduces the process of problem decomposition, where complex systems are broken into functional modules. Students learn the 'user story' format (As a [user] I want to [goal] So that [value]) to define system objectives clearly. The theory component addresses the importance of setting measurable design criteria to validate a solution's success later. Students are taught how to map system requirements to specific hardware capabilities, ensuring their proposed logic aligns with the project scope.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students write project proposals using a structured design brief template. They create a 'Requirements Table' where they map specific user goals to required sensor inputs and logic processes. Working in groups, they interview peers to refine their user stories, ensuring the system definition is specific enough to guide development. Students draft a logic-based overview of their system, categorising components into hardware needs and software processing tasks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the 'System Design Brief'—a draft document outlining project scope, user stories, and hardware requirements for the summative investigation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to computational thinking as students decompose their chosen IoT problem into manageable system requirements. They develop user stories and design criteria, translating these into clear problem definitions that outline the necessary inputs, processes, and outputs for their automated system.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-5f269c49",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin the integration of software and hardware, exploring how microcontrollers (e.g., Arduino or MicroPython-based boards) process real-time data. They model communication protocols, considering how sensors transmit data and how this is processed to trigger automated actions. Practical sessions involve testing sensor responsiveness to calibrate data inputs for their chosen system logic.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Microcontrollers (e.g., ESP32/Arduino), sensors, IDE (e.g., Arduino IDE or Thonny), logic flowchart software, serial monitor guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching explores the role of microcontrollers in IoT systems and the fundamental communication protocols like I2C, SPI, and GPIO. Students are introduced to the concept of the 'event loop'—how programs continuously scan for sensor triggers to automate decision-making. The theory discusses data sampling rates and the necessity of data cleaning to ensure system reliability. Students also examine the difference between local versus cloud-based data storage for their target solution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up development environments and conduct 'Hello World' tests for their chosen sensors, confirming data is captured correctly by the microcontroller. They draft pseudocode and logic flowcharts that describe how the system should react to threshold-based inputs (e.g., 'If moisture < 20% then turn on relay'). Students experiment with serial monitoring to observe live data streaming, debugging basic connection issues as they arise.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Practical 'sensor verification' check—students demonstrate their ability to capture and output accurate data from their chosen sensors via a serial console.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the interaction between software platforms and hardware, specifically focusing on microcontrollers and sensor integration. They begin modelling system communication protocols and logic, establishing how data will be captured, processed, and transmitted across a network.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-ffadc9e3",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from hardware setup to algorithmic design, mapping their system’s decision-making processes. Lessons cover the logical flow required to process sensor inputs, such as conditional branching for automated actions. Students work collaboratively to sketch system logic, refining their pseudocode to handle both standard operation and potential edge-case sensor readings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowcharting software (e.g., Lucidchart or diagrams.net), pseudocode templates, logic design rubrics, exemplar flowcharts for automated systems.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on representing logic through flowcharts and pseudocode as a precursor to coding. Students explore control structures such as if-then-else statements, loops, and variable states within an IoT context. The lesson emphasises abstraction, showing how to decouple the physical sensor trigger from the high-level logic. Students are taught how to validate their algorithms against the design criteria developed in Week 2, ensuring that every defined user goal has a clear, executable path.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop formal flowcharts for their IoT system using industry-standard notation. They then translate these flowcharts into structured pseudocode that reflects the logic of their chosen microcontroller environment. Practical activities involve a 'walk-through' where students trace their algorithm with sample data to ensure the logic effectively manages inputs and avoids system deadlocks. They document these designs in their portfolio as a blueprint for the coming coding phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Peer review of algorithmic flowcharts to check for logic errors and alignment with system requirements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus turns to algorithmic design, where students represent their system’s decision-making processes using flowcharts and pseudocode. They validate these algorithms against their design criteria, ensuring the logic can handle potential sensor inputs and generate appropriate automated responses.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-d13a7e61",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to cybersecurity, where students perform a threat model analysis on their IoT project. Lessons examine common vulnerabilities in connected systems, such as unsecured data transmission and physical hardware tampering. Students apply the Australian Privacy Principles to justify how they manage and protect user data within their project architecture.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Australian Privacy Principles fact sheets, threat modelling templates, case studies on IoT security breaches, risk matrix worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction introduces the concept of an IoT threat model, focusing on the triad of confidentiality, integrity, and availability. Students learn about supply chain vulnerabilities—the risks introduced by third-party hardware or software components. The theory component covers the Australian Privacy Principles (APPs), specifically regarding data collection, notice, and security. Students discuss how to mitigate identified risks, such as implementing encryption or localising data storage to minimise privacy exposure.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a security and privacy audit of their proposed systems. They identify potential threat vectors (e.g., unauthorised access to the sensor node) and create a risk matrix detailing mitigation strategies. In small groups, they document how their system complies with the APPs regarding data handling. They draft a 'Privacy and Security statement' for their project, identifying where data is stored, who can access it, and how it is secured against intrusion.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a 'Threat Model and Privacy Audit' document that identifies at least three system risks and provides corresponding mitigation strategies.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct a security and privacy audit of their proposed solution by developing a comprehensive threat model. They analyse potential supply chain vulnerabilities and evaluate how their system design incorporates the Australian Privacy Principles to protect sensitive user data.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-25fbe4e1",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students commence the iterative prototyping phase by writing and deploying code to their hardware. The focus is on the integration of sensors with the microcontroller, ensuring that data is consistently captured and transmitted to a central dashboard. Students practise debugging by monitoring serial outputs and refining their code to handle intermittent connectivity issues.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "IDE (Arduino IDE or Thonny), hardware kits, serial monitoring tools, git or shared file storage for version control, debugging checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers object-oriented programming (OOP) principles as applied to microcontroller firmware. Students learn to structure their code into classes and methods to manage different system components, such as a 'Sensor' class or a 'DataTransmitter' class. This promotes modularity, making it easier to debug specific sections of the system. The theory explores the impact of network latency on data flow and strategies for managing reliable transmission between the edge device and the cloud platform.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students begin the coding phase, implementing their logic from Week 4 into an object-oriented programming language like C++ (Arduino IDE) or MicroPython. They perform 'smoke tests' to verify hardware connectivity and troubleshoot errors in real-time using serial debuggers. Lessons are dedicated to iterative testing, where students make incremental code adjustments, test the sensor feedback, and document the results in a digital logbook to track their progress and solutions to technical hurdles.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: A 'Prototyping Logbook' check, assessing progress in implementing code, evidence of debugging efforts, and successful data transmission tests.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students begin the iterative prototyping phase, implementing their logic using appropriate object-oriented programming languages. They focus on establishing reliable connectivity between the hardware interface and the software monitoring platform to ensure data flow remains consistent.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-8c29ce98",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the transformation of raw sensor data into actionable insights through dashboard configuration. They compare their prototype's performance against the initial design specifications developed in Week 2, identifying gaps in system accuracy or responsiveness. Through iterative testing, students observe real-world data patterns and learn to interpret visualisations to make informed adjustments to their system's logic and data collection intervals.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "IoT dashboard platforms (e.g., Adafruit IO/ThingSpeak), sensor calibration spreadsheets, system logbooks, iterative testing templates, network connectivity guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "This week focuses on data visualisation principles and the role of dashboards in IoT systems. Explicit teaching covers how to map raw data variables to meaningful visual representations, such as gauges, graphs, and alert triggers. Students learn the importance of 'data latency' and how display updates relate to the underlying communication protocols established earlier. Theoretical discussion includes the criteria for a 'successful' system performance: accuracy, real-time feedback, and usability for the end-user.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students configure cloud-based dashboard services (e.g., Adafruit IO or ThingSpeak) to visualise their microcontroller inputs. They create custom interfaces that display sensor data and test the system's reaction to environmental changes. Practical lessons include rigorous testing of data logging, where students verify that their system correctly handles both 'normal' operating conditions and 'outlier' data, refining their code to ensure consistency in the output interface.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: 'Dashboard Readiness Check' where students demonstrate a working visualisation link that correctly maps at least three distinct data streams from their hardware.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week focuses on data visualisation and refinement, where students configure dashboards to transform raw sensor data into actionable insights. They test and debug their prototypes, comparing actual system performance against the original user requirements and design specifications.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-117fbc2a",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct comprehensive reliability testing, focusing on how their systems handle edge cases such as sudden network drops, power loss, or extreme sensor input values. The focus is on 'robustness'—ensuring that the system recovers gracefully and maintains data integrity. Students document their debugging journey, focusing on how they have modified their initial algorithms to account for the variability inherent in a local, regional environment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Troubleshooting rubrics, debugging logs, simulation prompts for fault testing, code modularity checklists, revision and refinement worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory focuses on error handling and fault tolerance in autonomous IoT systems. Students examine how to program for 'resilience,' including the use of watchdog timers, state-checking, and default 'safe-mode' logic if a sensor fails. Explicit teaching covers debugging methodology: the systematic isolation of hardware faults versus software logic errors. Students reflect on why systems rarely function perfectly in the field and the necessity of 'failing safely' in critical monitoring infrastructure.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students subject their prototypes to simulated stressors, such as disconnecting the network mid-stream or manually triggering sensor threshold extremes. They refine their code to include logic for data buffering during network outages and automated reconnection sequences. Practical time is dedicated to finalising the code documentation, ensuring that all debugging steps are recorded for their summative investigation portfolio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: 'Robustness Test' observation—students present a scenario where they simulate a system failure (e.g., network disconnect) and demonstrate the system’s ability to handle the error and recover automatically.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in robust testing of their IoT solutions, focusing on system reliability and edge-case handling. They document the debugging process and refine their algorithms, ensuring the solution is robust enough to manage real-world variability in the chosen local context.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-c9967221",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week is dedicated to the synthesis and finalisation of the 'Smart Systems' investigation. Students compile their design portfolio, which includes their initial problem definition, technical documentation, security audit, and final code implementation. They conduct a final holistic evaluation of their solution's effectiveness, contrasting the prototype’s output with the original project goals and discussing the broader implications of their technology.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Investigation submission templates, reflection prompts, final presentation structure guides, assessment rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students engage in final evaluative analysis, discussing the 'impact' dimension of digital systems. Theory sessions cover how to assess a project's long-term viability, potential for scaling, and ethical considerations regarding data long-term storage. Students are guided on how to construct a professional, evaluative report that supports their investigation findings with clear evidence from their testing logs, ensuring they meet all required criteria for the final summative assessment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "The primary focus is on assembly of the final submission: the design portfolio and the working prototype demonstration. Students structure their evidence into a cohesive digital document or presentation that clearly highlights the iterative journey from design to deployment. They conduct final 'dry runs' of their demonstration to ensure all software and hardware components are communicating seamlessly for the summative assessment sign-off.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the 'Smart Systems' Investigation Portfolio, including project rationale, hardware/software design documentation, security analysis, and evaluation of system effectiveness against the initial user requirements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Finalisation of the 'Smart Systems' investigation occurs, with students synthesising their design portfolio, codebase, and evaluative findings. They conduct a final assessment of their solution’s effectiveness and potential long-term impacts, ensuring all elements align with the investigation's criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    },
+    {
+      "id": "week-d2266334",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week centres on the formal presentation and critical evaluation of the 'Smart Systems' project. Students deliver a pitch of their IoT solutions, highlighting the technical implementation and the degree to which their system met the initial user stories and design criteria defined in Week 2. Collaborative reflection sessions allow students to critique the effectiveness of their design decisions and discuss the broader societal impacts and ethical implications of widespread IoT implementation within a community context.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Presentation templates, project evaluation rubrics, reflective writing guides, peer-critique frameworks, summary feedback sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the 'Evaluation' phase of the design process, emphasising how to critically measure project success against predefined constraints and user requirements. Students explore the concept of technical debt and long-term maintenance in IoT systems, reflecting on why initial prototypes often require iteration to reach professional-grade performance. Theoretical discussion also covers the wider societal implications of automated monitoring, including digital equity and the unintended consequences of data-driven decision-making in regional settings.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students deliver their final project presentations, demonstrating the functionality of their IoT hardware and the clarity of their data dashboards. Following presentations, students write a formal reflection on their project lifecycle, explicitly mapping their final results back to their original design criteria and documenting key technical lessons learned. Students work in small peer-critique groups to discuss the scalability and potential future improvements of their solutions, ensuring they have documented all necessary feedback for their summative portfolio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final reflection and project presentation assessment, evaluating the quality of the student's critical analysis and their ability to articulate the relationship between design intent and system outcome.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students present their IoT solutions and conduct a reflective evaluation of the project lifecycle. They critique their design decisions against the initial user stories and discuss future improvements, concluding the unit by assessing the broader societal impact of their implemented digital system.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T01:39:45.240Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

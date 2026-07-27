@@ -1,11 +1,16 @@
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { buildUnitPlanBundleZip } from '$lib/export/faculty-bundle';
+import { unitPlanExportFolderName } from '$lib/export/export-filenames';
+import { getUnitPlan } from '$lib/server/data';
 
 export const GET: RequestHandler = async ({ params }) => {
 	try {
+		const unit = await getUnitPlan(params.levelPlanId, params.unitId);
+		if (!unit) error(404, 'Unit plan not found');
+
 		const buffer = await buildUnitPlanBundleZip(params.levelPlanId, params.unitId);
-		const filename = `${params.unitId}-bundle.zip`;
+		const filename = `${unitPlanExportFolderName(unit)}-bundle.zip`;
 
 		return new Response(new Uint8Array(buffer), {
 			headers: {

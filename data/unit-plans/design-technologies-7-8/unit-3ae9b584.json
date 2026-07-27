@@ -1,0 +1,797 @@
+{
+  "id": "unit-3ae9b584",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": "7",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 2,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Dustpan",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students investigate the characteristics and functional properties of sheet metal within the Materials and Technologies specialisations context. They explore the environmental impacts of metal production, specifically examining the galvanising process and the role of recycling in achieving sustainable designed solutions. Students develop essential graphical representation skills through a technical drawing booklet, mastering isometric and orthogonal techniques to communicate design ideas with precision, scale, and appropriate technical terminology.\n\nWorking in a workshop environment, students identify and apply safe working procedures to manage the production of a sheet metal dustpan. They demonstrate technical competence in marking out, cutting, folding, and joining materials using a range of specialised tools and equipment. Throughout the 10-week cycle, students develop project management skills and evaluate their manufacturing processes and final products against design criteria, considering the efficiency and durability of their solutions for a preferred future.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-c11c8ab2",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "7",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Sheet Metal Dustpan Design and Production Project",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students document the investigation, design, and manufacture of a functional sheet metal dustpan within a technical folio and physical prototype. They apply graphical representation techniques to communicate design ideas and demonstrate technical competence in marking out, cutting, folding, and joining galvanised steel using specialised workshop equipment. The project requires students to justify material selections based on sustainability factors and evaluate the final solution against established design criteria.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Technical folio: 5–8 A4 pages (or equivalent digital media) including technical drawings, sustainability investigation, and evaluation\n• Physical product: One functional sheet metal dustpan\n• Technical drawings: Manual or CAD-generated orthogonal and isometric projections to scale\n• Supervision: Completed in class under teacher supervision to ensure authenticity and workshop safety\n• Access: Use of specialised workshop hand tools and machinery (guillotine, panbrake, folder, and spot welder)\n• Evidence: Students must submit a completed production log and evidence of marking out prior to fabrication",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:04:51.232Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:05:39.385Z"
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process involves:\n\n*   **Progress Monitoring (Week 6):** Review of student technical drawing booklets and initial sheet metal marking out to ensure accuracy and adherence to safety protocols prior to the assembly phase.\n*   **Cross-marking:** Comparative assessment of the manufactured dustpans and folio evaluations to verify the objective grading of technical skills (cutting, folding, joining) and the justification of material choices.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:07:49.579Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-5eca1397",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0c4c0daf",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d249779d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6c4902a6",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2c50b1a5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c80d36ef",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6f5b9d89",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-85254bf5",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-7b043a9e",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Managing and operating: Manage content; Protect content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": true,
+        "dl-managing-protect": true,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-ef6208bf",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Responding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-4f56a04e",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-24c8e591",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-8bbff959",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Counting processes; Additive strategies; Proportional thinking\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": true,
+        "num-additive": true,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": true,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-4f28a588",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-63246659",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the workshop environment and the specific safety requirements of sheet metal fabrication. Through the OnGuard safety induction program, they establish a baseline of Work Health and Safety (WHS) protocols essential for vocational learning. The week includes an initial exploration of project requirements and the material properties of galvanised steel. Students begin Technical Drawing Module 1, establishing foundational skills in graphical communication and technical lettering.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety Training software, Technical Drawing Module 1 booklet, 0.6mm galvanised steel samples, drafting equipment, Design Folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on WHS legislation and the personal responsibility of students within a manufacturing environment. Students investigate the characteristics of galvanised steel, specifically the protective zinc coating and its suitability for functional household items. Theory sessions introduce the conventions of Technical Drawing Module 1, explaining the importance of line types, scale, and clarity in engineering documentation. Discussion centres on how safety inductions mitigate risk when handling sharp materials and operating workshop machinery.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete mandatory OnGuard safety modules and undergo a physical workshop orientation to identify emergency stops and safety zones. Practical activities involve the commencement of the Technical Drawing Module, where students practice manual drafting techniques using HB pencils and rulers. They conduct a material investigation, handling samples of galvanised steel to understand its gauge and flexibility. Students set up their design folios and record initial project constraints and design criteria.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative completion of OnGuard safety certificates; teacher observation of drawing accuracy and folio setup.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the workshop environment and essential Work Health and Safety (WHS) protocols specific to sheet metal fabrication. They complete mandatory OnGuard safety inductions and begin Technical Drawing Module 1 to establish foundational graphical communication skills. The week focuses on understanding project requirements and the specific properties of galvanised steel used in the dustpan construction.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-8ed8b9a7",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to the interpretation of technical data and the translation of 2D engineering drawings into physical components. Students learn to identify specialised metalworking tools and the importance of precision during the marking-out phase. They apply these skills to their workpieces, ensuring that all dimensions for the dustpan body and handle are accurately transferred. This week emphasises the critical link between technical documentation and production accuracy.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering drawings, scribes, engineers' squares, steel rulers, 0.6mm galvanised steel sheet, blue layout fluid or permanent markers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on reading and interpreting engineering drawings, with a specific emphasis on dimensioning, symbols, and fold indications. Students are introduced to the purpose and function of specialised tools including scribes, engineers' squares, and steel rulers. Theory activities cover the mathematical requirements for marking out, including calculating allowances for hems and joints. Students explore how datum edges are used as a reference point to maintain geometric accuracy across multiple components.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in precision marking out on galvanised sheet metal for both the dustpan body and the handle. Using scribes and engineers' squares, they transfer dimensions from their technical drawings onto the metal surface, ensuring all lines are crisp and perpendicular. They practice identifying and marking the specific locations for folds and notches. Students verify their measurements against the engineering drawing before any material removal takes place to minimise waste.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of marking-out accuracy on the metal sheet against the engineering drawing specifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The teaching arc focuses on interpreting engineering drawings, including the analysis of dimensions, symbols, and material specifications. Students identify specialised metalworking tools and apply precision marking-out techniques to the galvanised sheet metal for both the body and handle. Accuracy is emphasised as students translate 2D technical data onto the physical material using scribes and engineers' squares.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-5fda9888",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students develop technical competence in the safe cutting and preparation of sheet metal components. They learn to select and use appropriate hand tools for different types of cuts, focusing on the mechanics of tin snips and bench shears. Safety remains a priority as students manage the risks associated with sharp edges and swarf. The week concludes with edge treatment and preparation, ensuring all components are safe for the folding process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Straight and offset tin snips, bench shears, flat metal files, PPE (gloves and safety glasses), deburring tools.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions focus on identifying hazards specific to sheet metal work, such as lacerations from sharp edges and the safe management of offcuts. Students investigate the mechanics of cutting tools, comparing the uses of straight-cut, left-cut, and right-cut tin snips. They learn the terminology of edge preparation, including 'chamfering' and 'deburring', and why these processes are vital for quality control. Risk management strategies are discussed in the context of using heavy bench shears and manual handling.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform cutting operations on their marked-out sheet metal using straight and offset tin snips. They operate bench shears under direct supervision to make long, straight cuts for the dustpan body. Following the cutting phase, students use flat files to deburr all edges and create 45-degree chamfers on corners as per the design specifications. This practical application ensures all components are smooth to the touch and ready for the next stage of fabrication.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of cutting precision and the quality of edge finishing/deburring.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students develop technical competence in cutting and preparing sheet metal using tin snips and bench shears while adhering to safe workshop practices. They learn to create chamfers and deburr edges to ensure the safety and quality of the components. Theory activities focus on identifying workshop hazards and managing risks associated with sharp materials and manual tools.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-08787b7d",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the transformation of their 2D sheet metal into a 3D form through the mechanics of folding. They learn the critical importance of folding sequences to prevent the workpiece from becoming trapped within the machinery. The week begins with the formation of 'safety edges' (hems) to provide structural rigidity and user safety, followed by the primary structural folds of the dustpan body. Students engage in iterative quality checks, using precision measuring tools to ensure the geometric accuracy of the form aligns with the original engineering drawings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pan Brake, Magna Bender, engineers' squares, protractors, 0.6mm galvanised steel workpieces, safety glasses, and gloves.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction covers the principles of metal deformation, specifically the distinction between elastic and plastic deformation when working with 0.6mm galvanised steel. Students investigate the mechanical operation of the Pan Brake and the electromagnetic clamping system of the Magna Bender. They learn about bend allowances and the impact of 'spring-back' on dimensional accuracy. Explicit teaching focuses on how hems increase the moment of inertia in sheet metal components, significantly enhancing the product's resistance to bending and impact during use.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students operate the Pan Brake to create 6mm safety hems on the front and side edges of the dustpan body. They then transition to the Magna Bender to execute the main 90-degree folds that define the tray's depth and volume. Throughout the process, students use engineers' squares and protractors to verify that all folds are perpendicular and consistent with the design specifications. They document any deviations in their design folio, reflecting on how machine settings influenced the final physical geometry.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of folding accuracy, specifically the tightness of safety hems and the squareness of the main body folds against the drawing specifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction centres on the mechanics of metal deformation using the pan brake and Magna Bender to form the dustpan body. Students demonstrate safe machine operation to create safety edges and main structural folds according to their engineering drawings. They conduct iterative checks to ensure the geometric accuracy of the folded form meets established design criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-cff62c03",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to handle fabrication and the integration of components using various joining techniques. Students explore ergonomic design by shaping the handle to suit the human hand, ensuring the dustpan is functional and comfortable. They are introduced to the technical requirements of both permanent and semi-permanent joining, focusing on the safe application of spot welding and mechanical fastening. This week emphasises structural integrity, requiring students to ensure that the handle-to-body connection is robust enough to withstand repetitive lifting and weight loads.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Resistance spot welder, cordless drills, HSS drill bits, mandrels, round stakes, scrap galvanised steel for testing, and PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate the science of resistance spot welding, learning how pressure and electrical current create a localised fusion between steel sheets without the need for filler rods. They explore the ergonomics of handle design, considering grip diameter and leverage points for optimal user control. Instruction also covers the selection of appropriate drill bits for metalwork and the high-torque, low-speed requirements for drilling galvanised steel with cordless drivers. Discussions include the ethical considerations of product durability and the impact of joint failure on a product's lifecycle.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students mark and fold the handle component, using manual stakes or mandrels to achieve the desired ergonomic curve. They use cordless drills to create pilot holes for alignment before moving to the spot welder. Under close supervision, students perform test welds on scrap material to calibrate the machine's timing and pressure settings. Once verified, they join the handle to the dustpan body, ensuring perfect central alignment and checking the strength of the resulting fusion through visual and physical inspection.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of spot weld integrity (nugget size and fusion) and the ergonomic alignment of the handle relative to the body.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students transition to handle construction, learning to shape and fold components into functional ergonomic forms. They are introduced to permanent and semi-permanent joining methods, including the safe use of the spot welder and cordless drills for assembly. The focus remains on maintaining structural integrity and alignment when securing the handle to the main body.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-ae999117",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week serves as a bridge between physical production and professional graphical communication. While finishing the physical assembly, students begin translating their three-dimensional prototype back into a technical format through isometric drawing. They focus on refining the finish of their steelwork, removing any burrs or marks from the manufacturing process. Simultaneously, they develop precision in their technical lettering, ensuring that all documentation meets industry standards for clarity and professionalism.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Technical Drawing Booklet, 30/60-degree set squares, HB and 2H pencils, ball-peen hammers, fine metal files, and emery cloth.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions introduce the conventions of isometric projection, specifically the use of 30-degree axes to represent three-dimensional objects on a two-dimensional plane. Students learn the difference between isometric and perspective drawings, focusing on the preservation of scale along the primary axes. Explicit instruction is provided on 'Style A' technical lettering, highlighting the requirements for consistent height, slope, and spacing to ensure engineering notes are legible. Students also discuss quality control measures for finishing metal, such as the use of fine files and emery cloth.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the final assembly of their dustpan, using ball-peen hammers to tidy any mechanical joints and fine files to ensure a smooth, professional finish. In the drawing lab, they begin an isometric projection of their completed dustpan in the Technical Drawing Booklet, using 30/60-degree set squares to maintain axis accuracy. They practice formal technical lettering to complete the title blocks and annotations on their drawings. This dual focus ensures the physical product and its technical documentation are of equal, high-quality standard.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the isometric drawing's technical accuracy (axis alignment and scale) and the final assembly finish of the physical dustpan.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Workshop time is dedicated to completing the physical assembly and making necessary adjustments to improve the dustpan’s strength and finish. Students simultaneously progress their graphical representation skills by focusing on isometric drawing techniques and formal technical lettering. This week bridges the gap between manual production and the communication of three-dimensional forms.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-254e7be3",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the material science of ferrous metals, focusing on the chemical process of corrosion and the engineering logic behind galvanisation. They investigate why specific material finishes are selected for household tools and how these choices impact product longevity. Using their Technical Drawing Module, students apply precise annotations to communicate the functional properties of the materials used in their dustpan construction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Galvanised and mild steel samples, magnifying glasses, Technical Drawing Module, material property data sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the electrochemical process of oxidation and the role of zinc in providing sacrificial protection to steel substrates. Students learn how galvanising creates both a physical barrier and a galvanic cell where the zinc corrodes in preference to the steel. Instruction covers the importance of material selection in meeting functional requirements, specifically focusing on durability in high-moisture or abrasive environments. Students also learn the conventions of technical annotation, specifically how to link material properties to design justifications within a technical drawing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a comparative investigation using samples of mild steel and galvanised steel to observe surface differences and discuss corrosion resistance. They refine their Technical Drawing Module by adding detailed annotations that specify material gauges and the benefits of the zinc coating. In the workshop, students perform a surface integrity check on their dustpan bodies, ensuring that the galvanised layer has not been compromised during the folding or joining phases. They document these findings in their design folios to support their material selection justification.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the Technical Drawing Module annotations and the material science investigation worksheet.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the material science behind the project, specifically exploring why steel corrodes and how the galvanising process provides protection. They complete theory modules on zinc coatings and sacrificial protection while refining their Technical Drawing Module with precise annotations. This investigation helps students justify material selection based on durability and functional properties.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-7b108a56",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The teaching arc moves into the broader context of sustainability and the circular economy within the steel industry. Students investigate the lifecycle of steel, comparing the environmental costs of primary production with the efficiencies of recycling. This conceptual learning is balanced with advanced graphical tasks, as students represent their assembled dustpan through complex isometric projections that demonstrate their ability to communicate 3D forms.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Isometric grid paper, 30/60-degree set squares, lifecycle analysis templates, sustainability case studies on the Australian steel industry.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction covers the lifecycle of steel products, from iron ore extraction and blast furnace production to the Electric Arc Furnace (EAF) recycling process. Students explore the concept of 'cradle-to-cradle' design and why steel is a premier material for a preferred future due to its 100% recyclability. Discussion includes the ethical and ecological implications of mining versus urban mining (recycling). Graphical theory focuses on representing assembly details in isometric projection, emphasizing how to show the intersection of the handle and body using 30-degree axes and consistent scale.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in a lifecycle mapping activity, documenting the energy inputs and environmental outputs of steel production in their design folios. In the drawing lab, they commence a formal isometric drawing of their completed dustpan assembly. This requires students to apply their knowledge of 30/60-degree set squares to maintain axis accuracy while representing the complex curves of the handle and the geometric volume of the tray. Shading techniques are introduced to enhance the three-dimensional realism of the drawing.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of isometric assembly drawings and the sustainability lifecycle map within the folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The teaching arc explores the lifecycle of steel, focusing on the environmental benefits of recycling and the sustainability of metal production. Students consider the ethical and ecological implications of material use in modern manufacturing. Practical drawing tasks escalate in complexity, requiring students to represent the assembled dustpan through detailed isometric projections.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-095e2437",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on project refinement and quality assurance, performing final inspections against the original manufacturing specifications. They address any aesthetic or functional inconsistencies in their work, moving from production to a professional standard of finish. This week ensures that all physical and digital components of the design project are prepared for final evaluation and submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Manufacturing specifications, fine-grade emery paper, metal cleaning agents, Design Folio templates, precision measuring tools (calipers and rulers).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching centres on Quality Control (QC) and Quality Assurance (QA) processes used in commercial manufacturing. Students learn how to evaluate a prototype against established design criteria and manufacturing tolerances. Instruction highlights the importance of the 'standard of finish' in product success, covering techniques for removing layout marks, heat tint from welding, and refining edge quality. Students also review the requirements for the final project evaluation, learning how to write objective reflections on their manufacturing efficiency and technical accuracy.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a rigorous quality audit of their dustpans, measuring final dimensions against the engineering drawings and testing joint strength. They use fine-grade emery cloth and metal cleaners to remove fingerprints, scuff marks, and permanent marker from the galvanised surface, ensuring a professional aesthetic. Practical time is also dedicated to finishing the Technical Drawing Booklet and ensuring all sections of the Design Folio, including the production log and sustainability justifications, are complete and professionally presented.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative quality audit checklist and completion check of the Technical Drawing Booklet.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in project refinement, conducting final quality inspections of their dustpans against the original manufacturing specifications. They address any outstanding manufacturing issues, improve the aesthetic finish of the steel, and complete all remaining theory and drawing documentation. This week emphasises attention to detail and the standard of finish required for a professional prototype.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    },
+    {
+      "id": "week-42c118ef",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conclude the unit by engaging in a formal evaluation of their physical dustpan and the associated technical documentation. They reflect on their individual project management throughout the 10-week cycle, identifying successes and challenges encountered during the manufacturing and assembly phases. The week focuses on the culmination of their design thinking, linking their practical outcomes to the theoretical concepts of sustainability, material performance, and technical accuracy. A peer-review gallery walk allows students to critique solutions against the established design criteria and functional requirements before the formal submission of their project package.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design evaluation templates, project marking rubric, digital cameras or tablets for documentation, submission checklists, and final folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of design evaluation and the importance of objective reflection in the iterative design process. Students learn how to measure product success by comparing final physical dimensions and functional performance against the original design constraints and industry-standard technical conventions. Instruction covers the structure of a formal evaluation, emphasising the need to justify manufacturing decisions and reflect on the impact of material selection on the product's lifecycle and environmental footprint. Discussion also centres on how safe production practices and project management strategies influenced the quality of the final prototype, preparing students for more complex design and technologies tasks in the 7–8 band.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve rigorous functional testing of the dustpan, specifically assessing the contact edge accuracy and the structural integrity of the joined components. Students capture high-quality photographic evidence of their completed work for inclusion in their digital design folio, ensuring all features are clearly documented. They complete a comprehensive self-assessment, providing written justifications for their manufacturing tolerances, aesthetic finish, and adherence to the technical drawing specifications. Final workshop time is dedicated to the organised collation and formal submission of the physical dustpan, the technical drawing booklet containing isometric and orthogonal projections, and the integrated design folio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative submission of the Sheet Metal Dustpan Design and Production Project, including the physical prototype, technical drawing booklet, and integrated design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "In the final week, students evaluate their completed dustpan based on its accuracy, function, and suitability for the intended purpose. They reflect on their project management, safe production processes, and the sustainability concepts explored throughout the unit. The unit concludes with the formal submission of the physical project, technical drawing booklet, and the integrated design folio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-26T11:12:15.816Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

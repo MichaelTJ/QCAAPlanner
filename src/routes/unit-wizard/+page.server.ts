@@ -1,10 +1,10 @@
 import { error } from '@sveltejs/kit';
 import {
 	CURRICULUM_PLAN_TYPE_LIST,
-	inferCurriculumPlanType,
-	inferCurriculumPlanTypeFromTitle
+	inferCurriculumPlanTypeFromTitle,
+	resolveFacultyCurriculumPlanType
 } from '$lib/curriculum/curriculum-catalogue';
-import { getFacultyIndex, getLevelPlan } from '$lib/server/data';
+import { getFacultyOverview, getLevelPlan } from '$lib/server/data';
 import {
 	inferWizardSubjectAndBand,
 	type WizardSubjectFamily,
@@ -20,6 +20,8 @@ function planTypeToSubjectBand(planType: string): {
 	switch (planType) {
 		case '7-8-digital-technologies':
 			return { subjectFamily: 'digital', yearBand: '7-8' };
+		case '7-8-design':
+			return { subjectFamily: 'design', yearBand: '7-8' };
 		case '9-10-digital-technologies':
 			return { subjectFamily: 'digital', yearBand: '9-10' };
 		case '9-10-design':
@@ -48,6 +50,8 @@ export const load: PageServerLoad = async ({ url }) => {
 		durationWeeks: number | null;
 	} | null = null;
 
+	const overview = await getFacultyOverview();
+
 	if (levelPlanId) {
 		const levelPlan = await getLevelPlan(levelPlanId);
 		if (!levelPlan) error(404, 'Level plan not found');
@@ -57,13 +61,17 @@ export const load: PageServerLoad = async ({ url }) => {
 		const slot = levelPlan.units[unitIndex];
 		if (!slot) error(404, 'Unit slot not found');
 
-		const faculty = await getFacultyIndex();
-		const row = faculty.rows.find((r) => r.id === levelPlanId);
+		const row = overview.find((r) => r.id === levelPlanId);
 		const fromFaculty =
-			row && inferCurriculumPlanType(row.learningAreaSubject, row.yearLevelBand);
+			row &&
+			resolveFacultyCurriculumPlanType(
+				row.learningAreaSubject,
+				row.yearLevelBand,
+				row.curriculumPlanType
+			);
 		const fromTitle =
 			inferCurriculumPlanTypeFromTitle(levelPlan.bandSubjectTitle.value) ||
-			inferCurriculumPlanType(
+			resolveFacultyCurriculumPlanType(
 				levelPlan.bandSubjectTitle.value,
 				String(slot.yearLevel.value || '')
 			);
@@ -98,6 +106,20 @@ export const load: PageServerLoad = async ({ url }) => {
 				text: d.text,
 				code: d.code
 			}))
+		})),
+		levelPlanOptions: overview.map((entry) => ({
+			id: entry.id,
+			title: entry.bandSubjectTitle,
+			learningAreaSubject: entry.learningAreaSubject,
+			yearLevelBand: entry.yearLevelBand,
+			curriculumPlanType:
+				resolveFacultyCurriculumPlanType(
+					entry.learningAreaSubject,
+					entry.yearLevelBand,
+					entry.curriculumPlanType
+				) || null,
+			unitCount: entry.units.length,
+			emptySlotCount: entry.units.filter((u) => !u.hasUnitPlan).length
 		})),
 		prefill
 	};

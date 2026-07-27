@@ -1,4 +1,5 @@
 import { normalizeYearBand } from '$lib/defaults';
+import type { CurriculumPlanTypeId } from '$lib/curriculum/curriculum-catalogue';
 
 export type CurriculumSubjectFamily = 'design' | 'digital' | 'engineering' | 'other';
 
@@ -17,12 +18,41 @@ function normalizeText(value: string): string {
 	return value.toLowerCase().replace(/–/g, '-').trim();
 }
 
+/** Subjects that share Design and Technologies achievement standards / CDs. */
+function isDesignSubjectAlias(value: string): boolean {
+	return (
+		value.includes('design') ||
+		value.includes('manual art') ||
+		value.includes('agriculture') ||
+		/\bagri\b/.test(value) ||
+		value.includes('industrial tech') ||
+		value.includes('materials design')
+	);
+}
+
 export function parseSubjectFamily(text: string): CurriculumSubjectFamily {
 	const value = normalizeText(text);
 	if (value.includes('engineering')) return 'engineering';
 	if (value.includes('digital')) return 'digital';
-	if (value.includes('design')) return 'design';
+	if (isDesignSubjectAlias(value)) return 'design';
 	return 'other';
+}
+
+export function curriculumMatchFromPlanType(
+	planType: CurriculumPlanTypeId
+): CurriculumMatchLabel {
+	switch (planType) {
+		case '7-8-digital-technologies':
+			return toLabel({ subjectFamily: 'digital', yearBand: '7-8' });
+		case '9-10-digital-technologies':
+			return toLabel({ subjectFamily: 'digital', yearBand: '9-10' });
+		case '7-8-design':
+			return toLabel({ subjectFamily: 'design', yearBand: '7-8' });
+		case '9-10-design':
+			return toLabel({ subjectFamily: 'design', yearBand: '9-10' });
+		case '10-engineering':
+			return toLabel({ subjectFamily: 'engineering', yearBand: '10' });
+	}
 }
 
 export function parseYearBandFromText(text: string): string {
@@ -48,8 +78,18 @@ export function yearBandFromYearLevel(yearLevel: number | ''): string {
 
 export function curriculumMatchFromFaculty(
 	learningAreaSubject: string,
-	yearLevelBand: string
+	yearLevelBand: string,
+	curriculumPlanType?: CurriculumPlanTypeId | string | null
 ): CurriculumMatchLabel {
+	if (
+		curriculumPlanType === '7-8-digital-technologies' ||
+		curriculumPlanType === '9-10-digital-technologies' ||
+		curriculumPlanType === '7-8-design' ||
+		curriculumPlanType === '9-10-design' ||
+		curriculumPlanType === '10-engineering'
+	) {
+		return curriculumMatchFromPlanType(curriculumPlanType);
+	}
 	const yearBand = normalizeYearBand(yearLevelBand) || parseYearBandFromText(yearLevelBand);
 	const subjectFamily = parseSubjectFamily(learningAreaSubject);
 	return toLabel({ subjectFamily, yearBand });
@@ -99,9 +139,14 @@ export function unitCompatibleWithFaculty(
 	unitSubject: string,
 	unitYearLevel: number | '',
 	learningAreaSubject: string,
-	yearLevelBand: string
+	yearLevelBand: string,
+	curriculumPlanType?: CurriculumPlanTypeId | string | null
 ): boolean {
-	const level = curriculumMatchFromFaculty(learningAreaSubject, yearLevelBand);
+	const level = curriculumMatchFromFaculty(
+		learningAreaSubject,
+		yearLevelBand,
+		curriculumPlanType
+	);
 	const unit = curriculumMatchFromUnit(unitSubject, unitYearLevel);
 	return curriculumKeysCompatible(level.key, unit.key);
 }

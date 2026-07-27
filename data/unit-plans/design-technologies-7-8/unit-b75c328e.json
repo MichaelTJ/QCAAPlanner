@@ -1,0 +1,815 @@
+{
+  "id": "unit-b75c328e",
+  "levelPlanId": "design-technologies-7-8",
+  "yearLevel": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Design Technologies",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "LED Light (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop foundation skills in workshop production, technical drawing and basic electronics through the manufacture of a handheld LED torch. Students interpret an engineering drawing, identify materials and components, and follow a planned production sequence to construct the torch from aluminium and hardboard Masonite.\n\nStudents learn about basic DC circuits, including voltage, current, resistance, conductors, insulators, switches, LEDs and batteries. They apply safe workshop practices while marking out, cutting, drilling, countersinking, filing, finishing and assembling their product. Sustainability is explored through the properties and recycling of aluminium, battery disposal and the responsible use of materials. Students test their completed torch and evaluate its function, finish and suitability for its intended user.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Students at St Brendan’s College operate within a diverse learning environment where practical, hands-on application is essential to engagement and skill acquisition. The Year 7–8 Design Technologies curriculum is structured to accommodate varying levels of prior experience with digital systems and manual production techniques. Learning experiences leverage the College’s commitment to vocational pathways and technical literacy, ensuring that students develop fundamental design-thinking skills alongside an appreciation for safety, sustainability, and material performance. Tasks are designed to build student confidence through scaffolded inquiry and iterative prototyping, providing frequent opportunities for students to connect design solutions to authentic, real-world community contexts. Literacy and numeracy support is integrated across all units, ensuring students can effectively communicate design proposals and analyse project data. Teachers differentiate instruction to support the specific needs of the cohort, fostering resilience and independent problem-solving through reflective practice and iterative design cycles that align with the achievement standards of the Australian Curriculum.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-20T12:03:48.712Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-cd49673d",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "LED Light (metal)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will manufacture a functional handheld LED torch using the supplied engineering drawing and materials. The torch must contain a working DC circuit consisting of a CR2032 power source, switching mechanism and LED load.\n\nStudents will demonstrate their ability to safely select and use workshop tools, accurately measure and mark materials, cut and shape components, drill and countersink holes, finish surfaces and assemble the product. They will also complete a folio and theory activities demonstrating their understanding of technical drawings, electricity, voltage, current, resistance, button battery safety, aluminium recycling and production processes.\n\nAt the end of the project, students will test and evaluate the completed torch against the supplied specifications.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Conducted over 10 weeks during scheduled class time.\n• Supervised workshop and classroom conditions.\n• Individual production of a functional prototype and completion of a design folio.\n• Folio: 4–6 A4 pages (or digital equivalent) including annotated technical drawings, circuit diagrams, and written evaluation.\n• Access to workshop machinery, hand tools, and supplied materials (aluminium, hardboard, electronic components).\n• Mandatory compliance with Work Health and Safety (WHS) protocols and equipment safety inductions.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:44:39.769Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Technologies department to ensure consistency of teacher judgement against the Year 7–8 Design and Technologies achievement standards. This process involves:\n\n*   Monitoring: Periodic review of student work-in-progress and workshop safety compliance during the marking-out and manufacturing phases of the LED Light.\n*   Moderation Conferencing: Scheduled departmental meetings to review representative samples of student projects (spanning the A–E range) to calibrate marking of the final product and accompanying folio evidence.\n*   Cross-marking: Collaborative marking of the theoretical components and the final evaluation task to ensure objective and consistent application of the marking guide across different class cohorts.\n*   Evidence Validation: Verification that student folios demonstrate iterative testing, technical accuracy in graphical representations, and the application of systems thinking regarding material properties and circuit functionality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:44:37.843Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-b112a40a",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies and society",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how people in design and technologies occupations consider ethical and sustainability factors to design and produce products, services and environments",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-60f83b99",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how force, motion and energy are used to manipulate and control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f81bb4af",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-607a506e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing, and investigate and select materials, components, tools, equipment and processes to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2edb24b1",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, test, iterate and communicate design ideas, processes and solutions using technical terms and graphical representation techniques, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c0359881",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify and use suitable materials, components, tools, equipment, skills and processes to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b77b44a3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria collaboratively including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-712eefc2",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans to individually and collaboratively manage time, cost and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE8P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-aec1aded",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-70da0167",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-6e5389c5",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Examine values, rights and responsibilities, and ethical norms\nResponding to ethical issues: Explore ethical issues",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": true,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-db8b3997",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-3ee6df7e",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-da981a91",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-94831a4a",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-e78fb5b7",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the Design and Technologies workshop environment, establishing essential safety protocols and workplace expectations. Across three lessons, they progress from general hazard identification to specific tool safety and initial technical drawing interpretation. The focus is on building foundational manual skills and technical literacy using practice materials to ensure readiness for the torch manufacture.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety Training, engineering drawing handouts, steel rules, scribers, centre punches, try squares, practice aluminium offcuts, safety glasses.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on Work Health and Safety (WHS) requirements, specifically the legal and personal responsibilities within a manufacturing setting. Students learn to decode technical communication by studying engineering drawings, identifying various line types—such as visible, hidden, centre, and dimension lines—and understanding the difference between isometric and orthogonal projections. Classroom discussion covers the importance of standard symbols and how they communicate design intent and manufacturing constraints within the industry.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete mandatory OnGuard safety modules for hand tools and the drill press to obtain their workshop safety licences. In the practical setting, they practice measuring and marking out on scrap material using steel rules, try squares, and scribers to achieve millimetre precision. The week concludes with students practicing centre punching techniques on aluminium offcuts, focusing on the correct use of the ball-peen hammer to create a physical guide for future drilling tasks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of OnGuard safety certificates; teacher observation of marking accuracy and tool handling on practice material.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the workshop environment and complete mandatory OnGuard safety modules to establish safe working practices. Theory lessons focus on the fundamentals of technical communication, where students learn to interpret engineering drawings, line types, and isometric views. In the workshop, students begin identifying tools and materials while practicing basic measuring, marking out, and centre punching on practice material.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-43369f92",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the transition to the LED Light project, where students interpret specific project drawings to determine material requirements and dimensions. Lessons involve detailed layout work on aluminium plate, where precision is paramount for the successful alignment of the final three-plate assembly. Students engage with the concept of quality control, identifying how minor errors during the marking stage can lead to mechanical failure during the assembly phase.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "1.6mm Aluminium plate, project engineering drawings, layout markers, scribers, spring dividers, steel rules, centre punches, ball-peen hammers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction centres on manufacturing tolerances and the critical nature of accuracy when interpreting dimensioned drawings for the torch plates. Students explore the properties of aluminium as a material choice, including its strength-to-weight ratio, conductivity, and durability for a handheld electronic device. Theory lessons also cover the importance of 'datum edges' in marking out, ensuring all measurements are taken from a consistent reference point to prevent cumulative measurement error.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students receive their 1.6mm aluminium sheets and begin the formal marking out process for the top and bottom plates according to the engineering specifications. They use layout fluid or markers to enhance the visibility of scribed lines on the metal surface to ensure high-contrast guides for cutting. Precise centres for the switch and LED openings are marked and verified against the drawing before being permanently set with a centre punch for the next stage of production.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher check of plate layout against engineering drawings; inspection of centre punch positioning and depth.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to the specific requirements of the LED torch project through the interpretation of the supplied engineering drawings and material specifications. Students explore concepts of accuracy, tolerances, and quality control as they relate to professional manufacturing standards. Practical sessions involve marking out the top and bottom aluminium plates, ensuring all hole centres and external profiles are precisely positioned before cutting commences.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-5ca44cda",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the scientific principles underpinning their project by investigating electrical fundamentals while simultaneously commencing the physical shaping of their metal components. The lessons balance the theoretical knowledge of DC circuits with the physical demands of manual material removal and metalwork. By the end of the week, students aim to have their primary aluminium plates cut to their approximate size and begin the edge refinement process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Junior hacksaws, variety of metal files (flat, half-round), bench vices with soft jaws, DC circuit diagrams, atomic structure posters, aluminium plate workpieces.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the basics of electricity, focusing on atomic structure—specifically the role of electrons—and how this facilitates the flow of current in a circuit. Students categorise workshop materials into conductors and insulators, explaining why aluminium is selected for the casing and how it must be isolated from specific circuit paths. The concept of a simple DC circuit is introduced, highlighting the relationship between the power source, the load (LED), and the control mechanism (switch).",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students secure their marked aluminium plates in bench vices, utilizing soft jaws to prevent marring the metal surface. They perform straight and curved cuts using junior hacksaws, learning to maintain a consistent stroke rate and correct blade tension to prevent snapping. Once the rough cut is achieved, students use bastard and second-cut files to remove excess material and begin refining the edges precisely to the scribed layout lines.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Practical demonstration of hacksaw safety and filing technique; short quiz on conductors and insulators within a DC circuit.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the scientific principles of electricity, focusing on atomic structure, conductors, and insulators within a basic DC circuit. In the workshop, students begin the material removal phase by cutting the aluminium plates to their approximate external shapes using hacksaws. They then use files to refine the edges to the marked lines, demonstrating control over the material and profile.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-033eaab1",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from manual shaping to machine-based operations, focusing on the drill press and safety protocols for button batteries. They execute precision drilling tasks on their prepared aluminium plates, ensuring alignment with the previously scribed centres. The week concludes with the application of countersinking techniques to facilitate the flush mounting of mechanical fasteners in the final assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Drill press, HSS drill bits, countersink bits, drill vice, safety glasses, button battery safety fact sheets, 1.6mm aluminium workpieces.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction covers the specific hazards associated with button batteries (CR2032), including chemical burn risks and the mandatory industry standards for secure battery compartments in consumer products. Students investigate the mechanical principles of the drill press, focusing on the relationship between drill bit diameter, material hardness, and spindle speed. Lessons include the interpretation of technical symbols for countersinking and the importance of depth control to maintain the structural integrity of thin 1.6mm aluminium plate.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a final verification of their centre punch marks before securing their top and bottom plates in a drill press vice. Under teacher supervision, they drill the primary holes for the switch and LED, practicing correct peck-drilling techniques to clear swarf and prevent overheating. Following the initial drilling, students use a countersink bit to create the recesses required for screw heads, ensuring the depth is consistent across all four corner holes to achieve a professional flush finish.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Safety checklist for drill press operation; teacher inspection of hole alignment and countersink depth against the engineering drawing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week focuses on user safety and precision machining, specifically investigating the hazards associated with button battery storage and disposal. Students apply their understanding of technical drawings to centre punch and drill the required openings in their aluminium plates. They practice safe drilling procedures and learn the correct technique for countersinking holes to ensure a flush finish for assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-9f81ed97",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week explores the concept of electrical potential through the study of voltage and its role in the torch circuit. In the workshop, students shift from metal to hardboard Masonite, learning the specific handling and cutting requirements for timber-based composites. They focus on creating the internal cavity of the middle plate, which serves as the chassis for the electronic components and determines the spatial layout of the torch.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hardboard Masonite (3mm), coping saws/fret saws, needle files, CR2032 batteries (for sizing), voltage analogy diagrams, steel rules.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to voltage using the 'water-pressure' analogy, where voltage is explained as the electrical pressure provided by the CR2032 battery to overcome resistance and light the LED. Instruction covers the specific forward voltage requirements of LEDs and how this must be matched to the 3V power source provided by the lithium cell. Furthermore, students compare the physical properties of Masonite (high-density fibreboard) with aluminium, discussing grain-less structure, moisture sensitivity, and suitability for internal spacers.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students mark out the internal 'pocket' on their Masonite middle plate, using a series of 4mm holes to create an entry point for a coping saw or fret saw. They perform internal piercing cuts to remove the waste material where the battery and switch will sit, demonstrating control over the saw blade to follow complex internal profiles. Edges of the internal cut are then refined using needle files to ensure a snug fit for the CR2032 battery and internal wiring paths.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Worksheet on voltage and the water-pressure analogy; peer-review of Masonite internal cut quality and dimensional accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons introduce the concept of voltage using the water-pressure analogy to explain the operating requirements of an LED and the power supplied by a CR2032 battery. Students transition to processing the middle plate made from hardboard Masonite, which requires careful internal cutting to house the electronic components. This phase emphasises the different properties of timber-based materials compared to the aluminium components processed earlier.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-d1dff43c",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to the movement of charge within the circuit, exploring electrical current and the function of switches. Practical lessons emphasize the transition from individual component manufacture to a cohesive assembly through rigorous surface finishing. Students perform a critical 'dry-fit' to identify any misalignments in the three-plate sandwich before final electronic assembly begins in the following weeks.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Wet and dry sandpaper (various grits), deburring tools, circuit schematic templates, sliding switches, project assembly hardware (bolts/nuts).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers electrical current (amperage) as the rate of flow of electrons, and how switches function to create open and closed circuit states. Students learn to represent these states using standard schematic symbols and discuss the mechanical action of the sliding switch used in their torch design. The lesson also addresses the importance of deburring and surface preparation in professional manufacturing to ensure user safety and improved aesthetic quality in the final product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students undertake progressive sanding of all three plates (aluminium and Masonite), starting with 120-grit and moving to 400-grit wet and dry paper to remove scratches and tool marks. They use deburring tools and fine files to ensure all edges are smooth and free of sharp burrs. The week concludes with a test-fit where the top, middle, and bottom plates are stacked to verify hole alignment and the clearance for the internal electrical components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Quiz on current and switch schematics; teacher inspection of the test-fit assembly and surface finish quality.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore electrical current and amperage, examining how switches control the flow of electrons in both open and closed circuits. Practical lessons focus on the refinement of all three plates, involving progressive sanding and deburring to achieve a high-quality surface finish. Students perform a critical test-fit of the assembly to ensure all plates align correctly and the internal housing is sufficient for the circuitry.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-80b7c285",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students delve into the mechanics of electrical circuits, shifting from conceptual understanding to the precision required for physical assembly. Lessons are split between exploring Ohm's Law and resistance, and the meticulous process of configuring the LED and battery contact points. Students must demonstrate a functional circuit to the instructor to confirm their understanding of polarity before finalising their internal component placement.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Soldering stations (or mechanical crimping tools), CR2032 batteries, LEDs (pre-calculated current limiting resistors where applicable), insulated wire, circuit test rigs, multimeters for continuity testing.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the factors influencing current flow, specifically the role of electrical resistance in protecting the LED from damage. Students examine how wire thickness, material composition, and circuit connections introduce resistance into the system. A major theoretical component covers the vital importance of polarity—distinguishing between the anode and cathode of the LED—and the consequences of incorrect orientation, which would result in a non-functional or damaged circuit.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students solder or securely fix the battery contact terminals and LED leads within the prepared Masonite middle plate, ensuring wires are neatly routed to avoid short circuits. They perform a 'live' test using a CR2032 battery to verify that the light operates correctly when the circuit is closed. This practical phase demands high dexterity and attention to detail, as students must ensure all connections remain firm and insulated against the conductive aluminium plates before the final enclosure process begins.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Functional checkpoint verification; checklist for circuit continuity and polarity accuracy; instructor sign-off required for internal assembly progress.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The curriculum covers resistance and the factors that influence current flow, alongside the importance of polarity and orientation when installing LEDs. Students begin the delicate task of assembling the internal DC circuit, including the battery contacts and the manual switching mechanism. A functional checkpoint occurs where students must demonstrate a working circuit to the teacher before proceeding to final enclosure.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-d85b9de0",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the intersection of manufacturing and sustainability, alongside the culminating production phase of final assembly. Students engage with the lifecycle of aluminium, comparing the energy demands of virgin production versus recycling. The workshop sessions are dedicated to the careful alignment and fastening of the three-plate structure, requiring students to apply consistent tension to maintain a robust and safe handheld device.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Recycling and aluminium life-cycle data sheets, button battery disposal guides, M3 or M4 countersunk bolts and nuts, screwdrivers, Allen keys (as required), final assembly engineering drawings.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons explore the environmental footprint of aluminium production, highlighting the significantly lower energy consumption involved in secondary (recycled) aluminium compared to primary extraction. Discussions extend to the importance of responsible battery disposal, particularly the environmental hazards posed by lithium-based chemistry in standard landfill. Students review the engineering principles behind 'sandwich' construction and the importance of even tensioning to prevent stress fractures in the casing components.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the final assembly by aligning the top aluminium plate, the Masonite internal chassis, and the bottom plate, ensuring all holes remain perfectly registered. They insert and tighten countersunk bolts, using a star-pattern tightening sequence to ensure uniform pressure across the assembly. The process requires precise hand-tool coordination to ensure the hardware sits flush, followed by a final inspection of the torch's structural integrity and overall handheld feel.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher assessment of the finished assembly; peer-review of alignment quality; summative progress check on the completed physical housing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the sustainability of their materials, comparing the energy requirements and environmental impacts of primary aluminium production versus recycling. The final assembly of the torch takes place, with students securing the internal circuit components and fastening the three plates together using countersunk bolts. This stage requires careful alignment and tensioning to ensure the torch is robust and safe for handheld use.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-509200f7",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final production phase serves as a culmination of the term’s learning, where students undertake comprehensive quality assurance and refinement of their torch. Theory lessons shift to a consolidated review, connecting the manufacturing steps undertaken with the underlying electrical and material science concepts. Students perform final adjustments, ensuring the switch mechanism is smooth and the device meets all safety and aesthetic criteria established at the unit's outset.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Surface finishing materials (fine grit sandpaper, metal polish), quality assurance checklists, review notes/summaries for exam preparation, final project evaluation rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons provide a comprehensive summary of the unit, reinforcing the connections between material properties, workshop processes, and electrical theory. Students engage in a review session covering drill speeds, material selection logic, and the core components of the DC circuit to prepare for their upcoming knowledge exam. Discussions also address how they have mitigated design constraints through iterative testing and the importance of 'fit-for-purpose' design in a real-world context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a series of final quality assurance checks, including testing the reliability of the switch mechanism and ensuring the LED housing is secure. Any minor surface imperfections or sharp edges identified during final handling are addressed through light polishing or deburring. This is the final opportunity for students to ensure their work meets the specified tolerances, demonstrating their ability to refine a product for final delivery.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Final QA checklist completion; evaluation of surface finish and mechanical reliability; teacher moderation of final construction quality against original design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons serve as a comprehensive review of workshop tools, manufacturing processes, and electrical concepts to prepare students for their knowledge and understanding exam. In the workshop, students undertake final quality assurance, checking for reliability, safety, and aesthetic consistency. Any minor faults in alignment or surface finish are corrected during these final production hours.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    },
+    {
+      "id": "week-e97e77f2",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Week 10 focuses on the summative validation of student learning through a formal theoretical examination and a reflective design evaluation. Students transition from the production phase to critical analysis, evaluating their final LED torch against the original design criteria and user requirements established in the project brief. This week consolidates their understanding of the relationship between technical specifications, manufacturing precision, and the functional performance of the designed solution. Learning experiences conclude with a final quality-control audit and the formal submission of both the physical product and the supporting design documentation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Unit Knowledge Exam papers, design evaluation templates, final project rubrics, completed torch assemblies, digital portfolios, metal polishing cloths, workshop cleaning and maintenance equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction revolves around the evaluation phase of the design cycle, where students learn to critique their work using objective criteria such as functional reliability, aesthetic finish, and material efficiency. They review the importance of rigorous testing and how to document technical successes or failures to inform future design iterations and professional practice. The theoretical examination assesses cumulative knowledge of basic DC circuits, including voltage, current, and resistance, as well as the properties of aluminium and Masonite. Students are guided on how to synthesise their project experiences into a structured written reflection that addresses their ability to meet the intended user's needs through specific design choices.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a final functional test of their LED torch, verifying the reliability of the switching mechanism and the consistency of the electrical circuit under standard handheld conditions. They carry out a rigorous quality-control inspection, documenting any deviations from the engineering drawings and making final aesthetic adjustments to the surface finish where necessary. Following the physical inspection, students complete their design folio by drafting a written evaluation that critiques their selection of tools and the quality of their assembly techniques. This practical conclusion ensures all workshop equipment is correctly maintained and returned to standard, reinforcing vocational expectations of workshop management and professional safety standards.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Knowledge and Understanding Exam (Short-response items covering workshop safety, material properties, and DC circuit theory). Summative: Final submission of the LED Torch project and Design Folio, including a detailed evaluation against design criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete a formal knowledge and understanding exam to demonstrate their grasp of the unit's theoretical components. The practical project concludes with a final quality-control inspection and the submission of a written evaluation of the design. Students reflect on the torch's suitability for the intended user, the quality of their finish, and identify possible improvements for future iterations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T10:45:05.844Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

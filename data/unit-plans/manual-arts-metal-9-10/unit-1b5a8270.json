@@ -1,0 +1,795 @@
+{
+  "id": "unit-1b5a8270",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Letterbox (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students design and manufacture a functional letter box from Galvabond sheet metal. Students develop practical metalworking skills through accurate marking out, cutting, folding, joining and finishing processes. Key techniques include forming safety edges, producing double-folded and grooved seams, and cutting an external thread. Students also learn to safely select and use appropriate hand tools, portable power tools and workshop equipment. Throughout the unit, students document the design and production process in a folio, including research, sketches, CAD drawings, risk assessment, material calculations, photographs and evaluation.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-ffa42639",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Letterbox (metal)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and manufacture a Galvabond letter box based on the supplied project specifications. The finished product must be functional, accurately constructed and include appropriate sheet-metal joining and finishing techniques. Students may personalise aspects of the design while maintaining the required dimensions and construction requirements.\n\nStudents also complete a folio documenting the development and manufacture of their letter box. The folio includes:\n\nDesign brief, success criteria and constraints\nResearch into existing letter box designs\nInitial sketches and proposed improvements\nCAD model and dimensioned orthographic drawings\nRisk assessment\nMaterial cutting list and costing\nPhotographic production procedure\nEvaluation, peer feedback and personal reflection\nAssociated theory questions covering workshop safety, tools, Galvabond, sheet-metal seams and thread cutting\n\nAssessment considers students’ knowledge and understanding, development of design ideas, safe workshop practices, production skills, accuracy, time management and evaluation of the completed product.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 6–8 A4 pages or equivalent digital media portfolio (folio)\n• Product: One functional Galvabond letterbox (max dimensions 300mm x 300mm x 400mm)\n• Folio to include: design brief, research, CAD orthographic drawings, risk assessment, production photos, and evaluation\n• Workshop practical demonstration under supervised conditions\n• Time allocated: 6 weeks of in-class construction and documentation",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:21.115Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings for faculty staff to review student folios and evaluate production accuracy against the established marking criteria.\n*   **Cross-marking:** Departmental cross-marking of production tasks, specifically focusing on the precision of metalworking joints and technical drawing standards, to ensure objective application of the marking guide.\n*   **Standardisation:** Review of samples representing the A–E quality continuum to align teacher expectations and provide equitable feedback to students during the production process.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:26.559Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-59346b03",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e866d333",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d8ae7fa5",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3a2de9ee",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-0b24686d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-57517188",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-cfeef636",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-046479ea",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-36def5ec",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-dfb805da",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-cea0b09c",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-7b571192",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-65b0ab94",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Multiplicative strategies; Understanding money\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": true,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-73c172c4",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-9ee9d24d",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the design brief and the functional specifications for the Galvabond letterbox. The week transitions from an overview of design constraints to a mandatory safety induction for the metal fabrication workshop. Students perform a detailed examination of a teacher-made prototype to deconstruct the project requirements into logical components, identifying essential sheet-metal joints and hardware assemblies.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Completed letterbox prototype, PPE, workshop safety posters, risk assessment templates, Galvabond samples, workshop manual.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on workshop safety protocols, including the correct use of Personal Protective Equipment (PPE) such as safety glasses, aprons, and closed-toe footwear. Discussion regarding the identification of hazards associated with sharp sheet metal, high-speed drilling, and mechanical folding equipment. Overview of the design process, focusing on how constraints, such as material dimensions and functionality, shape the final design solution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Conducting a comprehensive site-specific risk assessment, identifying hazards within the metalwork area, and implementing control measures to mitigate these risks. Students perform a ‘model walkthrough’ to record the sequence of assembly. Initial practice includes hands-on handling of Galvabond offcuts to familiarise students with the material’s properties, such as temper and edge sharpness.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the mandatory safety induction quiz and documented participation in the initial risk assessment activity.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the design brief, constraints, and success criteria for the letter box project. The week focuses on establishing workshop safety protocols, including PPE requirements and risk-control measures for sheet-metal operations. Students inspect a completed letter box model to identify core components and fundamental joining methods required for the build.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-2d1392b9",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake structured research to evaluate existing letterbox designs, comparing features like weather sealing, aesthetics, and material thickness. Theory sessions detail the metallurgical properties of Galvabond, specifically the function of the zinc coating in providing cathodic protection against corrosion. In the workshop, students begin the critical marking-out phase, applying geometric layout techniques to sheet metal to ensure minimal wastage.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Internet access for research, technical specification sheets, engineers' squares, scriber sets, steel rulers, Galvabond sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the properties of galvanised steel, explaining the ‘galvanic’ reaction that protects the base steel from oxidation. Exploration of corrosion protection, including the necessity of sealing raw edges. Principles of accurate measurement and marking-out techniques, covering the use of engineers' squares, scribers, and dividers to translate technical drawings onto physical surfaces.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Guided research session, documenting findings in the design folio. Workshop time is dedicated to transferring technical drawings to the sheet metal. Students use marking blue or scribers to create precise bend lines and cutting paths, ensuring that all dimensions align with the project’s orthographic specifications.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of initial sketches and research entries in the project folio; check of marking-out accuracy before any material is cut.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students research existing letter box designs, documenting advantages and disadvantages to inform their own project planning. The theory component introduces the properties of Galvabond sheet metal and methods for corrosion protection. Practically, students interpret technical drawings and commence the marking-out phase, ensuring precise dimensions are applied to their raw material.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-ba3ce7ea",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to iterative design, requiring students to propose three distinct functional or aesthetic improvements to their letterbox. These annotations demonstrate an understanding of the relationship between design choices and project criteria. Practical lessons concentrate on safe metal cutting using shears and guillotines, followed by the essential task of deburring edges to prepare for assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, bench guillotine, tin snips, mill files, deburring tools, linishers, safety signage.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explanation of the 'iterative design' concept: how and why designers refine initial ideas to better meet the needs of the user. Explicit teaching on the operation of guillotine and bench shears, focusing on safety mechanisms, finger protection, and the importance of securing material correctly. Review of the mechanical properties of materials under deformation during the folding process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Sketching and annotating design improvements in the folio. Workshop practice involves using the guillotine to cut metal panels according to marked lines and using files or linishers to safely deburr all edges. Students must demonstrate competency in removing sharp burrs, a crucial step for preventing injury and ensuring accurate fitment during folding.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the ‘three improvements’ annotation task for clarity and logical reasoning; teacher observation of safe tool operation during cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to iterative design, where students develop initial sketches and propose three functional improvements to the base design. These ideas are annotated to justify design choices against the project criteria. In the workshop, students cut the marked sheet-metal components and perform essential deburring to prepare for folding.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-1bf10647",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition their manual sketches into a formal 3D CAD environment, focusing on component separation and accurate dimensioning. In the workshop, the focus shifts to technical precision; students learn to set up folding equipment to produce consistent, repeatable safety edges on raw Galvabond panels. Lessons involve demonstrating the correct use of the pan-brake folder to achieve 90-degree bends without compromising the material’s structural integrity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360 or AutoCAD), pan-brake folder, Jenny machine, scrap Galvabond offcuts, digital calipers, precision squares.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching of CAD modelling conventions, including the importance of scale and orthographic projection to facilitate accurate manufacturing. Discussion on the metallurgical impact of bending sheet metal, explaining work hardening and the necessity of appropriate bend radii. Students review the design intent behind 'safety edges'—a double-folded metal edge that eliminates sharp profiles—and its role in project safety and durability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop 3D models and 2D flat-pattern developments in CAD software. Practical workshop sessions focus on mastering the pan-brake folder and 'Jenny' machine to create safety edges on scrap pieces. Once competency is demonstrated, students execute these folds on their actual letterbox components, ensuring all edges are uniform and deburred.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: CAD models reviewed against orthographic standards; teacher assessment of fold accuracy on test pieces prior to final component processing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage with CAD modelling software to translate their design into a virtual 3D form, adhering to orthographic drawing conventions. Parallel to the design work, workshop sessions focus on forming safety edges and mastering folding equipment. Students practise creating straight, parallel, and even folds on scrap metal to develop technique before working on final components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-779101b7",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The week focuses on finalising digital design documentation to support manufacturing. Students produce dimensioned orthographic drawings and material cutting lists to ensure efficient resource use. Workshop time shifts to primary assembly, where students align panels to form the main box structure. This requires careful management of tolerances to ensure the body remains square during the initial tacking or joining phases.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, technical drawing templates, magnetic assembly squares, G-cramps, material cutting list pro-forma.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction on technical documentation, specifically how to dimension drawings to support shop-floor production. Theory also covers the importance of material wastage calculations and the environmental benefits of efficient cutting lists. Discussion on structural alignment and the geometric principles of ensuring a three-dimensional form is 'true' or square, linking back to the precision required for seamless joining.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete final CAD documentation and generate a bill of materials and risk assessment. In the workshop, students begin the assembly of the main body, using cramps and magnetic squares to hold components in place for preliminary joining. Emphasis is placed on checking diagonal measurements to ensure the letterbox body is square before moving to permanent seams.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of finalised CAD drawings and material costing spreadsheet; check-in on assembly progress and alignment accuracy.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The CAD process concludes with the production of labelled, dimensioned views and the finalisation of material cutting lists and risk assessments. In the workshop, students begin assembling the main letter box body. Emphasis is placed on the technical execution of double-folded seams and checking for squareness and alignment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-fd5944ae",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory and practice align to explore and implement permanent sheet-metal joining. Students investigate the mechanical advantages of different seams, identifying why grooved or double-folded seams are superior for weather resistance in outdoor applications. The practical sessions focus on the execution of these complex joints, requiring high levels of dexterity and patience to achieve professional-quality seals on the letterbox main body.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sheet-metal hammers, hand dollies, folding bars, planishing hammers, bench vice, demonstration models of seam types.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on advanced seam types: the 'grooved seam' versus the 'double-folded seam'. Comparison of their mechanical strength, aesthetic appeal, and suitability for weatherproofing a letterbox. Students learn to calculate 'seam allowances' in their designs, understanding how much extra material is required to create a secure, folded joint that maintains the intended finished dimensions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform the final joining of the main body panels using the selected seam method. This involves using sheet-metal hammers, dollies, and folding bars to crimp and lock the seams securely. The work is refined using a planishing hammer to flatten joints, ensuring a clean, flush finish that is both structurally sound and aesthetically pleasing.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Observation and assessment of the quality, strength, and alignment of the seams on the main body; student reflection on the challenges of achieving a tight seal.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons examine advanced sheet-metal joining methods, specifically comparing the advantages of grooved seams versus double-folded joints. Students apply this knowledge to secure the main body of the letter box. Precision in maintaining dimensions during the joining process is a primary focus for this week's practical output.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-cce98e71",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the mechanical principles behind threaded fasteners, focusing on the distinction between internal and external threading. They investigate the use of dies and taps within a workshop setting, ensuring an understanding of pitch, diameter, and clearance. The practical sessions focus on the fabrication of the letterbox door, integrating custom hinges and the precision tapping of handle mountings to ensure a secure, functional fit.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Metric tap and die sets, HSS drill bits, cutting fluid, G-cramps, engineering files, handle components, steel rod.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the mechanics of screw threads, including terminology such as major/minor diameter, pitch, and TPI (threads per inch). Instruction covers the systematic use of a die set for external threading on rod stock and the application of a tap for internal threads in metal components. Emphasis is placed on the importance of selecting the correct drill size for tapping to prevent material failure or stripped threads.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students manufacture the letterbox door and hinge mechanisms, applying layout skills to ensure central alignment. Practical tasks involve the safe operation of the die and tap sets to create threads for the handle assembly. Precision is required to align hardware with the pre-drilled holes in the letterbox body, checking that the handle and door swing move without obstruction.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher assessment of threaded component fit and hardware assembly; peer check on door clearance and structural alignment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students learn the principles of internal and external threading, including the safe operation of dies to produce male threads. The practical component involves manufacturing the door, hinge, and handle assembly. Students must accurately fit these smaller hardware components to the main body, ensuring all threads are cut to specification.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-2b769dba",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week centers on the safe and efficient use of portable power tools to finalise the letterbox assembly. Students apply high-speed rotary tools or orbital sanders to clean up weld spatter or excess joins. Theory sessions consolidate knowledge through a summative evaluation that tests student understanding of workshop safety, Galvabond material properties, and the mechanical integrity of various metal joints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Portable orbital sanders, rotary tools with finishing attachments, safety PPE, theory test papers, workshop safety manuals.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Advanced instruction on the safe operation of portable power tools, including risk assessment for high-speed equipment, vibration exposure, and eye protection requirements. Discussion on the importance of finishing, specifically how deburring and smoothing impacts the long-term corrosion resistance of Galvabond. Revision of workshop safety procedures and the relationship between accurate joinery and the structural longevity of sheet-metal products.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use portable power tools to smooth and polish external joints and edges to a professional finish. This includes removing any sharp edges or burrs that remain after the assembly phase. Final attachment of all hardware—including the door, handle, and any mounting brackets—is completed, followed by a series of functional tests to verify that the door operation is smooth and the letterbox is robust.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Theory examination covering workshop safety, sheet-metal properties, and joining methods. Formative: Teacher check-off of final assembly functionality and safety finish.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The week focuses on the safe selection and application of portable power tools and advanced workshop finishing techniques. Students complete theory evaluations covering workshop safety, material properties, and joint integrity. Practically, final components are attached, and students conduct rigorous testing of the door movement and overall structural integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-b3ee63f7",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition to the final evaluation phase, critically assessing their letterbox against the original project success criteria and design specifications. This involves analysing the effectiveness of their chosen joining methods and reflecting on the design process. Practically, students perform final aesthetic refinements, such as surface cleaning and minor alignment corrections, ensuring the project meets quality standards.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/devices for photography, design folio templates, evaluation checklists, hand finishing tools, quality inspection rubric.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to reflective practice, specifically how to identify 'lessons learned' during the manufacturing process. Explicit instruction on evaluating a designed solution against quantitative criteria (dimensions, weight) and qualitative criteria (aesthetics, weatherproofing). Guidance on documenting production steps through annotated photographs to show the evolution of the letterbox from raw sheet to finished product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a formal quality inspection of their letterboxes, checking for squareness, structural rigidity, and operation of the door and handle. Any final adjustments to align edges or remove surface blemishes are performed. Students organise and annotate their production photographs within the folio to create a clear visual record of their manufacturing sequence.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of production photos and initial self-evaluation entries in the design folio; check of project completion status.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students begin the formal evaluation process by assessing their project against the original design brief and success criteria. Practical sessions are dedicated to final construction tasks, such as correcting edge alignment and ensuring high-quality surface finishing. Production photographs are organised and annotated to reflect the completed manufacturing sequence.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    },
+    {
+      "id": "week-3bc492da",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week marks the culmination of the letterbox project, focusing on the formal submission of completed folios and the verification of physical project outcomes. Students engage in structured peer-rating activities to provide constructive feedback on manufacturing quality and design execution. The workshop schedule shifts to comprehensive inventory maintenance, ensuring all precision tools are cleaned, checked for serviceability, and correctly returned to their storage locations.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project submission checklists, peer-review pro-forma, workshop maintenance schedules, cleaning supplies (degreasers, rags), storage logs.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students participate in a final reflective session, linking their practical outcomes to the original success criteria and design constraints identified in the project brief. The theory focus is on the 'Evaluation' stage of the design cycle, where students articulate how their material choices, seam construction, and finishing techniques addressed the initial requirements. Discussion includes an analysis of how project management strategies, such as time management and risk mitigation, contributed to the successful completion of the product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to final workshop cleanup and asset management. Students perform a systematic quality inspection of their letterboxes, checking for structural integrity, door alignment, and the successful application of safety edges. The workshop environment is restored through the systematic cleaning of machinery, tool calibration checks, and the safe disposal of project waste, fostering a culture of professional responsibility and workshop sustainability.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Formal submission of the design folio and the completed Galvabond letterbox. Formative: Peer feedback rating and completion of the workshop maintenance checklist.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Final submissions include the completed folio, personal reflections, and peer ratings of project outcomes. In the workshop, students conduct a final quality inspection of their letter boxes to verify functional compliance. The term concludes with a comprehensive workshop clean-up, tool maintenance checks, and the formal submission of all project components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T11:28:44.961Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

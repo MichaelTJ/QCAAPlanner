@@ -1,8 +1,8 @@
 {
-  "id": "unit-786c1ae2",
+  "id": "unit-aeb69a2e",
   "levelPlanId": "digital-technologies-band-9-10-2026",
   "yearLevel": {
-    "value": 9,
+    "value": 10,
     "aiNotes": ""
   },
   "subject": {
@@ -10,11 +10,11 @@
     "aiNotes": ""
   },
   "unitNumber": {
-    "value": 3,
+    "value": 8,
     "aiNotes": ""
   },
   "unitTitle": {
-    "value": "Microbits - Data Gathering and Analysis",
+    "value": "Option b) Robotics",
     "aiNotes": ""
   },
   "year": {
@@ -34,11 +34,11 @@
     "aiNotes": ""
   },
   "duration": {
-    "value": "20 weeks",
+    "value": "10 weeks",
     "aiNotes": ""
   },
   "unitDescription": {
-    "value": "In this unit, students will use micro:bit devices to collect real-world data and investigate how digital systems acquire, store, and process information.",
+    "value": "In this 10-week unit, students apply computational and design thinking to address complex, open-ended robotics challenges. By decomposing real-world scenarios, students define precise problem specifications and user stories to guide the iterative development of autonomous solutions. Students design, implement, and refine algorithms using object-oriented programming to control robotic hardware, employing flowcharts and pseudocode to verify the accuracy of their logic and ensure robust solution performance. Throughout the development process, students utilise systematic testing and debugging techniques to validate their solutions against specific design criteria.\n\nFurthermore, students explore the interaction between hardware and software components, managing data flow and control structures within digital systems. By documenting their design process and evaluating the effectiveness of their robotic solutions, students reflect on the enterprising nature of their work and the broader impact of autonomous technologies. This unit fosters collaborative project management skills, requiring students to plan tasks, manage timelines, and evaluate their prototypes against stakeholder needs and functionality requirements.",
     "aiNotes": ""
   },
   "cohortAndClassConsiderations": {
@@ -48,65 +48,21 @@
   "adjustments": [],
   "assessments": [
     {
-      "id": "uassess-a6928922",
+      "id": "uassess-1b7f41b4",
       "assessmentNumber": {
-        "value": 3,
+        "value": 1,
         "aiNotes": ""
       },
       "yearLevel": {
-        "value": 9,
+        "value": 10,
         "aiNotes": ""
       },
       "title": {
-        "value": "Data Collection",
+        "value": "Autonomous Robotics Solution Project",
         "aiNotes": ""
       },
       "description": {
-        "value": "Students will design and implement a micro:bit program to collect sports science–related data.",
-        "aiNotes": ""
-      },
-      "technique": {
-        "value": "Investigation",
-        "aiNotes": ""
-      },
-      "mode": {
-        "value": "Multimodal",
-        "aiNotes": ""
-      },
-      "conditions": {
-        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
-        "aiNotes": ""
-      },
-      "timing": {
-        "value": "Term 3, Week 8",
-        "aiNotes": ""
-      },
-      "achievementStandard": {
-        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
-        "aiNotes": ""
-      },
-      "moderation": {
-        "value": "Monitoring: Week 5; Conferencing: Week 7",
-        "aiNotes": ""
-      },
-      "contentDescriptions": []
-    },
-    {
-      "id": "uassess-96b5dea9",
-      "assessmentNumber": {
-        "value": 4,
-        "aiNotes": ""
-      },
-      "yearLevel": {
-        "value": 9,
-        "aiNotes": ""
-      },
-      "title": {
-        "value": "Wearable Sports Science",
-        "aiNotes": ""
-      },
-      "description": {
-        "value": "Students will design and develop a wearable sports science data collection device using a micro:bit.",
+        "value": "Students work in collaborative teams to design, implement, and refine an autonomous robotic solution addressing a defined real-world challenge, utilizing agile project management tools to track development. The project requires students to document their design process through user stories and flowcharts, implement modular code in an object-oriented language, and conduct systematic debugging against established test cases. The final submission is a multimodal presentation evaluating the functional prototype against stakeholder requirements and the broader enterprising impact of autonomous systems.",
         "aiNotes": ""
       },
       "technique": {
@@ -118,27 +74,162 @@
         "aiNotes": ""
       },
       "conditions": {
-        "value": "4–6 A3 pages or equivalent digital media pages that may include annotated graphical representations",
-        "aiNotes": ""
+        "value": "• Collaborative project team (3 students)\n• Agile project management documentation (e.g., Kanban boards, sprint logs)\n• Design portfolio (5–7 A3 pages or equivalent digital media) including user stories, flowcharts, pseudocode, and systematic testing/debugging records\n• Functional robotic prototype demonstrating autonomous capability\n• Multimodal presentation (maximum 5 minutes) evaluating the solution against design criteria, stakeholder requirements, and broader enterprising impact\n• Supervised class time for iterative development and testing",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-14T05:59:58.002Z"
       },
       "timing": {
-        "value": "Term 4, Week 9",
+        "value": "",
         "aiNotes": ""
       },
       "achievementStandard": {
-        "value": "By the end of Year 10 students develop and modify innovative digital solutions, decompose real-world problems, and critically evaluate alternative solutions against stakeholder elicited user stories. Students acquire, interpret and model complex data with databases and represent documents as content, structure and presentation. They design and validate algorithms and implement them, including in an object-oriented programming language. Students explain how digital systems manage, control and secure access to data; and model cyber security threats and explore a vulnerability. They use advanced features of digital tools to create interactive content, and to plan, collaborate on, and manage agile projects. Students apply privacy principles to manage digital footprints.",
+        "value": "",
         "aiNotes": ""
       },
       "moderation": {
-        "value": "Monitoring: Week 5; Conferencing: Week 7",
+        "value": "",
         "aiNotes": ""
       },
-      "contentDescriptions": []
+      "contentDescriptions": [
+        {
+          "id": "ucd-390a2b6a",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by interviewing stakeholders to create user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2ac22357",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design algorithms involving logical operators and represent them as flowcharts and pseudocode",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P05",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fc7bac38",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "validate algorithms and programs by comparing their output against a range of test cases",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9fbead62",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and critically evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9aba309b",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug modular programs, applying selected algorithms and data structures, including in an object-oriented programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7f8841be",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories, possible future impact and opportunities for enterprise",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-73524797",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "use simple project management tools to plan and manage individual and collaborative agile projects, accounting for risks and responsibilities",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI10P12",
+            "aiNotes": ""
+          }
+        }
+      ]
     }
   ],
   "generalCapabilities": [
     {
-      "id": "ucap-c124a613",
+      "id": "ucap-8c509bc6",
       "name": {
         "value": "Critical and creative thinking",
         "aiNotes": ""
@@ -165,7 +256,7 @@
       }
     },
     {
-      "id": "ucap-934a959b",
+      "id": "ucap-80fa7403",
       "name": {
         "value": "Digital literacy",
         "aiNotes": ""
@@ -194,7 +285,7 @@
       }
     },
     {
-      "id": "ucap-7a90e6b4",
+      "id": "ucap-4e9fda7b",
       "name": {
         "value": "Ethical understanding",
         "aiNotes": ""
@@ -217,7 +308,7 @@
       }
     },
     {
-      "id": "ucap-4b9096c7",
+      "id": "ucap-7cc26dec",
       "name": {
         "value": "Intercultural understanding",
         "aiNotes": ""
@@ -243,7 +334,7 @@
       }
     },
     {
-      "id": "ucap-bb2adbe7",
+      "id": "ucap-b5da6133",
       "name": {
         "value": "Literacy",
         "aiNotes": ""
@@ -272,7 +363,7 @@
       }
     },
     {
-      "id": "ucap-49bfa512",
+      "id": "ucap-0d1a4244",
       "name": {
         "value": "Numeracy",
         "aiNotes": ""
@@ -303,7 +394,7 @@
       }
     },
     {
-      "id": "ucap-1aa62211",
+      "id": "ucap-ffe2a501",
       "name": {
         "value": "Personal and social capability",
         "aiNotes": ""

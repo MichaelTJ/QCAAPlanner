@@ -23,6 +23,9 @@
 	import { assessmentItemForUnitIndex } from '$lib/assessment/digitech-instruments';
 	import {
 		assessmentHasContentCode,
+		achievementStandardForUnit,
+		CURRICULUM_CATALOGUE_OPTIONS,
+		resolveContentDescriptorsForUnit,
 		resolveCurriculumPlanTypeForUnit,
 		toggleAssessmentContentDescription,
 		type PickerContentDescriptor
@@ -39,7 +42,24 @@
 	let standaloneAssessments = $state<AssessmentItemSummary[]>(
 		structuredClone(data.standaloneAssessments)
 	);
-	const contentDescriptors = $derived(data.contentDescriptors as PickerContentDescriptor[]);
+	let catalogueOverride = $state<string>('');
+	const inferredCatalogue = $derived(
+		resolveCurriculumPlanTypeForUnit(String(plan.subject.value), plan.yearLevel.value)
+	);
+	const activeCatalogue = $derived((catalogueOverride || inferredCatalogue || '') as string);
+	const contentDescriptors = $derived.by(() => {
+		const planType = (catalogueOverride || inferredCatalogue || null) as
+			| import('$lib/curriculum/curriculum-catalogue').CurriculumPlanTypeId
+			| null;
+		if (planType) {
+			return resolveContentDescriptorsForUnit({
+				subject: String(plan.subject.value),
+				yearLevel: plan.yearLevel.value,
+				planType
+			});
+		}
+		return data.contentDescriptors as PickerContentDescriptor[];
+	});
 	const levelDescription = $derived(data.levelDescription ?? '');
 	let refiningKey = $state<string | null>(null);
 	let refineError = $state('');
@@ -321,6 +341,10 @@
 	}
 
 	function addAssessment() {
+		const achievementStandard = achievementStandardForUnit(
+			String(plan.subject.value),
+			plan.yearLevel.value
+		);
 		plan.assessments = [
 			...plan.assessments,
 			{
@@ -333,7 +357,7 @@
 				mode: { value: '', aiNotes: '' },
 				conditions: { value: '', aiNotes: '' },
 				timing: { value: '', aiNotes: '' },
-				achievementStandard: { value: '', aiNotes: '' },
+				achievementStandard: { value: achievementStandard, aiNotes: '' },
 				moderation: { value: '', aiNotes: '' },
 				contentDescriptions: []
 			}
@@ -787,8 +811,25 @@
 		window.location.href = `/assessment-item/${item.id}`;
 	}
 
-	function linkedAssessmentItem(assess: UnitAssessment, assessmentIndex: number) {
-		return assessmentItemForUnitIndex(assess, assessmentIndex, assessmentItems);
+	const assessmentItemByIndex = $derived.by(() => {
+		const map = new Map<number, (typeof assessmentItems)[number]>();
+		const usedIds = new Set<string>();
+		for (let index = 0; index < plan.assessments.length; index++) {
+			const matched = assessmentItemForUnitIndex(
+				plan.assessments[index],
+				index,
+				assessmentItems,
+				usedIds
+			);
+			if (!matched) continue;
+			usedIds.add(matched.id);
+			map.set(index, matched);
+		}
+		return map;
+	});
+
+	function linkedAssessmentItem(_assess: UnitAssessment, assessmentIndex: number) {
+		return assessmentItemByIndex.get(assessmentIndex);
 	}
 
 	function compatibleStandaloneAssessments() {
@@ -984,8 +1025,27 @@
 
 			<div class="content-descriptor-picker" style="margin-top:1rem">
 				<h3 style="margin:0 0 0.5rem;font-size:1rem">Content descriptions</h3>
+				<label class="catalogue-picker">
+					<span class="meta">Curriculum catalogue</span>
+					<select
+						value={activeCatalogue}
+						onchange={(e) => {
+							const value = e.currentTarget.value;
+							catalogueOverride = value && value === inferredCatalogue ? '' : value;
+						}}
+					>
+						{#if !inferredCatalogue}
+							<option value="">Select catalogue…</option>
+						{/if}
+						{#each CURRICULUM_CATALOGUE_OPTIONS as option (option.id)}
+							<option value={option.id}>
+								{option.label}{inferredCatalogue === option.id ? ' (from subject/year)' : ''}
+							</option>
+						{/each}
+					</select>
+				</label>
 				{#if contentDescriptors.length === 0}
-					<p class="meta">No curriculum catalogue matched this unit. Add descriptors on the level plan first, or set subject/year level to a supported band.</p>
+					<p class="meta">No curriculum catalogue matched this unit. Pick a catalogue from the dropdown above, add descriptors on the level plan, or set subject/year level to a supported band.</p>
 				{:else}
 					<table class="data-table">
 						<thead>
@@ -1333,3 +1393,16 @@
 </div>
 
 <FloatingSaveButton {dirty} {saving} {saved} onclick={save} />
+
+<style>
+	.catalogue-picker {
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+		margin-bottom: 0.75rem;
+		max-width: 22rem;
+	}
+	.catalogue-picker select {
+		width: 100%;
+	}
+</style>

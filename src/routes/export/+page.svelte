@@ -119,7 +119,7 @@
 	<h2>Download everything</h2>
 	<p class="meta section-intro">
 		One ZIP with each level plan folder. Every unit gets its own subfolder containing the unit
-		Word file, all linked assessment items, and both learning guides (summary + detailed).
+		Word file, linked assessments, and both learning guides (summary + detailed) together.
 		Learning guides use AI, so a full download can take a few minutes.
 	</p>
 	<button class="btn btn-primary" onclick={downloadBundle} disabled={bundling}>
@@ -151,8 +151,8 @@
 					onclick={() => downloadLevelBundle(entry.id)}
 				>
 					{levelBundleBusy === entry.id
-						? 'Building ZIP…'
-						: 'Export with units & assessments'}
+						? 'Building ZIP (includes AI learning guides)…'
+						: 'Export with units, assessments & guides'}
 				</button>
 			</div>
 		</div>
@@ -196,10 +196,10 @@
 									onclick={() => downloadUnitBundle(unit.levelPlanId, unit.id)}
 								>
 									{unitBundleBusy === unit.id
-										? 'Building ZIP…'
+										? 'Building ZIP (includes AI learning guides)…'
 										: assessments.length
-											? `Export with ${assessments.length} assessment${assessments.length === 1 ? '' : 's'}`
-											: 'Export with assessments'}
+											? `Export with ${assessments.length} assessment${assessments.length === 1 ? '' : 's'} & guides`
+											: 'Export with assessments & guides'}
 								</button>
 								<a
 									class="btn btn-sm"
