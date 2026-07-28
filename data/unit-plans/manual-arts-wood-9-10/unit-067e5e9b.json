@@ -1,0 +1,776 @@
+{
+  "id": "unit-067e5e9b",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 3,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Camp Stool (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 9 Wood Technology unit, students develop their woodworking skills by designing and constructing a functional folding camp stool. Students interpret working drawings, accurately measure and mark timber, and manufacture a range of traditional timber joints, including mortise-and-tenon, bridle, housing and dovetail joints. They safely select and use hand tools, portable power tools and workshop equipment while developing accuracy, patience and attention to detail.\n\nStudents also complete a folio documenting the design and production process. They investigate existing products, establish a design brief and success criteria, identify constraints, communicate a personalised design, complete a risk assessment and material cutting list, and evaluate the suitability and quality of their finished solution.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-221748c8",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Camp Stool (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will design and construct a folding timber camp stool based on the supplied specifications and working drawings. The stool must be functional, stable, accurately assembled and appropriately finished. Students may personalise aspects of the stool, such as the timber details, canvas seat or surface finish.\n\nAssessment evidence will include:\n\nA completed and functional camp stool.\nAccurate measurement, marking, cutting and fitting of timber components.\nConstruction of the specified timber joints.\nSafe and appropriate use of hand tools, power tools and workshop equipment.\nA design folio containing a design brief, success criteria and constraints.\nResearch into existing products, supported by an analysis of advantages and disadvantages.\nA communicated design with dimensions, materials and annotations.\nA risk assessment and material cutting list.\nAn evaluation of the finished product against the design brief and success criteria.\nCompletion of associated theory covering workshop safety, materials, CNC technology, coordinates, area calculations and portable power tools.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 8–10 A4 pages of documentation, including design folio, technical drawings and evaluation\n• 1 functional timber camp stool\n• Access to workshop facilities for a period of 10 weeks\n• Under supervised conditions for practical production\n• Students to provide a material cutting list and risk assessment prior to commencing construction",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:27.978Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Manual Arts faculty to ensure consistent application of the QCAA achievement standards. This process includes:\n\n*   Moderation Conferencing: Scheduled meetings during Weeks 4 and 8 to review student folio samples, ensuring consistent interpretation of the success criteria and design requirements.\n*   Cross-marking: Collaborative marking of student folios and technical assessments to verify the accuracy of grading against the identified standards.\n*   Work Sample Review: Staff review of finished camp stools against the design brief to confirm that technical standards for joinery and finish are met consistently across the cohort.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:29.871Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-7e19fdff",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-efd09cfc",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ab998305",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-842e3e43",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-df870137",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d1b9acee",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-f79511bf",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-ce75d8fa",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-8ba6cbad",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-b3a007bb",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-2ad4864b",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-5023708d",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-302f8e1f",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-af3ebacd",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a comprehensive workshop induction, completing essential machine safety modules and achieving OnGuard certification for all relevant timber processing tools. The week progresses to an investigation of the camp stool’s folding mechanism, where students perform an exploded-view analysis of the structural components to identify the function of specific traditional timber joints. Students concurrently initialise their project folio, documenting the design brief and success criteria.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety Training software, workshop PPE, existing prototype camp stool, engineering drawing sets, student folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the principles of workshop safety, including the hierarchy of hazard controls and mandatory use of personal protective equipment (PPE). Students are introduced to the structural mechanics of folding furniture, analysing how load-bearing points and pivot hardware interact with timber components. Discussion focuses on the legal and safety obligations associated with operating industrial-grade machinery in a school environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve the mandatory OnGuard training software and rigorous hands-on safety demonstrations. Students complete a workshop familiarisation audit, identifying emergency shut-off points and hazard zones. Following safety clearance, students engage in the deconstruction and re-assembly of a prototype camp stool to understand the physical constraints of the folding action.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment through OnGuard certification completion and observation of safe shop practices. Initial folio entries including the drafting of the design brief and preliminary success criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in a comprehensive induction to workshop safety, focusing on machine operation and OnGuard certification protocols. They examine the camp stool’s folding mechanism and structural components to understand the relationship between traditional timber joints and functional design, while initiating their project folio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-e14d4a2f",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus transitions to timber technology and material selection, where students inspect raw stock for grain orientation, moisture content, and structural defects. Students are taught the importance of selecting timber appropriate for furniture that requires both strength and aesthetic finish. The design process continues as students formalise their project folio, specifically articulating success criteria against environmental and material constraints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample timber stock (hardwood/softwood), measuring and marking tools (combination squares, marking gauges), design folio scaffolds, timber grading charts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers timber grain structure and its influence on both the strength of jointing and the visual appeal of the finished stool. Students learn about the life cycle of the materials chosen, considering sustainability and waste reduction through efficient planning. Theory extends to interpreting working drawings and the mathematical requirements of calculating material lists based on standard stock sizes.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a practical workshop session on material selection, using the ‘face-side’ and ‘face-edge’ marking system to identify defects in rough-sawn timber. Students prepare a comprehensive cutting list, ensuring timber yield is optimised to reduce waste. Lessons include the use of measuring tools—squares, marking gauges, and steel rules—to prepare components according to the project’s specific folding dimensions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the accuracy of the material cutting list and the logical flow of the project folio’s design brief. Teacher-led feedback on component layout and grain identification.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to material selection and preparation, where students inspect timber for quality and grain orientation before marking components using precise working drawings. The theory component requires students to formalise the design brief, establishing clear success criteria and resource constraints for the project.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-f1ec78d1",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in precise marking-out procedures, applying the face-side and face-edge squaring technique to ensure all frame members are perfectly square and parallel. The week focuses on the foundational joinery preparation for the stool legs and frame members, requiring high-level attention to detail and patience. Theoretical investigations into wood characteristics provide context for why specific grain orientations are critical for long-term structural integrity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hand planes, marking knives, steel squares, try squares, workbench vices, timber stock.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching explores the mechanical properties of hardwoods typically used in portable furniture, including resistance to compression and bending. Students examine the science of wood movement, learning how seasonal changes affect the integrity of joints. A key conceptual focus is the impact of grain direction on structural failure, teaching students to avoid short grain in critical load-bearing areas of the stool frame.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical lessons are dedicated to the manual process of squaring timber stock. Students use hand planes and square-checking tools to produce components to accurate dimensions before marking out the specific joint locations. This involves the disciplined use of marking knives to score lines, which serves as a prerequisite for the accurate chiselling and sawing required in subsequent weeks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment focusing on the accuracy and cleanliness of marking-out lines. Quality control checks on component squareness and dimensioning to ensure readiness for joinery cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students implement accurate marking techniques using face-side and face-edge squaring to prepare the stool legs and frame members for joinery. Theoretical investigations are conducted into wood characteristics, including the mechanical properties of hardwoods and the operational implications of grain direction on structural integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-4367d585",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a focused exploration of mortise-and-tenon construction, transitioning from theoretical design to precise manual execution. Lessons integrate technical skill development with critical research into existing portable furniture, where students evaluate commercial camp stool designs for their load-bearing efficiency, material choice, and ergonomic footprint.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mortise gauges, bench chisels, mallets, try squares, existing market-sample chairs, student design folios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction covers the geometric principles of mortise-and-tenon joints, including the critical ratio of tenon thickness to material width to prevent shear failure. Students are taught how to calibrate mortise gauges for exact replication and the theoretical importance of grain direction in avoiding splitting during assembly. A comparative analysis of commercial product design informs students on industry standards for durability and material-to-weight ratios in folding furniture.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the marking out and fabrication of mortise and tenon components. Students utilise mortise gauges and marking knives to scribe precise layouts, followed by the systematic removal of material using bench chisels and mallets. Particular attention is given to achieving a 'tight-but-moveable' friction fit, necessitating iterative testing and fine-tuning of the tenon cheeks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of joint fitment accuracy against technical drawings. Teacher feedback provided on student research annotations documenting the pros and cons of selected existing portable seat designs.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Practical lessons focus on the technical execution of mortise-and-tenon joints, requiring careful calibration of mortise gauges and chisel work for precision fitment. Students concurrently research existing portable seating products, critically analysing their structural designs for durability, comfort, and material efficiency.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-9fa60b8a",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The week focuses on the complex integration of moving parts, specifically the layout and cutting of bridle and housing joints that enable the stool to fold. Students expand their graphical literacy by drafting detailed orthogonal projections, ensuring that the X, Y, and Z axis intersections are accurately accounted for to prevent mechanical obstruction during the folding process.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Backsaws, chisels, combination squares, graph paper for technical drawing, orthographic projection templates, demonstration models of bridle joint mechanisms.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons detail the mechanics of bridle and housing joints in frame structures, emphasising how these joints provide both vertical support and rotational movement. Students are taught the standards for orthogonal projection, focusing on the use of construction lines and labelling conventions to represent 3D components on a 2D plane. Content includes interpreting how different views—front, top, and end—identify hidden detail and assembly constraints.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a series of marking-out exercises on project timber, mapping out the precise placement for bridle joints to house the pivoting frame members. Practical activities involve the use of backsaws and chisels to create square housings that are flush with adjoining timber, ensuring that the final folding mechanism achieves a smooth, non-binding range of motion.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the accuracy and readability of orthogonal drawings in the project folio. Teacher check-off on the layout lines for bridle joints before the commencement of any cutting procedures.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction is provided on the layout and cutting of bridle and housing joints, ensuring that components align correctly for the folding mechanism. Students develop their personalised project drawings using orthogonal projections to demonstrate mastery of X, Y, and Z axis representations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-57a603af",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct a 'dry assembly' of all stool frame components, identifying and correcting discrepancies in joint alignment or material squareness before final bonding. Parallel to this, students engage in comprehensive risk assessment planning and an introduction to the role of Computer Numerical Control (CNC) technologies in modern manufacturing contexts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Clamps, square-check templates, hazard identification checklists, CAD/CAM introductory resource materials, workshop tool logs.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theoretical content focuses on the systematic identification of hazards and control measures required for all workshop processes, aligning with OHS compliance standards. Explicit teaching introduces CNC terminology—such as coordinate systems, G-code, and feed rates—and explores the transformative role of automated manufacturing in furniture production. Students evaluate the trade-offs between hand-crafted joinery and CNC-machined components in terms of cost, time, and finish.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students execute a dry-fit assembly to verify that the folding frame is perfectly square and functional. They employ clamping pressure to check for gaps and assess the stool's stability, performing manual adjustments as required. In the design studio, students finalise their risk assessment matrix for the remaining stages of construction and research specific CNC case studies as part of their folio development.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of the dry-fit stool structure to ensure component alignment. Review of the drafted risk assessment for clarity, hazard identification, and proposed mitigation strategies.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct a dry assembly of their stool frames to verify joint accuracy and component squareness, making necessary adjustments to ensure functional alignment. The folio work centres on developing a comprehensive risk assessment for all workshop processes and exploring foundational CNC terminology.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-a2671255",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students initiate the final assembly phase, applying permanent bonding techniques to their stool frames. Lessons are balanced between intensive clamping procedures to ensure structural squareness and classroom-based mathematical sessions focused on materials management and area calculation for finishing supplies.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA wood glue, sash cramps, G-clamps, framing squares, tape measures, calculators, timber stock, finishing material coverage charts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the chemistry and application of PVA wood adhesives, including open time, clamping pressure, and the influence of temperature on bond integrity. Students analyse the mathematical requirements for their project, specifically calculating surface area for finishing (oil/stain) and developing a comprehensive material cutting list to identify remaining timber stock requirements. Discussion includes the importance of diagonal measurements to confirm geometric accuracy before glue cures.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the permanent glue-up of stool frame sub-assemblies. Students utilise sash cramps and blocks to maintain 90-degree alignment, checking diagonal measurements across the frames to ensure squareness. Students also use calculators and geometry principles to determine the exact material surface area, allowing them to estimate the volume of finish required for their specific timber selection.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via inspection of frame squareness post-assembly and review of the accuracy of the material cutting list calculations in the design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus turns to the permanent assembly phase, involving gluing and clamping frames while maintaining squareness and diagonal accuracy. Theory lessons guide students through the creation of detailed material cutting lists and the application of mathematical calculations for surface areas.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-d49706ee",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to the functional assembly of the stool, specifically the installation of pivot hardware and the attachment of seating materials. This week also includes the summative theory assessment, where students demonstrate their technical knowledge regarding material properties, workshop safety, and tool operation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Power drills, drill bits, hardware (bolts/nuts/washers), canvas/webbing, sewing or stapling tools, theory assessment papers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the hardware requirements for folding mechanisms, focusing on pivot point location and clearance tolerances to ensure smooth movement. Students review timber classification and mechanical properties, reinforcing how specific species react to hardware and stress. Theoretical instruction concludes with a rigorous look at portable power tool safety, particularly drilling and fastening operations, ensuring all students are prepared for the theory assessment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical tasks involve the precision drilling of pivot holes for bolts or dowels, ensuring alignment across the folding components. Students secure the flexible seat material—such as heavy-duty canvas or webbing—using appropriate hardware and tensioning techniques. Students complete their summative theory assessment under supervised conditions during a dedicated lesson.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative theory assessment covering material properties, safety, and project-specific technical knowledge. Formative feedback on the structural integrity of pivot points and seat attachments.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Practical time is dedicated to drilling pivot holes for the folding hardware and attaching the flexible seat material securely to the rails. Students complete the theory assessment, demonstrating their understanding of timber classification, material properties, and the safe operation of portable power tools.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-eff86c7e",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final phase of production centers on surface refinement and the commencement of the folio evaluation. Students perform systematic sanding regimes to prepare their stools for final finishing, and then engage in self-reflection to compare their manufactured solution against the success criteria established in week 2.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sanding blocks, orbital sanders, abrasive paper (assorted grits), student design folios, success criteria checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on abrasive technology, explaining grit progression (from coarse to fine) and its necessity for achieving a high-quality surface finish. Students reflect on the design process, specifically the link between initial success criteria and the functional outcome of their stool. Theoretical focus is placed on troubleshooting: identifying why certain design or manufacturing issues occurred and how they were mitigated or solved during the production phase.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical work involves systematic sanding of the stool frames using block sanders and power sanders, ensuring grain direction is respected to prevent scarring. Students document their troubleshooting process in their folios, capturing photos of their final assembly and noting any modifications made to the original design. The week concludes with a final review of the stool's stability and functional performance against the design brief.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the quality of surface finish and the depth of reflection in the folio. Teacher-led troubleshooting review as students draft their project conclusion.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students perform final surface preparation, employing progressive sanding techniques to achieve a smooth finish suitable for their chosen coating. The evaluation phase of the folio commences, requiring students to compare their finished product against original success criteria and troubleshoot identified problems.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    },
+    {
+      "id": "week-e799f560",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week focuses on systematic quality control and the culmination of the design process. Students conduct rigorous testing of the folding mechanisms and load-bearing stability, ensuring their stool functions effectively against the project’s success criteria. Concurrently, students engage in reflective practice to finalise their design folios, compiling evidence of their production journey and evaluating the final solution against original constraints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Quality assurance checklists, testing rigs for stability checks, digital cameras for final product documentation, folio submission portals, reflective analysis templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of quality control in furniture manufacturing, including tolerance testing and ergonomic validation. Students explore the concept of post-production evaluation, learning how to critically analyse product performance data to identify successes and areas for future design iteration. The importance of clear, annotated documentation in industry-standard reporting is reinforced, helping students synthesise their technical findings into a professional project summary.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to final operational testing, where students verify that folding pivot points move freely without binding and that the stool frame remains rigid when deployed. Students finalise their surface finishes and ensure all hardware is tightened and checked for safety. In the classroom, they complete the final evaluation section of their folio, documenting the results of their quality tests and reflecting on the effectiveness of their chosen joinery techniques and design solutions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative evaluation of the completed camp stool against success criteria and design specifications. Final submission and peer review of the comprehensive design folio, assessing the quality of documentation, evaluation, and reflective analysis.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with rigorous quality-control testing, including stability checks and operation of the folding mechanism to ensure design specifications are met. Students finalise their folios by compiling all procedural documentation and evaluation reflections for final submission.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:33:35.834Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "id": "unit-51242918",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 1,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Paper Towel Holder (Wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 9 Wood Technology unit, students develop practical woodworking skills by designing and constructing a functional timber paper towel holder. Students learn to accurately measure, mark, cut, shape and assemble timber components using appropriate hand tools, portable power tools and workshop machinery. The project introduces timber-joint applications, including mortise-and-tenon and stopped-housing joints, while emphasising accuracy, fit, strength and quality of finish. Students also investigate existing products, develop personalised design ideas, produce CAD drawings and document the manufacturing process. Workshop safety, risk management, time management and responsible use of materials are reinforced throughout the unit.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-3b4ec507",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Paper Towel Holder (Wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will design and manufacture an individual wooden paper towel holder based on the supplied working drawing. The finished product must be functional, accurately constructed and include appropriate personalisation or design modifications.\n\nAssessment evidence will include:\n\nA completed timber paper towel holder\nA design folio containing a brief, success criteria and constraints\nResearch and analysis of existing products\nInitial ideas and annotated design improvements\nA CAD model and dimensioned orthographic drawings\nA risk assessment and material cutting list\nPhotographic documentation of the production process\nEvaluation, peer feedback and self-assessment\nAssociated theory covering workshop safety, abrasives, adhesives, fasteners, finishing processes and woodworking equipment\n\nStudents will be assessed on their understanding of tools and production processes, development and communication of design ideas, safe workshop practices, accuracy and quality of construction, application of timber joints, management of production steps and evaluation of the final solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• A timber paper towel holder (constructed prototype).\n• A design folio (maximum 10 A4 pages).\n• Folio must include: project brief, success criteria, annotated research, CAD model with orthographic projections, risk assessment, material cutting list, process photography, and reflective evaluation.\n• Practical construction: demonstrated competency in safe tool operation, joint accuracy, and finishing techniques assessed in the workshop.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:08.319Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review the progress of design folios and evaluate initial CAD representations.\n*   **Cross-marking:** Departmental review of final project marking guides prior to the assessment period to ensure the consistent application of criteria regarding joinery accuracy, quality of finish, and safety compliance.\n*   **Verification:** Final student work samples are collaboratively reviewed in Week 10 to ensure alignment with the expected achievement standards for Year 10 Design and Technologies.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:09.977Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-975cb5c7",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6cebf2f4",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d2ea3947",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-68074d53",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6637d926",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b6038a05",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-732f66bb",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-88a7a571",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Creating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-c204dfc9",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-e74bec64",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-f2809a66",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-168ac81a",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-8e1342a0",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-25826a2d",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are oriented to the design context and workshop environment, establishing expectations for the paper towel holder project. The week focuses on foundational safety protocols, including a mandatory workshop induction and the identification of potential hazards associated with timber processing machinery.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop induction checklists, PPE sets, project design brief documents, folio templates, and safety signage.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the design process, specifically defining the project brief, success criteria, and material constraints. Explicit instruction on workshop safety, including risk assessment procedures, personal protective equipment (PPE) requirements, and the safe operation of stationary and portable power tools relevant to the project.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with a comprehensive workshop induction, where students demonstrate competency in identifying safety zones and emergency stop procedures. Students begin their design folios by outlining the project requirements and constraints, followed by an initial guided exploration of the hand tools required for the project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher observation of safe workshop practices and competency checks during induction. Initial folio entries evaluated for understanding of project scope and constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the design context and workshop safety protocols required for the project. They begin the design folio by establishing the brief, constraints, and success criteria while performing a comprehensive workshop induction to understand machine operations and risk management.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-89c457f4",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct primary research by examining existing consumer designs to identify functional and aesthetic criteria. This research informs the development of individual project plans, including the creation of a materials cutting list and a site-specific risk assessment for their unique design.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample paper towel holder products, timber stock, marking tools (try squares, marking gauges, pencils), and orthographic working drawings.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Concepts of product analysis are introduced, focusing on identifying ergonomic and aesthetic requirements for domestic timber products. Explicit teaching on material efficiency and the importance of creating an accurate cutting list to minimise waste and ensure project feasibility.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform hands-on analysis of various paper towel holder styles to inform their own design directions. They transition to the workshop to measure and mark out timber components, practicing precision layout techniques using try squares, marking gauges, and accurate measuring tools on stock timber.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Feedback provided on research analysis and the accuracy of the initial cutting list. Assessment of marking-out precision against technical drawing specifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct primary research by analysing existing paper towel holder designs to determine functional and aesthetic requirements. They translate these findings into a materials cutting list and formalise the risk assessment, followed by measuring and marking out timber components for the initial stages of construction.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-fe276d2d",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Design development is advanced through iterative sketching and the formalisation of three distinct annotated improvements. Students transition to technical woodworking, specifically focusing on the cutting and fitting of traditional joints to ensure the structural integrity of the project.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, sketching equipment, chisels, mallets, tenon saws, bench routers (if applicable), and timber off-cuts for joint practice.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Concepts of joinery are explored, specifically the structural benefits and aesthetic application of mortise-and-tenon and stopped-housing joints. Explicit instruction on the sequence of operations for joint cutting, emphasizing the need for grain direction consideration and tolerance management in manual wood joints.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students develop annotated design refinements within their folios. Practically, students apply marking-out skills to establish joint locations and begin using chisels, tenon saws, and routers to cut the mortise-and-tenon and stopped-housing joints, focusing on accuracy and achieving a tight friction fit.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of design sketches and annotation quality. Practical monitoring of joint cutting technique, fit and finish, and adherence to safety protocols.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Design development is deepened through initial sketches and the generation of three annotated improvements. Students transition to technical woodworking skills, focusing on the marking-out and cutting procedures for mortise-and-tenon and stopped-housing joints to ensure structural integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-05422eef",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from manual design to digital modelling using CAD software to formalise their paper towel holder components. The experience involves interpreting 2D sketches into 3D environments, followed by shop-floor application where students move to the linisher and sanding stations to prepare their rough-cut timber for final assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360 or SketchUp), computer lab, linisher/belt sander, PPE (dust masks, safety glasses), timber components.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to computer-aided design (CAD) principles, focusing on the transition from orthographic projections to 3D virtual models. Explicit teaching covers dimensioning standards, the purpose of labelled views in manufacturing, and the mechanical properties of timber surfaces when subjected to high-speed abrasion via linishers and belt sanders.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students generate a 3D CAD model of their design using school-standard software, ensuring all components are dimensionally accurate. Practical workshop time is dedicated to the precise shaping of timber edges and faces; students operate the linisher under direct supervision to ensure flat, square surfaces, followed by manual sanding to remove machine marks and prepare for joining.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: CAD models are reviewed against dimensioned sketches; workshop safety and tool operation are monitored during the use of sanding equipment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to digital communication as students create a CAD model of their design, incorporating labelled orthographic views. Practically, students perform precision joint cutting and shaping, utilising the linisher and sanding equipment to refine component surfaces under direct supervision.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-ebe0fb2c",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week centers on material science and structural testing, where students evaluate the efficacy of different adhesives and mechanical fasteners for hardwood assembly. Students perform a dry-run assembly to assess the fit of their previously cut joints, identifying necessary adjustments before committing to permanent construction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA glue, various wood screws, drills and drivers, dry-fit clamps, square blocks, sanding blocks, folio design templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the chemical properties of PVA adhesives, curing times, and moisture content considerations in timber. Investigation of various mechanical fasteners, such as screws, dowels, and pins, regarding their shear strength and application-specific utility in wooden furniture construction.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a dry-fit assembly of all components, checking for squareness and joint integrity without glue. They test various fastening methods on scrap timber to observe impact on grain integrity, document these results in their folios, and perform final surface preparation, ensuring all surfaces are smooth and ready for personalization or final finish application.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of dry-fit accuracy and folio documentation of adhesive/fastener evaluation; peer-feedback session on structural stability.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate the properties of adhesives and various woodworking fasteners, documenting their findings in the folio. Construction work involves dry-assembling the project to test joint fit and stability, allowing for necessary adjustments before moving towards final surface preparation and personalisation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-7e28ea97",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus moves to high-stakes assembly procedures where students apply theoretical knowledge of clamping and adhesive application to join their projects permanently. Precision in geometry is monitored through strict quality control checks to ensure the paper towel holder remains true and square throughout the curing phase.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Wood glue (PVA), F-clamps/G-clamps, corner squares, cleaning rags, chisel for glue removal, workbench space.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Advanced instruction on assembly sequences and clamping strategies to prevent structural distortion. Concepts include 'clamping pressure' requirements, the use of corner squares to maintain 90-degree angles during set-up, and managing glue squeeze-out to avoid compromising future finishing steps.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students execute the final glue-up of their main structures using clamps, verifying that the assembly is square using try-squares and diagonal measurements. Quality control checks are applied to remove excess glue while wet and confirm alignment is flush, addressing any minor structural gaps discovered during the process before the adhesive fully cures.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative/Formative: Ongoing evaluation of project squareness and joint strength; observation of workshop cleanup and safe clamping practices.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week prioritises assembly techniques, focusing on correct gluing procedures, clamping angles, and maintaining squareness of the main structure. Students apply quality-control checks to ensure alignment and flush surfaces, addressing any structural deficiencies before the adhesive cures.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-d08b051b",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage with the science of surface finishing, focusing on the abrasive hierarchy and the volatile organic compound properties of lacquer. The week balances theoretical investigation into material protection with the practical, high-stakes task of applying the initial finish coat in a climate-controlled, ventilated setting.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Abrasive papers (80–400 grit), sanding blocks, clear plastic lacquer, PPE (respirators, nitrile gloves), spray booth/ventilated workspace.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the selection of abrasives based on grit sequence and material removal rates. Students learn the chemistry of clear plastic lacquer, specifically its curing process, solvent evaporation, and the necessity of grain raising. Safety protocols regarding inhalation risks and the management of flammable materials in the workshop are reinforced.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct progressive sanding from coarse to fine grits to remove surface imperfections. Following an inspection for dust contamination, they apply the base coat of clear plastic lacquer using appropriate brushes or spray equipment, ensuring even coverage while adhering to stringent occupational health and safety protocols regarding ventilation.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of surface preparation quality and uniform application of the first lacquer coat; monitoring safe handling of chemical finishes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction centres on the theory of abrasives and the chemical properties of clear plastic lacquer for final protection. Students perform progressive sanding to remove imperfections and apply the first coat of finish in a controlled, ventilated environment to achieve the required standard of finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-94726f08",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on refinement through intermediate finishing stages and the mechanical integration of the paper towel roller. Students finalise their photographic production records, documenting the transition from raw timber to a protected, functional product, while refining their skills in precision assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Fine-grade abrasive (600+ grit), portable power drill/driver, fasteners (screws, dowels), production record templates, digital cameras.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching covers the necessity of intermediate sanding ('denibbing') between lacquer coats to ensure a glass-smooth final finish. Students explore the physics of friction and tolerance requirements for the paper towel roller mechanism to ensure smooth, functional rotation without mechanical binding.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform light sanding with fine-grade abrasive between lacquer applications to remove 'nibs' and ensure surface adhesion. They then undertake the final mechanical assembly of the internal rail and roller, making precise adjustments to clearances to guarantee optimal functionality before applying the final protective clear coat.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Check of assembly functionality and smooth operation; ongoing evaluation of the photographic production log for detail and clarity.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise the photographic production record while refining their knowledge of portable power tools for finishing. They execute intermediate sanding between coats of lacquer and perform the final mechanical assembly of the paper towel rail and roller mechanism to ensure smooth operation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-f5c27282",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final phase of the project cycle involves comprehensive testing of the designed solution against the initial design brief and success criteria. Students synthesise their learning through formal evaluation, identifying strengths and areas for future technical refinement.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Final design folio, project success criteria checklist, digital camera/studio lighting, evaluation rubric, sample feedback surveys.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Concepts of product evaluation and life-cycle thinking are applied. Students are taught how to objectively measure their finished solution against the performance requirements established in their design folios, considering durability, functionality, and aesthetic quality relative to the success criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct final testing to verify the holder's stability and operational efficiency. They capture professional-grade photographic evidence of the completed project and draft their final evaluation, which justifies design decisions, assesses material wastage, and suggests refinements for future construction iterations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final design folio evaluation and project performance test; critique of the product against the initial design brief.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The project lifecycle concludes with testing the finished product against the original design brief and success criteria. Students draft their final evaluations, identifying strengths and areas for refinement while capturing professional-grade photographic evidence of their completed work.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    },
+    {
+      "id": "week-5823ffb5",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week focuses on the culmination of the project lifecycle. Students perform a holistic review of their design folios, ensuring all documentation—from the initial brief to the final evaluative reflection—is comprehensive and accurately reflective of their manufacturing process. The week concludes with the submission of the completed wooden paper towel holder and the associated design folio for formal assessment against Year 10 achievement standards.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment rubric, final check-list for folio components, submission stations, cleaning and workshop maintenance equipment, peer-feedback templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit reflection on the design process, focusing on the evaluation of the final product against initial success criteria and constraints. Students consider the life-cycle of their project, discussing the environmental sustainability of their material choices and the social impact of their design decisions. Final instruction includes a review of professional documentation standards for design portfolios in a workshop context, ensuring all technical drawings and risk assessments are correctly formatted.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to final quality control and finishing touches on the paper towel holder to ensure it meets the required standard of finish. Students finalise their photographic evidence, annotating their production process for the folio. Peer feedback sessions are conducted, where students evaluate the functional and aesthetic outcomes of their work, followed by the formal submission of the physical product and digital/print folio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Formal assessment of the completed Paper Towel Holder (Wood) and the accompanying Design Folio using the unit rubric. Formative: Completion of self-assessment and peer feedback documentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit culminates in the submission of the design folio and the completed paper towel holder. Students complete their self-assessment and peer feedback tasks, ensuring all theory components are finalised and projects are presented for final grading against the achievement standards.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:28:15.271Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

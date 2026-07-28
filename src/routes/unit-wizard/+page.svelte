@@ -1,8 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import {
-		ASSESSMENT_MODES,
-		ASSESSMENT_TECHNIQUES,
 		createId
 	} from '$lib/defaults';
 	import { seedUnitPlanFromLevelPlan } from '$lib/plan-sync';
@@ -29,17 +27,17 @@
 
 	let { data }: { data: PageData } = $props();
 
-	type Step = 'idea' | 'draft' | 'descriptors' | 'assessments' | 'finish';
+	type Step = 'brief' | 'descriptors' | 'finish';
 	const STEPS: { id: Step; label: string }[] = [
-		{ id: 'idea', label: 'Idea' },
-		{ id: 'draft', label: 'Draft unit' },
+		{ id: 'brief', label: 'Brief' },
 		{ id: 'descriptors', label: 'Content' },
-		{ id: 'assessments', label: 'Assessments' },
 		{ id: 'finish', label: 'Finish' }
 	];
 
 	const WEEK_OPTIONS = [3, 4, 5, 6, 7, 8, 9, 10];
 	const ASSESSMENT_COUNT_OPTIONS = [1, 2, 3, 4];
+	const WIZARD_PIPELINE_KEY = (unitId: string) => `qcaa-wizard-pipeline:${unitId}`;
+	const weekOutlinePlaceholder = 'Week 1: …\nWeek 2: …\nWeek 3: …';
 
 	interface WizardAssessment {
 		id: string;
@@ -61,19 +59,38 @@
 	const prefill = data.prefill;
 	const slotLocked = Boolean(prefill);
 
-	let step = $state<Step>('idea');
+	let step = $state<Step>('brief');
 	let idea = $state(prefill?.idea || '');
 	let subjectFamily = $state<WizardSubjectFamily | ''>(prefill?.subjectFamily || '');
 	let yearBand = $state<WizardYearBand | ''>(prefill?.yearBand || '');
 	let durationWeeks = $state(
-		prefill?.durationWeeks && prefill.durationWeeks > 0 ? prefill.durationWeeks : 5
+		prefill?.durationWeeks && prefill.durationWeeks > 0 ? prefill.durationWeeks : 10
 	);
 	let unitTitle = $state(prefill?.slotTitle || '');
 	let unitDescription = $state('');
+	let weekOutline = $state('');
 	let selectedCodes = $state<string[]>([]);
 	let assessmentCount = $state(2);
-	let assessments = $state<WizardAssessment[]>([]);
+	let assessments = $state<WizardAssessment[]>([
+		{
+			id: createId('wizassess'),
+			title: 'Assessment 1',
+			description: '',
+			technique: 'Project',
+			mode: 'Multimodal',
+			contentCodes: []
+		},
+		{
+			id: createId('wizassess'),
+			title: 'Assessment 2',
+			description: '',
+			technique: 'Project',
+			mode: 'Multimodal',
+			contentCodes: []
+		}
+	]);
 	let createItems = $state(true);
+	let autoGeneratePipeline = $state(true);
 	let destinationMode = $state<'standalone' | 'level-plan'>(
 		prefill ? 'level-plan' : 'standalone'
 	);
@@ -132,47 +149,62 @@
 
 	const stepIndex = $derived(STEPS.findIndex((s) => s.id === step));
 
-	function canProceedFromIdea() {
-		return Boolean(idea.trim() && planType && durationWeeks > 0);
-	}
-
-	function canProceedFromDraft() {
-		return Boolean(unitTitle.trim() && unitDescription.trim());
+	function canProceedFromBrief() {
+		return Boolean(
+			idea.trim() &&
+				planType &&
+				durationWeeks > 0 &&
+				unitTitle.trim() &&
+				unitDescription.trim() &&
+				assessments.length > 0 &&
+				assessments.every((a) => a.title.trim())
+		);
 	}
 
 	function canProceedFromDescriptors() {
 		return selectedCodes.length > 0;
 	}
 
-	function canProceedFromAssessments() {
+	function assessmentsReadyToSave() {
 		return (
 			assessments.length > 0 &&
-			assessments.every((a) => a.title.trim() && a.technique && a.mode)
+			assessments.every(
+				(a) => a.title.trim() && a.technique && a.mode && a.contentCodes.length > 0
+			)
 		);
+	}
+
+	/** Carry Content-step selections onto assessments so criteria aren't blank by default. */
+	function applySelectedCodesToAssessments() {
+		assessments = resizeAssessments(assessments, assessmentCount).map((a) => {
+			const kept = a.contentCodes.filter((code) => selectedCodes.includes(code));
+			return {
+				...a,
+				technique: a.technique || 'Project',
+				mode: a.mode || 'Multimodal',
+				contentCodes: kept.length > 0 ? kept : [...selectedCodes]
+			};
+		});
 	}
 
 	function goNext() {
 		errorMessage = '';
-		if (step === 'idea' && !canProceedFromIdea()) {
-			errorMessage = 'Enter an idea, choose subject and year band, and set duration.';
-			return;
-		}
-		if (step === 'draft' && !canProceedFromDraft()) {
-			errorMessage = 'Add a unit title and description before continuing.';
+		if (step === 'brief' && !canProceedFromBrief()) {
+			errorMessage =
+				'Enter an idea, subject, year band, duration, unit title, unit description, and assessment titles.';
 			return;
 		}
 		if (step === 'descriptors' && !canProceedFromDescriptors()) {
 			errorMessage = 'Select at least one content descriptor.';
 			return;
 		}
-		if (step === 'assessments' && !canProceedFromAssessments()) {
-			errorMessage = 'Each assessment needs a title, technique, and mode.';
-			return;
-		}
 		const next = STEPS[stepIndex + 1];
 		if (next) {
-			if (next.id === 'assessments' && assessments.length !== assessmentCount) {
+			if (step === 'brief') {
 				assessments = resizeAssessments(assessments, assessmentCount);
+			}
+			if (step === 'descriptors') {
+				applySelectedCodesToAssessments();
 			}
 			step = next.id;
 		}
@@ -184,7 +216,7 @@
 		if (prev) step = prev.id;
 	}
 
-	async function postSuggest(stage: 'draft-unit' | 'suggest-descriptors' | 'suggest-assessments') {
+	async function postSuggest(stage: 'draft-unit' | 'suggest-descriptors') {
 		if (!planType) throw new Error('Choose subject and year band first');
 		const res = await fetch('/api/unit-wizard/suggest', {
 			method: 'POST',
@@ -247,36 +279,6 @@
 		}
 	}
 
-	async function suggestAssessmentRows() {
-		busy = true;
-		errorMessage = '';
-		try {
-			const body = await postSuggest('suggest-assessments');
-			const rows = Array.isArray(body.assessments) ? body.assessments : [];
-			const mapped = rows.map((row: Record<string, unknown>) => ({
-				id: createId('wizassess'),
-				title: typeof row.title === 'string' ? row.title : '',
-				description: typeof row.description === 'string' ? row.description : '',
-				technique: (ASSESSMENT_TECHNIQUES as readonly string[]).includes(
-					String(row.technique || '')
-				)
-					? (row.technique as AssessmentTechnique)
-					: '',
-				mode: (ASSESSMENT_MODES as readonly string[]).includes(String(row.mode || ''))
-					? (row.mode as AssessmentMode)
-					: '',
-				contentCodes: Array.isArray(row.contentCodes)
-					? (row.contentCodes as string[]).filter((c) => selectedCodes.includes(c))
-					: []
-			}));
-			assessments = resizeAssessments(mapped, assessmentCount);
-		} catch (e) {
-			errorMessage = e instanceof Error ? e.message : 'Suggest failed';
-		} finally {
-			busy = false;
-		}
-	}
-
 	function emptyAssessment(index: number): WizardAssessment {
 		return {
 			id: createId('wizassess'),
@@ -301,11 +303,6 @@
 		assessments = resizeAssessments(assessments, value);
 	}
 
-	function addAssessment() {
-		if (assessmentCount >= 4) return;
-		onAssessmentCountChange(assessmentCount + 1);
-	}
-
 	function removeAssessment(id: string) {
 		if (assessments.length <= 1) return;
 		assessments = assessments.filter((a) => a.id !== id);
@@ -322,18 +319,6 @@
 				contentCodes: a.contentCodes.filter((c) => c !== code)
 			}));
 		}
-	}
-
-	function toggleAssessmentCode(assessmentId: string, code: string, checked: boolean) {
-		assessments = assessments.map((a) => {
-			if (a.id !== assessmentId) return a;
-			if (checked) {
-				return a.contentCodes.includes(code)
-					? a
-					: { ...a, contentCodes: [...a.contentCodes, code] };
-			}
-			return { ...a, contentCodes: a.contentCodes.filter((c) => c !== code) };
-		});
 	}
 
 	function descriptorToUnitCd(code: string): UnitAssessmentContentDescription | null {
@@ -424,8 +409,11 @@
 		errorMessage = '';
 		try {
 			if (!planType || !yearBand) throw new Error('Choose subject and year band first');
-			if (!canProceedFromAssessments()) {
-				throw new Error('Complete assessment details before saving');
+			applySelectedCodesToAssessments();
+			if (!assessmentsReadyToSave()) {
+				throw new Error(
+					'Each assessment needs a title and at least one content descriptor before saving'
+				);
 			}
 
 			let plan: UnitPlan;
@@ -496,7 +484,17 @@
 				}
 			}
 
-			if (firstItemId) {
+			if (autoGeneratePipeline) {
+				try {
+					sessionStorage.setItem(
+						WIZARD_PIPELINE_KEY(plan.id),
+						JSON.stringify({ weekOutline })
+					);
+				} catch {
+					/* sessionStorage may be unavailable */
+				}
+				window.location.href = `/level-plan/${plan.levelPlanId}/unit/${plan.id}?autoGenerate=1`;
+			} else if (firstItemId) {
 				window.location.href = `/assessment-item/${firstItemId}`;
 			} else {
 				window.location.href = `/level-plan/${plan.levelPlanId}/unit/${plan.id}`;
@@ -542,13 +540,20 @@
 {/if}
 <ModelFeedback usage={usage} />
 
-{#if step === 'idea'}
+{#if step === 'brief'}
 	<div class="card">
-		<h2 style="margin-top:0">What's your idea?</h2>
-		<p class="meta">Describe the unit in a sentence or two. Choose the subject and year band.</p>
+		<h2 style="margin-top:0">Unit brief</h2>
+		<p class="meta">
+			Capture the idea, subject context, draft unit text, assessments, and a rough week outline.
+		</p>
 		<label>
 			Idea
-			<textarea bind:value={idea} rows="5" style="width:100%" placeholder="e.g. Students design and build a simple website for a local community group…"></textarea>
+			<textarea
+				bind:value={idea}
+				rows="5"
+				style="width:100%"
+				placeholder="e.g. Students design and build a simple website for a local community group…"
+			></textarea>
 		</label>
 		<div class="grid-2" style="margin-top:0.75rem">
 			<label>
@@ -584,12 +589,10 @@
 			<p class="error">That subject and year band combination is not in the catalogue yet.</p>
 		{/if}
 	</div>
-{/if}
 
-{#if step === 'draft'}
 	<div class="card">
 		<div class="toolbar">
-			<h2 style="margin:0;flex:1">Draft the unit</h2>
+			<h2 style="margin:0;flex:1">Unit title &amp; description</h2>
 			<button class="btn btn-primary" onclick={suggestDraft} disabled={busy || !planType}>
 				{busy ? 'Working…' : unitTitle || unitDescription ? 'AI redraft' : 'AI draft'}
 			</button>
@@ -609,6 +612,65 @@
 			<textarea bind:value={unitDescription} rows="8" style="width:100%"></textarea>
 		</label>
 	</div>
+
+	<div class="card">
+		<h2 style="margin-top:0">Assessments</h2>
+		<label style="display:block;max-width:14rem;margin:0.75rem 0">
+			Number of assessments
+			<select
+				value={assessmentCount}
+				onchange={(e) => onAssessmentCountChange(Number(e.currentTarget.value))}
+			>
+				{#each ASSESSMENT_COUNT_OPTIONS as n}
+					<option value={n}>{n}</option>
+				{/each}
+			</select>
+		</label>
+		<p class="meta">
+			Add titles and descriptions now. Technique, mode, and content codes are set on the Assessments
+			step.
+		</p>
+	</div>
+
+	{#each assessments as assess (assess.id)}
+		<div class="card">
+			<div class="toolbar">
+				<input
+					type="text"
+					bind:value={assess.title}
+					placeholder="Assessment title"
+					style="flex:1;font-weight:600"
+				/>
+				<button
+					class="btn btn-sm"
+					onclick={() => removeAssessment(assess.id)}
+					disabled={assessments.length <= 1}
+				>
+					Remove
+				</button>
+			</div>
+			<label style="display:block;margin-top:0.5rem">
+				Description
+				<textarea bind:value={assess.description} rows="4" style="width:100%"></textarea>
+			</label>
+		</div>
+	{/each}
+
+	<div class="card">
+		<label>
+			{durationWeeks}-week outline
+			<textarea
+				bind:value={weekOutline}
+				rows="10"
+				style="width:100%"
+				placeholder={weekOutlinePlaceholder}
+			></textarea>
+		</label>
+		<p class="meta" style="margin-top:0.5rem">
+			Paste your rough week-by-week plan here. When auto-generate is on, this is used as the AI notes
+			for Teaching Sequence → Unit outline (planning pass).
+		</p>
+	</div>
 {/if}
 
 {#if step === 'descriptors'}
@@ -623,7 +685,10 @@
 				{busy ? 'Suggesting…' : 'AI suggest'}
 			</button>
 		</div>
-		<p class="meta">Tick the descriptors this unit will cover. AI can suggest a starting set.</p>
+		<p class="meta">
+			Tick the descriptors this unit will cover. They are applied to every assessment when you continue.
+			AI can suggest a starting set.
+		</p>
 		{#if !pickerDescriptors.length}
 			<p class="error">No catalogue descriptors for this subject/band.</p>
 		{:else}
@@ -657,101 +722,6 @@
 			<p class="meta">{selectedCodes.length} selected</p>
 		{/if}
 	</div>
-{/if}
-
-{#if step === 'assessments'}
-	<div class="card">
-		<div class="toolbar">
-			<h2 style="margin:0;flex:1">Assessments</h2>
-			<button
-				class="btn btn-primary"
-				onclick={suggestAssessmentRows}
-				disabled={busy || !selectedCodes.length}
-			>
-				{busy ? 'Suggesting…' : 'AI suggest'}
-			</button>
-		</div>
-		<label style="display:block;max-width:14rem;margin:0.75rem 0">
-			Number of assessments
-			<select
-				value={assessmentCount}
-				onchange={(e) => onAssessmentCountChange(Number(e.currentTarget.value))}
-			>
-				{#each ASSESSMENT_COUNT_OPTIONS as n}
-					<option value={n}>{n}</option>
-				{/each}
-			</select>
-		</label>
-		<p class="meta">
-			Propose assessment titles, techniques, and which selected descriptors each assessment covers.
-		</p>
-	</div>
-
-	{#each assessments as assess (assess.id)}
-		<div class="card">
-			<div class="toolbar">
-				<input
-					type="text"
-					bind:value={assess.title}
-					placeholder="Assessment title"
-					style="flex:1;font-weight:600"
-				/>
-				<button class="btn btn-sm" onclick={() => removeAssessment(assess.id)}>Remove</button>
-			</div>
-			<label style="display:block;margin-top:0.5rem">
-				Description
-				<textarea bind:value={assess.description} rows="4" style="width:100%"></textarea>
-			</label>
-			<div class="grid-2" style="margin-top:0.5rem">
-				<label>
-					Technique
-					<select bind:value={assess.technique}>
-						<option value="">Select…</option>
-						{#each ASSESSMENT_TECHNIQUES as t}
-							<option value={t}>{t}</option>
-						{/each}
-					</select>
-				</label>
-				<label>
-					Mode
-					<select bind:value={assess.mode}>
-						<option value="">Select…</option>
-						{#each ASSESSMENT_MODES as m}
-							<option value={m}>{m}</option>
-						{/each}
-					</select>
-				</label>
-			</div>
-			{#if selectedDescriptors.length}
-				<table class="data-table" style="margin-top:0.75rem">
-					<thead>
-						<tr>
-							<th style="width:2.5rem"></th>
-							<th>Code</th>
-							<th>Text</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each selectedDescriptors as cd (cd.code)}
-							<tr>
-								<td>
-									<input
-										type="checkbox"
-										checked={assess.contentCodes.includes(cd.code)}
-										onchange={(e) =>
-											toggleAssessmentCode(assess.id, cd.code, e.currentTarget.checked)}
-										aria-label="{assess.title || 'Assessment'} includes {cd.code}"
-									/>
-								</td>
-								<td class="content-code-cell">{cd.code}</td>
-								<td class="content-text-cell">{cd.text}</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			{/if}
-		</div>
-	{/each}
 {/if}
 
 {#if step === 'finish'}
@@ -828,13 +798,30 @@
 			<input type="checkbox" bind:checked={createItems} />
 			Also create assessment item instruments for each assessment
 		</label>
+		<label style="display:flex;align-items:flex-start;gap:0.5rem;margin:0 0 1rem">
+			<input type="checkbox" bind:checked={autoGeneratePipeline} style="margin-top:0.2rem" />
+			<span>
+				After save, auto-generate cohort, conditions, moderation, capabilities, and teaching
+				sequence
+				<span class="meta" style="display:block;font-weight:400">
+					Opens the unit plan and runs the AI pipeline (uses your week outline for the planning
+					pass).
+				</span>
+			</span>
+		</label>
 		<button
 			class="btn btn-primary"
 			onclick={saveUnitPlan}
 			disabled={saving ||
 				(!prefill && destinationMode === 'level-plan' && !effectiveDestinationId)}
 		>
-			{saving ? 'Saving…' : createItems ? 'Save unit & create items' : 'Save unit plan'}
+			{saving
+				? 'Saving…'
+				: autoGeneratePipeline
+					? 'Save & auto-generate'
+					: createItems
+						? 'Save unit & create items'
+						: 'Save unit plan'}
 		</button>
 	</div>
 {/if}

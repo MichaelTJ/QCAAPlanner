@@ -36,7 +36,11 @@ import {
 	curriculumMatchFromUnit,
 	unitCompatibleWithFaculty
 } from '$lib/curriculum-match';
-import { achievementStandardForUnit } from '$lib/content-descriptions';
+import { achievementStandardForUnit, ensureLevelPlanContentDescriptionsFromCatalogue } from '$lib/content-descriptions';
+import {
+	getCurriculumForPlanType,
+	resolveFacultyCurriculumPlanType
+} from '$lib/curriculum/curriculum-catalogue';
 import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, unitCopyLabel } from '$lib/import/plan-clone';
 import { resolveUnitDuration } from '$lib/unit-duration';
 import {
@@ -150,6 +154,18 @@ export async function createLevelPlanFromFacultyRow(
 		row.learningAreaSubject,
 		row.yearLevelBand
 	);
+	const planType = resolveFacultyCurriculumPlanType(
+		row.learningAreaSubject,
+		row.yearLevelBand,
+		row.curriculumPlanType
+	);
+	if (planType) {
+		const curriculum = getCurriculumForPlanType(planType);
+		if (!String(plan.levelDescription.value || '').trim()) {
+			plan.levelDescription.value = curriculum.levelDescription;
+		}
+		ensureLevelPlanContentDescriptionsFromCatalogue(plan, planType);
+	}
 	await saveLevelPlan(plan);
 	return plan;
 }

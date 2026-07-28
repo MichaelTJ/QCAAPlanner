@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { onMount } from 'svelte';
 	import FieldEditor from '$lib/components/FieldEditor.svelte';
 	import SelectFieldEditor from '$lib/components/SelectFieldEditor.svelte';
 	import {
@@ -35,6 +36,8 @@
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 	import { weekCountFromDuration } from '$lib/unit-duration';
+
+	const WIZARD_PIPELINE_KEY = (unitId: string) => `qcaa-wizard-pipeline:${unitId}`;
 
 	let { data }: { data: PageData } = $props();
 	let plan = $state<UnitPlan>(structuredClone(data.plan));
@@ -196,6 +199,12 @@
 	let learningGuideImporting = $state(false);
 	let learningGuideImportError = $state('');
 	let learningGuideImportInput: HTMLInputElement | undefined = $state();
+
+	let autoPipelineStarted = false;
+	let autoPipelineRunning = $state(false);
+	let autoPipelineStatus = $state('');
+	let autoPipelineError = $state('');
+	let autoPipelineWarning = $state('');
 
 	function scopeGuideFromPlan(unit: UnitPlan) {
 		return learningGuideFromUnitPlan(unit);
@@ -899,6 +908,149 @@
 		plan = result.unitPlan;
 		await refreshAssessmentLinks();
 	}
+
+	async function generateFieldViaApi(fieldPath: string, fieldLabel: string, currentValue: unknown) {
+		const res = await fetch('/api/generate', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
+				docType: 'unit-plan',
+				docId: plan.id,
+				levelPlanId: plan.levelPlanId,
+				fieldPath,
+				fieldLabel,
+				currentValue: String(currentValue ?? ''),
+				aiNotes: ''
+			})
+		});
+		const body = await res.json().catch(() => ({}));
+		if (!res.ok) throw new Error(body.message || `Failed to generate ${fieldLabel}`);
+		return body as { value: unknown; lastGenerated?: string };
+	}
+
+	function stripAutoGenerateParam() {
+		const url = new URL(window.location.href);
+		if (!url.searchParams.has('autoGenerate')) return;
+		url.searchParams.delete('autoGenerate');
+		history.replaceState(history.state, '', `${url.pathname}${url.search}${url.hash}`);
+	}
+
+	async function runAutoGeneratePipeline() {
+		autoPipelineRunning = true;
+		autoPipelineError = '';
+		autoPipelineStatus = 'Starting…';
+
+		try {
+			let weekOutline = '';
+			let foundPayload = false;
+			try {
+				const raw = sessionStorage.getItem(WIZARD_PIPELINE_KEY(plan.id));
+				if (raw) {
+					foundPayload = true;
+					sessionStorage.removeItem(WIZARD_PIPELINE_KEY(plan.id));
+					const parsed = JSON.parse(raw) as { weekOutline?: unknown };
+					if (typeof parsed.weekOutline === 'string') weekOutline = parsed.weekOutline;
+				}
+			} catch {
+				foundPayload = false;
+			}
+			if (!foundPayload) {
+				autoPipelineWarning =
+					'No week outline was found from the wizard; continuing with empty outline notes.';
+			}
+			outlineNotes = weekOutline;
+
+			section = 'overview';
+			autoPipelineStatus = 'Generating cohort and class considerations…';
+			{
+				const generated = await generateFieldViaApi(
+					'cohortAndClassConsiderations',
+					'Cohort and class considerations',
+					plan.cohortAndClassConsiderations.value
+				);
+				plan.cohortAndClassConsiderations = {
+					...plan.cohortAndClassConsiderations,
+					value: generated.value as typeof plan.cohortAndClassConsiderations.value,
+					lastGenerated: generated.lastGenerated
+				};
+			}
+
+			section = 'assessments';
+			for (let i = 0; i < plan.assessments.length; i++) {
+				const assess = plan.assessments[i];
+				autoPipelineStatus = `Generating conditions for assessment ${i + 1}…`;
+				const conditions = await generateFieldViaApi(
+					`assessments.${i}.conditions`,
+					'Conditions',
+					assess.conditions.value
+				);
+				assess.conditions = {
+					...assess.conditions,
+					value: conditions.value as typeof assess.conditions.value,
+					lastGenerated: conditions.lastGenerated
+				};
+
+				autoPipelineStatus = `Generating moderation for assessment ${i + 1}…`;
+				const moderation = await generateFieldViaApi(
+					`assessments.${i}.moderation`,
+					'Moderation',
+					assess.moderation.value
+				);
+				assess.moderation = {
+					...assess.moderation,
+					value: moderation.value as typeof assess.moderation.value,
+					lastGenerated: moderation.lastGenerated
+				};
+			}
+			plan.assessments = plan.assessments.slice();
+
+			autoPipelineStatus = 'Saving unit plan…';
+			await save();
+			if (!saved) throw new Error('Failed to save unit plan before capabilities');
+
+			section = 'capabilities';
+			autoPipelineStatus = 'Suggesting general capabilities…';
+			await suggestCapabilities();
+			if (capError) throw new Error(capError);
+
+			section = 'sequence';
+			const durationWeeks = weekCountFromDuration(String(plan.duration?.value ?? ''));
+			const weekCount = durationWeeks && durationWeeks > 0 ? durationWeeks : 10;
+			autoPipelineStatus = `Ensuring ${weekCount} teaching weeks…`;
+			ensureWeeks(weekCount);
+
+			autoPipelineStatus = 'Generating unit outline (planning pass)…';
+			await generateOutlineForUnit();
+			if (outlineError) throw new Error(outlineError);
+			if (!outlineFinished) throw new Error('Unit outline did not finish');
+
+			autoPipelineStatus = 'Generating weekly detail content…';
+			await generateAllChunksSequentially();
+			if (weeklyError) throw new Error(weeklyError);
+			if (!batchFinished) throw new Error('Weekly detail generation did not finish');
+
+			autoPipelineStatus = 'Saving completed unit plan…';
+			await save();
+			if (!saved) throw new Error('Failed to save unit plan after generation');
+
+			autoPipelineStatus = 'Auto-generate complete.';
+			stripAutoGenerateParam();
+		} catch (e) {
+			autoPipelineError = e instanceof Error ? e.message : 'Auto-generate failed';
+			autoPipelineStatus = 'Stopped with errors.';
+			stripAutoGenerateParam();
+		} finally {
+			autoPipelineRunning = false;
+		}
+	}
+
+	onMount(() => {
+		if (autoPipelineStarted) return;
+		const params = new URLSearchParams(window.location.search);
+		if (params.get('autoGenerate') !== '1') return;
+		autoPipelineStarted = true;
+		void runAutoGeneratePipeline();
+	});
 </script>
 
 <div class="toolbar">
@@ -921,10 +1073,35 @@
 		<button class="btn" onclick={deletePlan}>Delete</button>
 	{/if}
 	<EditorAiToggle bind:showAi={showAiPanels} />
-	<button class="btn btn-primary" onclick={save} disabled={saving}>{saving ? 'Saving…' : 'Save'}</button>
+	<button class="btn btn-primary" onclick={save} disabled={saving || autoPipelineRunning}
+		>{saving ? 'Saving…' : autoPipelineRunning ? 'Auto-generating…' : 'Save'}</button
+	>
 	{#if saved}<span class="meta">Saved</span>{/if}
 	{#if importError}<span class="meta" style="color:var(--danger,#c00)">{importError}</span>{/if}
 </div>
+
+{#if autoPipelineRunning || autoPipelineStatus || autoPipelineError || autoPipelineWarning}
+	<div class="card" style="margin-bottom:1rem;border-color:#9db0c4">
+		<p style="margin:0;font-weight:600">
+			{autoPipelineRunning ? 'Auto-generating unit content…' : 'Wizard auto-generate'}
+		</p>
+		{#if autoPipelineStatus}
+			<p class="meta" style="margin:0.35rem 0 0">{autoPipelineStatus}</p>
+		{/if}
+		{#if autoPipelineWarning}
+			<p class="meta" style="margin:0.35rem 0 0">{autoPipelineWarning}</p>
+		{/if}
+		{#if autoPipelineError}
+			<p class="error" style="margin:0.35rem 0 0">{autoPipelineError}</p>
+		{/if}
+		{#if outlineStatus && autoPipelineRunning}
+			<p class="meta" style="margin:0.35rem 0 0">Outline: {outlineStatus}</p>
+		{/if}
+		{#if batchStatus && autoPipelineRunning}
+			<p class="meta" style="margin:0.35rem 0 0">Weekly: {batchStatus}</p>
+		{/if}
+	</div>
+{/if}
 
 <div class="section-nav">
 	<button class:active={section === 'overview'} onclick={() => (section = 'overview')}>Overview</button>
@@ -1392,7 +1569,12 @@
 {/if}
 </div>
 
-<FloatingSaveButton {dirty} {saving} {saved} onclick={save} />
+<FloatingSaveButton
+	{dirty}
+	saving={saving || autoPipelineRunning}
+	{saved}
+	onclick={save}
+/>
 
 <style>
 	.catalogue-picker {

@@ -1,0 +1,776 @@
+{
+  "id": "unit-0ae31a05",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 7,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Wall Clock (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Wood Technology unit, students design and manufacture a personalised timber wall clock based on a supplied project design. Students develop their ability to accurately measure, mark, cut, shape and join timber while using a range of hand tools, portable power tools and workshop machinery. They investigate timber joints, adhesives, surface preparation and clear finishing techniques to produce a functional and visually appealing product. Throughout the unit, students apply workshop safety procedures, manage their time and document the design and production process in a project folio.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-14ba6f41",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Wall Clock (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and manufacture an individual timber wall clock that meets the supplied dimensions and construction requirements while incorporating their own design modifications and personalisation. The completed clock must be functional, accurately assembled, appropriately finished and produced using safe workshop practices.\n\nStudents also submit a project folio containing:\n\nA design brief, success criteria and constraints\nResearch into three existing clock designs, including advantages and disadvantages\nInitial sketches and three proposed modifications\nAn annotated final design and CAD model\nA risk assessment\nA materials cutting list and project costing\nPhotographic evidence and an annotated production procedure\nResponses to associated theory questions\nA final product evaluation, peer evaluation and self-assessment\n\nAssessment evidence is gathered from the completed clock, the folio and teacher observations of students’ practical skills, safety, tool selection, accuracy and application of production processes.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 10-week project duration\n• Folio of evidence (approx. 8–10 A4 pages or equivalent digital format)\n• Practical demonstration under supervised workshop conditions\n• Use of specified timber materials and mechanical clock movement\n• Compliance with industry-standard WHS and machine safety protocols",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:24.681Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 10 Design and Technologies cohort to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings at the conclusion of Week 5 to review the folio design development and progress, ensuring alignment with success criteria and constraints.\n*   **Verification of Judgement:** Collaborative review of student products and folios at the conclusion of the unit, utilising a common marking guide to validate standards-based assessment decisions.\n*   **Standardising Practice:** Departmental review of marking practices to ensure accuracy and consistency in the application of criteria, particularly regarding the evaluation of technical skills and the application of workshop safety procedures.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:26.576Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-7e7fb6af",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2867c2ca",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-582d8091",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-19a27ab3",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2c62b023",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-e64e531c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-e3536f68",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-64205f46",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-fc010204",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-7e5b7ac0",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-9c994195",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-0cfd3f92",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Understanding money\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties\nStatistics and probability: Interpreting and representing data",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": true
+      }
+    },
+    {
+      "id": "ucap-1638b2df",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-bcba5b5f",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the wall clock project, focusing on design specifications, aesthetic constraints, and the importance of workshop safety protocols. The week involves a comprehensive induction into standard operating procedures for the wood workshop, followed by a review of technical drawings that establish the geometric requirements for the project.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sample clock mechanisms, technical production drawings, workshop induction checklists, PPE, marking out tools (try squares, steel rules, marking gauges), sample timber stock.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on project management principles and the interpretation of technical and production drawings. Students analyse the clock’s component parts, identifying the relationship between structural integrity and design aesthetics. Safety theory covers the identification of workshop hazards, the correct selection of Personal Protective Equipment (PPE), and the legal responsibilities of students in a shared manual arts environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with a thorough workshop induction, including the demonstration of safety equipment and emergency shut-off procedures. Students engage in technical drawing interpretation, using hand tools to measure and mark sample timber offcuts to develop precision. They begin by identifying the specific timber species provided and inspecting the project hardware, including movement mechanisms and clock hands.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the mandatory workshop safety induction record and competency quiz. Initial teacher observation of basic measurement accuracy and adherence to safety guidelines.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the wall clock project, including project constraints, the design brief, and mandatory safety protocols for workshop operation. The teaching arc focuses on analysing supplied technical drawings and clock components to establish a foundational understanding of the project's construction requirements and assessment expectations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-9900a7d1",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus transitions to the design development phase, where students apply design thinking to customise their clock within the project’s dimensional constraints. Students document their initial design ideas through sketches and proceed to the workshop to select and prepare their timber stock for the main clock frame.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, sketching materials, docking/drop saw, timber stock, pencil/marking knife, square, dust extraction systems.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching addresses the principles of effective design development, including the balance between form and function. Students learn to create annotated design sketches and evaluate them against project constraints. Theoretical instruction also covers material selection, focusing on timber grain direction, identifying potential defects, and calculating the project cost based on volume and waste allowance.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students generate three proposed design modifications, sketching these with supporting annotations in their folios. Practical workshop time is dedicated to the selection of timber, where students use chalk to mark out components efficiently to maximise yield. They then use the drop saw for initial docking of stock to rough lengths, following safe handling and clearance procedures.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the draft design folio including research into existing designs and initial sketches. Summative: Verification of the completed materials cutting list and initial project costing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to design development as students generate initial sketches and propose modifications, ensuring they meet the required functional standards. Students begin their project management documentation, including risk assessments and costings, while transitioning to the workshop to select timber and commence precision marking for the main clock components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-6255573e",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the structural properties of common timber joints before selecting appropriate methods for their clock frame. The teaching sequence provides scaffolded demonstrations on the safe operation of the bandsaw, allowing students to transition from theory to accurate cutting and dry assembly techniques.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Bandsaw with fence and mitre gauge, combination squares, chisels for joint refinement, mallet, timber samples, photographic equipment for folio evidence, PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the mechanical advantages of various joinery types such as butt, mitre, and housing joints. Students analyse how these joints withstand seasonal movement and structural loading in timber products. Further theory explores the hierarchy of cut lists and the importance of dry fitting components to verify geometric accuracy before moving to permanent adhesion.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical activities include setting up and safely operating the bandsaw to cut timber pieces to the precise required dimensions. Students practise marking out and cutting joint faces, focusing on achieving tight tolerances. The week culminates in the dry assembly of the frame, where students check for squareness and alignment, recording findings through photographic evidence in their folios.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher feedback on the accuracy of cut components and the quality of dry-fitted joints. Summative: Assessment of the initial production procedural documentation in the folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate traditional timber jointing techniques, comparing their structural advantages before applying these to the project. The teaching arc emphasises safe bandsaw operation and accurate cutting procedures, culminating in the dry assembly of the frame to verify joint integrity and overall geometric alignment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-dd1a90c3",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition to technical documentation and precision shaping. This week balances CAD development with hands-on machinery use, requiring students to translate their 2D design concepts into accurate technical representations while mastering the safe operation of shaping equipment to refine their clock's profile.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., SketchUp or Fusion 360), workstations, template materials, bandsaw, oscillating spindle sander, vernier callipers, marking tools.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on orthographic projection and the importance of detailed dimensioning in CAD to facilitate production accuracy. Students explore the technical requirements for internal clock face components, ensuring adequate clearances are planned for mechanism mounting. Theory lessons also reinforce the safe operational procedures for the spindle moulder and disc sander, emphasizing the physics of material removal and the prevention of tear-out.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use CAD software to finalise their annotated technical drawings, including exploded views and critical dimension labels. In the workshop, they apply templates to timber stock to mark out decorative curves before using the bandsaw and oscillating spindle sander to refine these profiles. Careful attention is given to calibrating machinery to ensure all face components meet the strict dimensional tolerances required for the final assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher review of CAD models and initial production drawings. Observation of student competency during supervised machinery use.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students advance their CAD skills by creating detailed, labelled views of their clock design while learning safe operation techniques for shaping machinery. Practical activities focus on refining decorative curves and preparing internal clock face elements, ensuring all components are dimensionally accurate prior to assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-f2413261",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the structural integrity of their projects through systematic dry-fitting and professional assembly techniques. The week provides an opportunity to master adhesive selection and clamping, ensuring the final frame is rigid and perfectly square prior to the permanent bonding of components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA wood adhesive, various clamp types (sash, bar, G-clamps), framing squares, cleaning rags, camera/tablet for evidence, assembly tables.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component covers the chemical and mechanical properties of timber adhesives, including curing times and the impact of environmental conditions on bond strength. Students are introduced to the principles of clamping pressure and the necessity of checking for 'square' using diagonals. Instruction includes evaluating potential failure points in joints and the importance of documenting progress through annotated photography for the folio.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a rigorous final dry-fit of all clock components to verify joint alignment and squareness. They perform the formal glue-up using appropriate timber adhesives, applying pressure via sash or bar clamps while ensuring the assembly remains stable on a flat workbench. Students capture photographic evidence of the clamping process and the final set assembly for their project portfolios.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Verification of squareness on assembled frames. Review of progress photos and associated procedural annotations in the project folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The instructional focus covers the technical properties of adhesives and professional clamping strategies to ensure robust, square construction. Students perform a final dry-fit check before executing the glue-up process, and they document this production milestone within their folios through evidence-based progress photographs.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-91643dbf",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus moves to hardware integration and precision tool use. Students undergo targeted training on portable power tools, specifically the cordless drill and router/planer, to create the necessary recesses and mounting points required for the clock's movement mechanism to be successfully installed.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Cordless drills, router with depth stops, spade/forstner bits, chisels for recess refinement, clock mechanism components, test jigs, PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students learn about the mechanics of clock movements and the specific requirements for central aperture sizing and counter-sinking. Theory lessons cover the safe handling of high-speed power tools, focusing on depth control and the selection of drill bits or router cutters for timber. Explicit teaching highlights the importance of iterative testing, where students measure and test-fit components repeatedly to avoid irreparable errors in their finished frames.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to setting up and using the cordless drill and router to create the central mechanism housing. Students precisely measure and mark the centre point, drill the pilot holes, and carefully create the recess for the movement unit. They perform multiple test-fits with their hardware to ensure the movement sits flush and secure, adjusting as necessary to guarantee functional success.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Observation of safe and precise use of portable power tools. Formative: Check of the hardware recess fitment and overall alignment of the mechanism.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students undergo rigorous training on portable power tools, specifically focusing on cordless drills and planers for precision hardware installation. The teaching arc includes drilling the central mechanism aperture and creating recesses, with students performing iterative test-fits to guarantee the clock movement sits perfectly within the finished frame.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-bcfe69fa",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a detailed critique of their clock project to identify surface imperfections, grain raising, or construction gaps. The week integrates formal theoretical learning regarding industrial tool maintenance with the practical application of systematic sanding regimes to prepare timber surfaces for high-quality finishing.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Abrasives (various grits), sanding blocks, cabinet scrapers, workshop maintenance checklists, timber surface inspection tools, safety glasses, dust masks.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of surface preparation and the importance of timber grain direction. Students investigate the hierarchy of abrasive grit sizes and the scientific process of mechanical surface abrasion. Additional theory covers machinery maintenance, emphasizing the identification of blunt tooling, calibration checks, and the long-term impact of consistent maintenance on tool longevity and project quality.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in a systematic sanding program, progressing from coarse to fine grits (e.g., 80 to 240 grit) to achieve a uniform, smooth surface. They utilize cabinet scrapers and sanding blocks to ensure flat surfaces and crisp edges. Practical time also includes a supervised workshop audit, where students assist in checking machine settings and performing basic tool maintenance tasks under staff instruction.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Completion of the formal theory assessment on workshop safety and machine maintenance. Formative: Teacher observation of sanding technique and readiness of the timber surface for finishing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit explores advanced surface preparation, including systematic sanding grades and defect identification to achieve a professional timber finish. Students complete formal theory assessments regarding tool and machinery maintenance, while also refining their clock project to remove all surface imperfections and ensure aesthetic consistency.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-5a09aa27",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from surface preparation to the finishing phase, learning about clear lacquer application and the environmental factors that dictate drying times. The teaching arc focuses on developing a professional aesthetic through controlled application, intermediate sanding, and monitoring the drying environment for potential contamination.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Clear timber lacquer, applicators (brushes/rags), fine-grade sandpaper (320-400 grit), tack cloths, finishing area with ventilation, PPE (respirators/gloves).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons detail the chemical properties of clear lacquers and the importance of ambient conditions, such as temperature and humidity, on coating performance. Students learn about the role of intermediate sanding (denibbing) in creating a high-gloss or satin finish. Discussion includes workspace health and safety, particularly regarding solvent vapours and the necessity of appropriate extraction systems during finishing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply the initial sealer coat of lacquer to their clock projects, following strict safety protocols in the dedicated finishing zone. After drying, they carefully perform intermediate hand-sanding with fine-grade paper to remove 'nibs' and grain raising. This process is repeated to build up a durable, consistent coating, with students documenting the number of coats and drying times in their production journals.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of finishing technique and the quality of the intermediate coating. Peer review session to provide constructive feedback on finish consistency.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The teaching arc provides explicit instruction on clear lacquer application, covering critical factors like workspace ventilation, environmental conditions, and intermediate sanding procedures. Students apply initial finishing coats to their projects, maintaining the quality and consistency of the coating through multiple stages of drying and light abrasion.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-62e70257",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final manufacturing phase involves the precise installation of the clock movement, hands, and mounting hardware. Students synthesise their documentation, finalizing all production procedures, quality control reflections, and the project folio in preparation for final submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Quartz clock mechanisms, clock hand sets, batteries, small screwdrivers, assembly jigs, project folios, photographic equipment for final product documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory focuses on the concept of quality control and the post-production evaluation process. Students reflect on their adherence to the original design brief and success criteria, analysing the effectiveness of their chosen finishing and assembly techniques. The instructional arc also covers the mechanical installation of quartz clock movements, focusing on tension, alignment, and battery management.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions focus on the final assembly of the clock mechanism, ensuring the movement is secured correctly and the clock hands are positioned without obstruction. Students clean the finished surface one final time before completing the installation of the battery and testing for functional reliability. Concurrent with assembly, students finalise all folio entries, including photographic evidence of the finished product and the completed annotated production procedure.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final quality control check of the functional clock, including accuracy of movement and quality of finish. Submission of the completed design and production folio for final grading.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students synthesise their manufacturing documentation by finalising annotated production procedures and reflecting on quality control measures. In the workshop, final coats are applied to achieve a high-quality aesthetic, followed by the installation of the clock mechanism, battery, and hands to ensure the project is fully operational.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    },
+    {
+      "id": "week-d3c2ca84",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week serves as a summative phase where students critically evaluate their completed wall clock against the initial project requirements and design criteria. Students engage in formal reflection processes, including self-assessment and peer review, to discuss the successes and challenges experienced throughout the manufacturing journey, ensuring all final documentation is prepared for submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Assessment marking rubrics, final reflection templates, peer review feedback sheets, digital camera for final product photography, workshop cleaning equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of critical reflection and design evaluation. Students analyse the relationship between their initial design intentions and the final physical outcome, identifying where design modifications were successful or required further iteration. Theory content includes understanding the value of peer feedback in identifying technical improvements and the importance of professional project closure by completing comprehensive self-assessment rubrics.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the final quality control audit and cleaning of the workshop space. Students complete a thorough 'finish-fit' assessment of their clock, ensuring the mechanism is operational, the hands are clear of the frame, and the surface finish meets the specified standard. The final hour is utilised for the formal submission of the completed project and the final collation of the design folio, verifying that all annotations, photographic evidence, and reflections are complete and formatted appropriately.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final grading of the completed wall clock project and the comprehensive project folio, assessed against the unit's success criteria and design brief.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The final week centres on critical reflection as students evaluate their completed wall clock against the initial design brief and success criteria. The teaching arc concludes with formal self-evaluation, peer review, and the submission of the finished practical project and comprehensive design folio for final grading.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:43:32.810Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

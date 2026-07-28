@@ -1,0 +1,796 @@
+{
+  "id": "unit-94b92d54",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 5,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Cantilever Toolbox (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Metal Technology unit, students develop practical sheet-metal fabrication skills through the design and manufacture of a cantilever toolbox using Zincanneal steel. Students interpret working drawings, accurately mark out components and apply processes such as cutting, filing, folding, spot welding, seam construction, drilling and thread cutting. They also manufacture and assemble the toolbox handle and cantilever mechanism.\n\nThroughout the unit, students investigate existing toolbox designs and develop personalised design ideas that balance function, durability and appearance. Safe workshop practices, accurate measurement, quality control and effective time management are reinforced throughout the manufacturing process.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The 9–10 Manual Arts (Metal) program at St Brendan’s College operates within a workshop environment that prioritises industrial safety, precision and practical application. Given the cohort’s diverse range of technical experience, the curriculum is structured to scaffold the transition from fundamental hand-tool proficiency in Year 9 to the application of complex fabrication, welding and mechanical assembly techniques in Year 10. Students engage in authentic, project-based learning that mirrors industry standards, requiring a synthesis of design thinking and rigorous safety compliance. Literacy and numeracy development is integrated through technical drawing interpretation, material estimation and the documentation of sequential production plans. Consistent with the College’s mission, this context emphasises the development of resilient, safety-conscious practitioners who can effectively navigate the complexities of metal-based designed solutions for real-world applications.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-27T22:47:54.094Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-2d76a225",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Cantilever Toolbox",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will individually design and manufacture a functional cantilever toolbox to the supplied specifications. The toolbox must be accurately constructed, operate correctly and demonstrate a high standard of finish. Students will also incorporate appropriate personalisation into their design.\n\nStudents will complete a supporting design folio that documents the development and production of the toolbox. The folio includes:\n\na design brief and success criteria\nidentification of constraints\nresearch into existing toolbox designs\na dimensioned design proposal\na workshop risk assessment\na material cutting list\nan evaluation of the completed design\nassociated theory questions covering workshop safety, Zincanneal, sheet-metal seams, spot welding, files, portable power tools and handle manufacture.\n\nAssessment will consider students’ knowledge and understanding, development of design ideas, safe and accurate use of tools and equipment, application of production processes, quality of the completed toolbox and evaluation of the final outcome.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 10-week project duration with designated construction and documentation phases\n• Individual project submission: one functional cantilever toolbox manufactured to supplied specifications\n• Supporting design folio: maximum 10 A4 pages (or digital equivalent) including annotated graphical representations, technical drawings, risk assessments, and production plans\n• Underpinned by mandatory completion of OnGuard metalwork safety modules prior to machinery use\n• Supervised workshop conditions for all fabrication processes, ensuring adherence to industrial safety standards and quality control protocols",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:01:56.036Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 (formative) and Week 10 (summative) for staff to review student folio samples and evaluate practical project prototypes against established criteria.\n*   **Cross-marking:** Systematic departmental review of theoretical components and design folios to ensure objective and consistent application of the marking rubric.\n*   **Standardisation:** Calibration of tool proficiency and safety demonstrations during Week 1 to align staff expectations regarding technical standards and workshop safety protocols.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:01:57.519Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-71c758f2",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fc707ae6",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-53497ff1",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5ab1d6f7",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f130bbdd",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-8759b2f0",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-bd9a9859",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-f0f0f4a0",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-54d4c7f0",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-f2d65280",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-feabb824",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-ab5482d5",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-c31448f8",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-4a617c97",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": false,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": false,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-aff03f0e",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin the unit by exploring the design brief and the specific project requirements for the cantilever toolbox. Lessons cover the fundamental mechanics of a cantilever system through teacher-led demonstrations using existing workshop exemplars. The week concludes with a comprehensive workshop induction, focusing on the identification of hazards associated with metal fabrication and the completion of compulsory OnGuard safety modules.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Cantilever toolbox exemplars, OnGuard safety access, PPE (safety glasses, leather gloves, aprons), project design brief, unit assessment guide.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the project specifications and the structural components required for a functional cantilever mechanism. Students are introduced to the properties of Zincanneal steel and its suitability for this project. Workshop safety protocols are reinforced, specifically identifying PPE requirements such as eye, ear, and hand protection, and the critical importance of situational awareness in a metal technology environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with a thorough inspection of the workshop facility and machine familiarisation. Students engage in supervised demonstrations of personal protective equipment (PPE) fitting and correct usage. They participate in initial hardware familiarisation, learning to identify specific sheet-metal tools and examining the mechanical movement of a completed toolbox to understand the linkage requirements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of mandatory OnGuard safety modules. Initial teacher feedback on student understanding of design constraints and safety awareness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the cantilever toolbox project, including the design brief, assessment requirements, and folio structure. They review workshop safety protocols, including PPE requirements and OnGuard safety modules, before examining an exemplar toolbox to identify key structural components and sheet-metal techniques.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-f1a035ce",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition into the design phase, conducting research into existing toolbox configurations and identifying key features for their own personalised design proposal. The week bridges the gap between conceptual design and production, with students learning to interpret technical working drawings and prepare for the marking-out phase on sheet material.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Zincanneal sheet metal, scribers, engineers' squares, steel rules, technical working drawings, design folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Lessons focus on the principles of design, including function, aesthetics, and ergonomics, while addressing the constraints of working with Zincanneal steel. Students learn how to read dimensioned orthogonal and pictorial drawings. Key concepts covered include the significance of bend allowances in sheet-metal work and the importance of accurate datum points when transferring measurements to raw material.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use marking-out tools, including engineers' squares, scribers, and steel rules, to transfer dimensions from their plans onto Zincanneal sheets. Emphasis is placed on 'measure twice, cut once' practices. Students practise consistent marking techniques to ensure all components are square, parallel, and accurately dimensioned before any cutting processes are initiated.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher verification of student marking-out accuracy and design proposal. Evaluation of folio development regarding dimensioned sketches.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students research and evaluate existing toolbox designs, identifying essential features and constraints to inform their personalised design proposal. Practical work begins with interpreting working drawings and accurately marking out main components onto Zincanneal, emphasising the importance of measurement precision.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-1059a7c6",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus this week moves to applied material science and the technical preparation of components. Students explore why Zincanneal is specified, examining its corrosion-resistant properties and how it behaves during cutting. Practical time is dedicated to high-precision cutting and the essential finishing steps that ensure the safety and professional quality of the toolbox components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Guillotine, tin snips, mill and needle files, deburring tools, Zincanneal sheet, workshop safety checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the properties of Zincanneal, specifically its zinc coating and the trade-offs of using sheet steel in corrosive environments. Students are instructed on the theory of cutting and shearing processes. Concepts include edge preparation, the necessity of deburring for health and safety, and the importance of maintaining structural integrity while handling sheet metal components.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students operate workshop machinery, such as the guillotine and tin snips, to cut their marked-out components from the sheet stock. Lessons include demonstrations on the safe operation of fixed machinery. Students then perform hands-on work using various file grades to remove sharp edges, burrs, and imperfections, ensuring every piece is ready for folding and assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of safe machinery operation. Quality control checks on component dimensions and edge finishes post-cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to material science, exploring the corrosion resistance and properties of Zincanneal alongside the necessity of accurate material allowances. Students progress to cutting their marked-out components using workshop machinery, ensuring edges are filed and deburred to meet safety standards.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-7846880b",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition into complex sheet-metal forming, moving from 2D flat patterns to 3D structures. The week focuses on the mastery of the pan-brake and manual folding techniques, emphasising the requirement for 'safety edges'—a folded lip that adds significant structural rigidity and removes sharp, exposed edges. Students work through a systematic folding sequence to ensure the box body and trays remain perfectly square.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Pan-brake folder, squaring tools, mallet, leather gloves, deburring tools, metal ruler, work-in-progress components.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction covers the geometry of sheet-metal development, focusing on calculating bend allowances and the neutral axis of the material. Students examine various seam types, including corner seams and safety folds, discussing how these features contribute to both the aesthetic finish and the structural integrity of the cantilever design. The theoretical component reinforces how sequence of operations is vital to prevent trapped parts during the folding process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve the precise operation of the pan-brake folder to create 90-degree bends. Students form the main toolbox carcass and the internal tray components, using squaring tools to verify alignment at each stage. They apply the process of 'hemming' or rolling edges to create safety folds, ensuring that all edges are de-burred and meet high-quality construction standards before transitioning to assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher inspection of folded components for accuracy, alignment, and adherence to dimensioned plans. Quality control sign-off on safety edges and component squareness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students examine advanced sheet-metal folding techniques, including the formation of safety edges and various seam types. Practical sessions involve forming the toolbox body and tray components, where students must verify fold accuracy and alignment to ensure the subsequent assembly remains square.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-9a97a85f",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the transition from cold-forming to permanent assembly. Students undertake the critical task of spot welding, which requires precise component preparation and alignment. Instruction highlights the chemistry and physics of resistance welding, ensuring students understand how pressure and current create a permanent bond, as well as the importance of clean, oxide-free surfaces for effective joins.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Spot welder, surface grinders/wire brushes for cleaning, clamps, jigs, mild steel scrap for testing, PPE including welding gloves and face shields.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons detail the mechanics of spot welding, comparing it to alternative joining processes like riveting or soldering. Students explore the durability advantages of welded joints in sheet-metal structures and the importance of electrical continuity. Explicit teaching addresses safety procedures for high-current equipment, specifically the management of thermal hazards and the importance of jigging components to prevent distortion during the cooling process.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical work involves preparing mating surfaces by removing mill scale or coatings to ensure conductivity. Students assemble the lower toolbox body and internal trays, using clamps and templates to ensure components remain square and aligned during the welding process. They perform trial welds on scrap material to calibrate current and timing, followed by the assembly of their actual project components, with rigorous quality checks conducted on every weld spot.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of weld quality (penetration and positioning) and student compliance with welding safety protocols. Peer review of tray alignment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory explores permanent joining methods, comparing spot welding with alternative assembly processes for sheet-metal durability. Students prepare their components for spot welding, carefully aligning pieces to assemble the lower toolbox body and internal trays while conducting rigorous quality checks on all joints.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-6ebbc920",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students shift their focus to the precision machining required for the cantilever linkage mechanism. The week begins with a formal project risk assessment, requiring students to document identified hazards and control measures for drill press operations and threading tasks. This experience connects safety management directly to the manufacturing of complex, moving mechanical parts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Drill press, centre punch, tap and die sets, engineers' blue, drill-tap charts, safety glasses, metal-working lubricant, design folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions focus on hole-location precision, drill bit selection, and the mechanical advantages of leveraged movement in cantilever systems. Students study the technical aspects of internal thread cutting (tapping), covering drill-tap charts, thread pitch, and the necessity of vertical alignment when using a tap wrench. Concepts include tolerance, clearance, and the impact of hole-placement accuracy on the overall functionality of the toolbox linkage.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a formal risk assessment for the drilling and tapping phase of the project. Practical tasks include marking out pivot holes on linkage arms, selecting appropriate drill sizes based on thread requirements, and operating the drill press with depth stops to ensure uniformity. They gain hands-on experience using engineering taps to create internal threads, ensuring the cantilever arms will move smoothly once assembled.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of formal risk assessment documentation. Teacher assessment of hole-placement accuracy and technical proficiency in thread cutting on linkage prototypes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete a formal risk assessment for their project before transitioning to drilling and threading processes. Instruction focuses on drill selection, hole placement and internal thread cutting, providing the necessary skills to manufacture the precision cantilever linkage components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-53a59de3",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students pivot to the mechanical phase of the project, focusing on the engineering principles governing the cantilever linkage system. Lessons involve translating complex spatial requirements into functional hardware, where students must balance pivot placement with tray clearance to ensure smooth operation. The week culminates in trial-fitting the linkage components to verify that trays extend and retract without binding or misalignment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mild steel flat-bar, drill press, precision centre punch, metric tap/die sets, assembly jigs, lubricating oil, schematic linkage diagrams.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the physics of lever systems and the importance of pivot geometry in achieving fluid mechanical motion. Students explore how hole-spacing accuracy on the linkage arms directly affects the tray parallelism during the extension cycle. Teachers provide guidance on tolerance management, explaining how minor errors in pivot point drilling can cause cumulative resistance or 'binding' in the final mechanism.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the precision fabrication of the cantilever linkage arms, including drilling, filing and finishing metallic connecting strips. Students perform assembly-line style batch production to ensure all linkage pairs are identical. The week concludes with students performing a 'dry-run' installation to test the mechanical action of the completed trays against the toolbox body, making fine-tuned adjustments to ensure consistent, reliable movement.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher verification of linkage arm hole-alignment and clearance. Review of mechanical 'binding' tests during trial assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus moves to the engineering mechanics of the cantilever system, specifically how pivot points and hole spacing affect mechanical function. Students manufacture the necessary linkage components and conduct trial assemblies to ensure the trays operate with consistent, binding-free movement.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-a7bfd39d",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on finalising the toolbox utility through the fabrication and integration of the handle, alongside a theoretical and practical review of portable power tool safety. Students work to refine the ergonomics of the handle while ensuring the cantilever mechanism is permanently fixed and operating at peak efficiency under load.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Portable drill drivers, pop-rivet guns, angle grinders, range of engineering files (coarse to smooth), steel rod/tubing for handle, fasteners (pop-rivets/bolts), design folio update time.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the selection and safe use of portable power tools, including drill drivers, pop-riveters, and angle grinders with finishing discs. Students compare different file grades (bastard, second-cut, smooth) and their appropriate applications for deburring and surface preparation. The theory component also addresses the ergonomics of tool design, discussing how handle placement and grip diameter impact user comfort during transport.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical time is prioritised for the manufacturing of the toolbox handle, including bending and securing it to the main body. Students conduct final fit-ups of the cantilever mechanism using permanent fasteners, ensuring the movement is binding-free. The final practical activity of the week involves applying high-standard filing and sanding to all exterior surfaces in preparation for final finishing, ensuring that no sharp edges remain.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Observation of safe portable power tool operation. Summative check on handle structural integrity and mechanism smoothness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their material cutting lists and address theory requirements regarding portable power tool usage, file grades and handle fabrication. Practical time is dedicated to manufacturing and installing the handle and refining the cantilever assembly for smooth, reliable operation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-2943b735",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake the critical phase of project evaluation and final aesthetic finishing. The week focuses on reflecting on the production process and comparing the tangible product against the initial design brief and success criteria. Practical efforts are dedicated to achieving a professional, corrosion-resistant surface finish that highlights the quality of fabrication.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Finishing materials (wet-and-dry paper, polishing compounds), project evaluation templates, final design folio checklists, inspection criteria rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons guide students through the evaluative process, contrasting their completed toolbox against their initial success criteria, design constraints, and dimensioned proposals. Students analyse the 'life cycle' of their project, considering the durability of Zincanneal versus the effectiveness of their chosen joining methods. The session provides scaffolds for writing a detailed critical evaluation that identifies strengths, weaknesses, and potential modifications for future design projects.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical focus is on final construction tasks, such as smoothing joints, checking rivet security, and applying finishing techniques to ensure a uniform appearance. Students perform a final mechanical inspection to confirm the cantilever system operates efficiently under weight. The remainder of the time is allocated to completing the final design folio entries and documenting the project’s evolution from 2D planning to 3D completion.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final quality inspection of the finished toolbox against design specifications. Review of the completed design folio, including the project evaluation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students draft their project evaluation by contrasting the final product against the original design brief and success criteria. Practical focus remains on completing any outstanding construction, refining joints, and applying a professional surface finish to ensure the toolbox meets quality standards.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    },
+    {
+      "id": "week-426eae12",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a final, rigorous audit of their completed cantilever toolboxes to verify operational success and adherence to initial specifications. The week is dedicated to the formal submission process, where students compile their final design folios, ensuring all research, design iterations, risk assessments, and production records are present. Peer and teacher-led critiques allow students to reflect on the success of their fabrication choices and the efficacy of their cantilever mechanisms.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project inspection rubrics, final design folio checklists, measuring tools (precision rules, callipers), weighting scales for load testing, submission portal/folders.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of quality control and the importance of professional reflection in engineering practice. Students consolidate their understanding of the cantilever mechanism by reviewing the relationship between pivot alignment, load distribution, and mechanical failure points. Discussions cover the importance of 'life cycle' thinking in sheet-metal design, evaluating how their choice of materials and construction methods contributes to the project's long-term utility and sustainability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve final safety and quality inspections where students test the operational efficiency of the cantilever trays under varied loads. Students perform a final detailing pass on the toolbox—ensuring all burrs are removed, fasteners are tightened, and the surface finish meets the required standard. Time is allocated for final folio compilation, ensuring all technical drawings, material lists, and evaluations are correctly formatted for submission.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment of the completed cantilever toolbox and the accompanying design folio. Final inspection rubrics are applied to assess construction quality, functional operation, and technical accuracy of the documentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with the final submission of the design folio and completion of all theoretical components. Students conduct a final safety and quality inspection, testing the cantilever mechanism's load capacity and operational efficiency before submitting the finished practical project for assessment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:46:08.865Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

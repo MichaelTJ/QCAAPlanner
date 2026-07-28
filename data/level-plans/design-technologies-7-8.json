@@ -78,17 +78,18 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• Construction: Completed in a supervised workshop environment adhering to Workplace Health and Safety (WHS) protocols.\n• Design Folio: 4–6 A3 pages (or digital equivalent) documenting the application of the SBC Year 7 Design Model.\n• Evidence: A physical prototype constructed to specifications and a folio containing annotated graphical representations, justification of material and process selections, and a final design drawing.",
+            "value": "• Construction: Completed in a supervised workshop environment adhering to Workplace Health and Safety (WHS) protocols.\n• Design Folio: 4–6 A4 pages (or digital equivalent) documenting the application of the SBC Year 7 Design Model.\n• Evidence: A physical prototype constructed to specifications and a folio containing annotated graphical representations, justification of material and process selections, and a final design drawing.",
             "aiNotes": "The quest for new and innovative products combined with profits being made by companies selling as many units as possible has resulted in what is termed a Throw Away Society, where increasingly the cost of repair is more than the cost of replacement. The resultant drain on landfill, construction resources and associated carbon emissions all point to the unsustainability of a Throw Away Society. \n\nIn this unit students will acquire the skills to build and maintain a key item required for the completion of their secondary and tertiary studies as well as produce an improved design that will add to the sustainability and associated financial savings of a pencil box that will last for multiple decades.\n\nYour task is to create a pencil case to the specifications of the design attached, using the materials provided. \n\nYou are also required to design an improved version of the pencil case you have made, incorporating elements of sustainability and the Circular Economy. This design task will be completed as a folio of work, documenting the use of the SBC year 7 Design Model, resulting in a final design drawing.\n\nAssessment Objectives:\n•\tDevelop, modify and communicate design ideas by applying creativity, innovation and skills of increasing sophistication.\n•\tWork flexibly to effectively and safely test, select, justify and use appropriate technologies and processes to make designed solutions.\n",
             "lastGenerated": "2026-07-20T11:21:13.844Z"
           },
           "achievementStandard": {
-            "value": "",
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
             "aiNotes": ""
           },
           "moderation": {
-            "value": "",
-            "aiNotes": ""
+            "value": "Internal moderation is conducted systematically across the Year 7–8 Design Technologies band to ensure consistency of teacher judgement against Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings to review student design portfolios and physical project outcomes, ensuring parity in the application of criteria for design thinking and technical skill.\n*   Cross-marking: Departmental review of final project evaluations to ensure objective and consistent application of marking guides and feedback strategies.\n*   Standardisation: Collaborative assessment of sample work during key milestones (Weeks 4–5) to align expectations regarding graphical representation, annotation depth, and safety compliance.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:57:11.973Z"
           }
         }
       ]
@@ -148,7 +149,7 @@
             "lastGenerated": "2026-07-26T11:04:51.232Z"
           },
           "achievementStandard": {
-            "value": "",
+            "value": "By the end of Year 8 students explain how people design, innovate and produce products, services and environments for preferred futures. For each of the 4 prescribed technologies contexts they explain how the features of technologies impact on design decisions, and create designed solutions based on analysis of needs or opportunities. Students create and adapt design ideas, processes and solutions, and justify their decisions against developed design criteria that include sustainability. They communicate design ideas and solutions to audiences using technical terms and graphical representation techniques, including using digital tools. They independently and collaboratively document and manage production processes to safely produce designed solutions.",
             "aiNotes": "",
             "lastGenerated": "2026-07-26T11:05:39.385Z"
           },
@@ -210,7 +211,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• under supervised workshop and classroom conditions\n• 4 A3 pages or equivalent \n• includes annotated graphical representations, an isometric concept sketch, and three dimensioned PDF views of a SketchUp model\n• completion of a physical prototype adhering to St Brendan’s College Work Health and Safety (WHS) protocols and workshop safety inductions",
+            "value": "• under supervised workshop and classroom conditions\n• 4 A4 pages or equivalent \n• includes annotated graphical representations, an isometric concept sketch, and three dimensioned PDF views of a SketchUp model\n• completion of a physical prototype adhering to St Brendan’s College Work Health and Safety (WHS) protocols and workshop safety inductions",
             "aiNotes": "",
             "lastGenerated": "2026-07-27T10:36:37.975Z"
           },
@@ -342,7 +343,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• Practical project: 6 weeks of workshop-based construction; assessed through direct teacher observation of safe, independent use of hand and power tools.\n• Design and theory folio: Maximum 6 A3 pages or equivalent digital portfolio, including annotated isometric sketches, technical drawings, and reflective commentary.",
+            "value": "• Practical project: 6 weeks of workshop-based construction; assessed through direct teacher observation of safe, independent use of hand and power tools.\n• Design and theory folio: Maximum 6 A4 pages or equivalent digital portfolio, including annotated isometric sketches, technical drawings, and reflective commentary.",
             "aiNotes": "",
             "lastGenerated": "2026-07-27T10:51:06.251Z"
           },
@@ -408,7 +409,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• 10 hours of supervised class time\n• Design Folio: 6 A3 pages including annotated sketches, a dimensioned SketchUp model, and evidence of iterative design\n• Practical: Constructed wooden port (dimensions approximately 400mm x 250mm x 200mm)\n• Adherence to mandatory St Brendan’s College workshop safety protocols and WHS requirements",
+            "value": "• 10 hours of supervised class time\n• Design Folio: 6 A4 pages including annotated sketches, a dimensioned SketchUp model, and evidence of iterative design\n• Practical: Constructed wooden port (dimensions approximately 400mm x 250mm x 200mm)\n• Adherence to mandatory St Brendan’s College workshop safety protocols and WHS requirements",
             "aiNotes": "",
             "lastGenerated": "2026-07-27T11:06:05.992Z"
           },
@@ -451,6 +452,141 @@
         true,
         false,
         false
+      ]
+    },
+    {
+      "id": "cd-4db7fa19",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation and the development of technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-56791b5e",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how force, motion and energy are used to manipulate and control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-2f693cdd",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how food and fibre are produced in managed environments and how these can become sustainable",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-04649873",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how properties of foods determine preparation and presentation techniques when designing solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-0c1cd3c3",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE8K06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
       ]
     },
     {
@@ -562,33 +698,6 @@
       ]
     },
     {
-      "id": "cd-0c1cd3c3",
-      "strand": {
-        "value": "Knowledge and understanding",
-        "aiNotes": ""
-      },
-      "subStrand": {
-        "value": "Technologies context: Materials and technologies specialisations",
-        "aiNotes": ""
-      },
-      "text": {
-        "value": "analyse how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
-        "aiNotes": ""
-      },
-      "code": {
-        "value": "AC9TDE8K06",
-        "aiNotes": ""
-      },
-      "unitInclusions": [
-        false,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    {
       "id": "cd-67bbc94b",
       "strand": {
         "value": "Processes and production skills",
@@ -613,33 +722,6 @@
         true,
         true,
         true
-      ]
-    },
-    {
-      "id": "cd-56791b5e",
-      "strand": {
-        "value": "Knowledge and understanding",
-        "aiNotes": ""
-      },
-      "subStrand": {
-        "value": "Technologies context: Engineering principles and systems",
-        "aiNotes": ""
-      },
-      "text": {
-        "value": "analyse how force, motion and energy are used to manipulate and control engineered systems",
-        "aiNotes": ""
-      },
-      "code": {
-        "value": "AC9TDE8K03",
-        "aiNotes": ""
-      },
-      "unitInclusions": [
-        false,
-        false,
-        false,
-        true,
-        false,
-        false
       ]
     }
   ],

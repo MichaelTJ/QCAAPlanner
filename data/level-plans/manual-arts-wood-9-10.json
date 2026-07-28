@@ -1,0 +1,2080 @@
+{
+  "id": "manual-arts-wood-9-10",
+  "bandSubjectTitle": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "school": {
+    "value": "St Brendan's College (Yeppoon)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "levelDescription": {
+    "value": "By the end of Year 10 students should have had the opportunity to design and produce at least 4 designed solutions focused on one or more of the 4 technologies contexts:\n\nEngineering principles and systems\nFood and fibre production\nFood specialisations\nMaterials and technologies specialisations.\nStudents should have opportunities to experience creating designed solutions for products, services and environments.\n\nStudents use design and technologies knowledge and understanding, processes and production skills and design thinking to produce designed solutions for identified needs or opportunities of relevance to individuals and local, regional or global communities. They work independently and collaboratively. Problem-solving activities acknowledge the complexities of contemporary life and make connections to related specialised occupations and further study. Increasingly, study has a global perspective, with opportunities to understand the complex interdependencies involved in the development of technologies and enterprises.\n\nStudents specifically focus on preferred futures, taking into account ethics; legal issues; social values; and economic, environmental and social sustainability factors; and use strategies such as life cycle thinking. They use critical thinking, creativity, innovation and enterprise skills with increasing confidence, independence and collaboration. Students analyse data, evaluate design ideas and technologies, respond to feedback, and evaluate design processes used to inform designed solutions for preferred futures.\n\nUsing a range of technologies including a variety of graphical representation techniques to communicate, students generate and represent original ideas and production plans in 2-dimensional and 3-dimensional representations. These techniques will be specific to the technologies context and may include scale, perspective, orthogonal and production drawings with sectional and exploded views. Students produce rendered, illustrated views for marketing and use graphic visualisation software to produce dynamic views of design ideas and designed solutions.\n\nStudents identify the steps involved in planning the production of designed solutions. They develop detailed project management plans, incorporating elements such as sequenced time, cost and action plans, to manage design tasks safely. Students apply management plans, making adjustments when necessary, to successfully complete design tasks. They identify and establish safety procedures that minimise risk and manage projects with safety and efficiency in mind, maintaining safety standards and management procedures to ensure success.",
+    "aiNotes": ""
+  },
+  "contextAndCohortConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "units": [
+    {
+      "id": "unit-ad038a81",
+      "unitTitle": {
+        "value": "Paper Towel Holder (Wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 9 Wood Technology unit, students develop practical woodworking skills by designing and constructing a functional timber paper towel holder. Students learn to accurately measure, mark, cut, shape and assemble timber components using appropriate hand tools, portable power tools and workshop machinery. The project introduces timber-joint applications, including mortise-and-tenon and stopped-housing joints, while emphasising accuracy, fit, strength and quality of finish. Students also investigate existing products, develop personalised design ideas, produce CAD drawings and document the manufacturing process. Workshop safety, risk management, time management and responsible use of materials are reinforced throughout the unit.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-5c9a3b81",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Paper Towel Holder (Wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and manufacture an individual wooden paper towel holder based on the supplied working drawing. The finished product must be functional, accurately constructed and include appropriate personalisation or design modifications.\n\nAssessment evidence will include:\n\nA completed timber paper towel holder\nA design folio containing a brief, success criteria and constraints\nResearch and analysis of existing products\nInitial ideas and annotated design improvements\nA CAD model and dimensioned orthographic drawings\nA risk assessment and material cutting list\nPhotographic documentation of the production process\nEvaluation, peer feedback and self-assessment\nAssociated theory covering workshop safety, abrasives, adhesives, fasteners, finishing processes and woodworking equipment\n\nStudents will be assessed on their understanding of tools and production processes, development and communication of design ideas, safe workshop practices, accuracy and quality of construction, application of timber joints, management of production steps and evaluation of the final solution.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• A timber paper towel holder (constructed prototype).\n• A design folio (maximum 10 A4 pages).\n• Folio must include: project brief, success criteria, annotated research, CAD model with orthographic projections, risk assessment, material cutting list, process photography, and reflective evaluation.\n• Practical construction: demonstrated competency in safe tool operation, joint accuracy, and finishing techniques assessed in the workshop.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:28:08.319Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review the progress of design folios and evaluate initial CAD representations.\n*   **Cross-marking:** Departmental review of final project marking guides prior to the assessment period to ensure the consistent application of criteria regarding joinery accuracy, quality of finish, and safety compliance.\n*   **Verification:** Final student work samples are collaboratively reviewed in Week 10 to ensure alignment with the expected achievement standards for Year 10 Design and Technologies.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:28:09.977Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-fb1d398f",
+      "unitTitle": {
+        "value": "Jewellery Box (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 9 Wood Technology unit, students investigate the precision and craftsmanship required in cabinet and furniture making through the design and construction of a wooden jewellery box. Students develop increasingly sophisticated woodworking skills, with a particular focus on accurate measurement, marking out, hand-tool use and the construction of dovetail joints. They work from a supplied design while incorporating personalised features to make their jewellery box unique. Throughout the unit, students apply workshop safety procedures, select appropriate tools and processes, and document the design and production process in a project folio. The completed product is evaluated for its functionality, appearance, accuracy and overall quality of manufacture.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-cc2d0148",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Jewellery Box (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students design and manufacture an individual wooden jewellery box based on the supplied specifications. The finished product must be functional, accurately constructed and include appropriate personalisation or decorative features.\n\nAssessment evidence will include:\n\nA completed wooden jewellery box incorporating dovetail joinery\nAccurate measurement, marking out, cutting, assembly and finishing\nSafe and responsible use of hand tools, power equipment and workshop processes\nA project folio containing a design brief, success criteria and constraints\nResearch and analysis of existing jewellery box designs\nA dimensioned design sketch and material cutting list\nA completed risk assessment\nDocumentation and explanation of the production process\nAn evaluation of the finished product against the design brief and success criteria\nResponses to associated theory questions covering workshop safety, timber properties, woodworking joints, tools and production procedures\n\nStudents will be assessed on their knowledge and understanding of woodworking processes and their ability to investigate, generate, produce and evaluate a designed solution.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 6–8 A4 pages or equivalent digital media pages\n• Includes a project folio containing design brief, success criteria, dimensioned sketches, material cutting list, risk assessment, and process documentation\n• Finished product: functional, accurately constructed wooden jewellery box incorporating dovetail joinery\n• Supervised workshop sessions for practical construction and safety testing",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:30:53.794Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent and objective application of the QCAA achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled collaborative sessions at Weeks 3 and 7 to review student design folios and evaluate the quality of evidence against the assessment criteria.\n*   **Cross-marking:** Faculty-wide blind marking of the completed jewellery boxes and project folios to ensure consistent application of the marking guide.\n*   **Standards Verification:** Peer review of student work samples to validate judgements and confirm alignment with Year 10 Wood Technology benchmarks.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:30:55.582Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-c8407acb",
+      "unitTitle": {
+        "value": "Camp Stool (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 9 Wood Technology unit, students develop their woodworking skills by designing and constructing a functional folding camp stool. Students interpret working drawings, accurately measure and mark timber, and manufacture a range of traditional timber joints, including mortise-and-tenon, bridle, housing and dovetail joints. They safely select and use hand tools, portable power tools and workshop equipment while developing accuracy, patience and attention to detail.\n\nStudents also complete a folio documenting the design and production process. They investigate existing products, establish a design brief and success criteria, identify constraints, communicate a personalised design, complete a risk assessment and material cutting list, and evaluate the suitability and quality of their finished solution.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-6a03e639",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Camp Stool (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and construct a folding timber camp stool based on the supplied specifications and working drawings. The stool must be functional, stable, accurately assembled and appropriately finished. Students may personalise aspects of the stool, such as the timber details, canvas seat or surface finish.\n\nAssessment evidence will include:\n\nA completed and functional camp stool.\nAccurate measurement, marking, cutting and fitting of timber components.\nConstruction of the specified timber joints.\nSafe and appropriate use of hand tools, power tools and workshop equipment.\nA design folio containing a design brief, success criteria and constraints.\nResearch into existing products, supported by an analysis of advantages and disadvantages.\nA communicated design with dimensions, materials and annotations.\nA risk assessment and material cutting list.\nAn evaluation of the finished product against the design brief and success criteria.\nCompletion of associated theory covering workshop safety, materials, CNC technology, coordinates, area calculations and portable power tools.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 8–10 A4 pages of documentation, including design folio, technical drawings and evaluation\n• 1 functional timber camp stool\n• Access to workshop facilities for a period of 10 weeks\n• Under supervised conditions for practical production\n• Students to provide a material cutting list and risk assessment prior to commencing construction",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:33:27.978Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Manual Arts faculty to ensure consistent application of the QCAA achievement standards. This process includes:\n\n*   Moderation Conferencing: Scheduled meetings during Weeks 4 and 8 to review student folio samples, ensuring consistent interpretation of the success criteria and design requirements.\n*   Cross-marking: Collaborative marking of student folios and technical assessments to verify the accuracy of grading against the identified standards.\n*   Work Sample Review: Staff review of finished camp stools against the design brief to confirm that technical standards for joinery and finish are met consistently across the cohort.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:33:29.871Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-63e6a0f4",
+      "unitTitle": {
+        "value": "Shelving Unit (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students develop woodworking knowledge and practical skills by designing and constructing a personalised timber wall-shelving unit. Students interpret working drawings, prepare a cutting list and use accurate measurement and marking-out techniques to manufacture the project. Construction introduces increasingly sophisticated cabinetmaking joints, including stopped housing joints, mortise-and-tenon joints and dovetail joints. Students also manufacture and fit a small drawer, plywood components and a customised back panel.\n\nThroughout the unit, students safely select and use hand tools, portable power tools and workshop equipment. They investigate timber and manufactured boards, workshop safety, production processes and the characteristics of different materials. Students document the design and production process in a folio and evaluate the functionality, appearance and quality of their completed shelving unit.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-5937bcde",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Shelving Unit (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students design and construct a functional timber wall-shelving unit based on the supplied working drawing. The fundamental dimensions and construction methods are provided, but students personalise the project through changes to features such as the back panel, shape, detailing and finish.\n\nAssessment evidence is collected through:\n\nA completed wall-shelving unit demonstrating accurate marking out, joint construction, assembly, drawer fitting, surface preparation and finishing.\nA design and production folio containing a design brief, success criteria, constraints, existing-product research, concept sketches, CAD drawings, orthographic views, risk assessment, cutting list and an annotated photographic production record.\nAn evaluation comparing the completed product against the design brief and success criteria, supported by peer feedback.\nTeacher observation of safe workshop practices, correct tool selection, time management and practical skill.\nAssociated theory activities covering workshop safety, timber and manufactured boards, emerging materials, hand tools and portable power tools.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Practical construction: 8–10 hours workshop time\n• Folio: 6–8 A4 pages or equivalent digital media, including CAD drawings, cutting lists, and production records\n• Final product: A functional wall-shelving unit completed to design specifications\n• Supervised classroom conditions for theory and safety testing",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:36:33.233Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Year 10 Manual Arts department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings to review student work samples, specifically focusing on the precision of joinery and the quality of orthographic representations.\n*   Cross-marking: Departmental review of design folios and evaluation reflections to ensure consistent application of the marking criteria, particularly regarding the demonstration of safety protocols and sustainable material selection.\n*   Standardisation: Collaborative assessment of a student work sample at the start of the unit to calibrate expectations for 'accurate marking out' and 'sophisticated cabinetmaking'.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:36:35.048Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-5dfb3494",
+      "unitTitle": {
+        "value": "Footstool (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Wood Technology unit, students design and manufacture a timber footstool based on a supplied design. Students develop practical woodworking skills while learning how accurate measurement, timber preparation, joint construction and careful finishing contribute to a functional and aesthetically pleasing furniture product. The project allows students to personalise the supplied design through considered changes to its form, materials or appearance.\n\nThroughout the unit, students use hand tools, portable power tools and workshop machinery while following established risk-control procedures. They investigate existing products, develop and communicate design ideas, produce a CAD model and document the manufacture of their footstool in a design folio. Particular emphasis is placed on accuracy, biscuit-joint construction, attention to detail, safe working practices and evaluating the quality of the completed product.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-e160b957",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Footstool (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students are required to design and manufacture an innovative and personalised timber footstool that meets the specifications of the supplied project drawing. The practical product should demonstrate accurate marking and measuring, appropriate use of tools and machinery, close-fitting joints, effective assembly and a high-quality surface finish.\n\nStudents will also complete an individual design and production folio containing:\n\nA design brief, success criteria and project constraints\nResearch and analysis of three existing footstools\nAn initial design and three proposed modifications\nAn annotated final design\nA CAD model and dimensioned orthographic drawings\nA risk assessment\nA material cutting list and project costing\nA photographic production record\nAn evaluation and peer evaluation\nAssociated theory covering workshop safety, abrasive grades, PVA adhesive, biscuit joints, pilot and clearance holes, and relevant tools and machinery\n\nAssessment evidence will be gathered from the completed footstool, design folio, associated theory work, teacher observation and safe workshop participation.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 8–10 A4 pages of documentation, including annotated design drawings and production records\n• Physical timber footstool (maximum dimension: 450mm x 450mm x 450mm)\n• Individual design folio to be submitted in digital or hard-copy format\n• Supervised workshop time for practical construction\n• Adherence to WHS procedures and St Brendan’s College workshop safety protocols",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:38:50.575Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Year 10 Technology department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled sessions during Weeks 4 and 8 to review samples of student design folios and practical progress, ensuring alignment with marking criteria for accuracy and quality.\n*   **Cross-marking:** Departmental validation of final footstool assessment pieces to ensure objective and consistent application of the marking guide, with a specific focus on the precision of timber joints and surface finish standards.\n*   **Standardisation:** Review of student performance data and internal benchmarking of folios to support rigorous and defensible assessment outcomes.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:38:52.532Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-7d6a7186",
+      "unitTitle": {
+        "value": "Bedside Table (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this unit, students design and construct a timber bedside table using a supplied project drawing as the basis for their work. Students develop their knowledge of furniture construction, timber selection, accurate measurement and the use of timber joints, including mortise and tenon joints. They personalise the supplied design through considered changes to its appearance or features and use CAD to communicate their final design. Throughout the unit, students safely use hand tools, power tools and workshop equipment to produce an accurate, functional and aesthetically pleasing product. Students document the design and production process in a folio and evaluate the quality of their finished bedside table.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-d9560d73",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Bedside Table (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will individually design and construct a personalised timber bedside table based on the supplied specifications. The finished product must be functional, accurately manufactured and demonstrate appropriate use of timber joints, tools, equipment and finishing processes.\n\nStudents will also complete a design folio containing:\n\nDesign brief, success criteria and project constraints\nResearch into existing bedside tables, including advantages and disadvantages\nInitial sketches and three proposed design modifications\nA CAD model with labelled and dimensioned orthographic views\nRisk assessment and control measures\nMaterials cutting list and project costing\nPhotographic production procedure with annotations\nEvaluation against the design brief and success criteria\nPeer and self-evaluation\nAssociated theory questions about tools, equipment and timber joints\n\nAssessment evidence will be collected through the completed bedside table, design folio, theory responses, teacher observations and the student’s consistent application of safe workshop practices.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Design folio: up to 10 A4 pages or equivalent digital format, including CAD documentation, orthographic drawings, risk assessments, and production records.\n• Practical product: a completed timber bedside table manufactured to specified dimensions and construction standards.\n• Under supervised workshop conditions; access to specified hand tools, power tools, and machinery provided.\n• Consistent application of safe work practices and personal protective equipment (PPE) required throughout the production phase.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:41:27.625Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Year 9–10 Manual Arts band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings to review student design folios and evaluate the quality of finished timber products against the assessment criteria.\n*   Work Sample Review: Collaborative analysis of student folios and photographic production evidence to ensure consistent application of marking guides regarding joinery accuracy and safety compliance.\n*   Cross-marking: Departmental review of theory responses to ensure objective assessment of technical knowledge regarding timber selection, tool maintenance, and joinery techniques.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:41:29.409Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-804e180c",
+      "unitTitle": {
+        "value": "Wall Clock (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Wood Technology unit, students design and manufacture a personalised timber wall clock based on a supplied project design. Students develop their ability to accurately measure, mark, cut, shape and join timber while using a range of hand tools, portable power tools and workshop machinery. They investigate timber joints, adhesives, surface preparation and clear finishing techniques to produce a functional and visually appealing product. Throughout the unit, students apply workshop safety procedures, manage their time and document the design and production process in a project folio.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-2b66d10a",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Wall Clock (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students design and manufacture an individual timber wall clock that meets the supplied dimensions and construction requirements while incorporating their own design modifications and personalisation. The completed clock must be functional, accurately assembled, appropriately finished and produced using safe workshop practices.\n\nStudents also submit a project folio containing:\n\nA design brief, success criteria and constraints\nResearch into three existing clock designs, including advantages and disadvantages\nInitial sketches and three proposed modifications\nAn annotated final design and CAD model\nA risk assessment\nA materials cutting list and project costing\nPhotographic evidence and an annotated production procedure\nResponses to associated theory questions\nA final product evaluation, peer evaluation and self-assessment\n\nAssessment evidence is gathered from the completed clock, the folio and teacher observations of students’ practical skills, safety, tool selection, accuracy and application of production processes.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 10-week project duration\n• Folio of evidence (approx. 8–10 A4 pages or equivalent digital format)\n• Practical demonstration under supervised workshop conditions\n• Use of specified timber materials and mechanical clock movement\n• Compliance with industry-standard WHS and machine safety protocols",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:43:24.681Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the Year 10 Design and Technologies cohort to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings at the conclusion of Week 5 to review the folio design development and progress, ensuring alignment with success criteria and constraints.\n*   **Verification of Judgement:** Collaborative review of student products and folios at the conclusion of the unit, utilising a common marking guide to validate standards-based assessment decisions.\n*   **Standardising Practice:** Departmental review of marking practices to ensure accuracy and consistency in the application of criteria, particularly regarding the evaluation of technical skills and the application of workshop safety procedures.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:43:26.576Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-fd52889d",
+      "unitTitle": {
+        "value": "Wall Mirror (wood)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Wood Technology unit, students design and manufacture a personalised timber wall mirror. Students develop practical woodworking skills through accurate measuring, marking out, cutting, joining, assembling and finishing timber components. They investigate existing products, develop and communicate design ideas using sketches and CAD, and select appropriate materials, tools and production processes. Throughout the unit, students apply workshop safety procedures, manage their time and document the development and manufacture of their mirror in a design folio.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-ff9b7179",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Wall Mirror (wood)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will design and construct an innovative and aesthetically pleasing timber wall mirror based on the supplied project specifications. The completed mirror must demonstrate accurate construction, close-fitting joints, careful finishing and appropriate personalisation.\n\nStudents will also produce a folio documenting the design and production process. The folio will include:\n\nA design brief, success criteria and project constraints\nResearch and analysis of existing wall mirror designs\nInitial sketches and proposed design modifications\nA final CAD model with dimensioned orthographic views\nA risk assessment and material cutting list\nPhotographic evidence and an annotated production sequence\nResponses to associated woodworking theory questions\nA final evaluation and peer evaluation\n\nStudents will be assessed on their knowledge of tools, materials, production processes and safety, as well as their ability to generate, produce and evaluate a functional designed solution.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Folio: 6–8 A4 pages or equivalent digital media, incorporating design sketches, CAD drawings, material cutting list, risk assessment, and photographic evidence of production.\n• Practical: Construction of the wall mirror completed within scheduled workshop sessions under direct supervision.\n• Time: 10 weeks of allocated classroom and workshop time.\n• Moderation: Internal cross-marking within the Technologies department to ensure consistent application of the QCAA assessment criteria.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:45:22.278Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review a range of student work samples (A–E) and clarify the application of the assessment rubric.\n*   **Cross-marking:** Double-marking of final folios and practical product evaluations to ensure objective and consistent application of performance criteria.\n*   **Standardising:** Collaborative review of workshop safety evidence and technical production standards to ensure alignment with St Brendan’s College safety and assessment expectations.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:45:24.377Z"
+          }
+        }
+      ]
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "cd-11c9d41b",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-54bf34d7",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-e8d20896",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Engineering principles and systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-0e56c534",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-5cc34bdc",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-c8bd0363",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Materials and technologies specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K06",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-f04f1727",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-dcc0a6f0",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-1cfde222",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P03",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-60023d1c",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-916d2b9a",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10P05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "cap-b5631987",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "cct-inquiring": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-generating": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "cct-analysing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "cct-inquiring-develop-questions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-inquiring-identify-process-evaluate": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-generating-create-possibilities": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-generating-consider-alternatives": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "cct-generating-put-ideas-into-action": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-analysing-interpret-concepts": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-analysing-draw-conclusions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "cct-analysing-evaluate-actions": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-reflecting-metacognition": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "cct-reflecting-transfer-knowledge": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-21290629",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-exchanging": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operating": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "dl-safety-manage-online": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-privacy-identity": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-investigating-locate": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        "dl-investigating-acquire": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        "dl-investigating-interpret": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-creating-plan": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "dl-creating-communicate-collaborate": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "dl-creating-ip": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-content": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-protect": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "dl-managing-operate": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "id": "cap-0a14a4fc",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "eu-concepts": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "eu-concepts-explore": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-values-rights": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-concepts-influences": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-issues": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "eu-responding-decisions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-4a54534c",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "categoryInclusions": {
+        "iu-reflecting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "iu-reflecting-cultures-identities": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-perspectives": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-reflecting-influence": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-communicate": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-perspectives": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-engaging-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-responses": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-biases": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-cc2982fc",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "lit-speaking-listening": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-reading-viewing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-writing": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "lit-listening": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-interacting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-speaking": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-understanding-texts": [
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-phonic-knowledge": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-fluency": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-creating-texts": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "lit-grammar": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-punctuation": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-spelling": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "lit-handwriting-keyboarding": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-ad3ea7fb",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "num-number-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measurement-geometry": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-statistics-probability": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "num-place-value": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-counting": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-additive": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-multiplicative": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-fractions": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-proportional": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-patterns-algebra": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-money": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "num-units-measurement": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "num-geometric-properties": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "num-positioning": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-measuring-time": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-chance": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "num-data": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "id": "cap-02251f67",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "categoryInclusions": {
+        "psc-self-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-self-management": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-social-management": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "subElementInclusions": {
+        "psc-personal-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-emotional-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-reflective-practice": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "psc-goal-setting": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-perseverance": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "psc-empathy": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-relational-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-community-awareness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-communication": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-collaboration": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-leadership": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "psc-decision-making": [
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "crossCurriculumPriorities": [
+    {
+      "id": "ccp-d0e5f9ee",
+      "name": {
+        "value": "Aboriginal and Torres Strait Islander histories and cultures",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-bd278345",
+      "name": {
+        "value": "Asia and Australia's engagement with Asia",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "ccp-88023be1",
+      "name": {
+        "value": "Sustainability",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
+}

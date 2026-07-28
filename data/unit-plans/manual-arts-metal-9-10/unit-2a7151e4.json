@@ -1,0 +1,796 @@
+{
+  "id": "unit-2a7151e4",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 6,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Fire Brazier (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Metal Technology unit, students design and manufacture a wrought iron brazier. They develop practical metalworking skills through measuring, marking out, cutting, bending, twisting, scrolling, hard riveting and welding steel components. Students safely operate hand tools, portable power tools and specialised Metalcraft machinery while following workshop procedures and risk-control measures. Throughout the unit, students document the design and production process in a folio, including research, design ideas, CAD drawings, a cutting list, photographic evidence and evaluation of the finished product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The 9–10 Manual Arts (Metal) program at St Brendan’s College operates within a workshop environment that prioritises industrial safety, precision and practical application. Given the cohort’s diverse range of technical experience, the curriculum is structured to scaffold the transition from fundamental hand-tool proficiency in Year 9 to the application of complex fabrication, welding and mechanical assembly techniques in Year 10. Students engage in authentic, project-based learning that mirrors industry standards, requiring a synthesis of design thinking and rigorous safety compliance. Literacy and numeracy development is integrated through technical drawing interpretation, material estimation and the documentation of sequential production plans. Consistent with the College’s mission, this context emphasises the development of resilient, safety-conscious practitioners who can effectively navigate the complexities of metal-based designed solutions for real-world applications.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-27T22:47:54.094Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-cfe45fd8",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Fire Brazier (metal)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students individually manufacture a functional wrought iron brazier that conforms to the supplied design specifications. The completed brazier should demonstrate accurate measurement, controlled scrollwork and twisting, correctly formed riveted joints, sound welding, appropriate finishing and consistent workshop safety.\n\nStudents also compile a project folio containing:\n\nA design brief, success criteria and project constraints\nResearch and analysis of three existing brazier designs\nAn initial design and three proposed improvements\nAn annotated final design\nA CAD model and dimensioned orthographic drawings\nA risk assessment and material cutting list\nA photographic record of the manufacturing process\nResponses to associated theory questions\nEvaluation and peer evaluation of the finished product\n\nAssessment considers students’ knowledge of metalworking tools and processes, development and communication of design ideas, safe working practices, production skills, time management and evaluation of the final solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Individual project: One functional wrought iron brazier conforming to specified design dimensions and safety standards.\n• Project folio: 8–12 A4 pages (or digital equivalent) including research, annotated design iterations, CAD/orthographic drawings, production plan, safety documentation, and evaluative reflection.\n• Duration: 10-week production cycle with ongoing classroom monitoring and staged practical assessment.\n• Supervised workshop conditions: All metalworking processes and machine operations must be conducted under direct teacher supervision in accordance with St Brendan’s College WHS protocols.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:26.842Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings conducted in Week 5 to review a sample of student folios and evaluate manufacturing progress against project specifications. \n*   **Standardising Judgement:** Faculty-wide review of the Fire Brazier marking guide prior to assessment implementation to ensure common understanding of criteria.\n*   **Cross-marking:** Post-assessment peer review of student folios to ensure objective and consistent application of the QCAA-aligned marking rubric across the Year 10 cohort.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:28.766Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-18eb58e5",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-879a9790",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4ff32113",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3fc5025a",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-34f4819e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f87347f7",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fb8bc903",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-93145b9b",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-65d08e83",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-deb90bb1",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-2da0b184",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-4b52736f",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-7c89d70c",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-ec7f8986",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-f1185c83",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin by reviewing the project specifications and the functional requirements of a wrought iron brazier. Lessons establish the foundation for workshop safety, encompassing the identification of hazards and the correct use of PPE. Students commence their project folios by defining the design brief, establishing success criteria and identifying key constraints. Practical sessions involve an introduction to measuring and marking out techniques on mild steel stock, emphasizing precision and industrial accuracy.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project specification sheet, workshop safety induction materials, mild steel flat bar and square section samples, engineers' squares, scribers, centre punches, hammers, PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component introduces the history and application of wrought iron and modern mild steel in architectural and functional metalwork. Explicit teaching covers the principles of safe workshop conduct, including the QCAA-aligned requirements for risk assessments and the importance of standard operating procedures (SOPs). Students examine the mechanical properties of carbon steel and how material selection impacts both fabrication methods and the longevity of high-heat products.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical lessons focus on the transition from design drawings to physical material preparation. Students engage in workshop induction activities, learning the proper setup and safety operation of pedestal drills, bench grinders, and hand-held measuring tools. They perform calibration and marking-out exercises on off-cut steel, practicing the use of engineers' squares, scriber sets, and centre punches to ensure exact cut lines for their primary components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Initial workshop safety quiz and assessment of student ability to mark out components to within a 0.5mm tolerance.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the brazier project specifications, safety protocols, and the role of wrought iron in metal fabrication. They initiate their design folio by establishing the design brief, success criteria, and constraints while undergoing a comprehensive workshop induction. Practical lessons focus on identifying core materials and tools, alongside preliminary exercises in accurate measuring and marking out on steel.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-7be68667",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Instructional focus shifts to a comparative analysis of existing fire-pit designs to evaluate functional and aesthetic variations. Students learn to translate these observations into a project-specific cutting list, applying numeracy skills to calculate total material lengths and nesting patterns. Practical lessons involve the systematic cutting of primary frame components using cold saws or hacksaws, followed by essential finishing techniques to remove burrs and sharp edges.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Cold saw, horizontal bandsaw, files (bastard and smooth cut), linisher, Vernier calipers, steel stock, cutting list template.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions explore the metallurgy of steel, specifically the impact of thermal cycling on material integrity in brazier design. Students learn about standard steel sizing, material waste minimisation, and the importance of life cycle thinking during the design phase. The lecture content focuses on the mathematical requirements of creating a formal cutting list, ensuring students understand the relationship between their CAD drawings and final material procurement.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop practice centers on the safe operation of cutting machinery. Students gain proficiency in the operation of horizontal bandsaws and manual hacksaws, focusing on perpendicular cuts and material stability. Following cutting, students perform metal preparation tasks using files and linishers, ensuring all edges are de-burred to industry standards to facilitate later assembly and ensure user safety.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of a formal cutting list and verification of prepared metal components for structural alignment.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The instructional focus shifts to researching existing fire-pit designs to evaluate functional and aesthetic variations, alongside theory on steel production and material properties. Students calculate their material requirements to generate a formal cutting list. Practical tasks involve the precise cutting of steel components followed by essential filing and deburring to prepare for fabrication.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-c7f9aae6",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students advance to conceptual design, generating three distinct sketches that demonstrate iterative improvement on their initial brazier concepts. Theory sessions delve into structural mechanics, specifically stability and balance in high-heat environments. In the workshop, students are introduced to specialized Metalcraft machinery, where they perform trial bends and scrolls on scrap material to build manual dexterity before beginning the final build.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Metalcraft bender/former machine, sketching paper, design folio templates, scrap mild steel flat bar, heat-resistant safety gloves, demonstration video of scroll-work.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the principles of force, load distribution, and thermal expansion in relation to brazier stability. Lessons explore the mechanics of leverage and material resistance when using bending and scrolling tools. Students analyse how aesthetic form must balance with structural necessity to prevent warping or collapse during high-intensity usage, linking these concepts back to their iterative design sketches.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "The practical component focuses on the safe operation of Metalcraft benders, scroll formers, and twisting tools. Students follow a scaffolded process: first observing demonstrations, then practicing on waste material to understand material spring-back and bend radii. Once confident, they begin the production of the decorative and structural components of their brazier frame, ensuring consistent geometry across all pieces.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of design folio progress and assessment of proficiency in operating metal-forming machinery without compromising material integrity.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students progress to conceptual design, producing initial sketches and iterating through three distinct improvements for their brazier. Theory sessions address the principles of stability, balance, and safe usage in high-heat environments. In the workshop, students are introduced to Metalcraft machinery, focusing on the safe operation of bending and scrolling tools using scrap material for skill development.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-d0f750cc",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from conceptual design to formal technical documentation. The week focuses on reconciling initial sketches with the realities of material dimensions. Teachers guide students through the translation of 2D sketches into dimensioned orthographic projections using CAD software, emphasizing standard conventions like hidden detail lines and scale. Practical time is dedicated to the precise layout and cold-working of the main frame components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., Fusion 360 or similar), computer workstations, printers for drawing output, steel flat bar, bending jigs, templates, measuring equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of technical drawing and the importance of orthographic projections in communicating complex fabrication requirements. Students learn to interpret dimensioned drawings to avoid material waste, focusing on the relationship between scale and real-world proportions. Discussions address the necessity of strict design adherence to ensure the final assembly maintains structural symmetry and balance, consistent with industrial manufacturing standards.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use CAD software to produce accurate front, top, and side views of their brazier. In the workshop, they apply these drawings to their steel stock, performing the initial cutting, bending, and cold-scrolling of frame elements. Emphasis is placed on using templates to ensure identical profiles across all recurring frame parts, with students regularly checking their work against their CAD models to ensure geometric accuracy.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the initial CAD orthographic drawing package and progress of physical frame components against the project dimensions.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus turns to formalising the design through selection, justification, and the creation of CAD models showing orthographic projections. Students refine their technical drawing skills by producing dimensioned front, top, and side views. Practically, students initiate the fabrication of the main brazier frame, executing necessary scrolls and bends while verifying dimensions against their working drawings.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-c961dcb4",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus moves to project management and safety documentation. Students finalise their CAD portfolios and conduct a rigorous project-specific risk assessment, identifying hazards inherent in secondary processing such as drilling and grinding. Practical sessions involve the transition to assembly-phase preparation, where students accurately mark and drill pilot and clearance holes for riveting, ensuring perfect alignment before final joining.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project risk assessment templates, pedestal drill, twist drill bits, deburring tools, clamps, jigs, vernier calipers, safety glasses, shop coats.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory explores the hierarchy of hazard control in a metalworking environment, specifically focusing on drilling, grinding, and manual riveting procedures. Students are taught to identify the risks associated with swarf, vibration, and sharp edges. Discussion includes the significance of jigging and sacrificial blocking when drilling thin-walled or slender section steel, and the importance of standard operating procedures (SOPs) in mitigating workplace injury.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical time is split between finalising documentation and workshop-based precision drilling. Students use pedestal drills with correct feeds and speeds to create clean, burr-free holes in their brazier frame. They employ clamping and jigs to ensure total alignment of the frame components, preparing for the upcoming riveting phase where hole-to-hole registration is critical for structural integrity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Submission of the risk assessment document and technical verification of hole placement and alignment on all brazier frame components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their CAD portfolios and conduct a rigorous project risk assessment, identifying hazards associated with advanced metalworking processes. Theory explores control measures for drilling, grinding, and riveting. Practical sessions involve marking and drilling rivet holes with high precision to ensure symmetrical alignment of the frame before the assembly stage.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-7cd945e3",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students investigate mechanical fastening, focusing on the application of hard riveting as a durable, traditional joinery method. The curriculum provides a comparative analysis of riveting versus welding, highlighting structural integrity, heat-affected zones, and aesthetic outcomes. Practical sessions see the assembly of the frame, with students gaining proficiency in heating and peening rivet heads to create strong, tight-fitting joints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Gas forge or oxy-acetylene torch, rivet snaps, ball-peen hammers, anvils/stakes, rivets, steel frame components, heat-resistant PPE.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the metallurgy and mechanics of hard riveting, including the process of thermal expansion and contraction in rivet formation. Students analyse the structural performance of mechanical fasteners versus fusion welds, considering the impact of repeated thermal cycling (heat exposure from the fire) on the longevity of the joint. Theory also covers the selection of appropriate rivet diameters and lengths relative to the material thickness being joined.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop practice centers on the safe operation of the forge or gas torch to heat rivets to a cherry-red state for assembly. Students work in teams to insert and peen the hot rivets, using hammers and snap sets to form uniform, secure heads on both sides. The focus is on achieving a 'tight' joint that allows for minimal movement without compromising the frame’s rigidity.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of riveted joints based on tightness, rivet head shape (peening quality), and overall structural stability of the assembled frame.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The curriculum examines the technical aspects of hard riveting as a mechanical joining method, comparing its structural integrity against welded joints. Theory work continues with an investigation into traditional metal fastening techniques. Practically, students apply these concepts by assembling the brazier frame using hard rivets, ensuring rivet heads are correctly peened for strength and aesthetic finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-a4a244d0",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition into advanced fabrication by learning arc welding techniques essential for the brazier frame. The week focuses on the practical application of Manual Metal Arc Welding (MMAW) and the critical importance of heat control when joining steel sections. Students perform comparative testing between their previous riveted joints and new welded joints to evaluate structural integrity under stress, reinforcing the industrial application of both methods.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "MMAW welding sets, welding helmets, leather aprons, gauntlets, electrode samples, chipping hammers, wire brushes, scrap mild steel, safety screens.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the fundamentals of arc welding, including the selection of electrode types, amperage settings for varying steel gauges, and the metallurgy of the heat-affected zone (HAZ). Lessons analyse the risks of arc flash, UV radiation, and fume inhalation, alongside the necessary control measures required in a high-density workshop. Students compare the tensile strength and aesthetic finish of welding versus mechanical riveting in the context of heavy-duty, high-heat furniture design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct welding safety drills and set up portable arc welding equipment under direct supervision. Practical tasks include executing practice fillet and butt welds on scrap steel to calibrate machines for material thickness. Following successful practice, students perform the primary welds to join the structural components of the brazier frame, applying systematic quality inspection techniques to identify porosity, slag inclusion, or incomplete fusion.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Practical assessment of weld quality and adherence to strict PPE and welding safety protocols. Review of weld inspection logs in the design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction is dedicated to arc welding safety, portable welding equipment operation, and the metallurgy of welded joints. Students compare the application of welding versus riveting in heavy-duty furniture. Workshop time is spent preparing joints and executing the primary welds on the brazier structure, followed by critical quality inspection to ensure structural soundness.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-f2f7f975",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Instruction focuses on the post-fabrication finishing process, integrating tool maintenance with project documentation. Students begin the final stage of their folio, collating photographic evidence that details their weld development and fabrication sequence. Practically, the week is dedicated to weld dressing and structural refinement, where students employ grinding and linishing tools to prepare the brazier for its functional life-cycle.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Angle grinders, flap discs, bench linishers, grinding PPE, DSLR or tablet cameras for folio documentation, straight-edges, spirit levels.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons bridge the gap between industrial maintenance cycles and project longevity. Students learn how to interpret steel production data and assess the impact of corrosion on exposed metal in outdoor environments. Explicit teaching covers advanced grinding and linishing techniques, emphasizing the removal of structural stress risers at weld points and the importance of ensuring all edges are smooth to meet functional stability and user-safety specifications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform systematic weld dressing using angle grinders and bench linishers to achieve a clean, professional aesthetic on all structural joints. Practical work includes checking the brazier for vertical alignment and overall stability. Students also document the 'as-built' status of their brazier by taking detailed process photos and comparing final dimensions against the original orthographic drawings to identify and justify any minor construction deviations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on folio photographic evidence and assessment of the finished, dressed welds for uniformity and edge safety.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons bridge the gap between tool maintenance, steel production cycles, and project documentation requirements. Students begin collating photographic evidence of their manufacturing sequence for the folio. Practically, students perform final assembly and weld dressing, using grinding and linishing techniques to remove sharp edges and ensure the brazier meets all stability and functional specifications.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-08472abf",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conclude the production folio by evaluating their brazier against the initial design brief and success criteria established in week 1. Theory encourages a critical reflection on the manufacturing sequence, analyzing the design-thinking process and the effectiveness of their chosen joining methods. Practically, students apply protective surface finishes to ensure longevity and conduct final quality control checks to meet industrial standards of presentation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "High-heat metal finish coatings (e.g., stove paint or protective oil), paint brushes, drop sheets, final evaluation rubric, peer feedback forms.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component requires a critical reflection on the manufacturing sequence, specifically evaluating how material selection and fabrication choices impacted the brazier's final performance. Students analyze the effectiveness of their design-thinking process, documenting lessons learned regarding time management and technical accuracy. Teaching covers the chemistry of protective metal coatings, such as high-heat paints or oils, and their role in preventing oxidation in high-heat outdoor environments.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions involve the final preparation of the metal surface and the application of high-heat-resistant protective finishes. Students conduct a comprehensive quality control check, including stability testing and an audit of all joints for structural integrity. The week culminates in the final presentation of the brazier, where students demonstrate that the product meets the project’s success criteria through functional testing in a controlled outdoor environment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final folio submission comprising research, design, production photos, and critical evaluation. Assessment of the functional finished brazier product.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conclude the production folio by annotating their photographic records and evaluating the final product against the initial design brief and success criteria. The theory component requires a critical reflection on the manufacturing sequence. Practically, students apply protective coatings or surface finishes to ensure longevity and complete final quality control checks for industrial-standard presentation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    },
+    {
+      "id": "week-86e8f650",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week centres on the formal synthesis of the project folio and the presentation of the completed brazier. Students conduct a comprehensive audit of their folio documentation to ensure all design, production, and evaluative evidence is complete. Peer-to-peer critiques are facilitated, allowing students to provide constructive feedback on design aesthetics and manufacturing quality. The unit concludes with an industry-standard workshop deep clean and formal tool inventory audit to reinforce personal and collective responsibility for workshop resources.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Final evaluation rubric, peer feedback templates, project folio checklists, workshop cleaning equipment (brooms, industrial vacuums, degreaser), tool storage inventory logs.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of evaluation in design and technologies, examining the disparity between initial design intent and the final manufactured solution. Students reflect on the effectiveness of their design thinking, specifically critiquing how their technical choices influenced the brazier's functional performance and structural longevity. The theory component also addresses the professional standards for project documentation and the importance of post-project evaluation in continuous improvement cycles within metal fabrication industries.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical time is dedicated to the systematic completion of final folio annotations and the final inspection of the brazier. Students engage in peer-critique sessions, assessing the finish, weld quality, and structural alignment of each other's work against the project success criteria. Following the assessment phase, students perform a full workshop breakdown, cleaning all machines, sharpening tools where necessary, and returning specialized Metalcraft tooling to storage, adhering to strict industrial maintenance and safety protocols.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the complete project folio and presentation of the finished brazier for final inspection against the project rubrics.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The final week involves the completion of all folio components, including formal self-evaluation and peer critiques of design performance. Students reflect on skill acquisition and the design-thinking process experienced throughout the term. Practical lessons conclude with the final presentation of the brazier for inspection, followed by the systematic cleaning of workshop areas and the return of tools.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T22:59:35.733Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

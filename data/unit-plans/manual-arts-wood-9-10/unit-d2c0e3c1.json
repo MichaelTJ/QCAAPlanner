@@ -1,0 +1,776 @@
+{
+  "id": "unit-d2c0e3c1",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 5,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Footstool (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 1 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 1 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Wood Technology unit, students design and manufacture a timber footstool based on a supplied design. Students develop practical woodworking skills while learning how accurate measurement, timber preparation, joint construction and careful finishing contribute to a functional and aesthetically pleasing furniture product. The project allows students to personalise the supplied design through considered changes to its form, materials or appearance.\n\nThroughout the unit, students use hand tools, portable power tools and workshop machinery while following established risk-control procedures. They investigate existing products, develop and communicate design ideas, produce a CAD model and document the manufacture of their footstool in a design folio. Particular emphasis is placed on accuracy, biscuit-joint construction, attention to detail, safe working practices and evaluating the quality of the completed product.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-9097a664",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Footstool (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students are required to design and manufacture an innovative and personalised timber footstool that meets the specifications of the supplied project drawing. The practical product should demonstrate accurate marking and measuring, appropriate use of tools and machinery, close-fitting joints, effective assembly and a high-quality surface finish.\n\nStudents will also complete an individual design and production folio containing:\n\nA design brief, success criteria and project constraints\nResearch and analysis of three existing footstools\nAn initial design and three proposed modifications\nAn annotated final design\nA CAD model and dimensioned orthographic drawings\nA risk assessment\nA material cutting list and project costing\nA photographic production record\nAn evaluation and peer evaluation\nAssociated theory covering workshop safety, abrasive grades, PVA adhesive, biscuit joints, pilot and clearance holes, and relevant tools and machinery\n\nAssessment evidence will be gathered from the completed footstool, design folio, associated theory work, teacher observation and safe workshop participation.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 8–10 A4 pages of documentation, including annotated design drawings and production records\n• Physical timber footstool (maximum dimension: 450mm x 450mm x 450mm)\n• Individual design folio to be submitted in digital or hard-copy format\n• Supervised workshop time for practical construction\n• Adherence to WHS procedures and St Brendan’s College workshop safety protocols",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:50.575Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 10 Technology department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled sessions during Weeks 4 and 8 to review samples of student design folios and practical progress, ensuring alignment with marking criteria for accuracy and quality.\n*   **Cross-marking:** Departmental validation of final footstool assessment pieces to ensure objective and consistent application of the marking guide, with a specific focus on the precision of timber joints and surface finish standards.\n*   **Standardisation:** Review of student performance data and internal benchmarking of folios to support rigorous and defensible assessment outcomes.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:52.532Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-9df7da39",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-f641468d",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b2257cae",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b27dee7c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ba1c893f",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-23497be8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-d150ff88",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-be7ed80e",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-9c9f947e",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-ea958b94",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-c7298a2b",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-f748d937",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Understanding money\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-8ea548cc",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-0011256d",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin the unit with an orientation to the St Brendan's College workshop, focusing on the specific risks associated with timber processing. They are introduced to the footstool design specifications and the foundational project management requirements for the term. The week includes an audit of workshop safety equipment and the establishment of individual student safe-work folders.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project design specifications, safety induction checklists, PPE, workshop risk assessment templates, student folio binders/digital templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction covers the QCAA-aligned safety requirements for a wood workshop, including risk assessment procedures and the hierarchy of hazard control. Students learn the importance of PPE, such as ear protection, eye safety, and dust management, specifically in relation to the machinery utilised for this project. We review the design brief, success criteria, and the importance of professional project management in ensuring a high-quality, safe, and efficient outcome.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with a comprehensive workshop induction and a guided tour of the machine room, highlighting the specific safety features of saws, sanders, and routers. Students participate in a mock risk-assessment exercise, identifying potential hazards within the workshop layout. Students also complete initial documentation, setting up their design folio and creating a time-management plan for the upcoming 10-week production cycle.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via teacher observation of safety compliance and participation in the initial workshop induction. Initial review of student folio structure and project timelines.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the design and technologies process through an overview of the footstool project. They examine the provided design and success criteria, establishing a strong foundation in workshop safety, PPE protocols, and the use of machinery for this specific task.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-ae88b66b",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to design thinking as students research and analyse existing furniture solutions to identify key features and ergonomic considerations. Concurrently, students begin interpreting the technical drawings to accurately mark out dimensions on their selected timber components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Access to furniture design websites, library resources, timber samples for practice, combination squares, marking gauges, mechanical pencils, scale rulers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students engage in explicit teaching regarding ergonomic principles in furniture design, examining how the height and width of a footstool impact user comfort and posture. We review methods for critically analysing existing products, focusing on joinery techniques and material selection. Lessons also address the technical language of orthographic projections, ensuring students can interpret dimensions and symbols on the provided plans prior to fabrication.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct research into three distinct footstool designs, documenting their findings in the design folio with a focus on form, function, and aesthetic appeal. In the workshop, students practice the 'marking out' process, applying square, rule, and marking gauge techniques to waste timber samples to develop accuracy before working with final materials. This involves double-checking all measurements against the project plan to minimise material wastage.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of the research and analysis task within the folio; check of marking-out accuracy on practice timber components.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to design thinking as students research and analyse existing furniture solutions to identify key features and ergonomic considerations. Concurrently, students begin interpreting the technical drawings to accurately mark out dimensions on their selected timber components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-16b450c3",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students apply creative design strategies to modify the supplied plans, documenting these iterations in their folio with annotations regarding functionality and aesthetics. In the workshop, the focus is on the initial processing of raw timber, including dressing and squaring material to meet project specifications.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Jointer, thicknesser, saw-bench, dressed timber stock, design folio templates, sketching equipment, samples of joinery for reference.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the 'design modification' process, where students learn how to personalise their footstool while maintaining structural integrity. We discuss the properties of timber, including grain direction, moisture content, and the importance of dressing timber to prevent warping or twisting during assembly. Students are introduced to the theory of the 'face side' and 'face edge' marking system to ensure squareness throughout production.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical time is dedicated to the safe use of the jointer and thicknesser to prepare raw timber stock. Students systematically dress their timber to size, following the face-side and face-edge procedure to achieve parallel and perpendicular surfaces. Students also begin drafting their modifications, creating annotated sketches that justify their design choices based on the project brief and intended user requirements.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the modified design sketches and justifications; teacher observation of safe machinery operation during timber dressing.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students apply creative design strategies to modify the supplied plans, documenting these iterations in their folio with annotations regarding functionality and aesthetics. In the workshop, the focus is on the initial processing of raw timber, including dressing and squaring material to meet project specifications.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-2ac5e8b0",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from conceptual design to digital modelling, utilising CAD software to translate their sketches into precise 3D forms. This shift requires them to reconcile their creative modifications with the functional constraints of the project. In the workshop, the focus pivots to the primary sizing of components, where accuracy in cross-cutting and ripping determines the final fit of the footstool's frame.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., SketchUp or Fusion 360), workstations, project drawing templates, drop saw, table saw, combination squares, pencil, and scrap timber for calibration testing.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching centres on the transition from 2D sketching to 3D CAD modelling, covering the importance of parametric constraints and geometric accuracy. We explore the role of orthographic projections—specifically front, top, and end views—in communicating manufacturing intent to a third party. The theory component also introduces the concept of structural integrity in furniture design, highlighting why material thickness and component grain orientation are critical for long-term durability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students spend lessons navigating CAD software to generate a 3D model and dimensioned orthographic drawings, ensuring all modifications are represented. Workshop time involves setting up the drop saw and table saw to machine component stock to exact project dimensions. Students practice safe timber handling, ensuring the 'face side' and 'face edge' established in previous weeks are strictly adhered to during all machine operations.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the 3D CAD model and preliminary orthographic drawings for accuracy and dimensioning. Teacher observation of safe machine setup and precision in timber cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Following the selection of their final design, students transition to CAD software to produce a precise 3D model and orthographic drawings. Workshop activities move to the precision cutting of components and the initial layout of joint locations to ensure structural integrity.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-a7988156",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise their technical documentation, ensuring that all CAD views reflect their specific design modifications and include necessary tolerance annotations. The workshop component introduces advanced joinery, focusing on the biscuit joiner—a tool requiring specific precision for structural success. Students conduct an intensive safety audit of their chosen tools as part of their developing folio requirements.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, biscuit joiner, assorted biscuit sizes, timber stock for joint testing, folio templates, risk assessment documentation, measuring tapes.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory focuses on the technical operation of the biscuit joiner, explaining the relationship between the tool’s fence settings and the internal positioning of the biscuit slot. We discuss the significance of slot depth and how misalignment can compromise joint strength. Furthermore, students are explicitly taught how to conduct a thorough job-specific risk assessment, identifying hazards associated with power tools and defining the specific controls required to mitigate those risks.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the CAD documentation portfolio, ensuring all dimensioned views are exported and annotated to professional standards. Practical lessons are dedicated to the careful marking out of biscuit joint locations on the footstool rails and stiles. Under supervision, students operate the biscuit joiner to cut slots, focusing on the importance of maintaining consistent pressure and orientation to ensure perfectly flush joints.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the CAD documentation and formal risk assessment in the design folio. Assessment of student competence and safety during biscuit joiner operation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete their CAD documentation, incorporating dimensioned views and a thorough risk assessment for all tools involved. Practical instruction focuses on the safe and accurate use of the biscuit joiner to prepare joints for subsequent assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-36c15d25",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Theory and practice converge as students prepare for the first dry-assembly of their footstool components. Lessons focus on the chemistry of adhesion and the mechanical principles of fasteners, ensuring students understand why specific preparations are required before the final glue-up. The week concludes with a comprehensive dry-fit, providing students the chance to troubleshoot alignment issues before permanent assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA adhesive, sash clamps, set squares, diagonal tape measure, cordless drills, drill bits (pilot and clearance sets), scrap timber for testing, squareness verification templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the chemical curing process of PVA adhesives, emphasising the impact of 'open time' on the success of a glue-up and why 'clamping pressure' is vital for a bond stronger than the wood itself. Students also learn the necessity of pilot and clearance holes when fastening timber; they identify the difference between these hole types and how they prevent timber splitting and ensure tight joints. We review the concept of squareness and how to measure diagonals to verify the frame geometry.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a thorough dry-fit of the footstool frame, using sash clamps to simulate the final assembly. This process allows them to test the fit of biscuit joints and identify any areas requiring trimming or adjustment. Students practice drilling pilot and clearance holes in scrap timber to develop the tactile skills required for final assembly, ensuring fasteners will be hidden and structurally sound.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Performance in the dry-fit assembly and the ability to verify squareness using diagonal measurement techniques. Teacher review of pilot/clearance hole practice samples.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons detail the chemistry of PVA adhesives, the open time requirements, and the technical necessity of pilot and clearance holes for fastening. Students perform a dry-fit of the footstool, testing for squareness and component alignment before finalizing assembly preparation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-41ff3ee0",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students formalise their project management by finalising the bill of materials and calculating total project costs, including consumables and timber stock. A significant focus is placed on establishing a continuous photographic record, capturing key assembly milestones for the folio. Practical effort shifts to the critical permanent assembly stage, requiring methodical glue application and precise clamping to ensure frame stability.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project costing spreadsheets, digital cameras/tablets for documentation, sash clamps, PVA adhesive, PVA brushes, damp cloths for glue removal, framing squares.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the logic of production planning, specifically how a comprehensive cutting list reduces material waste and informs accurate project costing. We investigate the mechanical properties of PVA adhesive under pressure, explaining how clamping time and uniform surface contact affect the bond strength of timber joints. Students also review the technical requirements for the folio’s photographic record, learning how to select and annotate images to demonstrate their manufacturing sequence and adherence to design specifications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise their material cutting lists and perform project costing calculations. Workshop time is dedicated to the permanent assembly of the footstool frame; this involves applying PVA adhesive, setting the biscuit-joined rails into the stiles, and tightening sash clamps to ensure all joints are closed and the structure is perfectly square. Students utilise measuring tapes and squares to verify frame geometry during the curing process, recording these steps in their photographic production logs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of accurate cutting lists and costings in the folio. Teacher observation of glue-up technique, frame squareness check, and the quality of photographic evidence captured during assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Production planning is formalised through the development of detailed cutting lists, project costing, and the commencement of the photographic record. The practical focus is on the permanent assembly of the frame using adhesives and clamps to ensure a stable, square construction.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-c492c251",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Instruction introduces the systematic abrasives hierarchy, guiding students through the transition from coarse to fine grit materials. Students focus on the safe operation of power-sanding equipment, such as the orbital sander and disc sander, to remove construction marks and excess glue. The week provides an opportunity for students to refine the ergonomics and aesthetics of their footstool through careful sanding and profiling of edges.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Orbital sanders, bench disc sanders, sandpaper (assorted grits), paint scrapers, dust extraction systems, respirators, bench lighting for surface inspection.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching covers the abrasives hierarchy, explaining how sequential grit progression (e.g., 80, 120, 180, 240) effectively removes surface imperfections without leaving deep scratches. We discuss the health hazards of fine wood dust and the critical importance of dust extraction and respirator use during sanding. Students also learn how to evaluate surface quality by touch and side-lighting, ensuring that joints are flush and transitions between different faces are seamless and smooth.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions focus on the removal of hardened glue residue using sharp scrapers before initiating the sanding sequence. Students operate portable orbital sanders and bench-mounted disc sanders to dress the surfaces of their footstool, paying particular attention to ensuring edges are uniform and corners are eased to prevent splintering. Students document the sanding process in their folios, noting the grit grades used and identifying specific areas that required extra attention to reach the desired surface finish.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of surface texture quality and edge profile consistency. Review of the folio’s documentation regarding abrasive selection and sanding procedure safety.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction explores the abrasives hierarchy and the safe operation of power-sanding equipment to achieve a high-quality surface finish. Students begin the systematic removal of excess glue and the initial sanding process to refine the form and edge profiles of their project.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-782e0157",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a summative-style evaluation of their progress against the initial design brief, linking their manufacturing journey to the success criteria. The workshop focus is on final surface preparation—checking for any remaining defects—and the application of timber finishing products. Students learn the importance of finish compatibility and the proper techniques for applying oils or waxes to enhance the durability and appearance of their footstool.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Timber finishing supplies (oils, waxes, applicator cloths), tack cloths, fine-grade finishing pads, design folio templates for evaluation, student journals.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Lessons explore the relationship between aesthetic quality and technical execution, discussing how professional-grade finishing is the final determinant of product value. We cover the properties of various timber finishes, including penetrating oils, waxes, and clear coats, and the specific application techniques for each. Students reflect on their manufacturing process, analysing where their technical choices—such as joint selection or sanding precision—directly influenced the final quality of the product against their original design requirements.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a 'final clean-up' of their timber surfaces using a tack cloth to remove microscopic dust particles. They apply a selected timber finish, such as a furniture oil or wax, using appropriate applicator pads or brushes, ensuring even coverage and correct drying intervals. The latter part of the week is dedicated to the written evaluation section of the folio, where students critically reflect on their design modifications, manufacturing challenges, and overall adherence to the design brief.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of surface finish quality and the depth of reflection in the folio’s evaluation chapter. Summative readiness: checking that all folio components are collated and final manufacturing is complete.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate their products against the design brief and success criteria, discussing the relationship between aesthetic quality and technical execution. The workshop period is dedicated to final surface preparation and the application of timber finishes to enhance durability and appearance.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    },
+    {
+      "id": "week-3709acb6",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week focuses on consolidating the design folio and preparing the completed footstool for final assessment. Students spend time documenting their evaluation, reflecting on the relationship between their technical execution and the initial project constraints. The practical focus shifts from the workshop to final quality control checks and professional documentation of the finished product.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Digital cameras/tablets for professional photography, lightbox or clean staging area, folio checklists, assessment marking rubrics, submission portal.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the reflective component of the design process, specifically evaluating the success of the footstool against the original success criteria. Students analyse how their design modifications influenced both the manufacturing workflow and the final product's ergonomic performance. We discuss how quality control inspections—checking for joint gaps, surface finish consistency, and stability—are essential industry practices for ensuring product reliability and client satisfaction.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a rigorous final inspection of their footstools, documenting any finishing touches or corrective adjustments made. The workshop space is used for setting up professional-grade product photography, capturing multiple angles of the footstool to be included in the folio's final production record. Students then finalise their written evaluation and ensure all folio components—including the cutting list, risk assessment, and CAD drawings—are collated and submitted for assessment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Completion and submission of the timber footstool and the final design and production folio. Teacher observation of final quality standards and professional presentation of the project.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "In the final week, students complete their folio work, including the written evaluation and reflections on their design and manufacturing journey. The project concludes with a final quality control inspection, professional photography of the completed footstool, and the submission of all assessment items.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:38:58.529Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

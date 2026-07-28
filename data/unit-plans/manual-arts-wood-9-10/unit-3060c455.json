@@ -1,0 +1,776 @@
+{
+  "id": "unit-3060c455",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 6,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Bedside Table (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students design and construct a timber bedside table using a supplied project drawing as the basis for their work. Students develop their knowledge of furniture construction, timber selection, accurate measurement and the use of timber joints, including mortise and tenon joints. They personalise the supplied design through considered changes to its appearance or features and use CAD to communicate their final design. Throughout the unit, students safely use hand tools, power tools and workshop equipment to produce an accurate, functional and aesthetically pleasing product. Students document the design and production process in a folio and evaluate the quality of their finished bedside table.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-f40fdd31",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Bedside Table (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will individually design and construct a personalised timber bedside table based on the supplied specifications. The finished product must be functional, accurately manufactured and demonstrate appropriate use of timber joints, tools, equipment and finishing processes.\n\nStudents will also complete a design folio containing:\n\nDesign brief, success criteria and project constraints\nResearch into existing bedside tables, including advantages and disadvantages\nInitial sketches and three proposed design modifications\nA CAD model with labelled and dimensioned orthographic views\nRisk assessment and control measures\nMaterials cutting list and project costing\nPhotographic production procedure with annotations\nEvaluation against the design brief and success criteria\nPeer and self-evaluation\nAssociated theory questions about tools, equipment and timber joints\n\nAssessment evidence will be collected through the completed bedside table, design folio, theory responses, teacher observations and the student’s consistent application of safe workshop practices.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Design folio: up to 10 A4 pages or equivalent digital format, including CAD documentation, orthographic drawings, risk assessments, and production records.\n• Practical product: a completed timber bedside table manufactured to specified dimensions and construction standards.\n• Under supervised workshop conditions; access to specified hand tools, power tools, and machinery provided.\n• Consistent application of safe work practices and personal protective equipment (PPE) required throughout the production phase.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:27.625Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 9–10 Manual Arts band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings to review student design folios and evaluate the quality of finished timber products against the assessment criteria.\n*   Work Sample Review: Collaborative analysis of student folios and photographic production evidence to ensure consistent application of marking guides regarding joinery accuracy and safety compliance.\n*   Cross-marking: Departmental review of theory responses to ensure objective assessment of technical knowledge regarding timber selection, tool maintenance, and joinery techniques.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:29.409Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-71a2d086",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-31350d9b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1481990b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-d557bbb4",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-a32cd6ef",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4877a794",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-c8da0558",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-d28f5256",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan; Create, communicate and collaborate\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-a9712f69",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-e39df9eb",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-0fa5cc9d",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-ebd38fb5",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Number sense and algebra: Understanding money\nMeasurement and geometry: Understanding units of measurement; Understanding geometric properties\nStatistics and probability: Interpreting and representing data",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": true,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": true
+      }
+    },
+    {
+      "id": "ucap-3d685856",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-145ff448",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the bedside table design project through a formal briefing on project requirements and the design folio expectations. They engage in a comprehensive workshop safety induction, covering the identification of hazards and control measures for stationary power tools. Lessons conclude with foundational instruction on precision measuring and marking-out techniques, ensuring all students can interpret the provided technical drawings accurately.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project specification drawings, safety induction checklist, PPE (eye/hearing protection), steel rules, marking gauges, try squares, pencils, scrap timber for practice.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The week focuses on furniture design principles, specifically the ergonomics of bedside tables and the functional constraints of the provided specification. Students explore the concept of the design brief and the importance of establishing measurable success criteria to guide their project outcomes. We also cover the fundamental OHS requirements at St Brendan's, emphasising the legal and safety responsibilities when operating timber processing equipment in an industrial setting.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions begin with a mandatory safety workshop induction, requiring students to demonstrate the correct use of PPE and emergency shut-off procedures. Students then move to the workbench to practice accurate measuring techniques using steel rules, marking gauges, and try squares on scrap timber. This skill-building ensures that all initial project components are marked to within a 0.5mm tolerance, preparing them for the upcoming dimensioning phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher observation of safe machine handling and accurate marking techniques. Students commence the 'Design Brief and Success Criteria' section of their design folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the bedside table project, encompassing project expectations, furniture design principles, and workshop safety protocols. They begin the design folio by establishing the design brief and success criteria, while completing the initial workshop induction and hands-on demonstrations of precise measuring and marking techniques.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-2648a695",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a research phase, examining existing bedside table designs to identify effective structural and aesthetic features. They transition to the workshop to learn how to read orthographic project drawings, focusing on generating a comprehensive materials cutting list. The week culminates in the first practical production lessons where students select raw timber and commence the dimensioning process using the buzzer and thicknesser under strict supervision.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Timber samples (various species), buzzer/jointer, thicknesser, project technical drawings, project management template (cutting list/costing), workshop logbook.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on material properties, specifically timber selection, grain orientation, and the impact of moisture content on structural integrity. Students learn the importance of identifying and managing timber defects to prevent movement in the finished table. We also discuss the theory behind the cutting list, focusing on the relationship between stock size and the final required dimensions, including the allocation of excess material for cleaning up surfaces.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical work involves identifying high-quality timber components and setting up the buzzer and thicknesser to machine stock to the required thickness. Students learn the safe feed rate and depth-of-cut settings to produce stable, square timber. By the end of the week, students must have produced a accurate cutting list and completed the rough-cutting of primary table components to length.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the student's generated cutting list for accuracy and economic timber usage. Assessment of competence and safe machine operation for dimensioning tasks.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to investigating existing furniture designs and understanding the material properties of timber, including grain orientation and structural integrity. Students apply this knowledge to practical production, reading the project drawings to generate a cutting list and beginning the initial dimensioning and rough-cutting of raw timber components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-6a4a22c8",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to iterative design thinking through a series of annotated sketches that propose personalised modifications to the original bedside table design. The practical focus shifts towards advanced joinery, with explicit demonstrations on the layout and cutting of mortise and tenon joints. Students apply these techniques by marking out their primary frame components and performing preliminary cuts.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mortise chisels, mortise gauges, tenon saws, layout squares, visual examples of completed furniture, annotation templates for the folio.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory component covers the structural hierarchy of the mortise and tenon joint, explaining why it remains the industry standard for high-quality furniture. Students analyse how to achieve a 'snug' fit and the consequences of over-cutting, including structural failure or joint looseness. We explore the aesthetic versus functional trade-offs of design modifications, encouraging students to justify their personal changes based on criteria like weight, ease of construction, and overall visual appeal.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop lessons involve the technical demonstration of setting out mortises and tenons using a mortise gauge and pencil. Students practice the careful removal of waste material using the mortise chisel and tenon saw, ensuring they maintain the baseline markings for a tight-fitting assembly. This is an intensive skill-building week requiring high levels of precision to ensure the frame components square up correctly in later stages.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of annotated sketches for design justification. Teacher feedback on the precision of marked-out mortise and tenon joints prior to cutting.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in iterative design thinking by developing annotated sketches that propose modifications to the original project, justifying changes based on functional and aesthetic merit. In the workshop, they receive explicit instruction on the theory and application of mortise and tenon joints, proceeding to mark out and perform preliminary cutting of these critical connections.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-86e9564d",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the transition from conceptual sketches to precise digital models, ensuring their personal bedside table modifications are technically feasible. In the workshop, the focus shifts to technical precision, where students engage in the iterative process of 'testing and adjusting' joinery to ensure components meet the required engineering tolerances for a professional finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., SketchUp or Fusion 360), workstations, calipers, shoulder planes, scrap timber for calibration testing, workshop technical manual.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on CAD principles, specifically the use of 3D modelling to verify dimensions and identify potential structural issues before manufacture. We examine the importance of manufacturing tolerances and how small variations in cut accuracy can lead to structural instability or gaps in joints. Students learn to interpret the relationship between their digital model and the physical realities of timber, such as tool kerf and material thickness variations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students utilise CAD software to produce a 3D model of their modified bedside table, ensuring all joinery details are correctly dimensioned. In the workshop, students perform test-fits of their mortise and tenon joints on scrap material to calibrate their hand-tool skills. This includes the use of shoulder planes and chisels to refine joints to a 'friction fit' that remains stable without excessive force.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the initial CAD model file and progress against design modifications. Peer-evaluation of joint-fit test pieces against the 0.5mm tolerance criteria.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The design phase advances to digital communication as students develop a CAD model of their bedside table, incorporating their personal modifications. Concurrently, workshop time is dedicated to the refinement of joinery, where students learn to manage manufacturing tolerances and use hand tools to test and adjust mortise and tenon joints for a high-quality fit.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-6b16fbdb",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise their CAD models and generate formal, dimensioned orthographic projections, which serve as the master documentation for the remainder of the build. The workshop environment focuses on high-stakes assembly preparation, where students complete the dry-assembly of the main bedside table frame to verify squareness and structural alignment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, large framing squares, sash clamps, wind-checking sticks, personal protective equipment (PPE), formal risk assessment templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Comprehensive review of orthographic projection standards, including the use of hidden detail lines, section views, and dimensioning conventions. We conduct a formal classroom-based risk assessment session, where students document identified hazards for upcoming assembly and finishing tasks, establishing specific control measures for chemical safety and power tool usage during the final phase.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students generate and export professional 2D drawings from their 3D models for their folio. In the workshop, the focus is on the dry-assembly of the carcass or frame; students use sash clamps and frame squares to check for 'wind' and ensure that all joints are fully seated and parallel. Any components identified as requiring adjustment are corrected before final glue-up processes begin.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the CAD orthographic documentation for standard compliance. Teacher observation of dry-assembly techniques, checking for correct use of clamping methods to ensure a square frame.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete their CAD modelling, generating formal orthographic projections to support the production phase, and conduct a formal risk assessment to identify hazard control strategies. Practical tasks focus on the dry-assembly of the main frame, ensuring all components are square, stable, and accurately aligned before proceeding to final assembly.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-d191dde2",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week emphasizes the 'business' side of furniture making, specifically project management and cost control. Students calculate precise material consumption and compile a final cutting list based on their verified CAD models. Practical sessions involve technical workshops on adhesive science and clamping strategies, ensuring students understand the mechanical properties of glue-up in preparation for permanent assembly.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Costing spreadsheets/templates, digital workshop logbooks, various grades of abrasive paper, wood glue, clamping diagrams, professional surface finishing charts.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on project management, focusing on 'bill of materials' (BOM) development, waste reduction, and cost estimation. We discuss the chemistry of PVA adhesives, including open times, curing processes, and the relationship between clamping pressure and joint strength. Students learn how to analyse grain direction to manage natural expansion and contraction, preventing structural failure in the finished product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalize their materials costing spreadsheet and cross-reference it with their cutting list for accuracy. Workshop time is dedicated to preparing all component surfaces for assembly; this involves final surface sanding to remove tear-out or machining marks. Students practice the application of glue and the strategic placement of clamps to ensure even pressure distribution during the upcoming final glue-up.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Finalised costed materials list submitted for review. Assessment of surface preparation quality and student understanding of adhesive application techniques via a technical demonstration.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory work centers on project management, where students calculate precise materials costs and compile a final cutting list. Workshop activities involve technical discussions regarding adhesives and clamping pressure, as students manufacture remaining components and prepare all surfaces to ensure professional glue-up results.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-17e05071",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition into the critical assembly phase, focusing on the systematic documentation of their progress. They learn to record construction steps photographically and through annotated technical reflections. In the workshop, the focus is on the permanent glue-up of the main carcass, where students must manage time-sensitive adhesive applications while ensuring perfect structural alignment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA wood glue, sash clamps, framing squares, tape measures, scrap timber for clamping cauls, camera for folio evidence, logbook templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the influence of atmospheric conditions on timber, specifically how humidity affects glue-up open times and joint swelling. We examine the mechanics of clamping pressure, detailing how uneven pressure leads to frame twisting or 'wind'. Students study the structural importance of internal blocking and corner bracing in bedside table design, and how these hidden elements contribute to long-term stability and load-bearing capacity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform the final glue-up of the bedside table frame using sash clamps and purpose-made clamping cauls to protect surface finish. They must verify squareness using diagonal measurements and a framing square before the adhesive sets. Following the initial cure, students meticulously scrape away excess adhesive from internal corners and joints to ensure a professional, clean finish that will accept stains and clear coats evenly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher assessment of the production record logbook, ensuring clear photographic evidence and accurate annotations. Check of frame squareness and cleanliness of joinery areas post-assembly.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The production record documentation begins, with students capturing and annotating the sequential construction processes, reinforcing their understanding of various timber joints. In the workshop, the primary structure is glued and clamped, requiring students to monitor for squareness and immediately clean excess adhesive to maintain finish quality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-1f91ea0b",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a comparative analysis of timber finishing systems, evaluating the performance characteristics of oils, waxes, and varnishes. They document their rationale for the chosen finish in their design folio. In the workshop, students transition to the final assembly of the tabletop and secondary components, followed by an intensive, multi-stage abrasive sanding process to prepare the timber for the final finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Selection of timber finishing samples (stains, oils, varnishes), orbital sanders, assorted abrasive sheets (80-240 grit), scrap test timber, workbench lighting, button fasteners.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Discussion centres on the chemical properties of finishing products, such as the penetrative nature of oils versus the surface-sealing properties of polyurethanes. We explore the relationship between abrasive grit sequences and the final tactile quality of the wood. Students learn how to identify cross-grain sanding scratches under directional lighting and the necessity of grain raising prior to the final finish application.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a series of 'finish tests' on scrap material samples to observe colour depth and sheen levels. Practical work involves the mechanical fitting of the tabletop using movement-tolerant fixings, such as button fasteners or slotted cleats, to account for seasonal timber expansion. Students then execute a rigorous sanding schedule, progressing from 80 through to 240 grit, ensuring all surfaces are uniform and free of machine marks.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of finish testing samples and the recorded justification in the folio. Practical assessment of surface quality through touch and sight, ensuring no visible swirl marks or scratches.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students evaluate different timber finishing options based on durability, aesthetic outcome, and application methods, documenting these choices within their folio. Production work involves fitting the tabletop and secondary components, followed by progressive abrasive sanding to remove imperfections and prepare the wood surfaces for subsequent finishing.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-bba7416c",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The unit moves into the final evaluation phase, where students reflect on the success of their construction against their original design brief. Students critically compare their finished product to their CAD specifications. Workshop time is dedicated to the application of the chosen timber finish, focusing on clean environmental control and layering techniques to achieve a durable, high-quality surface.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Finishing materials (finish, applicators), tack cloths, fine-grade sanding sponges (for de-nibbing), final evaluation rubric, measurement tools for final quality checks.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on quality assurance processes in professional joinery, specifically how to conduct a final inspection of joint integrity, surface flatness, and overall stability. We discuss the ethics of material sustainability and life-cycle thinking, encouraging students to consider how their choices impact the table's longevity. Students review how to manage drying times and re-coating intervals to achieve an optimal finish build.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply the final finish in a clean, dust-controlled area of the workshop, using appropriate application tools such as lint-free cloths or quality brushes. They monitor curing times and perform light de-nibbing between coats if required to achieve a smooth texture. Final quality checks are conducted, confirming that all hardware is correctly fitted and that the table is stable and fit for purpose.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Completion of the 'Evaluation against Design Brief' section of the design folio. Final teacher check of the bedside table for joinery accuracy, finish quality, and adherence to technical drawings.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The evaluation phase commences, with students critically reflecting on their finished bedside table by comparing its performance against the original design brief and success criteria. Practical focus remains on completing final quality assurance checks, applying the chosen finish with care, and managing drying times between coats to ensure a durable, aesthetic surface.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    },
+    {
+      "id": "week-c28e33ea",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake the final synthesis of their design portfolios, ensuring all documentation—from the initial design brief to the photographic production log—is complete and professionally presented. The focus is on critical reflection, where students evaluate the effectiveness of their chosen joinery, their management of project tolerances, and their personal growth as woodworkers. In the workshop, students complete the final protective coats of finish and conduct a rigorous quality assurance inspection to verify joint stability, surface smoothness, and functional fit before submitting their completed bedside table.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design folio templates, final finishing materials (finishing cloths, brushes, wax/oil), inspection checklists for quality assurance, rubric for project grading, workshop cleaning equipment.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The final theory sessions focus on the reflective practice essential to design and technology, specifically analysing project constraints, unanticipated challenges, and future-improvement opportunities. We discuss the significance of 'fit for purpose' in furniture design, evaluating how their finished product meets the original success criteria. Students examine the long-term maintenance requirements of their chosen timber finish to understand the lifecycle responsibilities of their designed solution.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop time is dedicated to the final application of finishing oils or varnishes, with careful attention to environmental control to prevent dust contamination. Students perform a systematic inspection of all joints, ensuring that no gaps have opened due to moisture changes, and verify that the tabletop is correctly attached with movement-allowing hardware. The final practical activity is a systematic cleaning and organisation of the workspace, reinforcing professional workshop standards.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment of the final project and design portfolio. Teachers evaluate the finished bedside table against the design brief/success criteria and mark the portfolio for evidence of iterative design, CAD modelling, risk management, and critical self-reflection.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their design portfolios, incorporating self-reflections on project challenges, technical strengths, and future improvement opportunities. The final workshop sessions involve applying the last protective coats and performing a conclusive inspection of joint stability and finish quality before the formal submission of the completed bedside table.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:41:36.066Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

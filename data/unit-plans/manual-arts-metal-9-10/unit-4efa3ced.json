@@ -1,0 +1,777 @@
+{
+  "id": "unit-4efa3ced",
+  "levelPlanId": "manual-arts-metal-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (metal)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 7,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Sliding Bevel (vice) (metal)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 3 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 3 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Industrial Technology and Design unit, students develop metalworking, technical drawing and workshop safety skills through the manufacture of an adjustable sliding bevel. Students interpret a supplied engineering drawing, accurately mark out and manufacture aluminium components, and assemble these components using rivets and a threaded fastener. Throughout the project, students develop skills in cutting, filing, drilling, countersinking, tapping, fitting and surface finishing.\n\nThe accompanying theory program introduces students to Computer-Aided Design using Onshape, industry-standard risk assessment processes and the hierarchy of controls. Students apply safe workshop practices, monitor the accuracy and quality of their work, and evaluate the function and finish of their completed sliding bevel. The supplied drawing identifies the project as a Year 10 sliding bevel constructed primarily from aluminium components.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "The 9–10 Manual Arts (Metal) program at St Brendan’s College operates within a workshop environment that prioritises industrial safety, precision and practical application. Given the cohort’s diverse range of technical experience, the curriculum is structured to scaffold the transition from fundamental hand-tool proficiency in Year 9 to the application of complex fabrication, welding and mechanical assembly techniques in Year 10. Students engage in authentic, project-based learning that mirrors industry standards, requiring a synthesis of design thinking and rigorous safety compliance. Literacy and numeracy development is integrated through technical drawing interpretation, material estimation and the documentation of sequential production plans. Consistent with the College’s mission, this context emphasises the development of resilient, safety-conscious practitioners who can effectively navigate the complexities of metal-based designed solutions for real-world applications.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-27T22:47:54.094Z"
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-fa030a46",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Sliding Bevel (vice) (metal)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students manufacture a functional sliding bevel in accordance with the supplied engineering drawing. The completed project will demonstrate:\n\nAccurate interpretation of dimensions and drawing conventions\nSafe and appropriate use of workshop tools, machinery and personal protective equipment\nAccurate marking out, cutting, filing, drilling, countersinking, tapping and riveting\nCorrect assembly and alignment of the stock, spacer, blade and locking mechanism\nSmooth blade adjustment and secure locking at different angles\nAn appropriate and consistent surface finish\nOngoing quality control and correction of manufacturing errors\n\nStudents also complete a workshop theory folio containing evidence of their safety training, introductory Onshape activities, an engineering drawing of a Lego brick, industry risk-assessment learning and understanding of the hierarchy of controls. The core folio is submitted by the end of Week 8. Reproducing the sliding bevel and its engineering drawing in Onshape is provided as an extension activity.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Duration: 10 weeks, incorporating both theory and workshop components.\n• Supervision: All practical tasks conducted under direct teacher supervision in accordance with St Brendan’s College Workshop Safety Protocols.\n• Submission requirements: Workshop theory folio (hard copy or digital) and completed sliding bevel prototype.\n• Performance: Evaluation based on physical product quality, adherence to engineering drawings, and documented safety compliance.\n• Monitoring: Checkpoints in Weeks 4 and 7 for folio progress and technical skills development.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:05.610Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the 9–10 Manual Arts (Metal) band to ensure alignment of teacher judgement with the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Professional dialogue sessions scheduled in Week 5 and Week 9 to review student folio samples and practical project outcomes.\n*   **Cross-marking:** Collaborative review of workshop theory folios to ensure consistent application of marking criteria regarding safety compliance and technical documentation.\n*   **Standards Alignment:** Regular consultation of QCAA-aligned work samples to verify that student performance consistently meets the expectations for Year 10 technical proficiency, safety management and design evaluation.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:07.559Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-d47dba0e",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-2765cc72",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-3965d036",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fa8e73e9",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1b6b77d0",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-07f3875b",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-c63587b7",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-b235627e",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Interpret data\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-1517efb0",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-8435458c",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-59ab1db1",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-26072d25",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties; Positioning and locating",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": true,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-deb88994",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": false,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-879ea7e3",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students participate in a comprehensive workshop induction, completing OnGuard safety modules and familiarising themselves with the specific hazards of metalworking machinery. The week transitions into the interpretation of the sliding bevel engineering drawing, where students identify key components—stock, spacer, and blade—and review the physical properties of aluminium.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering drawing (sliding bevel), aluminium bar stock, scribers, engineering blue, combination squares, steel rules, OnGuard safety platform, workshop induction checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students are introduced to engineering drawing conventions, including orthographic projection, dimensioning, and title blocks. Explicit teaching covers aluminium as a material, discussing its workability, strength-to-weight ratio, and suitability for precision fabrication. Safety theory focuses on the hierarchy of controls, ensuring students can identify and manage risks associated with hand tools and drilling operations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions commence with workshop orientation and safety certification. Students begin the marking-out phase, applying engineering blue to raw aluminium stock. They use scribers, combination squares, and steel rules to accurately transfer dimensions from the engineering drawing onto the material, establishing the critical datum edges required for high-accuracy production.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Initial observation of marking-out accuracy and student ability to follow workshop safety procedures; completion of OnGuard modules.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the sliding bevel project and the foundational engineering drawing conventions required for metal fabrication. The week includes comprehensive workshop inductions and OnGuard safety modules, followed by an initial review of aluminium material properties and the marking out of raw stock, spacer, and blade components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-70ea97fc",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The week balances digital design and physical fabrication, with students establishing their Onshape accounts and engaging in introductory modelling tutorials. In the workshop, the focus shifts to sizing and initial machining of the aluminium stock, where students must maintain strict dimensional tolerances through systematic cutting and edge preparation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Onshape CAD software, workstations, hacksaws, bench vices, flat and bastard files, engineers squares, digital callipers for tolerance checking.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of Computer-Aided Design (CAD), including sketching in 2D space, extruding, and parametric modelling. Students learn the importance of 'design intent' in CAD software. Workshop theory emphasises the necessity of maintaining datum edges, explaining how cumulative errors can impact the final fit and function of the sliding bevel assembly.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the Lego brick CAD tutorial to master basic tools like Extrude, Shell, and Fillet. In the workshop, they perform the rough-cutting of components using the hacksaw and bandsaw. Students then move to the bench, using files to square edges and bring components to the precise dimensions specified in the engineering drawing, checking against gauges regularly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the Lego brick CAD module; teacher review of component sizing and squareness of edges during practical check-points.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to digital design as students establish Onshape accounts and commence the Lego brick CAD tutorial to build fundamental modelling skills. In the workshop, students transition from marking out to the initial sizing of their components, with a strong emphasis on establishing datum edges and maintaining strict dimensional tolerances.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-f48a1632",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students deepen their CAD proficiency by mapping the sliding bevel project to Onshape, converting orthographic views into 3D models. The workshop focus moves to precision filing and the shaping of intricate features, specifically the rounded ends of the stock and the angled profile of the blade, requiring patience and fine motor control.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Onshape CAD platform, metal files (flat, half-round), radius gauges/templates, aluminium components, bench work stations.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory addresses the connection between 3D modelling and physical manufacturing, explaining how orthographic views in CAD allow for better visualisation of complex assemblies. Workshop instruction focuses on filing techniques for external curves and angles, emphasising draw-filing to achieve a professional surface finish while ensuring the geometric integrity of the shape.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students model the sliding bevel components in Onshape, applying dimensions directly from the project drawing. Practically, students use files and templates to shape the rounded ends of the metal components. They employ draw-filing to remove excess material and refine surface textures, preparing the components for subsequent drilling and assembly phases.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Progress check on Onshape CAD models; evaluation of filing accuracy against the template and drawing specifications.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students continue their Onshape CAD proficiency by mapping orthographic and isometric views to the sliding bevel project drawing. Workshop sessions involve precision filing to bring all aluminium components to their finished dimensions and the careful shaping of the rounded ends and the blade’s angled profile.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-fb15f427",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in formal digital drawing protocols, transitioning from basic CAD modelling to professional standard documentation. The week balances high-precision CAD work with the physical marking and drilling of aluminium, focusing on the mechanical relationship between fastener clearance and structural integrity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Onshape CAD platform, engineering drawing templates, vernier callipers, pedestal drill, twist drill bits, deburring tools, engineering blue.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the conventions of engineering drawings, specifically focusing on title blocks, part identification, and the standardisation of dimensioning for fabrication. Students explore the technical requirements of rivet and pivot holes, learning how clearance fits and fastener tolerances influence the functional movement of a sliding bevel. This theory connects the digital model to physical workshops by highlighting why precise dimensioning on a screen is vital for accurate manual output.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "In the computer lab, students produce a formal, multi-view engineering drawing of the Lego brick, demonstrating proficiency in Onshape layout and annotation. In the workshop, students apply precise marking-out techniques to locate pivot and rivet holes on the aluminium stock and spacer components. They proceed to drill pilot holes and use the pedestal drill to open these to required diameters, employing professional deburring techniques to ensure clean edges and safe handling.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the Lego brick engineering drawing against industry drawing standards. Observation of safe and accurate drilling techniques during component preparation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students demonstrate their understanding of digital drawing standards by producing a formal engineering drawing of the Lego brick in Onshape, complete with title blocks and dimensioning. Practical work prioritises accuracy in layout, with students marking and drilling pilot, rivet, and pivot holes while applying industry-standard deburring techniques.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-945edb6c",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake a rigorous investigation into workshop hazard identification and mitigation. The week bridges safety documentation with the manufacturing of the blade’s adjustment slot, requiring students to demonstrate control and foresight while executing complex material removal.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Hierarchy of controls worksheet, risk assessment templates, needle files, hand files, cordless and pedestal drills, layout templates, bench vices.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory sessions focus on industry-standard risk assessment processes. Students explicitly study the hierarchy of controls (elimination, substitution, isolation, engineering, administrative, and PPE) in the context of metalworking hazards like flying swarf, rotating drill bits, and manual cutting forces. The discussion extends to the specific risks associated with tapping threads and how to properly secure workpieces to prevent injury and damage to components.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Workshop time is dedicated to the production of the adjustment slot in the blade. Students use drilling and filing techniques, starting with a series of drilled holes to remove bulk material, followed by careful internal filing to achieve a square, smooth edge that allows for precise adjustment. This exercise requires high levels of accuracy, as the slot must accommodate the fastener without binding, requiring frequent checks against the component drawing.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of hazard identification folio entry; quality control check on the finish of the internal edges of the blade slot.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week introduces industry-standard risk assessment processes, requiring students to identify and mitigate hazards associated with metalworking tasks like drilling and tapping. Workshop time is dedicated to the precise layout and production of the blade’s adjustment slot, using drilling and filing to refine internal edges to a professional finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-e3f32f8d",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students synthesise safety theory and practical execution by applying the hierarchy of controls to their own assembly process. The week centres on the critical final machining steps, requiring high-level precision in countersinking and thread generation to ensure the sliding bevel is both functional and durable.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Tap and die sets, countersink bits, thread pitch gauges, cutting lubricant, PPE (safety glasses/aprons), assembly jig/clamping aids.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "The theory program deepens the analysis of the hierarchy of controls, focusing on the practical application of administrative and PPE controls for the final assembly phase. Students investigate the mechanics of internal thread generation, identifying the relationship between tap drill sizes, tap engagement, and the structural strength of a threaded fastener hole in aluminium, reinforcing the importance of correct preparation for threading operations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students finalise the adjustment slot by draw-filing to the scribe line. They proceed to perform countersinking on the stock to allow for flush-head rivets, ensuring the surface remains smooth post-assembly. The primary practical task involves tapping the pivot hole; students must demonstrate correct vertical alignment and tension control to produce clean threads that meet strict assembly requirements, ultimately performing a dry-assembly check for alignment and clearance.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the threaded hole fit and counter-sunk rivet holes. Summative progress review of the assembly alignment and overall finish.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students analyse safety through the hierarchy of controls, applying concepts of elimination and PPE to their specific workshop workflows. Practically, students finalise the adjustment slot, perform countersinking operations, and tap the threaded pivot hole, ensuring the fastener fit and assembly alignment meet strict functional requirements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-adc330c6",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students consolidate their theory folios, refining documentation of quality control checks conducted throughout the fabrication process. The week centres on the 'dry assembly' phase, where students verify the mechanical fit of components, checking for squareness and pivot alignment before final assembly begins.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering drawing (sliding bevel), project journals, combination squares, feeler gauges, alignment jigs, digital callipers.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of quality control in precision manufacturing. Students document their measurement verification processes and learn why 'dry fitting' is a critical engineering step to prevent permanent assembly errors. Theory sessions also cover the technical specifications for rivets and the mechanical properties required for a secure but movable pivot point in aluminium assemblies.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct an exhaustive dry assembly of the sliding bevel to test blade clearance and the functionality of the locking mechanism. They perform final hand-filing adjustments to ensure the stock and spacer are perfectly aligned. Students document all remedial adjustments made during this phase in their project journals, providing evidence of reflective practice and problem-solving.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher assessment of the dry-assembly fit and precision; feedback provided on the technical accuracy of documentation within the workshop folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory work centers on folio consolidation, addressing teacher feedback and documenting project quality control procedures. Students move into the dry assembly phase of the sliding bevel to verify pivot alignment, blade clearance, and overall mechanical operation before committing to final riveting of the stock and spacer.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-d8229b96",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise and submit their workshop theory folios, ensuring all engineering drawings, risk assessments, and CAD evidence are professionally presented. Workshop sessions move to the final permanent assembly, with students installing rivets and performing precise filing to achieve flush, aesthetically consistent finishes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Aluminium rivets, ball-peen hammers, rivet setting tools, flat and fine files, wet-and-dry abrasive paper, project folio submission checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the structural mechanics of riveting and the importance of professional surface finishing in industrial design. Students review the hierarchy of controls one final time to ensure their project folio accurately reflects their adherence to workshop safety standards throughout the production cycle. Discussion covers the impact of material oxidation and the role of finishing processes in maintaining component longevity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform the final riveting of the stock and spacer, utilising the ball-peen hammer and rivet set to ensure a secure, high-quality bond. They then use fine-cut files and abrasive paper to sand/file the rivets flush with the surface of the aluminium stock, ensuring no snagging. The final mechanical adjustment of the locking screw is completed to ensure the blade can be held securely at any required angle.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Final submission of the workshop theory folio containing all evidence and safety certifications. Formative: Evaluation of rivet flushness and locking mechanism efficiency.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise and submit their workshop theory folios, ensuring all drawing dimensions and assessment evidence are clearly documented. Workshop focus is on the final mechanical assembly, including filing rivets flush to the stock and performing critical adjustments to ensure the locking mechanism functions smoothly and accurately.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-e4bdd2e4",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The unit introduces the optional Onshape extension activity, allowing students to compare their physical prototype against their digital CAD model to evaluate manufacturing variance. Students finalise the surface finish of their sliding bevels and perform rigorous functional testing against the original engineering specifications.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Onshape CAD software, surface finishing abrasives, engineer's squares, scrap material for verification testing, digital camera for project documentation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students engage in a reflective discussion comparing the 'ideal' digital model created in Onshape with their physical product. Theory covers the concepts of manufacturing tolerances, fitment, and the differences between parametric design and manual fabrication. Students explicitly define the 'intended future' of their tool and assess its functional performance in simulated real-world workshop scenarios.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students carry out a final deburring and surface finishing pass, ensuring all edges are smooth and free of machining marks. They perform a 'Functional Verification Test,' using their sliding bevel to mark out angles on sample material and comparing these against a standard engineer's square for accuracy. Optional extension work involves finalising the assembly's 3D model in Onshape to reflect any manual adjustments made during fabrication.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Functional testing of the sliding bevel; evaluation of the final surface finish. Summative feedback provided on the student's ability to identify and explain differences between their digital design and physical output.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The curriculum introduces the optional Onshape extension task, allowing students to reflect on the relationship between high-precision CAD models and physical manufacturing. Students conduct the final surface finishing of their project and perform comprehensive functional testing to ensure the bevel locks securely at multiple angles.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    },
+    {
+      "id": "week-25d01511",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week facilitates a comprehensive summative evaluation where students critically assess their completed sliding bevel against the original engineering design specifications. Students engage in self-reflection regarding their adherence to safety protocols, the efficacy of their project management, and the quality of their manufacturing output. The experience culminates in a professional presentation of the finished tool and a collective commitment to workshop maintenance and resource management.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Engineering drawings, digital camera/imaging tools, workshop cleaning equipment, project inventory checklists, self-evaluation reflection rubrics.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of product evaluation and life-cycle thinking. Students analyse the relationship between their initial project management plans and their actual production outcomes, identifying successes and areas for future technical improvement. We discuss the significance of industrial standards and quality control in determining the viability of a designed solution. The theory concludes with a debrief on the importance of workshop stewardship and the long-term impact of safety-conscious practices in professional metalworking environments.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical activity involves rigorous functional testing of the completed sliding bevel, verifying locking mechanisms, blade pivot movement, and overall assembly accuracy against the provided engineering drawing. Students capture photographic evidence of their project for their final documentation. The remainder of the week is dedicated to a systematic workshop 'deep clean,' where students disassemble and clean their individual tooling stations, return shared equipment to storage, and participate in a final inventory check to reinforce the importance of sustainable resource management.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative evaluation of the manufactured sliding bevel; final review of the workshop theory folio; and assessment of participation in the project decommissioning and workshop clean-up process.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct a summative evaluation of their sliding bevel against the original engineering drawings, reflecting on the manufacturing processes and safety outcomes. The week concludes with final project submission, photographic documentation, and a thorough workshop clean-up as part of the overall project management lifecycle.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:20:13.723Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

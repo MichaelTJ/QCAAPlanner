@@ -1,0 +1,795 @@
+{
+  "id": "unit-c5035118",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 2,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Jewellery Box (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 2 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 2 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 9 Wood Technology unit, students investigate the precision and craftsmanship required in cabinet and furniture making through the design and construction of a wooden jewellery box. Students develop increasingly sophisticated woodworking skills, with a particular focus on accurate measurement, marking out, hand-tool use and the construction of dovetail joints. They work from a supplied design while incorporating personalised features to make their jewellery box unique. Throughout the unit, students apply workshop safety procedures, select appropriate tools and processes, and document the design and production process in a project folio. The completed product is evaluated for its functionality, appearance, accuracy and overall quality of manufacture.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-7f0b3d8f",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Jewellery Box (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and manufacture an individual wooden jewellery box based on the supplied specifications. The finished product must be functional, accurately constructed and include appropriate personalisation or decorative features.\n\nAssessment evidence will include:\n\nA completed wooden jewellery box incorporating dovetail joinery\nAccurate measurement, marking out, cutting, assembly and finishing\nSafe and responsible use of hand tools, power equipment and workshop processes\nA project folio containing a design brief, success criteria and constraints\nResearch and analysis of existing jewellery box designs\nA dimensioned design sketch and material cutting list\nA completed risk assessment\nDocumentation and explanation of the production process\nAn evaluation of the finished product against the design brief and success criteria\nResponses to associated theory questions covering workshop safety, timber properties, woodworking joints, tools and production procedures\n\nStudents will be assessed on their knowledge and understanding of woodworking processes and their ability to investigate, generate, produce and evaluate a designed solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 6–8 A4 pages or equivalent digital media pages\n• Includes a project folio containing design brief, success criteria, dimensioned sketches, material cutting list, risk assessment, and process documentation\n• Finished product: functional, accurately constructed wooden jewellery box incorporating dovetail joinery\n• Supervised workshop sessions for practical construction and safety testing",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:30:53.794Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent and objective application of the QCAA achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled collaborative sessions at Weeks 3 and 7 to review student design folios and evaluate the quality of evidence against the assessment criteria.\n*   **Cross-marking:** Faculty-wide blind marking of the completed jewellery boxes and project folios to ensure consistent application of the marking guide.\n*   **Standards Verification:** Peer review of student work samples to validate judgements and confirm alignment with Year 10 Wood Technology benchmarks.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:30:55.582Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-fc865471",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6d5cb6a2",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-dc141544",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-1b4e0663",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-7dcd9cee",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c8db2a8e",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b60ebc65",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-b0a0a9d4",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Put ideas into action\nAnalysing: Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-56e9f670",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
+      }
+    },
+    {
+      "id": "ucap-699f3928",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-c078d4c5",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-52cb8bed",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-f71fcedd",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-43059792",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-72554486",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the jewellery box design project, establishing the foundational requirements for fine cabinetry. Lessons cover the project brief analysis, the establishment of the project folio, and mandatory OnGuard safety inductions to ensure compliance with St Brendan's College workshop protocols.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "OnGuard Safety Training system, project folio templates, samples of various timber species, workshop induction checklists, CAD/design software for initial sketching.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Introduction to the jewellery box design brief, identifying success criteria and manufacturing constraints. Explicit instruction on the characteristics of high-quality cabinetry, including the importance of aesthetic proportion, structural integrity, and the selection of appropriate timber materials. Review of workshop safety culture, specifically focusing on the hierarchy of hazard controls and the legal responsibilities of students operating in a technology environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Completion of the OnGuard safety modules for all relevant hand tools and fixed machinery intended for the project. Students establish their project folio, documenting initial research into jewellery box typologies. Initial workshop orientation activities focus on spatial awareness and the correct storage and management of personal protective equipment (PPE).",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the OnGuard safety induction and initial project folio structure, including the recording of design constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the jewellery box design project and the core characteristics of cabinet and furniture making. They establish the project folio, detailing the design brief, success criteria, and constraints, while completing necessary OnGuard workshop inductions to ensure safety and compliance.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-8a4c9730",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to design research and material technology. Students investigate functional and aesthetic features of various jewellery box exemplars to inform their own work. Practical sessions prioritise accurate measurement and marking out techniques on timber stock, essential for high-precision joinery.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Exemplar jewellery box images, timber samples (hardwoods/softwoods), steel rules, combination squares, marking knives, project folio, student planning sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Investigation of timber properties, focusing on grain direction, density, and stability in fine furniture making. Explicit teaching on the principles of design research, demonstrating how to analyse existing solutions against user needs and material limitations. Instruction on the importance of accuracy in marking out, including the use of metric precision tools and the impact of 'kerf' on material dimensioning.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a visual audit of existing jewellery box designs, recording findings in their folios. Practical workshops concentrate on the selection of appropriate timber stock and the precise marking out of components according to the dimensioned sketch. Students engage in supervised testing of measuring tools to ensure accuracy in their initial cuts.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of the annotated design research in the project folio and an assessment of the accuracy of preliminary material marking out.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to design research and material properties, with students investigating aesthetic and functional features of various jewellery box exemplars. Students apply this knowledge to select appropriate timber species and prepare their project components by accurately marking out dimensions.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-3144e34b",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the mechanical and structural properties of woodworking joints, with an emphasis on the dovetail. Practical instruction focuses on the geometry of pin and tail layouts, providing hands-on experience using trial material before transitioning to the final project timber.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Trial timber offcuts, dovetail saws, bench chisels, marking gauges, sliding bevels, technical drawings of dovetail configurations, demonstration jigs.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the mechanics of interlocking joints, specifically the tensile and structural advantages of the dovetail joint in box construction. Analysis of visual versus structural integrity in joint design. Lessons address the importance of tolerances in joinery, explaining why a 'tight' fit is essential for both mechanical strength and aesthetic finish.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical workshops involve demonstration and application of marking out pins and tails using marking gauges and sliding bevels. Students perform repetitive practice cuts on trial softwood blocks to master the hand-saw and chisel techniques required for accurate joinery. Peer-to-peer technical critiques allow students to identify common errors in joint alignment.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of trial dovetail joints and progress in the design sketching phase of the folio, confirming alignment with the project requirements.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore the mechanical and visual properties of common woodworking joints, specifically analysing the structural integrity of dovetails. They develop personalised design sketches and undergo practical instruction on marking out pins and tails, followed by hands-on practice on trial material.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-1dbee3f9",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from theory into intensive manual manufacturing. The week focuses on translating dimensioned sketches into physical reality, emphasizing the critical nature of tolerances and the 'test-fit' mindset. Students engage in the rigorous process of cutting dovetail joints by hand, requiring constant reference to their design annotations.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop benches, dovetail saws, Japanese dozuki saws, bench chisels, marking knives, combination squares, sharpening stations (stones/diamond plates), student design folios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the mathematics of tolerances in woodworking, specifically why a 'slight interference' fit is superior to a loose joint. Review of geometric layout principles to ensure perpendicularity and squareness in box construction. Discussion on the relationship between saw kerf, chisel paring, and final joint assembly precision, reinforcing the importance of material allowance calculations.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students commence cutting tails and pins for their jewellery box components using dovetail saws and mallet-driven chisels. Practical lessons involve frequent dry-assembly check-ins to monitor joint tightness and structural alignment. Students work through iterative refinements, using marking knives to define shoulders and pairing back waste material to achieve seamless, gap-free connections.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment through observation of joint-cutting accuracy and checking the 'fit' of the dovetail assembly; review of annotated design sketches against current progress.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students finalise their dimensioned sketches, annotations, and material requirements while internalising the importance of tolerances and precise fit. The practical component involves the meticulous cutting of dovetail joints using hand saws and chisels, with regular testing to ensure structural alignment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-c1b8947b",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week balances risk management with structural refinement. Students develop a formal risk assessment for their manufacturing processes, bridging the gap between theoretical hazards and actual workshop conduct. The practical focus is on the meditative process of hand-fitting joints to ensure the primary box structure is perfectly square before glue-up.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Risk assessment templates, framing squares, set squares, diagonal tape measures, fine-tooth files, sanding blocks, workshop hazard checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on hazard identification and the development of control measures for power machinery and chemical finishes. Discussion on structural squareness and how to diagnose and correct 'racking' in a box frame. Students review the hierarchy of controls (engineering, administrative, PPE) as applied to their specific project tasks and the workshop environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete a written risk assessment for their jewellery box project, identifying key hazards for each machine operation. In the workshop, they refine dovetail components using fine-cut files and abrasive paper to ensure a glass-smooth fit. The week concludes with a comprehensive dry assembly where students use framing squares and diagonal measurements to verify the structure's geometry.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative/Formative: Completed risk assessment document submitted for review; practical check of the 'squareness' and 'tightness' of the dry-assembled box structure.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students develop a comprehensive risk assessment, identifying hazards associated with workshop machinery and finishes while defining appropriate control measures. They conclude the week by refining their dovetail joints through hand fitting and dry assembly, ensuring the box structure is perfectly square.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-baef9503",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Instruction shifts toward professional component preparation using power equipment for base and lid components. Students move from manual joinery to the final structural assembly phase, learning to manage complex glue-ups under time pressure. The focus is on systematic project management and the creation of accurate material cutting lists.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Thicknessers, drop saws, PVA glue, sash cramps/f-clamps, set squares, timber stock, material cutting list templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the safe and efficient operation of stationary power equipment, including thicknessers and drop saws, to achieve consistent stock dimensions. Instruction on modern adhesive technologies, clamping sequences, and the importance of 'clamping for square.' Discussion on material yield and the development of detailed cutting lists to minimise waste and ensure efficient production.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students operate power machinery to thickness base boards and lid panels to specification. Following this, they execute the permanent assembly phase, applying wood glue to dovetail joints and clamping the box frame with precision. The week concludes with the preparation of base rebates or grooves, ensuring the box structure is ready for the final decorative and finishing stages.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Monitoring of safe machinery use and glue-up procedure; review of the completed material cutting list for accuracy and completeness.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Instruction is provided on the selection and safe use of power equipment for component preparation, alongside the development of detailed material cutting lists. Students proceed to the permanent assembly phase, gluing and clamping the main box structure and preparing the base and lid components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-94a19a62",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students pivot from structural box assembly to the integration of precision hardware and aesthetic detailing. Lessons focus on the technical requirements for mounting lid hinges and the application of decorative design elements, providing students with the opportunity to refine their craft through deliberate, high-stakes material adjustments.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Jewellery box hinges, chisels, marking knives, routers/laminate trimmers, decorative inlays, sample hinges, project folio for documentation, camera/device for progress tracking.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the mechanical principles of hinge installation, including the necessity of precise recessing to ensure flush movement and structural longevity. Analysis of the relationship between hardware selection and box functionality, including the impact of lid weight and balance on hinge choice. Discussion on design evolution, focusing on how students can interpret their design sketches to incorporate personalised inlays or edge profiling safely.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical workshops focus on the measurement and routing or chiselling of hinge recesses, using jigs to ensure consistency across student projects. Students proceed to dry-fit hardware before permanent attachment, assessing the swing and closure of the lid. Additional time is allocated for students to incorporate chosen decorative features, such as timber inlays or unique corner treatments, ensuring they align with their original design intentions.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Documentation of the hinge installation process in the project folio, featuring annotated progress photographs and reflections on the decision-making involved in achieving a flush fit.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students document their construction process through annotated progress photographs and written reflections, highlighting their technical decision-making. Practical efforts focus on the precision installation of lid hardware, hinges, and the integration of personalised or decorative design elements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-e59c5ec4",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to quality assurance and surface preparation, with students comparing their prototype against the initial design brief and constraints. Practical sessions emphasise the systematic progression of abrasive grits to transform raw timber surfaces into a professional, tactile finish.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Abrasive paper (80 to 400 grit), orbital sanders, sanding blocks, scrapers, grain-filling compounds, project folio evaluation templates, grazing light lamps.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction on the principles of comparative evaluation, encouraging students to analyse their jewellery box against original dimensions, joinery requirements, and success criteria. Explicit teaching on the 'progressive sanding' method—moving through grit levels—and its impact on grain clarity and coating adhesion. Discussion on timber surface preparation, including techniques for moisture control and raising the grain.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students conduct a formal evaluation of their jewellery box performance, documenting deviations from the design sketch and identifying the impact on final function. In the workshop, students perform deep-surface sanding, starting with coarse grits to level joints and moving to fine abrasives for a smooth, blemish-free finish. Quality control checks involve inspecting all surfaces under grazing light to identify and rectify any remaining machining marks or tear-outs.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the evaluation section of the project folio, comparing the physical jewellery box against the initial success criteria and constraints documented in weeks 1–2.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The evaluation phase commences, with students comparing their prototype against the initial design brief, constraints, and success criteria to assess performance. In the workshop, students undertake the final shaping and progressive sanding of the box to achieve a high-quality surface finish.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-84bcc360",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students complete their theoretical understanding of workshop safety and material technology, followed by the application of the final finish. This week ensures the jewellery box reaches a professional standard through the careful, safe application of oils, waxes, or lacquers, reflecting a culmination of the unit’s skill development.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Unit theory examination paper, selected finishes (e.g., hard wax oil, lacquer), lint-free cloths, PPE (gloves, masks), drying racks, ventilation equipment, safety data sheets (SDS) for finishes.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theoretical assessment covering the identification and management of workshop hazards, the physical and chemical properties of timber, and the technical requirements for various joinery configurations. Explicit teaching on the application, curing, and maintenance of different wood finishes (oils, waxes, and lacquers) in terms of safety, ventilation requirements, and environmental impact.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students complete the summative theory examination in the classroom. In the workshop, they apply their selected finish to the jewellery box, strictly adhering to safety protocols regarding personal protective equipment (PPE) and workspace ventilation. The process involves multiple stages of application and light de-nibbing, ensuring a professional, aesthetic, and protective final finish.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative: Theory examination covering workshop safety, timber technology, and joinery. Formative: Observation of safe practice during the finishing process and inspection of the applied finish quality.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete theoretical assessments covering workshop hazards, safety protocols, timber properties, and joinery techniques. Practically, they apply their chosen finish or lacquer to the jewellery box, strictly adhering to safety procedures to achieve a professional aesthetic outcome.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    },
+    {
+      "id": "week-01d1daac",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week focuses on project closure and reflective practice. Students complete a final audit of their jewellery box to confirm it meets the functional requirements of the brief. Lessons involve the compilation and final polish of the project folio, ensuring all technical documentation, risk assessments, and production logs are synthesised into a cohesive record of their design and construction journey.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project folio evaluation rubrics, high-resolution cameras for final product photography, display materials, workshop cleaning and tool storage inventory checklists.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the importance of project evaluation and post-production review. Students explore how to critically analyse their work against the original success criteria to determine the extent of their design success. Discussion centres on 'life cycle thinking'—considering the durability, material sourcing, and potential end-of-life of their project, and how these considerations inform future design and technology decisions.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to final assembly of all components, including hardware checks and minor aesthetic touch-ups. Students perform a quality-control inspection, measuring dimensions and checking joint integrity, before mounting their piece for display. The remainder of the time is used for the meticulous final assembly of the project folio, ensuring all annotated sketches, photographs of the production stages, and written evaluations are professionally formatted and ready for submission.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Final submission of the completed jewellery box and project folio. The project is assessed against the established criteria: functional performance, accuracy of joinery, quality of finish, and the depth of reflection within the folio documentation.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with the final review and submission of the project folio, accompanied by a summative reflection on planning, production, and time management. A quality-control inspection confirms the functional success of the jewellery box before final submission and display.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:31:01.289Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

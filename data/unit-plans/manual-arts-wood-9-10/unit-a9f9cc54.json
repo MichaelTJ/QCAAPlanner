@@ -1,0 +1,795 @@
+{
+  "id": "unit-a9f9cc54",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": "9",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 4,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Shelving Unit (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this unit, students develop woodworking knowledge and practical skills by designing and constructing a personalised timber wall-shelving unit. Students interpret working drawings, prepare a cutting list and use accurate measurement and marking-out techniques to manufacture the project. Construction introduces increasingly sophisticated cabinetmaking joints, including stopped housing joints, mortise-and-tenon joints and dovetail joints. Students also manufacture and fit a small drawer, plywood components and a customised back panel.\n\nThroughout the unit, students safely select and use hand tools, portable power tools and workshop equipment. They investigate timber and manufactured boards, workshop safety, production processes and the characteristics of different materials. Students document the design and production process in a folio and evaluate the functionality, appearance and quality of their completed shelving unit.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-c03b18dc",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "9",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Shelving Unit (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and construct a functional timber wall-shelving unit based on the supplied working drawing. The fundamental dimensions and construction methods are provided, but students personalise the project through changes to features such as the back panel, shape, detailing and finish.\n\nAssessment evidence is collected through:\n\nA completed wall-shelving unit demonstrating accurate marking out, joint construction, assembly, drawer fitting, surface preparation and finishing.\nA design and production folio containing a design brief, success criteria, constraints, existing-product research, concept sketches, CAD drawings, orthographic views, risk assessment, cutting list and an annotated photographic production record.\nAn evaluation comparing the completed product against the design brief and success criteria, supported by peer feedback.\nTeacher observation of safe workshop practices, correct tool selection, time management and practical skill.\nAssociated theory activities covering workshop safety, timber and manufactured boards, emerging materials, hand tools and portable power tools.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Practical construction: 8–10 hours workshop time\n• Folio: 6–8 A4 pages or equivalent digital media, including CAD drawings, cutting lists, and production records\n• Final product: A functional wall-shelving unit completed to design specifications\n• Supervised classroom conditions for theory and safety testing",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:33.233Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the Year 10 Manual Arts department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings to review student work samples, specifically focusing on the precision of joinery and the quality of orthographic representations.\n*   Cross-marking: Departmental review of design folios and evaluation reflections to ensure consistent application of the marking criteria, particularly regarding the demonstration of safety protocols and sustainable material selection.\n*   Standardisation: Collaborative assessment of a student work sample at the start of the unit to calibrate expectations for 'accurate marking out' and 'sophisticated cabinetmaking'.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:35.048Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-cc985af7",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Engineering principles and systems",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how the characteristics and properties of materials are combined with force, motion and energy to control engineered systems",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-ad48b295",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fd86d674",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-9ecb3eb7",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-5e2f1c72",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4a50430c",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-947c5cdb",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-21aab4bf",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-d34ec646",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-25c413a5",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-fdfc6d22",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-2bae0ce7",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-77ca75b4",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-0551bbdf",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": false,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-db8076dc",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the shelving unit project, analysing the provided design brief and success criteria. The week balances theoretical exploration of working drawings with the rigorous safety protocols required in a woodworking facility. Students will participate in comprehensive machinery inductions, focusing on the stationary equipment critical for the project's success.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Project brief and design sheets, workshop safety manuals, PPE, machine proficiency checklists, orthographic drawing examples, student folio templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on interpreting orthographic working drawings, including conventions for scale, dimensions, and hidden lines. Students explore the project management cycle, learning to translate the design brief into a structured sequence of tasks. Workshop safety theory covers the identification of hazards and the correct use of personal protective equipment (PPE), specifically regarding static machinery such as the pedestal drill and disk sander.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to workshop safety inductions and machine operation assessments. Students demonstrate proficiency in identifying emergency stops and safe zones before undergoing supervised testing on selected machinery. Time is allocated for students to study the provided project drawings, measuring key components to begin visualising their individual construction process.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Completion of the mandatory workshop safety induction checklist and practical machinery proficiency test. Observation of student engagement with the project brief and design constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to the project brief, success criteria and the specific aesthetic and functional constraints of the wall-shelving unit. Theory sessions focus on examining provided working drawings and developing a robust project management plan, while practical lessons include mandatory workshop inductions and safety assessments for stationary machinery.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-f29d8b8b",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Focus shifts to material investigation, where students evaluate the structural properties of hardwoods versus manufactured boards like plywood or MDF. Students develop their technical literacy by creating an accurate cutting list, ensuring minimal material waste. Practical work commences with the rough-to-finished dimensioning of timber, emphasising the 'face side and edge' marking technique.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop timber samples, moisture meters, steel rules, marking gauges, squares, thicknesser, buzzer, docking saw, material calculation sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on timber science covers the differences between solid wood and manufactured boards, considering moisture content, grain direction, and stability. Students learn to calculate board feet and plan for kerf allowances when developing their cutting list. Discussion of sustainability and lifecycle thinking allows students to justify their material choices in the context of their specific shelving design.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply marking-out tools, including the combination square, marking gauge, and try square, to dimension their stock. They progress through the use of the thicknesser, buzzer, and docking saw to prepare timber to size. Precision is the primary focus, with students verifying the squareness and flatness of all components before proceeding to any joinery stages.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the initial cutting list for accuracy and efficiency. Observation of safe tool usage and adherence to material preparation procedures.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Focus shifts to material investigation, where students compare the structural properties of solid timbers and manufactured boards to inform their material selection. Students begin the production phase by generating a detailed cutting list and undertaking timber preparation, ensuring all components are accurately dimensioned and checked for quality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-1823c465",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition to design development, applying iterative sketches to customise their shelving units while maintaining functional integrity. The week integrates CAD modelling as a bridge between 2D sketches and 3D reality. Practical lessons introduce the first stages of joinery, specifically the marking out of critical stopped housing joints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software (e.g., SketchUp or Fusion 360), drawing paper and isometric grids, router jigs, chisels, marking knives, calipers, student folio.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on iterative design and the importance of annotation in visualising modifications. Students learn how CAD modelling assists in identifying assembly issues before they occur in the wood. Explicit teaching on housing joints covers the structural mechanics of a 'housed' connection and the importance of tight tolerances for load-bearing stability.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students produce annotated sketches showcasing personalised design features, then move to CAD software to generate a 3D model of their unit. Practical workshop time is dedicated to precise marking-out techniques for housing joints. Students practise using a router or chisels to define the width and depth of housing locations, ensuring perfect fitment for their internal shelving components.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Review of annotated concept sketches and initial CAD progress. Monitoring of marking-out accuracy for housing joints to prevent component wastage.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students engage in iterative design development, producing annotated concept sketches to explore modifications that personalise their shelving unit. The week concludes with the commencement of CAD modelling to visualise the assembly and the marking out of critical housing joints for the primary shelf components.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-4a892215",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on high-fidelity technical communication by finalising CAD models and generating precise orthographic projections, including sectional views. Workshop sessions shift to the execution of stopped housing joints, where students must balance the application of new machine techniques with the requirement for tight tolerances and absolute squareness in their primary structural components.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "CAD software, marking knives, combination squares, router or table saw, sacrificial timber for testing, technical drawing templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the conventions of technical drawing, specifically the use of section lines and dimensioning standards for construction. Students analyse the structural load requirements of housing joints, examining why stopped housings are preferred for aesthetic 'cleanliness' in cabinetry. Theory also covers the safe setup and operation of the bench-mounted router or table saw for repeatable, accurate housing cuts, emphasizing the calculation of depth and width relative to stock thickness.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use CAD software to complete their final assembly models and generate dimensioned orthographic sheets for their folio. Workshop activity centers on the batch-processing of housing joints; students mark out centerlines with extreme precision using a marking knife and square. They then perform trial cuts on scrap material to verify the fit before committing to the final shelf components, ensuring each housing is cut to the correct depth and perfectly aligned across all vertical members.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of orthographic projection accuracy and the quality of trial housing joints. Monitoring of student adherence to safety protocols when using the router or table saw for repetitive cuts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Technical communication is prioritised as students finalise their CAD models and generate dimensioned orthographic projections. In the workshop, students execute stopped housing joints, learning to maintain strict tolerances and ensure all components are squared correctly before moving to assembly stages.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-5b6e80a0",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week prioritises the development of joinery skills through the introduction of double mortise-and-tenon joints. Students undertake guided demonstrations on the layout and cutting sequences required for these robust connections. The learning experience culminates in the production of these joints, with a specific focus on achieving a high-quality friction fit that serves as a benchmark for professional cabinetmaking standards.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mortise and bench chisels, tenon saws, marking gauges, mallets, honing guides, sharpening stones, framing squares.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching centres on the mechanical advantage of mortise-and-tenon construction, exploring how the joint manages sheer stress in shelving frames. Students learn the systematic process of 'mortise first, tenon second' to ensure fitment accuracy. Discussion includes the selection of chisels and the geometry of tenon shoulders, as well as the risks of over-gluing and the impact of timber expansion on internal joint fitment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students spend practical lessons marking out their tenon shoulders and mortise depths with high-precision dividers and gauges. Using mortise chisels, bench chisels, and the tenon saw, students carefully remove waste to create their joints. Extensive time is allocated to 'paring' the tenons for a firm, push-fit assembly, requiring students to practise iterative testing without the use of glue, ensuring the frame will sit perfectly square before final assembly stages.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of the tightness and alignment of the dry-fit mortise-and-tenon joints. Assessment of safe chisel handling and sharpening techniques.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory lessons examine the mechanical advantages of mortise-and-tenon joints, including tool selection and the sequence of safe production processes. Practically, students mark out and cut double mortise-and-tenon joints, focusing on achieving high-quality friction fits without the need for excessive adhesive.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-b6ee148e",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the structural and aesthetic significance of dovetail joinery, specifically looking at its use in fine cabinetry for base assemblies. The week moves from theoretical understanding of dovetail mechanics to the practical challenge of laying out and cutting box dovetails. Students also integrate their plywood base components into the primary structure to complete a comprehensive dry-fit of the shelving unit.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Dovetail saws, marking gauges, fine chisels, dividers, square blocks for dry-fit clamping, plywood sheets, selection of cabinet-grade timber samples.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on the historical and structural benefits of dovetail joints, emphasizing their resistance to tensile forces. Students compare different timber species suitable for fine cabinetry, considering grain density, workability, and finishing potential. Theoretical sessions also address the 'taper' of dovetail pins and the importance of layout symmetry for both strength and decorative impact in high-end projects.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students engage in the delicate layout and cutting of box dovetails, starting with pin board marking and tail transfer. They utilise fine-tooth dovetail saws and thin-blade chisels to achieve clean, gap-free shoulder lines. Once the dovetails are formed, students measure and cut their plywood base, dry-fitting it alongside the dovetailed structure to verify global squareness and check for any necessary structural adjustments before the final assembly phase.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of dovetail accuracy and the overall squareness of the dry-fit structure. Observation of students' ability to solve fitment issues independently using marking tools and hand planes.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate the structural benefits of dovetail joinery and the selection criteria for different timber species in fine cabinetry. Practical work involves the precise layout and cutting of box dovetails for the base assembly, followed by the preparation of plywood base components and a full dry-fit of the structure.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-f3010531",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on the specialised cabinetmaking requirements of drawer construction, moving from theoretical clearances to physical fabrication. Lessons involve demonstrating how to calculate drawer front-to-side rebates to ensure structural integrity and the precision required for sliding fitment. Students work through the construction of their drawer boxes, ensuring that frame components remain square to avoid binding issues within the primary shelving carcass.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Table saw/router, block planes, try squares, measuring tapes, timber stock for drawer components, plywood for drawer base.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the principles of drawer fitment, specifically the importance of 'draw-slide' clearances and the impact of timber humidity on drawer movement. Students analyse how rebates provide mechanical strength compared to simple butt joints in drawer assembly. Theory covers the necessary calculations for drawer front, sides, back, and base to ensure the final assembly operates smoothly within the housing.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the marking out and cutting of drawer components. Students use the table saw or router to cut rebates for the drawer back and base housing. Careful attention is paid to checking for squareness using a try square at every stage. Once components are cut, students perform a dry assembly to verify that the drawer slides easily into the shelving unit with appropriate tolerance, making minor adjustments with a block plane if necessary.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Monitoring of drawer component accuracy and the quality of the sliding fitment. Assessment of safe operation of the rebate-cutting tools.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "This week focuses on the specialised skills required for drawer construction, covering topics such as rebates, clearances and fitment requirements. Students manufacture the drawer components, ensuring precise joinery and a square frame that functions smoothly within the main unit structure.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-a083c703",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students pivot to final assembly and documentation, balancing the finalisation of the shelving unit structure with the rigor of the project folio. The practical focus is on the manufacturing and mounting of the customised back panel, followed by the definitive glue-up. This week serves as a critical quality-control checkpoint for the entire project, ensuring all joints are secure and the frame is perfectly square before the adhesives set.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Back panel materials (e.g., plywood or thin timber), PVA wood glue, sash and F-clamps, diagonal measurement tape, square check records.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theory lessons review the importance of quality control in cabinetmaking, covering techniques for checking squareness and managing glue application to avoid unsightly squeeze-out. Students learn about the role of the back panel in providing structural rigidity to prevent racking. We also formalise the folio process, focusing on documenting material usage and updating risk assessments to reflect the final assembly stages.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students machine and fit their customised back panels, ensuring they are flush with the rear of the shelving unit. The workshop focus then shifts to the glue-up; students carefully apply adhesives, using clamps to hold the assembly in a perfectly square position. They must apply pressure incrementally to avoid distorting the frame, checking diagonal measurements across the unit to confirm overall squareness before leaving it to cure.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of the squareness of the final assembly and the cleanliness of the glue-up process. Review of the updated folio documentation regarding project management and risk.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students formalise their folio documentation, including finalising risk assessments and recording material usage. The practical focus is on manufacturing the customised back panel and executing the final glue-up and clamping process, with an emphasis on quality-control checks for squareness and adhesive removal.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-ce7fdc0c",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final phase of the unit shifts to surface preparation and finishing, where students refine the aesthetic appearance of their shelving. Theoretical analysis compares various wood finishes, focusing on the trade-offs between durability, application method, and visual result. Students engage in the final cleaning and assembly adjustment process, ensuring their unit is fully functional before documenting their final evaluation against the initial design brief.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Abrasives (sanding block and paper in various grits), finishing products (oil/wax/varnish), PPE (masks/gloves), cleaning cloths, folio templates for evaluation.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on wood finishing science, comparing oils, waxes, and varnishes based on environmental sustainability, ease of repair, and aesthetic outcome. Students investigate the importance of progressive grit sanding in achieving a professional-quality surface finish. Theory also guides students through the structure of their evaluative reflection, teaching them to use peer feedback to critically appraise their product against the original design success criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students spend practical time sanding their shelving unit, progressing through various abrasive grits to achieve a smooth, defect-free surface. They perform final assembly checks, sanding back any minor irregularities from the glue-up. Students then apply their chosen timber finish in a controlled, well-ventilated area, following safe handling procedures for all finishing products. Simultaneously, they document their final evaluation in their folio, noting any design modifications made during construction.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Evaluation of surface finish quality and the overall presentation of the completed shelving unit. Review of the draft evaluation and peer-feedback documentation for the folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Theory involves evaluating surface preparation techniques, including the environmental and aesthetic considerations of various wood finishes. Students perform final sanding and assembly adjustments before applying their chosen finish, while simultaneously documenting their evaluation against the original design brief and success criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    },
+    {
+      "id": "week-40acac26",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The final week serves as the culmination of the project, focusing on the synthesis of the design and production folio and the final aesthetic finishing of the timber shelving unit. Students engage in structured self-reflection and peer-review exercises to critically evaluate their project successes, design modifications, and the technical challenges overcome during manufacture. Workshop time is dedicated to final quality assurance, including minor assembly adjustments, applying the final protective clear-coat, and ensuring the workshop facility is returned to a clean and safe state for future classes.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Finishing materials (wax, oil, rags/applicators), final folio checklist, peer-review feedback rubrics, cleaning equipment (vacuums, brushes, benches), submission documentation templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on reflective practice as a core component of the design process. Students examine how to articulate the relationship between their initial design intentions and the final manufactured outcome, using evidence from their production logs to justify design pivots. Discussion centres on the lifecycle of a timber product, including how proper surface finishing and maintenance contribute to the long-term sustainability and aesthetic integrity of the designed solution. Students are guided through the final collation of their folio, ensuring all required documentation—including orthographic projections, risk assessments, and the final evaluation—is formatted to meet assessment criteria.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions prioritise the application of final finishes, such as oil, wax, or varnish, with students demonstrating careful preparation of surfaces to ensure optimal results. Once finishes are cured, students conduct a final assembly check, including the verification of drawer sliding clearances and the tightening of any hardware. The remainder of the week is committed to the professional standard of 'workshop stewardship'; students perform a comprehensive clean-down of tools, jigs, and shared machinery, ensuring all equipment is accounted for and stored according to safety protocols prior to the submission of their projects.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Submission of the completed shelving unit and the comprehensive design and production folio. Formative feedback provided via peer-review sessions and final teacher observation of student adherence to workshop maintenance and finishing quality standards.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The unit concludes with the finalisation of the design and production folio, including self-reflection and peer-review activities regarding project successes and difficulties. The practical component involves applying the final protective coating and cleaning all tools and workspace, ready for the submission of the completed shelving unit.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:36:41.284Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

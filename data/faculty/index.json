@@ -22,14 +22,21 @@
       "id": "design-technologies-7-8",
       "learningAreaSubject": "Design Technologies",
       "yearLevelBand": "7-8",
-      "dateLastModified": "2026-07-27T11:07:53.696Z"
+      "dateLastModified": "2026-07-28T00:43:50.944Z"
     },
     {
       "id": "manual-arts-metal-9-10",
       "learningAreaSubject": "Manual Arts (metal)",
       "yearLevelBand": "9-10",
       "curriculumPlanType": "9-10-design",
-      "dateLastModified": "2026-07-27T11:35:32.021Z"
+      "dateLastModified": "2026-07-28T00:44:26.332Z"
+    },
+    {
+      "id": "manual-arts-wood-9-10",
+      "learningAreaSubject": "Manual Arts (wood)",
+      "yearLevelBand": "9-10",
+      "curriculumPlanType": "9-10-design",
+      "dateLastModified": "2026-07-28T00:45:12.006Z"
     }
   ]
 }

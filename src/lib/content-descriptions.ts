@@ -9,7 +9,12 @@ import {
 	type CurriculumPlanTypeId
 } from '$lib/curriculum/curriculum-catalogue';
 import { parseYearBandFromText, yearBandFromYearLevel } from '$lib/curriculum-match';
-import { aiField, type ContentDescriptionRow, type UnitAssessmentContentDescription } from '$lib/types';
+import {
+	aiField,
+	type ContentDescriptionRow,
+	type LevelPlan,
+	type UnitAssessmentContentDescription
+} from '$lib/types';
 
 export const KNOWLEDGE_AND_UNDERSTANDING = 'Knowledge and understanding';
 export const PROCESSES_AND_PRODUCTION_SKILLS = 'Processes and production skills';
@@ -146,6 +151,65 @@ export function pickerDescriptorsForPlanType(
 ): PickerContentDescriptor[] {
 	const curriculum = getCurriculumForPlanType(planType);
 	return curriculum.contentDescriptors.map(planFieldsFromCatalogueDescriptor);
+}
+
+/**
+ * Ensure every catalogue content descriptor appears on the level plan matrix.
+ * Preserves existing unit inclusions; adds missing rows (all unchecked).
+ * Returns true when rows were added or reordered to match the catalogue.
+ */
+export function ensureLevelPlanContentDescriptionsFromCatalogue(
+	levelPlan: LevelPlan,
+	planType: CurriculumPlanTypeId
+): boolean {
+	const catalogue = getCurriculumForPlanType(planType);
+	const unitCount = levelPlan.units.length;
+	const existingByCode = new Map<string, ContentDescriptionRow>();
+	for (const row of levelPlan.contentDescriptions) {
+		const code = descriptorCodeKey(String(row.code.value));
+		if (code && !existingByCode.has(code)) existingByCode.set(code, row);
+	}
+
+	let added = false;
+	const ordered: ContentDescriptionRow[] = [];
+
+	for (const cd of catalogue.contentDescriptors) {
+		const fields = planFieldsFromCatalogueDescriptor(cd);
+		const key = descriptorCodeKey(fields.code);
+		const existing = existingByCode.get(key);
+		if (existing) {
+			existing.strand.value = fields.strand;
+			existing.subStrand.value = fields.subStrand;
+			if (!String(existing.text.value).trim()) existing.text.value = fields.text;
+			while (existing.unitInclusions.length < unitCount) existing.unitInclusions.push(false);
+			existing.unitInclusions = existing.unitInclusions.slice(0, unitCount);
+			ordered.push(existing);
+			existingByCode.delete(key);
+		} else {
+			added = true;
+			ordered.push({
+				id: createId('cd'),
+				strand: aiField(fields.strand),
+				subStrand: aiField(fields.subStrand),
+				text: aiField(fields.text),
+				code: aiField(fields.code),
+				unitInclusions: Array.from({ length: unitCount }, () => false)
+			});
+		}
+	}
+
+	for (const leftover of existingByCode.values()) {
+		while (leftover.unitInclusions.length < unitCount) leftover.unitInclusions.push(false);
+		leftover.unitInclusions = leftover.unitInclusions.slice(0, unitCount);
+		ordered.push(leftover);
+	}
+
+	const reordered =
+		ordered.length !== levelPlan.contentDescriptions.length ||
+		ordered.some((row, index) => row.id !== levelPlan.contentDescriptions[index]?.id);
+
+	levelPlan.contentDescriptions = ordered;
+	return added || reordered;
 }
 
 /** Prefer curriculum catalogue; fall back to level-plan content description rows. */

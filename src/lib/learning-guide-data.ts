@@ -69,8 +69,10 @@ function splitIntoBullets(text: string, max = 4): string[] {
 	);
 }
 
+/** Strip a leading section label like "Prac:" / "Theory ", but not words that start with that prefix (e.g. "Practical"). */
 function stripSectionPrefix(text: string, prefix: string): string {
-	return text.replace(new RegExp(`^${prefix}\\s*:?\\s*`, 'i'), '').trim();
+	const escaped = prefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	return text.replace(new RegExp(`^${escaped}\\b\\s*:?\\s*`, 'i'), '').trim();
 }
 
 export function weekContentFromTeachingWeek(week: TeachingWeek): {

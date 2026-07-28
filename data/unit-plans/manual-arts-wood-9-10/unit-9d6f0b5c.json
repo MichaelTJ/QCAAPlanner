@@ -1,0 +1,776 @@
+{
+  "id": "unit-9d6f0b5c",
+  "levelPlanId": "manual-arts-wood-9-10",
+  "yearLevel": {
+    "value": 10,
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "9-10 Manual Arts (wood)",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": 8,
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Wall Mirror (wood)",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "Term 4 Week 1",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Term 4 Week 10",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 weeks",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "In this Year 10 Wood Technology unit, students design and manufacture a personalised timber wall mirror. Students develop practical woodworking skills through accurate measuring, marking out, cutting, joining, assembling and finishing timber components. They investigate existing products, develop and communicate design ideas using sketches and CAD, and select appropriate materials, tools and production processes. Throughout the unit, students apply workshop safety procedures, manage their time and document the development and manufacture of their mirror in a design folio.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-78dd3b2c",
+      "assessmentNumber": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Wall Mirror (wood)",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students will design and construct an innovative and aesthetically pleasing timber wall mirror based on the supplied project specifications. The completed mirror must demonstrate accurate construction, close-fitting joints, careful finishing and appropriate personalisation.\n\nStudents will also produce a folio documenting the design and production process. The folio will include:\n\nA design brief, success criteria and project constraints\nResearch and analysis of existing wall mirror designs\nInitial sketches and proposed design modifications\nA final CAD model with dimensioned orthographic views\nA risk assessment and material cutting list\nPhotographic evidence and an annotated production sequence\nResponses to associated woodworking theory questions\nA final evaluation and peer evaluation\n\nStudents will be assessed on their knowledge of tools, materials, production processes and safety, as well as their ability to generate, produce and evaluate a functional designed solution.",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• Folio: 6–8 A4 pages or equivalent digital media, incorporating design sketches, CAD drawings, material cutting list, risk assessment, and photographic evidence of production.\n• Practical: Construction of the wall mirror completed within scheduled workshop sessions under direct supervision.\n• Time: 10 weeks of allocated classroom and workshop time.\n• Moderation: Internal cross-marking within the Technologies department to ensure consistent application of the QCAA assessment criteria.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:22.278Z"
+      },
+      "timing": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically within the Manual Arts department to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review a range of student work samples (A–E) and clarify the application of the assessment rubric.\n*   **Cross-marking:** Double-marking of final folios and practical product evaluations to ensure objective and consistent application of performance criteria.\n*   **Standardising:** Collaborative review of workshop safety evidence and technical production standards to ensure alignment with St Brendan’s College safety and assessment expectations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:24.377Z"
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-3ff455d4",
+          "strand": {
+            "value": "Knowledge and understanding",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Technologies context: Materials and technologies specialisations",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse and make judgements on how characteristics and properties of materials, systems, components, tools and equipment can be combined to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10K06",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-aaa8a3e8",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "analyse needs or opportunities for designing; develop design briefs; and investigate, analyse and select materials, systems, components, tools and equipment to create designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P01",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-4cb615b1",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "apply innovation and enterprise skills to generate, test, iterate and communicate design ideas, processes and solutions, including using digital tools",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P02",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-6dad9d68",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select, justify, test and use suitable technologies, skills and processes, and apply safety procedures to safely make designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P03",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-b46aeae6",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop design criteria independently including sustainability to evaluate design ideas, processes and solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c85f3052",
+          "strand": {
+            "value": "Processes and production skills",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "develop project plans for intended purposes and audiences to individually and collaboratively manage projects, taking into consideration time, cost, risk, processes and production of designed solutions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDE10P05",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-0ad2fa93",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes\nReflecting: Thinking about thinking (metacognition)",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": true,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-a058fd65",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Acquire and collate data\nCreating and exchanging: Plan\nManaging and operating: Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-96fb11e7",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-929731f0",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-a9e0dde9",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Reading and viewing: Understanding texts\nWriting: Creating texts",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": true,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
+      }
+    },
+    {
+      "id": "ucap-41053ef3",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Measurement and geometry: Understanding units of measurement; Understanding geometric properties",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": true,
+        "num-geometric-properties": true,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-a85cae21",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-de85be57",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students are introduced to the mirror project through a comprehensive induction covering workshop WHS, hazardous dust management, and the safe operation of stationary machinery. They review project specifications, constraints, and success criteria, beginning the process of defining their unique design brief within the folio.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Workshop WHS induction manual, project specification sheet, PPE kits, folio templates, CAD lab access.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the St Brendan's College workshop safety protocols, including mandatory PPE and emergency shut-down procedures for heavy timber-machinery. Students examine the physical properties of selected timbers suitable for mirror frames, considering grain structure, strength, and workability. The theoretical framework for the design brief is introduced, emphasising how constraints—such as cost, time, and material availability—influence design outcomes in a professional woodworking context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to the mandatory workshop safety induction, including the use of dust extraction systems and the safe operation of basic hand and power tools. Students conduct a site-specific risk assessment for the unit, identifying potential hazards associated with timber machining. They commence their design folios by outlining the project requirements and establishing initial design sketches that map out their mirror’s functional and aesthetic goals.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Teacher checklist of signed student safety contracts and successful completion of the workshop induction test. Initial review of folio design brief and constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students undergo a comprehensive workshop safety induction, focusing on the specific hazards associated with timber processing and power tools. They are introduced to the mirror project specifications and begin establishing the design brief, constraints, and success criteria for their folio.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-0096bcf1",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students engage in design research to analyse existing mirror products, focusing on joinery styles and aesthetic features. They transition into the workshop to select appropriate timber stock, applying precise measuring and marking techniques to prepare for the fabrication stage based on their individual design plans.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Measuring tapes, try-squares, marking gauges, timber stock samples, design software (CAD), research worksheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on design analysis methods, where students explore the relationship between form, function, and aesthetic appeal in contemporary timber design. Concepts of orthographic projection and dimensioning are reinforced to ensure students can communicate their designs effectively. The theory of material selection is covered, explaining how timber choice influences the longevity and final finish of the mirror frame.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students practise technical marking out using measuring tools, squares, and marking gauges on scrap timber before moving to their final stock. They generate accurate cutting lists, calculating timber requirements to minimise waste and account for saw-blade kerf. Design sketches are refined into detailed layouts, with students annotating their design choices against their previously established criteria.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Teacher feedback on annotated cutting lists and the accuracy of marked-out components. Peer-feedback session on initial design concepts.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students research and critically analyse existing mirror designs to identify functional and aesthetic features. They select appropriate timber stock, demonstrating precision in measuring and marking out components based on their initial sketches.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-bd4c62ac",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students begin the fabrication phase by operating stationary saws to cut frame components. The focus is on maintaining high levels of accuracy, managing tolerances for future joinery, and applying the workshop safety procedures practiced in week 1 to ensure efficiency and risk mitigation.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Stationary mitre saw, table saw, dust extraction equipment, callipers, project folio, timber stock.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the mechanics and safe operation of stationary saws, such as the mitre saw and table saw. Students learn about the importance of tolerance management and how accurate initial cutting determines the success of later joinery. The unit covers the principles of sequence planning, where students define the logical order of operations required to manufacture their mirror without compromising material integrity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform primary cutting of timber lengths to the required dimensions, checking for squareness and alignment. They work systematically through their production sequence, ensuring that each cut is verified against their CAD model and dimensioned drawings. Time is allocated for students to refine their sketches further, documenting any modifications made during the initial cutting stage and explaining why these changes were necessary for the project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment: Observation of safe machine operation and the accuracy of cut frame components against design specifications. Review of folio annotations regarding the production sequence.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students operate stationary saws to cut mirror frame components to size, maintaining focus on machine safety and tolerance management. Design sketches are refined, with students proposing modifications and annotating design choices based on their research.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-2d9b5605",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students focus on advanced joinery techniques by developing precision in marking out and cutting mitre joints for their mirror frames. Parallel to this, they shift into the CAD lab to transform their conceptual design sketches into accurate, dimensioned orthographic production drawings.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mitre saw, digital callipers, CAD software (e.g., Fusion 360), scrap timber, precision squares, dimensioning templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the geometry of mitre joints and the importance of precise angle consistency for frame stability. Lessons cover the physics of wood expansion and how mitre joints, if not perfectly squared, can lead to structural failure or aesthetic misalignment. Theory also addresses CAD conventions for orthographic projections, specifically the use of scale, line weights, and dimensioning standards required for manufacturing clarity.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "In the workshop, students practise set-up and trial cuts on scrap timber using the mitre saw to ensure accuracy before working on final stock. In the CAD environment, students develop their mirror design models, ensuring every component is dimensioned according to the material thicknesses they have sourced. This dual approach bridges the gap between digital planning and physical workshop execution.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of trial mitre joints for tight-fitting gaps and teacher review of CAD orthographic views for dimensioning accuracy and compliance with design constraints.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to advanced joinery, where students practise cutting and fitting mitre joints for the frame perimeter. Concurrently, students translate their design ideas into a professional CAD model, producing dimensioned orthographic views for production planning.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-07fac4c3",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students conduct a dry assembly of their mirror frame components to verify fitment and squareness before moving to final assembly. They complete a formal risk assessment for the gluing process and finalise their itemised material costings and cutting lists to ensure they remain within project constraints.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Sash clamps, framing clamps, material costing spreadsheets, risk assessment documentation, workshop safety sign-off sheets.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction on the importance of 'dry runs' in cabinet-making to identify potential assembly issues, such as joint slippage or misalignment. Students review the chemical and structural properties of various wood glues and clamping pressure requirements. The theory also covers the application of 'life cycle thinking'—evaluating the environmental impact of material choices and wastage reduction strategies implemented during their project planning.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform dry assemblies, using sash or mitre clamps to confirm that the frame components form a perfect rectangle. They conduct a formal review of their risk assessment, specifically documenting hazards related to adhesive use and clamping hazards. They finalise their folio components, ensuring all technical documentation reflects the current state of their project.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Checklist of dry assembly fitment against design specifications and sign-off on the formal risk assessment and completed material itemised list.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct a dry assembly of the frame to verify joint integrity and dimensional accuracy. They complete the formal risk assessment and itemised material list, ensuring alignment with project constraints before final gluing.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-09049a92",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students execute the final glue-up of their mirror frames, applying their knowledge of jigging to maintain squareness under pressure. During the curing period, students update their folios with annotated photographic evidence and reflections on their production process, connecting their practical experiences to the initial design goals.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "PVA adhesive, custom clamping jigs, measuring tapes for diagonal verification, digital cameras/tablets for folio evidence, personal protective equipment (PPE).",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on clamping pressures and the chemical bonding process of PVA wood glues. Students discuss the concept of 'workpiece squareness' and the use of diagonal measurements (Pythagorean theorem) to verify alignment during the curing process. Lessons also highlight documentation strategies for industry folios, focusing on how annotated photos serve as evidence of process quality and problem-solving.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students apply glue and carefully assemble frames, using custom jigs to ensure the mitres remain perfectly aligned while clamped. They measure diagonals during the curing process to detect and correct any warping or racking. Folio work involves documenting the glue-up sequence with annotated photographs that explain the specific jigging or clamping strategy used to overcome assembly challenges.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Observation of the glue-up process for safety and precision. Summative check on the photographic evidence and annotations added to the production sequence section of the folio.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Glue and clamp assembly is performed, with students utilising appropriate jigging to ensure frames are perfectly square. During the curing process, students document the production procedure in their folios, incorporating photographic evidence and technical annotations.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-c6a25ab3",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from structural assembly to surface preparation, learning to use power and hand tools to refine timber components. They critically evaluate the efficiency of their chosen abrasive tools and document their progress within their project management timeline, reflecting on the relationship between preparation quality and final aesthetic outcome.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Random orbital sanders, abrasive discs (80–240 grit), sanding blocks, wood scrapers, chisels, project folios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the hierarchy of abrasives and the progression from coarse to fine grits required to prepare timber for finishing. Concepts of grain raising and the impact of sanding direction on timber cell structure are introduced. Students explore the professional trade practice of 'fine-tuning' surfaces to remove glue squeeze-out and minor machine marks, and how effective time management during this phase influences the professional quality of the final product.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use random orbital sanders and manual sanding blocks to achieve a uniform, smooth substrate across all visible frame surfaces. They inspect joints for remaining adhesive residue, removing excess with scrapers or chisels before fine sanding. Practical time is dedicated to updating individual time-management logs and documenting tool selection choices—comparing the speed of power tools against the precision of manual sanding—in their design folios.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Teacher inspection of surface quality for flatness and consistency prior to finishing; verification of time-management record updates.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students apply surface finishing techniques, using portable power tools and manual sanding to achieve a high-quality substrate. They update their time-management records and reflect on the efficacy of their chosen tools during the finishing stage.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-1b9adcdf",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the chemical properties and application methods of diverse timber finishes such as oils, waxes, and varnishes. They select a finish suitable for their specific timber species and environmental considerations, documenting the step-by-step application process and safety requirements in their folios to demonstrate professional standards.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Selection of oils/varnishes, tack cloths, clean application rags/brushes, fine-grade abrasive paper, MSDS sheets for finishes.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the differences between penetrating finishes (oils) and film-forming finishes (varnishes/polyurethanes). Students learn about the chemical drying/curing processes and why finish compatibility is essential for a professional result. The lesson emphasises safety protocols regarding solvent-based finishes, including the management of oil-soaked rags to prevent spontaneous combustion, and the importance of environmental factors like humidity and dust control.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform test applications on scrap material to confirm finish compatibility and desired sheen. They apply the chosen finish to their mirror frames in a controlled environment, following a sequence of coats and light 'de-nibbing' (sanding between coats) as required by their finish type. They document the properties of their chosen product in the folio, including drying times and hazard warnings.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative: Assessment of application technique, including even coat distribution and adherence to safety procedures. Review of folio documentation regarding finish selection and process.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The application of timber finishes, such as oil or varnish, is undertaken with a focus on preparation and even coat application. Students document the chemical properties of their chosen finish and the steps taken to achieve a professional-grade surface.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-d50c971e",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students finalise the mirror’s functional assembly, integrating mirror glass and high-quality hanging hardware. They explore the mechanics of structural fasteners and weight-bearing requirements to ensure the mirror is both safe and fit-for-purpose, concluding with a comprehensive review of the final construction.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Mirror glass, mirror clips/backing, D-rings, hanging wire, screwdriver sets, drill/drivers, bubble levels.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching on the mechanics of structural fasteners and hardware installation for wall-mounted objects. Students analyse the load-bearing requirements for various wall materials and the importance of using appropriate brackets or French cleats. The theory includes a focus on safety standards for mirror glass installation, such as the use of backing materials to protect the silvering, and secure hardware mounting to prevent accidental detachment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students install mirror glass using appropriate clips or backing systems, ensuring it is secure yet allows for natural expansion. They attach suitable hanging hardware (e.g., D-rings or wire systems) positioned for optimal balance and wall stability. Students finalise their folio by completing the production sequence section with final images of the completed project and a reflective summary of how they managed technical challenges during assembly.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative/Formative: Assessment of the structural integrity of the final product, including the security of hanging hardware and cleanliness of the mirror assembly. Review of final folio production sequence and reflective commentary.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students focus on the final assembly, including the secure mounting of the mirror glass and the installation of hanging hardware. Theoretical understanding of structural fasteners and safety during assembly is reinforced through associated folio tasks.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    },
+    {
+      "id": "week-b527f7fd",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students undertake the final synthesis of their projects, transitioning from the workshop environment to a formal presentation and evaluation phase. The week concludes with the submission of the completed design folio, demonstrating a comprehensive record of the iterative design process, technical decisions, and final quality assurance checks.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Peer-critique templates, final evaluation rubrics, folio submission checklists, photographic documentation of final projects.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching focuses on the principles of product evaluation, specifically how to compare a finished solution against original success criteria and design constraints. Students learn to conduct formal peer-critique sessions, using constructive, evidence-based feedback to analyse the quality of joinery, finish, and structural stability of their peers' mirrors. The importance of technical reporting is reinforced, with students summarising their findings on material performance, process efficacy, and project management outcomes.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Practical sessions are dedicated to final quality control checks, including the inspection of mitre joints, surface finish, and mounting hardware security. Students engage in formal peer-critique sessions to provide and receive constructive feedback on construction quality and aesthetic execution. The remainder of the time is utilised for finalising all folio sections, ensuring that photographic evidence is correctly annotated and that the evaluation, conclusion, and peer feedback records are complete and professional.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative assessment: Final project submission graded against the unit criteria (construction accuracy, finish quality, and folio completeness). Formal peer-critique and self-reflection submission.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The final stage involves the presentation of the completed project and the formal submission of the design folio. Students evaluate their final product against their original success criteria and participate in peer-critique sessions to review construction quality.",
+        "aiNotes": "",
+        "lastGenerated": "2026-07-27T23:45:30.054Z"
+      }
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

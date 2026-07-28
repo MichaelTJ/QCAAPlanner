@@ -21,8 +21,9 @@
     "aiNotes": ""
   },
   "contextAndCohortConsiderations": {
-    "value": "",
-    "aiNotes": ""
+    "value": "The 9–10 Manual Arts (Metal) program at St Brendan’s College operates within a workshop environment that prioritises industrial safety, precision and practical application. Given the cohort’s diverse range of technical experience, the curriculum is structured to scaffold the transition from fundamental hand-tool proficiency in Year 9 to the application of complex fabrication, welding and mechanical assembly techniques in Year 10. Students engage in authentic, project-based learning that mirrors industry standards, requiring a synthesis of design thinking and rigorous safety compliance. Literacy and numeracy development is integrated through technical drawing interpretation, material estimation and the documentation of sequential production plans. Consistent with the College’s mission, this context emphasises the development of resilient, safety-conscious practitioners who can effectively navigate the complexities of metal-based designed solutions for real-world applications.",
+    "aiNotes": "",
+    "lastGenerated": "2026-07-27T22:47:54.094Z"
   },
   "units": [
     {
@@ -141,7 +142,7 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• 3–5 A3 pages or equivalent digital media pages for the project folio\n• Includes dimensioned orthographic drawings, CAD renders, and an annotated photographic record of the manufacturing process\n• Completed junior hacksaw prototype verified against functional specifications\n• Supervised workshop conditions for practical manufacturing sessions\n• Internal moderation: Standardisation of marking across the 9–10 Design and Technologies faculty to ensure consistent application of QCAA achievement standards.",
+            "value": "• 3–5 A4 pages or equivalent digital media pages for the project folio\n• Includes dimensioned orthographic drawings, CAD renders, and an annotated photographic record of the manufacturing process\n• Completed junior hacksaw prototype verified against functional specifications\n• Supervised workshop conditions for practical manufacturing sessions\n• Internal moderation: Standardisation of marking across the 9–10 Design and Technologies faculty to ensure consistent application of QCAA achievement standards.",
             "aiNotes": "",
             "lastGenerated": "2026-07-27T11:24:12.149Z"
           },
@@ -288,9 +289,331 @@
           }
         }
       ]
+    },
+    {
+      "id": "unit-de7717ce",
+      "unitTitle": {
+        "value": "Cantilever Toolbox (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Metal Technology unit, students develop practical sheet-metal fabrication skills through the design and manufacture of a cantilever toolbox using Zincanneal steel. Students interpret working drawings, accurately mark out components and apply processes such as cutting, filing, folding, spot welding, seam construction, drilling and thread cutting. They also manufacture and assemble the toolbox handle and cantilever mechanism.\n\nThroughout the unit, students investigate existing toolbox designs and develop personalised design ideas that balance function, durability and appearance. Safe workshop practices, accurate measurement, quality control and effective time management are reinforced throughout the manufacturing process.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-ecefbaa1",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Cantilever Toolbox",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students will individually design and manufacture a functional cantilever toolbox to the supplied specifications. The toolbox must be accurately constructed, operate correctly and demonstrate a high standard of finish. Students will also incorporate appropriate personalisation into their design.\n\nStudents will complete a supporting design folio that documents the development and production of the toolbox. The folio includes:\n\na design brief and success criteria\nidentification of constraints\nresearch into existing toolbox designs\na dimensioned design proposal\na workshop risk assessment\na material cutting list\nan evaluation of the completed design\nassociated theory questions covering workshop safety, Zincanneal, sheet-metal seams, spot welding, files, portable power tools and handle manufacture.\n\nAssessment will consider students’ knowledge and understanding, development of design ideas, safe and accurate use of tools and equipment, application of production processes, quality of the completed toolbox and evaluation of the final outcome.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• 10-week project duration with designated construction and documentation phases\n• Individual project submission: one functional cantilever toolbox manufactured to supplied specifications\n• Supporting design folio: maximum 10 A4 pages (or digital equivalent) including annotated graphical representations, technical drawings, risk assessments, and production plans\n• Underpinned by mandatory completion of OnGuard metalwork safety modules prior to machinery use\n• Supervised workshop conditions for all fabrication processes, ensuring adherence to industrial safety standards and quality control protocols",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:01:56.036Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 (formative) and Week 10 (summative) for staff to review student folio samples and evaluate practical project prototypes against established criteria.\n*   **Cross-marking:** Systematic departmental review of theoretical components and design folios to ensure objective and consistent application of the marking rubric.\n*   **Standardisation:** Calibration of tool proficiency and safety demonstrations during Week 1 to align staff expectations regarding technical standards and workshop safety protocols.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:01:57.519Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-f21859a5",
+      "unitTitle": {
+        "value": "Fire Brazier (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Metal Technology unit, students design and manufacture a wrought iron brazier. They develop practical metalworking skills through measuring, marking out, cutting, bending, twisting, scrolling, hard riveting and welding steel components. Students safely operate hand tools, portable power tools and specialised Metalcraft machinery while following workshop procedures and risk-control measures. Throughout the unit, students document the design and production process in a folio, including research, design ideas, CAD drawings, a cutting list, photographic evidence and evaluation of the finished product.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-e230d369",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Fire Brazier (metal)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students individually manufacture a functional wrought iron brazier that conforms to the supplied design specifications. The completed brazier should demonstrate accurate measurement, controlled scrollwork and twisting, correctly formed riveted joints, sound welding, appropriate finishing and consistent workshop safety.\n\nStudents also compile a project folio containing:\n\nA design brief, success criteria and project constraints\nResearch and analysis of three existing brazier designs\nAn initial design and three proposed improvements\nAn annotated final design\nA CAD model and dimensioned orthographic drawings\nA risk assessment and material cutting list\nA photographic record of the manufacturing process\nResponses to associated theory questions\nEvaluation and peer evaluation of the finished product\n\nAssessment considers students’ knowledge of metalworking tools and processes, development and communication of design ideas, safe working practices, production skills, time management and evaluation of the final solution.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Individual project: One functional wrought iron brazier conforming to specified design dimensions and safety standards.\n• Project folio: 8–12 A4 pages (or digital equivalent) including research, annotated design iterations, CAD/orthographic drawings, production plan, safety documentation, and evaluative reflection.\n• Duration: 10-week production cycle with ongoing classroom monitoring and staged practical assessment.\n• Supervised workshop conditions: All metalworking processes and machine operations must be conducted under direct teacher supervision in accordance with St Brendan’s College WHS protocols.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T22:59:26.842Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistent teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings conducted in Week 5 to review a sample of student folios and evaluate manufacturing progress against project specifications. \n*   **Standardising Judgement:** Faculty-wide review of the Fire Brazier marking guide prior to assessment implementation to ensure common understanding of criteria.\n*   **Cross-marking:** Post-assessment peer review of student folios to ensure objective and consistent application of the QCAA-aligned marking rubric across the Year 10 cohort.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T22:59:28.766Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-c52592d6",
+      "unitTitle": {
+        "value": "Sliding Bevel (vice) (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Industrial Technology and Design unit, students develop metalworking, technical drawing and workshop safety skills through the manufacture of an adjustable sliding bevel. Students interpret a supplied engineering drawing, accurately mark out and manufacture aluminium components, and assemble these components using rivets and a threaded fastener. Throughout the project, students develop skills in cutting, filing, drilling, countersinking, tapping, fitting and surface finishing.\n\nThe accompanying theory program introduces students to Computer-Aided Design using Onshape, industry-standard risk assessment processes and the hierarchy of controls. Students apply safe workshop practices, monitor the accuracy and quality of their work, and evaluate the function and finish of their completed sliding bevel. The supplied drawing identifies the project as a Year 10 sliding bevel constructed primarily from aluminium components.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-e8a8f520",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Sliding Bevel (vice) (metal)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students manufacture a functional sliding bevel in accordance with the supplied engineering drawing. The completed project will demonstrate:\n\nAccurate interpretation of dimensions and drawing conventions\nSafe and appropriate use of workshop tools, machinery and personal protective equipment\nAccurate marking out, cutting, filing, drilling, countersinking, tapping and riveting\nCorrect assembly and alignment of the stock, spacer, blade and locking mechanism\nSmooth blade adjustment and secure locking at different angles\nAn appropriate and consistent surface finish\nOngoing quality control and correction of manufacturing errors\n\nStudents also complete a workshop theory folio containing evidence of their safety training, introductory Onshape activities, an engineering drawing of a Lego brick, industry risk-assessment learning and understanding of the hierarchy of controls. The core folio is submitted by the end of Week 8. Reproducing the sliding bevel and its engineering drawing in Onshape is provided as an extension activity.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Duration: 10 weeks, incorporating both theory and workshop components.\n• Supervision: All practical tasks conducted under direct teacher supervision in accordance with St Brendan’s College Workshop Safety Protocols.\n• Submission requirements: Workshop theory folio (hard copy or digital) and completed sliding bevel prototype.\n• Performance: Evaluation based on physical product quality, adherence to engineering drawings, and documented safety compliance.\n• Monitoring: Checkpoints in Weeks 4 and 7 for folio progress and technical skills development.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:20:05.610Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the 9–10 Manual Arts (Metal) band to ensure alignment of teacher judgement with the Australian Curriculum achievement standards. This process includes:\n\n*   **Moderation Conferencing:** Professional dialogue sessions scheduled in Week 5 and Week 9 to review student folio samples and practical project outcomes.\n*   **Cross-marking:** Collaborative review of workshop theory folios to ensure consistent application of marking criteria regarding safety compliance and technical documentation.\n*   **Standards Alignment:** Regular consultation of QCAA-aligned work samples to verify that student performance consistently meets the expectations for Year 10 technical proficiency, safety management and design evaluation.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:20:07.559Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-9dad29cf",
+      "unitTitle": {
+        "value": "Horizontal Vice (metal)",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "10 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this Year 10 Industrial Technology and Design unit, students develop metalworking, technical drawing and workshop safety skills through the manufacture of an adjustable sliding bevel. Students interpret a supplied engineering drawing, accurately mark out and manufacture aluminium components, and assemble these components using rivets and a threaded fastener. Throughout the project, students develop skills in cutting, filing, drilling, countersinking, tapping, fitting and surface finishing.\n\nThe accompanying theory program introduces students to Computer-Aided Design using Onshape, industry-standard risk assessment processes and the hierarchy of controls. Students apply safe workshop practices, monitor the accuracy and quality of their work, and evaluate the function and finish of their completed sliding bevel. The supplied drawing identifies the project as a Year 10 sliding bevel constructed primarily from aluminium components.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-925eae13",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Horizontal Vice (metal)",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Students manufacture a functional sliding bevel in accordance with the supplied engineering drawing. The completed project will demonstrate:\n\nAccurate interpretation of dimensions and drawing conventions\nSafe and appropriate use of workshop tools, machinery and personal protective equipment\nAccurate marking out, cutting, filing, drilling, countersinking, tapping and riveting\nCorrect assembly and alignment of the stock, spacer, blade and locking mechanism\nSmooth blade adjustment and secure locking at different angles\nAn appropriate and consistent surface finish\nOngoing quality control and correction of manufacturing errors\n\nStudents also complete a workshop theory folio containing evidence of their safety training, introductory Onshape activities, an engineering drawing of a Lego brick, industry risk-assessment learning and understanding of the hierarchy of controls. The core folio is submitted by the end of Week 8. Reproducing the sliding bevel and its engineering drawing in Onshape is provided as an extension activity.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Workshop environment: Supervised practical sessions\n• Time allocation: 10 hours for folio development; 30 hours for manufacturing\n• Resources: Provided engineering drawings, workshop-grade aluminium stock, precision hand tools, bench drills, taps, dies and CAD software (Onshape)\n• Assessment submission: Completed sliding bevel and technical folio (incorporating risk assessments and Onshape design files)",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:22:37.458Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically within the Manual Arts faculty to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   **Moderation Conferencing:** Scheduled meetings in Week 5 to review a sample of student folios and practical products, ensuring consistency in the interpretation of the marking guide.\n*   **Cross-marking:** Departmental review of final folios and practical outcomes for the Horizontal Vice to ensure objective application of quality standards regarding machining accuracy and surface finishing.\n*   **Validation:** Review of task design and student outcomes to confirm alignment with industry-standard safety practices and the requirements of the Year 10 Design and Technologies curriculum.",
+            "aiNotes": "",
+            "lastGenerated": "2026-07-27T23:22:39.319Z"
+          }
+        }
+      ]
     }
   ],
   "contentDescriptions": [
+    {
+      "id": "cd-3c192ef7",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse how people in design and technologies occupations consider ethical, security and sustainability factors to innovate and improve products, services and environments",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K01",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-a52613a5",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies and society",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse the impact of innovation, enterprise and emerging technologies on designed solutions for global preferred futures",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K02",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
     {
       "id": "cd-357f1b64",
       "strand": {
@@ -313,6 +636,68 @@
         true,
         true,
         true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "cd-c58d3cb9",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food and fibre production",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on the ethical, secure and sustainable production and marketing of food and fibre enterprises",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K04",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "cd-1bd41af6",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Technologies context: Food specialisations",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and make judgements on how the sensory and functional properties of food influence the design and preparation of sustainable food solutions for healthy eating",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDE10K05",
+        "aiNotes": ""
+      },
+      "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false
       ]
     },
@@ -335,6 +720,10 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
         true,
         true,
         true,
@@ -363,6 +752,10 @@
         true,
         true,
         true,
+        true,
+        true,
+        true,
+        true,
         true
       ]
     },
@@ -385,6 +778,10 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        true,
+        true,
+        true,
+        true,
         true,
         true,
         true,
@@ -413,6 +810,10 @@
         true,
         true,
         true,
+        true,
+        true,
+        true,
+        true,
         true
       ]
     },
@@ -438,6 +839,10 @@
         true,
         true,
         true,
+        true,
+        true,
+        true,
+        false,
         true
       ]
     },
@@ -463,6 +868,10 @@
         true,
         true,
         true,
+        true,
+        true,
+        true,
+        true,
         true
       ]
     }
@@ -478,10 +887,18 @@
         true,
         true,
         true,
+        true,
+        false,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "cct-inquiring": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -491,15 +908,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "cct-analysing": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "cct-reflecting": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -511,28 +940,48 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "cct-inquiring-identify-process-evaluate": [
           true,
           true,
           true,
-          true
+          true,
+          false,
+          true,
+          true,
+          false
         ],
         "cct-generating-create-possibilities": [
           true,
           true,
           true,
-          true
+          true,
+          false,
+          true,
+          false,
+          false
         ],
         "cct-generating-consider-alternatives": [
           false,
           false,
           false,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "cct-generating-put-ideas-into-action": [
           true,
+          true,
+          true,
+          true,
+          false,
           true,
           true,
           true
@@ -541,9 +990,17 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "cct-analysing-draw-conclusions": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -553,15 +1010,27 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "cct-reflecting-metacognition": [
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "cct-reflecting-transfer-knowledge": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -579,10 +1048,18 @@
         true,
         true,
         true,
+        true,
+        false,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "dl-safety-wellbeing": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -592,15 +1069,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "dl-creating-exchanging": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "dl-managing-operating": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -612,9 +1101,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "dl-safety-privacy-identity": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -624,9 +1121,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "dl-investigating-locate": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -636,27 +1141,47 @@
           true,
           true,
           true,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "dl-investigating-interpret": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          true,
           false
         ],
         "dl-creating-plan": [
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          false,
           true
         ],
         "dl-creating-communicate-collaborate": [
           false,
           false,
           false,
+          false,
+          false,
+          true,
+          false,
           false
         ],
         "dl-creating-ip": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -666,9 +1191,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "dl-managing-protect": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -676,6 +1209,10 @@
         ],
         "dl-managing-operate": [
           true,
+          true,
+          true,
+          true,
+          false,
           true,
           true,
           true
@@ -692,6 +1229,10 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
         false
       ],
       "categoryInclusions": {
@@ -699,9 +1240,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "eu-responding": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -713,9 +1262,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "eu-concepts-values-rights": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -725,9 +1282,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "eu-responding-frameworks": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -737,9 +1302,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "eu-responding-decisions": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -757,10 +1330,18 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
         false
       ],
       "categoryInclusions": {
         "iu-reflecting": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -770,9 +1351,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -784,9 +1373,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-reflecting-perspectives": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -796,9 +1393,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-engaging-communicate": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -808,9 +1413,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-engaging-empathy": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -820,15 +1433,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating-biases": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "iu-navigating-adapt": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -846,10 +1471,18 @@
         true,
         true,
         true,
+        true,
+        false,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "lit-speaking-listening": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -859,9 +1492,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-writing": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -873,9 +1514,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-interacting": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -885,15 +1534,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-understanding-texts": [
           false,
           true,
           true,
+          true,
+          false,
+          false,
+          true,
           true
         ],
         "lit-phonological-awareness": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -903,9 +1564,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-fluency": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -915,9 +1584,17 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "lit-grammar": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -927,15 +1604,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-spelling": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "lit-handwriting-keyboarding": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -953,10 +1642,18 @@
         true,
         true,
         true,
+        true,
+        false,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "num-number-algebra": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -966,9 +1663,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-statistics-probability": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -980,9 +1685,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-counting": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -992,15 +1705,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-multiplicative": [
           false,
           false,
           true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-fractions": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1010,9 +1735,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-patterns-algebra": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1022,10 +1755,18 @@
           false,
           false,
           true,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-units-measurement": [
           true,
+          true,
+          true,
+          true,
+          false,
           true,
           true,
           true
@@ -1034,15 +1775,27 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "num-positioning": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          true,
           false
         ],
         "num-measuring-time": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1052,9 +1805,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "num-data": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1072,10 +1833,18 @@
         true,
         true,
         true,
+        true,
+        false,
+        true,
+        true,
         true
       ],
       "categoryInclusions": {
         "psc-self-awareness": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1085,15 +1854,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-social-awareness": [
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-social-management": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1105,9 +1886,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-emotional-awareness": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1117,15 +1906,27 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "psc-goal-setting": [
           true,
           true,
           true,
-          true
+          true,
+          false,
+          true,
+          false,
+          false
         ],
         "psc-emotional-regulation": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1135,9 +1936,17 @@
           true,
           true,
           true,
+          true,
+          false,
+          true,
+          true,
           true
         ],
         "psc-empathy": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1147,9 +1956,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-community-awareness": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1159,9 +1976,17 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-collaboration": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1171,15 +1996,27 @@
           false,
           false,
           false,
+          false,
+          false,
+          false,
+          false,
           false
         ],
         "psc-decision-making": [
           false,
           true,
           false,
+          false,
+          false,
+          true,
+          true,
           false
         ],
         "psc-conflict-resolution": [
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -1199,6 +2036,10 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
         false
       ]
     },
@@ -1212,6 +2053,10 @@
         false,
         false,
         false,
+        false,
+        false,
+        false,
+        false,
         false
       ]
     },
@@ -1222,6 +2067,10 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        false,
+        false,
+        false,
+        false,
         false,
         false,
         false,
