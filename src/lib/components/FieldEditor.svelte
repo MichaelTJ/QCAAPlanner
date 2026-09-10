@@ -31,7 +31,7 @@
 	let error = $state('');
 	let lastUsage = $state<GenerationUsage | null>(null);
 	// Local notes avoid Svelte 5 nested $bindable writes being dropped before generate().
-	let aiNotes = $state(String(field.aiNotes ?? ''));
+	let aiNotes = $derived(String(field.aiNotes ?? ''));
 
 	function commitField(next: AiField<unknown>) {
 		field = next;

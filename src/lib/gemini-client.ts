@@ -32,14 +32,24 @@ function isRetryable(error: unknown): boolean {
 	);
 }
 
+export function isQuotaError(error: unknown): boolean {
+	const message = errorMessage(error);
+	if (/timed?\s*out|timeout|aborted/i.test(message)) return false;
+	return /rate.?limit|quota|resource.?exhausted|429/i.test(message);
+}
+
 export type GenerateContentParams = {
 	contents: string;
+	/** Override MODEL_CASCADE (e.g. best-model-only batch runs). */
+	models?: readonly { id: string; label: string }[];
 	config?: {
 		systemInstruction?: string;
 		/** Cap for long JSON chunk responses; omit for short field generation. */
 		maxOutputTokens?: number;
 		/** Ask the API for JSON (useful for teaching-sequence chunks). */
 		responseMimeType?: 'application/json' | 'text/plain';
+		/** Override the default per-model request timeout. */
+		timeoutMs?: number;
 	};
 };
 
@@ -67,19 +77,20 @@ async function generateContentOnce(
 		body.generationConfig = generationConfig;
 	}
 
+	const timeoutMs = params.config?.timeoutMs ?? MODEL_REQUEST_TIMEOUT_MS;
 	const response = await fetch(
 		`${GEMINI_API_BASE}/models/${model}:generateContent?key=${apiKey}`,
 		{
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(body),
-			signal: AbortSignal.timeout(MODEL_REQUEST_TIMEOUT_MS)
+			signal: AbortSignal.timeout(timeoutMs)
 		}
 	);
 
 	const payload = (await response.json()) as {
 		candidates?: Array<{
-			content?: { parts?: Array<{ text?: string }> };
+			content?: { parts?: Array<{ text?: string; thought?: boolean }> };
 			finishReason?: string;
 		}>;
 		error?: { message?: string; code?: number; status?: string };
@@ -100,7 +111,11 @@ async function generateContentOnce(
 		);
 	}
 
-	const text = candidate?.content?.parts?.[0]?.text?.trim();
+	const text = candidate?.content?.parts
+		?.filter((part) => !part.thought && part.text)
+		.map((part) => part.text)
+		.join('')
+		.trim();
 	if (!text) {
 		throw new Error('Gemini returned empty content');
 	}
@@ -116,11 +131,12 @@ export async function generateContentWithCascade(
 		throw new Error('GEMINI_API_KEY is not set. Add it to your .env file.');
 	}
 
+	const cascade = params.models?.length ? params.models : MODEL_CASCADE;
 	const attemptedModels: ModelAttempt[] = [];
 	let lastError: unknown;
 
-	for (let i = 0; i < MODEL_CASCADE.length; i++) {
-		const { id, label } = MODEL_CASCADE[i];
+	for (let i = 0; i < cascade.length; i++) {
+		const { id, label } = cascade[i];
 		try {
 			const text = await generateContentOnce(apiKey, id, params);
 
@@ -137,7 +153,7 @@ export async function generateContentWithCascade(
 			attemptedModels.push({ model: id, label, error: msg });
 			lastError = error;
 
-			if (i < MODEL_CASCADE.length - 1 && isRetryable(error)) {
+			if (i < cascade.length - 1 && isRetryable(error)) {
 				continue;
 			}
 

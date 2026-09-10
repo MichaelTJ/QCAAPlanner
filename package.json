@@ -11,7 +11,11 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint .",
-		"test:import": "tsx scripts/test-import.mjs"
+		"test:import": "tsx scripts/test-import.mjs",
+		"lessons:batch": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts",
+		"lessons:batch:status": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --status",
+		"lessons:batch:wait": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --wait",
+		"lessons:batch:upgrade": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --upgrade"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -32,6 +36,7 @@
 	"dependencies": {
 		"@google/genai": "^2.9.0",
 		"adm-zip": "^0.5.17",
-		"docx": "^9.7.1"
+		"docx": "^9.7.1",
+		"pptxgenjs": "^4.0.1"
 	}
 }

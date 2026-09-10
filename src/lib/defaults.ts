@@ -5,6 +5,7 @@ import {
 	type AssessmentCheckpoint,
 	type AssessmentExamSection,
 	type AssessmentItem,
+	type LessonPlan,
 	type LevelPlan,
 	type LevelPlanAssessment,
 	type Settings,
@@ -349,18 +350,27 @@ export function createEmptyUnitPlan(
 	};
 }
 
-export function createTeachingWeeks(count: number, startAt = 1) {
-	return Array.from({ length: count }, (_, i) => ({
+export const LESSONS_PER_WEEK = 3;
+export const LESSON_DURATION_MINUTES = 60;
+export const LESSON_ACTIVITY_MAX_MINUTES = 15;
+
+export function createEmptyTeachingWeek(weekNum: number) {
+	return {
 		id: createId('week'),
-		week: aiField(startAt + i),
+		week: aiField(weekNum),
 		keyTeachingExperiences: aiField(),
 		adjustments: aiField(),
 		resources: aiField(),
 		theory: aiField(),
 		prac: aiField(),
 		assessment: aiField(),
-		outlineTheme: aiField()
-	}));
+		outlineTheme: aiField(),
+		lessons: [] as LessonPlan[]
+	};
+}
+
+export function createTeachingWeeks(count: number, startAt = 1) {
+	return Array.from({ length: count }, (_, i) => createEmptyTeachingWeek(startAt + i));
 }
 
 export function assessmentTimingFromLevelPlan(assessment: LevelPlanAssessment): string {

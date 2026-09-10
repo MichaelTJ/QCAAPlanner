@@ -1,3 +1,5 @@
+import type { WorkbookActivity, WorkbookActivityKind } from '$lib/workbook/types';
+
 export interface AiField<T = string> {
 	value: T;
 	aiNotes: string;
@@ -139,6 +141,68 @@ export interface UnitGeneralCapability {
 	subElementChecks: Record<string, boolean>;
 }
 
+export type LessonEnhancePath = 'skill-building' | 'knowledge-building';
+
+export type LessonActivityStage =
+	| 'i-do'
+	| 'we-do'
+	| 'you-do'
+	| 'vocabulary'
+	| 'guided-notes'
+	| 'generative';
+
+export interface LessonActivity {
+	id: string;
+	minutes: number;
+	timeLabel: string;
+	title: string;
+	stage: LessonActivityStage;
+	teacherDoes: string;
+	studentsDo: string;
+	visibleInstructions: string;
+	questioning: string;
+	scaffolding: string;
+	eLearning: string;
+	transition: string;
+	/** Chosen on generate pass from the workbook activity catalog. */
+	workbookKind?: WorkbookActivityKind;
+	/** Structured workbook widget filled on enrich (JSON matching workbookKind). */
+	workbookSpec?: WorkbookActivity;
+	/** Printable student worksheet content (matrices, label sheets, blank organisers). */
+	workbookMaterials?: string;
+	/** Worked examples and answers for the teacher document. */
+	teacherAnswerKey?: string;
+}
+
+export interface LessonOrientate {
+	smartStart: string;
+	learningGoalDisplay: string;
+}
+
+export interface LessonEnhance {
+	activities: LessonActivity[];
+}
+
+export interface LessonCulminate {
+	smartFinish: string;
+	summarise: string;
+	nextSteps: string;
+}
+
+export interface LessonPlan {
+	id: string;
+	lessonNumber: number;
+	durationMinutes: number;
+	title: string;
+	enhancePath: LessonEnhancePath;
+	learningGoal: string;
+	orientate: LessonOrientate;
+	enhance: LessonEnhance;
+	culminate: LessonCulminate;
+	resources: string;
+	lastGenerated?: string;
+}
+
 export interface TeachingWeek {
 	id: string;
 	week: AiField<number | ''>;
@@ -149,6 +213,8 @@ export interface TeachingWeek {
 	prac: AiField;
 	assessment: AiField;
 	outlineTheme?: AiField;
+	/** ASPIRE lesson scripts (typically 3 × 60 min) generated after weekly detail. */
+	lessons?: LessonPlan[];
 }
 
 export interface UnitPlan {
@@ -317,6 +383,51 @@ export interface ChunkGenerateRequest {
 			technique: string;
 		}>;
 	};
+}
+
+export interface LessonGeneratePriorLesson {
+	week: number;
+	lessonNumber: number;
+	title: string;
+	learningGoal: string;
+}
+
+export interface LessonGenerateRequest {
+	levelPlanId: string;
+	unitId: string;
+	weekNumber: number;
+	aiNotes: string;
+	/** generate = full ASPIRE scripts; enrich = concrete materials / answer keys on existing lessons. */
+	mode?: 'generate' | 'enrich';
+	/** When set, regenerate only this lesson within the week (others preserved). */
+	lessonNumber?: number;
+	/** Preferred Enhance path for a single-lesson regenerate. */
+	enhancePath?: LessonEnhancePath;
+	unitSnapshot?: {
+		unitTitle: string;
+		description: string;
+		assessments: Array<{
+			title: string;
+			description: string;
+			timing: string;
+			technique: string;
+		}>;
+	};
+	weekContext: {
+		week: number | string;
+		outlineTheme?: string;
+		keyTeachingExperiences?: string;
+		theory?: string;
+		prac?: string;
+		assessment?: string;
+		resources?: string;
+	};
+	nextWeekOutlineTheme?: string;
+	priorLessons?: LessonGeneratePriorLesson[];
+	/** Existing lessons for this week when revising or enriching. */
+	existingLessons?: LessonPlan[];
+	/** Override the default model cascade (batch runs use 3.8 Flash only). */
+	models?: Array<{ id: string; label: string }>;
 }
 
 export interface CapabilitiesGenerateRequest {

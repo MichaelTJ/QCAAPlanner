@@ -57,6 +57,18 @@
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": false,
+        "cct-generating-create-possibilities": false,
+        "cct-generating-consider-alternatives": false,
+        "cct-generating-put-ideas-into-action": false,
+        "cct-analysing-interpret-concepts": false,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": false,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
       }
     },
     {
@@ -72,6 +84,20 @@
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": false,
+        "dl-investigating-acquire": false,
+        "dl-investigating-interpret": false,
+        "dl-creating-plan": false,
+        "dl-creating-communicate-collaborate": false,
+        "dl-creating-ip": false,
+        "dl-managing-content": false,
+        "dl-managing-protect": false,
+        "dl-managing-operate": false
       }
     },
     {
@@ -87,6 +113,14 @@
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": false,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
       }
     },
     {
@@ -117,6 +151,20 @@
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": false,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": false
       }
     },
     {
@@ -132,6 +180,22 @@
       "evidenceNotes": {
         "value": "",
         "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
       }
     },
     {
@@ -153,6 +217,10 @@
   "teachingSequence": [],
   "evaluation": {
     "value": "",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "10 Weeks",
     "aiNotes": ""
   }
 }

@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"verbatimModuleSyntax": true,
+		"baseUrl": "..",
+		"paths": {
+			"$lib": ["src/lib"],
+			"$lib/*": ["src/lib/*"],
+			"$env/static/private": ["scripts/shims/env-static-private.ts"]
+		}
+	},
+	"include": ["./**/*.ts", "../src/lib/**/*.ts"]
+}

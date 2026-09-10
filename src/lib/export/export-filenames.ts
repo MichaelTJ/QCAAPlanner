@@ -64,6 +64,34 @@ export function unitPlanExportFilename(plan: UnitPlan): string {
 	return `${name}.docx`;
 }
 
+function unitLessonBaseName(plan: UnitPlan, role: 'teacher' | 'student'): string {
+	const subject = part(subjectLabel(field(plan.subject.value))) || 'Unit';
+	const yearLevel = plan.yearLevel.value === '' ? '' : String(plan.yearLevel.value);
+	const unitNumber = plan.unitNumber.value === '' ? '' : String(plan.unitNumber.value);
+	const title = part(field(plan.unitTitle.value));
+	const year = plan.year.value === '' ? '' : String(plan.year.value);
+	const prefix = role === 'teacher' ? 'lesson_plans_teacher' : 'lesson_plans_student';
+
+	let name = `${prefix}_${subject}`;
+	if (yearLevel) name += `_Year_${yearLevel}`;
+	if (unitNumber) name += `_Unit_${unitNumber}`;
+	if (title) name += `_—_${title}`;
+	if (year) name += `_${year}`;
+	return `${name}.docx`;
+}
+
+export function lessonPlansTeacherExportFilename(plan: UnitPlan): string {
+	return unitLessonBaseName(plan, 'teacher');
+}
+
+export function lessonPlansStudentExportFilename(plan: UnitPlan): string {
+	return unitLessonBaseName(plan, 'student');
+}
+
+export function lessonPlansTeacherPptxExportFilename(plan: UnitPlan): string {
+	return unitLessonBaseName(plan, 'teacher').replace(/\.docx$/i, '.pptx');
+}
+
 /**
  * Assessment instrument filename, e.g.
  * assessment_Website_Prototype.docx

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { untrack } from 'svelte';
 	import FieldEditor from '$lib/components/FieldEditor.svelte';
 	import SelectFieldEditor from '$lib/components/SelectFieldEditor.svelte';
 	import {
@@ -24,11 +25,23 @@
 	import { fitAllTextareas, fitTextareaHeight } from '$lib/actions/fit-textarea';
 
 	let { data }: { data: PageData } = $props();
-	let item = $state<AssessmentItem>(structuredClone(data.item));
+	let item = $state<AssessmentItem>(untrack(() => structuredClone(data.item)));
 	let saving = $state(false);
 	let saved = $state(false);
-	let savedSnapshot = $state(snapshotValue(structuredClone(data.item)));
+	let savedSnapshot = $state(untrack(() => snapshotValue(structuredClone(data.item))));
 	const dirty = $derived(isDirtySnapshot(item, savedSnapshot));
+	let syncedItemKey = untrack(() => data.item.id);
+	$effect.pre(() => {
+		const nextKey = data.item.id;
+		if (nextKey === syncedItemKey) return;
+		syncedItemKey = nextKey;
+		const nextItem = structuredClone(data.item);
+		const nextSnapshot = snapshotValue(nextItem);
+		untrack(() => {
+			item = nextItem;
+			savedSnapshot = nextSnapshot;
+		});
+	});
 	let showAiPanels = $state(true);
 	let section = $state<
 		| 'overview'

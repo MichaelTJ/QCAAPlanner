@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { untrack } from 'svelte';
 	import { formatBandSubjectTitle } from '$lib/defaults';
 	import { unitCompatibleWithFaculty } from '$lib/curriculum-match';
 	import { CURRICULUM_CATALOGUE_OPTIONS } from '$lib/content-descriptions';
@@ -14,9 +15,9 @@
 
 	let { data }: { data: PageData } = $props();
 
-	let entries = $state<FacultyOverviewEntry[]>([...data.overview]);
-	let allUnits = $state<UnitPlanSummary[]>([...data.allUnits]);
-	let allAssessments = $state<AssessmentItemSummary[]>([...data.allAssessments]);
+	let entries = $state<FacultyOverviewEntry[]>(untrack(() => [...data.overview]));
+	let allUnits = $state<UnitPlanSummary[]>(untrack(() => [...data.allUnits]));
+	let allAssessments = $state<AssessmentItemSummary[]>(untrack(() => [...data.allAssessments]));
 	let learningAreaSubject = $state('');
 	let yearLevelBand = $state('');
 	let curriculumPlanType = $state('');

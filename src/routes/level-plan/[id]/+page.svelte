@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { untrack } from 'svelte';
 	import FieldEditor from '$lib/components/FieldEditor.svelte';
 	import SelectFieldEditor from '$lib/components/SelectFieldEditor.svelte';
 	import {
@@ -17,18 +18,39 @@
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
-	let { data }: { data: PageData } = $props();
-	let plan = $state<LevelPlan>(structuredClone(data.plan));
-	let unitPlans = $state([...data.unitPlans]);
-	syncUnitPlansIntoLevelPlan(plan, unitPlans);
-	for (const row of plan.generalCapabilities) {
-		syncCapabilityRowColumns(row, plan.units.length);
+	function cloneLevelPlan(source: LevelPlan, units: PageData['unitPlans']): LevelPlan {
+		const next = structuredClone(source);
+		syncUnitPlansIntoLevelPlan(next, units);
+		for (const row of next.generalCapabilities) {
+			syncCapabilityRowColumns(row, next.units.length);
+		}
+		return next;
 	}
+
+	let { data }: { data: PageData } = $props();
+	let plan = $state<LevelPlan>(untrack(() => cloneLevelPlan(data.plan, data.unitPlans)));
+	let unitPlans = $state(untrack(() => [...data.unitPlans]));
 	let section = $state<'overview' | 'units' | 'content' | 'capabilities'>('overview');
 	let saving = $state(false);
 	let saved = $state(false);
-	let savedSnapshot = $state(snapshotValue(structuredClone(data.plan)));
+	let savedSnapshot = $state(
+		untrack(() => snapshotValue(cloneLevelPlan(data.plan, data.unitPlans)))
+	);
 	const dirty = $derived(isDirtySnapshot(plan, savedSnapshot));
+	let syncedLevelKey = untrack(() => data.plan.id);
+	$effect.pre(() => {
+		const nextKey = data.plan.id;
+		if (nextKey === syncedLevelKey) return;
+		syncedLevelKey = nextKey;
+		const nextPlan = cloneLevelPlan(data.plan, data.unitPlans);
+		const nextUnits = [...data.unitPlans];
+		const nextSnapshot = snapshotValue(nextPlan);
+		untrack(() => {
+			plan = nextPlan;
+			unitPlans = nextUnits;
+			savedSnapshot = nextSnapshot;
+		});
+	});
 	let showAiPanels = $state(true);
 	let importing = $state(false);
 	let importError = $state('');

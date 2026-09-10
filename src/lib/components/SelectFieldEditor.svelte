@@ -26,7 +26,7 @@
 	let generating = $state(false);
 	let error = $state('');
 	let lastUsage = $state<GenerationUsage | null>(null);
-	let aiNotes = $state(String(field.aiNotes ?? ''));
+	let aiNotes = $derived(String(field.aiNotes ?? ''));
 
 	async function generate() {
 		generating = true;
@@ -77,7 +77,7 @@
 		<label for={fieldPath}>{label}</label>
 		<select id={fieldPath} bind:value={field.value}>
 			<option value="">— Select —</option>
-			{#each options as opt}
+			{#each options as opt (opt)}
 				<option value={opt}>{opt}</option>
 			{/each}
 		</select>

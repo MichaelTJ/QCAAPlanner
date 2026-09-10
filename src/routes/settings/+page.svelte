@@ -1,15 +1,16 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { untrack } from 'svelte';
 	import type { Settings } from '$lib/types';
 	import { MODEL_CASCADE } from '$lib/gemini-models';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
 	let { data }: { data: PageData } = $props();
-	let settings = $state<Settings>({ ...data.settings });
+	let settings = $state<Settings>(untrack(() => ({ ...data.settings })));
 	let saved = $state(false);
 	let saving = $state(false);
-	let savedSnapshot = $state(snapshotValue({ ...data.settings }));
+	let savedSnapshot = $state(untrack(() => snapshotValue({ ...data.settings })));
 	const dirty = $derived(isDirtySnapshot(settings, savedSnapshot));
 	let error = $state('');
 

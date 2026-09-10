@@ -14,9 +14,12 @@ import { buildAssessmentItemDocx } from './assessment-item-docx';
 import {
 	assessmentItemExportFilename,
 	levelPlanExportFilename,
+	lessonPlansStudentExportFilename,
+	lessonPlansTeacherExportFilename,
 	unitPlanExportFilename,
 	unitPlanExportFolderName
 } from './export-filenames';
+import { buildLessonPlansStudentDocx, buildLessonPlansTeacherDocx, weeksWithLessons } from './lesson-plans-docx';
 import { buildLevelPlanDocx } from './level-plan-docx';
 import { buildUnitPlanDocx } from './unit-plan-docx';
 
@@ -90,6 +93,12 @@ async function addUnitFolder(
 	zip.addFile(`${unitFolder}/${unitPlanExportFilename(unit)}`, await buildUnitPlanDocx(unit));
 
 	const usedFiles = new Set<string>([unitPlanExportFilename(unit)]);
+	if (weeksWithLessons(unit).length) {
+		const teacherName = uniqueName(lessonPlansTeacherExportFilename(unit), usedFiles);
+		const studentName = uniqueName(lessonPlansStudentExportFilename(unit), usedFiles);
+		zip.addFile(`${unitFolder}/${teacherName}`, await buildLessonPlansTeacherDocx(unit));
+		zip.addFile(`${unitFolder}/${studentName}`, await buildLessonPlansStudentDocx(unit));
+	}
 	for (const item of assessments) {
 		const filename = uniqueName(assessmentItemExportFilename(item), usedFiles);
 		zip.addFile(`${unitFolder}/${filename}`, await buildAssessmentItemDocx(item));

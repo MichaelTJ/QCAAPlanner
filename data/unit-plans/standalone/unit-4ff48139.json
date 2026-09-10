@@ -1,0 +1,1217 @@
+{
+  "id": "unit-4ff48139",
+  "levelPlanId": "standalone",
+  "yearLevel": {
+    "value": "Local Digital Landscape",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "Defining Digital Presence",
+    "aiNotes": ""
+  },
+  "unitNumber": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "20:00–35:00",
+    "aiNotes": ""
+  },
+  "year": {
+    "value": 2026,
+    "aiNotes": ""
+  },
+  "status": {
+    "value": "Draft",
+    "aiNotes": ""
+  },
+  "startWeek": {
+    "value": "35:00–50:00",
+    "aiNotes": ""
+  },
+  "finishWeek": {
+    "value": "Comparative Analysis",
+    "aiNotes": ""
+  },
+  "duration": {
+    "value": "Yeppoon Business Audit",
+    "aiNotes": ""
+  },
+  "unitDescription": {
+    "value": "Complete the vocabulary table in the workbook by matching the term to the correct definition.",
+    "aiNotes": ""
+  },
+  "cohortAndClassConsiderations": {
+    "value": "Why would a plumber have a different target audience than a local toy shop? Expected: The plumber targets homeowners with urgent needs; the shop targets parents or gift-buyers.\nWhat is a 'conversion' for a site like Keppel Bay Marina? Expected: A customer booking a boat trip or making a restaurant reservation.",
+    "aiNotes": ""
+  },
+  "adjustments": [],
+  "assessments": [
+    {
+      "id": "uassess-2163fbd4",
+      "assessmentNumber": {
+        "value": "5",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": "8",
+        "aiNotes": ""
+      },
+      "title": {
+        "value": "Website Prototype",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "Students design and develop an AI-assisted website for a local business. They identify the target audience, create user stories and design criteria, and investigate the information customers need from the website. Students develop a site map, alternative design ideas, wireframes and a simple visual style guide before using generative AI within GitHub Codespaces to build a functional website prototype. They test the website with users, collect feedback and make improvements to the layout, navigation, accessibility and content. The final submission includes the design work, working website prototype, testing evidence and an evaluation of the final solution. ",
+        "aiNotes": ""
+      },
+      "technique": {
+        "value": "Project",
+        "aiNotes": ""
+      },
+      "mode": {
+        "value": "Multimodal",
+        "aiNotes": ""
+      },
+      "conditions": {
+        "value": "• 3 A3 pages\n• May include wireframes, style guides, and annotated user-interface designs\n• Accessible via a web browser (or hosted live URL)",
+        "aiNotes": "A3 pages and website",
+        "lastGenerated": "2026-07-11T01:55:15.609Z"
+      },
+      "timing": {
+        "value": "Term 4, Week 9",
+        "aiNotes": ""
+      },
+      "achievementStandard": {
+        "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+        "aiNotes": ""
+      },
+      "moderation": {
+        "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
+        "aiNotes": ""
+      },
+      "contentDescriptions": [
+        {
+          "id": "ucd-5b89af80",
+          "strand": {
+            "value": "Investigating and defining",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "define and decompose real-world problems with design criteria and by creating user stories",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P04",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-fefe96b6",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "design the user experience of a digital system",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P07",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-896b4a87",
+          "strand": {
+            "value": "Generating and designing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "generate, modify, communicate and evaluate alternative designs",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P08",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-193d6a03",
+          "strand": {
+            "value": "Producing and implementing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P09",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-08a6231e",
+          "strand": {
+            "value": "Evaluating",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P10",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-575f7a68",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P11",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "ucd-c8a7bfdf",
+          "strand": {
+            "value": "Collaborating and managing",
+            "aiNotes": ""
+          },
+          "subStrand": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "text": {
+            "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+            "aiNotes": ""
+          },
+          "code": {
+            "value": "AC9TDI8P12",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "generalCapabilities": [
+    {
+      "id": "ucap-2ca65a91",
+      "name": {
+        "value": "Critical and creative thinking",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Inquiring: Identify, process and evaluate information\nGenerating: Create possibilities; Consider alternatives; Put ideas into action\nAnalysing: Interpret concepts and problems; Evaluate actions and outcomes",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "cct-inquiring-develop-questions": false,
+        "cct-inquiring-identify-process-evaluate": true,
+        "cct-generating-create-possibilities": true,
+        "cct-generating-consider-alternatives": true,
+        "cct-generating-put-ideas-into-action": true,
+        "cct-analysing-interpret-concepts": true,
+        "cct-analysing-draw-conclusions": false,
+        "cct-analysing-evaluate-actions": true,
+        "cct-reflecting-metacognition": false,
+        "cct-reflecting-transfer-knowledge": false
+      }
+    },
+    {
+      "id": "ucap-9c3acad6",
+      "name": {
+        "value": "Digital literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Investigating: Locate information; Acquire and collate data; Interpret data\nCreating and exchanging: Plan; Create, communicate and collaborate; Respect intellectual property\nManaging and operating: Manage content; Select and operate tools",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "dl-safety-manage-online": false,
+        "dl-safety-privacy-identity": false,
+        "dl-safety-wellbeing": false,
+        "dl-investigating-locate": true,
+        "dl-investigating-acquire": true,
+        "dl-investigating-interpret": true,
+        "dl-creating-plan": true,
+        "dl-creating-communicate-collaborate": true,
+        "dl-creating-ip": true,
+        "dl-managing-content": true,
+        "dl-managing-protect": false,
+        "dl-managing-operate": true
+      }
+    },
+    {
+      "id": "ucap-68b1993b",
+      "name": {
+        "value": "Ethical understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Understanding ethical concepts and perspectives: Examine values, rights and responsibilities, and ethical norms",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "eu-concepts-explore": false,
+        "eu-concepts-values-rights": true,
+        "eu-concepts-influences": false,
+        "eu-responding-frameworks": false,
+        "eu-responding-issues": false,
+        "eu-responding-decisions": false
+      }
+    },
+    {
+      "id": "ucap-d919bdbb",
+      "name": {
+        "value": "Intercultural understanding",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "iu-reflecting-cultures-identities": false,
+        "iu-reflecting-perspectives": false,
+        "iu-reflecting-influence": false,
+        "iu-engaging-communicate": false,
+        "iu-engaging-perspectives": false,
+        "iu-engaging-empathy": false,
+        "iu-navigating-responses": false,
+        "iu-navigating-biases": false,
+        "iu-navigating-adapt": false
+      }
+    },
+    {
+      "id": "ucap-81f80529",
+      "name": {
+        "value": "Literacy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Writing: Creating texts; Handwriting and keyboarding",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "lit-listening": false,
+        "lit-interacting": false,
+        "lit-speaking": false,
+        "lit-understanding-texts": false,
+        "lit-phonological-awareness": false,
+        "lit-phonic-knowledge": false,
+        "lit-fluency": false,
+        "lit-creating-texts": true,
+        "lit-grammar": false,
+        "lit-punctuation": false,
+        "lit-spelling": false,
+        "lit-handwriting-keyboarding": true
+      }
+    },
+    {
+      "id": "ucap-87390165",
+      "name": {
+        "value": "Numeracy",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "num-place-value": false,
+        "num-counting": false,
+        "num-additive": false,
+        "num-multiplicative": false,
+        "num-fractions": false,
+        "num-proportional": false,
+        "num-patterns-algebra": false,
+        "num-money": false,
+        "num-units-measurement": false,
+        "num-geometric-properties": false,
+        "num-positioning": false,
+        "num-measuring-time": false,
+        "num-chance": false,
+        "num-data": false
+      }
+    },
+    {
+      "id": "ucap-4c2725ac",
+      "name": {
+        "value": "Personal and social capability",
+        "aiNotes": ""
+      },
+      "subElements": {
+        "value": "Self-awareness: Reflective practice\nSelf-management: Goal setting; Perseverance and adaptability\nSocial management: Decision-making",
+        "aiNotes": ""
+      },
+      "evidenceNotes": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "subElementChecks": {
+        "psc-personal-awareness": false,
+        "psc-emotional-awareness": false,
+        "psc-reflective-practice": true,
+        "psc-goal-setting": true,
+        "psc-emotional-regulation": false,
+        "psc-perseverance": true,
+        "psc-empathy": false,
+        "psc-relational-awareness": false,
+        "psc-community-awareness": false,
+        "psc-communication": false,
+        "psc-collaboration": false,
+        "psc-leadership": false,
+        "psc-decision-making": true,
+        "psc-conflict-resolution": false
+      }
+    }
+  ],
+  "teachingSequence": [
+    {
+      "id": "week-751e01eb",
+      "week": {
+        "value": 1,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students explore the digital landscape of the Capricorn Coast by auditing existing local business websites. Through a series of guided discussions and case studies, they identify how businesses such as Yeppoon-based cafes, shops, or tradespeople use online platforms to reach customers. By the end of the week, students select a specific business category and use decomposition to list the essential data and functional requirements of their proposed landing page.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Internet access, local business directory (e.g., Yeppoon/Capricorn Coast chamber of commerce listings), graphic organiser templates, digital audit checklist.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Abstraction is applied as students identify the core purpose of a business website by filtering out non-essential details. They learn about the relationship between hardware capabilities and the tasks users perform when accessing mobile-responsive sites on various devices. Discussion centres on how digital systems represent business data and the importance of accurate data validation in public-facing information. Students also investigate the role of encryption and secure connections (HTTPS) in protecting business and customer data in a networked environment.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students perform a 'digital walk-through' of Yeppoon business websites, documenting effective and ineffective design choices in a digital journal. They use graphic organisers to decompose a complex website into its constituent parts: headers, navigation menus, hero sections, and footers. Working individually, they finalise their business choice and create a project definition document that outlines the business's name, category, and specific information goals.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment via a 'Business Pitch' check-in where students explain their chosen business and its core information requirements to the teacher.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students investigate how local businesses in the Yeppoon region use a digital presence to attract customers and share essential information. They select a local business category and identify the primary purpose of their proposed website, considering the specific information needs of various target audiences. Students begin decomposing the problem by identifying the core components required for an effective business landing page.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": [
+        {
+          "id": "lesson-f3d21269",
+          "lessonNumber": 1,
+          "durationMinutes": 60,
+          "title": "The Purpose of a Digital Presence",
+          "enhancePath": "knowledge-building",
+          "learningGoal": "Identify and explain the primary purpose and target audience of local business websites in the Yeppoon region.",
+          "orientate": {
+            "smartStart": "On the board, there is a list of five local logos. In your workbook, list one reason why a customer would visit each business's website specifically rather than visiting the store in person.",
+            "learningGoalDisplay": "I can identify why local businesses need a website and who they are trying to reach"
+          },
+          "enhance": {
+            "activities": [
+              {
+                "id": "lact-df56b0ae",
+                "minutes": 10,
+                "timeLabel": "10:00–20:00",
+                "title": "The Language of the Web",
+                "stage": "vocabulary",
+                "teacherDoes": "Explain that every professional website has a defined 'Purpose' (the 'Why') and a 'Target Audience' (the 'Who'). Use the Keppel Bay Marina website as a model: they exist to provide booking information for tourists and berth holders.",
+                "studentsDo": "Fill in the provided definitions in your workbook and match the three local business examples to their most likely primary purpose.",
+                "visibleInstructions": "Fill in the blanks for Purpose, Target Audience, and Call to Action. Match each business to its likely primary purpose from the provided list.",
+                "questioning": "Question: Why would Keppel Bay Marina have a different audience than the Yeppoon Seagulls? Pause. Name: [Student Name]. Expected: The Marina targets tourists/boaters, while the Seagulls target local families and players.",
+                "scaffolding": "Definitions provided: 1. Purpose: The reason a website exists (to inform, sell, entertain). 2. Target Audience: The specific group of people most likely to use the website. 3. Call to Action (CTA): An instruction to the user (e.g., 'Book Now').",
+                "eLearning": "",
+                "transition": "Transitioning to a live website audit.",
+                "workbookKind": "table",
+                "workbookSpec": {
+                  "type": "table",
+                  "headers": [
+                    "Term",
+                    "Definition/Match"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Purpose"
+                      },
+                      {
+                        "mode": "blank",
+                        "value": ""
+                      }
+                    ],
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Target Audience"
+                      },
+                      {
+                        "mode": "blank",
+                        "value": ""
+                      }
+                    ],
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Call to Action (CTA)"
+                      },
+                      {
+                        "mode": "blank",
+                        "value": ""
+                      }
+                    ],
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Marina Purpose"
+                      },
+                      {
+                        "mode": "blank",
+                        "value": ""
+                      }
+                    ]
+                  ]
+                },
+                "workbookMaterials": "Vocabulary and matching table.",
+                "teacherAnswerKey": "Purpose: Reason for existence. Target Audience: Intended users. CTA: Prompt for immediate response. Marina Purpose: Berth bookings and tourism information."
+              },
+              {
+                "id": "lact-8e6b5035",
+                "minutes": 15,
+                "timeLabel": "20:00–35:00",
+                "title": "Auditing Local Digital Presence",
+                "stage": "guided-notes",
+                "teacherDoes": "Navigate to the Keppel Bay Marina website (https://www.keppelbaymarina.com.au/). Demonstrate identifying 'Essential Information' (phone, location) and 'Book Now' CTAs.",
+                "studentsDo": "Navigate to the Keppel Bay Marina website. Complete the audit table by checking off features observed on the homepage.",
+                "visibleInstructions": "Open the Keppel Bay Marina website. Tick the features you find on the homepage and write the primary goal you think the business has for this site.",
+                "questioning": "Question: What is the very first button you see on the Keppel Bay Marina homepage? Pause. Name: [Student Name]. Expected: 'Book Now' or 'Enquire'.",
+                "scaffolding": "Feature List provided: Logo, Contact Info, Booking Button, Navigation, Mobile responsiveness.",
+                "eLearning": "Rear-of-room monitoring to ensure navigation to the provided URL only.",
+                "transition": "Transitioning from observation to content analysis.",
+                "workbookKind": "checklist",
+                "workbookSpec": {
+                  "type": "checklist",
+                  "items": [
+                    "Business Logo clearly visible",
+                    "Navigation menu is easy to find",
+                    "Contact information (Phone/Email)",
+                    "Physical address or Service Area",
+                    "Clear Call to Action button (e.g., 'Book Now')",
+                    "Mobile-responsive layout"
+                  ]
+                },
+                "workbookMaterials": "Feature audit checklist.",
+                "teacherAnswerKey": "Students should confirm presence of: Logo, Contact, Booking button, Nav menu."
+              },
+              {
+                "id": "lact-e99b1690",
+                "minutes": 15,
+                "timeLabel": "35:00–50:00",
+                "title": "Analysing Calls to Action",
+                "stage": "generative",
+                "teacherDoes": "Show the Ahrefs video on CTAs. Contrast weak CTAs ('Submit') with strong, benefits-driven CTAs ('Get My Free Quote').",
+                "studentsDo": "Watch the video and rewrite three generic 'weak' buttons into persuasive CTAs for a local Yeppoon café.",
+                "visibleInstructions": "Watch the video 'How to Write a Call to Action That Converts'. Rewrite these weak buttons: 'Click', 'Go', 'Contact'.",
+                "questioning": "Question: Why is 'Click Here' a poor call to action? Pause. Name: [Student Name]. Expected: It lacks context and benefit.",
+                "scaffolding": "Video: https://www.youtube.com/watch?v=0Z2oq5a8k5A",
+                "eLearning": "",
+                "transition": "Concluding lesson.",
+                "workbookKind": "media",
+                "workbookSpec": {
+                  "type": "media",
+                  "medium": "youtube",
+                  "name": "How to Write a Call to Action That Converts — Ahrefs",
+                  "url": "https://www.youtube.com/watch?v=0Z2oq5a8k5A",
+                  "searchTerms": "How to Write a Call to Action That Converts — Ahrefs",
+                  "lines": 3
+                },
+                "workbookMaterials": "Video source.",
+                "teacherAnswerKey": "1. 'Click' -> 'Book Table Now'; 2. 'Go' -> 'View Daily Specials'; 3. 'Contact' -> 'Get a Quote'."
+              }
+            ]
+          },
+          "culminate": {
+            "smartFinish": "Rank these three website goals: [ ] Online Payments, [ ] Contact Details, [ ] Gallery of past work. Justify your #1 choice.",
+            "summarise": "We identified why Yeppoon businesses use websites and how 'Calls to Action' drive engagement.",
+            "nextSteps": "Next lesson, we will decompose website architecture."
+          },
+          "resources": "Laptops, Internet access.",
+          "lastGenerated": "2026-09-04T01:26:55.215Z"
+        },
+        {
+          "id": "lesson-ea3260b6",
+          "lessonNumber": 2,
+          "durationMinutes": 60,
+          "title": "Decomposing the Landing Page",
+          "enhancePath": "skill-building",
+          "learningGoal": "Decompose a complex business website into its functional components and identify security features.",
+          "orientate": {
+            "smartStart": "On the board is a screenshot of the St Brendan's College homepage. In your workbook, label the five structural zones displayed.",
+            "learningGoalDisplay": "I can break a website down into its smaller parts and check if it is secure"
+          },
+          "enhance": {
+            "activities": [
+              {
+                "id": "lact-b047269d",
+                "minutes": 15,
+                "timeLabel": "10:00–25:00",
+                "title": "Anatomy of a Web Page",
+                "stage": "i-do",
+                "teacherDoes": "Model the decomposition of the St Brendan's College website. Show that the 'Header' contains the logo, while the 'Hero' contains the main image.",
+                "studentsDo": "Label the zones (Header, Nav, Hero, Body, Footer) on the provided screenshot in the workbook.",
+                "visibleInstructions": "Label the Header, Navigation Bar, Hero Section, Content Blocks, and Footer on the screenshot.",
+                "questioning": "Question: What component is usually repeated at the bottom of every page? Pause. Name: [Student Name]. Expected: The Footer.",
+                "scaffolding": "Decomposition list: Header (Top), Nav (Menu), Hero (Big Image), Body (Main text), Footer (Bottom).",
+                "eLearning": "",
+                "transition": "Transitioning to digital security checks.",
+                "workbookKind": "annotate",
+                "workbookSpec": {
+                  "type": "annotate",
+                  "callouts": 5,
+                  "figureHint": "Screenshot of St Brendan's College Homepage (https://www.stbrendans.qld.edu.au/)",
+                  "linesPerCallout": 2
+                },
+                "workbookMaterials": "Annotated screenshot worksheet.",
+                "teacherAnswerKey": "1: Logo/Header, 2: Nav Bar, 3: Hero Image, 4: Body Text, 5: Footer/Social links."
+              },
+              {
+                "id": "lact-6a588f0a",
+                "minutes": 10,
+                "timeLabel": "25:00–35:00",
+                "title": "The Padlock: Security and Data",
+                "stage": "we-do",
+                "teacherDoes": "Direct students to look at the URL bar of the Capricorn Coast Visitor Information site. Explain HTTPS and the importance of the padlock icon for data encryption.",
+                "studentsDo": "Check three local sites (Marina, College, Council) for the padlock icon and record security status.",
+                "visibleInstructions": "Visit the three listed websites. Check the URL bar for a padlock. Tick the 'Secure' box if the URL starts with HTTPS.",
+                "questioning": "Question: Why would a shop need HTTPS even if they don't sell items online? Pause. Name: [Student Name]. Expected: To protect user privacy and build trust.",
+                "scaffolding": "Definition: HTTPS ensures data sent between your computer and the website is encrypted.",
+                "eLearning": "",
+                "transition": "Transitioning to independent task.",
+                "workbookKind": "table",
+                "workbookSpec": {
+                  "type": "table",
+                  "headers": [
+                    "Website",
+                    "Secure (HTTPS)"
+                  ],
+                  "rows": [
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Keppel Bay Marina"
+                      },
+                      {
+                        "mode": "tick",
+                        "value": ""
+                      }
+                    ],
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "St Brendan's College"
+                      },
+                      {
+                        "mode": "tick",
+                        "value": ""
+                      }
+                    ],
+                    [
+                      {
+                        "mode": "locked",
+                        "value": "Livingstone Shire Council"
+                      },
+                      {
+                        "mode": "tick",
+                        "value": ""
+                      }
+                    ]
+                  ]
+                },
+                "workbookMaterials": "Security audit table.",
+                "teacherAnswerKey": "All three sites should be HTTPS/Secured."
+              },
+              {
+                "id": "lact-f7f43d74",
+                "minutes": 15,
+                "timeLabel": "35:00–50:00",
+                "title": "Decomposition Challenge",
+                "stage": "you-do",
+                "teacherDoes": "Circulate room, monitoring students as they independently decompose the 'Capricorn Coast Visitor Information' site.",
+                "studentsDo": "Identify 6 distinct functional components (e.g., Search Bar, Weather Widget) and explain their purpose.",
+                "visibleInstructions": "Open the Capricorn Coast Visitor Information website. List 6 components you see and explain what task they provide for a visitor.",
+                "questioning": "Question: If we removed the 'Search' bar, how would that affect the user experience? Pause. Name: [Student Name]. Expected: Harder to find specific local attractions.",
+                "scaffolding": "Example: 'Component: Search Bar | Task: Find specific locations.'",
+                "eLearning": "Use the rear-of-room monitoring to ensure students are identifying functional elements rather than just listing colours or fonts.",
+                "transition": "Concluding lesson.",
+                "workbookKind": "written",
+                "workbookSpec": {
+                  "type": "written",
+                  "lines": 3,
+                  "sections": [
+                    {
+                      "label": "Component 1 & Purpose",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Component 2 & Purpose",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Component 3 & Purpose",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Component 4 & Purpose",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Component 5 & Purpose",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Component 6 & Purpose",
+                      "lines": 2
+                    }
+                  ]
+                },
+                "workbookMaterials": "Independent decomposition task.",
+                "teacherAnswerKey": "Answers vary based on site elements like Nav, Search, Hero, Booking, Social, Footer."
+              }
+            ]
+          },
+          "culminate": {
+            "smartFinish": "Draw a simple 3-box diagram (Header, Body, Footer) of a website for a 'Dog Walking' business. Label the info in each.",
+            "summarise": "We learned websites use standard blocks, and HTTPS is mandatory for security.",
+            "nextSteps": "Next lesson, you will choose your own business category."
+          },
+          "resources": "Laptops, school/local URLs.",
+          "lastGenerated": "2026-09-04T01:26:55.215Z"
+        },
+        {
+          "id": "lesson-aea05824",
+          "lessonNumber": 3,
+          "durationMinutes": 60,
+          "title": "Defining Your Local Project",
+          "enhancePath": "skill-building",
+          "learningGoal": "Define the core purpose, category, and functional requirements for a proposed local business website.",
+          "orientate": {
+            "smartStart": "Match the category to its need: [A] Café, [B] Plumber, [C] Surf Shop. Match to: [1] Check stock, [2] Emergency repairs, [3] View lunch menu.",
+            "learningGoalDisplay": "I can choose a local business and plan what its website needs to do"
+          },
+          "enhance": {
+            "activities": [
+              {
+                "id": "lact-f6d0a721",
+                "minutes": 10,
+                "timeLabel": "10:00–20:00",
+                "title": "Choosing Your Business",
+                "stage": "i-do",
+                "teacherDoes": "Present local categories (Tourism, Hospitality, Trades). Model selecting 'Local Surf School' and defining its goal as 'Booking lessons'.",
+                "studentsDo": "Select a category, name their business, and draft its main goal.",
+                "visibleInstructions": "Select a category, write your business name, and explain its main goal (e.g., 'Help people book a table').",
+                "questioning": "Question: Why is it better to choose a 'Café' over a 'Multi-national Bank'? Pause. Name: [Student Name]. Expected: Simpler to decompose and more locally relevant.",
+                "scaffolding": "Category List: Café, Retail, Trades, Service.",
+                "eLearning": "",
+                "transition": "Moving to functional planning.",
+                "workbookKind": "written",
+                "workbookSpec": {
+                  "type": "written",
+                  "lines": 3,
+                  "sections": [
+                    {
+                      "label": "Business Name",
+                      "lines": 1
+                    },
+                    {
+                      "label": "Business Category",
+                      "lines": 1
+                    },
+                    {
+                      "label": "Core Purpose (The 'Why')",
+                      "lines": 2
+                    }
+                  ]
+                },
+                "workbookMaterials": "Project definition worksheet.",
+                "teacherAnswerKey": "Varies by student. Example: Name: Yeppoon Scoops; Category: Hospitality; Goal: Show flavours and hours."
+              },
+              {
+                "id": "lact-f68425d1",
+                "minutes": 15,
+                "timeLabel": "20:00–35:00",
+                "title": "Defining Requirements",
+                "stage": "we-do",
+                "teacherDoes": "List 'Must-Have' features for my 'Surf School' (Price list, booking form, gallery). Explain these are 'Requirements'.",
+                "studentsDo": "Collaborate in pairs to list 5 requirements for their specific business category.",
+                "visibleInstructions": "Brainstorm 5 requirements (things the user must see or do) for your business website.",
+                "questioning": "Question: What is a requirement every business website needs? Pause. Name: [Student Name]. Expected: Contact details or location.",
+                "scaffolding": "Requirement Stems provided: 'Must display...', 'Must allow users to...'",
+                "eLearning": "",
+                "transition": "Finalising project definition.",
+                "workbookKind": "checklist",
+                "workbookSpec": {
+                  "type": "checklist",
+                  "items": [
+                    "Contact Information (Phone/Email)",
+                    "Location / Service Area",
+                    "Primary Call to Action (e.g., Book)",
+                    "Product/Service List or Menu",
+                    "About Us / Business History",
+                    "Images of products or work"
+                  ]
+                },
+                "workbookMaterials": "Requirements checklist.",
+                "teacherAnswerKey": "Varies. Should include location and CTA as minimum."
+              },
+              {
+                "id": "lact-7f240780",
+                "minutes": 15,
+                "timeLabel": "35:00–50:00",
+                "title": "Project Definition & Pitch",
+                "stage": "you-do",
+                "teacherDoes": "Perform 'Business Pitch' check-in. Ask students to justify why requirements match their target audience.",
+                "studentsDo": "Complete the Project Definition document and prepare for the teacher pitch.",
+                "visibleInstructions": "Complete your Project Definition. Once finished, raise your hand for your 1-minute 'Business Pitch' to the teacher.",
+                "questioning": "Question: Who is the target audience for your business? Pause. Name: [Student Name]. Expected: E.g., 'Parents looking for activities'.",
+                "scaffolding": "Pitch Script: 'My business is [Name]. My purpose is [Goal]. My audience is [Audience].'",
+                "eLearning": "Confirm students are planning, not coding.",
+                "transition": "Concluding lesson.",
+                "workbookKind": "written",
+                "workbookSpec": {
+                  "type": "written",
+                  "lines": 3,
+                  "sections": [
+                    {
+                      "label": "Target Audience",
+                      "lines": 2
+                    },
+                    {
+                      "label": "Top 3 Functional Requirements",
+                      "lines": 3
+                    },
+                    {
+                      "label": "Teacher Check-in Notes",
+                      "lines": 2
+                    }
+                  ]
+                },
+                "workbookMaterials": "Project pitch document.",
+                "teacherAnswerKey": "Must specify clear goals and audience."
+              }
+            ]
+          },
+          "culminate": {
+            "smartFinish": "3-2-1: 3 things you learned about websites, 2 features your site must have, 1 question you still have.",
+            "summarise": "We explored the Yeppoon digital landscape, decomposed pages, and defined our own projects.",
+            "nextSteps": "Next week, we create User Stories."
+          },
+          "resources": "Workbook, local business list.",
+          "lastGenerated": "2026-09-04T01:26:55.215Z"
+        }
+      ]
+    },
+    {
+      "id": "week-006edda5",
+      "week": {
+        "value": 2,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "This week focuses on the user-centric design process, moving from business goals to customer needs. Students engage in persona-building activities to understand diverse user perspectives, leading to the creation of formal user stories for their chosen local business. They translate these stories into measurable design criteria that include both functional requirements and user experience goals, ensuring the site meets the needs of its intended audience.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "User story templates, persona cards, digital collaboration tools (e.g., Padlet), design criteria rubric.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students explore the principles of design thinking, specifically focusing on empathy and definition to understand user experience (UX). They learn how to draft 'As a [user], I want to [action] so that [benefit]' stories to ensure the digital solution addresses real-world problems. The concept of design criteria is introduced as a quality control mechanism, aligning with project management standards used to evaluate success. Students discuss how these criteria will later be used to assess the impact and functionality of their final prototype.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students participate in a persona-building workshop, creating detailed profiles for various potential customers, such as a tourist looking for a menu or a local resident needing a service quote. They draft at least three user stories per persona and prioritise them based on business importance. Finally, they compile a checklist of design criteria, such as 'the user must find the contact page in under five seconds' or 'the site must include high-contrast elements for accessibility'.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Peer review of user stories and design criteria to ensure they are specific, measurable, and aligned with the business goals.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students apply design thinking by creating user stories that represent the needs of diverse website visitors. They establish specific design criteria to guide the development process, focusing on both functional requirements and user experience goals. These criteria serve as the benchmark for evaluating the effectiveness of their final digital solution.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-4e1cdd33",
+      "week": {
+        "value": 3,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition from conceptual needs to structural planning by developing a comprehensive information architecture for their website. They learn to organise content into logical hierarchies that facilitate ease of use and efficient navigation. Through the creation of site maps, students visualise the connection between different pages and information blocks, ensuring that critical data like trading hours and services are easily locatable for the user.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Flowcharting tools (e.g., Lucidchart or Draw.io), card sorting materials, accessibility guidelines summary, sample business site maps.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit teaching covers the concept of 'user friction' and how logical navigation paths reduce cognitive load for the visitor. Students examine how data is structured to mimic real-world mental models of a business environment. They investigate web accessibility standards and how structural elements support assistive technologies for users with diverse needs. The lesson also addresses how clear information architecture supports the consistency and efficiency of content communication.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design a multi-page site map using flowcharting software or physical card sorting techniques. They categorise business information into primary and secondary hierarchies and map out the global navigation menu structure. Activities include a 'three-click challenge' where students test their site maps to ensure any piece of critical information can be reached within three interactions from the homepage.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of the site map, focusing on the logic of the navigation and the inclusion of all required business components identified in Week 1.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "The focus shifts to information architecture, where students develop site maps to plan clear and logical navigation paths. They organise content into hierarchies that ensure users can efficiently locate business hours, services, and contact details. Students explore how effective structural design supports accessibility and reduces user friction.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-be901518",
+      "week": {
+        "value": 4,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students move from structural planning to aesthetic design by investigating the psychology of colour and typography in digital marketing. They explore how visual hierarchy and negative space influence user behaviour on business websites. Through divergent thinking activities, students draft multiple interface concepts for their landing pages, subsequently refining these into a professional visual style guide that defines their chosen business's brand identity.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Colour palette generators (e.g., Coolors), font pairing resources (e.g., Google Fonts), digital mood boarding tools, style guide templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on visual communication principles: colour theory, font legibility, and the use of imagery to create trust. Students learn how to maintain consistency through a style guide, which functions as an abstraction of complex design decisions into reusable rules for typography, colour palettes, and icon sets. Discussion includes how visual design impacts accessibility, such as ensuring sufficient contrast ratios between text and background elements.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use graphic organisers and mood boards to generate at least three distinct visual themes for their business. They apply these concepts to create a 'Style Guide' document, recording hex codes, primary/secondary font families, and placeholder image categories. This practical application ensures that future coding decisions are informed by a clear, pre-approved design strategy.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative review of the 'Visual Style Guide' against the design criteria established in Week 2, assessing the feasibility and aesthetic coherence of the planned design.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students explore visual design principles including colour theory, typography, and imagery to create a cohesive brand identity for their chosen business. They use divergent techniques to generate multiple interface concepts and document their decisions in a visual style guide. This guide ensures consistency across the website's layout and aesthetic elements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-ceb51b03",
+      "week": {
+        "value": 5,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students translate their site maps and style guides into concrete blueprints by creating annotated, low-fidelity wireframes. This process requires students to map out the placement of navigation elements, calls-to-action (CTA), and content blocks on both desktop and mobile views. The week concludes with students presenting their wireframes to peers, justifying their design decisions against their previously defined user stories and design criteria.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Wireframing tools (e.g., Figma, Balsamiq, or Canva templates), peer feedback rubrics, annotation guides.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Theoretical focus is on the 'User Interface' (UI) layer of design, emphasizing intuitive navigation and information layout. Students examine 'F' and 'Z' reading patterns to understand where users focus their attention on a webpage. They learn how wireframing allows for the rapid iteration of ideas without the complexity of code, reinforcing the design thinking process of prototyping before final implementation.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students design wireframes for the homepage and a secondary service page using digital wireframing tools. These wireframes must be annotated to explain how specific design elements (like a search bar or booking button) facilitate the user stories defined in Week 2. Peer feedback sessions provide opportunities to refine layouts based on clarity and usability.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative assessment of wireframes; students must demonstrate that every page element aligns with a specific user story or business goal from their design criteria list.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students produce detailed, annotated wireframes for the homepage and subpages, focusing on user interface (UI) layout and accessibility features. They explain how their interface designs support the created user stories and address the established design criteria. These low-fidelity prototypes act as the blueprint for the upcoming technical implementation phase.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-9a1fcb79",
+      "week": {
+        "value": 6,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students transition to the technical build phase by establishing their environments in GitHub Codespaces. The week introduces the ethical and effective use of generative AI as a technical assistant, focusing on 'prompt engineering' to translate visual wireframes into structural HTML and CSS. Students practice reading, debugging, and modifying the code produced by the AI to ensure it reflects their unique brand identity and design specs.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GitHub Codespaces, AI prompt-engineering cheat sheet, HTML/CSS basic reference guides, development log templates.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Teaching covers the basics of web structure (HTML) and style (CSS) without requiring deep manual coding, highlighting how AI can speed up the development process. A critical focus is placed on the 'Human-in-the-Loop' approach: students must verify AI-generated code for security risks, functional accuracy, and alignment with their design criteria. Students discuss the responsibilities of AI users in creating accessible and original content.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up their repositories and begin coding the skeleton of their homepage. Practical tasks involve learning to craft prompts that describe specific wireframe components, observing the output, and iteratively editing the code. Students maintain a 'Development Log' to document AI interactions and the manual refinements made to ensure the code functions as intended on their chosen device displays.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of code snippets; check for successful integration of style guide elements into the structural HTML/CSS prototype.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students are introduced to GitHub Codespaces and the responsible use of generative AI as a coding assistant for web development. They practice drafting effective prompts to generate structural HTML and CSS that align with their wireframe designs. Students learn to review and modify AI-generated code to ensure it meets their specific functional requirements.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-94302039",
+      "week": {
+        "value": 7,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "Students progress from a single landing page to a fully functional multi-page prototype for their selected Yeppoon business. They focus on the technical implementation of their site map, ensuring that navigation menus correctly link disparate pages such as 'Services', 'Gallery', and 'Contact Us'. A significant emphasis is placed on ensuring the site is responsive, adapting its layout for mobile, tablet, and desktop viewing. Students also begin formalising their project management documentation, recording how they have transitioned from their Week 5 wireframes to a live digital environment using iterative development cycles.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "GitHub Codespaces, AI coding assistant, local business media assets, CSS Responsive Design cheatsheet, project management log template.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the technical requirements of responsive web design, specifically how CSS Flexbox or Grid systems allow a business website to remain functional across various hardware devices. Students explore the concept of asset management, learning how to organise, name, and optimise media files within a repository to ensure fast loading times and professional presentation. The lesson also covers the logic of relative versus absolute hyperlinking in a multi-page directory structure. Furthermore, students discuss project management milestones, identifying how to document their implementation progress against their original design specifications.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Using GitHub Codespaces, students implement their global navigation bar across all pages of their site, ensuring consistent user experience. They use generative AI to assist in writing media queries that adjust the layout for mobile users, such as collapsing a horizontal menu into a 'hamburger' icon. Students populate their sub-pages with specific content relevant to their business, such as service pricing or high-quality images of the Capricorn Coast. They maintain their development log, specifically noting where AI-generated code required manual adjustment to meet the visual style guide created in Week 4.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative monitoring of the multi-page structure; teacher checks that all navigation links are functional and that the site maintains visual consistency across at least two sub-pages.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "During the implementation phase, students build their multi-page website prototype, integrating media and text relevant to their local business. They focus on refining the AI-assisted code to ensure the layout is responsive and the navigation functions correctly across different pages. Students document their project management process as they move from design to functional prototype.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-92d6b4ae",
+      "week": {
+        "value": 8,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "The focus shifts to quality assurance and user-centric evaluation as students conduct structured usability testing of their prototypes. Working in peer-review pairs, students observe how a 'customer' interacts with their site, noting areas of confusion or technical friction. They collect both qualitative and quantitative data through structured interviews and digital surveys, focusing on whether the site meets the specific needs defined in their Week 2 user stories. By the end of the week, students synthesise this feedback into a prioritised list of refinements for their final submission.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "User feedback survey (Microsoft Forms), 'Think Aloud' instruction card, testing observation template, peer-testing schedule.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Students investigate usability testing methodologies, including 'Think Aloud' protocols and observational data collection. They learn the difference between technical bugs (functional errors) and usability issues (design friction), and how to categorise feedback to inform iterative design. The lesson covers how to validate data collected from users to ensure it is consistent and actionable. Students also revisit their original design criteria and user stories, learning how to use these as a benchmark for determining if a prototype is 'fit for purpose' in a real-world business context.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students set up 'testing stations' where they act as moderators while peers attempt to complete specific tasks on their website, such as 'finding the business's opening hours' or 'locating a specific service'. They use Microsoft Forms to collect structured feedback on the site’s navigation, visual appeal, and ease of use. After testing, students perform a data analysis task, identifying the three most critical improvements needed based on user responses. These findings are recorded in a 'Testing and Refinement' evidence table as part of their design portfolio.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative check of testing evidence; students must demonstrate a collection of user feedback and a clear plan for final refinements based on that data.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students conduct usability testing by observing peers interacting with their website and collecting structured feedback via surveys or interviews. They compare the prototype's performance against the original user stories and design criteria to identify technical or layout issues. This testing evidence is used to prioritise final refinements to the user experience.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-02f8fff0",
+      "week": {
+        "value": 9,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "In the final week of development, students use their testing data to direct AI-assisted improvements to their prototypes. They focus on fine-tuning the user interface, improving accessibility features, and ensuring all content is accurate and professionally presented. Alongside the technical finish, students compile their comprehensive design portfolio, ensuring all evidence of the design thinking process—from initial decomposition to final testing—is clearly documented. The week concludes with the formal submission of the website prototype and the accompanying documentation for summative assessment.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Summative project rubric, portfolio checklist, accessibility audit tool (e.g., WAVE or lighthouse), GitHub repository.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Instruction focuses on final polish and the 'last mile' of web accessibility, such as verifying image alt-text, colour contrast ratios, and keyboard navigation. Students explore the importance of documentation as a professional standard, learning how to present a cohesive narrative of their project’s development. They reflect on the role of AI in their workflow, considering how it aided efficiency and where human intervention was required to maintain brand integrity. Discussion also touches on the final evaluation process: how to objectively measure the success of a digital solution against predetermined functional and non-functional requirements.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students use targeted prompts to fix identified usability issues, such as increasing button sizes for mobile users or adjusting font weights for better legibility. They perform a final 'audit' of their code to remove unused styles and ensure all media is correctly linked and functional. The majority of practical time is spent assembling the final design portfolio, which includes their site map, wireframes, style guide, and testing evidence. Students conduct a final verification of their live URL (if applicable) or repository to ensure the teacher can access the working prototype.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Summative Assessment: Website Prototype. Submission of the working digital solution and the design portfolio detailing the project management and design process.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Using their testing data, students direct AI-assisted improvements to enhance the website's accessibility, navigation, and visual clarity. They finalise the working prototype and compile their design portfolio, ensuring all evidence of the design and development process is documented. The week concludes with the formal submission of the project for assessment.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    },
+    {
+      "id": "week-9e47b802",
+      "week": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "keyTeachingExperiences": {
+        "value": "In the final week of the unit, students transition from development to a critical evaluation of their digital solution and the processes used to create it. They participate in structured reflections that assess how well their website prototype addresses the specific information needs of Yeppoon-based businesses and their customers. A core component of the week involves a collaborative seminar where students discuss the ethical and professional implications of using generative AI in the digital industry. To conclude the project, students conduct a formal 'post-mortem' of their project management, identifying areas where their computational thinking and technical implementation skills have evolved over the ten-week cycle.",
+        "aiNotes": ""
+      },
+      "adjustments": {
+        "value": "",
+        "aiNotes": ""
+      },
+      "resources": {
+        "value": "Design evaluation templates, AI ethics discussion prompts, project 'post-mortem' guide, achievement standard self-reflection rubric, student portfolios.",
+        "aiNotes": ""
+      },
+      "theory": {
+        "value": "Explicit instruction focuses on the evaluation stage of the design cycle, specifically how to measure the effectiveness of a digital solution against predetermined design criteria and user stories. Students investigate the broader ethical considerations surrounding generative AI, including issues of intellectual property, the risk of automated bias, and the changing landscape of creative careers. They explore the concept of project sustainability, learning how clear documentation and modular code (HTML/CSS) allow for the future maintenance of a digital system. Discussion also centres on how systems thinking is applied when considering the impact of a website on a local economy and its potential to scale or adapt to future hardware capabilities. Finally, students examine the importance of self-regulation in project management to improve future efficiency and quality control.",
+        "aiNotes": ""
+      },
+      "prac": {
+        "value": "Students draft a comprehensive evaluation report that justifies their design decisions using the testing evidence collected in Week 8. They populate a 'Success Matrix' where they cross-reference their final website features against the functional requirements established at the start of the term. During practical sessions, students engage in a 'World Café' style discussion, debating the ethics of AI assistance in web development and proposing a set of 'best practice' guidelines for future school projects. They also finalise their development logs by adding a summary of their project management successes and technical challenges. The week concludes with a digital self-assessment where students map their progress against the Year 8 achievement standards to identify targets for their next Digital Technologies unit.",
+        "aiNotes": ""
+      },
+      "assessment": {
+        "value": "Formative evaluation of the 'Success Matrix' and final project reflection. Students receive feedback on their ability to objectively evaluate their own digital solution and its impact on the intended user base.",
+        "aiNotes": ""
+      },
+      "outlineTheme": {
+        "value": "Students complete a comprehensive evaluation of their final digital solution, assessing its effectiveness in meeting the needs of the local business and its customers. They reflect on the impact of generative AI on their design process and discuss the ethical considerations of using AI tools in creative industries. Finally, they review their project management success and identify areas for future skill development.",
+        "aiNotes": "",
+        "lastGenerated": "2026-09-04T01:14:54.986Z"
+      },
+      "lessons": []
+    }
+  ],
+  "evaluation": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

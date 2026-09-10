@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import FieldEditor from '$lib/components/FieldEditor.svelte';
 	import SelectFieldEditor from '$lib/components/SelectFieldEditor.svelte';
 	import {
@@ -8,6 +8,7 @@
 		ASSESSMENT_TECHNIQUES,
 		PLAN_STATUSES,
 		STANDALONE_LEVEL_PLAN_ID,
+		createEmptyTeachingWeek,
 		createId
 	} from '$lib/defaults';
 	import type { AssessmentItem, AssessmentItemSummary, UnitPlan, UnitAssessment } from '$lib/types';
@@ -15,6 +16,7 @@
 	import ModelFeedback from '$lib/components/ModelFeedback.svelte';
 	import EditorAiToggle from '$lib/components/EditorAiToggle.svelte';
 	import CapabilityCheckboxTree from '$lib/components/CapabilityCheckboxTree.svelte';
+	import LessonPlansSection from '$lib/components/LessonPlansSection.svelte';
 	import {
 		applyCheckedSubElementIds,
 		ensureUnitCapabilityChecks,
@@ -39,11 +41,21 @@
 
 	const WIZARD_PIPELINE_KEY = (unitId: string) => `qcaa-wizard-pipeline:${unitId}`;
 
+	function cloneUnitPlan(source: UnitPlan): UnitPlan {
+		const next = structuredClone(source);
+		for (const cap of next.generalCapabilities) {
+			cap.subElementChecks = ensureUnitCapabilityChecks(cap);
+		}
+		return next;
+	}
+
 	let { data }: { data: PageData } = $props();
-	let plan = $state<UnitPlan>(structuredClone(data.plan));
-	let assessmentItems = $state<AssessmentItem[]>(structuredClone(data.assessmentItems));
+	let plan = $state<UnitPlan>(untrack(() => cloneUnitPlan(data.plan)));
+	let assessmentItems = $state<AssessmentItem[]>(
+		untrack(() => structuredClone(data.assessmentItems))
+	);
 	let standaloneAssessments = $state<AssessmentItemSummary[]>(
-		structuredClone(data.standaloneAssessments)
+		untrack(() => structuredClone(data.standaloneAssessments))
 	);
 	let catalogueOverride = $state<string>('');
 	const inferredCatalogue = $derived(
@@ -67,16 +79,36 @@
 	let refiningKey = $state<string | null>(null);
 	let refineError = $state('');
 	let refineUsage = $state<GenerationUsage | null>(null);
-	for (const cap of plan.generalCapabilities) {
-		cap.subElementChecks = ensureUnitCapabilityChecks(cap);
-	}
 	let section = $state<
-		'overview' | 'assessments' | 'capabilities' | 'scope' | 'sequence' | 'evaluation'
+		| 'overview'
+		| 'assessments'
+		| 'capabilities'
+		| 'scope'
+		| 'sequence'
+		| 'lessons'
+		| 'evaluation'
 	>('overview');
+	let lessonBusy = $state(false);
 	let saving = $state(false);
 	let saved = $state(false);
-	let savedSnapshot = $state(snapshotValue(structuredClone(data.plan)));
+	let savedSnapshot = $state(untrack(() => snapshotValue(cloneUnitPlan(data.plan))));
 	const dirty = $derived(isDirtySnapshot(plan, savedSnapshot));
+	let syncedUnitKey = untrack(() => `${data.plan.levelPlanId}:${data.plan.id}`);
+	$effect.pre(() => {
+		const nextKey = `${data.plan.levelPlanId}:${data.plan.id}`;
+		if (nextKey === syncedUnitKey) return;
+		syncedUnitKey = nextKey;
+		const nextPlan = cloneUnitPlan(data.plan);
+		const nextItems = structuredClone(data.assessmentItems);
+		const nextStandalone = structuredClone(data.standaloneAssessments);
+		const nextSnapshot = snapshotValue(nextPlan);
+		untrack(() => {
+			plan = nextPlan;
+			assessmentItems = nextItems;
+			standaloneAssessments = nextStandalone;
+			savedSnapshot = nextSnapshot;
+		});
+	});
 	let showAiPanels = $state(true);
 	let importing = $state(false);
 	let importError = $state('');
@@ -297,17 +329,7 @@
 	function ensureWeekThrough(maxWeek: number, minWeek = 1) {
 		for (let weekNum = minWeek; weekNum <= maxWeek; weekNum++) {
 			if (!plan.teachingSequence.some((w) => Number(w.week.value) === weekNum)) {
-				plan.teachingSequence.push({
-					id: createId('week'),
-					week: { value: weekNum, aiNotes: '' },
-					keyTeachingExperiences: { value: '', aiNotes: '' },
-					adjustments: { value: '', aiNotes: '' },
-					resources: { value: '', aiNotes: '' },
-					theory: { value: '', aiNotes: '' },
-					prac: { value: '', aiNotes: '' },
-					assessment: { value: '', aiNotes: '' },
-					outlineTheme: { value: '', aiNotes: '' }
-				});
+				plan.teachingSequence.push(createEmptyTeachingWeek(weekNum));
 			}
 		}
 		plan.teachingSequence.sort((a, b) => Number(a.week.value) - Number(b.week.value));
@@ -333,19 +355,10 @@
 	function weekRow(weekNum: number) {
 		let row = plan.teachingSequence.find((w) => Number(w.week.value) === weekNum);
 		if (!row) {
-			row = {
-				id: createId('week'),
-				week: { value: weekNum, aiNotes: '' },
-				keyTeachingExperiences: { value: '', aiNotes: '' },
-				adjustments: { value: '', aiNotes: '' },
-				resources: { value: '', aiNotes: '' },
-				theory: { value: '', aiNotes: '' },
-				prac: { value: '', aiNotes: '' },
-				assessment: { value: '', aiNotes: '' },
-				outlineTheme: { value: '', aiNotes: '' }
-			};
+			row = createEmptyTeachingWeek(weekNum);
 			plan.teachingSequence.push(row);
 		}
+		if (!row.lessons) row.lessons = [];
 		return row;
 	}
 
@@ -560,7 +573,7 @@
 	}
 
 	function sequenceBusy() {
-		return outlineGenerating || batchGenerating || weeklyChunkGenerating;
+		return outlineGenerating || batchGenerating || weeklyChunkGenerating || lessonBusy;
 	}
 
 	function hasOutlineThemes() {
@@ -1109,6 +1122,7 @@
 	<button class:active={section === 'capabilities'} onclick={() => (section = 'capabilities')}>Capabilities</button>
 	<button class:active={section === 'scope'} onclick={() => (section = 'scope')}>Scope and sequence</button>
 	<button class:active={section === 'sequence'} onclick={() => (section = 'sequence')}>Teaching sequence</button>
+	<button class:active={section === 'lessons'} onclick={() => (section = 'lessons')}>Lesson plans</button>
 	<button class:active={section === 'evaluation'} onclick={() => (section = 'evaluation')}>Evaluation</button>
 </div>
 
@@ -1560,6 +1574,14 @@
 			<FieldEditor label="Adjustments" bind:field={week.adjustments} docType="unit-plan" docId={plan.id} levelPlanId={plan.levelPlanId} fieldPath="teachingSequence.{wi}.adjustments" />
 		</div>
 	{/each}
+{/if}
+
+{#if section === 'lessons'}
+	<LessonPlansSection
+		bind:plan
+		parentBusy={outlineGenerating || batchGenerating || weeklyChunkGenerating}
+		onBusyChange={(busy) => (lessonBusy = busy)}
+	/>
 {/if}
 
 {#if section === 'evaluation'}

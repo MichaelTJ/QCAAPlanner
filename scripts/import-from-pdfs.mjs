@@ -4,11 +4,8 @@ import { GoogleGenAI } from '@google/genai';
 import { LEVEL_PLANS } from './manifest.mjs';
 
 const MODEL_CASCADE = [
-	{ id: 'gemini-flash-latest', label: 'Gemini Flash (latest)' },
-	{ id: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
-	{ id: 'gemini-3.1-flash-lite', label: 'Gemini 3.1 Flash Lite' },
-	{ id: 'gemini-3-flash-preview', label: 'Gemini 3 Flash' },
-	{ id: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' }
+	{ id: 'gemini-3.8-flash', label: 'Gemini 3.8 Flash' },
+	{ id: 'gemini-3.7-flash', label: 'Gemini 3.7 Flash' }
 ];
 
 const ROOT = process.cwd();

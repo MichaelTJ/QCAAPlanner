@@ -266,7 +266,7 @@
     {
       "id": "qunit-58e4a5cf",
       "unitTitle": {
-        "value": "Country Event Experience",
+        "value": "Local Business Websites",
         "aiNotes": ""
       },
       "yearLevel": {
@@ -278,14 +278,14 @@
         "aiNotes": ""
       },
       "description": {
-        "value": "In this unit, students design a digital experience for a regional event, club or community organisation. They investigate how websites communicate information and support users before, during and after an event, with a focus on audience needs, navigation, accessibility and visual design. Students develop user stories and design criteria, map the user journey, organise content and generate alternative interface concepts before producing detailed wireframes and a visual style guide. Using GitHub Codespaces and generative AI, students transform their designs into a functional website prototype. They test the prototype with users, identify usability issues and refine the solution in response to feedback. The emphasis is on user-experience design, design decision-making, evaluation and the responsible use of AI rather than technical programming skills. This complements the existing Year 8 emphasis on user stories, alternative designs, project management and evaluation.",
+        "value": "In this unit, students design a website for a local business such as a café, shop, tradesperson or service. Students investigate how businesses use websites to share information, attract customers and promote their products or services. They consider the needs of different users and explore website layout, navigation, colours, images and accessibility. Students create user stories, develop design ideas and produce wireframes before building a functional website using GitHub Codespaces and generative AI. They test their website, collect feedback and make improvements to their final design. The unit focuses on user experience, design thinking, evaluation and the responsible use of AI, rather than advanced programming. ",
         "aiNotes": ""
       },
       "assessments": [
         {
-          "id": "qassess-9dff75ca",
+          "id": "assess-27a2ea64",
           "assessmentNumber": {
-            "value": "5",
+            "value": 1,
             "aiNotes": ""
           },
           "title": {
@@ -301,7 +301,7 @@
             "aiNotes": ""
           },
           "description": {
-            "value": "Students design and develop an AI-assisted website prototype for a regional event, club or community organisation. They identify a target audience, create user stories and design criteria, and investigate the information and features users require. Students communicate their proposed solution through a user journey map, site map, alternative interface concepts, annotated wireframes and a visual style guide. They then use generative AI within GitHub Codespaces to produce a functional prototype based on their own design specifications. Students conduct usability testing, compare the prototype against the original user stories and design criteria, and direct AI-assisted improvements to the layout, navigation, accessibility and content. The final submission includes the design portfolio, working prototype, testing evidence, a record of significant AI interactions and an evaluation of the solution and design process.",
+            "value": "Students design and develop an AI-assisted website for a local business. They identify the target audience, create user stories and design criteria, and investigate the information customers need from the website. Students develop a site map, alternative design ideas, wireframes and a simple visual style guide before using generative AI within GitHub Codespaces to build a functional website prototype. They test the website with users, collect feedback and make improvements to the layout, navigation, accessibility and content. The final submission includes the design work, working website prototype, testing evidence and an evaluation of the final solution. ",
             "aiNotes": ""
           },
           "technique": {
@@ -313,17 +313,18 @@
             "aiNotes": ""
           },
           "conditions": {
-            "value": "• 3 A3 pages\n• May include wireframes, style guides, and annotated user-interface designs\n• Accessible via a web browser (or hosted live URL)",
-            "aiNotes": "A3 pages and website",
-            "lastGenerated": "2026-07-11T01:55:15.609Z"
+            "value": "3–5 A3 pages or equivalent digital media pages; includes annotated user stories and wireframes, a functional website developed in GitHub Codespaces, and a 200–300 word evaluation of the solution against design criteria and user needs.",
+            "aiNotes": "",
+            "lastGenerated": "2026-09-09T11:30:57.517Z"
           },
           "achievementStandard": {
-            "value": "By the end of Year 8, students explain how digital systems represent data as binary and how data is transmitted in networks. They explain the need for personal security controls to protect data and investigate how hardware components and specifications affect the performance of digital systems. Students apply computational thinking to define and decompose real-world problems. They design user experiences and represent algorithmic solutions using flowcharts and pseudocode. Students implement these solutions in general-purpose programming environments, using control structures including selection and repetition to process sensor inputs and automate responses. They iteratively test and debug their programs to ensure they meet specifications. Students evaluate existing and student-created solutions against design criteria and user stories. They acquire, validate and model data from sensors and other sources, analysing and visualising it to extract meaning. Students plan and manage projects individually and collaboratively, using digital tools to create and communicate content responsibly.",
+            "value": "By the end of Year 8 students develop and modify creative digital solutions, decompose real-world problems, and evaluate alternative solutions against user stories and design criteria. Students acquire, interpret and model data with spreadsheets and represent data with integers and binary. They design and trace algorithms and implement them in a general-purpose programming language. Students select appropriate hardware for particular tasks, explain how data is transmitted and secured in networks, and identify cyber security threats. They select and use a range of digital tools efficiently and responsibly to create, locate and share content; and to plan, collaborate on and manage projects. Students manage their digital footprint.",
             "aiNotes": ""
           },
           "moderation": {
-            "value": "Internal moderation is conducted systematically across the 7–8 band to ensure consistency of teacher judgement against the Australian Curriculum achievement standards. This process involves:\n\n*   Moderation Conferencing: Scheduled meetings for the to review student work samples.\n*   Cross-marking: Departmental cross-marking of the Year 8 Data Exam to ensure objective and consistent application of marking guides.",
-            "aiNotes": ""
+            "value": "Internal moderation is conducted systematically to ensure consistency of teacher judgement against the Year 7–8 Digital Technologies achievement standard. This process includes:\n\n*   **Standardisation:** Faculty review of the Guide to Making Judgements (GTMJ) and assessment parameters prior to the design phase to ensure a shared understanding of the evidence required for each performance level.\n*   **Monitoring (Week 6):** Collaborative review of student wireframes and user stories to ensure consistency in formative feedback and alignment with design thinking requirements.\n*   **Moderation Conferencing (Week 9):** Teachers meet to review student work samples at key grade boundaries (A, C, and E) to validate assessment decisions regarding user experience design and solution evaluation.\n*   **Cross-marking:** Departmental cross-marking of a representative sample of final website projects to ensure the reliable and objective application of performance descriptors across the cohort.",
+            "aiNotes": "",
+            "lastGenerated": "2026-09-09T11:31:10.417Z"
           }
         }
       ]
@@ -527,7 +528,7 @@
         false,
         false,
         true,
-        true
+        false
       ]
     },
     {
@@ -602,7 +603,7 @@
         false,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -627,7 +628,7 @@
         true,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -652,7 +653,7 @@
         false,
         false,
         true,
-        true
+        false
       ]
     },
     {
@@ -677,7 +678,7 @@
         false,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -702,7 +703,7 @@
         true,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -727,7 +728,7 @@
         true,
         false,
         false,
-        true
+        false
       ]
     },
     {
@@ -790,7 +791,7 @@
       },
       "unitInclusions": [
         true,
-        false,
+        true,
         true,
         true
       ],
@@ -805,7 +806,7 @@
           true,
           true,
           true,
-          true
+          false
         ],
         "cct-analysing": [
           false,
@@ -843,7 +844,7 @@
           true,
           true,
           true,
-          true
+          false
         ],
         "cct-generating-put-ideas-into-action": [
           true,
@@ -855,7 +856,7 @@
           true,
           true,
           true,
-          true
+          false
         ],
         "cct-analysing-draw-conclusions": [
           true,
@@ -891,7 +892,7 @@
       },
       "unitInclusions": [
         true,
-        false,
+        true,
         true,
         true
       ],
@@ -906,13 +907,13 @@
           false,
           true,
           false,
-          true
+          false
         ],
         "dl-creating-exchanging": [
           false,
           true,
           false,
-          true
+          false
         ],
         "dl-managing-operating": [
           true,
@@ -950,13 +951,13 @@
           true,
           true,
           false,
-          true
+          false
         ],
         "dl-investigating-interpret": [
           true,
           true,
           false,
-          true
+          false
         ],
         "dl-creating-plan": [
           false,
@@ -974,13 +975,13 @@
           false,
           true,
           false,
-          true
+          false
         ],
         "dl-managing-content": [
           true,
           false,
           false,
-          true
+          false
         ],
         "dl-managing-protect": [
           true,
@@ -1006,7 +1007,7 @@
         true,
         false,
         true,
-        false
+        true
       ],
       "categoryInclusions": {
         "eu-concepts": [
@@ -1033,7 +1034,7 @@
           false,
           false,
           false,
-          true
+          false
         ],
         "eu-concepts-influences": [
           false,
@@ -1057,7 +1058,7 @@
           false,
           false,
           false,
-          false
+          true
         ]
       }
     },
@@ -1068,8 +1069,8 @@
         "aiNotes": ""
       },
       "unitInclusions": [
-        false,
-        false,
+        true,
+        true,
         true,
         true
       ],
@@ -1164,7 +1165,7 @@
           true,
           true,
           true,
-          true
+          false
         ]
       }
     },
@@ -1176,7 +1177,7 @@
       },
       "unitInclusions": [
         true,
-        false,
+        true,
         true,
         false
       ],

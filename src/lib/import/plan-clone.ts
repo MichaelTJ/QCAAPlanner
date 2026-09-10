@@ -71,7 +71,17 @@ export function cloneUnitPlanWithNewIds(plan: UnitPlan, newId: string): UnitPlan
 		})),
 		teachingSequence: plan.teachingSequence.map((week) => ({
 			...week,
-			id: createId('week')
+			id: createId('week'),
+			lessons: (week.lessons ?? []).map((lesson) => ({
+				...lesson,
+				id: createId('lesson'),
+				enhance: {
+					activities: (lesson.enhance?.activities ?? []).map((activity) => ({
+						...activity,
+						id: createId('lact')
+					}))
+				}
+			}))
 		}))
 	};
 }

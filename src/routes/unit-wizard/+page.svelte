@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import { untrack } from 'svelte';
 	import {
 		createId
 	} from '$lib/defaults';
@@ -56,17 +57,19 @@
 		code: string;
 	}
 
-	const prefill = data.prefill;
-	const slotLocked = Boolean(prefill);
+	const prefill = $derived(data.prefill);
+	const slotLocked = $derived(Boolean(prefill));
 
 	let step = $state<Step>('brief');
-	let idea = $state(prefill?.idea || '');
-	let subjectFamily = $state<WizardSubjectFamily | ''>(prefill?.subjectFamily || '');
-	let yearBand = $state<WizardYearBand | ''>(prefill?.yearBand || '');
+	let idea = $state(untrack(() => prefill?.idea || ''));
+	let subjectFamily = $state<WizardSubjectFamily | ''>(untrack(() => prefill?.subjectFamily || ''));
+	let yearBand = $state<WizardYearBand | ''>(untrack(() => prefill?.yearBand || ''));
 	let durationWeeks = $state(
-		prefill?.durationWeeks && prefill.durationWeeks > 0 ? prefill.durationWeeks : 10
+		untrack(() =>
+			prefill?.durationWeeks && prefill.durationWeeks > 0 ? prefill.durationWeeks : 10
+		)
 	);
-	let unitTitle = $state(prefill?.slotTitle || '');
+	let unitTitle = $state(untrack(() => prefill?.slotTitle || ''));
 	let unitDescription = $state('');
 	let weekOutline = $state('');
 	let selectedCodes = $state<string[]>([]);
@@ -92,9 +95,9 @@
 	let createItems = $state(true);
 	let autoGeneratePipeline = $state(true);
 	let destinationMode = $state<'standalone' | 'level-plan'>(
-		prefill ? 'level-plan' : 'standalone'
+		untrack(() => (prefill ? 'level-plan' : 'standalone'))
 	);
-	let destinationLevelPlanId = $state(prefill?.levelPlanId || '');
+	let destinationLevelPlanId = $state(untrack(() => prefill?.levelPlanId || ''));
 
 	const weekSelectOptions = $derived(
 		WEEK_OPTIONS.includes(durationWeeks)
