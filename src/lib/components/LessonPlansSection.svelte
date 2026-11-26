@@ -358,12 +358,13 @@
 			| undefined = undefined
 	) {
 		const verb = extra?.mode === 'enrich' ? 'Enriching' : 'Generating';
+		const detail = extra?.mode === 'enrich' ? ' (one activity at a time)' : '';
 		let lastError = '';
 		for (let attempt = 1; attempt <= BATCH_CHUNK_RETRIES; attempt++) {
 			setStatus(
 				attempt === 1
-					? `${verb} week ${weekNumber}…`
-					: `${verb} week ${weekNumber}… (retry ${attempt}/${BATCH_CHUNK_RETRIES})`
+					? `${verb} week ${weekNumber}${detail}…`
+					: `${verb} week ${weekNumber}${detail}… (retry ${attempt}/${BATCH_CHUNK_RETRIES})`
 			);
 			const result = await requestWeekLessons({
 				weekNumber,
@@ -753,9 +754,8 @@
 <div class="chunk-panel">
 	<h2 style="margin-top:0">Materials (enrich pass)</h2>
 	<p class="meta">
-		Run after lesson scripts exist. Fills scaffolding lists, printable workbook artefacts, modelled
-		teacher examples, and answer keys — so student/teacher documents have the actual worksheets, not
-		just names of tasks.
+		Run after lesson scripts exist. Each Enhance activity is enriched separately with Flash-Lite
+		(workbook artefact, modelled examples, answer keys) so the model only has to fill one widget.
 	</p>
 	{#if !hasAnyLessons}
 		<p class="meta">Generate lesson plans first, then enrich materials.</p>

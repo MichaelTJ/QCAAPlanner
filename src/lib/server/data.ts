@@ -42,6 +42,11 @@ import {
 	resolveFacultyCurriculumPlanType
 } from '$lib/curriculum/curriculum-catalogue';
 import { cloneLevelPlanUnit, cloneLevelPlanWithNewIds, cloneUnitPlanWithNewIds, unitCopyLabel } from '$lib/import/plan-clone';
+import {
+	applyResolvedLearningGuides,
+	learningGuideSourceHash,
+	resolveLearningGuidesForSave
+} from '$lib/learning-guide-cache';
 import { resolveUnitDuration } from '$lib/unit-duration';
 import {
 	aiField,
@@ -50,6 +55,7 @@ import {
 	type FacultyIndex,
 	type FacultyRow,
 	type LevelPlan,
+	type SavedLearningGuides,
 	type Settings,
 	type UnitAssessment,
 	type UnitPlan,
@@ -129,6 +135,7 @@ export async function saveLevelPlan(plan: LevelPlan) {
 	const refreshedUnitPlans = await listUnitPlans(plan.id);
 	const updatedUnitPlans = syncLevelPlanIntoUnitPlans(plan, refreshedUnitPlans);
 	for (const unitPlan of updatedUnitPlans) {
+		applyResolvedLearningGuides(unitPlan, unitPlan);
 		await writeJson(unitPlanPath(plan.id, unitPlan.id), unitPlan);
 	}
 
@@ -245,7 +252,8 @@ export async function listAllUnitPlans(): Promise<UnitPlanSummary[]> {
 				status: String(plan.status.value || ''),
 				isStandalone: levelPlanId === STANDALONE_LEVEL_PLAN_ID,
 				curriculumLabel: curriculum.label,
-				curriculumSortKey: curriculum.sortKey
+				curriculumSortKey: curriculum.sortKey,
+				hasLessons: plan.teachingSequence.some((week) => (week.lessons?.length ?? 0) > 0)
 			});
 		}
 	}
@@ -573,7 +581,23 @@ export async function getFacultyOverview(): Promise<FacultyOverviewEntry[]> {
 	return entries;
 }
 
+export async function persistUnitPlanLearningGuides(
+	levelPlanId: string,
+	unitId: string,
+	learningGuides: SavedLearningGuides
+) {
+	const plan = await getUnitPlan(levelPlanId, unitId);
+	if (!plan) return;
+	if (learningGuideSourceHash(plan) !== learningGuides.sourceHash) return;
+	plan.learningGuides = resolveLearningGuidesForSave({ ...plan, learningGuides }, plan);
+	if (!plan.learningGuides) return;
+	await writeJson(unitPlanPath(levelPlanId, unitId), plan);
+}
+
 export async function saveUnitPlan(plan: UnitPlan) {
+	const existing = await getUnitPlan(plan.levelPlanId, plan.id);
+	applyResolvedLearningGuides(plan, existing);
+
 	const levelPlan = await getLevelPlan(plan.levelPlanId);
 	if (levelPlan) {
 		const unitPlans = await listUnitPlans(plan.levelPlanId);
@@ -603,6 +627,7 @@ export async function saveUnitPlan(plan: UnitPlan) {
 	}
 
 	await touchFacultyRow(plan.levelPlanId);
+	return plan;
 }
 
 export async function deleteUnitPlan(
@@ -997,6 +1022,14 @@ export async function importUnitPlanAsNew(
 	const existing = await listUnitPlans(sourceLevelPlanId);
 	const maxNumber = Math.max(0, ...existing.map((plan) => Number(plan.unitNumber.value) || 0));
 	cloned.unitNumber.value = maxNumber + 1;
+
+	if (cloned.learningGuides?.summary || cloned.learningGuides?.detailed) {
+		cloned.learningGuides = {
+			sourceHash: learningGuideSourceHash(cloned),
+			summary: cloned.learningGuides.summary,
+			detailed: cloned.learningGuides.detailed
+		};
+	}
 
 	await writeJson(unitPlanPath(sourceLevelPlanId, newId), cloned);
 	await touchFacultyRow(sourceLevelPlanId);

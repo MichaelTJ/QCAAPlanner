@@ -119,11 +119,12 @@
 	<h2>Download everything</h2>
 	<p class="meta section-intro">
 		One ZIP with each level plan folder. Every unit gets its own subfolder containing the unit
-		Word file, linked assessments, and both learning guides (summary + detailed) together.
-		Learning guides use AI, so a full download can take a few minutes.
+		Word file, linked assessments, teacher lesson Word, teacher PowerPoint, and student workbook
+		when lessons exist, and both learning guides (summary + detailed). Learning guides are generated
+		with AI the first time, then reused until that unit's content changes.
 	</p>
 	<button class="btn btn-primary" onclick={downloadBundle} disabled={bundling}>
-		{bundling ? 'Building ZIP (includes AI learning guides)…' : 'Download all level plans as ZIP'}
+		{bundling ? 'Building ZIP…' : 'Download all level plans as ZIP'}
 	</button>
 	{#if bundleError}<p class="error">{bundleError}</p>{/if}
 </div>
@@ -151,7 +152,7 @@
 					onclick={() => downloadLevelBundle(entry.id)}
 				>
 					{levelBundleBusy === entry.id
-						? 'Building ZIP (includes AI learning guides)…'
+						? 'Building ZIP…'
 						: 'Export with units, assessments & guides'}
 				</button>
 			</div>
@@ -190,13 +191,30 @@
 									href="/api/export/unit-plan/{unit.levelPlanId}/{unit.id}"
 									target="_blank">Export unit</a
 								>
+								{#if unit.hasLessons}
+									<a
+										class="btn btn-sm"
+										href="/api/export/lesson-plans/{unit.levelPlanId}/{unit.id}/teacher"
+										target="_blank">Teacher Word</a
+									>
+									<a
+										class="btn btn-sm"
+										href="/api/export/lesson-plans/{unit.levelPlanId}/{unit.id}/teacher-pptx"
+										target="_blank">Teacher PowerPoint</a
+									>
+									<a
+										class="btn btn-sm"
+										href="/api/export/lesson-plans/{unit.levelPlanId}/{unit.id}/student"
+										target="_blank">Student workbook</a
+									>
+								{/if}
 								<button
 									class="btn btn-sm"
 									disabled={unitBundleBusy === unit.id}
 									onclick={() => downloadUnitBundle(unit.levelPlanId, unit.id)}
 								>
 									{unitBundleBusy === unit.id
-										? 'Building ZIP (includes AI learning guides)…'
+										? 'Building ZIP…'
 										: assessments.length
 											? `Export with ${assessments.length} assessment${assessments.length === 1 ? '' : 's'} & guides`
 											: 'Export with assessments & guides'}

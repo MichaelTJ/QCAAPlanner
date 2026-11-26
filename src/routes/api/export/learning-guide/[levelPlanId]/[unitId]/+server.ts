@@ -6,7 +6,7 @@ import { CascadeExhaustedError } from '$lib/server/gemini';
 export const GET: RequestHandler = async ({ params, url }) => {
 	try {
 		const detail = url.searchParams.get('detail') === 'detailed' ? 'detailed' : 'summary';
-		const { buffer, data } = await exportLearningGuideDocx(params.levelPlanId, params.unitId, {
+		const { buffer, data, reused } = await exportLearningGuideDocx(params.levelPlanId, params.unitId, {
 			detail
 		});
 		const suffix = detail === 'detailed' ? '-learning-guide-detailed' : '-learning-guide';
@@ -17,7 +17,8 @@ export const GET: RequestHandler = async ({ params, url }) => {
 				'Content-Type':
 					'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 				'Content-Disposition': `attachment; filename="${filename}"`,
-				'X-Learning-Guide-Title': `YR ${data.yearLevel} ${data.subject}, TERM ${data.term}`
+				'X-Learning-Guide-Title': `YR ${data.yearLevel} ${data.subject}, TERM ${data.term}`,
+				'X-Learning-Guide-Reused': reused ? '1' : '0'
 			}
 		});
 	} catch (e) {

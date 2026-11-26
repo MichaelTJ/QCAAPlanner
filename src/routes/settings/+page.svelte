@@ -2,7 +2,7 @@
 	import type { PageData } from './$types';
 	import { untrack } from 'svelte';
 	import type { Settings } from '$lib/types';
-	import { MODEL_CASCADE } from '$lib/gemini-models';
+	import { ENRICH_MODEL_CASCADE, MODEL_CASCADE } from '$lib/gemini-models';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 
@@ -56,11 +56,24 @@
 <div class="card">
 	<h2>Model cascade</h2>
 	<p class="meta">
-		When generating content, the app tries these models in order. If one is rate limited, it
-		automatically falls back to the next.
+		Generate (full ASPIRE scripts) tries these models in order. UI stays on Standard. The overnight
+		batch probes with a 120s timeout on the first week, then Flex-queues the model that just
+		worked. If one times out or returns 503, it falls back to the next. Weeks finished on an older
+		model can be upgraded later.
 	</p>
 	<ol>
-		{#each MODEL_CASCADE as model, i}
+		{#each MODEL_CASCADE as model (model.id)}
+			<li>
+				<strong>{model.label}</strong>
+				<span class="meta">({model.id})</span>
+			</li>
+		{/each}
+	</ol>
+	<p class="meta">
+		Enrich (one Enhance activity at a time) uses Flash-Lite:
+	</p>
+	<ol>
+		{#each ENRICH_MODEL_CASCADE as model (model.id)}
 			<li>
 				<strong>{model.label}</strong>
 				<span class="meta">({model.id})</span>

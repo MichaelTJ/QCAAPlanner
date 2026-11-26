@@ -1,4 +1,5 @@
 import { createId } from '$lib/defaults';
+import { learningGuideSourceHash } from '$lib/learning-guide-cache';
 import type { LearningGuideWeek } from '$lib/learning-guide-data';
 import { aiField } from '$lib/types';
 import type { UnitPlan } from '$lib/types';
@@ -127,5 +128,19 @@ export function applyLearningGuideToUnitPlan(
 }
 
 export function mergeLearningGuideImport(unit: UnitPlan, parsed: ParsedLearningGuideFields): UnitPlan {
-	return applyLearningGuideToUnitPlan(unit, parsed);
+	const plan = applyLearningGuideToUnitPlan(unit, parsed);
+	const vocabulary = parsed.vocabulary.trim();
+	if (!vocabulary) return plan;
+
+	const lastGenerated = new Date().toISOString();
+	plan.learningGuides = {
+		sourceHash: learningGuideSourceHash(plan),
+		summary: {
+			vocabulary,
+			weeks: parsed.weeks,
+			lastGenerated
+		},
+		detailed: { vocabulary, lastGenerated }
+	};
+	return plan;
 }

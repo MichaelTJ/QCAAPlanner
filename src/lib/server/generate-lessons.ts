@@ -8,7 +8,17 @@ import type {
 	LessonGenerateRequest,
 	LessonPlan
 } from '$lib/types';
-import { LESSON_REQUEST_TIMEOUT_MS, type GenerationUsage } from '$lib/gemini-models';
+import {
+	ENRICH_ACTIVITY_TIMEOUT_MS,
+	ENRICH_MODEL_CASCADE,
+	FLASH_LITE_MODEL,
+	FLEX_REQUEST_TIMEOUT_MS,
+	LESSON_REQUEST_TIMEOUT_MS,
+	type CascadeModel,
+	type GenerationResult,
+	type GenerationUsage
+} from '$lib/gemini-models';
+import { parseJsonLenient } from '$lib/server/repair-json';
 import {
 	inferWorkbookKindFromText,
 	parseMarkdownTableToWorkbook,
@@ -21,6 +31,7 @@ import {
 	WORKBOOK_ACTIVITY_KINDS,
 	workbookCatalogPromptBlock,
 	workbookChoosePassPrompt,
+	workbookKindEnrichPrompt,
 	type WorkbookActivity,
 	type WorkbookActivityKind
 } from '$lib/workbook/types';
@@ -99,12 +110,13 @@ ${workbookChoosePassPrompt()}
 Workbook kinds (${WORKBOOK_ACTIVITY_KINDS.join(', ')}):
 ${workbookCatalogPromptBlock()}`;
 
-function usageFromResult(result: Awaited<ReturnType<typeof generateContentWithCascade>>): GenerationUsage {
+function usageFromResult(result: GenerationResult): GenerationUsage {
 	return {
 		model: result.model,
 		modelLabel: result.modelLabel,
 		attemptedModels: result.attemptedModels,
-		usedFallback: result.usedFallback
+		usedFallback: result.usedFallback,
+		...(result.apiAccount ? { apiAccount: result.apiAccount } : {})
 	};
 }
 
@@ -158,7 +170,8 @@ function asEnhancePath(value: unknown, fallback: LessonEnhancePath = 'skill-buil
 function normalizeActivity(
 	raw: Record<string, unknown>,
 	path: LessonEnhancePath,
-	preserve?: LessonActivity
+	preserve?: LessonActivity,
+	options: { lockStructure?: boolean } = {}
 ): LessonActivity {
 	const pick = (key: keyof LessonActivity, fallback = ''): string => {
 		const next = asString(raw[key as string]);
@@ -221,6 +234,15 @@ function normalizeActivity(
 	}
 
 	const title = pick('title', 'Activity');
+	if (
+		options.lockStructure &&
+		preserve?.workbookKind &&
+		workbookSpec &&
+		workbookSpec.type !== preserve.workbookKind
+	) {
+		workbookSpec = preserve.workbookSpec;
+	}
+
 	if (workbookSpec?.type === 'table') {
 		workbookSpec = repairTableMatchDefine(
 			workbookSpec,
@@ -230,10 +252,14 @@ function normalizeActivity(
 
 	return {
 		id: preserve?.id || createId('lact'),
-		minutes: asMinutes(raw.minutes, preserve?.minutes ?? 10),
-		timeLabel,
-		title,
-		stage: asStage(raw.stage ?? preserve?.stage, path),
+		minutes: options.lockStructure
+			? (preserve?.minutes ?? asMinutes(raw.minutes, 10))
+			: asMinutes(raw.minutes, preserve?.minutes ?? 10),
+		timeLabel: options.lockStructure ? preserve?.timeLabel || timeLabel : timeLabel,
+		title: options.lockStructure ? preserve?.title || title : title,
+		stage: options.lockStructure
+			? (preserve?.stage ?? asStage(raw.stage, path))
+			: asStage(raw.stage ?? preserve?.stage, path),
 		teacherDoes: scrubWorkbook(pick('teacherDoes')),
 		studentsDo: scrubWorkbook(pick('studentsDo')),
 		visibleInstructions: scrubWorkbook(pick('visibleInstructions')),
@@ -241,7 +267,9 @@ function normalizeActivity(
 		scaffolding: scrubWorkbook(pick('scaffolding')),
 		eLearning: scrubWorkbook(pick('eLearning')),
 		transition: scrubWorkbook(pick('transition')),
-		workbookKind: resolvedKind,
+		workbookKind: options.lockStructure
+			? (preserve?.workbookKind ?? resolvedKind)
+			: resolvedKind,
 		workbookSpec,
 		workbookMaterials: scrubWorkbook(pick('workbookMaterials')),
 		teacherAnswerKey: scrubWorkbook(pick('teacherAnswerKey'))
@@ -326,25 +354,14 @@ function normalizeLesson(
 			nextSteps: scrub(pickLesson(culminateRaw.nextSteps, preserve?.culminate?.nextSteps ?? ''))
 		},
 		resources: scrub(pickLesson(raw.resources, preserve?.resources ?? '')),
-		lastGenerated
+		lastGenerated,
+		generatedWith: preserve?.generatedWith,
+		enrichedWith: preserve?.enrichedWith
 	};
 }
 
 function parseLessonsJson(text: string): Record<string, unknown>[] {
-	let parsed: unknown;
-	try {
-		parsed = JSON.parse(text);
-	} catch {
-		const arrayMatch = text.match(/\[[\s\S]*\]/);
-		const objectMatch = text.match(/\{[\s\S]*\}/);
-		if (arrayMatch) {
-			parsed = JSON.parse(arrayMatch[0]);
-		} else if (objectMatch) {
-			parsed = JSON.parse(objectMatch[0]);
-		} else {
-			throw new Error('Could not parse lesson response as JSON');
-		}
-	}
+	const parsed = parseJsonLenient(text);
 
 	if (Array.isArray(parsed)) {
 		return parsed.filter((item): item is Record<string, unknown> => item != null && typeof item === 'object');
@@ -363,6 +380,208 @@ function parseLessonsJson(text: string): Record<string, unknown>[] {
 	}
 
 	throw new Error('Lesson response was not a JSON array of lessons');
+}
+
+function activityFieldsList(): string {
+	return `{ minutes, timeLabel (clock range only, e.g. "10:00–20:00" — NEVER "I Do" / "We Do" / stage names), title, stage ("i-do"|"we-do"|"you-do" OR "vocabulary"|"guided-notes"|"generative"), teacherDoes, studentsDo, visibleInstructions, questioning, scaffolding, eLearning, transition, workbookKind, workbookSpec, workbookMaterials, teacherAnswerKey }`;
+}
+
+function preferModelFront(models: CascadeModel[], lastId?: string): CascadeModel[] {
+	if (!lastId || models.length < 2) return models;
+	const match = models.find((model) => model.id === lastId);
+	if (!match) return models;
+	return [match, ...models.filter((model) => model.id !== lastId)];
+}
+
+async function cascadeThenParse<T>(
+	params: Parameters<typeof generateContentWithCascade>[0],
+	parse: (text: string) => T
+): Promise<{ parsed: T; result: GenerationResult }> {
+	const cascade = [...(params.models?.length ? params.models : [])];
+	if (!cascade.length) {
+		const result = await generateContentWithCascade(params);
+		return { parsed: parse(result.text), result };
+	}
+
+	let start = 0;
+	let lastParse: unknown;
+	const extraAttempts: GenerationResult['attemptedModels'] = [];
+	while (start < cascade.length) {
+		const result = await generateContentWithCascade({
+			...params,
+			models: cascade.slice(start)
+		});
+		try {
+			const parsed = parse(result.text);
+			return {
+				parsed,
+				result: {
+					...result,
+					attemptedModels: [...extraAttempts, ...result.attemptedModels]
+				}
+			};
+		} catch (error) {
+			lastParse = error;
+			const used = cascade.slice(start).findIndex((model) => model.id === result.model);
+			extraAttempts.push(
+				...result.attemptedModels.map((attempt) =>
+					attempt.model === result.model && !attempt.error
+						? { ...attempt, error: error instanceof Error ? error.message : String(error) }
+						: attempt
+				)
+			);
+			start += (used < 0 ? 0 : used) + 1;
+		}
+	}
+	throw lastParse instanceof Error
+		? lastParse
+		: new Error('All models returned unparseable JSON');
+}
+
+function parseActivityJson(text: string): Record<string, unknown> {
+	const parsed = parseJsonLenient(text);
+
+	if (Array.isArray(parsed)) {
+		const first = parsed.find((item) => item != null && typeof item === 'object');
+		if (first && typeof first === 'object') return first as Record<string, unknown>;
+		throw new Error('Activity response was an empty array');
+	}
+
+	if (parsed && typeof parsed === 'object') {
+		const obj = parsed as { activity?: unknown };
+		if (obj.activity && typeof obj.activity === 'object') {
+			return obj.activity as Record<string, unknown>;
+		}
+		return parsed as Record<string, unknown>;
+	}
+
+	throw new Error('Activity response was not a JSON object');
+}
+
+function mergeUsage(parts: GenerationUsage[]): GenerationUsage {
+	if (parts.length === 0) {
+		return {
+			model: FLASH_LITE_MODEL.id,
+			modelLabel: FLASH_LITE_MODEL.label,
+			attemptedModels: [],
+			usedFallback: false
+		};
+	}
+	const last = parts[parts.length - 1];
+	return {
+		model: last.model,
+		modelLabel: last.modelLabel,
+		attemptedModels: parts.flatMap((part) => part.attemptedModels),
+		usedFallback: parts.some((part) => part.usedFallback),
+		...(last.apiAccount ? { apiAccount: last.apiAccount } : {})
+	};
+}
+
+const ACTIVITY_ENRICH_RULES = `Concrete materials for THIS activity only:
+- Call it a "workbook" (never "digital workbook").
+- workbookSpec: JSON object with "type" equal to workbookKind. NEVER markdown pipe tables. Table cells MUST use mode locked|blank|tick. Ranking MUST use bank + empty slots. Cloze MUST use {{1}} in the sentence. written 3-2-1 MUST use sections. media youtube: searchTerms ONLY. media website: real URL from stimulusBank only.
+- MATCH word↔definition: locked terms, blank Match column, AND bank of definitions (same count). Do not lock definitions into the grid.
+- DEFINE n terms: exactly n table rows.
+- Ban placeholders: [Link], [Business Name], [URL].
+- workbookMaterials: short editor caption only.
+- studentsDo / visibleInstructions: student-facing only. No "Laptops down" / "eyes up".
+- teacherDoes: delivery script + modelled examples.
+- questioning: 2–4 inferential questions each with Expected: … No Pause/Name scripts.
+- scaffolding: FULL lists/definitions.
+- teacherAnswerKey: complete worked answers as a plain STRING.
+- modelAnswer on workbookSpec is teacher-only.`;
+
+function activityEnrichSystem(school: string, aiTone: string): string {
+	return `You enrich ONE existing Enhance activity with printable workbook content and teacher answer keys.
+School: ${school}
+Tone: ${aiTone}
+Australian English.
+Respond with valid JSON only — a single activity object, no markdown fences, no lesson wrapper.
+
+Keep minutes, timeLabel, title, stage, and workbookKind unchanged.
+Fill teacherDoes, studentsDo, visibleInstructions, questioning, scaffolding, eLearning, transition, workbookSpec, workbookMaterials, teacherAnswerKey.
+
+${ACTIVITY_ENRICH_RULES}`;
+}
+
+function activityEnrichUserPrompt(params: {
+	aiNotes: string;
+	weekContext: LessonGenerateRequest['weekContext'];
+	lesson: LessonPlan;
+	activity: LessonActivity;
+	activityIndex: number;
+	activityCount: number;
+}): string {
+	const resolvedKind: WorkbookActivityKind =
+		resolveWorkbookKind(params.activity.workbookKind) ??
+		params.activity.workbookSpec?.type ??
+		'table';
+
+	return `Enrich Enhance activity ${params.activityIndex + 1} of ${params.activityCount} in lesson ${params.lesson.lessonNumber} "${params.lesson.title}".
+
+Do not change minutes, timeLabel, title, stage, or workbookKind.
+
+${workbookKindEnrichPrompt(resolvedKind)}
+
+Stimulus bank (use these — do not invent fake URLs):
+${JSON.stringify(YEPPOON_STIMULUS_BANK)}
+
+Lesson context (read-only):
+${JSON.stringify({
+		lessonNumber: params.lesson.lessonNumber,
+		title: params.lesson.title,
+		enhancePath: params.lesson.enhancePath,
+		learningGoal: params.lesson.learningGoal,
+		week: params.weekContext
+	})}
+
+Existing activity:
+${JSON.stringify(params.activity)}
+
+User instructions:
+${params.aiNotes || '(Fully flesh out workbookSpec and answer keys.)'}
+
+Return one JSON object with fields:
+${activityFieldsList()}`;
+}
+
+async function enrichOneActivity(params: {
+	school: string;
+	aiTone: string;
+	aiNotes: string;
+	weekContext: LessonGenerateRequest['weekContext'];
+	lesson: LessonPlan;
+	activity: LessonActivity;
+	activityIndex: number;
+	activityCount: number;
+	models?: LessonGenerateRequest['models'];
+	serviceTier?: LessonGenerateRequest['serviceTier'];
+}): Promise<{ activity: LessonActivity; usage: GenerationUsage }> {
+	const userPrompt = activityEnrichUserPrompt(params);
+
+	const { parsed: raw, result } = await cascadeThenParse(
+		{
+			contents: userPrompt,
+			models: params.models?.length ? params.models : [...ENRICH_MODEL_CASCADE],
+			config: {
+				systemInstruction: activityEnrichSystem(params.school, params.aiTone),
+				maxOutputTokens: 8192,
+				responseMimeType: 'application/json',
+				timeoutMs: ENRICH_ACTIVITY_TIMEOUT_MS,
+				thinkingLevel: 'low',
+				...(params.serviceTier === 'flex' && !params.models?.some((model) => model.serviceTier)
+					? { serviceTier: 'flex' as const, timeoutMs: FLEX_REQUEST_TIMEOUT_MS }
+					: {})
+			}
+		},
+		parseActivityJson
+	);
+	return {
+		activity: normalizeActivity(raw, params.lesson.enhancePath, params.activity, {
+			lockStructure: true
+		}),
+		usage: usageFromResult(result)
+	};
 }
 
 function buildSystemInstruction(school: string, aiTone: string, mode: 'generate' | 'enrich'): string {
@@ -399,10 +618,6 @@ Mandatory Instructional Strategies & Routines:
 ${MATERIALS_REQUIREMENTS}`;
 }
 
-function activityFieldsList(): string {
-	return `{ minutes, timeLabel (clock range only, e.g. "10:00–20:00" — NEVER "I Do" / "We Do" / stage names), title, stage ("i-do"|"we-do"|"you-do" OR "vocabulary"|"guided-notes"|"generative"), teacherDoes, studentsDo, visibleInstructions, questioning, scaffolding, eLearning, transition, workbookKind, workbookSpec, workbookMaterials, teacherAnswerKey }`;
-}
-
 export async function generateWeekLessons(request: LessonGenerateRequest) {
 	const settings = await getSettings();
 	const [levelPlan, unit] = await Promise.all([
@@ -410,12 +625,13 @@ export async function generateWeekLessons(request: LessonGenerateRequest) {
 		getUnitPlan(request.levelPlanId, request.unitId)
 	]);
 
-	if (!levelPlan || !unit) throw new Error('Level plan or unit plan not found');
+	if (!unit) {
+		throw new Error(`Unit plan not found: ${request.levelPlanId}/${request.unitId}`);
+	}
 
 	const mode = request.mode === 'enrich' ? 'enrich' : 'generate';
 	const singleLesson = request.lessonNumber != null && request.lessonNumber >= 1;
 	const targetLessonNumber = singleLesson ? Number(request.lessonNumber) : null;
-	const forcedPath = request.enhancePath;
 	const existing = [...(request.existingLessons ?? [])].sort(
 		(a, b) => a.lessonNumber - b.lessonNumber
 	);
@@ -435,6 +651,135 @@ export async function generateWeekLessons(request: LessonGenerateRequest) {
 			technique: String(a.technique.value)
 		}));
 
+	if (mode === 'enrich') {
+		const lastGenerated = new Date().toISOString();
+		const targets =
+			singleLesson && targetLessonNumber != null
+				? existing.filter((lesson) => lesson.lessonNumber === targetLessonNumber)
+				: existing;
+		if (targets.length === 0) {
+			throw new Error('Enrich mode produced no lessons');
+		}
+
+		const usages: GenerationUsage[] = [];
+		const enrichedByNumber = new Map<number, LessonPlan>();
+		let lastEnrichId: string | undefined;
+
+		for (const lesson of targets) {
+			const activities: LessonActivity[] = [];
+			const source = lesson.enhance.activities;
+			const lessonUsages: GenerationUsage[] = [];
+			for (let i = 0; i < source.length; i++) {
+				const { activity, usage } = await enrichOneActivity({
+					school: settings.school,
+					aiTone: settings.aiTone,
+					aiNotes: request.aiNotes,
+					weekContext: request.weekContext,
+					lesson,
+					activity: source[i],
+					activityIndex: i,
+					activityCount: source.length,
+					models: preferModelFront(
+						request.models?.length ? request.models : [...ENRICH_MODEL_CASCADE],
+						lastEnrichId
+					),
+					serviceTier: request.serviceTier
+				});
+				lastEnrichId = usage.model;
+				lessonUsages.push(usage);
+				usages.push(usage);
+				activities.push(activity);
+			}
+			enrichedByNumber.set(lesson.lessonNumber, {
+				...lesson,
+				enhance: { activities },
+				lastGenerated,
+				enrichedWith: mergeUsage(lessonUsages).model || lesson.enrichedWith
+			});
+		}
+
+		const lessons = existing.map(
+			(lesson) => enrichedByNumber.get(lesson.lessonNumber) ?? lesson
+		);
+		for (const [lessonNumber, lesson] of enrichedByNumber) {
+			if (!lessons.some((item) => item.lessonNumber === lessonNumber)) {
+				lessons.push(lesson);
+			}
+		}
+		lessons.sort((a, b) => a.lessonNumber - b.lessonNumber);
+
+		return {
+			weekNumber: request.weekNumber,
+			lessons,
+			mode,
+			lastGenerated,
+			...mergeUsage(usages)
+		};
+	}
+
+	const prep = composeGeneratePrompt({
+		request,
+		settings,
+		levelPlan,
+		unit,
+		existing,
+		unitTitle,
+		description,
+		assessments
+	});
+
+	const { parsed, result } = await cascadeThenParse(
+		{
+			contents: prep.userPrompt,
+			...(request.models?.length ? { models: request.models } : {}),
+			config: {
+				systemInstruction: prep.systemInstruction,
+				maxOutputTokens: 16384,
+				responseMimeType: 'application/json',
+				timeoutMs: LESSON_REQUEST_TIMEOUT_MS,
+				thinkingLevel: 'low',
+				...(request.serviceTier === 'flex' && !request.models?.some((model) => model.serviceTier)
+					? { serviceTier: 'flex' as const, timeoutMs: FLEX_REQUEST_TIMEOUT_MS }
+					: {})
+			}
+		},
+		parseLessonsJson
+	);
+
+	const lastGenerated = new Date().toISOString();
+	return {
+		weekNumber: request.weekNumber,
+		lessons: buildGeneratedLessons(prep, parsed, result.model, lastGenerated),
+		mode,
+		lastGenerated,
+		...usageFromResult(result)
+	};
+}
+
+type GeneratePrep = {
+	systemInstruction: string;
+	userPrompt: string;
+	existing: LessonPlan[];
+	singleLesson: boolean;
+	targetLessonNumber: number | null;
+	forcedPath?: LessonEnhancePath;
+};
+
+function composeGeneratePrompt(args: {
+	request: LessonGenerateRequest;
+	settings: Awaited<ReturnType<typeof getSettings>>;
+	levelPlan: Awaited<ReturnType<typeof getLevelPlan>>;
+	unit: NonNullable<Awaited<ReturnType<typeof getUnitPlan>>>;
+	existing: LessonPlan[];
+	unitTitle: string;
+	description: string;
+	assessments: Array<{ title: string; description: string; timing: string; technique: string }>;
+}): GeneratePrep {
+	const { request, settings, levelPlan, unit, existing, unitTitle, description, assessments } = args;
+	const singleLesson = request.lessonNumber != null && request.lessonNumber >= 1;
+	const targetLessonNumber = singleLesson ? Number(request.lessonNumber) : null;
+	const forcedPath = request.enhancePath;
+
 	const context = {
 		targetUnit: {
 			title: unitTitle,
@@ -445,8 +790,8 @@ export async function generateWeekLessons(request: LessonGenerateRequest) {
 			assessments
 		},
 		band: {
-			bandSubjectTitle: levelPlan.bandSubjectTitle.value,
-			year: levelPlan.year.value
+			bandSubjectTitle: String(levelPlan?.bandSubjectTitle.value ?? unit.subject.value),
+			year: String(levelPlan?.year.value ?? unit.yearLevel.value)
 		},
 		week: request.weekContext,
 		nextWeekOutlineTheme: request.nextWeekOutlineTheme ?? '',
@@ -460,57 +805,22 @@ export async function generateWeekLessons(request: LessonGenerateRequest) {
 		}
 	};
 
-	let userPrompt: string;
+	const reviseNote =
+		existing.length > 0 && request.aiNotes?.trim()
+			? 'Existing lessons for this week are in existingLessons. Revise them using the user instructions; do not ignore the feedback or shrink content into stubs.'
+			: existing.length > 0
+				? 'Existing lessons for this week are in existingLessons — improve clarity and ASPIRE fidelity while keeping the same progression across the three lessons.'
+				: '';
 
-	if (mode === 'enrich') {
-		const scope = singleLesson
-			? `Enrich exactly ONE lesson: lessonNumber ${targetLessonNumber}. Return a JSON array with that single enriched lesson.`
-			: `Enrich all ${existing.length} existing lessons for week ${request.weekNumber}. Return a JSON array with the same lessonNumbers in order.`;
+	const singleNote = singleLesson
+		? `Generate exactly ONE lesson: lessonNumber ${targetLessonNumber} only. Return a JSON array with a single lesson object (or {"lessons":[...]} with one item).`
+		: `Generate exactly ${LESSONS_PER_WEEK} lessons for week ${request.weekNumber}. Return a JSON array of ${LESSONS_PER_WEEK} lesson objects in order (lessonNumber 1, 2, 3). Distribute the week's theory and prac across the three lessons so together they cover the week's outlineTheme and weekly detail without repeating the same activity.`;
 
-		userPrompt = `${scope}
+	const pathNote = forcedPath
+		? `This lesson MUST use enhancePath "${forcedPath}".`
+		: 'Choose enhancePath per lesson based on content (skill-building for prac/skill focus; knowledge-building for theory/concept focus). Mix paths across the week when appropriate.';
 
-This is a MATERIALS pass. Keep titles, enhancePath, timing, stages, workbookKind, and activity count aligned with existingLessons. Do not invent a different lesson arc.
-
-For every activity, expand or rewrite these fields so nothing is a vague reference:
-${MATERIALS_REQUIREMENTS}
-
-For each activity, emit workbookSpec as a JSON object matching the activity's workbookKind (type field must equal workbookKind) with concrete content ready to print. NEVER emit markdown tables. Table cells MUST use mode locked|blank|tick. Ranking MUST use bank + empty slots. Cloze MUST use {{1}} blanks in the sentence. title = student-facing heading (never "Workbook task"). Include modelAnswer (teacher-only) and teacherAnswerKey with full definitions/answers. Website URLs only from stimulusBank; YouTube = searchTerms only (never invent youtube.com links). Say "workbook" not "digital workbook".
-
-Also refresh teacherDoes and questioning so they include concrete modelled examples (teacherDoes) and multiple questions with expected answers (questioning) — no Pause/Name scripts — with full keys in teacherAnswerKey.
-
-Preserve lessonNumber. Keep the same number of enhance.activities in the same order (match by index / title).
-
-Each lesson object fields:
-- lessonNumber, title, enhancePath, learningGoal
-- orientate: { smartStart, learningGoalDisplay }
-- enhance: { activities: [ ${activityFieldsList()} ] }
-- culminate: { smartFinish, summarise, nextSteps }
-- resources
-
-User instructions:
-${request.aiNotes || '(No specific instructions — fully flesh out materials and answer keys.)'}
-
-Context:
-${JSON.stringify(context, null, 2)}
-
-Respond with valid JSON only.`;
-	} else {
-		const reviseNote =
-			existing.length > 0 && request.aiNotes?.trim()
-				? 'Existing lessons for this week are in existingLessons. Revise them using the user instructions; do not ignore the feedback or shrink content into stubs.'
-				: existing.length > 0
-					? 'Existing lessons for this week are in existingLessons — improve clarity and ASPIRE fidelity while keeping the same progression across the three lessons.'
-					: '';
-
-		const singleNote = singleLesson
-			? `Generate exactly ONE lesson: lessonNumber ${targetLessonNumber} only. Return a JSON array with a single lesson object (or {"lessons":[...]} with one item).`
-			: `Generate exactly ${LESSONS_PER_WEEK} lessons for week ${request.weekNumber}. Return a JSON array of ${LESSONS_PER_WEEK} lesson objects in order (lessonNumber 1, 2, 3). Distribute the week's theory and prac across the three lessons so together they cover the week's outlineTheme and weekly detail without repeating the same activity.`;
-
-		const pathNote = forcedPath
-			? `This lesson MUST use enhancePath "${forcedPath}".`
-			: 'Choose enhancePath per lesson based on content (skill-building for prac/skill focus; knowledge-building for theory/concept focus). Mix paths across the week when appropriate.';
-
-		userPrompt = `${singleNote}
+	const userPrompt = `${singleNote}
 ${pathNote}
 ${reviseNote}
 
@@ -536,22 +846,24 @@ Context:
 ${JSON.stringify(context, null, 2)}
 
 Respond with valid JSON only.`;
-	}
 
-	const result = await generateContentWithCascade({
-		contents: userPrompt,
-		...(request.models?.length ? { models: request.models } : {}),
-		config: {
-			systemInstruction: buildSystemInstruction(settings.school, settings.aiTone, mode),
-			maxOutputTokens: 16384,
-			responseMimeType: 'application/json',
-			timeoutMs: LESSON_REQUEST_TIMEOUT_MS
-		}
-	});
+	return {
+		systemInstruction: buildSystemInstruction(settings.school, settings.aiTone, 'generate'),
+		userPrompt,
+		existing,
+		singleLesson,
+		targetLessonNumber,
+		forcedPath
+	};
+}
 
-	const lastGenerated = new Date().toISOString();
-	const parsed = parseLessonsJson(result.text);
-
+function buildGeneratedLessons(
+	prep: GeneratePrep,
+	parsed: Record<string, unknown>[],
+	model: string,
+	lastGenerated: string
+): LessonPlan[] {
+	const { existing, singleLesson, targetLessonNumber, forcedPath } = prep;
 	let lessons: LessonPlan[];
 	if (singleLesson && targetLessonNumber != null) {
 		const raw =
@@ -563,8 +875,7 @@ Respond with valid JSON only.`;
 			targetLessonNumber,
 			lastGenerated,
 			forcedPath,
-			preserve,
-			{ enrich: mode === 'enrich' }
+			preserve
 		);
 		if (existing.length === 0) {
 			lessons = [generated];
@@ -575,18 +886,6 @@ Respond with valid JSON only.`;
 			if (!lessons.some((l) => l.lessonNumber === targetLessonNumber)) {
 				lessons = [...lessons, generated].sort((a, b) => a.lessonNumber - b.lessonNumber);
 			}
-		}
-	} else if (mode === 'enrich') {
-		lessons = existing.map((ex, index) => {
-			const raw =
-				parsed.find((p) => Number(p.lessonNumber) === ex.lessonNumber) ?? parsed[index];
-			if (!raw) return ex;
-			return normalizeLesson(raw, ex.lessonNumber, lastGenerated, undefined, ex, {
-				enrich: true
-			});
-		});
-		if (lessons.length === 0) {
-			throw new Error('Enrich mode produced no lessons');
 		}
 	} else {
 		lessons = parsed.slice(0, LESSONS_PER_WEEK).map((raw, index) =>
@@ -604,11 +903,117 @@ Respond with valid JSON only.`;
 		}
 	}
 
-	return {
-		weekNumber: request.weekNumber,
-		lessons,
-		mode,
+	// A regenerated lesson has not been enriched yet, even if the lesson it replaced was.
+	return lessons.map((lesson) =>
+		singleLesson && targetLessonNumber != null && lesson.lessonNumber !== targetLessonNumber
+			? lesson
+			: { ...lesson, generatedWith: model, enrichedWith: undefined }
+	);
+}
+
+async function loadGeneratePrep(request: LessonGenerateRequest): Promise<GeneratePrep> {
+	const settings = await getSettings();
+	const [levelPlan, unit] = await Promise.all([
+		getLevelPlan(request.levelPlanId),
+		getUnitPlan(request.levelPlanId, request.unitId)
+	]);
+	if (!unit) {
+		throw new Error(`Unit plan not found: ${request.levelPlanId}/${request.unitId}`);
+	}
+	return composeGeneratePrompt({
+		request,
+		settings,
+		levelPlan,
+		unit,
+		existing: [...(request.existingLessons ?? [])].sort((a, b) => a.lessonNumber - b.lessonNumber),
+		unitTitle: request.unitSnapshot?.unitTitle ?? String(unit.unitTitle.value),
+		description: request.unitSnapshot?.description ?? String(unit.unitDescription.value),
+		assessments:
+			request.unitSnapshot?.assessments ??
+			unit.assessments.map((a) => ({
+				title: String(a.title.value),
+				description: String(a.description.value),
+				timing: String(a.timing.value),
+				technique: String(a.technique.value)
+			}))
+	});
+}
+
+/** The exact generate prompt the API path sends, for answering outside the Gemini API. */
+export async function buildGenerateWeekPrompt(request: LessonGenerateRequest) {
+	const prep = await loadGeneratePrep(request);
+	return { systemInstruction: prep.systemInstruction, userPrompt: prep.userPrompt };
+}
+
+function enrichKey(lesson: LessonPlan, activityIndex: number) {
+	return `L${lesson.lessonNumber}A${activityIndex + 1}`;
+}
+
+/**
+ * Every activity's enrich prompt for a week (same text the API sends one call at a time),
+ * keyed L{lesson}A{activity} so a single external answer can cover the whole week.
+ */
+export async function buildEnrichWeekPrompt(request: LessonGenerateRequest) {
+	const settings = await getSettings();
+	const lessons = [...(request.existingLessons ?? [])].sort((a, b) => a.lessonNumber - b.lessonNumber);
+	if (!lessons.length) throw new Error('Enrich mode requires existingLessons for this week');
+	const sections = lessons.flatMap((lesson) =>
+		lesson.enhance.activities.map((activity, index) => ({
+			key: enrichKey(lesson, index),
+			prompt: activityEnrichUserPrompt({
+				aiNotes: request.aiNotes,
+				weekContext: request.weekContext,
+				lesson,
+				activity,
+				activityIndex: index,
+				activityCount: lesson.enhance.activities.length
+			})
+		}))
+	);
+	return { systemInstruction: activityEnrichSystem(settings.school, settings.aiTone), sections };
+}
+
+/** Apply an external week enrich answer: one JSON object mapping L{n}A{i} → activity. */
+export function enrichLessonsFromText(
+	request: LessonGenerateRequest,
+	text: string,
+	model: string
+): LessonPlan[] {
+	const parsed = parseJsonLenient(text);
+	if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+		throw new Error('Enrich response must be one JSON object keyed L1A1, L1A2, …');
+	}
+	const byKey = parsed as Record<string, unknown>;
+	const lessons = [...(request.existingLessons ?? [])].sort((a, b) => a.lessonNumber - b.lessonNumber);
+	const missing: string[] = [];
+	const lastGenerated = new Date().toISOString();
+	const enriched = lessons.map((lesson) => ({
+		...lesson,
 		lastGenerated,
-		...usageFromResult(result)
-	};
+		enrichedWith: model,
+		enhance: {
+			activities: lesson.enhance.activities.map((activity, index) => {
+				const key = enrichKey(lesson, index);
+				const value = byKey[key];
+				if (!value || typeof value !== 'object') {
+					missing.push(key);
+					return activity;
+				}
+				const raw = parseActivityJson(JSON.stringify(value));
+				return normalizeActivity(raw, lesson.enhancePath, activity, { lockStructure: true });
+			})
+		}
+	}));
+	if (missing.length) throw new Error(`Enrich response is missing activities: ${missing.join(', ')}`);
+	return enriched;
+}
+
+/** Parse + normalise a generate response produced outside the Gemini API. */
+export async function lessonsFromGenerateText(
+	request: LessonGenerateRequest,
+	text: string,
+	model: string
+): Promise<LessonPlan[]> {
+	const prep = await loadGeneratePrep(request);
+	return buildGeneratedLessons(prep, parseLessonsJson(text), model, new Date().toISOString());
 }

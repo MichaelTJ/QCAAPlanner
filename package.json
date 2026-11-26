@@ -15,7 +15,10 @@
 		"lessons:batch": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts",
 		"lessons:batch:status": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --status",
 		"lessons:batch:wait": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --wait",
-		"lessons:batch:upgrade": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --upgrade"
+		"lessons:batch:upgrade": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --upgrade",
+		"lessons:batch:upgrade:wait": "tsx --tsconfig scripts/tsconfig.json scripts/generate-dt-lessons.ts --upgrade --wait",
+		"lessons:agent": "tsx --tsconfig scripts/tsconfig.json scripts/lessons-agent.ts",
+		"gemini:probe": "tsx --tsconfig scripts/tsconfig.json scripts/probe-gemini.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",

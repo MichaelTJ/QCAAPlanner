@@ -38,8 +38,8 @@ export const PUT: RequestHandler = async ({ params, request }) => {
 	if (plan.levelPlanId !== params.levelPlanId) {
 		return json({ message: 'Level plan ID mismatch' }, { status: 400 });
 	}
-	await saveUnitPlan(plan);
-	return json(plan);
+	const saved = await saveUnitPlan(plan);
+	return json(saved);
 };
 
 export const DELETE: RequestHandler = async ({ params, url }) => {

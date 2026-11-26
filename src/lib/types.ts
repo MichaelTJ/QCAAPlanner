@@ -201,6 +201,10 @@ export interface LessonPlan {
 	culminate: LessonCulminate;
 	resources: string;
 	lastGenerated?: string;
+	/** Model id that produced the ASPIRE script (generate pass). */
+	generatedWith?: string;
+	/** Model id that last filled workbook materials (enrich pass). */
+	enrichedWith?: string;
 }
 
 export interface TeachingWeek {
@@ -236,6 +240,27 @@ export interface UnitPlan {
 	generalCapabilities: UnitGeneralCapability[];
 	teachingSequence: TeachingWeek[];
 	evaluation: AiField;
+	/** Saved AI learning guides, reused on export until unit content changes. */
+	learningGuides?: SavedLearningGuides;
+}
+
+export interface SavedLearningGuideWeek {
+	week: number | '';
+	title: string;
+	bullets: string[];
+}
+
+export interface SavedLearningGuideVariant {
+	vocabulary: string;
+	/** Summary guides store AI-condensed weeks; detailed guides rebuild weeks from the unit. */
+	weeks?: SavedLearningGuideWeek[];
+	lastGenerated: string;
+}
+
+export interface SavedLearningGuides {
+	sourceHash: string;
+	summary?: SavedLearningGuideVariant;
+	detailed?: SavedLearningGuideVariant;
 }
 
 export interface AssessmentCheckpoint {
@@ -426,8 +451,15 @@ export interface LessonGenerateRequest {
 	priorLessons?: LessonGeneratePriorLesson[];
 	/** Existing lessons for this week when revising or enriching. */
 	existingLessons?: LessonPlan[];
-	/** Override the default model cascade (batch runs use 3.8 Flash only). */
-	models?: Array<{ id: string; label: string }>;
+	/** Override the default cascade. Generate uses Flash; enrich uses Flash-Lite unless set. */
+	models?: Array<{
+		id: string;
+		label: string;
+		timeoutMs?: number;
+		serviceTier?: 'flex' | 'standard' | 'priority';
+	}>;
+	/** Batch overnight jobs use Flex; the UI omits this (Standard). */
+	serviceTier?: 'flex';
 }
 
 export interface CapabilitiesGenerateRequest {
@@ -455,6 +487,8 @@ export interface UnitPlanSummary {
 	isStandalone: boolean;
 	curriculumLabel: string;
 	curriculumSortKey: string;
+	/** True when any teaching week already has saved ASPIRE lessons. */
+	hasLessons: boolean;
 }
 
 export interface OverviewUnitEntry {

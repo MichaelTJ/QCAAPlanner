@@ -4,6 +4,7 @@ import { syncUnitPlansIntoLevelPlan } from '$lib/plan-sync';
 import {
 	getFacultyIndex,
 	getLevelPlan,
+	getSettings,
 	getUnitPlan,
 	listAssessmentItems,
 	listUnitPlans
@@ -16,16 +17,21 @@ import {
 	levelPlanExportFilename,
 	lessonPlansStudentExportFilename,
 	lessonPlansTeacherExportFilename,
+	lessonPlansTeacherPptxExportFilename,
 	unitPlanExportFilename,
 	unitPlanExportFolderName
 } from './export-filenames';
 import { buildLessonPlansStudentDocx, buildLessonPlansTeacherDocx, weeksWithLessons } from './lesson-plans-docx';
+import { buildLessonPlansTeacherPptx } from './lesson-plans-pptx';
 import { buildLevelPlanDocx } from './level-plan-docx';
 import { buildUnitPlanDocx } from './unit-plan-docx';
 
 export type LevelPlanBundleOptions = {
-	/** Include summary + detailed learning guides (AI). Default false. */
+	/** Include summary + detailed learning guides. Default false.
+	 *  Guides are generated with AI on first export, then reused until unit content changes. */
 	learningGuides?: boolean;
+	/** School name for lesson teacher/student/PPTX headers. */
+	school?: string;
 };
 
 function uniqueName(base: string, used: Set<string>): string {
@@ -33,8 +39,9 @@ function uniqueName(base: string, used: Set<string>): string {
 		used.add(base);
 		return base;
 	}
-	const stem = base.replace(/\.docx$/i, '');
-	const ext = base.endsWith('.docx') ? '.docx' : '';
+	const extMatch = base.match(/(\.(docx|pptx))$/i);
+	const ext = extMatch?.[1] ?? '';
+	const stem = ext ? base.slice(0, -ext.length) : base;
 	let n = 2;
 	while (used.has(`${stem}-${n}${ext}`)) n += 1;
 	const unique = `${stem}-${n}${ext}`;
@@ -88,7 +95,8 @@ async function addUnitFolder(
 	zip: AdmZip,
 	unitFolder: string,
 	unit: UnitPlan,
-	assessments: AssessmentItem[]
+	assessments: AssessmentItem[],
+	school: string
 ) {
 	zip.addFile(`${unitFolder}/${unitPlanExportFilename(unit)}`, await buildUnitPlanDocx(unit));
 
@@ -96,8 +104,10 @@ async function addUnitFolder(
 	if (weeksWithLessons(unit).length) {
 		const teacherName = uniqueName(lessonPlansTeacherExportFilename(unit), usedFiles);
 		const studentName = uniqueName(lessonPlansStudentExportFilename(unit), usedFiles);
-		zip.addFile(`${unitFolder}/${teacherName}`, await buildLessonPlansTeacherDocx(unit));
-		zip.addFile(`${unitFolder}/${studentName}`, await buildLessonPlansStudentDocx(unit));
+		const pptxName = uniqueName(lessonPlansTeacherPptxExportFilename(unit), usedFiles);
+		zip.addFile(`${unitFolder}/${teacherName}`, await buildLessonPlansTeacherDocx(unit, school));
+		zip.addFile(`${unitFolder}/${studentName}`, await buildLessonPlansStudentDocx(unit, school));
+		zip.addFile(`${unitFolder}/${pptxName}`, await buildLessonPlansTeacherPptx(unit, school));
 	}
 	for (const item of assessments) {
 		const filename = uniqueName(assessmentItemExportFilename(item), usedFiles);
@@ -113,6 +123,7 @@ async function addLevelPlanFolder(
 	const folder = plan.id;
 	const unitPlans = await listUnitPlans(plan.id);
 	syncUnitPlansIntoLevelPlan(plan, unitPlans);
+	const school = options.school ?? (await getSettings()).school;
 
 	zip.addFile(`${folder}/${levelPlanExportFilename(plan)}`, await buildLevelPlanDocx(plan));
 
@@ -124,7 +135,7 @@ async function addLevelPlanFolder(
 		for (const item of assessments) includedAssessmentIds.add(item.id);
 
 		const unitFolder = `${folder}/units/${uniqueUnitFolderName(unit, usedUnitFolders)}`;
-		await addUnitFolder(zip, unitFolder, unit, assessments);
+		await addUnitFolder(zip, unitFolder, unit, assessments, school);
 
 		if (options.learningGuides) {
 			await addLearningGuides(zip, unitFolder, unit);
@@ -149,10 +160,11 @@ export async function buildUnitPlanBundleZip(
 	const unit = await getUnitPlan(levelPlanId, unitId);
 	if (!unit) throw new Error('Unit plan not found');
 
+	const school = (await getSettings()).school;
 	const zip = new AdmZip();
 	const assessments = await assessmentsForUnitPlan(unit);
 	const unitFolder = unitPlanExportFolderName(unit);
-	await addUnitFolder(zip, unitFolder, unit, assessments);
+	await addUnitFolder(zip, unitFolder, unit, assessments, school);
 	await addLearningGuides(zip, unitFolder, unit);
 	return zip.toBuffer();
 }
@@ -162,8 +174,9 @@ export async function buildLevelPlanBundleZip(levelPlanId: string): Promise<Buff
 	const plan = await getLevelPlan(levelPlanId);
 	if (!plan) throw new Error('Level plan not found');
 
+	const school = (await getSettings()).school;
 	const zip = new AdmZip();
-	await addLevelPlanFolder(zip, plan, { learningGuides: true });
+	await addLevelPlanFolder(zip, plan, { learningGuides: true, school });
 	return zip.toBuffer();
 }
 
@@ -171,11 +184,12 @@ export async function buildLevelPlanBundleZip(levelPlanId: string): Promise<Buff
 export async function buildFacultyBundleZip(): Promise<Buffer> {
 	const zip = new AdmZip();
 	const index = await getFacultyIndex();
+	const school = (await getSettings()).school;
 
 	for (const row of index.rows) {
 		const plan = await getLevelPlan(row.id);
 		if (!plan) continue;
-		await addLevelPlanFolder(zip, plan, { learningGuides: true });
+		await addLevelPlanFolder(zip, plan, { learningGuides: true, school });
 	}
 
 	return zip.toBuffer();

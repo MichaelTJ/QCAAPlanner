@@ -518,6 +518,72 @@
           }
         }
       ]
+    },
+    {
+      "id": "unit-c2c3a1e7",
+      "unitTitle": {
+        "value": "Immersive Environments: Virtual Interior Architecture",
+        "aiNotes": ""
+      },
+      "yearLevel": {
+        "value": 10,
+        "aiNotes": ""
+      },
+      "duration": {
+        "value": "8 weeks",
+        "aiNotes": ""
+      },
+      "description": {
+        "value": "In this 8-week unit, students explore interior design through a human-centred design approach within the built environments context. They investigate how people experience and interact with interior spaces, considering client needs, ergonomics, accessibility, spatial planning, movement and aesthetic principles. Students analyse existing interiors to identify how layout, scale, proportion, lighting, colour, furniture and visual style can influence the function, comfort and experience of a space. Virtual reality (VR) is used as an immersive design tool, allowing students to experience spaces at 1:1 scale and evaluate how effectively design decisions respond to the needs of users.\n\nApplying an iterative design process, students develop an interior environment in response to a simulated client brief. They explore the client's needs and preferences, establish design criteria, generate alternative spatial concepts and progressively refine their preferred solution. Using 3D modelling and visualisation software, students create and test their interior design through virtual walkthroughs, using feedback and observations to improve spatial layout, usability and aesthetic qualities. The unit culminates in a digital presentation and 1:1 scale VR walkthrough in which students communicate their design process, justify key interior design decisions and evaluate how effectively their solution responds to the client and identified success criteria.",
+        "aiNotes": ""
+      },
+      "assessments": [
+        {
+          "id": "assess-f3990283",
+          "assessmentNumber": {
+            "value": 1,
+            "aiNotes": ""
+          },
+          "title": {
+            "value": "Assessment Overview: The Virtual Pitch",
+            "aiNotes": ""
+          },
+          "term": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "week": {
+            "value": "",
+            "aiNotes": ""
+          },
+          "description": {
+            "value": "Task Type: Design Project (Folio + VR Prototype + Client Presentation)\n\nScenario: Students are commissioned to redesign a specific, constrained interior space for a distinct client persona. The design must respond to the client’s functional needs, preferences, accessibility requirements and intended use of the space.\n\nPart 1: The Design Folio (Investigating & Generating)\n\nClient and Space Analysis: Students interpret the client brief and investigate the needs, preferences and behaviours of the user, alongside the functional and spatial constraints of the room.\n\nIdeation: Students develop mood boards, annotated sketches, 2D floor plans and alternative layout concepts that explore spatial organisation, furniture placement, lighting, colour and overall visual style.\n\nDesign Development: Students establish success criteria and refine a preferred concept using feedback, ergonomic considerations and human-centred design principles.\n\nPart 2: The Immersive Prototype (Producing)\n\nVirtual Prototype: Using Home Design 3D VR/VisualizeR on the Meta Quest 3S, students construct a 1:1 scale virtual prototype of their interior design.\n\nIterative Testing: Students experience and test their design in VR, evaluating movement, scale, accessibility, furniture placement and the overall experience of the space. They document at least two significant refinements made as a result of testing and feedback.\n\nPart 3: The Client Walkthrough (Evaluating)\n\nClient Presentation: Students deliver a live or recorded walkthrough of their completed virtual interior.\n\nJustification and Evaluation: Students explain and justify key design decisions and evaluate their final solution against the identified success criteria. They demonstrate how the final design responds to the client’s needs and explain how testing and refinement improved the functionality, usability and overall experience of the space.",
+            "aiNotes": ""
+          },
+          "technique": {
+            "value": "Project",
+            "aiNotes": ""
+          },
+          "mode": {
+            "value": "Multimodal",
+            "aiNotes": ""
+          },
+          "conditions": {
+            "value": "• Folio: 4–6 A3 pages (or digital equivalent) of annotated design thinking, including mood boards, scaled 2D spatial layouts, material lifecycle analyses, and iterative VR testing documentation.\n• Prototype: Functional, fully rendered 1:1 scale virtual interior environment developed using specialised 3D modelling and VR software.\n• Pitch: 3–5 minute multimodal recorded or live walkthrough defending spatial, aesthetic, and material choices against the design criteria.\n• Duration and supervision: Completed over 5–6 weeks of integrated class time under teacher direction and monitoring, with independent development as required.",
+            "aiNotes": "",
+            "lastGenerated": "2026-09-27T11:33:56.323Z"
+          },
+          "achievementStandard": {
+            "value": "By the end of Year 10 students explain how people consider factors that impact on design decisions and the technologies used to design and produce products, services and environments for sustainable living. They explain the contribution of innovation, enterprise skills and emerging technologies to global preferred futures. For one or more of the technologies contexts, students explain the features of technologies and their appropriateness for purpose, and create designed solutions based on an analysis of needs or opportunities. Students create, adapt and refine design ideas, processes and solutions and justify their decisions against developed design criteria that include sustainability. They communicate design ideas, processes and solutions to a range of audiences, including using digital tools. Students independently and collaboratively develop and apply production and project management plans, adjusting processes when necessary. They select and use technologies skilfully and safely to produce designed solutions.",
+            "aiNotes": ""
+          },
+          "moderation": {
+            "value": "Internal moderation is conducted systematically across the faculty to ensure consistency of teacher judgement against the Australian Curriculum Year 9–10 Design and Technologies achievement standards. This process includes:\n\n*   **Standardisation (Pre-assessment):** Prior to task delivery, teachers collaboratively review the task brief, Guide to Making Judgements (GTMJ), and sample VR design folios. Benchmarks are established to ensure a common understanding of evidence required for spatial flow analysis, material lifecycle evaluations, and iterative prototyping across performance levels (A–E).\n*   **Monitoring (Week 6):** Intermediate benchmarking of draft design folios (needs analysis, mood boards, and 2D floor plans) and initial 3D spatial models. Faculty members calibrate feedback to confirm that student evidence accurately documents VR testing and iterative design decisions.\n*   **Moderation Conferencing (Week 9–10):** Teachers collaboratively review recorded VR walkthroughs, pitches, and completed design folios at key grade boundaries (A/B, B/C, C/D). Judgements regarding the justification of interior design choices and technical execution are calibrated against the achievement standard.\n*   **Cross-Marking:** Blind cross-marking of a representative cohort sample (high, medium, low, and borderline responses) is conducted to ensure objectivity, equity, and consistency in grading standards across all classes. Selected exemplar work is archived to support future benchmarking.",
+            "aiNotes": "",
+            "lastGenerated": "2026-09-27T11:34:02.044Z"
+          }
+        }
+      ]
     }
   ],
   "contentDescriptions": [
@@ -546,7 +612,8 @@
         false,
         false,
         true,
-        true
+        true,
+        false
       ]
     },
     {
@@ -574,7 +641,8 @@
         true,
         true,
         false,
-        true
+        true,
+        false
       ]
     },
     {
@@ -597,6 +665,7 @@
       },
       "unitInclusions": [
         true,
+        false,
         false,
         false,
         false,
@@ -630,7 +699,8 @@
         false,
         false,
         false,
-        true
+        true,
+        false
       ]
     },
     {
@@ -658,6 +728,7 @@
         true,
         false,
         false,
+        false,
         false
       ]
     },
@@ -681,6 +752,7 @@
       },
       "unitInclusions": [
         true,
+        false,
         false,
         false,
         false,
@@ -714,6 +786,7 @@
         true,
         true,
         false,
+        true,
         true
       ]
     },
@@ -738,6 +811,7 @@
       "unitInclusions": [
         true,
         false,
+        true,
         true,
         true,
         true,
@@ -770,6 +844,7 @@
         true,
         true,
         true,
+        true,
         true
       ]
     },
@@ -798,6 +873,7 @@
         true,
         true,
         false,
+        true,
         true
       ]
     },
@@ -826,7 +902,8 @@
         false,
         true,
         false,
-        true
+        true,
+        false
       ]
     }
   ],
@@ -844,6 +921,7 @@
         true,
         true,
         true,
+        true,
         true
       ],
       "categoryInclusions": {
@@ -851,6 +929,7 @@
           false,
           false,
           true,
+          false,
           false,
           false,
           false,
@@ -863,6 +942,7 @@
           true,
           false,
           false,
+          true,
           true
         ],
         "cct-analysing": [
@@ -872,9 +952,11 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "cct-reflecting": [
+          false,
           false,
           false,
           false,
@@ -892,6 +974,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "cct-inquiring-identify-process-evaluate": [
@@ -901,9 +984,11 @@
           true,
           true,
           false,
+          true,
           true
         ],
         "cct-generating-create-possibilities": [
+          true,
           true,
           true,
           true,
@@ -919,6 +1004,7 @@
           true,
           false,
           true,
+          true,
           true
         ],
         "cct-generating-put-ideas-into-action": [
@@ -928,6 +1014,7 @@
           true,
           true,
           false,
+          true,
           true
         ],
         "cct-analysing-interpret-concepts": [
@@ -937,7 +1024,8 @@
           true,
           true,
           true,
-          true
+          true,
+          false
         ],
         "cct-analysing-draw-conclusions": [
           true,
@@ -946,11 +1034,13 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "cct-analysing-evaluate-actions": [
           true,
           false,
+          true,
           true,
           true,
           true,
@@ -964,6 +1054,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "cct-reflecting-transfer-knowledge": [
@@ -973,7 +1064,8 @@
           false,
           true,
           false,
-          true
+          true,
+          false
         ]
       }
     },
@@ -990,10 +1082,12 @@
         true,
         true,
         false,
+        true,
         true
       ],
       "categoryInclusions": {
         "dl-safety-wellbeing": [
+          false,
           false,
           false,
           false,
@@ -1009,6 +1103,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "dl-creating-exchanging": [
@@ -1018,9 +1113,11 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "dl-managing-operating": [
+          false,
           false,
           false,
           false,
@@ -1038,9 +1135,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "dl-safety-privacy-identity": [
+          false,
           false,
           false,
           false,
@@ -1056,6 +1155,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "dl-investigating-locate": [
@@ -1065,9 +1165,11 @@
           false,
           true,
           false,
-          true
+          true,
+          false
         ],
         "dl-investigating-acquire": [
+          false,
           false,
           false,
           false,
@@ -1083,6 +1185,7 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "dl-creating-plan": [
@@ -1092,7 +1195,8 @@
           true,
           true,
           false,
-          true
+          true,
+          false
         ],
         "dl-creating-communicate-collaborate": [
           true,
@@ -1101,7 +1205,8 @@
           true,
           true,
           false,
-          false
+          false,
+          true
         ],
         "dl-creating-ip": [
           false,
@@ -1110,9 +1215,11 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "dl-managing-content": [
+          false,
           false,
           false,
           false,
@@ -1128,6 +1235,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "dl-managing-operate": [
@@ -1137,7 +1245,8 @@
           true,
           true,
           false,
-          false
+          false,
+          true
         ]
       }
     },
@@ -1154,7 +1263,8 @@
         true,
         true,
         true,
-        true
+        true,
+        false
       ],
       "categoryInclusions": {
         "eu-concepts": [
@@ -1164,6 +1274,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "eu-responding": [
@@ -1173,6 +1284,7 @@
           false,
           true,
           true,
+          false,
           false
         ]
       },
@@ -1184,7 +1296,8 @@
           true,
           true,
           true,
-          true
+          true,
+          false
         ],
         "eu-concepts-values-rights": [
           true,
@@ -1193,6 +1306,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "eu-concepts-influences": [
@@ -1202,6 +1316,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "eu-responding-frameworks": [
@@ -1211,6 +1326,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "eu-responding-issues": [
@@ -1220,7 +1336,8 @@
           false,
           true,
           true,
-          true
+          true,
+          false
         ],
         "eu-responding-decisions": [
           true,
@@ -1229,6 +1346,7 @@
           true,
           true,
           true,
+          false,
           false
         ]
       }
@@ -1246,6 +1364,7 @@
         false,
         true,
         true,
+        false,
         false
       ],
       "categoryInclusions": {
@@ -1256,9 +1375,11 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-engaging": [
+          false,
           false,
           false,
           false,
@@ -1274,6 +1395,7 @@
           false,
           false,
           true,
+          false,
           false
         ]
       },
@@ -1285,6 +1407,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-reflecting-perspectives": [
@@ -1294,6 +1417,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "iu-reflecting-influence": [
@@ -1303,9 +1427,11 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-engaging-communicate": [
+          false,
           false,
           false,
           false,
@@ -1321,6 +1447,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "iu-engaging-empathy": [
@@ -1330,6 +1457,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-navigating-responses": [
@@ -1339,6 +1467,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-navigating-biases": [
@@ -1348,6 +1477,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "iu-navigating-adapt": [
@@ -1357,6 +1487,7 @@
           false,
           false,
           true,
+          false,
           false
         ]
       }
@@ -1374,6 +1505,7 @@
         true,
         true,
         true,
+        true,
         true
       ],
       "categoryInclusions": {
@@ -1384,6 +1516,7 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "lit-reading-viewing": [
@@ -1393,9 +1526,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "lit-writing": [
+          false,
           false,
           false,
           false,
@@ -1413,6 +1548,7 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "lit-interacting": [
@@ -1421,6 +1557,7 @@
           false,
           false,
           true,
+          false,
           false,
           false
         ],
@@ -1431,7 +1568,8 @@
           false,
           true,
           false,
-          false
+          false,
+          true
         ],
         "lit-understanding-texts": [
           true,
@@ -1440,9 +1578,11 @@
           false,
           false,
           true,
-          true
+          true,
+          false
         ],
         "lit-phonological-awareness": [
+          false,
           false,
           false,
           false,
@@ -1458,9 +1598,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "lit-fluency": [
+          false,
           false,
           false,
           false,
@@ -1476,10 +1618,12 @@
           true,
           false,
           true,
+          true,
           true
         ],
         "lit-grammar": [
           true,
+          false,
           false,
           false,
           false,
@@ -1494,6 +1638,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "lit-spelling": [
@@ -1503,9 +1648,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "lit-handwriting-keyboarding": [
+          false,
           false,
           false,
           false,
@@ -1529,10 +1676,12 @@
         false,
         true,
         false,
+        true,
         true
       ],
       "categoryInclusions": {
         "num-number-algebra": [
+          false,
           false,
           false,
           false,
@@ -1548,6 +1697,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "num-statistics-probability": [
@@ -1557,11 +1707,13 @@
           false,
           true,
           false,
+          false,
           false
         ]
       },
       "subElementInclusions": {
         "num-place-value": [
+          false,
           false,
           false,
           false,
@@ -1577,9 +1729,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "num-additive": [
+          false,
           false,
           false,
           false,
@@ -1595,9 +1749,11 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "num-fractions": [
+          false,
           false,
           false,
           false,
@@ -1613,9 +1769,11 @@
           false,
           false,
           false,
-          false
+          false,
+          true
         ],
         "num-patterns-algebra": [
+          false,
           false,
           false,
           false,
@@ -1631,7 +1789,8 @@
           false,
           true,
           false,
-          true
+          true,
+          false
         ],
         "num-units-measurement": [
           false,
@@ -1640,7 +1799,8 @@
           false,
           false,
           false,
-          true
+          true,
+          false
         ],
         "num-geometric-properties": [
           false,
@@ -1649,7 +1809,8 @@
           false,
           false,
           false,
-          false
+          false,
+          true
         ],
         "num-positioning": [
           false,
@@ -1658,9 +1819,11 @@
           false,
           false,
           false,
-          false
+          false,
+          true
         ],
         "num-measuring-time": [
+          false,
           false,
           false,
           false,
@@ -1676,6 +1839,7 @@
           false,
           true,
           false,
+          false,
           false
         ],
         "num-data": [
@@ -1684,6 +1848,7 @@
           false,
           false,
           true,
+          false,
           false,
           false
         ]
@@ -1702,10 +1867,12 @@
         true,
         true,
         true,
+        true,
         true
       ],
       "categoryInclusions": {
         "psc-self-awareness": [
+          false,
           false,
           false,
           false,
@@ -1721,6 +1888,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "psc-social-awareness": [
@@ -1730,9 +1898,11 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "psc-social-management": [
+          false,
           false,
           false,
           false,
@@ -1750,6 +1920,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "psc-emotional-awareness": [
@@ -1759,6 +1930,7 @@
           false,
           false,
           true,
+          false,
           false
         ],
         "psc-reflective-practice": [
@@ -1768,11 +1940,13 @@
           true,
           true,
           false,
-          false
+          false,
+          true
         ],
         "psc-goal-setting": [
           false,
           true,
+          false,
           false,
           false,
           false,
@@ -1786,6 +1960,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "psc-perseverance": [
@@ -1794,6 +1969,7 @@
           false,
           false,
           true,
+          false,
           false,
           false
         ],
@@ -1804,7 +1980,8 @@
           false,
           true,
           true,
-          false
+          false,
+          true
         ],
         "psc-relational-awareness": [
           false,
@@ -1813,6 +1990,7 @@
           false,
           true,
           true,
+          false,
           false
         ],
         "psc-community-awareness": [
@@ -1822,7 +2000,8 @@
           false,
           true,
           true,
-          true
+          true,
+          false
         ],
         "psc-communication": [
           false,
@@ -1831,9 +2010,11 @@
           false,
           true,
           false,
-          false
+          false,
+          true
         ],
         "psc-collaboration": [
+          false,
           false,
           false,
           false,
@@ -1849,6 +2030,7 @@
           false,
           false,
           false,
+          false,
           false
         ],
         "psc-decision-making": [
@@ -1858,9 +2040,11 @@
           true,
           true,
           true,
-          true
+          true,
+          false
         ],
         "psc-conflict-resolution": [
+          false,
           false,
           false,
           false,
@@ -1886,6 +2070,7 @@
         false,
         false,
         true,
+        false,
         false
       ]
     },
@@ -1896,6 +2081,7 @@
         "aiNotes": ""
       },
       "unitInclusions": [
+        false,
         false,
         false,
         false,
@@ -1917,6 +2103,7 @@
         false,
         false,
         true,
+        false,
         false,
         false
       ]

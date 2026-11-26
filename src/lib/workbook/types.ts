@@ -476,6 +476,50 @@ export function workbookCatalogPromptBlock(): string {
 	).join('\n');
 }
 
+const KIND_ENRICH_SHAPE: Record<WorkbookActivityKind, string> = {
+	table: `{"type":"table","title","prompt","stimulus?","modelAnswer","headers":[string],"rows":[[{"value?","mode":"locked"|"blank"|"tick"}]],"bank"?:[string]}
+MATCH: headers ["Term","Match"]; each row locked term + blank Match; bank = every definition (same count as rows).
+DEFINE n terms: headers ["Term","Definition"]; exactly n rows locked term + blank definition.`,
+	written: `{"type":"written","title","prompt","stimulus?","modelAnswer","lines"?,"starter"?,"numbered"?,"sections"?[{"label","lines"}]}
+3-2-1 exit tickets MUST use sections, not a flat numbered list.`,
+	ranking: `{"type":"ranking","title","prompt","modelAnswer","bank":[string],"slots":number,"directionLabel"?}
+bank is scrambled on print; slots are empty — never pre-order items.`,
+	sort: `{"type":"sort","title","prompt","modelAnswer","bank":[string],"buckets":[string],"linesPerBucket"?}`,
+	checklist: `{"type":"checklist","title","prompt","modelAnswer","items":[string]}`,
+	cloze: `{"type":"cloze","title","prompt","modelAnswer","text":"sentence with {{1}} {{2}} holes","wordBank"?:[string]}
+Answers may be listed in blank order — Word scrambles the bank on print.`,
+	continuum: `{"type":"continuum","title","prompt","modelAnswer","left","right","scale":number,"lines"?}`,
+	overlap: `{"type":"overlap","title","prompt","modelAnswer","leftLabel","rightLabel","lines":number}`,
+	graphic: `{"type":"graphic","title","prompt","modelAnswer","mustInclude":[string],"heightInches"?}`,
+	wireframe: `{"type":"wireframe","title","prompt","modelAnswer","mustInclude":[string],"regions"?[{"label"}],"heightInches"?}`,
+	storyboard: `{"type":"storyboard","title","prompt","modelAnswer","frames":[{"label"?}],"linesPerFrame"?}
+4–6 frames.`,
+	flow: `{"type":"flow","title","prompt","modelAnswer","stages":[{"label"?,"blank"?}],"branchAfter"?,"yesLabel"?,"noLabel"?,"yesPath"?,"noPath"?,"rejoin"?}`,
+	code: `{"type":"code","title","prompt","modelAnswer","lines":[string],"mode"?:"fill_holes"|"circle_bug","language"?}
+Use {{1}} holes when mode is fill_holes.`,
+	annotate: `{"type":"annotate","title","prompt","modelAnswer","callouts":number,"figureHint"?,"linesPerCallout"?}`,
+	user_story: `{"type":"user_story","title","prompt","modelAnswer","role"?,"want"?,"soThat"?}`,
+	sitemap: `{"type":"sitemap","title","prompt","modelAnswer","root":{"label"?,"children":[node]|number}}
+Nest children under parents — not a flat sibling list.`,
+	ai_prompt_log: `{"type":"ai_prompt_log","title","prompt","modelAnswer","rounds":number}`,
+	media: `{"type":"media","title","prompt","modelAnswer","medium":"youtube"|"website","name","creator"?,"url"?,"searchTerms"?,"lines"?}
+youtube: searchTerms ONLY — never invent youtube.com URLs. website: url only from stimulusBank.`,
+	prose: `{"type":"prose","title","prompt","modelAnswer","text","lines"?}
+Almost never correct — only if no other kind fits.`
+};
+
+/** Kind-specific enrich snippet (one activity). */
+export function workbookKindEnrichPrompt(kind: WorkbookActivityKind): string {
+	const row = WORKBOOK_ACTIVITY_CATALOG.find((item) => item.kind === kind);
+	const use = row
+		? `${row.label} — USE: ${row.whenToUse} — NOT: ${row.whenNotToUse}`
+		: kind;
+	return `workbookKind is "${kind}". workbookSpec.type MUST be "${kind}".
+${use}
+Shape:
+${KIND_ENRICH_SHAPE[kind]}`;
+}
+
 /**
  * Choose-pass decision tree — prefer structured kinds; prose is last resort.
  */

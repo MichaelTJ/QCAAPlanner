@@ -1,0 +1,994 @@
+{
+  "id": "assess-41edf787",
+  "levelPlanId": "digital-technologies-band-7-8-2026",
+  "unitPlanId": "unit-70b8c52a",
+  "assessmentNumber": {
+    "value": "4",
+    "aiNotes": ""
+  },
+  "instrumentNumber": {
+    "value": "5",
+    "aiNotes": ""
+  },
+  "yearLevel": {
+    "value": "8",
+    "aiNotes": ""
+  },
+  "subject": {
+    "value": "7-8 Digital Technologies",
+    "aiNotes": ""
+  },
+  "unitTitle": {
+    "value": "Local Business Websites",
+    "aiNotes": ""
+  },
+  "title": {
+    "value": "Website Prototype",
+    "aiNotes": ""
+  },
+  "description": {
+    "value": "Students design and develop an AI-assisted website for a local business. They identify the target audience, create user stories and design criteria, and investigate the information customers need from the website. Students develop a site map, alternative design ideas, wireframes and a simple visual style guide before using generative AI within GitHub Codespaces to build a functional website prototype. They test the website with users, collect feedback and make improvements to the layout, navigation, accessibility and content. The final submission includes the design work, working website prototype, testing evidence and an evaluation of the final solution. ",
+    "aiNotes": ""
+  },
+  "technique": {
+    "value": "Project",
+    "aiNotes": ""
+  },
+  "mode": {
+    "value": "Multimodal",
+    "aiNotes": ""
+  },
+  "conditions": {
+    "value": "3–5 A3 pages or equivalent digital media pages; includes annotated user stories and wireframes, a functional website developed in GitHub Codespaces, and a 200–300 word evaluation of the solution against design criteria and user needs.",
+    "aiNotes": "",
+    "lastGenerated": "2026-09-09T11:30:57.517Z"
+  },
+  "duration": {
+    "value": "6 weeks",
+    "aiNotes": ""
+  },
+  "length": {
+    "value": "3 A3 pages",
+    "aiNotes": ""
+  },
+  "individualOrGroup": {
+    "value": "Individual/group",
+    "aiNotes": ""
+  },
+  "conditionsOther": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "resourcesAvailable": {
+    "value": "* **Development Platforms & AI Tools:** Internet-connected student devices, GitHub accounts with access to GitHub Codespaces, and approved generative AI interfaces for code generation and prompt engineering.\n* **Design & Prototyping Tools:** Digital diagramming and wireframing software (e.g. Canva, Figma, or Microsoft PowerPoint templates) and online WCAG colour contrast verification tools.\n* **Documentation Templates:** Digital Design Journal template for capturing user stories, site maps, visual style guides, testing evidence, and the final evaluation response.\n* **Usability Testing Protocols:** Structured peer-testing task sheets, observation forms, and bug tracking log templates.\n* **Reference Materials & Exemplars:** Assessment task sheet, Guide to Making Judgements (GTMJ), WCAG quick-reference accessibility guidelines, and sample local business web design case studies.",
+    "aiNotes": "",
+    "lastGenerated": "2026-09-16T11:35:36.003Z"
+  },
+  "examTimeMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "perusalMinutes": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "instructions": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "topics": {
+    "value": "Website Prototype",
+    "aiNotes": ""
+  },
+  "context": {
+    "value": "In this unit, students design a website for a local business such as a café, shop, tradesperson or service. Students investigate how businesses use websites to share information, attract customers and promote their products or services. They consider the needs of different users and explore website layout, navigation, colours, images and accessibility. Students create user stories, develop design ideas and produce wireframes before building a functional website using GitHub Codespaces and generative AI. They test their website, collect feedback and make improvements to their final design. The unit focuses on user experience, design thinking, evaluation and the responsible use of AI, rather than advanced programming. ",
+    "aiNotes": ""
+  },
+  "task": {
+    "value": "Students design and develop an AI-assisted website for a local business. They identify the target audience, create user stories and design criteria, and investigate the information customers need from the website. Students develop a site map, alternative design ideas, wireframes and a simple visual style guide before using generative AI within GitHub Codespaces to build a functional website prototype. They test the website with users, collect feedback and make improvements to the layout, navigation, accessibility and content. The final submission includes the design work, working website prototype, testing evidence and an evaluation of the final solution. ",
+    "aiNotes": ""
+  },
+  "toComplete": {
+    "value": "To complete this task, you must:\n\n* **Define and decompose the problem:** Select a local business context and identify target audience needs. Develop user stories and establish specific, measurable design criteria, addressing functional, aesthetic, and accessibility requirements (WCAG).\n* **Design the user experience:** Decompose the website architecture by creating a clear site map. Generate alternative design concepts using divergent techniques, and produce low-fidelity wireframes and a visual style guide specifying color contrast, typography, and visual layout hierarchy.\n* **Develop the functional website prototype:** Use GitHub Codespaces to build a multi-page website prototype using semantic HTML5 and CSS3. Write effective prompts to use generative AI responsibly for code generation, visual asset creation, and layout troubleshooting.\n* **Test and debug the solution:** Conduct structured user trials to gather feedback on site navigation, accessibility, and responsiveness across devices. Record findings in a bug log and execute code modifications to improve solution quality.\n* **Evaluate the final solution:** Analyse the performance of your website prototype against the established design criteria, user stories, and future local business requirements. Reflect critically on the effectiveness, efficiency, and ethical implications of using generative AI during the design process.\n* **Submit project documentation:** Compile and present a complete digital design journal (3–5 digital media pages or equivalent) containing user stories, wireframes, style guide, testing logs, GitHub repository link, and a 200–300 word written evaluation.",
+    "aiNotes": "",
+    "lastGenerated": "2026-09-16T11:36:58.589Z"
+  },
+  "stimulus": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "scaffolding": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "checkpoints": [
+    {
+      "id": "cp-05f56a6d",
+      "label": "Monitoring",
+      "week": {
+        "value": "Term 4 Week 6",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Monitoring",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-ef258cbd",
+      "label": "Conferencing",
+      "week": {
+        "value": "Term 4 Week 8",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Conferencing",
+        "aiNotes": ""
+      },
+      "checked": true
+    },
+    {
+      "id": "cp-54766709",
+      "label": "Due Date",
+      "week": {
+        "value": "Term 4 Week 9",
+        "aiNotes": ""
+      },
+      "action": {
+        "value": "Due",
+        "aiNotes": ""
+      },
+      "checked": true
+    }
+  ],
+  "authenticationStrategies": [
+    {
+      "id": "class-time",
+      "label": "You will be provided class time for task completion.",
+      "selected": true
+    },
+    {
+      "id": "supervised-sections",
+      "label": "You will produce sections of the final response under supervised conditions.",
+      "selected": false
+    },
+    {
+      "id": "progress-docs",
+      "label": "You will provide documentation of your progress.",
+      "selected": false
+    },
+    {
+      "id": "monitor-junctures",
+      "label": "Your teacher will collect copies of your response and monitor at key junctures.",
+      "selected": true
+    },
+    {
+      "id": "annotate-draft",
+      "label": "Your teacher will collect and annotate a draft.",
+      "selected": false
+    },
+    {
+      "id": "consultations",
+      "label": "Your teacher will conduct interviews or consultations as you develop the response.",
+      "selected": false
+    },
+    {
+      "id": "acknowledge-sources",
+      "label": "You must acknowledge all sources.",
+      "selected": false
+    },
+    {
+      "id": "declaration",
+      "label": "You must submit a declaration of authenticity.",
+      "selected": false
+    },
+    {
+      "id": "summaries",
+      "label": "You will produce summaries during your response preparation.",
+      "selected": false
+    },
+    {
+      "id": "post-interviews",
+      "label": "Your teacher will conduct interviews after submission to clarify or explore aspects of your response.",
+      "selected": true
+    },
+    {
+      "id": "group-compare",
+      "label": "Your teacher will compare the responses of students who have worked together in groups.",
+      "selected": false
+    },
+    {
+      "id": "cross-marking",
+      "label": "Your teacher will ensure class cross-marking occurs.",
+      "selected": false
+    }
+  ],
+  "contentDescriptions": [
+    {
+      "id": "acd-86f0a891",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how hardware specifications affect performance and select appropriate hardware for particular tasks and workloads",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-47a6f9df",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Digital systems",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how data is transmitted and secured in wired and wireless networks including the internet",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-1249e413",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate how digital systems represent text, image and audio data using integers",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-4cb96c6f",
+      "strand": {
+        "value": "Knowledge and understanding",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Data representation",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how and why digital systems represent integers in binary",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8K04",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-64cd39a0",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "acquire, store and validate data from a range of sources using software, including spreadsheets and databases",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P01",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-c464fd86",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "analyse and visualise data using a range of software, including spreadsheets and databases, to draw conclusions and make predictions by identifying trends",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P02",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-6726434a",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Acquiring, managing and analysing data",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "model and query the attributes of objects and events using structured data",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P03",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-c6e8d871",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Investigating and defining",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "define and decompose real-world problems with design criteria and by creating user stories",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P04",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-44bf7e7d",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design algorithms involving nested control structures and represent them using flowcharts and pseudocode",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P05",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-2a645e88",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "trace algorithms to predict output for a given input and to identify errors",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P06",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-bc1fc3e1",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "design the user experience of a digital system",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P07",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-fd3fbfd9",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Generating and designing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "generate, modify, communicate and evaluate alternative designs",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P08",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-ea6d6153",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Producing and implementing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "implement, modify and debug programs involving control structures and functions in a general-purpose programming language",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P09",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-75185b70",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Evaluating",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "evaluate existing and student solutions against the design criteria, user stories and possible future impact",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P10",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-cf34651a",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use a range of digital tools efficiently, including unfamiliar features, to create, locate and communicate content, consistently applying common conventions",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P11",
+        "aiNotes": ""
+      },
+      "selected": true
+    },
+    {
+      "id": "acd-a408b750",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Collaborating and managing",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "select and use a range of digital tools efficiently and responsibly to share content online, and plan and manage individual and collaborative agile projects",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P12",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-d71080d0",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "explain how multi-factor authentication protects an account when the password is compromised and identify phishing and other cyber security threats",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P13",
+        "aiNotes": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "acd-fb206d2a",
+      "strand": {
+        "value": "Processes and production skills",
+        "aiNotes": ""
+      },
+      "subStrand": {
+        "value": "Privacy and security",
+        "aiNotes": ""
+      },
+      "text": {
+        "value": "investigate and manage the digital footprint existing systems and student solutions collect and assess if the data is essential to their purpose",
+        "aiNotes": ""
+      },
+      "code": {
+        "value": "AC9TDI8P14",
+        "aiNotes": ""
+      },
+      "selected": false
+    }
+  ],
+  "knowledgeUnderstandingResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "processProductionResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "overallResult": {
+    "value": "",
+    "aiNotes": ""
+  },
+  "criteriaRows": [
+    {
+      "id": "dt78-ds-hardware",
+      "category": "Knowledge and understanding",
+      "strand": "Digital systems",
+      "contentDescriptionCodes": [
+        "AC9TDI8K01"
+      ],
+      "descriptors": {
+        "A": "proficient selection of appropriate hardware for particular tasks",
+        "B": "effective selection of appropriate hardware for particular tasks",
+        "C": "selection of appropriate hardware for particular tasks",
+        "D": "guided selection of appropriate hardware for particular tasks",
+        "E": "directed selection of appropriate hardware for particular tasks"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-ds-networks",
+      "category": "Knowledge and understanding",
+      "strand": "Digital systems",
+      "contentDescriptionCodes": [
+        "AC9TDI8K02"
+      ],
+      "descriptors": {
+        "A": "considered explanation of how data is transmitted and secured in networks",
+        "B": "detailed explanation of how data is transmitted and secured in networks",
+        "C": "explanation of how data is transmitted and secured in networks",
+        "D": "description of how data is transmitted and/or secured in networks",
+        "E": "statement/s about data transmission and/or security"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-data-rep",
+      "category": "Knowledge and understanding",
+      "strand": "Data representation",
+      "contentDescriptionCodes": [
+        "AC9TDI8K03",
+        "AC9TDI8K04"
+      ],
+      "descriptors": {
+        "A": "reasoned representation of data with integers and binary",
+        "B": "effective representation of data with integers and binary",
+        "C": "representation of data with integers and binary",
+        "D": "partial representation of data with integers and binary",
+        "E": "fragmented representation of data with integers and/or binary"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-acquiring",
+      "category": "Processes and production skills",
+      "strand": "Acquiring, managing and analysing data",
+      "contentDescriptionCodes": [
+        "AC9TDI8P01",
+        "AC9TDI8P02",
+        "AC9TDI8P03"
+      ],
+      "descriptors": {
+        "A": "proficient acquisition, interpretation and modelling of data with spreadsheets",
+        "B": "effective acquisition, interpretation and modelling of data with spreadsheets",
+        "C": "acquisition, interpretation and modelling of data with spreadsheets",
+        "D": "partial acquisition, interpretation and/or modelling of data with spreadsheets",
+        "E": "fragmented acquisition, interpretation and/or modelling of data with spreadsheets"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-investigating",
+      "category": "Processes and production skills",
+      "strand": "Investigating and defining",
+      "contentDescriptionCodes": [
+        "AC9TDI8P04"
+      ],
+      "descriptors": {
+        "A": "reasoned decomposition of real-world problems",
+        "B": "logical decomposition of real-world problems",
+        "C": "decomposition of real-world problems",
+        "D": "partial decomposition of real-world problems",
+        "E": "statement/s about real-world problems"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt78-generating-algo",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI8P05",
+        "AC9TDI8P06"
+      ],
+      "descriptors": {
+        "A": "proficient design and tracing of algorithms",
+        "B": "effective design and tracing of algorithms",
+        "C": "design and tracing of algorithms",
+        "D": "guided design and/or tracing of algorithms",
+        "E": "directed design and/or tracing of algorithms"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-generating-ux",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI8P07"
+      ],
+      "descriptors": {
+        "A": "considered design of the user experience of a digital system",
+        "B": "effective design of the user experience of a digital system",
+        "C": "design of the user experience of a digital system",
+        "D": "partial design of the user experience of a digital system",
+        "E": "directed design of the user experience of a digital system"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt78-generating-design",
+      "category": "Processes and production skills",
+      "strand": "Generating and designing",
+      "contentDescriptionCodes": [
+        "AC9TDI8P08"
+      ],
+      "descriptors": {
+        "A": "considered development and modification of creative digital solutions",
+        "B": "effective development and modification of creative digital solutions",
+        "C": "development and modification of creative digital solutions",
+        "D": "partial development and modification of aspects of creative digital solutions",
+        "E": "fragmented development and/or modification of aspects of creative digital solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt78-producing",
+      "category": "Processes and production skills",
+      "strand": "Producing and implementing",
+      "contentDescriptionCodes": [
+        "AC9TDI8P09"
+      ],
+      "descriptors": {
+        "A": "proficient implementation of algorithms in a general-purpose programming language",
+        "B": "effective implementation of algorithms in a general-purpose programming language",
+        "C": "implementation of algorithms in a general-purpose programming language",
+        "D": "partial implementation of algorithms in a general-purpose programming language",
+        "E": "directed implementation of algorithms"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-evaluating",
+      "category": "Processes and production skills",
+      "strand": "Evaluating",
+      "contentDescriptionCodes": [
+        "AC9TDI8P10"
+      ],
+      "descriptors": {
+        "A": "discerning evaluation of alternative solutions against user stories and design criteria",
+        "B": "plausible evaluation of alternative solutions against user stories and design criteria",
+        "C": "evaluation of alternative solutions against user stories and design criteria",
+        "D": "description of alternative solutions against user stories and design criteria",
+        "E": "identification of features of solutions"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt78-collaborating",
+      "category": "Processes and production skills",
+      "strand": "Collaborating and managing",
+      "contentDescriptionCodes": [
+        "AC9TDI8P11",
+        "AC9TDI8P12"
+      ],
+      "descriptors": {
+        "A": "proficient selection and use of a range of digital tools to efficiently and responsibly create, locate and share content; plan, collaborate on and manage projects",
+        "B": "effective selection and use of a range of digital tools to efficiently and responsibly create, locate and share content; plan, collaborate on and manage projects",
+        "C": "selection and use of a range of digital tools to efficiently and responsibly create, locate and share content; plan, collaborate on and manage projects",
+        "D": "variable selection and use of a range of digital tools to partially create, locate and/or share content; plan, collaborate on and/or manage projects",
+        "E": "directed selection and responsible use of a range of digital tools"
+      },
+      "enabled": true
+    },
+    {
+      "id": "dt78-privacy-cyber",
+      "category": "Processes and production skills",
+      "strand": "Privacy and security",
+      "contentDescriptionCodes": [
+        "AC9TDI8P13"
+      ],
+      "descriptors": {
+        "A": "discerning identification of cyber security threats",
+        "B": "informed identification of cyber security threats",
+        "C": "identification of cyber security threats",
+        "D": "partial identification of cyber security threats",
+        "E": "directed identification of cyber security threats"
+      },
+      "enabled": false
+    },
+    {
+      "id": "dt78-privacy-footprint",
+      "category": "Processes and production skills",
+      "strand": "Privacy and security",
+      "contentDescriptionCodes": [
+        "AC9TDI8P14"
+      ],
+      "descriptors": {
+        "A": "justified management of their digital footprint.",
+        "B": "informed management of their digital footprint.",
+        "C": "management of their digital footprint.",
+        "D": "management of aspects of their digital footprint.",
+        "E": "directed management of their digital footprint."
+      },
+      "enabled": false
+    }
+  ],
+  "examSections": [
+    {
+      "id": "examsec-6557d128",
+      "title": {
+        "value": "Multiple choice",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-97c73ba4",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-78f750b9",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-7e5d8c7e",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-fcde9cd4",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-10ef208c",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-115b6a95",
+      "title": {
+        "value": "Short response questions — simple",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-2b21507f",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-ec4151a5",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-32019908",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-e4e1b7a9",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "examsec-18584c98",
+      "title": {
+        "value": "Short response questions",
+        "aiNotes": ""
+      },
+      "questions": [
+        {
+          "id": "q-66b5833c",
+          "prompt": {
+            "value": "Question 1",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-c1eddb66",
+          "prompt": {
+            "value": "Question 2",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-35c7696b",
+          "prompt": {
+            "value": "Question 3",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-45834272",
+          "prompt": {
+            "value": "Question 4",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-cde9c8e5",
+          "prompt": {
+            "value": "Question 5",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        },
+        {
+          "id": "q-b9744a82",
+          "prompt": {
+            "value": "Question 6",
+            "aiNotes": ""
+          },
+          "marks": {
+            "value": "",
+            "aiNotes": ""
+          }
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "value": "",
+    "aiNotes": ""
+  }
+}

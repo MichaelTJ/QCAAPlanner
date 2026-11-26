@@ -35,6 +35,7 @@
 	} from '$lib/content-descriptions';
 	import { curriculumKeysCompatible, curriculumMatchFromUnit } from '$lib/curriculum-match';
 	import { learningGuideFromUnitPlan, learningGuideTitle } from '$lib/learning-guide-data';
+	import { savedLearningGuideVariant } from '$lib/learning-guide-cache';
 	import FloatingSaveButton from '$lib/components/FloatingSaveButton.svelte';
 	import { isDirtySnapshot, snapshotValue } from '$lib/dirty';
 	import { weekCountFromDuration } from '$lib/unit-duration';
@@ -259,6 +260,28 @@
 		return scopeGuideFromPlan(plan);
 	});
 	let scopeTitle = $derived(learningGuideTitle(scopeGuide));
+	let savedGuides = $derived.by(() => {
+		scopeGuide;
+		plan.learningGuides;
+		plan.unitDescription.value;
+		for (const assessment of plan.assessments) {
+			assessment.title.value;
+			assessment.description.value;
+			assessment.timing.value;
+		}
+		return {
+			summary: Boolean(savedLearningGuideVariant(plan, 'summary')),
+			detailed: Boolean(savedLearningGuideVariant(plan, 'detailed'))
+		};
+	});
+
+	async function refreshLearningGuidesFromServer(wasDirty: boolean) {
+		const res = await fetch(`/api/unit-plan/${plan.levelPlanId}?unitId=${plan.id}`);
+		if (!res.ok) return;
+		const latest = (await res.json()) as UnitPlan;
+		plan.learningGuides = latest.learningGuides;
+		if (!wasDirty) savedSnapshot = snapshotValue(plan);
+	}
 
 	async function exportLearningGuide(detail: 'summary' | 'detailed') {
 		learningGuideExporting = true;
@@ -266,6 +289,7 @@
 		learningGuideExportError = '';
 		const query = detail === 'detailed' ? '?detail=detailed' : '';
 		const suffix = detail === 'detailed' ? '-learning-guide-detailed' : '-learning-guide';
+		const wasDirty = dirty;
 		try {
 			const res = await fetch(`/api/export/learning-guide/${plan.levelPlanId}/${plan.id}${query}`);
 			if (!res.ok) {
@@ -285,6 +309,7 @@
 			anchor.download = `${plan.id}${suffix}.docx`;
 			anchor.click();
 			URL.revokeObjectURL(url);
+			await refreshLearningGuidesFromServer(wasDirty);
 		} catch (e) {
 			learningGuideExportError = e instanceof Error ? e.message : 'Learning guide export failed';
 		} finally {
@@ -306,6 +331,11 @@
 		});
 		if (res.ok) {
 			saved = true;
+			const body = (await res.json().catch(() => null)) as UnitPlan | null;
+			if (body) {
+				if (body.learningGuides) plan.learningGuides = body.learningGuides;
+				else delete plan.learningGuides;
+			}
 			plan.teachingSequence = plan.teachingSequence.slice();
 			savedSnapshot = snapshotValue(plan);
 		}
@@ -1356,7 +1386,9 @@
 					disabled={learningGuideExporting || scopeGuide.weeks.length === 0}
 				>
 					{learningGuideExporting && learningGuideExportMode === 'summary'
-						? 'Generating…'
+						? savedGuides.summary
+							? 'Exporting…'
+							: 'Generating…'
 						: 'Export Learning Guide'}
 				</button>
 				<button
@@ -1365,7 +1397,9 @@
 					disabled={learningGuideExporting || scopeGuide.weeks.length === 0}
 				>
 					{learningGuideExporting && learningGuideExportMode === 'detailed'
-						? 'Generating…'
+						? savedGuides.detailed
+							? 'Exporting…'
+							: 'Generating…'
 						: 'Export Detailed Learning Guide'}
 				</button>
 				<input
@@ -1395,7 +1429,13 @@
 		{#if learningGuideExporting}
 			<p class="meta">
 				{#if learningGuideExportMode === 'detailed'}
-					Generating vocabulary with AI and building the detailed Word document — this may take a moment.
+					{#if savedGuides.detailed}
+						Building the saved detailed Word document.
+					{:else}
+						Generating vocabulary with AI and building the detailed Word document — this may take a moment.
+					{/if}
+				{:else if savedGuides.summary}
+					Building the saved learning guide Word document.
 				{:else}
 					Summarising weekly objectives and vocabulary with AI, then building the Word document — this may take a moment.
 				{/if}
@@ -1437,6 +1477,11 @@
 			<p class="meta scope-vocab-note">
 				Export Learning Guide summarises weekly objectives for a one-page printout. Export Detailed Learning Guide
 				keeps the full objectives shown above and still generates vocabulary automatically.
+				{#if savedGuides.summary || savedGuides.detailed}
+					Saved guides are reused on export until this unit's weekly content, assessments, or details change.
+				{:else}
+					The first export saves the guide on this unit so later exports do not call AI again until the content changes.
+				{/if}
 			</p>
 		{/if}
 	</div>

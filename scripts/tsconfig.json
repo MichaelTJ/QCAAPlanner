@@ -12,7 +12,8 @@
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
-			"$env/static/private": ["scripts/shims/env-static-private.ts"]
+			"$env/static/private": ["scripts/shims/env-static-private.ts"],
+			"$env/dynamic/private": ["scripts/shims/env-dynamic-private.ts"]
 		}
 	},
 	"include": ["./**/*.ts", "../src/lib/**/*.ts"]
